@@ -1,0 +1,607 @@
+{
+  "success": true,
+  "message": "OK",
+  "data": {
+    "playerId": "125781",
+    "history": {
+      "terminated": [
+        {
+          "id": "4106794",
+          "transferSource": {
+            "competitionId": "ES1",
+            "countryId": 157,
+            "clubId": "131",
+            "coachId": "59876"
+          },
+          "transferDestination": {
+            "competitionId": "ES1",
+            "countryId": 157,
+            "clubId": "13",
+            "coachId": "2868"
+          },
+          "details": {
+            "playerId": "125781",
+            "date": "2023-07-01T00:00:00+02:00",
+            "contractUntilDate": "2027-06-30T00:00:00+02:00",
+            "seasonId": 2023,
+            "isPending": false,
+            "marketValue": {
+              "value": 25000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "25.00",
+                "suffix": "M"
+              }
+            },
+            "age": 32,
+            "fee": {
+              "value": 22000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "22.00",
+                "suffix": "M"
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 365,
+              "daysDisplay": "11 Months, 29 Days"
+            },
+            "season": {
+              "id": 2023,
+              "display": "23/24",
+              "cyclicalName": "2024",
+              "nonCyclicalName": "23/24"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/antoine-griezmann/transfers/spieler/125781/transfer_id/4106794"
+        },
+        {
+          "id": "3531534",
+          "transferSource": {
+            "competitionId": "ES1",
+            "countryId": 157,
+            "clubId": "13",
+            "coachId": "2868"
+          },
+          "transferDestination": {
+            "competitionId": "ES1",
+            "countryId": 157,
+            "clubId": "131",
+            "coachId": "59876"
+          },
+          "details": {
+            "playerId": "125781",
+            "date": "2023-06-30T00:00:00+02:00",
+            "contractUntilDate": "2024-06-30T00:00:00+02:00",
+            "seasonId": 2022,
+            "isPending": false,
+            "marketValue": {
+              "value": 25000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "25.00",
+                "suffix": "M"
+              }
+            },
+            "age": 32,
+            "remainingContractPeriod": {
+              "days": 0,
+              "daysDisplay": "Unknown"
+            },
+            "season": {
+              "id": 2022,
+              "display": "22/23",
+              "cyclicalName": "2023",
+              "nonCyclicalName": "22/23"
+            }
+          },
+          "typeDetails": {
+            "type": "RETURNED_FROM_PREVIOUS_LOAN",
+            "name": "End of loan",
+            "feeDescription": "End of loan"
+          },
+          "relativeUrl": "/antoine-griezmann/transfers/spieler/125781/transfer_id/3531534"
+        },
+        {
+          "id": "3531533",
+          "transferSource": {
+            "competitionId": "ES1",
+            "countryId": 157,
+            "clubId": "131",
+            "coachId": "439"
+          },
+          "transferDestination": {
+            "competitionId": "ES1",
+            "countryId": 157,
+            "clubId": "13",
+            "coachId": "2868"
+          },
+          "details": {
+            "playerId": "125781",
+            "date": "2021-08-31T00:00:00+02:00",
+            "contractUntilDate": "2023-06-30T00:00:00+02:00",
+            "seasonId": 2021,
+            "isPending": false,
+            "marketValue": {
+              "value": 60000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "60.00",
+                "suffix": "M"
+              }
+            },
+            "age": 30,
+            "fee": {
+              "value": 10000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "10.00",
+                "suffix": "M"
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 1034,
+              "daysDisplay": "2 Years, 9 Months, 30 Days"
+            },
+            "season": {
+              "id": 2021,
+              "display": "21/22",
+              "cyclicalName": "2022",
+              "nonCyclicalName": "21/22"
+            }
+          },
+          "typeDetails": {
+            "type": "ACTIVE_LOAN_TRANSFER",
+            "name": "loan transfer",
+            "feeDescription": "Loan fee"
+          },
+          "relativeUrl": "/antoine-griezmann/transfers/spieler/125781/transfer_id/3531533"
+        },
+        {
+          "id": "2552096",
+          "transferSource": {
+            "competitionId": "ES1",
+            "countryId": 157,
+            "clubId": "13",
+            "coachId": "2868"
+          },
+          "transferDestination": {
+            "competitionId": "ES1",
+            "countryId": 157,
+            "clubId": "131",
+            "coachId": "1559"
+          },
+          "details": {
+            "playerId": "125781",
+            "date": "2019-07-14T00:00:00+02:00",
+            "contractUntilDate": "2024-06-30T00:00:00+02:00",
+            "seasonId": 2019,
+            "isPending": false,
+            "marketValue": {
+              "value": 130000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "130.00",
+                "suffix": "M"
+              }
+            },
+            "age": 28,
+            "fee": {
+              "value": 120000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "120.00",
+                "suffix": "M"
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 1447,
+              "daysDisplay": "3 Years, 11 Months, 16 Days"
+            },
+            "season": {
+              "id": 2019,
+              "display": "19/20",
+              "cyclicalName": "2020",
+              "nonCyclicalName": "19/20"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/antoine-griezmann/transfers/spieler/125781/transfer_id/2552096"
+        },
+        {
+          "id": "1097172",
+          "transferSource": {
+            "competitionId": "ES1",
+            "countryId": 157,
+            "clubId": "681",
+            "coachId": "29192"
+          },
+          "transferDestination": {
+            "competitionId": "ES1",
+            "countryId": 157,
+            "clubId": "13",
+            "coachId": "2868"
+          },
+          "details": {
+            "playerId": "125781",
+            "date": "2014-07-28T00:00:00+02:00",
+            "contractUntilDate": "2023-06-30T00:00:00+02:00",
+            "seasonId": 2014,
+            "isPending": false,
+            "marketValue": {
+              "value": 30000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "30.00",
+                "suffix": "M"
+              }
+            },
+            "age": 23,
+            "fee": {
+              "value": 54000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "54.00",
+                "suffix": "M"
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 337,
+              "daysDisplay": "11 Months, 2 Days"
+            },
+            "season": {
+              "id": 2014,
+              "display": "14/15",
+              "cyclicalName": "2015",
+              "nonCyclicalName": "14/15"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/antoine-griezmann/transfers/spieler/125781/transfer_id/1097172"
+        },
+        {
+          "id": "339503",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 157,
+            "clubId": "9900",
+            "coachId": "5711"
+          },
+          "transferDestination": {
+            "competitionId": "ES2",
+            "countryId": 157,
+            "clubId": "681",
+            "coachId": "10302"
+          },
+          "details": {
+            "playerId": "125781",
+            "date": "2009-07-01T00:00:00+02:00",
+            "contractUntilDate": "2015-06-30T00:00:00+02:00",
+            "seasonId": 2009,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 18,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2009,
+              "display": "09/10",
+              "cyclicalName": "2010",
+              "nonCyclicalName": "09/10"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/antoine-griezmann/transfers/spieler/125781/transfer_id/339503"
+        },
+        {
+          "id": "1731192",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 157,
+            "clubId": "14967",
+            "coachId": "0"
+          },
+          "transferDestination": {
+            "competitionId": "",
+            "countryId": 157,
+            "clubId": "9900",
+            "coachId": "12668"
+          },
+          "details": {
+            "playerId": "125781",
+            "date": "2007-07-01T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2007,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 16,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2007,
+              "display": "07/08",
+              "cyclicalName": "2008",
+              "nonCyclicalName": "07/08"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/antoine-griezmann/transfers/spieler/125781/transfer_id/1731192"
+        },
+        {
+          "id": "1731191",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 50,
+            "clubId": "114599",
+            "coachId": "0"
+          },
+          "transferDestination": {
+            "competitionId": "",
+            "countryId": 157,
+            "clubId": "14967",
+            "coachId": "0"
+          },
+          "details": {
+            "playerId": "125781",
+            "date": "2005-07-01T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2005,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 14,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "Free Transfer",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2005,
+              "display": "05/06",
+              "cyclicalName": "2006",
+              "nonCyclicalName": "05/06"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/antoine-griezmann/transfers/spieler/125781/transfer_id/1731191"
+        }
+      ],
+      "pending": [
+        {
+          "id": "6243247",
+          "transferSource": {
+            "competitionId": "ES1",
+            "countryId": 157,
+            "clubId": "13",
+            "coachId": "2868"
+          },
+          "transferDestination": {
+            "competitionId": "MLS1",
+            "countryId": 184,
+            "clubId": "45604",
+            "coachId": "94117"
+          },
+          "details": {
+            "playerId": "125781",
+            "date": "2026-07-10T00:00:00+02:00",
+            "contractUntilDate": "2028-06-30T00:00:00+02:00",
+            "seasonId": 2026,
+            "isPending": true,
+            "marketValue": {
+              "value": 10000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "10.00",
+                "suffix": "M"
+              }
+            },
+            "age": 35,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "Free Transfer",
+                "suffix": ""
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 355,
+              "daysDisplay": "11 Months, 20 Days"
+            },
+            "season": {
+              "id": 2026,
+              "display": "26/27",
+              "cyclicalName": "2027",
+              "nonCyclicalName": "26/27"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/antoine-griezmann/transfers/spieler/125781/transfer_id/6243247"
+        }
+      ],
+      "url": "",
+      "feeSum": {
+        "value": 206000000,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "206.00",
+          "suffix": "M"
+        }
+      },
+      "averageAge": 35,
+      "totalMarketValue": {
+        "value": 10000000,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "10.00",
+          "suffix": "M"
+        }
+      }
+    },
+    "clubIds": [
+      "13",
+      "45604",
+      "131",
+      "681",
+      "9900",
+      "14967",
+      "114599"
+    ],
+    "coachIds": [
+      "2868",
+      "94117",
+      "59876",
+      "439",
+      "1559",
+      "29192",
+      "5711",
+      "10302",
+      "12668"
+    ],
+    "competitionIds": [
+      "ES1",
+      "MLS1",
+      "ES2"
+    ],
+    "mostRecentTransfer": {
+      "id": "4106794",
+      "transferSource": {
+        "competitionId": "ES1",
+        "countryId": 157,
+        "clubId": "131",
+        "coachId": "59876"
+      },
+      "transferDestination": {
+        "competitionId": "ES1",
+        "countryId": 157,
+        "clubId": "13",
+        "coachId": "2868"
+      },
+      "details": {
+        "playerId": "125781",
+        "date": "2023-07-01T00:00:00+02:00",
+        "contractUntilDate": "2027-06-30T00:00:00+02:00",
+        "seasonId": 2023,
+        "isPending": false,
+        "marketValue": {
+          "value": 25000000,
+          "currency": "EUR",
+          "compact": {
+            "prefix": "€",
+            "content": "25.00",
+            "suffix": "M"
+          }
+        },
+        "age": 32,
+        "fee": {
+          "value": 22000000,
+          "currency": "EUR",
+          "compact": {
+            "prefix": "€",
+            "content": "22.00",
+            "suffix": "M"
+          }
+        },
+        "remainingContractPeriod": {
+          "days": 365,
+          "daysDisplay": "11 Months, 29 Days"
+        },
+        "season": {
+          "id": 2023,
+          "display": "23/24",
+          "cyclicalName": "2024",
+          "nonCyclicalName": "23/24"
+        }
+      },
+      "typeDetails": {
+        "type": "STANDARD",
+        "name": "",
+        "feeDescription": ""
+      },
+      "relativeUrl": "/antoine-griezmann/transfers/spieler/125781/transfer_id/4106794"
+    }
+  }
+}

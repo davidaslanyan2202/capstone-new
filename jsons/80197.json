@@ -1,0 +1,997 @@
+{
+  "success": true,
+  "message": "OK",
+  "data": {
+    "playerId": "80197",
+    "history": {
+      "terminated": [
+        {
+          "id": "5747589",
+          "transferSource": {
+            "competitionId": "ES1",
+            "countryId": 157,
+            "clubId": "2497",
+            "coachId": "11452"
+          },
+          "transferDestination": {
+            "competitionId": "MEXA",
+            "countryId": 110,
+            "clubId": "4035",
+            "coachId": "100741"
+          },
+          "details": {
+            "playerId": "80197",
+            "date": "2025-12-31T00:00:00+01:00",
+            "contractUntilDate": "2027-12-31T00:00:00+01:00",
+            "seasonId": 2025,
+            "isPending": false,
+            "marketValue": {
+              "value": 400000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "400.00",
+                "suffix": "K"
+              }
+            },
+            "age": 36,
+            "remainingContractPeriod": {
+              "days": 181,
+              "daysDisplay": "5 Months, 30 Days"
+            },
+            "season": {
+              "id": 2025,
+              "display": "25/26",
+              "cyclicalName": "2026",
+              "nonCyclicalName": "25/26"
+            }
+          },
+          "typeDetails": {
+            "type": "RETURNED_FROM_PREVIOUS_LOAN",
+            "name": "End of loan",
+            "feeDescription": "End of loan"
+          },
+          "relativeUrl": "/salomon-rondon/transfers/spieler/80197/transfer_id/5747589"
+        },
+        {
+          "id": "5747588",
+          "transferSource": {
+            "competitionId": "MEXA",
+            "countryId": 110,
+            "clubId": "4035",
+            "coachId": "45986"
+          },
+          "transferDestination": {
+            "competitionId": "ES1",
+            "countryId": 157,
+            "clubId": "2497",
+            "coachId": "28313"
+          },
+          "details": {
+            "playerId": "80197",
+            "date": "2025-07-03T00:00:00+02:00",
+            "contractUntilDate": "2026-06-30T00:00:00+02:00",
+            "seasonId": 2025,
+            "isPending": false,
+            "marketValue": {
+              "value": 750000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "750.00",
+                "suffix": "K"
+              }
+            },
+            "age": 35,
+            "remainingContractPeriod": {
+              "days": 911,
+              "daysDisplay": "2 Years, 5 Months, 28 Days"
+            },
+            "season": {
+              "id": 2025,
+              "display": "25/26",
+              "cyclicalName": "2026",
+              "nonCyclicalName": "25/26"
+            }
+          },
+          "typeDetails": {
+            "type": "ACTIVE_LOAN_TRANSFER",
+            "name": "loan transfer",
+            "feeDescription": "loan transfer"
+          },
+          "relativeUrl": "/salomon-rondon/transfers/spieler/80197/transfer_id/5747588"
+        },
+        {
+          "id": "4790838",
+          "transferSource": {
+            "competitionId": "AR1N",
+            "countryId": 9,
+            "clubId": "209",
+            "coachId": "70585"
+          },
+          "transferDestination": {
+            "competitionId": "MEXA",
+            "countryId": 110,
+            "clubId": "4035",
+            "coachId": "11452"
+          },
+          "details": {
+            "playerId": "80197",
+            "date": "2024-01-01T00:00:00+01:00",
+            "contractUntilDate": "2027-12-31T00:00:00+01:00",
+            "seasonId": 2023,
+            "isPending": false,
+            "marketValue": {
+              "value": 1000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "1.00",
+                "suffix": "M"
+              }
+            },
+            "age": 34,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "Free Transfer",
+                "suffix": ""
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 730,
+              "daysDisplay": "1 Year, 11 Months, 30 Days"
+            },
+            "season": {
+              "id": 2023,
+              "display": "23/24",
+              "cyclicalName": "2024",
+              "nonCyclicalName": "23/24"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/salomon-rondon/transfers/spieler/80197/transfer_id/4790838"
+        },
+        {
+          "id": "4179675",
+          "transferSource": {
+            "competitionId": "GB1",
+            "countryId": 189,
+            "clubId": "29",
+            "coachId": "15856"
+          },
+          "transferDestination": {
+            "competitionId": "AR1N",
+            "countryId": 9,
+            "clubId": "209",
+            "coachId": "70585"
+          },
+          "details": {
+            "playerId": "80197",
+            "date": "2023-01-30T00:00:00+01:00",
+            "contractUntilDate": "2025-12-31T00:00:00+01:00",
+            "seasonId": 2022,
+            "isPending": false,
+            "marketValue": {
+              "value": 2000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "2.00",
+                "suffix": "M"
+              }
+            },
+            "age": 33,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "Free Transfer",
+                "suffix": ""
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 151,
+              "daysDisplay": "5 Months"
+            },
+            "season": {
+              "id": 2022,
+              "display": "22/23",
+              "cyclicalName": "2023",
+              "nonCyclicalName": "22/23"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/salomon-rondon/transfers/spieler/80197/transfer_id/4179675"
+        },
+        {
+          "id": "3531326",
+          "transferSource": {
+            "competitionId": "CSL",
+            "countryId": 34,
+            "clubId": "33304",
+            "coachId": "1555"
+          },
+          "transferDestination": {
+            "competitionId": "GB1",
+            "countryId": 189,
+            "clubId": "29",
+            "coachId": "1522"
+          },
+          "details": {
+            "playerId": "80197",
+            "date": "2021-08-31T00:00:00+02:00",
+            "contractUntilDate": "2023-06-30T00:00:00+02:00",
+            "seasonId": 2021,
+            "isPending": false,
+            "marketValue": {
+              "value": 5000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "5.00",
+                "suffix": "M"
+              }
+            },
+            "age": 31,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "Free Transfer",
+                "suffix": ""
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 487,
+              "daysDisplay": "1 Year, 4 Months"
+            },
+            "season": {
+              "id": 2021,
+              "display": "21/22",
+              "cyclicalName": "2022",
+              "nonCyclicalName": "21/22"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/salomon-rondon/transfers/spieler/80197/transfer_id/3531326"
+        },
+        {
+          "id": "3254182",
+          "transferSource": {
+            "competitionId": "RU1",
+            "countryId": 141,
+            "clubId": "2410",
+            "coachId": "64903"
+          },
+          "transferDestination": {
+            "competitionId": "CSL",
+            "countryId": 34,
+            "clubId": "33304",
+            "coachId": "1555"
+          },
+          "details": {
+            "playerId": "80197",
+            "date": "2021-06-30T00:00:00+02:00",
+            "contractUntilDate": "2022-12-31T00:00:00+01:00",
+            "seasonId": 2020,
+            "isPending": false,
+            "marketValue": {
+              "value": 6000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "6.00",
+                "suffix": "M"
+              }
+            },
+            "age": 31,
+            "remainingContractPeriod": {
+              "days": 0,
+              "daysDisplay": "Unknown"
+            },
+            "season": {
+              "id": 2020,
+              "display": "20/21",
+              "cyclicalName": "2021",
+              "nonCyclicalName": "20/21"
+            }
+          },
+          "typeDetails": {
+            "type": "RETURNED_FROM_PREVIOUS_LOAN",
+            "name": "End of loan",
+            "feeDescription": "End of loan"
+          },
+          "relativeUrl": "/salomon-rondon/transfers/spieler/80197/transfer_id/3254182"
+        },
+        {
+          "id": "3254181",
+          "transferSource": {
+            "competitionId": "CSL",
+            "countryId": 34,
+            "clubId": "33304",
+            "coachId": "0"
+          },
+          "transferDestination": {
+            "competitionId": "RU1",
+            "countryId": 141,
+            "clubId": "2410",
+            "coachId": "7484"
+          },
+          "details": {
+            "playerId": "80197",
+            "date": "2021-02-15T00:00:00+01:00",
+            "contractUntilDate": "2021-06-30T00:00:00+02:00",
+            "seasonId": 2020,
+            "isPending": false,
+            "marketValue": {
+              "value": 6500000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "6.50",
+                "suffix": "M"
+              }
+            },
+            "age": 31,
+            "fee": {
+              "value": 500000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "500.00",
+                "suffix": "K"
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 684,
+              "daysDisplay": "1 Year, 10 Months, 16 Days"
+            },
+            "season": {
+              "id": 2020,
+              "display": "20/21",
+              "cyclicalName": "2021",
+              "nonCyclicalName": "20/21"
+            }
+          },
+          "typeDetails": {
+            "type": "ACTIVE_LOAN_TRANSFER",
+            "name": "loan transfer",
+            "feeDescription": "Loan fee"
+          },
+          "relativeUrl": "/salomon-rondon/transfers/spieler/80197/transfer_id/3254181"
+        },
+        {
+          "id": "2562021",
+          "transferSource": {
+            "competitionId": "GB2",
+            "countryId": 189,
+            "clubId": "984",
+            "coachId": "3598"
+          },
+          "transferDestination": {
+            "competitionId": "CSL",
+            "countryId": 34,
+            "clubId": "33304",
+            "coachId": "1522"
+          },
+          "details": {
+            "playerId": "80197",
+            "date": "2019-07-19T00:00:00+02:00",
+            "contractUntilDate": "2022-12-31T00:00:00+01:00",
+            "seasonId": 2019,
+            "isPending": false,
+            "marketValue": {
+              "value": 15000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "15.00",
+                "suffix": "M"
+              }
+            },
+            "age": 29,
+            "fee": {
+              "value": 18268800,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "18.27",
+                "suffix": "M"
+              }
+            },
+            "season": {
+              "id": 2019,
+              "display": "19/20",
+              "cyclicalName": "2020",
+              "nonCyclicalName": "19/20"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/salomon-rondon/transfers/spieler/80197/transfer_id/2562021"
+        },
+        {
+          "id": "2213444",
+          "transferSource": {
+            "competitionId": "GB1",
+            "countryId": 189,
+            "clubId": "762",
+            "coachId": "1522"
+          },
+          "transferDestination": {
+            "competitionId": "GB2",
+            "countryId": 189,
+            "clubId": "984",
+            "coachId": "32977"
+          },
+          "details": {
+            "playerId": "80197",
+            "date": "2019-05-31T00:00:00+02:00",
+            "contractUntilDate": "2019-06-30T00:00:00+02:00",
+            "seasonId": 2018,
+            "isPending": false,
+            "marketValue": {
+              "value": 15000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "15.00",
+                "suffix": "M"
+              }
+            },
+            "age": 29,
+            "remainingContractPeriod": {
+              "days": 0,
+              "daysDisplay": "Unknown"
+            },
+            "season": {
+              "id": 2018,
+              "display": "18/19",
+              "cyclicalName": "2019",
+              "nonCyclicalName": "18/19"
+            }
+          },
+          "typeDetails": {
+            "type": "RETURNED_FROM_PREVIOUS_LOAN",
+            "name": "End of loan",
+            "feeDescription": "End of loan"
+          },
+          "relativeUrl": "/salomon-rondon/transfers/spieler/80197/transfer_id/2213444"
+        },
+        {
+          "id": "2213443",
+          "transferSource": {
+            "competitionId": "GB2",
+            "countryId": 189,
+            "clubId": "984",
+            "coachId": "59847"
+          },
+          "transferDestination": {
+            "competitionId": "GB1",
+            "countryId": 189,
+            "clubId": "762",
+            "coachId": "1522"
+          },
+          "details": {
+            "playerId": "80197",
+            "date": "2018-08-06T00:00:00+02:00",
+            "contractUntilDate": "2019-05-31T00:00:00+02:00",
+            "seasonId": 2018,
+            "isPending": false,
+            "marketValue": {
+              "value": 13000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "13.00",
+                "suffix": "M"
+              }
+            },
+            "age": 28,
+            "fee": {
+              "value": 2200000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "2.20",
+                "suffix": "M"
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 328,
+              "daysDisplay": "10 Months, 24 Days"
+            },
+            "season": {
+              "id": 2018,
+              "display": "18/19",
+              "cyclicalName": "2019",
+              "nonCyclicalName": "18/19"
+            }
+          },
+          "typeDetails": {
+            "type": "ACTIVE_LOAN_TRANSFER",
+            "name": "loan transfer",
+            "feeDescription": "Loan fee"
+          },
+          "relativeUrl": "/salomon-rondon/transfers/spieler/80197/transfer_id/2213443"
+        },
+        {
+          "id": "1315181",
+          "transferSource": {
+            "competitionId": "RU1",
+            "countryId": 141,
+            "clubId": "964",
+            "coachId": "1696"
+          },
+          "transferDestination": {
+            "competitionId": "GB1",
+            "countryId": 189,
+            "clubId": "984",
+            "coachId": "617"
+          },
+          "details": {
+            "playerId": "80197",
+            "date": "2015-08-10T00:00:00+02:00",
+            "contractUntilDate": "2019-06-30T00:00:00+02:00",
+            "seasonId": 2015,
+            "isPending": false,
+            "marketValue": {
+              "value": 15000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "15.00",
+                "suffix": "M"
+              }
+            },
+            "age": 25,
+            "fee": {
+              "value": 17000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "17.00",
+                "suffix": "M"
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 1055,
+              "daysDisplay": "2 Years, 10 Months, 20 Days"
+            },
+            "season": {
+              "id": 2015,
+              "display": "15/16",
+              "cyclicalName": "2016",
+              "nonCyclicalName": "15/16"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/salomon-rondon/transfers/spieler/80197/transfer_id/1315181"
+        },
+        {
+          "id": "1011409",
+          "transferSource": {
+            "competitionId": "RU1",
+            "countryId": 141,
+            "clubId": "2698",
+            "coachId": "32899"
+          },
+          "transferDestination": {
+            "competitionId": "RU1",
+            "countryId": 141,
+            "clubId": "964",
+            "coachId": "517"
+          },
+          "details": {
+            "playerId": "80197",
+            "date": "2014-01-31T00:00:00+01:00",
+            "contractUntilDate": "2018-06-30T00:00:00+02:00",
+            "seasonId": 2013,
+            "isPending": false,
+            "marketValue": {
+              "value": 11000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "11.00",
+                "suffix": "M"
+              }
+            },
+            "age": 24,
+            "fee": {
+              "value": 18000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "18.00",
+                "suffix": "M"
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 881,
+              "daysDisplay": "2 Years, 4 Months, 30 Days"
+            },
+            "season": {
+              "id": 2013,
+              "display": "13/14",
+              "cyclicalName": "2014",
+              "nonCyclicalName": "13/14"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/salomon-rondon/transfers/spieler/80197/transfer_id/1011409"
+        },
+        {
+          "id": "763583",
+          "transferSource": {
+            "competitionId": "ES1",
+            "countryId": 157,
+            "clubId": "1084",
+            "coachId": "1558"
+          },
+          "transferDestination": {
+            "competitionId": "RU1",
+            "countryId": 141,
+            "clubId": "2698",
+            "coachId": "2754"
+          },
+          "details": {
+            "playerId": "80197",
+            "date": "2012-08-05T00:00:00+02:00",
+            "contractUntilDate": "2016-06-30T00:00:00+02:00",
+            "seasonId": 2012,
+            "isPending": false,
+            "marketValue": {
+              "value": 9000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "9.00",
+                "suffix": "M"
+              }
+            },
+            "age": 22,
+            "fee": {
+              "value": 9000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "9.00",
+                "suffix": "M"
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 694,
+              "daysDisplay": "1 Year, 10 Months, 25 Days"
+            },
+            "season": {
+              "id": 2012,
+              "display": "12/13",
+              "cyclicalName": "2013",
+              "nonCyclicalName": "12/13"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/salomon-rondon/transfers/spieler/80197/transfer_id/763583"
+        },
+        {
+          "id": "452130",
+          "transferSource": {
+            "competitionId": "ES2",
+            "countryId": 157,
+            "clubId": "472",
+            "coachId": "5174"
+          },
+          "transferDestination": {
+            "competitionId": "ES1",
+            "countryId": 157,
+            "clubId": "1084",
+            "coachId": "1572"
+          },
+          "details": {
+            "playerId": "80197",
+            "date": "2010-07-19T00:00:00+02:00",
+            "contractUntilDate": "2014-06-30T00:00:00+02:00",
+            "seasonId": 2010,
+            "isPending": false,
+            "marketValue": {
+              "value": 1000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "1.00",
+                "suffix": "M"
+              }
+            },
+            "age": 20,
+            "fee": {
+              "value": 3500000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "3.50",
+                "suffix": "M"
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 346,
+              "daysDisplay": "11 Months, 11 Days"
+            },
+            "season": {
+              "id": 2010,
+              "display": "10/11",
+              "cyclicalName": "2011",
+              "nonCyclicalName": "10/11"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/salomon-rondon/transfers/spieler/80197/transfer_id/452130"
+        },
+        {
+          "id": "223675",
+          "transferSource": {
+            "competitionId": "VZ1C",
+            "countryId": 182,
+            "clubId": "8331",
+            "coachId": "23523"
+          },
+          "transferDestination": {
+            "competitionId": "ES2",
+            "countryId": 157,
+            "clubId": "472",
+            "coachId": "18096"
+          },
+          "details": {
+            "playerId": "80197",
+            "date": "2008-07-21T00:00:00+02:00",
+            "contractUntilDate": "2011-06-30T00:00:00+02:00",
+            "seasonId": 2008,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 18,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "Free Transfer",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2008,
+              "display": "08/09",
+              "cyclicalName": "2009",
+              "nonCyclicalName": "08/09"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/salomon-rondon/transfers/spieler/80197/transfer_id/223675"
+        },
+        {
+          "id": "2533335",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 182,
+            "clubId": "46085",
+            "coachId": "0"
+          },
+          "transferDestination": {
+            "competitionId": "VZ1C",
+            "countryId": 182,
+            "clubId": "8331",
+            "coachId": "93367"
+          },
+          "details": {
+            "playerId": "80197",
+            "date": "2007-01-01T00:00:00+01:00",
+            "contractUntilDate": null,
+            "seasonId": 2006,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 17,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2006,
+              "display": "06/07",
+              "cyclicalName": "2007",
+              "nonCyclicalName": "06/07"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/salomon-rondon/transfers/spieler/80197/transfer_id/2533335"
+        }
+      ],
+      "pending": [],
+      "url": "",
+      "feeSum": {
+        "value": 68468800,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "68.47",
+          "suffix": "M"
+        }
+      },
+      "averageAge": 36,
+      "totalMarketValue": {
+        "value": 400000,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "400.00",
+          "suffix": "K"
+        }
+      }
+    },
+    "clubIds": [
+      "2497",
+      "4035",
+      "209",
+      "29",
+      "33304",
+      "2410",
+      "984",
+      "762",
+      "964",
+      "2698",
+      "1084",
+      "472",
+      "8331",
+      "46085"
+    ],
+    "coachIds": [
+      "11452",
+      "100741",
+      "45986",
+      "28313",
+      "70585",
+      "15856",
+      "1555",
+      "1522",
+      "64903",
+      "7484",
+      "3598",
+      "32977",
+      "59847",
+      "1696",
+      "617",
+      "32899",
+      "517",
+      "1558",
+      "2754",
+      "5174",
+      "1572",
+      "23523",
+      "18096",
+      "93367"
+    ],
+    "competitionIds": [
+      "ES1",
+      "MEXA",
+      "AR1N",
+      "GB1",
+      "CSL",
+      "RU1",
+      "GB2",
+      "ES2",
+      "VZ1C"
+    ],
+    "mostRecentTransfer": {
+      "id": "5747589",
+      "transferSource": {
+        "competitionId": "ES1",
+        "countryId": 157,
+        "clubId": "2497",
+        "coachId": "11452"
+      },
+      "transferDestination": {
+        "competitionId": "MEXA",
+        "countryId": 110,
+        "clubId": "4035",
+        "coachId": "100741"
+      },
+      "details": {
+        "playerId": "80197",
+        "date": "2025-12-31T00:00:00+01:00",
+        "contractUntilDate": "2027-12-31T00:00:00+01:00",
+        "seasonId": 2025,
+        "isPending": false,
+        "marketValue": {
+          "value": 400000,
+          "currency": "EUR",
+          "compact": {
+            "prefix": "€",
+            "content": "400.00",
+            "suffix": "K"
+          }
+        },
+        "age": 36,
+        "remainingContractPeriod": {
+          "days": 181,
+          "daysDisplay": "5 Months, 30 Days"
+        },
+        "season": {
+          "id": 2025,
+          "display": "25/26",
+          "cyclicalName": "2026",
+          "nonCyclicalName": "25/26"
+        }
+      },
+      "typeDetails": {
+        "type": "RETURNED_FROM_PREVIOUS_LOAN",
+        "name": "End of loan",
+        "feeDescription": "End of loan"
+      },
+      "relativeUrl": "/salomon-rondon/transfers/spieler/80197/transfer_id/5747589"
+    }
+  }
+}

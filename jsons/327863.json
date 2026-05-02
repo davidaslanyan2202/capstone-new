@@ -1,0 +1,863 @@
+{
+  "success": true,
+  "message": "OK",
+  "data": {
+    "playerId": "327863",
+    "history": {
+      "terminated": [
+        {
+          "id": "5718696",
+          "transferSource": {
+            "competitionId": "PL1",
+            "countryId": 135,
+            "clubId": "6112",
+            "coachId": "43400"
+          },
+          "transferDestination": {
+            "competitionId": "AZ1",
+            "countryId": 13,
+            "clubId": "63993",
+            "coachId": "19743"
+          },
+          "details": {
+            "playerId": "327863",
+            "date": "2025-07-01T00:00:00+02:00",
+            "contractUntilDate": "2027-06-30T00:00:00+02:00",
+            "seasonId": 2025,
+            "isPending": false,
+            "marketValue": {
+              "value": 700000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "700.00",
+                "suffix": "K"
+              }
+            },
+            "age": 30,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "Free Transfer",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2025,
+              "display": "25/26",
+              "cyclicalName": "2026",
+              "nonCyclicalName": "25/26"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/akim-zedadka/transfers/spieler/327863/transfer_id/5718696"
+        },
+        {
+          "id": "5437180",
+          "transferSource": {
+            "competitionId": "FR1",
+            "countryId": 50,
+            "clubId": "1082",
+            "coachId": "5036"
+          },
+          "transferDestination": {
+            "competitionId": "PL1",
+            "countryId": 135,
+            "clubId": "6112",
+            "coachId": "42448"
+          },
+          "details": {
+            "playerId": "327863",
+            "date": "2025-01-23T00:00:00+01:00",
+            "contractUntilDate": "2025-06-30T00:00:00+02:00",
+            "seasonId": 2024,
+            "isPending": false,
+            "marketValue": {
+              "value": 1500000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "1.50",
+                "suffix": "M"
+              }
+            },
+            "age": 29,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "Free Transfer",
+                "suffix": ""
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 158,
+              "daysDisplay": "5 Months, 7 Days"
+            },
+            "season": {
+              "id": 2024,
+              "display": "24/25",
+              "cyclicalName": "2025",
+              "nonCyclicalName": "24/25"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/akim-zedadka/transfers/spieler/327863/transfer_id/5437180"
+        },
+        {
+          "id": "4864069",
+          "transferSource": {
+            "competitionId": "ES2",
+            "countryId": 157,
+            "clubId": "142",
+            "coachId": "641"
+          },
+          "transferDestination": {
+            "competitionId": "FR1",
+            "countryId": 50,
+            "clubId": "1082",
+            "coachId": "19944"
+          },
+          "details": {
+            "playerId": "327863",
+            "date": "2024-06-30T00:00:00+02:00",
+            "contractUntilDate": "2025-06-30T00:00:00+02:00",
+            "seasonId": 2023,
+            "isPending": false,
+            "marketValue": {
+              "value": 2000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "2.00",
+                "suffix": "M"
+              }
+            },
+            "age": 29,
+            "remainingContractPeriod": {
+              "days": 0,
+              "daysDisplay": "Unknown"
+            },
+            "season": {
+              "id": 2023,
+              "display": "23/24",
+              "cyclicalName": "2024",
+              "nonCyclicalName": "23/24"
+            }
+          },
+          "typeDetails": {
+            "type": "RETURNED_FROM_PREVIOUS_LOAN",
+            "name": "End of loan",
+            "feeDescription": "End of loan"
+          },
+          "relativeUrl": "/akim-zedadka/transfers/spieler/327863/transfer_id/4864069"
+        },
+        {
+          "id": "4864068",
+          "transferSource": {
+            "competitionId": "FR1",
+            "countryId": 50,
+            "clubId": "1082",
+            "coachId": "19944"
+          },
+          "transferDestination": {
+            "competitionId": "ES2",
+            "countryId": 157,
+            "clubId": "142",
+            "coachId": "17326"
+          },
+          "details": {
+            "playerId": "327863",
+            "date": "2024-02-01T00:00:00+01:00",
+            "contractUntilDate": "2024-06-30T00:00:00+02:00",
+            "seasonId": 2023,
+            "isPending": false,
+            "marketValue": {
+              "value": 2000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "2.00",
+                "suffix": "M"
+              }
+            },
+            "age": 28,
+            "remainingContractPeriod": {
+              "days": 515,
+              "daysDisplay": "1 Year, 4 Months, 29 Days"
+            },
+            "season": {
+              "id": 2023,
+              "display": "23/24",
+              "cyclicalName": "2024",
+              "nonCyclicalName": "23/24"
+            }
+          },
+          "typeDetails": {
+            "type": "ACTIVE_LOAN_TRANSFER",
+            "name": "loan transfer",
+            "feeDescription": "loan transfer"
+          },
+          "relativeUrl": "/akim-zedadka/transfers/spieler/327863/transfer_id/4864068"
+        },
+        {
+          "id": "4169021",
+          "transferSource": {
+            "competitionId": "FR1",
+            "countryId": 50,
+            "clubId": "290",
+            "coachId": "24802"
+          },
+          "transferDestination": {
+            "competitionId": "FR1",
+            "countryId": 50,
+            "clubId": "1082",
+            "coachId": "19944"
+          },
+          "details": {
+            "playerId": "327863",
+            "date": "2023-06-30T00:00:00+02:00",
+            "contractUntilDate": "2025-06-30T00:00:00+02:00",
+            "seasonId": 2022,
+            "isPending": false,
+            "marketValue": {
+              "value": 2500000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "2.50",
+                "suffix": "M"
+              }
+            },
+            "age": 28,
+            "remainingContractPeriod": {
+              "days": 0,
+              "daysDisplay": "Unknown"
+            },
+            "season": {
+              "id": 2022,
+              "display": "22/23",
+              "cyclicalName": "2023",
+              "nonCyclicalName": "22/23"
+            }
+          },
+          "typeDetails": {
+            "type": "RETURNED_FROM_PREVIOUS_LOAN",
+            "name": "End of loan",
+            "feeDescription": "End of loan"
+          },
+          "relativeUrl": "/akim-zedadka/transfers/spieler/327863/transfer_id/4169021"
+        },
+        {
+          "id": "4169020",
+          "transferSource": {
+            "competitionId": "FR1",
+            "countryId": 50,
+            "clubId": "1082",
+            "coachId": "19944"
+          },
+          "transferDestination": {
+            "competitionId": "FR1",
+            "countryId": 50,
+            "clubId": "290",
+            "coachId": "24802"
+          },
+          "details": {
+            "playerId": "327863",
+            "date": "2022-12-09T00:00:00+01:00",
+            "contractUntilDate": "2023-06-30T00:00:00+02:00",
+            "seasonId": 2022,
+            "isPending": false,
+            "marketValue": {
+              "value": 3000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "3.00",
+                "suffix": "M"
+              }
+            },
+            "age": 27,
+            "remainingContractPeriod": {
+              "days": 934,
+              "daysDisplay": "2 Years, 6 Months, 21 Days"
+            },
+            "season": {
+              "id": 2022,
+              "display": "22/23",
+              "cyclicalName": "2023",
+              "nonCyclicalName": "22/23"
+            }
+          },
+          "typeDetails": {
+            "type": "ACTIVE_LOAN_TRANSFER",
+            "name": "loan transfer",
+            "feeDescription": "loan transfer"
+          },
+          "relativeUrl": "/akim-zedadka/transfers/spieler/327863/transfer_id/4169020"
+        },
+        {
+          "id": "3912367",
+          "transferSource": {
+            "competitionId": "FR1",
+            "countryId": 50,
+            "clubId": "3524",
+            "coachId": "13916"
+          },
+          "transferDestination": {
+            "competitionId": "FR1",
+            "countryId": 50,
+            "clubId": "1082",
+            "coachId": "19944"
+          },
+          "details": {
+            "playerId": "327863",
+            "date": "2022-07-01T00:00:00+02:00",
+            "contractUntilDate": "2025-06-30T00:00:00+02:00",
+            "seasonId": 2022,
+            "isPending": false,
+            "marketValue": {
+              "value": 4000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "4.00",
+                "suffix": "M"
+              }
+            },
+            "age": 27,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "Free Transfer",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2022,
+              "display": "22/23",
+              "cyclicalName": "2023",
+              "nonCyclicalName": "22/23"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/akim-zedadka/transfers/spieler/327863/transfer_id/3912367"
+        },
+        {
+          "id": "2511852",
+          "transferSource": {
+            "competitionId": "CN2D",
+            "countryId": 50,
+            "clubId": "57930",
+            "coachId": "30525"
+          },
+          "transferDestination": {
+            "competitionId": "FR2",
+            "countryId": 50,
+            "clubId": "3524",
+            "coachId": "13916"
+          },
+          "details": {
+            "playerId": "327863",
+            "date": "2019-07-01T00:00:00+02:00",
+            "contractUntilDate": "2022-06-30T00:00:00+02:00",
+            "seasonId": 2019,
+            "isPending": false,
+            "marketValue": {
+              "value": 400000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "400.00",
+                "suffix": "K"
+              }
+            },
+            "age": 24,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "Free Transfer",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2019,
+              "display": "19/20",
+              "cyclicalName": "2020",
+              "nonCyclicalName": "19/20"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/akim-zedadka/transfers/spieler/327863/transfer_id/2511852"
+        },
+        {
+          "id": "2147510",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 50,
+            "clubId": "67926",
+            "coachId": "89931"
+          },
+          "transferDestination": {
+            "competitionId": "FR3",
+            "countryId": 50,
+            "clubId": "57930",
+            "coachId": "30525"
+          },
+          "details": {
+            "playerId": "327863",
+            "date": "2018-07-23T00:00:00+02:00",
+            "contractUntilDate": "2019-06-30T00:00:00+02:00",
+            "seasonId": 2018,
+            "isPending": false,
+            "marketValue": {
+              "value": 200000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "200.00",
+                "suffix": "K"
+              }
+            },
+            "age": 23,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "Free Transfer",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2018,
+              "display": "18/19",
+              "cyclicalName": "2019",
+              "nonCyclicalName": "18/19"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/akim-zedadka/transfers/spieler/327863/transfer_id/2147510"
+        },
+        {
+          "id": "1945902",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 0,
+            "clubId": "515",
+            "coachId": "0"
+          },
+          "transferDestination": {
+            "competitionId": "C3GE",
+            "countryId": 50,
+            "clubId": "67926",
+            "coachId": "0"
+          },
+          "details": {
+            "playerId": "327863",
+            "date": "2017-10-27T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2017,
+            "isPending": false,
+            "marketValue": {
+              "value": 200000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "200.00",
+                "suffix": "K"
+              }
+            },
+            "age": 22,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2017,
+              "display": "17/18",
+              "cyclicalName": "2018",
+              "nonCyclicalName": "17/18"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/akim-zedadka/transfers/spieler/327863/transfer_id/1945902"
+        },
+        {
+          "id": "1792139",
+          "transferSource": {
+            "competitionId": "FR2",
+            "countryId": 50,
+            "clubId": "826",
+            "coachId": "5034"
+          },
+          "transferDestination": {
+            "competitionId": "",
+            "countryId": 0,
+            "clubId": "515",
+            "coachId": "0"
+          },
+          "details": {
+            "playerId": "327863",
+            "date": "2017-07-01T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2017,
+            "isPending": false,
+            "marketValue": {
+              "value": 200000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "200.00",
+                "suffix": "K"
+              }
+            },
+            "age": 22,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 364,
+              "daysDisplay": "11 Months, 29 Days"
+            },
+            "season": {
+              "id": 2017,
+              "display": "17/18",
+              "cyclicalName": "2018",
+              "nonCyclicalName": "17/18"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/akim-zedadka/transfers/spieler/327863/transfer_id/1792139"
+        },
+        {
+          "id": "1556031",
+          "transferSource": {
+            "competitionId": "CN2B",
+            "countryId": 50,
+            "clubId": "8152",
+            "coachId": "24068"
+          },
+          "transferDestination": {
+            "competitionId": "FR2",
+            "countryId": 50,
+            "clubId": "826",
+            "coachId": "5034"
+          },
+          "details": {
+            "playerId": "327863",
+            "date": "2016-07-25T00:00:00+02:00",
+            "contractUntilDate": "2018-06-30T00:00:00+02:00",
+            "seasonId": 2016,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 21,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 340,
+              "daysDisplay": "11 Months, 5 Days"
+            },
+            "season": {
+              "id": 2016,
+              "display": "16/17",
+              "cyclicalName": "2017",
+              "nonCyclicalName": "16/17"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/akim-zedadka/transfers/spieler/327863/transfer_id/1556031"
+        },
+        {
+          "id": "1285247",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 50,
+            "clubId": "2580",
+            "coachId": "52154"
+          },
+          "transferDestination": {
+            "competitionId": "CN2A",
+            "countryId": 50,
+            "clubId": "8152",
+            "coachId": "24068"
+          },
+          "details": {
+            "playerId": "327863",
+            "date": "2015-08-04T00:00:00+02:00",
+            "contractUntilDate": "2017-06-30T00:00:00+02:00",
+            "seasonId": 2015,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 20,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "Free Transfer",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2015,
+              "display": "15/16",
+              "cyclicalName": "2016",
+              "nonCyclicalName": "15/16"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/akim-zedadka/transfers/spieler/327863/transfer_id/1285247"
+        },
+        {
+          "id": "1249221",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 50,
+            "clubId": "24215",
+            "coachId": "0"
+          },
+          "transferDestination": {
+            "competitionId": "FR3",
+            "countryId": 50,
+            "clubId": "2580",
+            "coachId": "10320"
+          },
+          "details": {
+            "playerId": "327863",
+            "date": "2014-07-01T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2014,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 19,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2014,
+              "display": "14/15",
+              "cyclicalName": "2015",
+              "nonCyclicalName": "14/15"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/akim-zedadka/transfers/spieler/327863/transfer_id/1249221"
+        }
+      ],
+      "pending": [],
+      "url": "",
+      "feeSum": {
+        "value": 0,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "0.00",
+          "suffix": ""
+        }
+      },
+      "averageAge": 30,
+      "totalMarketValue": {
+        "value": 800000,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "800.00",
+          "suffix": "K"
+        }
+      }
+    },
+    "clubIds": [
+      "6112",
+      "63993",
+      "1082",
+      "142",
+      "290",
+      "3524",
+      "57930",
+      "67926",
+      "515",
+      "826",
+      "8152",
+      "2580",
+      "24215"
+    ],
+    "coachIds": [
+      "43400",
+      "19743",
+      "5036",
+      "42448",
+      "641",
+      "19944",
+      "17326",
+      "24802",
+      "13916",
+      "30525",
+      "89931",
+      "5034",
+      "24068",
+      "52154",
+      "10320"
+    ],
+    "competitionIds": [
+      "PL1",
+      "AZ1",
+      "FR1",
+      "ES2",
+      "CN2D",
+      "FR2",
+      "FR3",
+      "C3GE",
+      "CN2B",
+      "CN2A"
+    ],
+    "mostRecentTransfer": {
+      "id": "5718696",
+      "transferSource": {
+        "competitionId": "PL1",
+        "countryId": 135,
+        "clubId": "6112",
+        "coachId": "43400"
+      },
+      "transferDestination": {
+        "competitionId": "AZ1",
+        "countryId": 13,
+        "clubId": "63993",
+        "coachId": "19743"
+      },
+      "details": {
+        "playerId": "327863",
+        "date": "2025-07-01T00:00:00+02:00",
+        "contractUntilDate": "2027-06-30T00:00:00+02:00",
+        "seasonId": 2025,
+        "isPending": false,
+        "marketValue": {
+          "value": 700000,
+          "currency": "EUR",
+          "compact": {
+            "prefix": "€",
+            "content": "700.00",
+            "suffix": "K"
+          }
+        },
+        "age": 30,
+        "fee": {
+          "value": null,
+          "currency": "",
+          "compact": {
+            "prefix": "",
+            "content": "Free Transfer",
+            "suffix": ""
+          }
+        },
+        "season": {
+          "id": 2025,
+          "display": "25/26",
+          "cyclicalName": "2026",
+          "nonCyclicalName": "25/26"
+        }
+      },
+      "typeDetails": {
+        "type": "STANDARD",
+        "name": "",
+        "feeDescription": ""
+      },
+      "relativeUrl": "/akim-zedadka/transfers/spieler/327863/transfer_id/5718696"
+    }
+  }
+}

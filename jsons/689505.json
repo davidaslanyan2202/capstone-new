@@ -1,0 +1,273 @@
+{
+  "success": true,
+  "message": "OK",
+  "data": {
+    "playerId": "689505",
+    "history": {
+      "terminated": [
+        {
+          "id": "5784794",
+          "transferSource": {
+            "competitionId": "ES1",
+            "countryId": 157,
+            "clubId": "150",
+            "coachId": "1558"
+          },
+          "transferDestination": {
+            "competitionId": "ES1",
+            "countryId": 157,
+            "clubId": "13",
+            "coachId": "2868"
+          },
+          "details": {
+            "playerId": "689505",
+            "date": "2025-07-16T00:00:00+02:00",
+            "contractUntilDate": "2030-06-30T00:00:00+02:00",
+            "seasonId": 2025,
+            "isPending": false,
+            "marketValue": {
+              "value": 25000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "25.00",
+                "suffix": "M"
+              }
+            },
+            "age": 23,
+            "fee": {
+              "value": 24000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "24.00",
+                "suffix": "M"
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 1445,
+              "daysDisplay": "3 Years, 11 Months, 14 Days"
+            },
+            "season": {
+              "id": 2025,
+              "display": "25/26",
+              "cyclicalName": "2026",
+              "nonCyclicalName": "25/26"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/johnny-cardoso/transfers/spieler/689505/transfer_id/5784794"
+        },
+        {
+          "id": "4786458",
+          "transferSource": {
+            "competitionId": "BRA1",
+            "countryId": 26,
+            "clubId": "6600",
+            "coachId": "38808"
+          },
+          "transferDestination": {
+            "competitionId": "ES1",
+            "countryId": 157,
+            "clubId": "150",
+            "coachId": "1558"
+          },
+          "details": {
+            "playerId": "689505",
+            "date": "2024-01-01T00:00:00+01:00",
+            "contractUntilDate": "2029-06-30T00:00:00+02:00",
+            "seasonId": 2023,
+            "isPending": false,
+            "marketValue": {
+              "value": 6000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "6.00",
+                "suffix": "M"
+              }
+            },
+            "age": 22,
+            "fee": {
+              "value": 6000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "6.00",
+                "suffix": "M"
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 1095,
+              "daysDisplay": "2 Years, 11 Months, 30 Days"
+            },
+            "season": {
+              "id": 2023,
+              "display": "23/24",
+              "cyclicalName": "2024",
+              "nonCyclicalName": "23/24"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/johnny-cardoso/transfers/spieler/689505/transfer_id/4786458"
+        },
+        {
+          "id": "3126425",
+          "transferSource": {
+            "competitionId": "CB20",
+            "countryId": 26,
+            "clubId": "15083",
+            "coachId": "100616"
+          },
+          "transferDestination": {
+            "competitionId": "BRA1",
+            "countryId": 26,
+            "clubId": "6600",
+            "coachId": "38808"
+          },
+          "details": {
+            "playerId": "689505",
+            "date": "2020-01-01T00:00:00+01:00",
+            "contractUntilDate": "2026-12-31T00:00:00+01:00",
+            "seasonId": 2019,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 18,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2019,
+              "display": "19/20",
+              "cyclicalName": "2020",
+              "nonCyclicalName": "19/20"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/johnny-cardoso/transfers/spieler/689505/transfer_id/3126425"
+        }
+      ],
+      "pending": [],
+      "url": "",
+      "feeSum": {
+        "value": 30000000,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "30.00",
+          "suffix": "M"
+        }
+      },
+      "averageAge": 24,
+      "totalMarketValue": {
+        "value": 22000000,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "22.00",
+          "suffix": "M"
+        }
+      }
+    },
+    "clubIds": [
+      "150",
+      "13",
+      "6600",
+      "15083"
+    ],
+    "coachIds": [
+      "1558",
+      "2868",
+      "38808",
+      "100616"
+    ],
+    "competitionIds": [
+      "ES1",
+      "BRA1",
+      "CB20"
+    ],
+    "mostRecentTransfer": {
+      "id": "5784794",
+      "transferSource": {
+        "competitionId": "ES1",
+        "countryId": 157,
+        "clubId": "150",
+        "coachId": "1558"
+      },
+      "transferDestination": {
+        "competitionId": "ES1",
+        "countryId": 157,
+        "clubId": "13",
+        "coachId": "2868"
+      },
+      "details": {
+        "playerId": "689505",
+        "date": "2025-07-16T00:00:00+02:00",
+        "contractUntilDate": "2030-06-30T00:00:00+02:00",
+        "seasonId": 2025,
+        "isPending": false,
+        "marketValue": {
+          "value": 25000000,
+          "currency": "EUR",
+          "compact": {
+            "prefix": "€",
+            "content": "25.00",
+            "suffix": "M"
+          }
+        },
+        "age": 23,
+        "fee": {
+          "value": 24000000,
+          "currency": "EUR",
+          "compact": {
+            "prefix": "€",
+            "content": "24.00",
+            "suffix": "M"
+          }
+        },
+        "remainingContractPeriod": {
+          "days": 1445,
+          "daysDisplay": "3 Years, 11 Months, 14 Days"
+        },
+        "season": {
+          "id": 2025,
+          "display": "25/26",
+          "cyclicalName": "2026",
+          "nonCyclicalName": "25/26"
+        }
+      },
+      "typeDetails": {
+        "type": "STANDARD",
+        "name": "",
+        "feeDescription": ""
+      },
+      "relativeUrl": "/johnny-cardoso/transfers/spieler/689505/transfer_id/5784794"
+    }
+  }
+}

@@ -1,0 +1,360 @@
+{
+  "success": true,
+  "message": "OK",
+  "data": {
+    "playerId": "218087",
+    "history": {
+      "terminated": [
+        {
+          "id": "5911868",
+          "transferSource": {
+            "competitionId": "GB2",
+            "countryId": 189,
+            "clubId": "22",
+            "coachId": "57225"
+          },
+          "transferDestination": {
+            "competitionId": "GB3",
+            "countryId": 189,
+            "clubId": "1098",
+            "coachId": "26630"
+          },
+          "details": {
+            "playerId": "218087",
+            "date": "2025-09-01T00:00:00+02:00",
+            "contractUntilDate": "2026-05-31T00:00:00+02:00",
+            "seasonId": 2025,
+            "isPending": false,
+            "marketValue": {
+              "value": 750000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "750.00",
+                "suffix": "K"
+              }
+            },
+            "age": 31,
+            "remainingContractPeriod": {
+              "days": 302,
+              "daysDisplay": "9 Months, 29 Days"
+            },
+            "season": {
+              "id": 2025,
+              "display": "25/26",
+              "cyclicalName": "2026",
+              "nonCyclicalName": "25/26"
+            }
+          },
+          "typeDetails": {
+            "type": "ACTIVE_LOAN_TRANSFER",
+            "name": "loan transfer",
+            "feeDescription": "loan transfer"
+          },
+          "relativeUrl": "/ben-osborn/transfers/spieler/218087/transfer_id/5911868"
+        },
+        {
+          "id": "5080969",
+          "transferSource": {
+            "competitionId": "GB2",
+            "countryId": 189,
+            "clubId": "350",
+            "coachId": "15289"
+          },
+          "transferDestination": {
+            "competitionId": "GB2",
+            "countryId": 189,
+            "clubId": "22",
+            "coachId": "50470"
+          },
+          "details": {
+            "playerId": "218087",
+            "date": "2024-07-01T00:00:00+02:00",
+            "contractUntilDate": "2026-06-30T00:00:00+02:00",
+            "seasonId": 2024,
+            "isPending": false,
+            "marketValue": {
+              "value": 1000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "1.00",
+                "suffix": "M"
+              }
+            },
+            "age": 29,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "Free Transfer",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2024,
+              "display": "24/25",
+              "cyclicalName": "2025",
+              "nonCyclicalName": "24/25"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/ben-osborn/transfers/spieler/218087/transfer_id/5080969"
+        },
+        {
+          "id": "2575573",
+          "transferSource": {
+            "competitionId": "GB2",
+            "countryId": 189,
+            "clubId": "703",
+            "coachId": "24207"
+          },
+          "transferDestination": {
+            "competitionId": "GB1",
+            "countryId": 189,
+            "clubId": "350",
+            "coachId": "15289"
+          },
+          "details": {
+            "playerId": "218087",
+            "date": "2019-07-26T00:00:00+02:00",
+            "contractUntilDate": "2024-06-30T00:00:00+02:00",
+            "seasonId": 2019,
+            "isPending": false,
+            "marketValue": {
+              "value": 3000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "3.00",
+                "suffix": "M"
+              }
+            },
+            "age": 24,
+            "fee": {
+              "value": 3900000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "3.90",
+                "suffix": "M"
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 340,
+              "daysDisplay": "11 Months, 4 Days"
+            },
+            "season": {
+              "id": 2019,
+              "display": "19/20",
+              "cyclicalName": "2020",
+              "nonCyclicalName": "19/20"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/ben-osborn/transfers/spieler/218087/transfer_id/2575573"
+        },
+        {
+          "id": "1057306",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 189,
+            "clubId": "12799",
+            "coachId": "0"
+          },
+          "transferDestination": {
+            "competitionId": "GB2",
+            "countryId": 189,
+            "clubId": "703",
+            "coachId": "1718"
+          },
+          "details": {
+            "playerId": "218087",
+            "date": "2014-01-01T00:00:00+01:00",
+            "contractUntilDate": "2020-06-30T00:00:00+02:00",
+            "seasonId": 2013,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 19,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2013,
+              "display": "13/14",
+              "cyclicalName": "2014",
+              "nonCyclicalName": "13/14"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/ben-osborn/transfers/spieler/218087/transfer_id/1057306"
+        }
+      ],
+      "pending": [
+        {
+          "id": "5911869",
+          "transferSource": {
+            "competitionId": "GB3",
+            "countryId": 189,
+            "clubId": "1098",
+            "coachId": "26630"
+          },
+          "transferDestination": {
+            "competitionId": "GB2",
+            "countryId": 189,
+            "clubId": "22",
+            "coachId": "57225"
+          },
+          "details": {
+            "playerId": "218087",
+            "date": "2026-05-31T00:00:00+02:00",
+            "contractUntilDate": "2026-06-30T00:00:00+02:00",
+            "seasonId": 2025,
+            "isPending": true,
+            "marketValue": {
+              "value": 750000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "750.00",
+                "suffix": "K"
+              }
+            },
+            "age": 31,
+            "remainingContractPeriod": {
+              "days": 0,
+              "daysDisplay": "Unknown"
+            },
+            "season": {
+              "id": 2025,
+              "display": "25/26",
+              "cyclicalName": "2026",
+              "nonCyclicalName": "25/26"
+            }
+          },
+          "typeDetails": {
+            "type": "RETURNED_FROM_PREVIOUS_LOAN",
+            "name": "End of loan",
+            "feeDescription": "End of loan"
+          },
+          "relativeUrl": "/ben-osborn/transfers/spieler/218087/transfer_id/5911869"
+        }
+      ],
+      "url": "",
+      "feeSum": {
+        "value": 3900000,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "3.90",
+          "suffix": "M"
+        }
+      },
+      "averageAge": 31,
+      "totalMarketValue": {
+        "value": 750000,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "750.00",
+          "suffix": "K"
+        }
+      }
+    },
+    "clubIds": [
+      "1098",
+      "22",
+      "350",
+      "703",
+      "12799"
+    ],
+    "coachIds": [
+      "26630",
+      "57225",
+      "15289",
+      "50470",
+      "24207",
+      "1718"
+    ],
+    "competitionIds": [
+      "GB3",
+      "GB2",
+      "GB1"
+    ],
+    "mostRecentTransfer": {
+      "id": "5911868",
+      "transferSource": {
+        "competitionId": "GB2",
+        "countryId": 189,
+        "clubId": "22",
+        "coachId": "57225"
+      },
+      "transferDestination": {
+        "competitionId": "GB3",
+        "countryId": 189,
+        "clubId": "1098",
+        "coachId": "26630"
+      },
+      "details": {
+        "playerId": "218087",
+        "date": "2025-09-01T00:00:00+02:00",
+        "contractUntilDate": "2026-05-31T00:00:00+02:00",
+        "seasonId": 2025,
+        "isPending": false,
+        "marketValue": {
+          "value": 750000,
+          "currency": "EUR",
+          "compact": {
+            "prefix": "€",
+            "content": "750.00",
+            "suffix": "K"
+          }
+        },
+        "age": 31,
+        "remainingContractPeriod": {
+          "days": 302,
+          "daysDisplay": "9 Months, 29 Days"
+        },
+        "season": {
+          "id": 2025,
+          "display": "25/26",
+          "cyclicalName": "2026",
+          "nonCyclicalName": "25/26"
+        }
+      },
+      "typeDetails": {
+        "type": "ACTIVE_LOAN_TRANSFER",
+        "name": "loan transfer",
+        "feeDescription": "loan transfer"
+      },
+      "relativeUrl": "/ben-osborn/transfers/spieler/218087/transfer_id/5911868"
+    }
+  }
+}

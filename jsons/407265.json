@@ -1,0 +1,873 @@
+{
+  "success": true,
+  "message": "OK",
+  "data": {
+    "playerId": "407265",
+    "history": {
+      "terminated": [
+        {
+          "id": "5843744",
+          "transferSource": {
+            "competitionId": "IT1",
+            "countryId": 75,
+            "clubId": "2239",
+            "coachId": "14892"
+          },
+          "transferDestination": {
+            "competitionId": "IT2",
+            "countryId": 75,
+            "clubId": "1385",
+            "coachId": "19718"
+          },
+          "details": {
+            "playerId": "407265",
+            "date": "2025-08-07T00:00:00+02:00",
+            "contractUntilDate": "2026-06-30T00:00:00+02:00",
+            "seasonId": 2025,
+            "isPending": false,
+            "marketValue": {
+              "value": 1200000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "1.20",
+                "suffix": "M"
+              }
+            },
+            "age": 27,
+            "remainingContractPeriod": {
+              "days": 692,
+              "daysDisplay": "1 Year, 10 Months, 23 Days"
+            },
+            "season": {
+              "id": 2025,
+              "display": "25/26",
+              "cyclicalName": "2026",
+              "nonCyclicalName": "25/26"
+            }
+          },
+          "typeDetails": {
+            "type": "ACTIVE_LOAN_TRANSFER",
+            "name": "loan transfer",
+            "feeDescription": "loan transfer"
+          },
+          "relativeUrl": "/luca-zanimacchia/transfers/spieler/407265/transfer_id/5843744"
+        },
+        {
+          "id": "4249060",
+          "transferSource": {
+            "competitionId": "IT2",
+            "countryId": 75,
+            "clubId": "130",
+            "coachId": "19635"
+          },
+          "transferDestination": {
+            "competitionId": "IT2",
+            "countryId": 75,
+            "clubId": "2239",
+            "coachId": "3793"
+          },
+          "details": {
+            "playerId": "407265",
+            "date": "2023-06-30T00:00:00+02:00",
+            "contractUntilDate": "2027-06-30T00:00:00+02:00",
+            "seasonId": 2022,
+            "isPending": false,
+            "marketValue": {
+              "value": 1800000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "1.80",
+                "suffix": "M"
+              }
+            },
+            "age": 24,
+            "remainingContractPeriod": {
+              "days": 0,
+              "daysDisplay": "Unknown"
+            },
+            "season": {
+              "id": 2022,
+              "display": "22/23",
+              "cyclicalName": "2023",
+              "nonCyclicalName": "22/23"
+            }
+          },
+          "typeDetails": {
+            "type": "RETURNED_FROM_PREVIOUS_LOAN",
+            "name": "End of loan",
+            "feeDescription": "End of loan"
+          },
+          "relativeUrl": "/luca-zanimacchia/transfers/spieler/407265/transfer_id/4249060"
+        },
+        {
+          "id": "4249059",
+          "transferSource": {
+            "competitionId": "IT1",
+            "countryId": 75,
+            "clubId": "2239",
+            "coachId": "3793"
+          },
+          "transferDestination": {
+            "competitionId": "IT2",
+            "countryId": 75,
+            "clubId": "130",
+            "coachId": "19635"
+          },
+          "details": {
+            "playerId": "407265",
+            "date": "2023-01-29T00:00:00+01:00",
+            "contractUntilDate": "2023-06-30T00:00:00+02:00",
+            "seasonId": 2022,
+            "isPending": false,
+            "marketValue": {
+              "value": 2000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "2.00",
+                "suffix": "M"
+              }
+            },
+            "age": 24,
+            "remainingContractPeriod": {
+              "days": 1613,
+              "daysDisplay": "4 Years, 5 Months, 1 Day"
+            },
+            "season": {
+              "id": 2022,
+              "display": "22/23",
+              "cyclicalName": "2023",
+              "nonCyclicalName": "22/23"
+            }
+          },
+          "typeDetails": {
+            "type": "ACTIVE_LOAN_TRANSFER",
+            "name": "loan transfer",
+            "feeDescription": "loan transfer"
+          },
+          "relativeUrl": "/luca-zanimacchia/transfers/spieler/407265/transfer_id/4249059"
+        },
+        {
+          "id": "4249058",
+          "transferSource": {
+            "competitionId": "IT3A",
+            "countryId": 75,
+            "clubId": "41101",
+            "coachId": "42109"
+          },
+          "transferDestination": {
+            "competitionId": "IT1",
+            "countryId": 75,
+            "clubId": "2239",
+            "coachId": "35804"
+          },
+          "details": {
+            "playerId": "407265",
+            "date": "2022-07-01T00:00:00+02:00",
+            "contractUntilDate": "2027-06-30T00:00:00+02:00",
+            "seasonId": 2022,
+            "isPending": false,
+            "marketValue": {
+              "value": 2000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "2.00",
+                "suffix": "M"
+              }
+            },
+            "age": 23,
+            "fee": {
+              "value": 3000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "3.00",
+                "suffix": "M"
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 364,
+              "daysDisplay": "11 Months, 29 Days"
+            },
+            "season": {
+              "id": 2022,
+              "display": "22/23",
+              "cyclicalName": "2023",
+              "nonCyclicalName": "22/23"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/luca-zanimacchia/transfers/spieler/407265/transfer_id/4249058"
+        },
+        {
+          "id": "3920520",
+          "transferSource": {
+            "competitionId": "IT2",
+            "countryId": 75,
+            "clubId": "2239",
+            "coachId": "35804"
+          },
+          "transferDestination": {
+            "competitionId": "IT3A",
+            "countryId": 75,
+            "clubId": "41101",
+            "coachId": "42109"
+          },
+          "details": {
+            "playerId": "407265",
+            "date": "2022-06-30T00:00:00+02:00",
+            "contractUntilDate": "2023-06-30T00:00:00+02:00",
+            "seasonId": 2021,
+            "isPending": false,
+            "marketValue": {
+              "value": 2000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "2.00",
+                "suffix": "M"
+              }
+            },
+            "age": 23,
+            "remainingContractPeriod": {
+              "days": 365,
+              "daysDisplay": "1 Year"
+            },
+            "season": {
+              "id": 2021,
+              "display": "21/22",
+              "cyclicalName": "2022",
+              "nonCyclicalName": "21/22"
+            }
+          },
+          "typeDetails": {
+            "type": "RETURNED_FROM_PREVIOUS_LOAN",
+            "name": "End of loan",
+            "feeDescription": "End of loan"
+          },
+          "relativeUrl": "/luca-zanimacchia/transfers/spieler/407265/transfer_id/3920520"
+        },
+        {
+          "id": "3430749",
+          "transferSource": {
+            "competitionId": "IT3A",
+            "countryId": 75,
+            "clubId": "41101",
+            "coachId": "22549"
+          },
+          "transferDestination": {
+            "competitionId": "IT2",
+            "countryId": 75,
+            "clubId": "2239",
+            "coachId": "19635"
+          },
+          "details": {
+            "playerId": "407265",
+            "date": "2021-07-09T00:00:00+02:00",
+            "contractUntilDate": "2023-06-30T00:00:00+02:00",
+            "seasonId": 2021,
+            "isPending": false,
+            "marketValue": {
+              "value": 400000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "400.00",
+                "suffix": "K"
+              }
+            },
+            "age": 22,
+            "remainingContractPeriod": {
+              "days": 721,
+              "daysDisplay": "1 Year, 11 Months, 21 Days"
+            },
+            "season": {
+              "id": 2021,
+              "display": "21/22",
+              "cyclicalName": "2022",
+              "nonCyclicalName": "21/22"
+            }
+          },
+          "typeDetails": {
+            "type": "ACTIVE_LOAN_TRANSFER",
+            "name": "loan transfer",
+            "feeDescription": "loan transfer"
+          },
+          "relativeUrl": "/luca-zanimacchia/transfers/spieler/407265/transfer_id/3430749"
+        },
+        {
+          "id": "3041052",
+          "transferSource": {
+            "competitionId": "ES2",
+            "countryId": 157,
+            "clubId": "142",
+            "coachId": "5178"
+          },
+          "transferDestination": {
+            "competitionId": "IT3A",
+            "countryId": 75,
+            "clubId": "41101",
+            "coachId": "22549"
+          },
+          "details": {
+            "playerId": "407265",
+            "date": "2021-06-30T00:00:00+02:00",
+            "contractUntilDate": "2023-06-30T00:00:00+02:00",
+            "seasonId": 2020,
+            "isPending": false,
+            "marketValue": {
+              "value": 400000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "400.00",
+                "suffix": "K"
+              }
+            },
+            "age": 22,
+            "remainingContractPeriod": {
+              "days": 0,
+              "daysDisplay": "Unknown"
+            },
+            "season": {
+              "id": 2020,
+              "display": "20/21",
+              "cyclicalName": "2021",
+              "nonCyclicalName": "20/21"
+            }
+          },
+          "typeDetails": {
+            "type": "RETURNED_FROM_PREVIOUS_LOAN",
+            "name": "End of loan",
+            "feeDescription": "End of loan"
+          },
+          "relativeUrl": "/luca-zanimacchia/transfers/spieler/407265/transfer_id/3041052"
+        },
+        {
+          "id": "3041051",
+          "transferSource": {
+            "competitionId": "IT3A",
+            "countryId": 75,
+            "clubId": "41101",
+            "coachId": "22549"
+          },
+          "transferDestination": {
+            "competitionId": "ES2",
+            "countryId": 157,
+            "clubId": "142",
+            "coachId": "19552"
+          },
+          "details": {
+            "playerId": "407265",
+            "date": "2020-09-01T00:00:00+02:00",
+            "contractUntilDate": "2021-06-30T00:00:00+02:00",
+            "seasonId": 2020,
+            "isPending": false,
+            "marketValue": {
+              "value": 275000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "275.00",
+                "suffix": "K"
+              }
+            },
+            "age": 22,
+            "remainingContractPeriod": {
+              "days": 1032,
+              "daysDisplay": "2 Years, 9 Months, 29 Days"
+            },
+            "season": {
+              "id": 2020,
+              "display": "20/21",
+              "cyclicalName": "2021",
+              "nonCyclicalName": "20/21"
+            }
+          },
+          "typeDetails": {
+            "type": "ACTIVE_LOAN_TRANSFER",
+            "name": "loan transfer",
+            "feeDescription": "loan transfer"
+          },
+          "relativeUrl": "/luca-zanimacchia/transfers/spieler/407265/transfer_id/3041051"
+        },
+        {
+          "id": "2391885",
+          "transferSource": {
+            "competitionId": "IT1",
+            "countryId": 75,
+            "clubId": "252",
+            "coachId": "8646"
+          },
+          "transferDestination": {
+            "competitionId": "IT3A",
+            "countryId": 75,
+            "clubId": "41101",
+            "coachId": "19635"
+          },
+          "details": {
+            "playerId": "407265",
+            "date": "2019-07-01T00:00:00+02:00",
+            "contractUntilDate": "2023-06-30T00:00:00+02:00",
+            "seasonId": 2019,
+            "isPending": false,
+            "marketValue": {
+              "value": 275000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "275.00",
+                "suffix": "K"
+              }
+            },
+            "age": 20,
+            "fee": {
+              "value": 4100000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "4.10",
+                "suffix": "M"
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 730,
+              "daysDisplay": "1 Year, 11 Months, 29 Days"
+            },
+            "season": {
+              "id": 2019,
+              "display": "19/20",
+              "cyclicalName": "2020",
+              "nonCyclicalName": "19/20"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/luca-zanimacchia/transfers/spieler/407265/transfer_id/2391885"
+        },
+        {
+          "id": "2229044",
+          "transferSource": {
+            "competitionId": "IT3A",
+            "countryId": 75,
+            "clubId": "41101",
+            "coachId": "0"
+          },
+          "transferDestination": {
+            "competitionId": "IT1",
+            "countryId": 75,
+            "clubId": "252",
+            "coachId": "521"
+          },
+          "details": {
+            "playerId": "407265",
+            "date": "2019-06-30T00:00:00+02:00",
+            "contractUntilDate": "2021-06-30T00:00:00+02:00",
+            "seasonId": 2018,
+            "isPending": false,
+            "marketValue": {
+              "value": 275000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "275.00",
+                "suffix": "K"
+              }
+            },
+            "age": 20,
+            "season": {
+              "id": 2018,
+              "display": "18/19",
+              "cyclicalName": "2019",
+              "nonCyclicalName": "18/19"
+            }
+          },
+          "typeDetails": {
+            "type": "RETURNED_FROM_PREVIOUS_LOAN",
+            "name": "End of loan",
+            "feeDescription": "End of loan"
+          },
+          "relativeUrl": "/luca-zanimacchia/transfers/spieler/407265/transfer_id/2229044"
+        },
+        {
+          "id": "2229043",
+          "transferSource": {
+            "competitionId": "IT1",
+            "countryId": 75,
+            "clubId": "252",
+            "coachId": "3793"
+          },
+          "transferDestination": {
+            "competitionId": "IT3A",
+            "countryId": 75,
+            "clubId": "41101",
+            "coachId": "23945"
+          },
+          "details": {
+            "playerId": "407265",
+            "date": "2018-08-17T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2018,
+            "isPending": false,
+            "marketValue": {
+              "value": 200000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "200.00",
+                "suffix": "K"
+              }
+            },
+            "age": 20,
+            "remainingContractPeriod": {
+              "days": 317,
+              "daysDisplay": "10 Months, 13 Days"
+            },
+            "season": {
+              "id": 2018,
+              "display": "18/19",
+              "cyclicalName": "2019",
+              "nonCyclicalName": "18/19"
+            }
+          },
+          "typeDetails": {
+            "type": "ACTIVE_LOAN_TRANSFER",
+            "name": "loan transfer",
+            "feeDescription": "loan transfer"
+          },
+          "relativeUrl": "/luca-zanimacchia/transfers/spieler/407265/transfer_id/2229043"
+        },
+        {
+          "id": "2167194",
+          "transferSource": {
+            "competitionId": "IJ1",
+            "countryId": 75,
+            "clubId": "8517",
+            "coachId": "7492"
+          },
+          "transferDestination": {
+            "competitionId": "IT1",
+            "countryId": 75,
+            "clubId": "252",
+            "coachId": "3793"
+          },
+          "details": {
+            "playerId": "407265",
+            "date": "2018-07-01T00:00:00+02:00",
+            "contractUntilDate": "2019-06-30T00:00:00+02:00",
+            "seasonId": 2018,
+            "isPending": false,
+            "marketValue": {
+              "value": 200000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "200.00",
+                "suffix": "K"
+              }
+            },
+            "age": 19,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 364,
+              "daysDisplay": "11 Months, 29 Days"
+            },
+            "season": {
+              "id": 2018,
+              "display": "18/19",
+              "cyclicalName": "2019",
+              "nonCyclicalName": "18/19"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/luca-zanimacchia/transfers/spieler/407265/transfer_id/2167194"
+        },
+        {
+          "id": "1484573",
+          "transferSource": {
+            "competitionId": "IT4C",
+            "countryId": 75,
+            "clubId": "30066",
+            "coachId": "43466"
+          },
+          "transferDestination": {
+            "competitionId": "ITJ3",
+            "countryId": 75,
+            "clubId": "8517",
+            "coachId": "14878"
+          },
+          "details": {
+            "playerId": "407265",
+            "date": "2016-07-19T00:00:00+02:00",
+            "contractUntilDate": "2019-06-30T00:00:00+02:00",
+            "seasonId": 2016,
+            "isPending": false,
+            "marketValue": {
+              "value": 125000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "125.00",
+                "suffix": "K"
+              }
+            },
+            "age": 18,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "?",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2016,
+              "display": "16/17",
+              "cyclicalName": "2017",
+              "nonCyclicalName": "16/17"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/luca-zanimacchia/transfers/spieler/407265/transfer_id/1484573"
+        },
+        {
+          "id": "2504020",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 75,
+            "clubId": "84750",
+            "coachId": "0"
+          },
+          "transferDestination": {
+            "competitionId": "IT4D",
+            "countryId": 75,
+            "clubId": "30066",
+            "coachId": "43466"
+          },
+          "details": {
+            "playerId": "407265",
+            "date": "2015-07-01T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2015,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 16,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "Free Transfer",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2015,
+              "display": "15/16",
+              "cyclicalName": "2016",
+              "nonCyclicalName": "15/16"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/luca-zanimacchia/transfers/spieler/407265/transfer_id/2504020"
+        }
+      ],
+      "pending": [
+        {
+          "id": "5843745",
+          "transferSource": {
+            "competitionId": "IT2",
+            "countryId": 75,
+            "clubId": "1385",
+            "coachId": "19718"
+          },
+          "transferDestination": {
+            "competitionId": "IT1",
+            "countryId": 75,
+            "clubId": "2239",
+            "coachId": "3257"
+          },
+          "details": {
+            "playerId": "407265",
+            "date": "2026-06-30T00:00:00+02:00",
+            "contractUntilDate": "2027-06-30T00:00:00+02:00",
+            "seasonId": 2025,
+            "isPending": true,
+            "marketValue": {
+              "value": 1200000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "1.20",
+                "suffix": "M"
+              }
+            },
+            "age": 27,
+            "remainingContractPeriod": {
+              "days": 0,
+              "daysDisplay": "Unknown"
+            },
+            "season": {
+              "id": 2025,
+              "display": "25/26",
+              "cyclicalName": "2026",
+              "nonCyclicalName": "25/26"
+            }
+          },
+          "typeDetails": {
+            "type": "RETURNED_FROM_PREVIOUS_LOAN",
+            "name": "End of loan",
+            "feeDescription": "End of loan"
+          },
+          "relativeUrl": "/luca-zanimacchia/transfers/spieler/407265/transfer_id/5843745"
+        }
+      ],
+      "url": "",
+      "feeSum": {
+        "value": 7100000,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "7.10",
+          "suffix": "M"
+        }
+      },
+      "averageAge": 27,
+      "totalMarketValue": {
+        "value": 1200000,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "1.20",
+          "suffix": "M"
+        }
+      }
+    },
+    "clubIds": [
+      "1385",
+      "2239",
+      "130",
+      "41101",
+      "142",
+      "252",
+      "8517",
+      "30066",
+      "84750"
+    ],
+    "coachIds": [
+      "19718",
+      "3257",
+      "14892",
+      "19635",
+      "3793",
+      "42109",
+      "35804",
+      "22549",
+      "5178",
+      "19552",
+      "8646",
+      "521",
+      "23945",
+      "7492",
+      "43466",
+      "14878"
+    ],
+    "competitionIds": [
+      "IT2",
+      "IT1",
+      "IT3A",
+      "ES2",
+      "IJ1",
+      "IT4C",
+      "ITJ3",
+      "IT4D"
+    ],
+    "mostRecentTransfer": {
+      "id": "5843744",
+      "transferSource": {
+        "competitionId": "IT1",
+        "countryId": 75,
+        "clubId": "2239",
+        "coachId": "14892"
+      },
+      "transferDestination": {
+        "competitionId": "IT2",
+        "countryId": 75,
+        "clubId": "1385",
+        "coachId": "19718"
+      },
+      "details": {
+        "playerId": "407265",
+        "date": "2025-08-07T00:00:00+02:00",
+        "contractUntilDate": "2026-06-30T00:00:00+02:00",
+        "seasonId": 2025,
+        "isPending": false,
+        "marketValue": {
+          "value": 1200000,
+          "currency": "EUR",
+          "compact": {
+            "prefix": "€",
+            "content": "1.20",
+            "suffix": "M"
+          }
+        },
+        "age": 27,
+        "remainingContractPeriod": {
+          "days": 692,
+          "daysDisplay": "1 Year, 10 Months, 23 Days"
+        },
+        "season": {
+          "id": 2025,
+          "display": "25/26",
+          "cyclicalName": "2026",
+          "nonCyclicalName": "25/26"
+        }
+      },
+      "typeDetails": {
+        "type": "ACTIVE_LOAN_TRANSFER",
+        "name": "loan transfer",
+        "feeDescription": "loan transfer"
+      },
+      "relativeUrl": "/luca-zanimacchia/transfers/spieler/407265/transfer_id/5843744"
+    }
+  }
+}

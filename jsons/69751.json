@@ -1,0 +1,641 @@
+{
+  "success": true,
+  "message": "OK",
+  "data": {
+    "playerId": "69751",
+    "history": {
+      "terminated": [
+        {
+          "id": "5974126",
+          "transferSource": {
+            "competitionId": "MLS1",
+            "countryId": 184,
+            "clubId": "69261",
+            "coachId": "95593"
+          },
+          "transferDestination": {
+            "competitionId": "",
+            "countryId": 0,
+            "clubId": "123",
+            "coachId": "0"
+          },
+          "details": {
+            "playerId": "69751",
+            "date": "2026-01-01T00:00:00+01:00",
+            "contractUntilDate": null,
+            "seasonId": 2025,
+            "isPending": false,
+            "marketValue": {
+              "value": 1000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "1.00",
+                "suffix": "M"
+              }
+            },
+            "age": 36,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 729,
+              "daysDisplay": "1 Year, 11 Months, 30 Days"
+            },
+            "season": {
+              "id": 2025,
+              "display": "25/26",
+              "cyclicalName": "2026",
+              "nonCyclicalName": "25/26"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/jordi-alba/transfers/spieler/69751/transfer_id/5974126"
+        },
+        {
+          "id": "4409571",
+          "transferSource": {
+            "competitionId": "ES1",
+            "countryId": 157,
+            "clubId": "131",
+            "coachId": "59876"
+          },
+          "transferDestination": {
+            "competitionId": "MLS1",
+            "countryId": 184,
+            "clubId": "69261",
+            "coachId": "5616"
+          },
+          "details": {
+            "playerId": "69751",
+            "date": "2023-07-20T00:00:00+02:00",
+            "contractUntilDate": "2027-12-31T00:00:00+01:00",
+            "seasonId": 2023,
+            "isPending": false,
+            "marketValue": {
+              "value": 5000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "5.00",
+                "suffix": "M"
+              }
+            },
+            "age": 34,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "Free Transfer",
+                "suffix": ""
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 346,
+              "daysDisplay": "11 Months, 10 Days"
+            },
+            "season": {
+              "id": 2023,
+              "display": "23/24",
+              "cyclicalName": "2024",
+              "nonCyclicalName": "23/24"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/jordi-alba/transfers/spieler/69751/transfer_id/4409571"
+        },
+        {
+          "id": "737393",
+          "transferSource": {
+            "competitionId": "ES1",
+            "countryId": 157,
+            "clubId": "1049",
+            "coachId": "7827"
+          },
+          "transferDestination": {
+            "competitionId": "ES1",
+            "countryId": 157,
+            "clubId": "131",
+            "coachId": "5685"
+          },
+          "details": {
+            "playerId": "69751",
+            "date": "2012-07-01T00:00:00+02:00",
+            "contractUntilDate": "2024-06-30T00:00:00+02:00",
+            "seasonId": 2012,
+            "isPending": false,
+            "marketValue": {
+              "value": 10000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "10.00",
+                "suffix": "M"
+              }
+            },
+            "age": 23,
+            "fee": {
+              "value": 14000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "14.00",
+                "suffix": "M"
+              }
+            },
+            "season": {
+              "id": 2012,
+              "display": "12/13",
+              "cyclicalName": "2013",
+              "nonCyclicalName": "12/13"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/jordi-alba/transfers/spieler/69751/transfer_id/737393"
+        },
+        {
+          "id": "214434",
+          "transferSource": {
+            "competitionId": "ES2",
+            "countryId": 157,
+            "clubId": "5648",
+            "coachId": "1551"
+          },
+          "transferDestination": {
+            "competitionId": "ES1",
+            "countryId": 157,
+            "clubId": "1049",
+            "coachId": "5075"
+          },
+          "details": {
+            "playerId": "69751",
+            "date": "2009-06-30T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2008,
+            "isPending": false,
+            "marketValue": {
+              "value": 600000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "600.00",
+                "suffix": "K"
+              }
+            },
+            "age": 20,
+            "season": {
+              "id": 2008,
+              "display": "08/09",
+              "cyclicalName": "2009",
+              "nonCyclicalName": "08/09"
+            }
+          },
+          "typeDetails": {
+            "type": "RETURNED_FROM_PREVIOUS_LOAN",
+            "name": "End of loan",
+            "feeDescription": "End of loan"
+          },
+          "relativeUrl": "/jordi-alba/transfers/spieler/69751/transfer_id/214434"
+        },
+        {
+          "id": "214435",
+          "transferSource": {
+            "competitionId": "ES1",
+            "countryId": 157,
+            "clubId": "1049",
+            "coachId": "5075"
+          },
+          "transferDestination": {
+            "competitionId": "ES2",
+            "countryId": 157,
+            "clubId": "5648",
+            "coachId": "1551"
+          },
+          "details": {
+            "playerId": "69751",
+            "date": "2008-07-22T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2008,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 19,
+            "season": {
+              "id": 2008,
+              "display": "08/09",
+              "cyclicalName": "2009",
+              "nonCyclicalName": "08/09"
+            }
+          },
+          "typeDetails": {
+            "type": "ACTIVE_LOAN_TRANSFER",
+            "name": "loan transfer",
+            "feeDescription": "loan transfer"
+          },
+          "relativeUrl": "/jordi-alba/transfers/spieler/69751/transfer_id/214435"
+        },
+        {
+          "id": "641343",
+          "transferSource": {
+            "competitionId": "ES3C",
+            "countryId": 157,
+            "clubId": "6182",
+            "coachId": "5424"
+          },
+          "transferDestination": {
+            "competitionId": "ES1",
+            "countryId": 157,
+            "clubId": "1049",
+            "coachId": "5075"
+          },
+          "details": {
+            "playerId": "69751",
+            "date": "2008-07-01T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2008,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 19,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2008,
+              "display": "08/09",
+              "cyclicalName": "2009",
+              "nonCyclicalName": "08/09"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/jordi-alba/transfers/spieler/69751/transfer_id/641343"
+        },
+        {
+          "id": "183366",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 157,
+            "clubId": "70373",
+            "coachId": "0"
+          },
+          "transferDestination": {
+            "competitionId": "",
+            "countryId": 157,
+            "clubId": "6182",
+            "coachId": "5424"
+          },
+          "details": {
+            "playerId": "69751",
+            "date": "2007-07-01T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2007,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 18,
+            "fee": {
+              "value": 6000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2007,
+              "display": "07/08",
+              "cyclicalName": "2008",
+              "nonCyclicalName": "07/08"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/jordi-alba/transfers/spieler/69751/transfer_id/183366"
+        },
+        {
+          "id": "672068",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 157,
+            "clubId": "39813",
+            "coachId": "24339"
+          },
+          "transferDestination": {
+            "competitionId": "",
+            "countryId": 157,
+            "clubId": "70373",
+            "coachId": "0"
+          },
+          "details": {
+            "playerId": "69751",
+            "date": "2005-07-01T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2005,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 16,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "Free Transfer",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2005,
+              "display": "05/06",
+              "cyclicalName": "2006",
+              "nonCyclicalName": "05/06"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/jordi-alba/transfers/spieler/69751/transfer_id/672068"
+        },
+        {
+          "id": "2430778",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 157,
+            "clubId": "14321",
+            "coachId": "20853"
+          },
+          "transferDestination": {
+            "competitionId": "",
+            "countryId": 157,
+            "clubId": "39813",
+            "coachId": "4693"
+          },
+          "details": {
+            "playerId": "69751",
+            "date": "2004-07-01T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2004,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 15,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2004,
+              "display": "04/05",
+              "cyclicalName": "2005",
+              "nonCyclicalName": "04/05"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/jordi-alba/transfers/spieler/69751/transfer_id/2430778"
+        },
+        {
+          "id": "2697434",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 157,
+            "clubId": "70295",
+            "coachId": "59279"
+          },
+          "transferDestination": {
+            "competitionId": "",
+            "countryId": 157,
+            "clubId": "14321",
+            "coachId": "20853"
+          },
+          "details": {
+            "playerId": "69751",
+            "date": "2003-07-01T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2003,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 14,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2003,
+              "display": "03/04",
+              "cyclicalName": "2004",
+              "nonCyclicalName": "03/04"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/jordi-alba/transfers/spieler/69751/transfer_id/2697434"
+        }
+      ],
+      "pending": [],
+      "url": "",
+      "feeSum": {
+        "value": 14006000,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "14.01",
+          "suffix": "M"
+        }
+      },
+      "averageAge": 37,
+      "totalMarketValue": {
+        "value": 0,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "0.00",
+          "suffix": ""
+        }
+      }
+    },
+    "clubIds": [
+      "69261",
+      "123",
+      "131",
+      "1049",
+      "5648",
+      "6182",
+      "70373",
+      "39813",
+      "14321",
+      "70295"
+    ],
+    "coachIds": [
+      "95593",
+      "59876",
+      "5616",
+      "7827",
+      "5685",
+      "1551",
+      "5075",
+      "5424",
+      "24339",
+      "20853",
+      "4693",
+      "59279"
+    ],
+    "competitionIds": [
+      "MLS1",
+      "ES1",
+      "ES2",
+      "ES3C"
+    ],
+    "mostRecentTransfer": {
+      "id": "5974126",
+      "transferSource": {
+        "competitionId": "MLS1",
+        "countryId": 184,
+        "clubId": "69261",
+        "coachId": "95593"
+      },
+      "transferDestination": {
+        "competitionId": "",
+        "countryId": 0,
+        "clubId": "123",
+        "coachId": "0"
+      },
+      "details": {
+        "playerId": "69751",
+        "date": "2026-01-01T00:00:00+01:00",
+        "contractUntilDate": null,
+        "seasonId": 2025,
+        "isPending": false,
+        "marketValue": {
+          "value": 1000000,
+          "currency": "EUR",
+          "compact": {
+            "prefix": "€",
+            "content": "1.00",
+            "suffix": "M"
+          }
+        },
+        "age": 36,
+        "fee": {
+          "value": null,
+          "currency": "",
+          "compact": {
+            "prefix": "",
+            "content": "-",
+            "suffix": ""
+          }
+        },
+        "remainingContractPeriod": {
+          "days": 729,
+          "daysDisplay": "1 Year, 11 Months, 30 Days"
+        },
+        "season": {
+          "id": 2025,
+          "display": "25/26",
+          "cyclicalName": "2026",
+          "nonCyclicalName": "25/26"
+        }
+      },
+      "typeDetails": {
+        "type": "STANDARD",
+        "name": "",
+        "feeDescription": ""
+      },
+      "relativeUrl": "/jordi-alba/transfers/spieler/69751/transfer_id/5974126"
+    }
+  }
+}

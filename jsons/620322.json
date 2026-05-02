@@ -1,0 +1,531 @@
+{
+  "success": true,
+  "message": "OK",
+  "data": {
+    "playerId": "620322",
+    "history": {
+      "terminated": [
+        {
+          "id": "4248119",
+          "transferSource": {
+            "competitionId": "FR1",
+            "countryId": 50,
+            "clubId": "1041",
+            "coachId": "4589"
+          },
+          "transferDestination": {
+            "competitionId": "GB1",
+            "countryId": 189,
+            "clubId": "631",
+            "coachId": "60805"
+          },
+          "details": {
+            "playerId": "620322",
+            "date": "2023-06-30T00:00:00+02:00",
+            "contractUntilDate": "2030-06-30T00:00:00+02:00",
+            "seasonId": 2022,
+            "isPending": false,
+            "marketValue": {
+              "value": 25000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "25.00",
+                "suffix": "M"
+              }
+            },
+            "age": 20,
+            "remainingContractPeriod": {
+              "days": 0,
+              "daysDisplay": "Unknown"
+            },
+            "season": {
+              "id": 2022,
+              "display": "22/23",
+              "cyclicalName": "2023",
+              "nonCyclicalName": "22/23"
+            }
+          },
+          "typeDetails": {
+            "type": "RETURNED_FROM_PREVIOUS_LOAN",
+            "name": "End of loan",
+            "feeDescription": "End of loan"
+          },
+          "relativeUrl": "/malo-gusto/transfers/spieler/620322/transfer_id/4248119"
+        },
+        {
+          "id": "4248118",
+          "transferSource": {
+            "competitionId": "GB1",
+            "countryId": 189,
+            "clubId": "631",
+            "coachId": "23954"
+          },
+          "transferDestination": {
+            "competitionId": "FR1",
+            "countryId": 50,
+            "clubId": "1041",
+            "coachId": "4589"
+          },
+          "details": {
+            "playerId": "620322",
+            "date": "2023-01-30T00:00:00+01:00",
+            "contractUntilDate": "2023-06-30T00:00:00+02:00",
+            "seasonId": 2022,
+            "isPending": false,
+            "marketValue": {
+              "value": 15000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "15.00",
+                "suffix": "M"
+              }
+            },
+            "age": 19,
+            "remainingContractPeriod": {
+              "days": 2708,
+              "daysDisplay": "7 Years, 5 Months"
+            },
+            "season": {
+              "id": 2022,
+              "display": "22/23",
+              "cyclicalName": "2023",
+              "nonCyclicalName": "22/23"
+            }
+          },
+          "typeDetails": {
+            "type": "ACTIVE_LOAN_TRANSFER",
+            "name": "loan transfer",
+            "feeDescription": "loan transfer"
+          },
+          "relativeUrl": "/malo-gusto/transfers/spieler/620322/transfer_id/4248118"
+        },
+        {
+          "id": "4248115",
+          "transferSource": {
+            "competitionId": "FR1",
+            "countryId": 50,
+            "clubId": "1041",
+            "coachId": "4589"
+          },
+          "transferDestination": {
+            "competitionId": "GB1",
+            "countryId": 189,
+            "clubId": "631",
+            "coachId": "23954"
+          },
+          "details": {
+            "playerId": "620322",
+            "date": "2023-01-29T00:00:00+01:00",
+            "contractUntilDate": "2030-06-30T00:00:00+02:00",
+            "seasonId": 2022,
+            "isPending": false,
+            "marketValue": {
+              "value": 15000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "15.00",
+                "suffix": "M"
+              }
+            },
+            "age": 19,
+            "fee": {
+              "value": 30000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "30.00",
+                "suffix": "M"
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 518,
+              "daysDisplay": "1 Year, 5 Months, 1 Day"
+            },
+            "season": {
+              "id": 2022,
+              "display": "22/23",
+              "cyclicalName": "2023",
+              "nonCyclicalName": "22/23"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/malo-gusto/transfers/spieler/620322/transfer_id/4248115"
+        },
+        {
+          "id": "3425523",
+          "transferSource": {
+            "competitionId": "CN2C",
+            "countryId": 50,
+            "clubId": "12764",
+            "coachId": "61491"
+          },
+          "transferDestination": {
+            "competitionId": "FR1",
+            "countryId": 50,
+            "clubId": "1041",
+            "coachId": "1269"
+          },
+          "details": {
+            "playerId": "620322",
+            "date": "2021-07-01T00:00:00+02:00",
+            "contractUntilDate": "2024-06-30T00:00:00+02:00",
+            "seasonId": 2021,
+            "isPending": false,
+            "marketValue": {
+              "value": 500000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "500.00",
+                "suffix": "K"
+              }
+            },
+            "age": 18,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 729,
+              "daysDisplay": "1 Year, 11 Months, 29 Days"
+            },
+            "season": {
+              "id": 2021,
+              "display": "21/22",
+              "cyclicalName": "2022",
+              "nonCyclicalName": "21/22"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/malo-gusto/transfers/spieler/620322/transfer_id/3425523"
+        },
+        {
+          "id": "3264772",
+          "transferSource": {
+            "competitionId": "F19B",
+            "countryId": 50,
+            "clubId": "7813",
+            "coachId": "23296"
+          },
+          "transferDestination": {
+            "competitionId": "CN2C",
+            "countryId": 50,
+            "clubId": "12764",
+            "coachId": "61491"
+          },
+          "details": {
+            "playerId": "620322",
+            "date": "2020-07-01T00:00:00+02:00",
+            "contractUntilDate": "2023-06-30T00:00:00+02:00",
+            "seasonId": 2020,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 17,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 729,
+              "daysDisplay": "1 Year, 11 Months, 29 Days"
+            },
+            "season": {
+              "id": 2020,
+              "display": "20/21",
+              "cyclicalName": "2021",
+              "nonCyclicalName": "20/21"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/malo-gusto/transfers/spieler/620322/transfer_id/3264772"
+        },
+        {
+          "id": "2793876",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 50,
+            "clubId": "106295",
+            "coachId": "120162"
+          },
+          "transferDestination": {
+            "competitionId": "F19B",
+            "countryId": 50,
+            "clubId": "7813",
+            "coachId": "0"
+          },
+          "details": {
+            "playerId": "620322",
+            "date": "2019-07-01T00:00:00+02:00",
+            "contractUntilDate": "2022-06-30T00:00:00+02:00",
+            "seasonId": 2019,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 16,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2019,
+              "display": "19/20",
+              "cyclicalName": "2020",
+              "nonCyclicalName": "19/20"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/malo-gusto/transfers/spieler/620322/transfer_id/2793876"
+        },
+        {
+          "id": "6094325",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 50,
+            "clubId": "69570",
+            "coachId": "0"
+          },
+          "transferDestination": {
+            "competitionId": "",
+            "countryId": 50,
+            "clubId": "106295",
+            "coachId": "141854"
+          },
+          "details": {
+            "playerId": "620322",
+            "date": "2018-07-01T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2018,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 15,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2018,
+              "display": "18/19",
+              "cyclicalName": "2019",
+              "nonCyclicalName": "18/19"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/malo-gusto/transfers/spieler/620322/transfer_id/6094325"
+        },
+        {
+          "id": "6094324",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 50,
+            "clubId": "112385",
+            "coachId": "0"
+          },
+          "transferDestination": {
+            "competitionId": "",
+            "countryId": 50,
+            "clubId": "69570",
+            "coachId": "0"
+          },
+          "details": {
+            "playerId": "620322",
+            "date": "2016-07-01T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2016,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 13,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "Free Transfer",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2016,
+              "display": "16/17",
+              "cyclicalName": "2017",
+              "nonCyclicalName": "16/17"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/malo-gusto/transfers/spieler/620322/transfer_id/6094324"
+        }
+      ],
+      "pending": [],
+      "url": "",
+      "feeSum": {
+        "value": 30000000,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "30.00",
+          "suffix": "M"
+        }
+      },
+      "averageAge": 22,
+      "totalMarketValue": {
+        "value": 35000000,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "35.00",
+          "suffix": "M"
+        }
+      }
+    },
+    "clubIds": [
+      "1041",
+      "631",
+      "12764",
+      "7813",
+      "106295",
+      "69570",
+      "112385"
+    ],
+    "coachIds": [
+      "4589",
+      "60805",
+      "23954",
+      "61491",
+      "1269",
+      "23296",
+      "120162",
+      "141854"
+    ],
+    "competitionIds": [
+      "FR1",
+      "GB1",
+      "CN2C",
+      "F19B"
+    ],
+    "mostRecentTransfer": {
+      "id": "4248119",
+      "transferSource": {
+        "competitionId": "FR1",
+        "countryId": 50,
+        "clubId": "1041",
+        "coachId": "4589"
+      },
+      "transferDestination": {
+        "competitionId": "GB1",
+        "countryId": 189,
+        "clubId": "631",
+        "coachId": "60805"
+      },
+      "details": {
+        "playerId": "620322",
+        "date": "2023-06-30T00:00:00+02:00",
+        "contractUntilDate": "2030-06-30T00:00:00+02:00",
+        "seasonId": 2022,
+        "isPending": false,
+        "marketValue": {
+          "value": 25000000,
+          "currency": "EUR",
+          "compact": {
+            "prefix": "€",
+            "content": "25.00",
+            "suffix": "M"
+          }
+        },
+        "age": 20,
+        "remainingContractPeriod": {
+          "days": 0,
+          "daysDisplay": "Unknown"
+        },
+        "season": {
+          "id": 2022,
+          "display": "22/23",
+          "cyclicalName": "2023",
+          "nonCyclicalName": "22/23"
+        }
+      },
+      "typeDetails": {
+        "type": "RETURNED_FROM_PREVIOUS_LOAN",
+        "name": "End of loan",
+        "feeDescription": "End of loan"
+      },
+      "relativeUrl": "/malo-gusto/transfers/spieler/620322/transfer_id/4248119"
+    }
+  }
+}

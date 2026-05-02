@@ -1,0 +1,726 @@
+{
+  "success": true,
+  "message": "OK",
+  "data": {
+    "playerId": "469669",
+    "history": {
+      "terminated": [
+        {
+          "id": "6157194",
+          "transferSource": {
+            "competitionId": "ES1",
+            "countryId": 157,
+            "clubId": "3709",
+            "coachId": "6440"
+          },
+          "transferDestination": {
+            "competitionId": "SA1",
+            "countryId": 146,
+            "clubId": "71665",
+            "coachId": "13105"
+          },
+          "details": {
+            "playerId": "469669",
+            "date": "2026-01-31T00:00:00+01:00",
+            "contractUntilDate": "2026-06-30T00:00:00+02:00",
+            "seasonId": 2025,
+            "isPending": false,
+            "marketValue": {
+              "value": 2500000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "2.50",
+                "suffix": "M"
+              }
+            },
+            "age": 29,
+            "remainingContractPeriod": {
+              "days": 881,
+              "daysDisplay": "2 Years, 4 Months, 30 Days"
+            },
+            "season": {
+              "id": 2025,
+              "display": "25/26",
+              "cyclicalName": "2026",
+              "nonCyclicalName": "25/26"
+            }
+          },
+          "typeDetails": {
+            "type": "ACTIVE_LOAN_TRANSFER",
+            "name": "loan transfer",
+            "feeDescription": "loan transfer"
+          },
+          "relativeUrl": "/yvan-neyou/transfers/spieler/469669/transfer_id/6157194"
+        },
+        {
+          "id": "5740623",
+          "transferSource": {
+            "competitionId": "ES2",
+            "countryId": 157,
+            "clubId": "1244",
+            "coachId": "8115"
+          },
+          "transferDestination": {
+            "competitionId": "ES1",
+            "countryId": 157,
+            "clubId": "3709",
+            "coachId": "6440"
+          },
+          "details": {
+            "playerId": "469669",
+            "date": "2025-07-01T00:00:00+02:00",
+            "contractUntilDate": "2028-06-30T00:00:00+02:00",
+            "seasonId": 2025,
+            "isPending": false,
+            "marketValue": {
+              "value": 3000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "3.00",
+                "suffix": "M"
+              }
+            },
+            "age": 28,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "Free Transfer",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2025,
+              "display": "25/26",
+              "cyclicalName": "2026",
+              "nonCyclicalName": "25/26"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/yvan-neyou/transfers/spieler/469669/transfer_id/5740623"
+        },
+        {
+          "id": "4551294",
+          "transferSource": {
+            "competitionId": "FR2",
+            "countryId": 50,
+            "clubId": "618",
+            "coachId": "30609"
+          },
+          "transferDestination": {
+            "competitionId": "ES2",
+            "countryId": 157,
+            "clubId": "1244",
+            "coachId": "43500"
+          },
+          "details": {
+            "playerId": "469669",
+            "date": "2023-08-01T00:00:00+02:00",
+            "contractUntilDate": "2025-06-30T00:00:00+02:00",
+            "seasonId": 2023,
+            "isPending": false,
+            "marketValue": {
+              "value": 1000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "1.00",
+                "suffix": "M"
+              }
+            },
+            "age": 26,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "Free Transfer",
+                "suffix": ""
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 334,
+              "daysDisplay": "10 Months, 29 Days"
+            },
+            "season": {
+              "id": 2023,
+              "display": "23/24",
+              "cyclicalName": "2024",
+              "nonCyclicalName": "23/24"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/yvan-neyou/transfers/spieler/469669/transfer_id/4551294"
+        },
+        {
+          "id": "4047260",
+          "transferSource": {
+            "competitionId": "ES2",
+            "countryId": 157,
+            "clubId": "1244",
+            "coachId": "49170"
+          },
+          "transferDestination": {
+            "competitionId": "FR2",
+            "countryId": 50,
+            "clubId": "618",
+            "coachId": "30609"
+          },
+          "details": {
+            "playerId": "469669",
+            "date": "2023-06-30T00:00:00+02:00",
+            "contractUntilDate": "2024-06-30T00:00:00+02:00",
+            "seasonId": 2022,
+            "isPending": false,
+            "marketValue": {
+              "value": 1000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "1.00",
+                "suffix": "M"
+              }
+            },
+            "age": 26,
+            "remainingContractPeriod": {
+              "days": 0,
+              "daysDisplay": "Unknown"
+            },
+            "season": {
+              "id": 2022,
+              "display": "22/23",
+              "cyclicalName": "2023",
+              "nonCyclicalName": "22/23"
+            }
+          },
+          "typeDetails": {
+            "type": "RETURNED_FROM_PREVIOUS_LOAN",
+            "name": "End of loan",
+            "feeDescription": "End of loan"
+          },
+          "relativeUrl": "/yvan-neyou/transfers/spieler/469669/transfer_id/4047260"
+        },
+        {
+          "id": "4047259",
+          "transferSource": {
+            "competitionId": "FR2",
+            "countryId": 50,
+            "clubId": "618",
+            "coachId": "30609"
+          },
+          "transferDestination": {
+            "competitionId": "ES2",
+            "countryId": 157,
+            "clubId": "1244",
+            "coachId": "20198"
+          },
+          "details": {
+            "playerId": "469669",
+            "date": "2022-08-31T00:00:00+02:00",
+            "contractUntilDate": "2023-06-30T00:00:00+02:00",
+            "seasonId": 2022,
+            "isPending": false,
+            "marketValue": {
+              "value": 3000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "3.00",
+                "suffix": "M"
+              }
+            },
+            "age": 25,
+            "remainingContractPeriod": {
+              "days": 669,
+              "daysDisplay": "1 Year, 9 Months, 30 Days"
+            },
+            "season": {
+              "id": 2022,
+              "display": "22/23",
+              "cyclicalName": "2023",
+              "nonCyclicalName": "22/23"
+            }
+          },
+          "typeDetails": {
+            "type": "ACTIVE_LOAN_TRANSFER",
+            "name": "loan transfer",
+            "feeDescription": "loan transfer"
+          },
+          "relativeUrl": "/yvan-neyou/transfers/spieler/469669/transfer_id/4047259"
+        },
+        {
+          "id": "3143770",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 136,
+            "clubId": "10789",
+            "coachId": "69307"
+          },
+          "transferDestination": {
+            "competitionId": "FR1",
+            "countryId": 50,
+            "clubId": "618",
+            "coachId": "1240"
+          },
+          "details": {
+            "playerId": "469669",
+            "date": "2021-01-02T00:00:00+01:00",
+            "contractUntilDate": "2024-06-30T00:00:00+02:00",
+            "seasonId": 2020,
+            "isPending": false,
+            "marketValue": {
+              "value": 2500000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "2.50",
+                "suffix": "M"
+              }
+            },
+            "age": 23,
+            "fee": {
+              "value": 1000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "1.00",
+                "suffix": "M"
+              }
+            },
+            "season": {
+              "id": 2020,
+              "display": "20/21",
+              "cyclicalName": "2021",
+              "nonCyclicalName": "20/21"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/yvan-neyou/transfers/spieler/469669/transfer_id/3143770"
+        },
+        {
+          "id": "2963626",
+          "transferSource": {
+            "competitionId": "FR1",
+            "countryId": 50,
+            "clubId": "618",
+            "coachId": "1240"
+          },
+          "transferDestination": {
+            "competitionId": "",
+            "countryId": 136,
+            "clubId": "10789",
+            "coachId": "69307"
+          },
+          "details": {
+            "playerId": "469669",
+            "date": "2021-01-01T00:00:00+01:00",
+            "contractUntilDate": null,
+            "seasonId": 2020,
+            "isPending": false,
+            "marketValue": {
+              "value": 2500000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "2.50",
+                "suffix": "M"
+              }
+            },
+            "age": 23,
+            "remainingContractPeriod": {
+              "days": 180,
+              "daysDisplay": "5 Months, 29 Days"
+            },
+            "season": {
+              "id": 2020,
+              "display": "20/21",
+              "cyclicalName": "2021",
+              "nonCyclicalName": "20/21"
+            }
+          },
+          "typeDetails": {
+            "type": "RETURNED_FROM_PREVIOUS_LOAN",
+            "name": "End of loan",
+            "feeDescription": "End of loan"
+          },
+          "relativeUrl": "/yvan-neyou/transfers/spieler/469669/transfer_id/2963626"
+        },
+        {
+          "id": "2963625",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 136,
+            "clubId": "10789",
+            "coachId": "69307"
+          },
+          "transferDestination": {
+            "competitionId": "FR1",
+            "countryId": 50,
+            "clubId": "618",
+            "coachId": "1240"
+          },
+          "details": {
+            "playerId": "469669",
+            "date": "2020-07-09T00:00:00+02:00",
+            "contractUntilDate": "2021-06-30T00:00:00+02:00",
+            "seasonId": 2020,
+            "isPending": false,
+            "marketValue": {
+              "value": 150000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "150.00",
+                "suffix": "K"
+              }
+            },
+            "age": 23,
+            "season": {
+              "id": 2020,
+              "display": "20/21",
+              "cyclicalName": "2021",
+              "nonCyclicalName": "20/21"
+            }
+          },
+          "typeDetails": {
+            "type": "ACTIVE_LOAN_TRANSFER",
+            "name": "loan transfer",
+            "feeDescription": "loan transfer"
+          },
+          "relativeUrl": "/yvan-neyou/transfers/spieler/469669/transfer_id/2963625"
+        },
+        {
+          "id": "2247553",
+          "transferSource": {
+            "competitionId": "FR3",
+            "countryId": 50,
+            "clubId": "1080",
+            "coachId": "7268"
+          },
+          "transferDestination": {
+            "competitionId": "PO2",
+            "countryId": 136,
+            "clubId": "10789",
+            "coachId": "58719"
+          },
+          "details": {
+            "playerId": "469669",
+            "date": "2018-08-31T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2018,
+            "isPending": false,
+            "marketValue": {
+              "value": 200000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "200.00",
+                "suffix": "K"
+              }
+            },
+            "age": 21,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "?",
+                "suffix": ""
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 669,
+              "daysDisplay": "1 Year, 9 Months, 30 Days"
+            },
+            "season": {
+              "id": 2018,
+              "display": "18/19",
+              "cyclicalName": "2019",
+              "nonCyclicalName": "18/19"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/yvan-neyou/transfers/spieler/469669/transfer_id/2247553"
+        },
+        {
+          "id": "1693225",
+          "transferSource": {
+            "competitionId": "FR3",
+            "countryId": 50,
+            "clubId": "1081",
+            "coachId": "10721"
+          },
+          "transferDestination": {
+            "competitionId": "FR2",
+            "countryId": 50,
+            "clubId": "1080",
+            "coachId": "20954"
+          },
+          "details": {
+            "playerId": "469669",
+            "date": "2017-01-31T00:00:00+01:00",
+            "contractUntilDate": "2020-06-30T00:00:00+02:00",
+            "seasonId": 2016,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 20,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "?",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2016,
+              "display": "16/17",
+              "cyclicalName": "2017",
+              "nonCyclicalName": "16/17"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/yvan-neyou/transfers/spieler/469669/transfer_id/1693225"
+        },
+        {
+          "id": "1644750",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 50,
+            "clubId": "10880",
+            "coachId": "0"
+          },
+          "transferDestination": {
+            "competitionId": "FR3",
+            "countryId": 50,
+            "clubId": "1081",
+            "coachId": "0"
+          },
+          "details": {
+            "playerId": "469669",
+            "date": "2016-07-01T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2016,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 19,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2016,
+              "display": "16/17",
+              "cyclicalName": "2017",
+              "nonCyclicalName": "16/17"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/yvan-neyou/transfers/spieler/469669/transfer_id/1644750"
+        }
+      ],
+      "pending": [
+        {
+          "id": "6157193",
+          "transferSource": {
+            "competitionId": "SA1",
+            "countryId": 146,
+            "clubId": "71665",
+            "coachId": "14447"
+          },
+          "transferDestination": {
+            "competitionId": "ES1",
+            "countryId": 157,
+            "clubId": "3709",
+            "coachId": "6440"
+          },
+          "details": {
+            "playerId": "469669",
+            "date": "2026-06-30T00:00:00+02:00",
+            "contractUntilDate": "2028-06-30T00:00:00+02:00",
+            "seasonId": 2025,
+            "isPending": true,
+            "marketValue": {
+              "value": 2500000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "2.50",
+                "suffix": "M"
+              }
+            },
+            "age": 29,
+            "remainingContractPeriod": {
+              "days": 0,
+              "daysDisplay": "Unknown"
+            },
+            "season": {
+              "id": 2025,
+              "display": "25/26",
+              "cyclicalName": "2026",
+              "nonCyclicalName": "25/26"
+            }
+          },
+          "typeDetails": {
+            "type": "RETURNED_FROM_PREVIOUS_LOAN",
+            "name": "End of loan",
+            "feeDescription": "End of loan"
+          },
+          "relativeUrl": "/yvan-neyou/transfers/spieler/469669/transfer_id/6157193"
+        }
+      ],
+      "url": "",
+      "feeSum": {
+        "value": 1000000,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "1.00",
+          "suffix": "M"
+        }
+      },
+      "averageAge": 29,
+      "totalMarketValue": {
+        "value": 2500000,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "2.50",
+          "suffix": "M"
+        }
+      }
+    },
+    "clubIds": [
+      "71665",
+      "3709",
+      "1244",
+      "618",
+      "10789",
+      "1080",
+      "1081",
+      "10880"
+    ],
+    "coachIds": [
+      "14447",
+      "6440",
+      "13105",
+      "8115",
+      "30609",
+      "43500",
+      "49170",
+      "20198",
+      "69307",
+      "1240",
+      "7268",
+      "58719",
+      "10721",
+      "20954"
+    ],
+    "competitionIds": [
+      "SA1",
+      "ES1",
+      "ES2",
+      "FR2",
+      "FR1",
+      "FR3",
+      "PO2"
+    ],
+    "mostRecentTransfer": {
+      "id": "6157194",
+      "transferSource": {
+        "competitionId": "ES1",
+        "countryId": 157,
+        "clubId": "3709",
+        "coachId": "6440"
+      },
+      "transferDestination": {
+        "competitionId": "SA1",
+        "countryId": 146,
+        "clubId": "71665",
+        "coachId": "13105"
+      },
+      "details": {
+        "playerId": "469669",
+        "date": "2026-01-31T00:00:00+01:00",
+        "contractUntilDate": "2026-06-30T00:00:00+02:00",
+        "seasonId": 2025,
+        "isPending": false,
+        "marketValue": {
+          "value": 2500000,
+          "currency": "EUR",
+          "compact": {
+            "prefix": "€",
+            "content": "2.50",
+            "suffix": "M"
+          }
+        },
+        "age": 29,
+        "remainingContractPeriod": {
+          "days": 881,
+          "daysDisplay": "2 Years, 4 Months, 30 Days"
+        },
+        "season": {
+          "id": 2025,
+          "display": "25/26",
+          "cyclicalName": "2026",
+          "nonCyclicalName": "25/26"
+        }
+      },
+      "typeDetails": {
+        "type": "ACTIVE_LOAN_TRANSFER",
+        "name": "loan transfer",
+        "feeDescription": "loan transfer"
+      },
+      "relativeUrl": "/yvan-neyou/transfers/spieler/469669/transfer_id/6157194"
+    }
+  }
+}

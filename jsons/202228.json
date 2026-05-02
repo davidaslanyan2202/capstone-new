@@ -1,0 +1,521 @@
+{
+  "success": true,
+  "message": "OK",
+  "data": {
+    "playerId": "202228",
+    "history": {
+      "terminated": [
+        {
+          "id": "5564548",
+          "transferSource": {
+            "competitionId": "L1",
+            "countryId": 40,
+            "clubId": "86",
+            "coachId": "2438"
+          },
+          "transferDestination": {
+            "competitionId": "SER1",
+            "countryId": 215,
+            "clubId": "159",
+            "coachId": "4550"
+          },
+          "details": {
+            "playerId": "202228",
+            "date": "2025-07-01T00:00:00+02:00",
+            "contractUntilDate": "2028-06-30T00:00:00+02:00",
+            "seasonId": 2025,
+            "isPending": false,
+            "marketValue": {
+              "value": 3000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "3.00",
+                "suffix": "M"
+              }
+            },
+            "age": 29,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "Free Transfer",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2025,
+              "display": "25/26",
+              "cyclicalName": "2026",
+              "nonCyclicalName": "25/26"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/milos-veljkovic/transfers/spieler/202228/transfer_id/5564548"
+        },
+        {
+          "id": "1424482",
+          "transferSource": {
+            "competitionId": "GB21",
+            "countryId": 189,
+            "clubId": "9254",
+            "coachId": "36233"
+          },
+          "transferDestination": {
+            "competitionId": "L1",
+            "countryId": 40,
+            "clubId": "86",
+            "coachId": "2048"
+          },
+          "details": {
+            "playerId": "202228",
+            "date": "2016-02-01T00:00:00+01:00",
+            "contractUntilDate": "2025-06-30T00:00:00+02:00",
+            "seasonId": 2015,
+            "isPending": false,
+            "marketValue": {
+              "value": 250000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "250.00",
+                "suffix": "K"
+              }
+            },
+            "age": 20,
+            "fee": {
+              "value": 330000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "330.00",
+                "suffix": "K"
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 150,
+              "daysDisplay": "4 Months, 29 Days"
+            },
+            "season": {
+              "id": 2015,
+              "display": "15/16",
+              "cyclicalName": "2016",
+              "nonCyclicalName": "15/16"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/milos-veljkovic/transfers/spieler/202228/transfer_id/1424482"
+        },
+        {
+          "id": "1177713",
+          "transferSource": {
+            "competitionId": "GB2",
+            "countryId": 189,
+            "clubId": "358",
+            "coachId": "10912"
+          },
+          "transferDestination": {
+            "competitionId": "GB21",
+            "countryId": 189,
+            "clubId": "9254",
+            "coachId": "36233"
+          },
+          "details": {
+            "playerId": "202228",
+            "date": "2015-05-31T00:00:00+02:00",
+            "contractUntilDate": "2016-06-30T00:00:00+02:00",
+            "seasonId": 2014,
+            "isPending": false,
+            "marketValue": {
+              "value": 250000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "250.00",
+                "suffix": "K"
+              }
+            },
+            "age": 19,
+            "remainingContractPeriod": {
+              "days": 0,
+              "daysDisplay": "Unknown"
+            },
+            "season": {
+              "id": 2014,
+              "display": "14/15",
+              "cyclicalName": "2015",
+              "nonCyclicalName": "14/15"
+            }
+          },
+          "typeDetails": {
+            "type": "RETURNED_FROM_PREVIOUS_LOAN",
+            "name": "End of loan",
+            "feeDescription": "End of loan"
+          },
+          "relativeUrl": "/milos-veljkovic/transfers/spieler/202228/transfer_id/1177713"
+        },
+        {
+          "id": "1177712",
+          "transferSource": {
+            "competitionId": "GB21",
+            "countryId": 189,
+            "clubId": "9254",
+            "coachId": "36233"
+          },
+          "transferDestination": {
+            "competitionId": "GB2",
+            "countryId": 189,
+            "clubId": "358",
+            "coachId": "10912"
+          },
+          "details": {
+            "playerId": "202228",
+            "date": "2015-01-20T00:00:00+01:00",
+            "contractUntilDate": "2015-05-31T00:00:00+02:00",
+            "seasonId": 2014,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 19,
+            "remainingContractPeriod": {
+              "days": 527,
+              "daysDisplay": "1 Year, 5 Months, 10 Days"
+            },
+            "season": {
+              "id": 2014,
+              "display": "14/15",
+              "cyclicalName": "2015",
+              "nonCyclicalName": "14/15"
+            }
+          },
+          "typeDetails": {
+            "type": "ACTIVE_LOAN_TRANSFER",
+            "name": "loan transfer",
+            "feeDescription": "loan transfer"
+          },
+          "relativeUrl": "/milos-veljkovic/transfers/spieler/202228/transfer_id/1177712"
+        },
+        {
+          "id": "1146946",
+          "transferSource": {
+            "competitionId": "GB2",
+            "countryId": 189,
+            "clubId": "641",
+            "coachId": "7616"
+          },
+          "transferDestination": {
+            "competitionId": "GB21",
+            "countryId": 189,
+            "clubId": "9254",
+            "coachId": "36233"
+          },
+          "details": {
+            "playerId": "202228",
+            "date": "2015-01-15T00:00:00+01:00",
+            "contractUntilDate": "2016-06-30T00:00:00+02:00",
+            "seasonId": 2014,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 19,
+            "remainingContractPeriod": {
+              "days": 0,
+              "daysDisplay": "Unknown"
+            },
+            "season": {
+              "id": 2014,
+              "display": "14/15",
+              "cyclicalName": "2015",
+              "nonCyclicalName": "14/15"
+            }
+          },
+          "typeDetails": {
+            "type": "RETURNED_FROM_PREVIOUS_LOAN",
+            "name": "End of loan",
+            "feeDescription": "End of loan"
+          },
+          "relativeUrl": "/milos-veljkovic/transfers/spieler/202228/transfer_id/1146946"
+        },
+        {
+          "id": "1146945",
+          "transferSource": {
+            "competitionId": "GB21",
+            "countryId": 189,
+            "clubId": "9254",
+            "coachId": "36233"
+          },
+          "transferDestination": {
+            "competitionId": "GB2",
+            "countryId": 189,
+            "clubId": "641",
+            "coachId": "7616"
+          },
+          "details": {
+            "playerId": "202228",
+            "date": "2014-10-16T00:00:00+02:00",
+            "contractUntilDate": "2015-01-15T00:00:00+01:00",
+            "seasonId": 2014,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 19,
+            "remainingContractPeriod": {
+              "days": 623,
+              "daysDisplay": "1 Year, 8 Months, 14 Days"
+            },
+            "season": {
+              "id": 2014,
+              "display": "14/15",
+              "cyclicalName": "2015",
+              "nonCyclicalName": "14/15"
+            }
+          },
+          "typeDetails": {
+            "type": "ACTIVE_LOAN_TRANSFER",
+            "name": "loan transfer",
+            "feeDescription": "loan transfer"
+          },
+          "relativeUrl": "/milos-veljkovic/transfers/spieler/202228/transfer_id/1146945"
+        },
+        {
+          "id": "873139",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 189,
+            "clubId": "6928",
+            "coachId": "0"
+          },
+          "transferDestination": {
+            "competitionId": "GB21",
+            "countryId": 189,
+            "clubId": "9254",
+            "coachId": "0"
+          },
+          "details": {
+            "playerId": "202228",
+            "date": "2013-07-01T00:00:00+02:00",
+            "contractUntilDate": "2016-06-30T00:00:00+02:00",
+            "seasonId": 2013,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 17,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 364,
+              "daysDisplay": "11 Months, 29 Days"
+            },
+            "season": {
+              "id": 2013,
+              "display": "13/14",
+              "cyclicalName": "2014",
+              "nonCyclicalName": "13/14"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/milos-veljkovic/transfers/spieler/202228/transfer_id/873139"
+        },
+        {
+          "id": "638215",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 148,
+            "clubId": "32336",
+            "coachId": "26059"
+          },
+          "transferDestination": {
+            "competitionId": "",
+            "countryId": 189,
+            "clubId": "6928",
+            "coachId": "0"
+          },
+          "details": {
+            "playerId": "202228",
+            "date": "2011-10-01T00:00:00+02:00",
+            "contractUntilDate": "2014-06-30T00:00:00+02:00",
+            "seasonId": 2011,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 16,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "Free Transfer",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2011,
+              "display": "11/12",
+              "cyclicalName": "2012",
+              "nonCyclicalName": "11/12"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/milos-veljkovic/transfers/spieler/202228/transfer_id/638215"
+        }
+      ],
+      "pending": [],
+      "url": "",
+      "feeSum": {
+        "value": 330000,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "330.00",
+          "suffix": "K"
+        }
+      },
+      "averageAge": 30,
+      "totalMarketValue": {
+        "value": 2500000,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "2.50",
+          "suffix": "M"
+        }
+      }
+    },
+    "clubIds": [
+      "86",
+      "159",
+      "9254",
+      "358",
+      "641",
+      "6928",
+      "32336"
+    ],
+    "coachIds": [
+      "2438",
+      "4550",
+      "36233",
+      "2048",
+      "10912",
+      "7616",
+      "26059"
+    ],
+    "competitionIds": [
+      "L1",
+      "SER1",
+      "GB21",
+      "GB2"
+    ],
+    "mostRecentTransfer": {
+      "id": "5564548",
+      "transferSource": {
+        "competitionId": "L1",
+        "countryId": 40,
+        "clubId": "86",
+        "coachId": "2438"
+      },
+      "transferDestination": {
+        "competitionId": "SER1",
+        "countryId": 215,
+        "clubId": "159",
+        "coachId": "4550"
+      },
+      "details": {
+        "playerId": "202228",
+        "date": "2025-07-01T00:00:00+02:00",
+        "contractUntilDate": "2028-06-30T00:00:00+02:00",
+        "seasonId": 2025,
+        "isPending": false,
+        "marketValue": {
+          "value": 3000000,
+          "currency": "EUR",
+          "compact": {
+            "prefix": "€",
+            "content": "3.00",
+            "suffix": "M"
+          }
+        },
+        "age": 29,
+        "fee": {
+          "value": null,
+          "currency": "",
+          "compact": {
+            "prefix": "",
+            "content": "Free Transfer",
+            "suffix": ""
+          }
+        },
+        "season": {
+          "id": 2025,
+          "display": "25/26",
+          "cyclicalName": "2026",
+          "nonCyclicalName": "25/26"
+        }
+      },
+      "typeDetails": {
+        "type": "STANDARD",
+        "name": "",
+        "feeDescription": ""
+      },
+      "relativeUrl": "/milos-veljkovic/transfers/spieler/202228/transfer_id/5564548"
+    }
+  }
+}

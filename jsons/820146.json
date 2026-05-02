@@ -1,0 +1,375 @@
+{
+  "success": true,
+  "message": "OK",
+  "data": {
+    "playerId": "820146",
+    "history": {
+      "terminated": [
+        {
+          "id": "5093655",
+          "transferSource": {
+            "competitionId": "FR1",
+            "countryId": 50,
+            "clubId": "1421",
+            "coachId": "23576"
+          },
+          "transferDestination": {
+            "competitionId": "BE1",
+            "countryId": 19,
+            "clubId": "172",
+            "coachId": "59108"
+          },
+          "details": {
+            "playerId": "820146",
+            "date": "2024-07-04T00:00:00+02:00",
+            "contractUntilDate": "2027-06-30T00:00:00+02:00",
+            "seasonId": 2024,
+            "isPending": false,
+            "marketValue": {
+              "value": 1500000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "1.50",
+                "suffix": "M"
+              }
+            },
+            "age": 21,
+            "fee": {
+              "value": 500000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "500.00",
+                "suffix": "K"
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 726,
+              "daysDisplay": "1 Year, 11 Months, 26 Days"
+            },
+            "season": {
+              "id": 2024,
+              "display": "24/25",
+              "cyclicalName": "2025",
+              "nonCyclicalName": "24/25"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/check-keita/transfers/spieler/820146/transfer_id/5093655"
+        },
+        {
+          "id": "4620481",
+          "transferSource": {
+            "competitionId": "FR2",
+            "countryId": 50,
+            "clubId": "595",
+            "coachId": "110810"
+          },
+          "transferDestination": {
+            "competitionId": "FR1",
+            "countryId": 50,
+            "clubId": "1421",
+            "coachId": "58350"
+          },
+          "details": {
+            "playerId": "820146",
+            "date": "2024-06-30T00:00:00+02:00",
+            "contractUntilDate": "2026-06-30T00:00:00+02:00",
+            "seasonId": 2023,
+            "isPending": false,
+            "marketValue": {
+              "value": 1500000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "1.50",
+                "suffix": "M"
+              }
+            },
+            "age": 21,
+            "remainingContractPeriod": {
+              "days": 0,
+              "daysDisplay": "Unknown"
+            },
+            "season": {
+              "id": 2023,
+              "display": "23/24",
+              "cyclicalName": "2024",
+              "nonCyclicalName": "23/24"
+            }
+          },
+          "typeDetails": {
+            "type": "RETURNED_FROM_PREVIOUS_LOAN",
+            "name": "End of loan",
+            "feeDescription": "End of loan"
+          },
+          "relativeUrl": "/check-keita/transfers/spieler/820146/transfer_id/4620481"
+        },
+        {
+          "id": "4620480",
+          "transferSource": {
+            "competitionId": "FR1",
+            "countryId": 50,
+            "clubId": "1421",
+            "coachId": "53316"
+          },
+          "transferDestination": {
+            "competitionId": "FR2",
+            "countryId": 50,
+            "clubId": "595",
+            "coachId": "12801"
+          },
+          "details": {
+            "playerId": "820146",
+            "date": "2023-08-31T00:00:00+02:00",
+            "contractUntilDate": "2024-06-30T00:00:00+02:00",
+            "seasonId": 2023,
+            "isPending": false,
+            "marketValue": {
+              "value": 1500000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "1.50",
+                "suffix": "M"
+              }
+            },
+            "age": 20,
+            "remainingContractPeriod": {
+              "days": 1034,
+              "daysDisplay": "2 Years, 9 Months, 30 Days"
+            },
+            "season": {
+              "id": 2023,
+              "display": "23/24",
+              "cyclicalName": "2024",
+              "nonCyclicalName": "23/24"
+            }
+          },
+          "typeDetails": {
+            "type": "ACTIVE_LOAN_TRANSFER",
+            "name": "loan transfer",
+            "feeDescription": "loan transfer"
+          },
+          "relativeUrl": "/check-keita/transfers/spieler/820146/transfer_id/4620480"
+        },
+        {
+          "id": "4335207",
+          "transferSource": {
+            "competitionId": "CN2B",
+            "countryId": 50,
+            "clubId": "11204",
+            "coachId": "42680"
+          },
+          "transferDestination": {
+            "competitionId": "FR1",
+            "countryId": 50,
+            "clubId": "1421",
+            "coachId": "53316"
+          },
+          "details": {
+            "playerId": "820146",
+            "date": "2023-03-01T00:00:00+01:00",
+            "contractUntilDate": "2026-06-30T00:00:00+02:00",
+            "seasonId": 2022,
+            "isPending": false,
+            "marketValue": {
+              "value": 100000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "100.00",
+                "suffix": "K"
+              }
+            },
+            "age": 19,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 1217,
+              "daysDisplay": "3 Years, 3 Months, 29 Days"
+            },
+            "season": {
+              "id": 2022,
+              "display": "22/23",
+              "cyclicalName": "2023",
+              "nonCyclicalName": "22/23"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/check-keita/transfers/spieler/820146/transfer_id/4335207"
+        },
+        {
+          "id": "3086348",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 50,
+            "clubId": "12774",
+            "coachId": "88790"
+          },
+          "transferDestination": {
+            "competitionId": "CN2B",
+            "countryId": 50,
+            "clubId": "11204",
+            "coachId": "42680"
+          },
+          "details": {
+            "playerId": "820146",
+            "date": "2020-07-01T00:00:00+02:00",
+            "contractUntilDate": "2026-06-30T00:00:00+02:00",
+            "seasonId": 2020,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 17,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2020,
+              "display": "20/21",
+              "cyclicalName": "2021",
+              "nonCyclicalName": "20/21"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/check-keita/transfers/spieler/820146/transfer_id/3086348"
+        }
+      ],
+      "pending": [],
+      "url": "",
+      "feeSum": {
+        "value": 500000,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "500.00",
+          "suffix": "K"
+        }
+      },
+      "averageAge": 23,
+      "totalMarketValue": {
+        "value": 3000000,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "3.00",
+          "suffix": "M"
+        }
+      }
+    },
+    "clubIds": [
+      "1421",
+      "172",
+      "595",
+      "11204",
+      "12774"
+    ],
+    "coachIds": [
+      "23576",
+      "59108",
+      "110810",
+      "58350",
+      "53316",
+      "12801",
+      "42680",
+      "88790"
+    ],
+    "competitionIds": [
+      "FR1",
+      "BE1",
+      "FR2",
+      "CN2B"
+    ],
+    "mostRecentTransfer": {
+      "id": "5093655",
+      "transferSource": {
+        "competitionId": "FR1",
+        "countryId": 50,
+        "clubId": "1421",
+        "coachId": "23576"
+      },
+      "transferDestination": {
+        "competitionId": "BE1",
+        "countryId": 19,
+        "clubId": "172",
+        "coachId": "59108"
+      },
+      "details": {
+        "playerId": "820146",
+        "date": "2024-07-04T00:00:00+02:00",
+        "contractUntilDate": "2027-06-30T00:00:00+02:00",
+        "seasonId": 2024,
+        "isPending": false,
+        "marketValue": {
+          "value": 1500000,
+          "currency": "EUR",
+          "compact": {
+            "prefix": "€",
+            "content": "1.50",
+            "suffix": "M"
+          }
+        },
+        "age": 21,
+        "fee": {
+          "value": 500000,
+          "currency": "EUR",
+          "compact": {
+            "prefix": "€",
+            "content": "500.00",
+            "suffix": "K"
+          }
+        },
+        "remainingContractPeriod": {
+          "days": 726,
+          "daysDisplay": "1 Year, 11 Months, 26 Days"
+        },
+        "season": {
+          "id": 2024,
+          "display": "24/25",
+          "cyclicalName": "2025",
+          "nonCyclicalName": "24/25"
+        }
+      },
+      "typeDetails": {
+        "type": "STANDARD",
+        "name": "",
+        "feeDescription": ""
+      },
+      "relativeUrl": "/check-keita/transfers/spieler/820146/transfer_id/5093655"
+    }
+  }
+}

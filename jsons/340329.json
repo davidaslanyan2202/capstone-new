@@ -1,0 +1,423 @@
+{
+  "success": true,
+  "message": "OK",
+  "data": {
+    "playerId": "340329",
+    "history": {
+      "terminated": [
+        {
+          "id": "3496771",
+          "transferSource": {
+            "competitionId": "GB1",
+            "countryId": 189,
+            "clubId": "11",
+            "coachId": "47620"
+          },
+          "transferDestination": {
+            "competitionId": "GB1",
+            "countryId": 189,
+            "clubId": "762",
+            "coachId": "447"
+          },
+          "details": {
+            "playerId": "340329",
+            "date": "2021-08-13T00:00:00+02:00",
+            "contractUntilDate": "2027-06-30T00:00:00+02:00",
+            "seasonId": 2021,
+            "isPending": false,
+            "marketValue": {
+              "value": 16000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "16.00",
+                "suffix": "M"
+              }
+            },
+            "age": 21,
+            "fee": {
+              "value": 29400000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "29.40",
+                "suffix": "M"
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 686,
+              "daysDisplay": "1 Year, 10 Months, 17 Days"
+            },
+            "season": {
+              "id": 2021,
+              "display": "21/22",
+              "cyclicalName": "2022",
+              "nonCyclicalName": "21/22"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/joe-willock/transfers/spieler/340329/transfer_id/3496771"
+        },
+        {
+          "id": "3233924",
+          "transferSource": {
+            "competitionId": "GB1",
+            "countryId": 189,
+            "clubId": "762",
+            "coachId": "447"
+          },
+          "transferDestination": {
+            "competitionId": "GB1",
+            "countryId": 189,
+            "clubId": "11",
+            "coachId": "47620"
+          },
+          "details": {
+            "playerId": "340329",
+            "date": "2021-05-31T00:00:00+02:00",
+            "contractUntilDate": "2023-06-30T00:00:00+02:00",
+            "seasonId": 2020,
+            "isPending": false,
+            "marketValue": {
+              "value": 16000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "16.00",
+                "suffix": "M"
+              }
+            },
+            "age": 21,
+            "remainingContractPeriod": {
+              "days": 0,
+              "daysDisplay": "Unknown"
+            },
+            "season": {
+              "id": 2020,
+              "display": "20/21",
+              "cyclicalName": "2021",
+              "nonCyclicalName": "20/21"
+            }
+          },
+          "typeDetails": {
+            "type": "RETURNED_FROM_PREVIOUS_LOAN",
+            "name": "End of loan",
+            "feeDescription": "End of loan"
+          },
+          "relativeUrl": "/joe-willock/transfers/spieler/340329/transfer_id/3233924"
+        },
+        {
+          "id": "3233925",
+          "transferSource": {
+            "competitionId": "GB1",
+            "countryId": 189,
+            "clubId": "11",
+            "coachId": "47620"
+          },
+          "transferDestination": {
+            "competitionId": "GB1",
+            "countryId": 189,
+            "clubId": "762",
+            "coachId": "447"
+          },
+          "details": {
+            "playerId": "340329",
+            "date": "2021-02-01T00:00:00+01:00",
+            "contractUntilDate": "2021-05-31T00:00:00+02:00",
+            "seasonId": 2020,
+            "isPending": false,
+            "marketValue": {
+              "value": 16000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "16.00",
+                "suffix": "M"
+              }
+            },
+            "age": 21,
+            "remainingContractPeriod": {
+              "days": 879,
+              "daysDisplay": "2 Years, 4 Months, 29 Days"
+            },
+            "season": {
+              "id": 2020,
+              "display": "20/21",
+              "cyclicalName": "2021",
+              "nonCyclicalName": "20/21"
+            }
+          },
+          "typeDetails": {
+            "type": "ACTIVE_LOAN_TRANSFER",
+            "name": "loan transfer",
+            "feeDescription": "loan transfer"
+          },
+          "relativeUrl": "/joe-willock/transfers/spieler/340329/transfer_id/3233925"
+        },
+        {
+          "id": "2614453",
+          "transferSource": {
+            "competitionId": "GB21",
+            "countryId": 189,
+            "clubId": "9249",
+            "coachId": "3903"
+          },
+          "transferDestination": {
+            "competitionId": "GB1",
+            "countryId": 189,
+            "clubId": "11",
+            "coachId": "5075"
+          },
+          "details": {
+            "playerId": "340329",
+            "date": "2019-07-01T00:00:00+02:00",
+            "contractUntilDate": "2023-06-30T00:00:00+02:00",
+            "seasonId": 2019,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 19,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2019,
+              "display": "19/20",
+              "cyclicalName": "2020",
+              "nonCyclicalName": "19/20"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/joe-willock/transfers/spieler/340329/transfer_id/2614453"
+        },
+        {
+          "id": "1909093",
+          "transferSource": {
+            "competitionId": "GB18",
+            "countryId": 189,
+            "clubId": "5679",
+            "coachId": "50870"
+          },
+          "transferDestination": {
+            "competitionId": "GB21",
+            "countryId": 189,
+            "clubId": "9249",
+            "coachId": "27789"
+          },
+          "details": {
+            "playerId": "340329",
+            "date": "2017-07-01T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2017,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 17,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2017,
+              "display": "17/18",
+              "cyclicalName": "2018",
+              "nonCyclicalName": "17/18"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/joe-willock/transfers/spieler/340329/transfer_id/1909093"
+        },
+        {
+          "id": "1355015",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 189,
+            "clubId": "50683",
+            "coachId": "48805"
+          },
+          "transferDestination": {
+            "competitionId": "",
+            "countryId": 189,
+            "clubId": "5679",
+            "coachId": "42744"
+          },
+          "details": {
+            "playerId": "340329",
+            "date": "2015-07-01T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2015,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 15,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2015,
+              "display": "15/16",
+              "cyclicalName": "2016",
+              "nonCyclicalName": "15/16"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/joe-willock/transfers/spieler/340329/transfer_id/1355015"
+        }
+      ],
+      "pending": [],
+      "url": "",
+      "feeSum": {
+        "value": 29400000,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "29.40",
+          "suffix": "M"
+        }
+      },
+      "averageAge": 26,
+      "totalMarketValue": {
+        "value": 16000000,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "16.00",
+          "suffix": "M"
+        }
+      }
+    },
+    "clubIds": [
+      "11",
+      "762",
+      "9249",
+      "5679",
+      "50683"
+    ],
+    "coachIds": [
+      "47620",
+      "447",
+      "3903",
+      "5075",
+      "50870",
+      "27789",
+      "48805",
+      "42744"
+    ],
+    "competitionIds": [
+      "GB1",
+      "GB21",
+      "GB18"
+    ],
+    "mostRecentTransfer": {
+      "id": "3496771",
+      "transferSource": {
+        "competitionId": "GB1",
+        "countryId": 189,
+        "clubId": "11",
+        "coachId": "47620"
+      },
+      "transferDestination": {
+        "competitionId": "GB1",
+        "countryId": 189,
+        "clubId": "762",
+        "coachId": "447"
+      },
+      "details": {
+        "playerId": "340329",
+        "date": "2021-08-13T00:00:00+02:00",
+        "contractUntilDate": "2027-06-30T00:00:00+02:00",
+        "seasonId": 2021,
+        "isPending": false,
+        "marketValue": {
+          "value": 16000000,
+          "currency": "EUR",
+          "compact": {
+            "prefix": "€",
+            "content": "16.00",
+            "suffix": "M"
+          }
+        },
+        "age": 21,
+        "fee": {
+          "value": 29400000,
+          "currency": "EUR",
+          "compact": {
+            "prefix": "€",
+            "content": "29.40",
+            "suffix": "M"
+          }
+        },
+        "remainingContractPeriod": {
+          "days": 686,
+          "daysDisplay": "1 Year, 10 Months, 17 Days"
+        },
+        "season": {
+          "id": 2021,
+          "display": "21/22",
+          "cyclicalName": "2022",
+          "nonCyclicalName": "21/22"
+        }
+      },
+      "typeDetails": {
+        "type": "STANDARD",
+        "name": "",
+        "feeDescription": ""
+      },
+      "relativeUrl": "/joe-willock/transfers/spieler/340329/transfer_id/3496771"
+    }
+  }
+}

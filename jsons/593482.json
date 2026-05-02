@@ -1,0 +1,553 @@
+{
+  "success": true,
+  "message": "OK",
+  "data": {
+    "playerId": "593482",
+    "history": {
+      "terminated": [
+        {
+          "id": "5904290",
+          "transferSource": {
+            "competitionId": "FR1",
+            "countryId": 50,
+            "clubId": "244",
+            "coachId": "32157"
+          },
+          "transferDestination": {
+            "competitionId": "ES1",
+            "countryId": 157,
+            "clubId": "12321",
+            "coachId": "33636"
+          },
+          "details": {
+            "playerId": "593482",
+            "date": "2025-08-30T00:00:00+02:00",
+            "contractUntilDate": "2030-06-30T00:00:00+02:00",
+            "seasonId": 2025,
+            "isPending": false,
+            "marketValue": {
+              "value": 10000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "10.00",
+                "suffix": "M"
+              }
+            },
+            "age": 25,
+            "fee": {
+              "value": 6000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "6.00",
+                "suffix": "M"
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 669,
+              "daysDisplay": "1 Year, 10 Months"
+            },
+            "season": {
+              "id": 2025,
+              "display": "25/26",
+              "cyclicalName": "2026",
+              "nonCyclicalName": "25/26"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/azzedine-ounahi/transfers/spieler/593482/transfer_id/5904290"
+        },
+        {
+          "id": "5247761",
+          "transferSource": {
+            "competitionId": "GR1",
+            "countryId": 56,
+            "clubId": "265",
+            "coachId": "5638"
+          },
+          "transferDestination": {
+            "competitionId": "FR1",
+            "countryId": 50,
+            "clubId": "244",
+            "coachId": "32157"
+          },
+          "details": {
+            "playerId": "593482",
+            "date": "2025-06-30T00:00:00+02:00",
+            "contractUntilDate": "2027-06-30T00:00:00+02:00",
+            "seasonId": 2024,
+            "isPending": false,
+            "marketValue": {
+              "value": 10000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "10.00",
+                "suffix": "M"
+              }
+            },
+            "age": 25,
+            "remainingContractPeriod": {
+              "days": 0,
+              "daysDisplay": "Unknown"
+            },
+            "season": {
+              "id": 2024,
+              "display": "24/25",
+              "cyclicalName": "2025",
+              "nonCyclicalName": "24/25"
+            }
+          },
+          "typeDetails": {
+            "type": "RETURNED_FROM_PREVIOUS_LOAN",
+            "name": "End of loan",
+            "feeDescription": "End of loan"
+          },
+          "relativeUrl": "/azzedine-ounahi/transfers/spieler/593482/transfer_id/5247761"
+        },
+        {
+          "id": "5247760",
+          "transferSource": {
+            "competitionId": "FR1",
+            "countryId": 50,
+            "clubId": "244",
+            "coachId": "32157"
+          },
+          "transferDestination": {
+            "competitionId": "GR1",
+            "countryId": 56,
+            "clubId": "265",
+            "coachId": "20973"
+          },
+          "details": {
+            "playerId": "593482",
+            "date": "2024-09-04T00:00:00+02:00",
+            "contractUntilDate": "2025-06-30T00:00:00+02:00",
+            "seasonId": 2024,
+            "isPending": false,
+            "marketValue": {
+              "value": 12000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "12.00",
+                "suffix": "M"
+              }
+            },
+            "age": 24,
+            "fee": {
+              "value": 500000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "500.00",
+                "suffix": "K"
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 1029,
+              "daysDisplay": "2 Years, 9 Months, 26 Days"
+            },
+            "season": {
+              "id": 2024,
+              "display": "24/25",
+              "cyclicalName": "2025",
+              "nonCyclicalName": "24/25"
+            }
+          },
+          "typeDetails": {
+            "type": "ACTIVE_LOAN_TRANSFER",
+            "name": "loan transfer",
+            "feeDescription": "Loan fee"
+          },
+          "relativeUrl": "/azzedine-ounahi/transfers/spieler/593482/transfer_id/5247760"
+        },
+        {
+          "id": "4248491",
+          "transferSource": {
+            "competitionId": "FR1",
+            "countryId": 50,
+            "clubId": "1420",
+            "coachId": "82563"
+          },
+          "transferDestination": {
+            "competitionId": "FR1",
+            "countryId": 50,
+            "clubId": "244",
+            "coachId": "28632"
+          },
+          "details": {
+            "playerId": "593482",
+            "date": "2023-01-29T00:00:00+01:00",
+            "contractUntilDate": "2027-06-30T00:00:00+02:00",
+            "seasonId": 2022,
+            "isPending": false,
+            "marketValue": {
+              "value": 15000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "15.00",
+                "suffix": "M"
+              }
+            },
+            "age": 22,
+            "fee": {
+              "value": 8000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "8.00",
+                "suffix": "M"
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 1248,
+              "daysDisplay": "3 Years, 5 Months, 1 Day"
+            },
+            "season": {
+              "id": 2022,
+              "display": "22/23",
+              "cyclicalName": "2023",
+              "nonCyclicalName": "22/23"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/azzedine-ounahi/transfers/spieler/593482/transfer_id/4248491"
+        },
+        {
+          "id": "3408764",
+          "transferSource": {
+            "competitionId": "FR3",
+            "countryId": 50,
+            "clubId": "26871",
+            "coachId": "24345"
+          },
+          "transferDestination": {
+            "competitionId": "FR1",
+            "countryId": 50,
+            "clubId": "1420",
+            "coachId": "8183"
+          },
+          "details": {
+            "playerId": "593482",
+            "date": "2021-07-14T00:00:00+02:00",
+            "contractUntilDate": "2026-06-30T00:00:00+02:00",
+            "seasonId": 2021,
+            "isPending": false,
+            "marketValue": {
+              "value": 350000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "350.00",
+                "suffix": "K"
+              }
+            },
+            "age": 21,
+            "fee": {
+              "value": 70000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "70.00",
+                "suffix": "K"
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 351,
+              "daysDisplay": "11 Months, 16 Days"
+            },
+            "season": {
+              "id": 2021,
+              "display": "21/22",
+              "cyclicalName": "2022",
+              "nonCyclicalName": "21/22"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/azzedine-ounahi/transfers/spieler/593482/transfer_id/3408764"
+        },
+        {
+          "id": "3006157",
+          "transferSource": {
+            "competitionId": "C3GE",
+            "countryId": 50,
+            "clubId": "7968",
+            "coachId": "24336"
+          },
+          "transferDestination": {
+            "competitionId": "FR3",
+            "countryId": 50,
+            "clubId": "26871",
+            "coachId": "24345"
+          },
+          "details": {
+            "playerId": "593482",
+            "date": "2020-08-04T00:00:00+02:00",
+            "contractUntilDate": "2022-06-30T00:00:00+02:00",
+            "seasonId": 2020,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 20,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "Free Transfer",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2020,
+              "display": "20/21",
+              "cyclicalName": "2021",
+              "nonCyclicalName": "20/21"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/azzedine-ounahi/transfers/spieler/593482/transfer_id/3006157"
+        },
+        {
+          "id": "2192154",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 107,
+            "clubId": "37546",
+            "coachId": "118754"
+          },
+          "transferDestination": {
+            "competitionId": "C3GE",
+            "countryId": 50,
+            "clubId": "7968",
+            "coachId": "24336"
+          },
+          "details": {
+            "playerId": "593482",
+            "date": "2018-07-18T00:00:00+02:00",
+            "contractUntilDate": "2020-06-30T00:00:00+02:00",
+            "seasonId": 2018,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 18,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "?",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2018,
+              "display": "18/19",
+              "cyclicalName": "2019",
+              "nonCyclicalName": "18/19"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/azzedine-ounahi/transfers/spieler/593482/transfer_id/2192154"
+        },
+        {
+          "id": "4754718",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 107,
+            "clubId": "102645",
+            "coachId": "0"
+          },
+          "transferDestination": {
+            "competitionId": "",
+            "countryId": 107,
+            "clubId": "37546",
+            "coachId": "0"
+          },
+          "details": {
+            "playerId": "593482",
+            "date": "2015-07-01T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2015,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 15,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "?",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2015,
+              "display": "15/16",
+              "cyclicalName": "2016",
+              "nonCyclicalName": "15/16"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/azzedine-ounahi/transfers/spieler/593482/transfer_id/4754718"
+        }
+      ],
+      "pending": [],
+      "url": "",
+      "feeSum": {
+        "value": 14570000,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "14.57",
+          "suffix": "M"
+        }
+      },
+      "averageAge": 26,
+      "totalMarketValue": {
+        "value": 10000000,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "10.00",
+          "suffix": "M"
+        }
+      }
+    },
+    "clubIds": [
+      "244",
+      "12321",
+      "265",
+      "1420",
+      "26871",
+      "7968",
+      "37546",
+      "102645"
+    ],
+    "coachIds": [
+      "32157",
+      "33636",
+      "5638",
+      "20973",
+      "82563",
+      "28632",
+      "24345",
+      "8183",
+      "24336",
+      "118754"
+    ],
+    "competitionIds": [
+      "FR1",
+      "ES1",
+      "GR1",
+      "FR3",
+      "C3GE"
+    ],
+    "mostRecentTransfer": {
+      "id": "5904290",
+      "transferSource": {
+        "competitionId": "FR1",
+        "countryId": 50,
+        "clubId": "244",
+        "coachId": "32157"
+      },
+      "transferDestination": {
+        "competitionId": "ES1",
+        "countryId": 157,
+        "clubId": "12321",
+        "coachId": "33636"
+      },
+      "details": {
+        "playerId": "593482",
+        "date": "2025-08-30T00:00:00+02:00",
+        "contractUntilDate": "2030-06-30T00:00:00+02:00",
+        "seasonId": 2025,
+        "isPending": false,
+        "marketValue": {
+          "value": 10000000,
+          "currency": "EUR",
+          "compact": {
+            "prefix": "€",
+            "content": "10.00",
+            "suffix": "M"
+          }
+        },
+        "age": 25,
+        "fee": {
+          "value": 6000000,
+          "currency": "EUR",
+          "compact": {
+            "prefix": "€",
+            "content": "6.00",
+            "suffix": "M"
+          }
+        },
+        "remainingContractPeriod": {
+          "days": 669,
+          "daysDisplay": "1 Year, 10 Months"
+        },
+        "season": {
+          "id": 2025,
+          "display": "25/26",
+          "cyclicalName": "2026",
+          "nonCyclicalName": "25/26"
+        }
+      },
+      "typeDetails": {
+        "type": "STANDARD",
+        "name": "",
+        "feeDescription": ""
+      },
+      "relativeUrl": "/azzedine-ounahi/transfers/spieler/593482/transfer_id/5904290"
+    }
+  }
+}

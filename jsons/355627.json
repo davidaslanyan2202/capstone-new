@@ -1,0 +1,545 @@
+{
+  "success": true,
+  "message": "OK",
+  "data": {
+    "playerId": "355627",
+    "history": {
+      "terminated": [
+        {
+          "id": "4862124",
+          "transferSource": {
+            "competitionId": "ES1",
+            "countryId": 157,
+            "clubId": "3302",
+            "coachId": "10781"
+          },
+          "transferDestination": {
+            "competitionId": "FR1",
+            "countryId": 50,
+            "clubId": "1421",
+            "coachId": "53316"
+          },
+          "details": {
+            "playerId": "355627",
+            "date": "2024-02-01T00:00:00+01:00",
+            "contractUntilDate": "2028-06-30T00:00:00+02:00",
+            "seasonId": 2023,
+            "isPending": false,
+            "marketValue": {
+              "value": 8000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "8.00",
+                "suffix": "M"
+              }
+            },
+            "age": 26,
+            "fee": {
+              "value": 6000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "6.00",
+                "suffix": "M"
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 880,
+              "daysDisplay": "2 Years, 4 Months, 29 Days"
+            },
+            "season": {
+              "id": 2023,
+              "display": "23/24",
+              "cyclicalName": "2024",
+              "nonCyclicalName": "23/24"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/sergio-akieme/transfers/spieler/355627/transfer_id/4862124"
+        },
+        {
+          "id": "3427950",
+          "transferSource": {
+            "competitionId": "E3G2",
+            "countryId": 157,
+            "clubId": "2464",
+            "coachId": "16361"
+          },
+          "transferDestination": {
+            "competitionId": "ES2",
+            "countryId": 157,
+            "clubId": "3302",
+            "coachId": "24307"
+          },
+          "details": {
+            "playerId": "355627",
+            "date": "2021-07-07T00:00:00+02:00",
+            "contractUntilDate": "2026-06-30T00:00:00+02:00",
+            "seasonId": 2021,
+            "isPending": false,
+            "marketValue": {
+              "value": 5000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "5.00",
+                "suffix": "M"
+              }
+            },
+            "age": 23,
+            "fee": {
+              "value": 4700000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "4.70",
+                "suffix": "M"
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 723,
+              "daysDisplay": "1 Year, 11 Months, 23 Days"
+            },
+            "season": {
+              "id": 2021,
+              "display": "21/22",
+              "cyclicalName": "2022",
+              "nonCyclicalName": "21/22"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/sergio-akieme/transfers/spieler/355627/transfer_id/3427950"
+        },
+        {
+          "id": "3068331",
+          "transferSource": {
+            "competitionId": "ES2",
+            "countryId": 157,
+            "clubId": "3302",
+            "coachId": "24307"
+          },
+          "transferDestination": {
+            "competitionId": "E3G2",
+            "countryId": 157,
+            "clubId": "2464",
+            "coachId": "23730"
+          },
+          "details": {
+            "playerId": "355627",
+            "date": "2021-06-30T00:00:00+02:00",
+            "contractUntilDate": "2023-06-30T00:00:00+02:00",
+            "seasonId": 2020,
+            "isPending": false,
+            "marketValue": {
+              "value": 5000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "5.00",
+                "suffix": "M"
+              }
+            },
+            "age": 23,
+            "remainingContractPeriod": {
+              "days": 0,
+              "daysDisplay": "Unknown"
+            },
+            "season": {
+              "id": 2020,
+              "display": "20/21",
+              "cyclicalName": "2021",
+              "nonCyclicalName": "20/21"
+            }
+          },
+          "typeDetails": {
+            "type": "RETURNED_FROM_PREVIOUS_LOAN",
+            "name": "End of loan",
+            "feeDescription": "End of loan"
+          },
+          "relativeUrl": "/sergio-akieme/transfers/spieler/355627/transfer_id/3068331"
+        },
+        {
+          "id": "3068330",
+          "transferSource": {
+            "competitionId": "ES3C",
+            "countryId": 157,
+            "clubId": "2464",
+            "coachId": "23730"
+          },
+          "transferDestination": {
+            "competitionId": "ES2",
+            "countryId": 157,
+            "clubId": "3302",
+            "coachId": "2462"
+          },
+          "details": {
+            "playerId": "355627",
+            "date": "2020-09-19T00:00:00+02:00",
+            "contractUntilDate": "2021-06-30T00:00:00+02:00",
+            "seasonId": 2020,
+            "isPending": false,
+            "marketValue": {
+              "value": 300000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "300.00",
+                "suffix": "K"
+              }
+            },
+            "age": 22,
+            "remainingContractPeriod": {
+              "days": 284,
+              "daysDisplay": "9 Months, 11 Days"
+            },
+            "season": {
+              "id": 2020,
+              "display": "20/21",
+              "cyclicalName": "2021",
+              "nonCyclicalName": "20/21"
+            }
+          },
+          "typeDetails": {
+            "type": "ACTIVE_LOAN_TRANSFER",
+            "name": "loan transfer",
+            "feeDescription": "loan transfer"
+          },
+          "relativeUrl": "/sergio-akieme/transfers/spieler/355627/transfer_id/3068330"
+        },
+        {
+          "id": "2631417",
+          "transferSource": {
+            "competitionId": "ES2",
+            "countryId": 157,
+            "clubId": "367",
+            "coachId": "5174"
+          },
+          "transferDestination": {
+            "competitionId": "ES3C",
+            "countryId": 157,
+            "clubId": "2464",
+            "coachId": "23730"
+          },
+          "details": {
+            "playerId": "355627",
+            "date": "2019-09-02T00:00:00+02:00",
+            "contractUntilDate": "2021-06-30T00:00:00+02:00",
+            "seasonId": 2019,
+            "isPending": false,
+            "marketValue": {
+              "value": 300000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "300.00",
+                "suffix": "K"
+              }
+            },
+            "age": 21,
+            "fee": {
+              "value": 300000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "300.00",
+                "suffix": "K"
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 302,
+              "daysDisplay": "9 Months, 28 Days"
+            },
+            "season": {
+              "id": 2019,
+              "display": "19/20",
+              "cyclicalName": "2020",
+              "nonCyclicalName": "19/20"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/sergio-akieme/transfers/spieler/355627/transfer_id/2631417"
+        },
+        {
+          "id": "1789721",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 157,
+            "clubId": "15080",
+            "coachId": "30785"
+          },
+          "transferDestination": {
+            "competitionId": "ES2",
+            "countryId": 157,
+            "clubId": "367",
+            "coachId": "33636"
+          },
+          "details": {
+            "playerId": "355627",
+            "date": "2017-07-01T00:00:00+02:00",
+            "contractUntilDate": "2020-06-30T00:00:00+02:00",
+            "seasonId": 2017,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 19,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2017,
+              "display": "17/18",
+              "cyclicalName": "2018",
+              "nonCyclicalName": "17/18"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/sergio-akieme/transfers/spieler/355627/transfer_id/1789721"
+        },
+        {
+          "id": "1293708",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 157,
+            "clubId": "20201",
+            "coachId": "24342"
+          },
+          "transferDestination": {
+            "competitionId": "",
+            "countryId": 157,
+            "clubId": "15080",
+            "coachId": "47175"
+          },
+          "details": {
+            "playerId": "355627",
+            "date": "2015-07-01T00:00:00+02:00",
+            "contractUntilDate": "2016-06-30T00:00:00+02:00",
+            "seasonId": 2015,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 17,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2015,
+              "display": "15/16",
+              "cyclicalName": "2016",
+              "nonCyclicalName": "15/16"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/sergio-akieme/transfers/spieler/355627/transfer_id/1293708"
+        },
+        {
+          "id": "1190809",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 157,
+            "clubId": "14738",
+            "coachId": "97169"
+          },
+          "transferDestination": {
+            "competitionId": "",
+            "countryId": 157,
+            "clubId": "20201",
+            "coachId": "0"
+          },
+          "details": {
+            "playerId": "355627",
+            "date": "2013-07-01T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2013,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 15,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "?",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2013,
+              "display": "13/14",
+              "cyclicalName": "2014",
+              "nonCyclicalName": "13/14"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/sergio-akieme/transfers/spieler/355627/transfer_id/1190809"
+        }
+      ],
+      "pending": [],
+      "url": "",
+      "feeSum": {
+        "value": 11000000,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "11.00",
+          "suffix": "M"
+        }
+      },
+      "averageAge": 28,
+      "totalMarketValue": {
+        "value": 5000000,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "5.00",
+          "suffix": "M"
+        }
+      }
+    },
+    "clubIds": [
+      "3302",
+      "1421",
+      "2464",
+      "367",
+      "15080",
+      "20201",
+      "14738"
+    ],
+    "coachIds": [
+      "10781",
+      "53316",
+      "16361",
+      "24307",
+      "23730",
+      "2462",
+      "5174",
+      "30785",
+      "33636",
+      "24342",
+      "47175",
+      "97169"
+    ],
+    "competitionIds": [
+      "ES1",
+      "FR1",
+      "E3G2",
+      "ES2",
+      "ES3C"
+    ],
+    "mostRecentTransfer": {
+      "id": "4862124",
+      "transferSource": {
+        "competitionId": "ES1",
+        "countryId": 157,
+        "clubId": "3302",
+        "coachId": "10781"
+      },
+      "transferDestination": {
+        "competitionId": "FR1",
+        "countryId": 50,
+        "clubId": "1421",
+        "coachId": "53316"
+      },
+      "details": {
+        "playerId": "355627",
+        "date": "2024-02-01T00:00:00+01:00",
+        "contractUntilDate": "2028-06-30T00:00:00+02:00",
+        "seasonId": 2023,
+        "isPending": false,
+        "marketValue": {
+          "value": 8000000,
+          "currency": "EUR",
+          "compact": {
+            "prefix": "€",
+            "content": "8.00",
+            "suffix": "M"
+          }
+        },
+        "age": 26,
+        "fee": {
+          "value": 6000000,
+          "currency": "EUR",
+          "compact": {
+            "prefix": "€",
+            "content": "6.00",
+            "suffix": "M"
+          }
+        },
+        "remainingContractPeriod": {
+          "days": 880,
+          "daysDisplay": "2 Years, 4 Months, 29 Days"
+        },
+        "season": {
+          "id": 2023,
+          "display": "23/24",
+          "cyclicalName": "2024",
+          "nonCyclicalName": "23/24"
+        }
+      },
+      "typeDetails": {
+        "type": "STANDARD",
+        "name": "",
+        "feeDescription": ""
+      },
+      "relativeUrl": "/sergio-akieme/transfers/spieler/355627/transfer_id/4862124"
+    }
+  }
+}

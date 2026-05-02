@@ -1,0 +1,526 @@
+{
+  "success": true,
+  "message": "OK",
+  "data": {
+    "playerId": "568702",
+    "history": {
+      "terminated": [
+        {
+          "id": "6174101",
+          "transferSource": {
+            "competitionId": "MOP2",
+            "countryId": 112,
+            "clubId": "2481",
+            "coachId": "39752"
+          },
+          "transferDestination": {
+            "competitionId": "UKR1",
+            "countryId": 177,
+            "clubId": "18303",
+            "coachId": "67028"
+          },
+          "details": {
+            "playerId": "568702",
+            "date": "2026-02-08T00:00:00+01:00",
+            "contractUntilDate": "2028-06-30T00:00:00+02:00",
+            "seasonId": 2025,
+            "isPending": false,
+            "marketValue": {
+              "value": 450000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "450.00",
+                "suffix": "K"
+              }
+            },
+            "age": 26,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "Free Transfer",
+                "suffix": ""
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 142,
+              "daysDisplay": "4 Months, 22 Days"
+            },
+            "season": {
+              "id": 2025,
+              "display": "25/26",
+              "cyclicalName": "2026",
+              "nonCyclicalName": "25/26"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/papa-ndiaga-yade/transfers/spieler/568702/transfer_id/6174101"
+        },
+        {
+          "id": "5084727",
+          "transferSource": {
+            "competitionId": "FR2",
+            "countryId": 50,
+            "clubId": "347",
+            "coachId": "1227"
+          },
+          "transferDestination": {
+            "competitionId": "MOP2",
+            "countryId": 112,
+            "clubId": "2481",
+            "coachId": "26565"
+          },
+          "details": {
+            "playerId": "568702",
+            "date": "2024-07-01T00:00:00+02:00",
+            "contractUntilDate": "2026-06-30T00:00:00+02:00",
+            "seasonId": 2024,
+            "isPending": false,
+            "marketValue": {
+              "value": 700000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "700.00",
+                "suffix": "K"
+              }
+            },
+            "age": 24,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "Free Transfer",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2024,
+              "display": "24/25",
+              "cyclicalName": "2025",
+              "nonCyclicalName": "24/25"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/papa-ndiaga-yade/transfers/spieler/568702/transfer_id/5084727"
+        },
+        {
+          "id": "4537170",
+          "transferSource": {
+            "competitionId": "FR2",
+            "countryId": 50,
+            "clubId": "7124",
+            "coachId": "5063"
+          },
+          "transferDestination": {
+            "competitionId": "FR2",
+            "countryId": 50,
+            "clubId": "347",
+            "coachId": "1227"
+          },
+          "details": {
+            "playerId": "568702",
+            "date": "2024-06-30T00:00:00+02:00",
+            "contractUntilDate": "2024-06-30T00:00:00+02:00",
+            "seasonId": 2023,
+            "isPending": false,
+            "marketValue": {
+              "value": 700000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "700.00",
+                "suffix": "K"
+              }
+            },
+            "age": 24,
+            "remainingContractPeriod": {
+              "days": 0,
+              "daysDisplay": "Unknown"
+            },
+            "season": {
+              "id": 2023,
+              "display": "23/24",
+              "cyclicalName": "2024",
+              "nonCyclicalName": "23/24"
+            }
+          },
+          "typeDetails": {
+            "type": "RETURNED_FROM_PREVIOUS_LOAN",
+            "name": "End of loan",
+            "feeDescription": "End of loan"
+          },
+          "relativeUrl": "/papa-ndiaga-yade/transfers/spieler/568702/transfer_id/4537170"
+        },
+        {
+          "id": "4537169",
+          "transferSource": {
+            "competitionId": "FR1",
+            "countryId": 50,
+            "clubId": "347",
+            "coachId": "1227"
+          },
+          "transferDestination": {
+            "competitionId": "FR2",
+            "countryId": 50,
+            "clubId": "7124",
+            "coachId": "31260"
+          },
+          "details": {
+            "playerId": "568702",
+            "date": "2023-07-27T00:00:00+02:00",
+            "contractUntilDate": "2024-06-30T00:00:00+02:00",
+            "seasonId": 2023,
+            "isPending": false,
+            "marketValue": {
+              "value": 1200000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "1.20",
+                "suffix": "M"
+              }
+            },
+            "age": 23,
+            "remainingContractPeriod": {
+              "days": 339,
+              "daysDisplay": "11 Months, 3 Days"
+            },
+            "season": {
+              "id": 2023,
+              "display": "23/24",
+              "cyclicalName": "2024",
+              "nonCyclicalName": "23/24"
+            }
+          },
+          "typeDetails": {
+            "type": "ACTIVE_LOAN_TRANSFER",
+            "name": "loan transfer",
+            "feeDescription": "loan transfer"
+          },
+          "relativeUrl": "/papa-ndiaga-yade/transfers/spieler/568702/transfer_id/4537169"
+        },
+        {
+          "id": "4037649",
+          "transferSource": {
+            "competitionId": "FR1",
+            "countryId": 50,
+            "clubId": "1095",
+            "coachId": "83668"
+          },
+          "transferDestination": {
+            "competitionId": "FR1",
+            "countryId": 50,
+            "clubId": "347",
+            "coachId": "1227"
+          },
+          "details": {
+            "playerId": "568702",
+            "date": "2023-06-30T00:00:00+02:00",
+            "contractUntilDate": "2024-06-30T00:00:00+02:00",
+            "seasonId": 2022,
+            "isPending": false,
+            "marketValue": {
+              "value": 1200000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "1.20",
+                "suffix": "M"
+              }
+            },
+            "age": 23,
+            "remainingContractPeriod": {
+              "days": 0,
+              "daysDisplay": "Unknown"
+            },
+            "season": {
+              "id": 2022,
+              "display": "22/23",
+              "cyclicalName": "2023",
+              "nonCyclicalName": "22/23"
+            }
+          },
+          "typeDetails": {
+            "type": "RETURNED_FROM_PREVIOUS_LOAN",
+            "name": "End of loan",
+            "feeDescription": "End of loan"
+          },
+          "relativeUrl": "/papa-ndiaga-yade/transfers/spieler/568702/transfer_id/4037649"
+        },
+        {
+          "id": "4037650",
+          "transferSource": {
+            "competitionId": "FR2",
+            "countryId": 50,
+            "clubId": "347",
+            "coachId": "1227"
+          },
+          "transferDestination": {
+            "competitionId": "FR1",
+            "countryId": 50,
+            "clubId": "1095",
+            "coachId": "23732"
+          },
+          "details": {
+            "playerId": "568702",
+            "date": "2022-08-25T00:00:00+02:00",
+            "contractUntilDate": "2023-06-30T00:00:00+02:00",
+            "seasonId": 2022,
+            "isPending": false,
+            "marketValue": {
+              "value": 2000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "2.00",
+                "suffix": "M"
+              }
+            },
+            "age": 22,
+            "remainingContractPeriod": {
+              "days": 675,
+              "daysDisplay": "1 Year, 10 Months, 5 Days"
+            },
+            "season": {
+              "id": 2022,
+              "display": "22/23",
+              "cyclicalName": "2023",
+              "nonCyclicalName": "22/23"
+            }
+          },
+          "typeDetails": {
+            "type": "ACTIVE_LOAN_TRANSFER",
+            "name": "loan transfer",
+            "feeDescription": "loan transfer"
+          },
+          "relativeUrl": "/papa-ndiaga-yade/transfers/spieler/568702/transfer_id/4037650"
+        },
+        {
+          "id": "3894715",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 149,
+            "clubId": "30031",
+            "coachId": "76979"
+          },
+          "transferDestination": {
+            "competitionId": "FR1",
+            "countryId": 50,
+            "clubId": "347",
+            "coachId": "27454"
+          },
+          "details": {
+            "playerId": "568702",
+            "date": "2019-07-01T00:00:00+02:00",
+            "contractUntilDate": "2024-06-30T00:00:00+02:00",
+            "seasonId": 2019,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 19,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "?",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2019,
+              "display": "19/20",
+              "cyclicalName": "2020",
+              "nonCyclicalName": "19/20"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/papa-ndiaga-yade/transfers/spieler/568702/transfer_id/3894715"
+        },
+        {
+          "id": "2587285",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 149,
+            "clubId": "27872",
+            "coachId": "129739"
+          },
+          "transferDestination": {
+            "competitionId": "",
+            "countryId": 149,
+            "clubId": "30031",
+            "coachId": "59468"
+          },
+          "details": {
+            "playerId": "568702",
+            "date": "2017-10-27T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2017,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 17,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "?",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2017,
+              "display": "17/18",
+              "cyclicalName": "2018",
+              "nonCyclicalName": "17/18"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/papa-ndiaga-yade/transfers/spieler/568702/transfer_id/2587285"
+        }
+      ],
+      "pending": [],
+      "url": "",
+      "feeSum": {
+        "value": 0,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "0.00",
+          "suffix": ""
+        }
+      },
+      "averageAge": 26,
+      "totalMarketValue": {
+        "value": 450000,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "450.00",
+          "suffix": "K"
+        }
+      }
+    },
+    "clubIds": [
+      "2481",
+      "18303",
+      "347",
+      "7124",
+      "1095",
+      "30031",
+      "27872"
+    ],
+    "coachIds": [
+      "39752",
+      "67028",
+      "1227",
+      "26565",
+      "5063",
+      "31260",
+      "83668",
+      "23732",
+      "76979",
+      "27454",
+      "129739",
+      "59468"
+    ],
+    "competitionIds": [
+      "MOP2",
+      "UKR1",
+      "FR2",
+      "FR1"
+    ],
+    "mostRecentTransfer": {
+      "id": "6174101",
+      "transferSource": {
+        "competitionId": "MOP2",
+        "countryId": 112,
+        "clubId": "2481",
+        "coachId": "39752"
+      },
+      "transferDestination": {
+        "competitionId": "UKR1",
+        "countryId": 177,
+        "clubId": "18303",
+        "coachId": "67028"
+      },
+      "details": {
+        "playerId": "568702",
+        "date": "2026-02-08T00:00:00+01:00",
+        "contractUntilDate": "2028-06-30T00:00:00+02:00",
+        "seasonId": 2025,
+        "isPending": false,
+        "marketValue": {
+          "value": 450000,
+          "currency": "EUR",
+          "compact": {
+            "prefix": "€",
+            "content": "450.00",
+            "suffix": "K"
+          }
+        },
+        "age": 26,
+        "fee": {
+          "value": null,
+          "currency": "",
+          "compact": {
+            "prefix": "",
+            "content": "Free Transfer",
+            "suffix": ""
+          }
+        },
+        "remainingContractPeriod": {
+          "days": 142,
+          "daysDisplay": "4 Months, 22 Days"
+        },
+        "season": {
+          "id": 2025,
+          "display": "25/26",
+          "cyclicalName": "2026",
+          "nonCyclicalName": "25/26"
+        }
+      },
+      "typeDetails": {
+        "type": "STANDARD",
+        "name": "",
+        "feeDescription": ""
+      },
+      "relativeUrl": "/papa-ndiaga-yade/transfers/spieler/568702/transfer_id/6174101"
+    }
+  }
+}

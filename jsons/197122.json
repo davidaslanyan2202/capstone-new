@@ -1,0 +1,362 @@
+{
+  "success": true,
+  "message": "OK",
+  "data": {
+    "playerId": "197122",
+    "history": {
+      "terminated": [
+        {
+          "id": "5660763",
+          "transferSource": {
+            "competitionId": "ES1",
+            "countryId": 157,
+            "clubId": "331",
+            "coachId": "87289"
+          },
+          "transferDestination": {
+            "competitionId": "GR1",
+            "countryId": 56,
+            "clubId": "6418",
+            "coachId": "16166"
+          },
+          "details": {
+            "playerId": "197122",
+            "date": "2025-07-01T00:00:00+02:00",
+            "contractUntilDate": "2026-06-30T00:00:00+02:00",
+            "seasonId": 2025,
+            "isPending": false,
+            "marketValue": {
+              "value": 800000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "800.00",
+                "suffix": "K"
+              }
+            },
+            "age": 33,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "Free Transfer",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2025,
+              "display": "25/26",
+              "cyclicalName": "2026",
+              "nonCyclicalName": "25/26"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/unai-garcia/transfers/spieler/197122/transfer_id/5660763"
+        },
+        {
+          "id": "2109946",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 157,
+            "clubId": "8516",
+            "coachId": "39121"
+          },
+          "transferDestination": {
+            "competitionId": "ES2",
+            "countryId": 157,
+            "clubId": "331",
+            "coachId": "5506"
+          },
+          "details": {
+            "playerId": "197122",
+            "date": "2015-07-01T00:00:00+02:00",
+            "contractUntilDate": "2023-06-30T00:00:00+02:00",
+            "seasonId": 2015,
+            "isPending": false,
+            "marketValue": {
+              "value": 300000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "300.00",
+                "suffix": "K"
+              }
+            },
+            "age": 23,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 365,
+              "daysDisplay": "11 Months, 29 Days"
+            },
+            "season": {
+              "id": 2015,
+              "display": "15/16",
+              "cyclicalName": "2016",
+              "nonCyclicalName": "15/16"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/unai-garcia/transfers/spieler/197122/transfer_id/2109946"
+        },
+        {
+          "id": "1183366",
+          "transferSource": {
+            "competitionId": "ES3B",
+            "countryId": 157,
+            "clubId": "29271",
+            "coachId": "5169"
+          },
+          "transferDestination": {
+            "competitionId": "",
+            "countryId": 157,
+            "clubId": "8516",
+            "coachId": "0"
+          },
+          "details": {
+            "playerId": "197122",
+            "date": "2015-06-30T00:00:00+02:00",
+            "contractUntilDate": "2016-06-30T00:00:00+02:00",
+            "seasonId": 2014,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 23,
+            "remainingContractPeriod": {
+              "days": 0,
+              "daysDisplay": "Unknown"
+            },
+            "season": {
+              "id": 2014,
+              "display": "14/15",
+              "cyclicalName": "2015",
+              "nonCyclicalName": "14/15"
+            }
+          },
+          "typeDetails": {
+            "type": "RETURNED_FROM_PREVIOUS_LOAN",
+            "name": "End of loan",
+            "feeDescription": "End of loan"
+          },
+          "relativeUrl": "/unai-garcia/transfers/spieler/197122/transfer_id/1183366"
+        },
+        {
+          "id": "1183365",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 157,
+            "clubId": "8516",
+            "coachId": "39121"
+          },
+          "transferDestination": {
+            "competitionId": "ES3B",
+            "countryId": 157,
+            "clubId": "29271",
+            "coachId": "5169"
+          },
+          "details": {
+            "playerId": "197122",
+            "date": "2015-01-28T00:00:00+01:00",
+            "contractUntilDate": "2015-06-30T00:00:00+02:00",
+            "seasonId": 2014,
+            "isPending": false,
+            "marketValue": {
+              "value": 100000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "100.00",
+                "suffix": "K"
+              }
+            },
+            "age": 22,
+            "season": {
+              "id": 2014,
+              "display": "14/15",
+              "cyclicalName": "2015",
+              "nonCyclicalName": "14/15"
+            }
+          },
+          "typeDetails": {
+            "type": "ACTIVE_LOAN_TRANSFER",
+            "name": "loan transfer",
+            "feeDescription": "loan transfer"
+          },
+          "relativeUrl": "/unai-garcia/transfers/spieler/197122/transfer_id/1183365"
+        },
+        {
+          "id": "626198",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 157,
+            "clubId": "28861",
+            "coachId": "9500"
+          },
+          "transferDestination": {
+            "competitionId": "ES3B",
+            "countryId": 157,
+            "clubId": "8516",
+            "coachId": "4809"
+          },
+          "details": {
+            "playerId": "197122",
+            "date": "2011-07-01T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2011,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 19,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2011,
+              "display": "11/12",
+              "cyclicalName": "2012",
+              "nonCyclicalName": "11/12"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/unai-garcia/transfers/spieler/197122/transfer_id/626198"
+        }
+      ],
+      "pending": [],
+      "url": "",
+      "feeSum": {
+        "value": 0,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "0.00",
+          "suffix": ""
+        }
+      },
+      "averageAge": 34,
+      "totalMarketValue": {
+        "value": 500000,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "500.00",
+          "suffix": "K"
+        }
+      }
+    },
+    "clubIds": [
+      "331",
+      "6418",
+      "8516",
+      "29271",
+      "28861"
+    ],
+    "coachIds": [
+      "87289",
+      "16166",
+      "39121",
+      "5506",
+      "5169",
+      "9500",
+      "4809"
+    ],
+    "competitionIds": [
+      "ES1",
+      "GR1",
+      "ES2",
+      "ES3B"
+    ],
+    "mostRecentTransfer": {
+      "id": "5660763",
+      "transferSource": {
+        "competitionId": "ES1",
+        "countryId": 157,
+        "clubId": "331",
+        "coachId": "87289"
+      },
+      "transferDestination": {
+        "competitionId": "GR1",
+        "countryId": 56,
+        "clubId": "6418",
+        "coachId": "16166"
+      },
+      "details": {
+        "playerId": "197122",
+        "date": "2025-07-01T00:00:00+02:00",
+        "contractUntilDate": "2026-06-30T00:00:00+02:00",
+        "seasonId": 2025,
+        "isPending": false,
+        "marketValue": {
+          "value": 800000,
+          "currency": "EUR",
+          "compact": {
+            "prefix": "€",
+            "content": "800.00",
+            "suffix": "K"
+          }
+        },
+        "age": 33,
+        "fee": {
+          "value": null,
+          "currency": "",
+          "compact": {
+            "prefix": "",
+            "content": "Free Transfer",
+            "suffix": ""
+          }
+        },
+        "season": {
+          "id": 2025,
+          "display": "25/26",
+          "cyclicalName": "2026",
+          "nonCyclicalName": "25/26"
+        }
+      },
+      "typeDetails": {
+        "type": "STANDARD",
+        "name": "",
+        "feeDescription": ""
+      },
+      "relativeUrl": "/unai-garcia/transfers/spieler/197122/transfer_id/5660763"
+    }
+  }
+}

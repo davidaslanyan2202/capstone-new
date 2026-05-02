@@ -1,0 +1,897 @@
+{
+  "success": true,
+  "message": "OK",
+  "data": {
+    "playerId": "190289",
+    "history": {
+      "terminated": [
+        {
+          "id": "4836263",
+          "transferSource": {
+            "competitionId": "L1",
+            "countryId": 40,
+            "clubId": "105",
+            "coachId": "5236"
+          },
+          "transferDestination": {
+            "competitionId": "L1",
+            "countryId": 40,
+            "clubId": "80",
+            "coachId": "41345"
+          },
+          "details": {
+            "playerId": "190289",
+            "date": "2024-06-30T00:00:00+02:00",
+            "contractUntilDate": "2027-06-30T00:00:00+02:00",
+            "seasonId": 2023,
+            "isPending": false,
+            "marketValue": {
+              "value": 1000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "1.00",
+                "suffix": "M"
+              }
+            },
+            "age": 29,
+            "remainingContractPeriod": {
+              "days": 0,
+              "daysDisplay": "Unknown"
+            },
+            "season": {
+              "id": 2023,
+              "display": "23/24",
+              "cyclicalName": "2024",
+              "nonCyclicalName": "23/24"
+            }
+          },
+          "typeDetails": {
+            "type": "RETURNED_FROM_PREVIOUS_LOAN",
+            "name": "End of loan",
+            "feeDescription": "End of loan"
+          },
+          "relativeUrl": "/gerrit-holtmann/transfers/spieler/190289/transfer_id/4836263"
+        },
+        {
+          "id": "4836262",
+          "transferSource": {
+            "competitionId": "L1",
+            "countryId": 40,
+            "clubId": "80",
+            "coachId": "335"
+          },
+          "transferDestination": {
+            "competitionId": "L1",
+            "countryId": 40,
+            "clubId": "105",
+            "coachId": "5236"
+          },
+          "details": {
+            "playerId": "190289",
+            "date": "2024-01-21T00:00:00+01:00",
+            "contractUntilDate": "2024-06-30T00:00:00+02:00",
+            "seasonId": 2023,
+            "isPending": false,
+            "marketValue": {
+              "value": 2000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "2.00",
+                "suffix": "M"
+              }
+            },
+            "age": 28,
+            "remainingContractPeriod": {
+              "days": 526,
+              "daysDisplay": "1 Year, 5 Months, 9 Days"
+            },
+            "season": {
+              "id": 2023,
+              "display": "23/24",
+              "cyclicalName": "2024",
+              "nonCyclicalName": "23/24"
+            }
+          },
+          "typeDetails": {
+            "type": "ACTIVE_LOAN_TRANSFER",
+            "name": "loan transfer",
+            "feeDescription": "loan transfer"
+          },
+          "relativeUrl": "/gerrit-holtmann/transfers/spieler/190289/transfer_id/4836262"
+        },
+        {
+          "id": "4561546",
+          "transferSource": {
+            "competitionId": "TR1",
+            "countryId": 174,
+            "clubId": "589",
+            "coachId": "32128"
+          },
+          "transferDestination": {
+            "competitionId": "L1",
+            "countryId": 40,
+            "clubId": "80",
+            "coachId": "335"
+          },
+          "details": {
+            "playerId": "190289",
+            "date": "2024-01-20T00:00:00+01:00",
+            "contractUntilDate": "2025-06-30T00:00:00+02:00",
+            "seasonId": 2023,
+            "isPending": false,
+            "marketValue": {
+              "value": 2000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "2.00",
+                "suffix": "M"
+              }
+            },
+            "age": 28,
+            "remainingContractPeriod": {
+              "days": 162,
+              "daysDisplay": "5 Months, 10 Days"
+            },
+            "season": {
+              "id": 2023,
+              "display": "23/24",
+              "cyclicalName": "2024",
+              "nonCyclicalName": "23/24"
+            }
+          },
+          "typeDetails": {
+            "type": "RETURNED_FROM_PREVIOUS_LOAN",
+            "name": "End of loan",
+            "feeDescription": "End of loan"
+          },
+          "relativeUrl": "/gerrit-holtmann/transfers/spieler/190289/transfer_id/4561546"
+        },
+        {
+          "id": "4561536",
+          "transferSource": {
+            "competitionId": "L1",
+            "countryId": 40,
+            "clubId": "80",
+            "coachId": "335"
+          },
+          "transferDestination": {
+            "competitionId": "TR1",
+            "countryId": 174,
+            "clubId": "589",
+            "coachId": "96813"
+          },
+          "details": {
+            "playerId": "190289",
+            "date": "2023-08-05T00:00:00+02:00",
+            "contractUntilDate": "2024-06-30T00:00:00+02:00",
+            "seasonId": 2023,
+            "isPending": false,
+            "marketValue": {
+              "value": 2500000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "2.50",
+                "suffix": "M"
+              }
+            },
+            "age": 28,
+            "remainingContractPeriod": {
+              "days": 695,
+              "daysDisplay": "1 Year, 10 Months, 25 Days"
+            },
+            "season": {
+              "id": 2023,
+              "display": "23/24",
+              "cyclicalName": "2024",
+              "nonCyclicalName": "23/24"
+            }
+          },
+          "typeDetails": {
+            "type": "ACTIVE_LOAN_TRANSFER",
+            "name": "loan transfer",
+            "feeDescription": "loan transfer"
+          },
+          "relativeUrl": "/gerrit-holtmann/transfers/spieler/190289/transfer_id/4561536"
+        },
+        {
+          "id": "3026804",
+          "transferSource": {
+            "competitionId": "L1",
+            "countryId": 40,
+            "clubId": "39",
+            "coachId": "15487"
+          },
+          "transferDestination": {
+            "competitionId": "L2",
+            "countryId": 40,
+            "clubId": "80",
+            "coachId": "19735"
+          },
+          "details": {
+            "playerId": "190289",
+            "date": "2020-08-24T00:00:00+02:00",
+            "contractUntilDate": "2025-06-30T00:00:00+02:00",
+            "seasonId": 2020,
+            "isPending": false,
+            "marketValue": {
+              "value": 1200000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "1.20",
+                "suffix": "M"
+              }
+            },
+            "age": 25,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "Free Transfer",
+                "suffix": ""
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 310,
+              "daysDisplay": "10 Months, 6 Days"
+            },
+            "season": {
+              "id": 2020,
+              "display": "20/21",
+              "cyclicalName": "2021",
+              "nonCyclicalName": "20/21"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/gerrit-holtmann/transfers/spieler/190289/transfer_id/3026804"
+        },
+        {
+          "id": "2526815",
+          "transferSource": {
+            "competitionId": "L1",
+            "countryId": 40,
+            "clubId": "127",
+            "coachId": "9622"
+          },
+          "transferDestination": {
+            "competitionId": "L1",
+            "countryId": 40,
+            "clubId": "39",
+            "coachId": "15487"
+          },
+          "details": {
+            "playerId": "190289",
+            "date": "2020-06-30T00:00:00+02:00",
+            "contractUntilDate": "2021-06-30T00:00:00+02:00",
+            "seasonId": 2019,
+            "isPending": false,
+            "marketValue": {
+              "value": 1200000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "1.20",
+                "suffix": "M"
+              }
+            },
+            "age": 25,
+            "remainingContractPeriod": {
+              "days": 0,
+              "daysDisplay": "Unknown"
+            },
+            "season": {
+              "id": 2019,
+              "display": "19/20",
+              "cyclicalName": "2020",
+              "nonCyclicalName": "19/20"
+            }
+          },
+          "typeDetails": {
+            "type": "RETURNED_FROM_PREVIOUS_LOAN",
+            "name": "End of loan",
+            "feeDescription": "End of loan"
+          },
+          "relativeUrl": "/gerrit-holtmann/transfers/spieler/190289/transfer_id/2526815"
+        },
+        {
+          "id": "2526814",
+          "transferSource": {
+            "competitionId": "L1",
+            "countryId": 40,
+            "clubId": "39",
+            "coachId": "9570"
+          },
+          "transferDestination": {
+            "competitionId": "L1",
+            "countryId": 40,
+            "clubId": "127",
+            "coachId": "9622"
+          },
+          "details": {
+            "playerId": "190289",
+            "date": "2019-07-01T00:00:00+02:00",
+            "contractUntilDate": "2020-06-30T00:00:00+02:00",
+            "seasonId": 2019,
+            "isPending": false,
+            "marketValue": {
+              "value": 1500000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "1.50",
+                "suffix": "M"
+              }
+            },
+            "age": 24,
+            "remainingContractPeriod": {
+              "days": 365,
+              "daysDisplay": "11 Months, 29 Days"
+            },
+            "season": {
+              "id": 2019,
+              "display": "19/20",
+              "cyclicalName": "2020",
+              "nonCyclicalName": "19/20"
+            }
+          },
+          "typeDetails": {
+            "type": "ACTIVE_LOAN_TRANSFER",
+            "name": "loan transfer",
+            "feeDescription": "loan transfer"
+          },
+          "relativeUrl": "/gerrit-holtmann/transfers/spieler/190289/transfer_id/2526814"
+        },
+        {
+          "id": "1499333",
+          "transferSource": {
+            "competitionId": "L2",
+            "countryId": 40,
+            "clubId": "23",
+            "coachId": "5236"
+          },
+          "transferDestination": {
+            "competitionId": "L1",
+            "countryId": 40,
+            "clubId": "39",
+            "coachId": "15119"
+          },
+          "details": {
+            "playerId": "190289",
+            "date": "2016-07-01T00:00:00+02:00",
+            "contractUntilDate": "2020-06-30T00:00:00+02:00",
+            "seasonId": 2016,
+            "isPending": false,
+            "marketValue": {
+              "value": 600000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "600.00",
+                "suffix": "K"
+              }
+            },
+            "age": 21,
+            "fee": {
+              "value": 3000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "3.00",
+                "suffix": "M"
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 1094,
+              "daysDisplay": "2 Years, 11 Months, 29 Days"
+            },
+            "season": {
+              "id": 2016,
+              "display": "16/17",
+              "cyclicalName": "2017",
+              "nonCyclicalName": "16/17"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/gerrit-holtmann/transfers/spieler/190289/transfer_id/1499333"
+        },
+        {
+          "id": "1251147",
+          "transferSource": {
+            "competitionId": "RLN3",
+            "countryId": 40,
+            "clubId": "1212",
+            "coachId": "5338"
+          },
+          "transferDestination": {
+            "competitionId": "L2",
+            "countryId": 40,
+            "clubId": "23",
+            "coachId": "5236"
+          },
+          "details": {
+            "playerId": "190289",
+            "date": "2015-07-01T00:00:00+02:00",
+            "contractUntilDate": "2019-06-30T00:00:00+02:00",
+            "seasonId": 2015,
+            "isPending": false,
+            "marketValue": {
+              "value": 125000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "125.00",
+                "suffix": "K"
+              }
+            },
+            "age": 20,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 365,
+              "daysDisplay": "11 Months, 29 Days"
+            },
+            "season": {
+              "id": 2015,
+              "display": "15/16",
+              "cyclicalName": "2016",
+              "nonCyclicalName": "15/16"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/gerrit-holtmann/transfers/spieler/190289/transfer_id/1251147"
+        },
+        {
+          "id": "1066939",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 40,
+            "clubId": "14605",
+            "coachId": "0"
+          },
+          "transferDestination": {
+            "competitionId": "RLN3",
+            "countryId": 40,
+            "clubId": "1212",
+            "coachId": "5338"
+          },
+          "details": {
+            "playerId": "190289",
+            "date": "2014-07-01T00:00:00+02:00",
+            "contractUntilDate": "2016-06-30T00:00:00+02:00",
+            "seasonId": 2014,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 19,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "Free Transfer",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2014,
+              "display": "14/15",
+              "cyclicalName": "2015",
+              "nonCyclicalName": "14/15"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/gerrit-holtmann/transfers/spieler/190289/transfer_id/1066939"
+        },
+        {
+          "id": "957682",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 40,
+            "clubId": "30691",
+            "coachId": "89087"
+          },
+          "transferDestination": {
+            "competitionId": "",
+            "countryId": 40,
+            "clubId": "14605",
+            "coachId": "0"
+          },
+          "details": {
+            "playerId": "190289",
+            "date": "2013-09-01T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2013,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 18,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "Free Transfer",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2013,
+              "display": "13/14",
+              "cyclicalName": "2014",
+              "nonCyclicalName": "13/14"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/gerrit-holtmann/transfers/spieler/190289/transfer_id/957682"
+        },
+        {
+          "id": "915632",
+          "transferSource": {
+            "competitionId": "AJ1",
+            "countryId": 40,
+            "clubId": "2491",
+            "coachId": "275"
+          },
+          "transferDestination": {
+            "competitionId": "",
+            "countryId": 40,
+            "clubId": "30691",
+            "coachId": "89087"
+          },
+          "details": {
+            "playerId": "190289",
+            "date": "2013-07-01T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2013,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 18,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "Free Transfer",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2013,
+              "display": "13/14",
+              "cyclicalName": "2014",
+              "nonCyclicalName": "13/14"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/gerrit-holtmann/transfers/spieler/190289/transfer_id/915632"
+        },
+        {
+          "id": "742267",
+          "transferSource": {
+            "competitionId": "BJ1",
+            "countryId": 40,
+            "clubId": "21079",
+            "coachId": "2048"
+          },
+          "transferDestination": {
+            "competitionId": "AJ1",
+            "countryId": 40,
+            "clubId": "2491",
+            "coachId": "275"
+          },
+          "details": {
+            "playerId": "190289",
+            "date": "2012-07-01T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2012,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 17,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2012,
+              "display": "12/13",
+              "cyclicalName": "2013",
+              "nonCyclicalName": "12/13"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/gerrit-holtmann/transfers/spieler/190289/transfer_id/742267"
+        },
+        {
+          "id": "590422",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 40,
+            "clubId": "12012",
+            "coachId": "1345"
+          },
+          "transferDestination": {
+            "competitionId": "BJ1",
+            "countryId": 40,
+            "clubId": "21079",
+            "coachId": "2048"
+          },
+          "details": {
+            "playerId": "190289",
+            "date": "2011-07-01T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2011,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 16,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2011,
+              "display": "11/12",
+              "cyclicalName": "2012",
+              "nonCyclicalName": "11/12"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/gerrit-holtmann/transfers/spieler/190289/transfer_id/590422"
+        },
+        {
+          "id": "590423",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 40,
+            "clubId": "41795",
+            "coachId": "0"
+          },
+          "transferDestination": {
+            "competitionId": "",
+            "countryId": 40,
+            "clubId": "12012",
+            "coachId": "1345"
+          },
+          "details": {
+            "playerId": "190289",
+            "date": "2010-07-01T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2010,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 15,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "Free Transfer",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2010,
+              "display": "10/11",
+              "cyclicalName": "2011",
+              "nonCyclicalName": "10/11"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/gerrit-holtmann/transfers/spieler/190289/transfer_id/590423"
+        }
+      ],
+      "pending": [],
+      "url": "",
+      "feeSum": {
+        "value": 3000000,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "3.00",
+          "suffix": "M"
+        }
+      },
+      "averageAge": 31,
+      "totalMarketValue": {
+        "value": 700000,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "700.00",
+          "suffix": "K"
+        }
+      }
+    },
+    "clubIds": [
+      "105",
+      "80",
+      "589",
+      "39",
+      "127",
+      "23",
+      "1212",
+      "14605",
+      "30691",
+      "2491",
+      "21079",
+      "12012",
+      "41795"
+    ],
+    "coachIds": [
+      "5236",
+      "41345",
+      "335",
+      "32128",
+      "96813",
+      "15487",
+      "19735",
+      "9622",
+      "9570",
+      "15119",
+      "5338",
+      "89087",
+      "275",
+      "2048",
+      "1345"
+    ],
+    "competitionIds": [
+      "L1",
+      "TR1",
+      "L2",
+      "RLN3",
+      "AJ1",
+      "BJ1"
+    ],
+    "mostRecentTransfer": {
+      "id": "4836263",
+      "transferSource": {
+        "competitionId": "L1",
+        "countryId": 40,
+        "clubId": "105",
+        "coachId": "5236"
+      },
+      "transferDestination": {
+        "competitionId": "L1",
+        "countryId": 40,
+        "clubId": "80",
+        "coachId": "41345"
+      },
+      "details": {
+        "playerId": "190289",
+        "date": "2024-06-30T00:00:00+02:00",
+        "contractUntilDate": "2027-06-30T00:00:00+02:00",
+        "seasonId": 2023,
+        "isPending": false,
+        "marketValue": {
+          "value": 1000000,
+          "currency": "EUR",
+          "compact": {
+            "prefix": "€",
+            "content": "1.00",
+            "suffix": "M"
+          }
+        },
+        "age": 29,
+        "remainingContractPeriod": {
+          "days": 0,
+          "daysDisplay": "Unknown"
+        },
+        "season": {
+          "id": 2023,
+          "display": "23/24",
+          "cyclicalName": "2024",
+          "nonCyclicalName": "23/24"
+        }
+      },
+      "typeDetails": {
+        "type": "RETURNED_FROM_PREVIOUS_LOAN",
+        "name": "End of loan",
+        "feeDescription": "End of loan"
+      },
+      "relativeUrl": "/gerrit-holtmann/transfers/spieler/190289/transfer_id/4836263"
+    }
+  }
+}

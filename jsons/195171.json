@@ -1,0 +1,598 @@
+{
+  "success": true,
+  "message": "OK",
+  "data": {
+    "playerId": "195171",
+    "history": {
+      "terminated": [
+        {
+          "id": "5544088",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 0,
+            "clubId": "515",
+            "coachId": "0"
+          },
+          "transferDestination": {
+            "competitionId": "MYS1",
+            "countryId": 103,
+            "clubId": "15817",
+            "coachId": "65273"
+          },
+          "details": {
+            "playerId": "195171",
+            "date": "2025-02-27T00:00:00+01:00",
+            "contractUntilDate": "2026-05-31T00:00:00+02:00",
+            "seasonId": 2024,
+            "isPending": false,
+            "marketValue": {
+              "value": 500000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "500.00",
+                "suffix": "K"
+              }
+            },
+            "age": 30,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2024,
+              "display": "24/25",
+              "cyclicalName": "2025",
+              "nonCyclicalName": "24/25"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/samu-castillejo/transfers/spieler/195171/transfer_id/5544088"
+        },
+        {
+          "id": "5237821",
+          "transferSource": {
+            "competitionId": "ES1",
+            "countryId": 157,
+            "clubId": "1049",
+            "coachId": "19552"
+          },
+          "transferDestination": {
+            "competitionId": "",
+            "countryId": 0,
+            "clubId": "515",
+            "coachId": "0"
+          },
+          "details": {
+            "playerId": "195171",
+            "date": "2024-08-30T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2024,
+            "isPending": false,
+            "marketValue": {
+              "value": 600000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "600.00",
+                "suffix": "K"
+              }
+            },
+            "age": 29,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 304,
+              "daysDisplay": "10 Months"
+            },
+            "season": {
+              "id": 2024,
+              "display": "24/25",
+              "cyclicalName": "2025",
+              "nonCyclicalName": "24/25"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/samu-castillejo/transfers/spieler/195171/transfer_id/5237821"
+        },
+        {
+          "id": "4622322",
+          "transferSource": {
+            "competitionId": "IT1",
+            "countryId": 75,
+            "clubId": "6574",
+            "coachId": "34361"
+          },
+          "transferDestination": {
+            "competitionId": "ES1",
+            "countryId": 157,
+            "clubId": "1049",
+            "coachId": "19552"
+          },
+          "details": {
+            "playerId": "195171",
+            "date": "2024-06-30T00:00:00+02:00",
+            "contractUntilDate": "2025-06-30T00:00:00+02:00",
+            "seasonId": 2023,
+            "isPending": false,
+            "marketValue": {
+              "value": 600000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "600.00",
+                "suffix": "K"
+              }
+            },
+            "age": 29,
+            "remainingContractPeriod": {
+              "days": 0,
+              "daysDisplay": "Unknown"
+            },
+            "season": {
+              "id": 2023,
+              "display": "23/24",
+              "cyclicalName": "2024",
+              "nonCyclicalName": "23/24"
+            }
+          },
+          "typeDetails": {
+            "type": "RETURNED_FROM_PREVIOUS_LOAN",
+            "name": "End of loan",
+            "feeDescription": "End of loan"
+          },
+          "relativeUrl": "/samu-castillejo/transfers/spieler/195171/transfer_id/4622322"
+        },
+        {
+          "id": "4622321",
+          "transferSource": {
+            "competitionId": "ES1",
+            "countryId": 157,
+            "clubId": "1049",
+            "coachId": "19552"
+          },
+          "transferDestination": {
+            "competitionId": "IT1",
+            "countryId": 75,
+            "clubId": "6574",
+            "coachId": "36126"
+          },
+          "details": {
+            "playerId": "195171",
+            "date": "2023-09-01T00:00:00+02:00",
+            "contractUntilDate": "2024-06-30T00:00:00+02:00",
+            "seasonId": 2023,
+            "isPending": false,
+            "marketValue": {
+              "value": 6000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "6.00",
+                "suffix": "M"
+              }
+            },
+            "age": 28,
+            "remainingContractPeriod": {
+              "days": 668,
+              "daysDisplay": "1 Year, 9 Months, 29 Days"
+            },
+            "season": {
+              "id": 2023,
+              "display": "23/24",
+              "cyclicalName": "2024",
+              "nonCyclicalName": "23/24"
+            }
+          },
+          "typeDetails": {
+            "type": "ACTIVE_LOAN_TRANSFER",
+            "name": "loan transfer",
+            "feeDescription": "loan transfer"
+          },
+          "relativeUrl": "/samu-castillejo/transfers/spieler/195171/transfer_id/4622321"
+        },
+        {
+          "id": "3937974",
+          "transferSource": {
+            "competitionId": "IT1",
+            "countryId": 75,
+            "clubId": "5",
+            "coachId": "2135"
+          },
+          "transferDestination": {
+            "competitionId": "ES1",
+            "countryId": 157,
+            "clubId": "1049",
+            "coachId": "27803"
+          },
+          "details": {
+            "playerId": "195171",
+            "date": "2022-07-12T00:00:00+02:00",
+            "contractUntilDate": "2025-06-30T00:00:00+02:00",
+            "seasonId": 2022,
+            "isPending": false,
+            "marketValue": {
+              "value": 4000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "4.00",
+                "suffix": "M"
+              }
+            },
+            "age": 27,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "Free Transfer",
+                "suffix": ""
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 353,
+              "daysDisplay": "11 Months, 18 Days"
+            },
+            "season": {
+              "id": 2022,
+              "display": "22/23",
+              "cyclicalName": "2023",
+              "nonCyclicalName": "22/23"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/samu-castillejo/transfers/spieler/195171/transfer_id/3937974"
+        },
+        {
+          "id": "2228093",
+          "transferSource": {
+            "competitionId": "ES1",
+            "countryId": 157,
+            "clubId": "1050",
+            "coachId": "42706"
+          },
+          "transferDestination": {
+            "competitionId": "IT1",
+            "countryId": 75,
+            "clubId": "5",
+            "coachId": "27803"
+          },
+          "details": {
+            "playerId": "195171",
+            "date": "2018-08-17T00:00:00+02:00",
+            "contractUntilDate": "2023-06-30T00:00:00+02:00",
+            "seasonId": 2018,
+            "isPending": false,
+            "marketValue": {
+              "value": 15000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "15.00",
+                "suffix": "M"
+              }
+            },
+            "age": 23,
+            "fee": {
+              "value": 21300000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "21.30",
+                "suffix": "M"
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 683,
+              "daysDisplay": "1 Year, 10 Months, 13 Days"
+            },
+            "season": {
+              "id": 2018,
+              "display": "18/19",
+              "cyclicalName": "2019",
+              "nonCyclicalName": "18/19"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/samu-castillejo/transfers/spieler/195171/transfer_id/2228093"
+        },
+        {
+          "id": "1263423",
+          "transferSource": {
+            "competitionId": "ES1",
+            "countryId": 157,
+            "clubId": "1084",
+            "coachId": "10254"
+          },
+          "transferDestination": {
+            "competitionId": "ES1",
+            "countryId": 157,
+            "clubId": "1050",
+            "coachId": "5095"
+          },
+          "details": {
+            "playerId": "195171",
+            "date": "2015-07-01T00:00:00+02:00",
+            "contractUntilDate": "2020-06-30T00:00:00+02:00",
+            "seasonId": 2015,
+            "isPending": false,
+            "marketValue": {
+              "value": 7500000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "7.50",
+                "suffix": "M"
+              }
+            },
+            "age": 20,
+            "fee": {
+              "value": 8000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "8.00",
+                "suffix": "M"
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 1095,
+              "daysDisplay": "2 Years, 11 Months, 29 Days"
+            },
+            "season": {
+              "id": 2015,
+              "display": "15/16",
+              "cyclicalName": "2016",
+              "nonCyclicalName": "15/16"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/samu-castillejo/transfers/spieler/195171/transfer_id/1263423"
+        },
+        {
+          "id": "1195829",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 157,
+            "clubId": "5649",
+            "coachId": "29856"
+          },
+          "transferDestination": {
+            "competitionId": "ES1",
+            "countryId": 157,
+            "clubId": "1084",
+            "coachId": "10254"
+          },
+          "details": {
+            "playerId": "195171",
+            "date": "2014-07-01T00:00:00+02:00",
+            "contractUntilDate": "2018-06-30T00:00:00+02:00",
+            "seasonId": 2014,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 19,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2014,
+              "display": "14/15",
+              "cyclicalName": "2015",
+              "nonCyclicalName": "14/15"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/samu-castillejo/transfers/spieler/195171/transfer_id/1195829"
+        },
+        {
+          "id": "1110615",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 157,
+            "clubId": "12318",
+            "coachId": "48062"
+          },
+          "transferDestination": {
+            "competitionId": "",
+            "countryId": 157,
+            "clubId": "5649",
+            "coachId": "16519"
+          },
+          "details": {
+            "playerId": "195171",
+            "date": "2011-07-01T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2011,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 16,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2011,
+              "display": "11/12",
+              "cyclicalName": "2012",
+              "nonCyclicalName": "11/12"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/samu-castillejo/transfers/spieler/195171/transfer_id/1110615"
+        }
+      ],
+      "pending": [],
+      "url": "",
+      "feeSum": {
+        "value": 29300000,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "29.30",
+          "suffix": "M"
+        }
+      },
+      "averageAge": 31,
+      "totalMarketValue": {
+        "value": 375000,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "375.00",
+          "suffix": "K"
+        }
+      }
+    },
+    "clubIds": [
+      "515",
+      "15817",
+      "1049",
+      "6574",
+      "5",
+      "1050",
+      "1084",
+      "5649",
+      "12318"
+    ],
+    "coachIds": [
+      "65273",
+      "19552",
+      "34361",
+      "36126",
+      "2135",
+      "27803",
+      "42706",
+      "10254",
+      "5095",
+      "29856",
+      "48062",
+      "16519"
+    ],
+    "competitionIds": [
+      "MYS1",
+      "ES1",
+      "IT1"
+    ],
+    "mostRecentTransfer": {
+      "id": "5544088",
+      "transferSource": {
+        "competitionId": "",
+        "countryId": 0,
+        "clubId": "515",
+        "coachId": "0"
+      },
+      "transferDestination": {
+        "competitionId": "MYS1",
+        "countryId": 103,
+        "clubId": "15817",
+        "coachId": "65273"
+      },
+      "details": {
+        "playerId": "195171",
+        "date": "2025-02-27T00:00:00+01:00",
+        "contractUntilDate": "2026-05-31T00:00:00+02:00",
+        "seasonId": 2024,
+        "isPending": false,
+        "marketValue": {
+          "value": 500000,
+          "currency": "EUR",
+          "compact": {
+            "prefix": "€",
+            "content": "500.00",
+            "suffix": "K"
+          }
+        },
+        "age": 30,
+        "fee": {
+          "value": null,
+          "currency": "",
+          "compact": {
+            "prefix": "",
+            "content": "-",
+            "suffix": ""
+          }
+        },
+        "season": {
+          "id": 2024,
+          "display": "24/25",
+          "cyclicalName": "2025",
+          "nonCyclicalName": "24/25"
+        }
+      },
+      "typeDetails": {
+        "type": "STANDARD",
+        "name": "",
+        "feeDescription": ""
+      },
+      "relativeUrl": "/samu-castillejo/transfers/spieler/195171/transfer_id/5544088"
+    }
+  }
+}

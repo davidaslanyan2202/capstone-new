@@ -1,0 +1,215 @@
+{
+  "success": true,
+  "message": "OK",
+  "data": {
+    "playerId": "855014",
+    "history": {
+      "terminated": [
+        {
+          "id": "5234398",
+          "transferSource": {
+            "competitionId": "FR1",
+            "countryId": 50,
+            "clubId": "415",
+            "coachId": "40683"
+          },
+          "transferDestination": {
+            "competitionId": "GB2",
+            "countryId": 189,
+            "clubId": "1010",
+            "coachId": "123832"
+          },
+          "details": {
+            "playerId": "855014",
+            "date": "2024-08-29T00:00:00+02:00",
+            "contractUntilDate": "2028-06-30T00:00:00+02:00",
+            "seasonId": 2024,
+            "isPending": false,
+            "marketValue": {
+              "value": 500000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "500.00",
+                "suffix": "K"
+              }
+            },
+            "age": 20,
+            "fee": {
+              "value": 1000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "1.00",
+                "suffix": "M"
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 305,
+              "daysDisplay": "10 Months, 1 Day"
+            },
+            "season": {
+              "id": 2024,
+              "display": "24/25",
+              "cyclicalName": "2025",
+              "nonCyclicalName": "24/25"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/kevin-keben/transfers/spieler/855014/transfer_id/5234398"
+        },
+        {
+          "id": "4006793",
+          "transferSource": {
+            "competitionId": "F19D",
+            "countryId": 50,
+            "clubId": "9372",
+            "coachId": "12662"
+          },
+          "transferDestination": {
+            "competitionId": "FR1",
+            "countryId": 50,
+            "clubId": "415",
+            "coachId": "5065"
+          },
+          "details": {
+            "playerId": "855014",
+            "date": "2022-07-01T00:00:00+02:00",
+            "contractUntilDate": "2025-06-30T00:00:00+02:00",
+            "seasonId": 2022,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 18,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2022,
+              "display": "22/23",
+              "cyclicalName": "2023",
+              "nonCyclicalName": "22/23"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/kevin-keben/transfers/spieler/855014/transfer_id/4006793"
+        }
+      ],
+      "pending": [],
+      "url": "",
+      "feeSum": {
+        "value": 1000000,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "1.00",
+          "suffix": "M"
+        }
+      },
+      "averageAge": 22,
+      "totalMarketValue": {
+        "value": 1600000,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "1.60",
+          "suffix": "M"
+        }
+      }
+    },
+    "clubIds": [
+      "415",
+      "1010",
+      "9372"
+    ],
+    "coachIds": [
+      "40683",
+      "123832",
+      "12662",
+      "5065"
+    ],
+    "competitionIds": [
+      "FR1",
+      "GB2",
+      "F19D"
+    ],
+    "mostRecentTransfer": {
+      "id": "5234398",
+      "transferSource": {
+        "competitionId": "FR1",
+        "countryId": 50,
+        "clubId": "415",
+        "coachId": "40683"
+      },
+      "transferDestination": {
+        "competitionId": "GB2",
+        "countryId": 189,
+        "clubId": "1010",
+        "coachId": "123832"
+      },
+      "details": {
+        "playerId": "855014",
+        "date": "2024-08-29T00:00:00+02:00",
+        "contractUntilDate": "2028-06-30T00:00:00+02:00",
+        "seasonId": 2024,
+        "isPending": false,
+        "marketValue": {
+          "value": 500000,
+          "currency": "EUR",
+          "compact": {
+            "prefix": "€",
+            "content": "500.00",
+            "suffix": "K"
+          }
+        },
+        "age": 20,
+        "fee": {
+          "value": 1000000,
+          "currency": "EUR",
+          "compact": {
+            "prefix": "€",
+            "content": "1.00",
+            "suffix": "M"
+          }
+        },
+        "remainingContractPeriod": {
+          "days": 305,
+          "daysDisplay": "10 Months, 1 Day"
+        },
+        "season": {
+          "id": 2024,
+          "display": "24/25",
+          "cyclicalName": "2025",
+          "nonCyclicalName": "24/25"
+        }
+      },
+      "typeDetails": {
+        "type": "STANDARD",
+        "name": "",
+        "feeDescription": ""
+      },
+      "relativeUrl": "/kevin-keben/transfers/spieler/855014/transfer_id/5234398"
+    }
+  }
+}

@@ -1,0 +1,589 @@
+{
+  "success": true,
+  "message": "OK",
+  "data": {
+    "playerId": "309944",
+    "history": {
+      "terminated": [
+        {
+          "id": "3921752",
+          "transferSource": {
+            "competitionId": "PO2",
+            "countryId": 136,
+            "clubId": "10330",
+            "coachId": "69945"
+          },
+          "transferDestination": {
+            "competitionId": "IT1",
+            "countryId": 75,
+            "clubId": "749",
+            "coachId": "52249"
+          },
+          "details": {
+            "playerId": "309944",
+            "date": "2022-07-05T00:00:00+02:00",
+            "contractUntilDate": "2026-06-30T00:00:00+02:00",
+            "seasonId": 2022,
+            "isPending": false,
+            "marketValue": {
+              "value": 1400000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "1.40",
+                "suffix": "M"
+              }
+            },
+            "age": 26,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "Free Transfer",
+                "suffix": ""
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 360,
+              "daysDisplay": "11 Months, 25 Days"
+            },
+            "season": {
+              "id": 2022,
+              "display": "22/23",
+              "cyclicalName": "2023",
+              "nonCyclicalName": "22/23"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/tyronne-ebuehi/transfers/spieler/309944/transfer_id/3921752"
+        },
+        {
+          "id": "3413044",
+          "transferSource": {
+            "competitionId": "IT1",
+            "countryId": 75,
+            "clubId": "607",
+            "coachId": "26157"
+          },
+          "transferDestination": {
+            "competitionId": "PO2",
+            "countryId": 136,
+            "clubId": "10330",
+            "coachId": "0"
+          },
+          "details": {
+            "playerId": "309944",
+            "date": "2022-06-30T00:00:00+02:00",
+            "contractUntilDate": "2023-06-30T00:00:00+02:00",
+            "seasonId": 2021,
+            "isPending": false,
+            "marketValue": {
+              "value": 1400000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "1.40",
+                "suffix": "M"
+              }
+            },
+            "age": 26,
+            "remainingContractPeriod": {
+              "days": 0,
+              "daysDisplay": "Unknown"
+            },
+            "season": {
+              "id": 2021,
+              "display": "21/22",
+              "cyclicalName": "2022",
+              "nonCyclicalName": "21/22"
+            }
+          },
+          "typeDetails": {
+            "type": "RETURNED_FROM_PREVIOUS_LOAN",
+            "name": "End of loan",
+            "feeDescription": "End of loan"
+          },
+          "relativeUrl": "/tyronne-ebuehi/transfers/spieler/309944/transfer_id/3413044"
+        },
+        {
+          "id": "3413043",
+          "transferSource": {
+            "competitionId": "PO2",
+            "countryId": 136,
+            "clubId": "10330",
+            "coachId": "25143"
+          },
+          "transferDestination": {
+            "competitionId": "IT1",
+            "countryId": 75,
+            "clubId": "607",
+            "coachId": "52249"
+          },
+          "details": {
+            "playerId": "309944",
+            "date": "2021-07-01T00:00:00+02:00",
+            "contractUntilDate": "2022-06-30T00:00:00+02:00",
+            "seasonId": 2021,
+            "isPending": false,
+            "marketValue": {
+              "value": 900000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "900.00",
+                "suffix": "K"
+              }
+            },
+            "age": 25,
+            "remainingContractPeriod": {
+              "days": 729,
+              "daysDisplay": "1 Year, 11 Months, 29 Days"
+            },
+            "season": {
+              "id": 2021,
+              "display": "21/22",
+              "cyclicalName": "2022",
+              "nonCyclicalName": "21/22"
+            }
+          },
+          "typeDetails": {
+            "type": "ACTIVE_LOAN_TRANSFER",
+            "name": "loan transfer",
+            "feeDescription": "loan transfer"
+          },
+          "relativeUrl": "/tyronne-ebuehi/transfers/spieler/309944/transfer_id/3413043"
+        },
+        {
+          "id": "3023291",
+          "transferSource": {
+            "competitionId": "NL1",
+            "countryId": 122,
+            "clubId": "317",
+            "coachId": "512"
+          },
+          "transferDestination": {
+            "competitionId": "PO2",
+            "countryId": 136,
+            "clubId": "10330",
+            "coachId": "25143"
+          },
+          "details": {
+            "playerId": "309944",
+            "date": "2021-06-30T00:00:00+02:00",
+            "contractUntilDate": "2023-06-30T00:00:00+02:00",
+            "seasonId": 2020,
+            "isPending": false,
+            "marketValue": {
+              "value": 900000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "900.00",
+                "suffix": "K"
+              }
+            },
+            "age": 25,
+            "remainingContractPeriod": {
+              "days": 0,
+              "daysDisplay": "Unknown"
+            },
+            "season": {
+              "id": 2020,
+              "display": "20/21",
+              "cyclicalName": "2021",
+              "nonCyclicalName": "20/21"
+            }
+          },
+          "typeDetails": {
+            "type": "RETURNED_FROM_PREVIOUS_LOAN",
+            "name": "End of loan",
+            "feeDescription": "End of loan"
+          },
+          "relativeUrl": "/tyronne-ebuehi/transfers/spieler/309944/transfer_id/3023291"
+        },
+        {
+          "id": "3023290",
+          "transferSource": {
+            "competitionId": "PO2",
+            "countryId": 136,
+            "clubId": "10330",
+            "coachId": "63611"
+          },
+          "transferDestination": {
+            "competitionId": "NL1",
+            "countryId": 122,
+            "clubId": "317",
+            "coachId": "512"
+          },
+          "details": {
+            "playerId": "309944",
+            "date": "2020-08-21T00:00:00+02:00",
+            "contractUntilDate": "2021-06-30T00:00:00+02:00",
+            "seasonId": 2020,
+            "isPending": false,
+            "marketValue": {
+              "value": 550000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "550.00",
+                "suffix": "K"
+              }
+            },
+            "age": 24,
+            "remainingContractPeriod": {
+              "days": 1043,
+              "daysDisplay": "2 Years, 10 Months, 9 Days"
+            },
+            "season": {
+              "id": 2020,
+              "display": "20/21",
+              "cyclicalName": "2021",
+              "nonCyclicalName": "20/21"
+            }
+          },
+          "typeDetails": {
+            "type": "ACTIVE_LOAN_TRANSFER",
+            "name": "loan transfer",
+            "feeDescription": "loan transfer"
+          },
+          "relativeUrl": "/tyronne-ebuehi/transfers/spieler/309944/transfer_id/3023290"
+        },
+        {
+          "id": "2734465",
+          "transferSource": {
+            "competitionId": "PO1",
+            "countryId": 136,
+            "clubId": "294",
+            "coachId": "61477"
+          },
+          "transferDestination": {
+            "competitionId": "PO2",
+            "countryId": 136,
+            "clubId": "10330",
+            "coachId": "63611"
+          },
+          "details": {
+            "playerId": "309944",
+            "date": "2019-09-01T00:00:00+02:00",
+            "contractUntilDate": "2023-06-30T00:00:00+02:00",
+            "seasonId": 2019,
+            "isPending": false,
+            "marketValue": {
+              "value": 1000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "1.00",
+                "suffix": "M"
+              }
+            },
+            "age": 23,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 1398,
+              "daysDisplay": "3 Years, 9 Months, 29 Days"
+            },
+            "season": {
+              "id": 2019,
+              "display": "19/20",
+              "cyclicalName": "2020",
+              "nonCyclicalName": "19/20"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/tyronne-ebuehi/transfers/spieler/309944/transfer_id/2734465"
+        },
+        {
+          "id": "2111666",
+          "transferSource": {
+            "competitionId": "NL1",
+            "countryId": 122,
+            "clubId": "1268",
+            "coachId": "2234"
+          },
+          "transferDestination": {
+            "competitionId": "PO1",
+            "countryId": 136,
+            "clubId": "294",
+            "coachId": "5638"
+          },
+          "details": {
+            "playerId": "309944",
+            "date": "2018-07-01T00:00:00+02:00",
+            "contractUntilDate": "2023-06-30T00:00:00+02:00",
+            "seasonId": 2018,
+            "isPending": false,
+            "marketValue": {
+              "value": 1500000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "1.50",
+                "suffix": "M"
+              }
+            },
+            "age": 22,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "Free Transfer",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2018,
+              "display": "18/19",
+              "cyclicalName": "2019",
+              "nonCyclicalName": "18/19"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/tyronne-ebuehi/transfers/spieler/309944/transfer_id/2111666"
+        },
+        {
+          "id": "1084301",
+          "transferSource": {
+            "competitionId": "NLAJ",
+            "countryId": 122,
+            "clubId": "10709",
+            "coachId": "40185"
+          },
+          "transferDestination": {
+            "competitionId": "NL1",
+            "countryId": 122,
+            "clubId": "1268",
+            "coachId": "17353"
+          },
+          "details": {
+            "playerId": "309944",
+            "date": "2014-07-01T00:00:00+02:00",
+            "contractUntilDate": "2018-06-30T00:00:00+02:00",
+            "seasonId": 2014,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 18,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 730,
+              "daysDisplay": "1 Year, 11 Months, 29 Days"
+            },
+            "season": {
+              "id": 2014,
+              "display": "14/15",
+              "cyclicalName": "2015",
+              "nonCyclicalName": "14/15"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/tyronne-ebuehi/transfers/spieler/309944/transfer_id/1084301"
+        },
+        {
+          "id": "1219268",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 122,
+            "clubId": "46588",
+            "coachId": "0"
+          },
+          "transferDestination": {
+            "competitionId": "NLAJ",
+            "countryId": 122,
+            "clubId": "10709",
+            "coachId": "27155"
+          },
+          "details": {
+            "playerId": "309944",
+            "date": "2013-07-01T00:00:00+02:00",
+            "contractUntilDate": "2016-06-30T00:00:00+02:00",
+            "seasonId": 2013,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 17,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "?",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2013,
+              "display": "13/14",
+              "cyclicalName": "2014",
+              "nonCyclicalName": "13/14"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/tyronne-ebuehi/transfers/spieler/309944/transfer_id/1219268"
+        }
+      ],
+      "pending": [],
+      "url": "",
+      "feeSum": {
+        "value": 0,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "0.00",
+          "suffix": ""
+        }
+      },
+      "averageAge": 30,
+      "totalMarketValue": {
+        "value": 800000,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "800.00",
+          "suffix": "K"
+        }
+      }
+    },
+    "clubIds": [
+      "10330",
+      "749",
+      "607",
+      "317",
+      "294",
+      "1268",
+      "10709",
+      "46588"
+    ],
+    "coachIds": [
+      "69945",
+      "52249",
+      "26157",
+      "25143",
+      "512",
+      "63611",
+      "61477",
+      "2234",
+      "5638",
+      "40185",
+      "17353",
+      "27155"
+    ],
+    "competitionIds": [
+      "PO2",
+      "IT1",
+      "NL1",
+      "PO1",
+      "NLAJ"
+    ],
+    "mostRecentTransfer": {
+      "id": "3921752",
+      "transferSource": {
+        "competitionId": "PO2",
+        "countryId": 136,
+        "clubId": "10330",
+        "coachId": "69945"
+      },
+      "transferDestination": {
+        "competitionId": "IT1",
+        "countryId": 75,
+        "clubId": "749",
+        "coachId": "52249"
+      },
+      "details": {
+        "playerId": "309944",
+        "date": "2022-07-05T00:00:00+02:00",
+        "contractUntilDate": "2026-06-30T00:00:00+02:00",
+        "seasonId": 2022,
+        "isPending": false,
+        "marketValue": {
+          "value": 1400000,
+          "currency": "EUR",
+          "compact": {
+            "prefix": "€",
+            "content": "1.40",
+            "suffix": "M"
+          }
+        },
+        "age": 26,
+        "fee": {
+          "value": null,
+          "currency": "",
+          "compact": {
+            "prefix": "",
+            "content": "Free Transfer",
+            "suffix": ""
+          }
+        },
+        "remainingContractPeriod": {
+          "days": 360,
+          "daysDisplay": "11 Months, 25 Days"
+        },
+        "season": {
+          "id": 2022,
+          "display": "22/23",
+          "cyclicalName": "2023",
+          "nonCyclicalName": "22/23"
+        }
+      },
+      "typeDetails": {
+        "type": "STANDARD",
+        "name": "",
+        "feeDescription": ""
+      },
+      "relativeUrl": "/tyronne-ebuehi/transfers/spieler/309944/transfer_id/3921752"
+    }
+  }
+}

@@ -1,0 +1,482 @@
+{
+  "success": true,
+  "message": "OK",
+  "data": {
+    "playerId": "794758",
+    "history": {
+      "terminated": [
+        {
+          "id": "4191481",
+          "transferSource": {
+            "competitionId": "NO1",
+            "countryId": 125,
+            "clubId": "1293",
+            "coachId": "22879"
+          },
+          "transferDestination": {
+            "competitionId": "FR1",
+            "countryId": 50,
+            "clubId": "415",
+            "coachId": "5065"
+          },
+          "details": {
+            "playerId": "794758",
+            "date": "2023-01-02T00:00:00+01:00",
+            "contractUntilDate": "2026-06-30T00:00:00+02:00",
+            "seasonId": 2022,
+            "isPending": false,
+            "marketValue": {
+              "value": 1000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "1.00",
+                "suffix": "M"
+              }
+            },
+            "age": 22,
+            "fee": {
+              "value": 600000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "600.00",
+                "suffix": "K"
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 363,
+              "daysDisplay": "11 Months, 29 Days"
+            },
+            "season": {
+              "id": 2022,
+              "display": "22/23",
+              "cyclicalName": "2023",
+              "nonCyclicalName": "22/23"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/warren-kamanzi/transfers/spieler/794758/transfer_id/4191481"
+        },
+        {
+          "id": "3689345",
+          "transferSource": {
+            "competitionId": "NO1",
+            "countryId": 125,
+            "clubId": "195",
+            "coachId": "2100"
+          },
+          "transferDestination": {
+            "competitionId": "NO1",
+            "countryId": 125,
+            "clubId": "1293",
+            "coachId": "114639"
+          },
+          "details": {
+            "playerId": "794758",
+            "date": "2022-01-11T00:00:00+01:00",
+            "contractUntilDate": "2023-12-31T00:00:00+01:00",
+            "seasonId": 2021,
+            "isPending": false,
+            "marketValue": {
+              "value": 100000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "100.00",
+                "suffix": "K"
+              }
+            },
+            "age": 21,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "Free Transfer",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2021,
+              "display": "21/22",
+              "cyclicalName": "2022",
+              "nonCyclicalName": "21/22"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/warren-kamanzi/transfers/spieler/794758/transfer_id/3689345"
+        },
+        {
+          "id": "3205700",
+          "transferSource": {
+            "competitionId": "NO2",
+            "countryId": 125,
+            "clubId": "13519",
+            "coachId": "68138"
+          },
+          "transferDestination": {
+            "competitionId": "NO1",
+            "countryId": 125,
+            "clubId": "195",
+            "coachId": "592"
+          },
+          "details": {
+            "playerId": "794758",
+            "date": "2021-12-31T00:00:00+01:00",
+            "contractUntilDate": "2021-12-31T00:00:00+01:00",
+            "seasonId": 2021,
+            "isPending": false,
+            "marketValue": {
+              "value": 100000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "100.00",
+                "suffix": "K"
+              }
+            },
+            "age": 21,
+            "remainingContractPeriod": {
+              "days": 0,
+              "daysDisplay": "Unknown"
+            },
+            "season": {
+              "id": 2021,
+              "display": "21/22",
+              "cyclicalName": "2022",
+              "nonCyclicalName": "21/22"
+            }
+          },
+          "typeDetails": {
+            "type": "RETURNED_FROM_PREVIOUS_LOAN",
+            "name": "End of loan",
+            "feeDescription": "End of loan"
+          },
+          "relativeUrl": "/warren-kamanzi/transfers/spieler/794758/transfer_id/3205700"
+        },
+        {
+          "id": "3205699",
+          "transferSource": {
+            "competitionId": "NO1",
+            "countryId": 125,
+            "clubId": "195",
+            "coachId": "592"
+          },
+          "transferDestination": {
+            "competitionId": "NO2",
+            "countryId": 125,
+            "clubId": "13519",
+            "coachId": "27729"
+          },
+          "details": {
+            "playerId": "794758",
+            "date": "2021-01-15T00:00:00+01:00",
+            "contractUntilDate": "2021-12-31T00:00:00+01:00",
+            "seasonId": 2020,
+            "isPending": false,
+            "marketValue": {
+              "value": 100000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "100.00",
+                "suffix": "K"
+              }
+            },
+            "age": 20,
+            "remainingContractPeriod": {
+              "days": 350,
+              "daysDisplay": "11 Months, 16 Days"
+            },
+            "season": {
+              "id": 2020,
+              "display": "20/21",
+              "cyclicalName": "2021",
+              "nonCyclicalName": "20/21"
+            }
+          },
+          "typeDetails": {
+            "type": "ACTIVE_LOAN_TRANSFER",
+            "name": "loan transfer",
+            "feeDescription": "loan transfer"
+          },
+          "relativeUrl": "/warren-kamanzi/transfers/spieler/794758/transfer_id/3205699"
+        },
+        {
+          "id": "3011894",
+          "transferSource": {
+            "competitionId": "NO32",
+            "countryId": 125,
+            "clubId": "35024",
+            "coachId": "24575"
+          },
+          "transferDestination": {
+            "competitionId": "NO1",
+            "countryId": 125,
+            "clubId": "195",
+            "coachId": "3413"
+          },
+          "details": {
+            "playerId": "794758",
+            "date": "2020-08-03T00:00:00+02:00",
+            "contractUntilDate": "2021-12-31T00:00:00+01:00",
+            "seasonId": 2020,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 19,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2020,
+              "display": "20/21",
+              "cyclicalName": "2021",
+              "nonCyclicalName": "20/21"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/warren-kamanzi/transfers/spieler/794758/transfer_id/3011894"
+        },
+        {
+          "id": "5351703",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 125,
+            "clubId": "12847",
+            "coachId": "28610"
+          },
+          "transferDestination": {
+            "competitionId": "NO45",
+            "countryId": 125,
+            "clubId": "35024",
+            "coachId": "28610"
+          },
+          "details": {
+            "playerId": "794758",
+            "date": "2017-01-01T00:00:00+01:00",
+            "contractUntilDate": null,
+            "seasonId": 2016,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 16,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2016,
+              "display": "16/17",
+              "cyclicalName": "2017",
+              "nonCyclicalName": "16/17"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/warren-kamanzi/transfers/spieler/794758/transfer_id/5351703"
+        },
+        {
+          "id": "5351702",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 125,
+            "clubId": "114564",
+            "coachId": "0"
+          },
+          "transferDestination": {
+            "competitionId": "",
+            "countryId": 125,
+            "clubId": "12847",
+            "coachId": "28610"
+          },
+          "details": {
+            "playerId": "794758",
+            "date": "2015-01-28T00:00:00+01:00",
+            "contractUntilDate": null,
+            "seasonId": 2014,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 14,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "Free Transfer",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2014,
+              "display": "14/15",
+              "cyclicalName": "2015",
+              "nonCyclicalName": "14/15"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/warren-kamanzi/transfers/spieler/794758/transfer_id/5351702"
+        }
+      ],
+      "pending": [],
+      "url": "",
+      "feeSum": {
+        "value": 600000,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "600.00",
+          "suffix": "K"
+        }
+      },
+      "averageAge": 25,
+      "totalMarketValue": {
+        "value": 1500000,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "1.50",
+          "suffix": "M"
+        }
+      }
+    },
+    "clubIds": [
+      "1293",
+      "415",
+      "195",
+      "13519",
+      "35024",
+      "12847",
+      "114564"
+    ],
+    "coachIds": [
+      "22879",
+      "5065",
+      "2100",
+      "114639",
+      "68138",
+      "592",
+      "27729",
+      "24575",
+      "3413",
+      "28610"
+    ],
+    "competitionIds": [
+      "NO1",
+      "FR1",
+      "NO2",
+      "NO32",
+      "NO45"
+    ],
+    "mostRecentTransfer": {
+      "id": "4191481",
+      "transferSource": {
+        "competitionId": "NO1",
+        "countryId": 125,
+        "clubId": "1293",
+        "coachId": "22879"
+      },
+      "transferDestination": {
+        "competitionId": "FR1",
+        "countryId": 50,
+        "clubId": "415",
+        "coachId": "5065"
+      },
+      "details": {
+        "playerId": "794758",
+        "date": "2023-01-02T00:00:00+01:00",
+        "contractUntilDate": "2026-06-30T00:00:00+02:00",
+        "seasonId": 2022,
+        "isPending": false,
+        "marketValue": {
+          "value": 1000000,
+          "currency": "EUR",
+          "compact": {
+            "prefix": "€",
+            "content": "1.00",
+            "suffix": "M"
+          }
+        },
+        "age": 22,
+        "fee": {
+          "value": 600000,
+          "currency": "EUR",
+          "compact": {
+            "prefix": "€",
+            "content": "600.00",
+            "suffix": "K"
+          }
+        },
+        "remainingContractPeriod": {
+          "days": 363,
+          "daysDisplay": "11 Months, 29 Days"
+        },
+        "season": {
+          "id": 2022,
+          "display": "22/23",
+          "cyclicalName": "2023",
+          "nonCyclicalName": "22/23"
+        }
+      },
+      "typeDetails": {
+        "type": "STANDARD",
+        "name": "",
+        "feeDescription": ""
+      },
+      "relativeUrl": "/warren-kamanzi/transfers/spieler/794758/transfer_id/4191481"
+    }
+  }
+}

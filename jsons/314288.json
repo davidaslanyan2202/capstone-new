@@ -1,0 +1,776 @@
+{
+  "success": true,
+  "message": "OK",
+  "data": {
+    "playerId": "314288",
+    "history": {
+      "terminated": [
+        {
+          "id": "5706363",
+          "transferSource": {
+            "competitionId": "L1",
+            "countryId": 40,
+            "clubId": "82",
+            "coachId": "61348"
+          },
+          "transferDestination": {
+            "competitionId": "GB1",
+            "countryId": 189,
+            "clubId": "399",
+            "coachId": "10939"
+          },
+          "details": {
+            "playerId": "314288",
+            "date": "2025-07-01T00:00:00+02:00",
+            "contractUntilDate": "2027-06-30T00:00:00+02:00",
+            "seasonId": 2025,
+            "isPending": false,
+            "marketValue": {
+              "value": 3000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "3.00",
+                "suffix": "M"
+              }
+            },
+            "age": 26,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "Free Transfer",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2025,
+              "display": "25/26",
+              "cyclicalName": "2026",
+              "nonCyclicalName": "25/26"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/lukas-nmecha/transfers/spieler/314288/transfer_id/5706363"
+        },
+        {
+          "id": "3445082",
+          "transferSource": {
+            "competitionId": "GB1",
+            "countryId": 189,
+            "clubId": "281",
+            "coachId": "5672"
+          },
+          "transferDestination": {
+            "competitionId": "L1",
+            "countryId": 40,
+            "clubId": "82",
+            "coachId": "33479"
+          },
+          "details": {
+            "playerId": "314288",
+            "date": "2021-07-16T00:00:00+02:00",
+            "contractUntilDate": "2025-06-30T00:00:00+02:00",
+            "seasonId": 2021,
+            "isPending": false,
+            "marketValue": {
+              "value": 12000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "12.00",
+                "suffix": "M"
+              }
+            },
+            "age": 22,
+            "fee": {
+              "value": 8000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "8.00",
+                "suffix": "M"
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 349,
+              "daysDisplay": "11 Months, 14 Days"
+            },
+            "season": {
+              "id": 2021,
+              "display": "21/22",
+              "cyclicalName": "2022",
+              "nonCyclicalName": "21/22"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/lukas-nmecha/transfers/spieler/314288/transfer_id/3445082"
+        },
+        {
+          "id": "3022145",
+          "transferSource": {
+            "competitionId": "BE1",
+            "countryId": 19,
+            "clubId": "58",
+            "coachId": "69681"
+          },
+          "transferDestination": {
+            "competitionId": "GB1",
+            "countryId": 189,
+            "clubId": "281",
+            "coachId": "5672"
+          },
+          "details": {
+            "playerId": "314288",
+            "date": "2021-06-30T00:00:00+02:00",
+            "contractUntilDate": "2022-06-30T00:00:00+02:00",
+            "seasonId": 2020,
+            "isPending": false,
+            "marketValue": {
+              "value": 12000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "12.00",
+                "suffix": "M"
+              }
+            },
+            "age": 22,
+            "remainingContractPeriod": {
+              "days": 0,
+              "daysDisplay": "Unknown"
+            },
+            "season": {
+              "id": 2020,
+              "display": "20/21",
+              "cyclicalName": "2021",
+              "nonCyclicalName": "20/21"
+            }
+          },
+          "typeDetails": {
+            "type": "RETURNED_FROM_PREVIOUS_LOAN",
+            "name": "End of loan",
+            "feeDescription": "End of loan"
+          },
+          "relativeUrl": "/lukas-nmecha/transfers/spieler/314288/transfer_id/3022145"
+        },
+        {
+          "id": "3022144",
+          "transferSource": {
+            "competitionId": "GB1",
+            "countryId": 189,
+            "clubId": "281",
+            "coachId": "5672"
+          },
+          "transferDestination": {
+            "competitionId": "BE1",
+            "countryId": 19,
+            "clubId": "58",
+            "coachId": "69681"
+          },
+          "details": {
+            "playerId": "314288",
+            "date": "2020-08-20T00:00:00+02:00",
+            "contractUntilDate": "2021-06-30T00:00:00+02:00",
+            "seasonId": 2020,
+            "isPending": false,
+            "marketValue": {
+              "value": 3600000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "3.60",
+                "suffix": "M"
+              }
+            },
+            "age": 21,
+            "remainingContractPeriod": {
+              "days": 314,
+              "daysDisplay": "10 Months, 10 Days"
+            },
+            "season": {
+              "id": 2020,
+              "display": "20/21",
+              "cyclicalName": "2021",
+              "nonCyclicalName": "20/21"
+            }
+          },
+          "typeDetails": {
+            "type": "ACTIVE_LOAN_TRANSFER",
+            "name": "loan transfer",
+            "feeDescription": "loan transfer"
+          },
+          "relativeUrl": "/lukas-nmecha/transfers/spieler/314288/transfer_id/3022144"
+        },
+        {
+          "id": "2743031",
+          "transferSource": {
+            "competitionId": "GB2",
+            "countryId": 189,
+            "clubId": "641",
+            "coachId": "1527"
+          },
+          "transferDestination": {
+            "competitionId": "GB1",
+            "countryId": 189,
+            "clubId": "281",
+            "coachId": "5672"
+          },
+          "details": {
+            "playerId": "314288",
+            "date": "2020-07-31T00:00:00+02:00",
+            "contractUntilDate": "2021-06-30T00:00:00+02:00",
+            "seasonId": 2019,
+            "isPending": false,
+            "marketValue": {
+              "value": 3600000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "3.60",
+                "suffix": "M"
+              }
+            },
+            "age": 21,
+            "season": {
+              "id": 2019,
+              "display": "19/20",
+              "cyclicalName": "2020",
+              "nonCyclicalName": "19/20"
+            }
+          },
+          "typeDetails": {
+            "type": "RETURNED_FROM_PREVIOUS_LOAN",
+            "name": "End of loan",
+            "feeDescription": "End of loan"
+          },
+          "relativeUrl": "/lukas-nmecha/transfers/spieler/314288/transfer_id/2743031"
+        },
+        {
+          "id": "2743030",
+          "transferSource": {
+            "competitionId": "GB1",
+            "countryId": 189,
+            "clubId": "281",
+            "coachId": "5672"
+          },
+          "transferDestination": {
+            "competitionId": "GB2",
+            "countryId": 189,
+            "clubId": "641",
+            "coachId": "48568"
+          },
+          "details": {
+            "playerId": "314288",
+            "date": "2020-01-03T00:00:00+01:00",
+            "contractUntilDate": "2020-05-31T00:00:00+02:00",
+            "seasonId": 2019,
+            "isPending": false,
+            "marketValue": {
+              "value": 4000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "4.00",
+                "suffix": "M"
+              }
+            },
+            "age": 21,
+            "remainingContractPeriod": {
+              "days": 544,
+              "daysDisplay": "1 Year, 5 Months, 27 Days"
+            },
+            "season": {
+              "id": 2019,
+              "display": "19/20",
+              "cyclicalName": "2020",
+              "nonCyclicalName": "19/20"
+            }
+          },
+          "typeDetails": {
+            "type": "ACTIVE_LOAN_TRANSFER",
+            "name": "loan transfer",
+            "feeDescription": "loan transfer"
+          },
+          "relativeUrl": "/lukas-nmecha/transfers/spieler/314288/transfer_id/2743030"
+        },
+        {
+          "id": "2742997",
+          "transferSource": {
+            "competitionId": "L1",
+            "countryId": 40,
+            "clubId": "82",
+            "coachId": "22891"
+          },
+          "transferDestination": {
+            "competitionId": "GB1",
+            "countryId": 189,
+            "clubId": "281",
+            "coachId": "5672"
+          },
+          "details": {
+            "playerId": "314288",
+            "date": "2020-01-02T00:00:00+01:00",
+            "contractUntilDate": "2021-06-30T00:00:00+02:00",
+            "seasonId": 2019,
+            "isPending": false,
+            "marketValue": {
+              "value": 4000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "4.00",
+                "suffix": "M"
+              }
+            },
+            "age": 21,
+            "remainingContractPeriod": {
+              "days": 180,
+              "daysDisplay": "5 Months, 28 Days"
+            },
+            "season": {
+              "id": 2019,
+              "display": "19/20",
+              "cyclicalName": "2020",
+              "nonCyclicalName": "19/20"
+            }
+          },
+          "typeDetails": {
+            "type": "RETURNED_FROM_PREVIOUS_LOAN",
+            "name": "End of loan",
+            "feeDescription": "End of loan"
+          },
+          "relativeUrl": "/lukas-nmecha/transfers/spieler/314288/transfer_id/2742997"
+        },
+        {
+          "id": "2587826",
+          "transferSource": {
+            "competitionId": "GB1",
+            "countryId": 189,
+            "clubId": "281",
+            "coachId": "5672"
+          },
+          "transferDestination": {
+            "competitionId": "L1",
+            "countryId": 40,
+            "clubId": "82",
+            "coachId": "22891"
+          },
+          "details": {
+            "playerId": "314288",
+            "date": "2019-08-03T00:00:00+02:00",
+            "contractUntilDate": "2020-06-30T00:00:00+02:00",
+            "seasonId": 2019,
+            "isPending": false,
+            "marketValue": {
+              "value": 1000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "1.00",
+                "suffix": "M"
+              }
+            },
+            "age": 20,
+            "remainingContractPeriod": {
+              "days": 1062,
+              "daysDisplay": "2 Years, 10 Months, 27 Days"
+            },
+            "season": {
+              "id": 2019,
+              "display": "19/20",
+              "cyclicalName": "2020",
+              "nonCyclicalName": "19/20"
+            }
+          },
+          "typeDetails": {
+            "type": "ACTIVE_LOAN_TRANSFER",
+            "name": "loan transfer",
+            "feeDescription": "loan transfer"
+          },
+          "relativeUrl": "/lukas-nmecha/transfers/spieler/314288/transfer_id/2587826"
+        },
+        {
+          "id": "3415210",
+          "transferSource": {
+            "competitionId": "GB21",
+            "countryId": 189,
+            "clubId": "9265",
+            "coachId": "19187"
+          },
+          "transferDestination": {
+            "competitionId": "GB1",
+            "countryId": 189,
+            "clubId": "281",
+            "coachId": "5672"
+          },
+          "details": {
+            "playerId": "314288",
+            "date": "2019-07-01T00:00:00+02:00",
+            "contractUntilDate": "2022-06-30T00:00:00+02:00",
+            "seasonId": 2019,
+            "isPending": false,
+            "marketValue": {
+              "value": 1000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "1.00",
+                "suffix": "M"
+              }
+            },
+            "age": 20,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 730,
+              "daysDisplay": "1 Year, 11 Months, 29 Days"
+            },
+            "season": {
+              "id": 2019,
+              "display": "19/20",
+              "cyclicalName": "2020",
+              "nonCyclicalName": "19/20"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/lukas-nmecha/transfers/spieler/314288/transfer_id/3415210"
+        },
+        {
+          "id": "2217335",
+          "transferSource": {
+            "competitionId": "GB2",
+            "countryId": 189,
+            "clubId": "466",
+            "coachId": "24018"
+          },
+          "transferDestination": {
+            "competitionId": "GB21",
+            "countryId": 189,
+            "clubId": "9265",
+            "coachId": "19187"
+          },
+          "details": {
+            "playerId": "314288",
+            "date": "2019-05-31T00:00:00+02:00",
+            "contractUntilDate": "2021-06-30T00:00:00+02:00",
+            "seasonId": 2018,
+            "isPending": false,
+            "marketValue": {
+              "value": 1000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "1.00",
+                "suffix": "M"
+              }
+            },
+            "age": 20,
+            "remainingContractPeriod": {
+              "days": 0,
+              "daysDisplay": "Unknown"
+            },
+            "season": {
+              "id": 2018,
+              "display": "18/19",
+              "cyclicalName": "2019",
+              "nonCyclicalName": "18/19"
+            }
+          },
+          "typeDetails": {
+            "type": "RETURNED_FROM_PREVIOUS_LOAN",
+            "name": "End of loan",
+            "feeDescription": "End of loan"
+          },
+          "relativeUrl": "/lukas-nmecha/transfers/spieler/314288/transfer_id/2217335"
+        },
+        {
+          "id": "2217334",
+          "transferSource": {
+            "competitionId": "GB21",
+            "countryId": 189,
+            "clubId": "9265",
+            "coachId": "19187"
+          },
+          "transferDestination": {
+            "competitionId": "GB2",
+            "countryId": 189,
+            "clubId": "466",
+            "coachId": "24018"
+          },
+          "details": {
+            "playerId": "314288",
+            "date": "2018-08-09T00:00:00+02:00",
+            "contractUntilDate": "2019-05-31T00:00:00+02:00",
+            "seasonId": 2018,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 19,
+            "remainingContractPeriod": {
+              "days": 1056,
+              "daysDisplay": "2 Years, 10 Months, 21 Days"
+            },
+            "season": {
+              "id": 2018,
+              "display": "18/19",
+              "cyclicalName": "2019",
+              "nonCyclicalName": "18/19"
+            }
+          },
+          "typeDetails": {
+            "type": "ACTIVE_LOAN_TRANSFER",
+            "name": "loan transfer",
+            "feeDescription": "loan transfer"
+          },
+          "relativeUrl": "/lukas-nmecha/transfers/spieler/314288/transfer_id/2217334"
+        },
+        {
+          "id": "1530078",
+          "transferSource": {
+            "competitionId": "18GB",
+            "countryId": 189,
+            "clubId": "6930",
+            "coachId": "0"
+          },
+          "transferDestination": {
+            "competitionId": "GB21",
+            "countryId": 189,
+            "clubId": "9265",
+            "coachId": "7873"
+          },
+          "details": {
+            "playerId": "314288",
+            "date": "2016-07-01T00:00:00+02:00",
+            "contractUntilDate": "2021-06-30T00:00:00+02:00",
+            "seasonId": 2016,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 17,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 729,
+              "daysDisplay": "1 Year, 11 Months, 29 Days"
+            },
+            "season": {
+              "id": 2016,
+              "display": "16/17",
+              "cyclicalName": "2017",
+              "nonCyclicalName": "16/17"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/lukas-nmecha/transfers/spieler/314288/transfer_id/1530078"
+        },
+        {
+          "id": "1364044",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 189,
+            "clubId": "50678",
+            "coachId": "134279"
+          },
+          "transferDestination": {
+            "competitionId": "",
+            "countryId": 189,
+            "clubId": "6930",
+            "coachId": "45668"
+          },
+          "details": {
+            "playerId": "314288",
+            "date": "2015-07-01T00:00:00+02:00",
+            "contractUntilDate": "2018-06-30T00:00:00+02:00",
+            "seasonId": 2015,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 16,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2015,
+              "display": "15/16",
+              "cyclicalName": "2016",
+              "nonCyclicalName": "15/16"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/lukas-nmecha/transfers/spieler/314288/transfer_id/1364044"
+        }
+      ],
+      "pending": [],
+      "url": "",
+      "feeSum": {
+        "value": 8000000,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "8.00",
+          "suffix": "M"
+        }
+      },
+      "averageAge": 27,
+      "totalMarketValue": {
+        "value": 10000000,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "10.00",
+          "suffix": "M"
+        }
+      }
+    },
+    "clubIds": [
+      "82",
+      "399",
+      "281",
+      "58",
+      "641",
+      "9265",
+      "466",
+      "6930",
+      "50678"
+    ],
+    "coachIds": [
+      "61348",
+      "10939",
+      "5672",
+      "33479",
+      "69681",
+      "1527",
+      "48568",
+      "22891",
+      "19187",
+      "24018",
+      "7873",
+      "134279",
+      "45668"
+    ],
+    "competitionIds": [
+      "L1",
+      "GB1",
+      "BE1",
+      "GB2",
+      "GB21",
+      "18GB"
+    ],
+    "mostRecentTransfer": {
+      "id": "5706363",
+      "transferSource": {
+        "competitionId": "L1",
+        "countryId": 40,
+        "clubId": "82",
+        "coachId": "61348"
+      },
+      "transferDestination": {
+        "competitionId": "GB1",
+        "countryId": 189,
+        "clubId": "399",
+        "coachId": "10939"
+      },
+      "details": {
+        "playerId": "314288",
+        "date": "2025-07-01T00:00:00+02:00",
+        "contractUntilDate": "2027-06-30T00:00:00+02:00",
+        "seasonId": 2025,
+        "isPending": false,
+        "marketValue": {
+          "value": 3000000,
+          "currency": "EUR",
+          "compact": {
+            "prefix": "€",
+            "content": "3.00",
+            "suffix": "M"
+          }
+        },
+        "age": 26,
+        "fee": {
+          "value": null,
+          "currency": "",
+          "compact": {
+            "prefix": "",
+            "content": "Free Transfer",
+            "suffix": ""
+          }
+        },
+        "season": {
+          "id": 2025,
+          "display": "25/26",
+          "cyclicalName": "2026",
+          "nonCyclicalName": "25/26"
+        }
+      },
+      "typeDetails": {
+        "type": "STANDARD",
+        "name": "",
+        "feeDescription": ""
+      },
+      "relativeUrl": "/lukas-nmecha/transfers/spieler/314288/transfer_id/5706363"
+    }
+  }
+}

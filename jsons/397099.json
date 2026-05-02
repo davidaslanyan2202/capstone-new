@@ -1,0 +1,822 @@
+{
+  "success": true,
+  "message": "OK",
+  "data": {
+    "playerId": "397099",
+    "history": {
+      "terminated": [
+        {
+          "id": "5181116",
+          "transferSource": {
+            "competitionId": "L1",
+            "countryId": 40,
+            "clubId": "80",
+            "coachId": "472"
+          },
+          "transferDestination": {
+            "competitionId": "GB3",
+            "countryId": 189,
+            "clubId": "355",
+            "coachId": "60275"
+          },
+          "details": {
+            "playerId": "397099",
+            "date": "2024-08-08T00:00:00+02:00",
+            "contractUntilDate": "2026-06-30T00:00:00+02:00",
+            "seasonId": 2024,
+            "isPending": false,
+            "marketValue": {
+              "value": 500000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "500.00",
+                "suffix": "K"
+              }
+            },
+            "age": 25,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "?",
+                "suffix": ""
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 326,
+              "daysDisplay": "10 Months, 22 Days"
+            },
+            "season": {
+              "id": 2024,
+              "display": "24/25",
+              "cyclicalName": "2025",
+              "nonCyclicalName": "24/25"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/jordi-osei-tutu/transfers/spieler/397099/transfer_id/5181116"
+        },
+        {
+          "id": "4839101",
+          "transferSource": {
+            "competitionId": "GR1",
+            "countryId": 56,
+            "clubId": "2671",
+            "coachId": "18040"
+          },
+          "transferDestination": {
+            "competitionId": "L1",
+            "countryId": 40,
+            "clubId": "80",
+            "coachId": "41345"
+          },
+          "details": {
+            "playerId": "397099",
+            "date": "2024-06-30T00:00:00+02:00",
+            "contractUntilDate": "2025-06-30T00:00:00+02:00",
+            "seasonId": 2023,
+            "isPending": false,
+            "marketValue": {
+              "value": 500000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "500.00",
+                "suffix": "K"
+              }
+            },
+            "age": 25,
+            "remainingContractPeriod": {
+              "days": 0,
+              "daysDisplay": "Unknown"
+            },
+            "season": {
+              "id": 2023,
+              "display": "23/24",
+              "cyclicalName": "2024",
+              "nonCyclicalName": "23/24"
+            }
+          },
+          "typeDetails": {
+            "type": "RETURNED_FROM_PREVIOUS_LOAN",
+            "name": "End of loan",
+            "feeDescription": "End of loan"
+          },
+          "relativeUrl": "/jordi-osei-tutu/transfers/spieler/397099/transfer_id/4839101"
+        },
+        {
+          "id": "4839100",
+          "transferSource": {
+            "competitionId": "L1",
+            "countryId": 40,
+            "clubId": "80",
+            "coachId": "335"
+          },
+          "transferDestination": {
+            "competitionId": "GR1",
+            "countryId": 56,
+            "clubId": "2671",
+            "coachId": "11768"
+          },
+          "details": {
+            "playerId": "397099",
+            "date": "2024-01-22T00:00:00+01:00",
+            "contractUntilDate": "2024-06-30T00:00:00+02:00",
+            "seasonId": 2023,
+            "isPending": false,
+            "marketValue": {
+              "value": 800000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "800.00",
+                "suffix": "K"
+              }
+            },
+            "age": 25,
+            "remainingContractPeriod": {
+              "days": 525,
+              "daysDisplay": "1 Year, 5 Months, 8 Days"
+            },
+            "season": {
+              "id": 2023,
+              "display": "23/24",
+              "cyclicalName": "2024",
+              "nonCyclicalName": "23/24"
+            }
+          },
+          "typeDetails": {
+            "type": "ACTIVE_LOAN_TRANSFER",
+            "name": "loan transfer",
+            "feeDescription": "loan transfer"
+          },
+          "relativeUrl": "/jordi-osei-tutu/transfers/spieler/397099/transfer_id/4839100"
+        },
+        {
+          "id": "3900223",
+          "transferSource": {
+            "competitionId": "GB21",
+            "countryId": 189,
+            "clubId": "9249",
+            "coachId": "0"
+          },
+          "transferDestination": {
+            "competitionId": "L1",
+            "countryId": 40,
+            "clubId": "80",
+            "coachId": "19735"
+          },
+          "details": {
+            "playerId": "397099",
+            "date": "2022-07-01T00:00:00+02:00",
+            "contractUntilDate": "2025-06-30T00:00:00+02:00",
+            "seasonId": 2022,
+            "isPending": false,
+            "marketValue": {
+              "value": 1000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "1.00",
+                "suffix": "M"
+              }
+            },
+            "age": 23,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "Free Transfer",
+                "suffix": ""
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 364,
+              "daysDisplay": "11 Months, 29 Days"
+            },
+            "season": {
+              "id": 2022,
+              "display": "22/23",
+              "cyclicalName": "2023",
+              "nonCyclicalName": "22/23"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/jordi-osei-tutu/transfers/spieler/397099/transfer_id/3900223"
+        },
+        {
+          "id": "3722823",
+          "transferSource": {
+            "competitionId": "GB3",
+            "countryId": 189,
+            "clubId": "1194",
+            "coachId": "50470"
+          },
+          "transferDestination": {
+            "competitionId": "GB21",
+            "countryId": 189,
+            "clubId": "9249",
+            "coachId": "32054"
+          },
+          "details": {
+            "playerId": "397099",
+            "date": "2022-05-31T00:00:00+02:00",
+            "contractUntilDate": "2023-06-30T00:00:00+02:00",
+            "seasonId": 2021,
+            "isPending": false,
+            "marketValue": {
+              "value": 1200000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "1.20",
+                "suffix": "M"
+              }
+            },
+            "age": 23,
+            "remainingContractPeriod": {
+              "days": 0,
+              "daysDisplay": "Unknown"
+            },
+            "season": {
+              "id": 2021,
+              "display": "21/22",
+              "cyclicalName": "2022",
+              "nonCyclicalName": "21/22"
+            }
+          },
+          "typeDetails": {
+            "type": "RETURNED_FROM_PREVIOUS_LOAN",
+            "name": "End of loan",
+            "feeDescription": "End of loan"
+          },
+          "relativeUrl": "/jordi-osei-tutu/transfers/spieler/397099/transfer_id/3722823"
+        },
+        {
+          "id": "3722822",
+          "transferSource": {
+            "competitionId": "GB21",
+            "countryId": 189,
+            "clubId": "9249",
+            "coachId": "32054"
+          },
+          "transferDestination": {
+            "competitionId": "GB3",
+            "countryId": 189,
+            "clubId": "1194",
+            "coachId": "50470"
+          },
+          "details": {
+            "playerId": "397099",
+            "date": "2022-01-31T00:00:00+01:00",
+            "contractUntilDate": "2022-05-31T00:00:00+02:00",
+            "seasonId": 2021,
+            "isPending": false,
+            "marketValue": {
+              "value": 1200000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "1.20",
+                "suffix": "M"
+              }
+            },
+            "age": 23,
+            "remainingContractPeriod": {
+              "days": 515,
+              "daysDisplay": "1 Year, 4 Months, 30 Days"
+            },
+            "season": {
+              "id": 2021,
+              "display": "21/22",
+              "cyclicalName": "2022",
+              "nonCyclicalName": "21/22"
+            }
+          },
+          "typeDetails": {
+            "type": "ACTIVE_LOAN_TRANSFER",
+            "name": "loan transfer",
+            "feeDescription": "loan transfer"
+          },
+          "relativeUrl": "/jordi-osei-tutu/transfers/spieler/397099/transfer_id/3722822"
+        },
+        {
+          "id": "3489983",
+          "transferSource": {
+            "competitionId": "GB2",
+            "countryId": 189,
+            "clubId": "703",
+            "coachId": "37574"
+          },
+          "transferDestination": {
+            "competitionId": "GB21",
+            "countryId": 189,
+            "clubId": "9249",
+            "coachId": "32054"
+          },
+          "details": {
+            "playerId": "397099",
+            "date": "2022-01-06T00:00:00+01:00",
+            "contractUntilDate": "2023-06-30T00:00:00+02:00",
+            "seasonId": 2021,
+            "isPending": false,
+            "marketValue": {
+              "value": 1200000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "1.20",
+                "suffix": "M"
+              }
+            },
+            "age": 23,
+            "remainingContractPeriod": {
+              "days": 145,
+              "daysDisplay": "4 Months, 25 Days"
+            },
+            "season": {
+              "id": 2021,
+              "display": "21/22",
+              "cyclicalName": "2022",
+              "nonCyclicalName": "21/22"
+            }
+          },
+          "typeDetails": {
+            "type": "RETURNED_FROM_PREVIOUS_LOAN",
+            "name": "End of loan",
+            "feeDescription": "End of loan"
+          },
+          "relativeUrl": "/jordi-osei-tutu/transfers/spieler/397099/transfer_id/3489983"
+        },
+        {
+          "id": "3489982",
+          "transferSource": {
+            "competitionId": "GB21",
+            "countryId": 189,
+            "clubId": "9249",
+            "coachId": "32054"
+          },
+          "transferDestination": {
+            "competitionId": "GB2",
+            "countryId": 189,
+            "clubId": "703",
+            "coachId": "2654"
+          },
+          "details": {
+            "playerId": "397099",
+            "date": "2021-08-10T00:00:00+02:00",
+            "contractUntilDate": "2022-05-31T00:00:00+02:00",
+            "seasonId": 2021,
+            "isPending": false,
+            "marketValue": {
+              "value": 1200000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "1.20",
+                "suffix": "M"
+              }
+            },
+            "age": 22,
+            "season": {
+              "id": 2021,
+              "display": "21/22",
+              "cyclicalName": "2022",
+              "nonCyclicalName": "21/22"
+            }
+          },
+          "typeDetails": {
+            "type": "ACTIVE_LOAN_TRANSFER",
+            "name": "loan transfer",
+            "feeDescription": "loan transfer"
+          },
+          "relativeUrl": "/jordi-osei-tutu/transfers/spieler/397099/transfer_id/3489982"
+        },
+        {
+          "id": "3028519",
+          "transferSource": {
+            "competitionId": "GB2",
+            "countryId": 189,
+            "clubId": "603",
+            "coachId": "599"
+          },
+          "transferDestination": {
+            "competitionId": "GB21",
+            "countryId": 189,
+            "clubId": "9249",
+            "coachId": "3903"
+          },
+          "details": {
+            "playerId": "397099",
+            "date": "2021-05-31T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2020,
+            "isPending": false,
+            "marketValue": {
+              "value": 1200000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "1.20",
+                "suffix": "M"
+              }
+            },
+            "age": 22,
+            "remainingContractPeriod": {
+              "days": 0,
+              "daysDisplay": "Unknown"
+            },
+            "season": {
+              "id": 2020,
+              "display": "20/21",
+              "cyclicalName": "2021",
+              "nonCyclicalName": "20/21"
+            }
+          },
+          "typeDetails": {
+            "type": "RETURNED_FROM_PREVIOUS_LOAN",
+            "name": "End of loan",
+            "feeDescription": "End of loan"
+          },
+          "relativeUrl": "/jordi-osei-tutu/transfers/spieler/397099/transfer_id/3028519"
+        },
+        {
+          "id": "3028518",
+          "transferSource": {
+            "competitionId": "GB21",
+            "countryId": 189,
+            "clubId": "9249",
+            "coachId": "3903"
+          },
+          "transferDestination": {
+            "competitionId": "GB2",
+            "countryId": 189,
+            "clubId": "603",
+            "coachId": "32718"
+          },
+          "details": {
+            "playerId": "397099",
+            "date": "2020-08-25T00:00:00+02:00",
+            "contractUntilDate": "2021-05-31T00:00:00+02:00",
+            "seasonId": 2020,
+            "isPending": false,
+            "marketValue": {
+              "value": 1000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "1.00",
+                "suffix": "M"
+              }
+            },
+            "age": 21,
+            "season": {
+              "id": 2020,
+              "display": "20/21",
+              "cyclicalName": "2021",
+              "nonCyclicalName": "20/21"
+            }
+          },
+          "typeDetails": {
+            "type": "ACTIVE_LOAN_TRANSFER",
+            "name": "loan transfer",
+            "feeDescription": "loan transfer"
+          },
+          "relativeUrl": "/jordi-osei-tutu/transfers/spieler/397099/transfer_id/3028518"
+        },
+        {
+          "id": "2523152",
+          "transferSource": {
+            "competitionId": "L2",
+            "countryId": 40,
+            "clubId": "80",
+            "coachId": "19735"
+          },
+          "transferDestination": {
+            "competitionId": "GB21",
+            "countryId": 189,
+            "clubId": "9249",
+            "coachId": "3903"
+          },
+          "details": {
+            "playerId": "397099",
+            "date": "2020-06-30T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2019,
+            "isPending": false,
+            "marketValue": {
+              "value": 325000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "325.00",
+                "suffix": "K"
+              }
+            },
+            "age": 21,
+            "remainingContractPeriod": {
+              "days": 0,
+              "daysDisplay": "Unknown"
+            },
+            "season": {
+              "id": 2019,
+              "display": "19/20",
+              "cyclicalName": "2020",
+              "nonCyclicalName": "19/20"
+            }
+          },
+          "typeDetails": {
+            "type": "RETURNED_FROM_PREVIOUS_LOAN",
+            "name": "End of loan",
+            "feeDescription": "End of loan"
+          },
+          "relativeUrl": "/jordi-osei-tutu/transfers/spieler/397099/transfer_id/2523152"
+        },
+        {
+          "id": "2523151",
+          "transferSource": {
+            "competitionId": "GB21",
+            "countryId": 189,
+            "clubId": "9249",
+            "coachId": "3903"
+          },
+          "transferDestination": {
+            "competitionId": "L2",
+            "countryId": 40,
+            "clubId": "80",
+            "coachId": "1049"
+          },
+          "details": {
+            "playerId": "397099",
+            "date": "2019-07-01T00:00:00+02:00",
+            "contractUntilDate": "2020-06-30T00:00:00+02:00",
+            "seasonId": 2019,
+            "isPending": false,
+            "marketValue": {
+              "value": 250000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "250.00",
+                "suffix": "K"
+              }
+            },
+            "age": 20,
+            "remainingContractPeriod": {
+              "days": 1460,
+              "daysDisplay": "3 Years, 11 Months, 29 Days"
+            },
+            "season": {
+              "id": 2019,
+              "display": "19/20",
+              "cyclicalName": "2020",
+              "nonCyclicalName": "19/20"
+            }
+          },
+          "typeDetails": {
+            "type": "ACTIVE_LOAN_TRANSFER",
+            "name": "loan transfer",
+            "feeDescription": "loan transfer"
+          },
+          "relativeUrl": "/jordi-osei-tutu/transfers/spieler/397099/transfer_id/2523151"
+        },
+        {
+          "id": "1887706",
+          "transferSource": {
+            "competitionId": "GB18",
+            "countryId": 189,
+            "clubId": "5679",
+            "coachId": "50870"
+          },
+          "transferDestination": {
+            "competitionId": "GB21",
+            "countryId": 189,
+            "clubId": "9249",
+            "coachId": "27789"
+          },
+          "details": {
+            "playerId": "397099",
+            "date": "2017-07-01T00:00:00+02:00",
+            "contractUntilDate": "2023-06-30T00:00:00+02:00",
+            "seasonId": 2017,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 18,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2017,
+              "display": "17/18",
+              "cyclicalName": "2018",
+              "nonCyclicalName": "17/18"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/jordi-osei-tutu/transfers/spieler/397099/transfer_id/1887706"
+        },
+        {
+          "id": "1368960",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 189,
+            "clubId": "53035",
+            "coachId": "125000"
+          },
+          "transferDestination": {
+            "competitionId": "",
+            "countryId": 189,
+            "clubId": "5679",
+            "coachId": "42744"
+          },
+          "details": {
+            "playerId": "397099",
+            "date": "2015-07-01T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2015,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 16,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "?",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2015,
+              "display": "15/16",
+              "cyclicalName": "2016",
+              "nonCyclicalName": "15/16"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/jordi-osei-tutu/transfers/spieler/397099/transfer_id/1368960"
+        }
+      ],
+      "pending": [],
+      "url": "",
+      "feeSum": {
+        "value": 0,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "0.00",
+          "suffix": ""
+        }
+      },
+      "averageAge": 27,
+      "totalMarketValue": {
+        "value": 375000,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "375.00",
+          "suffix": "K"
+        }
+      }
+    },
+    "clubIds": [
+      "80",
+      "355",
+      "2671",
+      "9249",
+      "1194",
+      "703",
+      "603",
+      "5679",
+      "53035"
+    ],
+    "coachIds": [
+      "472",
+      "60275",
+      "18040",
+      "41345",
+      "335",
+      "11768",
+      "19735",
+      "50470",
+      "32054",
+      "37574",
+      "2654",
+      "599",
+      "3903",
+      "32718",
+      "1049",
+      "50870",
+      "27789",
+      "125000",
+      "42744"
+    ],
+    "competitionIds": [
+      "L1",
+      "GB3",
+      "GR1",
+      "GB21",
+      "GB2",
+      "L2",
+      "GB18"
+    ],
+    "mostRecentTransfer": {
+      "id": "5181116",
+      "transferSource": {
+        "competitionId": "L1",
+        "countryId": 40,
+        "clubId": "80",
+        "coachId": "472"
+      },
+      "transferDestination": {
+        "competitionId": "GB3",
+        "countryId": 189,
+        "clubId": "355",
+        "coachId": "60275"
+      },
+      "details": {
+        "playerId": "397099",
+        "date": "2024-08-08T00:00:00+02:00",
+        "contractUntilDate": "2026-06-30T00:00:00+02:00",
+        "seasonId": 2024,
+        "isPending": false,
+        "marketValue": {
+          "value": 500000,
+          "currency": "EUR",
+          "compact": {
+            "prefix": "€",
+            "content": "500.00",
+            "suffix": "K"
+          }
+        },
+        "age": 25,
+        "fee": {
+          "value": null,
+          "currency": "",
+          "compact": {
+            "prefix": "",
+            "content": "?",
+            "suffix": ""
+          }
+        },
+        "remainingContractPeriod": {
+          "days": 326,
+          "daysDisplay": "10 Months, 22 Days"
+        },
+        "season": {
+          "id": 2024,
+          "display": "24/25",
+          "cyclicalName": "2025",
+          "nonCyclicalName": "24/25"
+        }
+      },
+      "typeDetails": {
+        "type": "STANDARD",
+        "name": "",
+        "feeDescription": ""
+      },
+      "relativeUrl": "/jordi-osei-tutu/transfers/spieler/397099/transfer_id/5181116"
+    }
+  }
+}

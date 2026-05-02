@@ -1,0 +1,614 @@
+{
+  "success": true,
+  "message": "OK",
+  "data": {
+    "playerId": "542697",
+    "history": {
+      "terminated": [
+        {
+          "id": "5757018",
+          "transferSource": {
+            "competitionId": "L1",
+            "countryId": 40,
+            "clubId": "3",
+            "coachId": "25375"
+          },
+          "transferDestination": {
+            "competitionId": "DK1",
+            "countryId": 39,
+            "clubId": "678",
+            "coachId": "90625"
+          },
+          "details": {
+            "playerId": "542697",
+            "date": "2025-07-07T00:00:00+02:00",
+            "contractUntilDate": "2026-06-30T00:00:00+02:00",
+            "seasonId": 2025,
+            "isPending": false,
+            "marketValue": {
+              "value": 2000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "2.00",
+                "suffix": "M"
+              }
+            },
+            "age": 24,
+            "season": {
+              "id": 2025,
+              "display": "25/26",
+              "cyclicalName": "2026",
+              "nonCyclicalName": "25/26"
+            }
+          },
+          "typeDetails": {
+            "type": "ACTIVE_LOAN_TRANSFER",
+            "name": "loan transfer",
+            "feeDescription": "loan transfer"
+          },
+          "relativeUrl": "/rasmus-carstensen/transfers/spieler/542697/transfer_id/5757018"
+        },
+        {
+          "id": "5458461",
+          "transferSource": {
+            "competitionId": "PL1",
+            "countryId": 135,
+            "clubId": "238",
+            "coachId": "9253"
+          },
+          "transferDestination": {
+            "competitionId": "L1",
+            "countryId": 40,
+            "clubId": "3",
+            "coachId": "72"
+          },
+          "details": {
+            "playerId": "542697",
+            "date": "2025-06-30T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2024,
+            "isPending": false,
+            "marketValue": {
+              "value": 2000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "2.00",
+                "suffix": "M"
+              }
+            },
+            "age": 24,
+            "remainingContractPeriod": {
+              "days": 0,
+              "daysDisplay": "Unknown"
+            },
+            "season": {
+              "id": 2024,
+              "display": "24/25",
+              "cyclicalName": "2025",
+              "nonCyclicalName": "24/25"
+            }
+          },
+          "typeDetails": {
+            "type": "RETURNED_FROM_PREVIOUS_LOAN",
+            "name": "End of loan",
+            "feeDescription": "End of loan"
+          },
+          "relativeUrl": "/rasmus-carstensen/transfers/spieler/542697/transfer_id/5458461"
+        },
+        {
+          "id": "5458460",
+          "transferSource": {
+            "competitionId": "L2",
+            "countryId": 40,
+            "clubId": "3",
+            "coachId": "5801"
+          },
+          "transferDestination": {
+            "competitionId": "PL1",
+            "countryId": 135,
+            "clubId": "238",
+            "coachId": "9253"
+          },
+          "details": {
+            "playerId": "542697",
+            "date": "2025-01-23T00:00:00+01:00",
+            "contractUntilDate": "2025-06-30T00:00:00+02:00",
+            "seasonId": 2024,
+            "isPending": false,
+            "marketValue": {
+              "value": 1000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "1.00",
+                "suffix": "M"
+              }
+            },
+            "age": 24,
+            "season": {
+              "id": 2024,
+              "display": "24/25",
+              "cyclicalName": "2025",
+              "nonCyclicalName": "24/25"
+            }
+          },
+          "typeDetails": {
+            "type": "ACTIVE_LOAN_TRANSFER",
+            "name": "loan transfer",
+            "feeDescription": "loan transfer"
+          },
+          "relativeUrl": "/rasmus-carstensen/transfers/spieler/542697/transfer_id/5458460"
+        },
+        {
+          "id": "5070520",
+          "transferSource": {
+            "competitionId": "BE1",
+            "countryId": 19,
+            "clubId": "1184",
+            "coachId": "3770"
+          },
+          "transferDestination": {
+            "competitionId": "L2",
+            "countryId": 40,
+            "clubId": "3",
+            "coachId": "5801"
+          },
+          "details": {
+            "playerId": "542697",
+            "date": "2024-07-01T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2024,
+            "isPending": false,
+            "marketValue": {
+              "value": 2000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "2.00",
+                "suffix": "M"
+              }
+            },
+            "age": 23,
+            "fee": {
+              "value": 1500000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "1.50",
+                "suffix": "M"
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 729,
+              "daysDisplay": "1 Year, 11 Months, 29 Days"
+            },
+            "season": {
+              "id": 2024,
+              "display": "24/25",
+              "cyclicalName": "2025",
+              "nonCyclicalName": "24/25"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/rasmus-carstensen/transfers/spieler/542697/transfer_id/5070520"
+        },
+        {
+          "id": "5461691",
+          "transferSource": {
+            "competitionId": "L1",
+            "countryId": 40,
+            "clubId": "3",
+            "coachId": "20161"
+          },
+          "transferDestination": {
+            "competitionId": "BE1",
+            "countryId": 19,
+            "clubId": "1184",
+            "coachId": "1905"
+          },
+          "details": {
+            "playerId": "542697",
+            "date": "2024-06-30T00:00:00+02:00",
+            "contractUntilDate": "2026-06-30T00:00:00+02:00",
+            "seasonId": 2023,
+            "isPending": false,
+            "marketValue": {
+              "value": 2000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "2.00",
+                "suffix": "M"
+              }
+            },
+            "age": 23,
+            "remainingContractPeriod": {
+              "days": 0,
+              "daysDisplay": "Unknown"
+            },
+            "season": {
+              "id": 2023,
+              "display": "23/24",
+              "cyclicalName": "2024",
+              "nonCyclicalName": "23/24"
+            }
+          },
+          "typeDetails": {
+            "type": "RETURNED_FROM_PREVIOUS_LOAN",
+            "name": "End of loan",
+            "feeDescription": "End of loan"
+          },
+          "relativeUrl": "/rasmus-carstensen/transfers/spieler/542697/transfer_id/5461691"
+        },
+        {
+          "id": "5461692",
+          "transferSource": {
+            "competitionId": "BE1",
+            "countryId": 19,
+            "clubId": "1184",
+            "coachId": "49546"
+          },
+          "transferDestination": {
+            "competitionId": "L1",
+            "countryId": 40,
+            "clubId": "3",
+            "coachId": "9622"
+          },
+          "details": {
+            "playerId": "542697",
+            "date": "2023-08-04T00:00:00+02:00",
+            "contractUntilDate": "2024-06-30T00:00:00+02:00",
+            "seasonId": 2023,
+            "isPending": false,
+            "marketValue": {
+              "value": 1500000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "1.50",
+                "suffix": "M"
+              }
+            },
+            "age": 22,
+            "remainingContractPeriod": {
+              "days": 1061,
+              "daysDisplay": "2 Years, 10 Months, 26 Days"
+            },
+            "season": {
+              "id": 2023,
+              "display": "23/24",
+              "cyclicalName": "2024",
+              "nonCyclicalName": "23/24"
+            }
+          },
+          "typeDetails": {
+            "type": "ACTIVE_LOAN_TRANSFER",
+            "name": "loan transfer",
+            "feeDescription": "loan transfer"
+          },
+          "relativeUrl": "/rasmus-carstensen/transfers/spieler/542697/transfer_id/5461692"
+        },
+        {
+          "id": "4560345",
+          "transferSource": {
+            "competitionId": "DK1",
+            "countryId": 39,
+            "clubId": "1177",
+            "coachId": "2882"
+          },
+          "transferDestination": {
+            "competitionId": "BE1",
+            "countryId": 19,
+            "clubId": "1184",
+            "coachId": "49546"
+          },
+          "details": {
+            "playerId": "542697",
+            "date": "2022-08-09T00:00:00+02:00",
+            "contractUntilDate": "2026-06-30T00:00:00+02:00",
+            "seasonId": 2022,
+            "isPending": false,
+            "marketValue": {
+              "value": 1500000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "1.50",
+                "suffix": "M"
+              }
+            },
+            "age": 21,
+            "fee": {
+              "value": 3000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "3.00",
+                "suffix": "M"
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 691,
+              "daysDisplay": "1 Year, 10 Months, 21 Days"
+            },
+            "season": {
+              "id": 2022,
+              "display": "22/23",
+              "cyclicalName": "2023",
+              "nonCyclicalName": "22/23"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/rasmus-carstensen/transfers/spieler/542697/transfer_id/4560345"
+        },
+        {
+          "id": "4560344",
+          "transferSource": {
+            "competitionId": "DKDL",
+            "countryId": 39,
+            "clubId": "15642",
+            "coachId": "38603"
+          },
+          "transferDestination": {
+            "competitionId": "DK1",
+            "countryId": 39,
+            "clubId": "1177",
+            "coachId": "2882"
+          },
+          "details": {
+            "playerId": "542697",
+            "date": "2019-07-01T00:00:00+02:00",
+            "contractUntilDate": "2024-06-30T00:00:00+02:00",
+            "seasonId": 2019,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 18,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 183,
+              "daysDisplay": "5 Months, 30 Days"
+            },
+            "season": {
+              "id": 2019,
+              "display": "19/20",
+              "cyclicalName": "2020",
+              "nonCyclicalName": "19/20"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/rasmus-carstensen/transfers/spieler/542697/transfer_id/4560344"
+        },
+        {
+          "id": "1956269",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 39,
+            "clubId": "15734",
+            "coachId": "38603"
+          },
+          "transferDestination": {
+            "competitionId": "DKDL",
+            "countryId": 39,
+            "clubId": "15642",
+            "coachId": "56643"
+          },
+          "details": {
+            "playerId": "542697",
+            "date": "2017-07-01T00:00:00+02:00",
+            "contractUntilDate": "2019-12-31T00:00:00+01:00",
+            "seasonId": 2017,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 16,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2017,
+              "display": "17/18",
+              "cyclicalName": "2018",
+              "nonCyclicalName": "17/18"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/rasmus-carstensen/transfers/spieler/542697/transfer_id/1956269"
+        }
+      ],
+      "pending": [
+        {
+          "id": "5757019",
+          "transferSource": {
+            "competitionId": "DK1",
+            "countryId": 39,
+            "clubId": "678",
+            "coachId": "90625"
+          },
+          "transferDestination": {
+            "competitionId": "L1",
+            "countryId": 40,
+            "clubId": "3",
+            "coachId": "73659"
+          },
+          "details": {
+            "playerId": "542697",
+            "date": "2026-06-30T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2025,
+            "isPending": true,
+            "marketValue": {
+              "value": 2000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "2.00",
+                "suffix": "M"
+              }
+            },
+            "age": 25,
+            "remainingContractPeriod": {
+              "days": 0,
+              "daysDisplay": "Unknown"
+            },
+            "season": {
+              "id": 2025,
+              "display": "25/26",
+              "cyclicalName": "2026",
+              "nonCyclicalName": "25/26"
+            }
+          },
+          "typeDetails": {
+            "type": "RETURNED_FROM_PREVIOUS_LOAN",
+            "name": "End of loan",
+            "feeDescription": "End of loan"
+          },
+          "relativeUrl": "/rasmus-carstensen/transfers/spieler/542697/transfer_id/5757019"
+        }
+      ],
+      "url": "",
+      "feeSum": {
+        "value": 4500000,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "4.50",
+          "suffix": "M"
+        }
+      },
+      "averageAge": 25,
+      "totalMarketValue": {
+        "value": 2000000,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "2.00",
+          "suffix": "M"
+        }
+      }
+    },
+    "clubIds": [
+      "678",
+      "3",
+      "238",
+      "1184",
+      "1177",
+      "15642",
+      "15734"
+    ],
+    "coachIds": [
+      "90625",
+      "73659",
+      "25375",
+      "9253",
+      "72",
+      "5801",
+      "3770",
+      "20161",
+      "1905",
+      "49546",
+      "9622",
+      "2882",
+      "38603",
+      "56643"
+    ],
+    "competitionIds": [
+      "DK1",
+      "L1",
+      "PL1",
+      "L2",
+      "BE1",
+      "DKDL"
+    ],
+    "mostRecentTransfer": {
+      "id": "5757018",
+      "transferSource": {
+        "competitionId": "L1",
+        "countryId": 40,
+        "clubId": "3",
+        "coachId": "25375"
+      },
+      "transferDestination": {
+        "competitionId": "DK1",
+        "countryId": 39,
+        "clubId": "678",
+        "coachId": "90625"
+      },
+      "details": {
+        "playerId": "542697",
+        "date": "2025-07-07T00:00:00+02:00",
+        "contractUntilDate": "2026-06-30T00:00:00+02:00",
+        "seasonId": 2025,
+        "isPending": false,
+        "marketValue": {
+          "value": 2000000,
+          "currency": "EUR",
+          "compact": {
+            "prefix": "€",
+            "content": "2.00",
+            "suffix": "M"
+          }
+        },
+        "age": 24,
+        "season": {
+          "id": 2025,
+          "display": "25/26",
+          "cyclicalName": "2026",
+          "nonCyclicalName": "25/26"
+        }
+      },
+      "typeDetails": {
+        "type": "ACTIVE_LOAN_TRANSFER",
+        "name": "loan transfer",
+        "feeDescription": "loan transfer"
+      },
+      "relativeUrl": "/rasmus-carstensen/transfers/spieler/542697/transfer_id/5757018"
+    }
+  }
+}

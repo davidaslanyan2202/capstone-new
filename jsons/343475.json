@@ -1,0 +1,733 @@
+{
+  "success": true,
+  "message": "OK",
+  "data": {
+    "playerId": "343475",
+    "history": {
+      "terminated": [
+        {
+          "id": "6133783",
+          "transferSource": {
+            "competitionId": "IT1",
+            "countryId": 75,
+            "clubId": "800",
+            "coachId": "95674"
+          },
+          "transferDestination": {
+            "competitionId": "DK1",
+            "countryId": 39,
+            "clubId": "206",
+            "coachId": "37574"
+          },
+          "details": {
+            "playerId": "343475",
+            "date": "2026-01-20T00:00:00+01:00",
+            "contractUntilDate": "2026-06-30T00:00:00+02:00",
+            "seasonId": 2025,
+            "isPending": false,
+            "marketValue": {
+              "value": 5500000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "5.50",
+                "suffix": "M"
+              }
+            },
+            "age": 28,
+            "remainingContractPeriod": {
+              "days": 892,
+              "daysDisplay": "2 Years, 5 Months, 10 Days"
+            },
+            "season": {
+              "id": 2025,
+              "display": "25/26",
+              "cyclicalName": "2026",
+              "nonCyclicalName": "25/26"
+            }
+          },
+          "typeDetails": {
+            "type": "ACTIVE_LOAN_TRANSFER",
+            "name": "loan transfer",
+            "feeDescription": "loan transfer"
+          },
+          "relativeUrl": "/ben-godfrey/transfers/spieler/343475/transfer_id/6133783"
+        },
+        {
+          "id": "6090833",
+          "transferSource": {
+            "competitionId": "GB2",
+            "countryId": 189,
+            "clubId": "350",
+            "coachId": "15289"
+          },
+          "transferDestination": {
+            "competitionId": "IT1",
+            "countryId": 75,
+            "clubId": "800",
+            "coachId": "95674"
+          },
+          "details": {
+            "playerId": "343475",
+            "date": "2026-01-02T00:00:00+01:00",
+            "contractUntilDate": "2028-06-30T00:00:00+02:00",
+            "seasonId": 2025,
+            "isPending": false,
+            "marketValue": {
+              "value": 5500000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "5.50",
+                "suffix": "M"
+              }
+            },
+            "age": 27,
+            "remainingContractPeriod": {
+              "days": 179,
+              "daysDisplay": "5 Months, 28 Days"
+            },
+            "season": {
+              "id": 2025,
+              "display": "25/26",
+              "cyclicalName": "2026",
+              "nonCyclicalName": "25/26"
+            }
+          },
+          "typeDetails": {
+            "type": "RETURNED_FROM_PREVIOUS_LOAN",
+            "name": "End of loan",
+            "feeDescription": "End of loan"
+          },
+          "relativeUrl": "/ben-godfrey/transfers/spieler/343475/transfer_id/6090833"
+        },
+        {
+          "id": "5884282",
+          "transferSource": {
+            "competitionId": "IT1",
+            "countryId": 75,
+            "clubId": "800",
+            "coachId": "16508"
+          },
+          "transferDestination": {
+            "competitionId": "GB2",
+            "countryId": 189,
+            "clubId": "350",
+            "coachId": "58333"
+          },
+          "details": {
+            "playerId": "343475",
+            "date": "2025-08-22T00:00:00+02:00",
+            "contractUntilDate": "2026-06-30T00:00:00+02:00",
+            "seasonId": 2025,
+            "isPending": false,
+            "marketValue": {
+              "value": 6000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "6.00",
+                "suffix": "M"
+              }
+            },
+            "age": 27,
+            "fee": {
+              "value": 110000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "110.00",
+                "suffix": "K"
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 1043,
+              "daysDisplay": "2 Years, 10 Months, 8 Days"
+            },
+            "season": {
+              "id": 2025,
+              "display": "25/26",
+              "cyclicalName": "2026",
+              "nonCyclicalName": "25/26"
+            }
+          },
+          "typeDetails": {
+            "type": "ACTIVE_LOAN_TRANSFER",
+            "name": "loan transfer",
+            "feeDescription": "Loan fee"
+          },
+          "relativeUrl": "/ben-godfrey/transfers/spieler/343475/transfer_id/5884282"
+        },
+        {
+          "id": "5429432",
+          "transferSource": {
+            "competitionId": "GB1",
+            "countryId": 189,
+            "clubId": "677",
+            "coachId": "45670"
+          },
+          "transferDestination": {
+            "competitionId": "IT1",
+            "countryId": 75,
+            "clubId": "800",
+            "coachId": "16508"
+          },
+          "details": {
+            "playerId": "343475",
+            "date": "2025-06-30T00:00:00+02:00",
+            "contractUntilDate": "2028-06-30T00:00:00+02:00",
+            "seasonId": 2024,
+            "isPending": false,
+            "marketValue": {
+              "value": 6000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "6.00",
+                "suffix": "M"
+              }
+            },
+            "age": 27,
+            "remainingContractPeriod": {
+              "days": 0,
+              "daysDisplay": "Unknown"
+            },
+            "season": {
+              "id": 2024,
+              "display": "24/25",
+              "cyclicalName": "2025",
+              "nonCyclicalName": "24/25"
+            }
+          },
+          "typeDetails": {
+            "type": "RETURNED_FROM_PREVIOUS_LOAN",
+            "name": "End of loan",
+            "feeDescription": "End of loan"
+          },
+          "relativeUrl": "/ben-godfrey/transfers/spieler/343475/transfer_id/5429432"
+        },
+        {
+          "id": "5429431",
+          "transferSource": {
+            "competitionId": "IT1",
+            "countryId": 75,
+            "clubId": "800",
+            "coachId": "3436"
+          },
+          "transferDestination": {
+            "competitionId": "GB1",
+            "countryId": 189,
+            "clubId": "677",
+            "coachId": "45670"
+          },
+          "details": {
+            "playerId": "343475",
+            "date": "2025-01-05T00:00:00+01:00",
+            "contractUntilDate": "2025-06-30T00:00:00+02:00",
+            "seasonId": 2024,
+            "isPending": false,
+            "marketValue": {
+              "value": 8000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "8.00",
+                "suffix": "M"
+              }
+            },
+            "age": 26,
+            "remainingContractPeriod": {
+              "days": 1272,
+              "daysDisplay": "3 Years, 5 Months, 25 Days"
+            },
+            "season": {
+              "id": 2024,
+              "display": "24/25",
+              "cyclicalName": "2025",
+              "nonCyclicalName": "24/25"
+            }
+          },
+          "typeDetails": {
+            "type": "ACTIVE_LOAN_TRANSFER",
+            "name": "loan transfer",
+            "feeDescription": "loan transfer"
+          },
+          "relativeUrl": "/ben-godfrey/transfers/spieler/343475/transfer_id/5429431"
+        },
+        {
+          "id": "5081107",
+          "transferSource": {
+            "competitionId": "GB1",
+            "countryId": 189,
+            "clubId": "29",
+            "coachId": "15856"
+          },
+          "transferDestination": {
+            "competitionId": "IT1",
+            "countryId": 75,
+            "clubId": "800",
+            "coachId": "3436"
+          },
+          "details": {
+            "playerId": "343475",
+            "date": "2024-07-01T00:00:00+02:00",
+            "contractUntilDate": "2028-06-30T00:00:00+02:00",
+            "seasonId": 2024,
+            "isPending": false,
+            "marketValue": {
+              "value": 10000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "10.00",
+                "suffix": "M"
+              }
+            },
+            "age": 26,
+            "fee": {
+              "value": 12500000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "12.50",
+                "suffix": "M"
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 364,
+              "daysDisplay": "11 Months, 29 Days"
+            },
+            "season": {
+              "id": 2024,
+              "display": "24/25",
+              "cyclicalName": "2025",
+              "nonCyclicalName": "24/25"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/ben-godfrey/transfers/spieler/343475/transfer_id/5081107"
+        },
+        {
+          "id": "3087520",
+          "transferSource": {
+            "competitionId": "GB2",
+            "countryId": 189,
+            "clubId": "1123",
+            "coachId": "10939"
+          },
+          "transferDestination": {
+            "competitionId": "GB1",
+            "countryId": 189,
+            "clubId": "29",
+            "coachId": "523"
+          },
+          "details": {
+            "playerId": "343475",
+            "date": "2020-10-05T00:00:00+02:00",
+            "contractUntilDate": "2025-06-30T00:00:00+02:00",
+            "seasonId": 2020,
+            "isPending": false,
+            "marketValue": {
+              "value": 16000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "16.00",
+                "suffix": "M"
+              }
+            },
+            "age": 22,
+            "fee": {
+              "value": 27500000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "27.50",
+                "suffix": "M"
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 268,
+              "daysDisplay": "8 Months, 25 Days"
+            },
+            "season": {
+              "id": 2020,
+              "display": "20/21",
+              "cyclicalName": "2021",
+              "nonCyclicalName": "20/21"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/ben-godfrey/transfers/spieler/343475/transfer_id/3087520"
+        },
+        {
+          "id": "1892786",
+          "transferSource": {
+            "competitionId": "GB3",
+            "countryId": 189,
+            "clubId": "3054",
+            "coachId": "0"
+          },
+          "transferDestination": {
+            "competitionId": "GB2",
+            "countryId": 189,
+            "clubId": "1123",
+            "coachId": "10939"
+          },
+          "details": {
+            "playerId": "343475",
+            "date": "2018-05-31T00:00:00+02:00",
+            "contractUntilDate": "2021-06-30T00:00:00+02:00",
+            "seasonId": 2017,
+            "isPending": false,
+            "marketValue": {
+              "value": 100000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "100.00",
+                "suffix": "K"
+              }
+            },
+            "age": 20,
+            "remainingContractPeriod": {
+              "days": 0,
+              "daysDisplay": "Unknown"
+            },
+            "season": {
+              "id": 2017,
+              "display": "17/18",
+              "cyclicalName": "2018",
+              "nonCyclicalName": "17/18"
+            }
+          },
+          "typeDetails": {
+            "type": "RETURNED_FROM_PREVIOUS_LOAN",
+            "name": "End of loan",
+            "feeDescription": "End of loan"
+          },
+          "relativeUrl": "/ben-godfrey/transfers/spieler/343475/transfer_id/1892786"
+        },
+        {
+          "id": "1892785",
+          "transferSource": {
+            "competitionId": "GB2",
+            "countryId": 189,
+            "clubId": "1123",
+            "coachId": "10939"
+          },
+          "transferDestination": {
+            "competitionId": "GB3",
+            "countryId": 189,
+            "clubId": "3054",
+            "coachId": "20495"
+          },
+          "details": {
+            "playerId": "343475",
+            "date": "2017-08-24T00:00:00+02:00",
+            "contractUntilDate": "2018-05-31T00:00:00+02:00",
+            "seasonId": 2017,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 19,
+            "remainingContractPeriod": {
+              "days": 2136,
+              "daysDisplay": "5 Years, 10 Months, 6 Days"
+            },
+            "season": {
+              "id": 2017,
+              "display": "17/18",
+              "cyclicalName": "2018",
+              "nonCyclicalName": "17/18"
+            }
+          },
+          "typeDetails": {
+            "type": "ACTIVE_LOAN_TRANSFER",
+            "name": "loan transfer",
+            "feeDescription": "loan transfer"
+          },
+          "relativeUrl": "/ben-godfrey/transfers/spieler/343475/transfer_id/1892785"
+        },
+        {
+          "id": "1407569",
+          "transferSource": {
+            "competitionId": "GB4",
+            "countryId": 189,
+            "clubId": "1252",
+            "coachId": "18753"
+          },
+          "transferDestination": {
+            "competitionId": "GB1",
+            "countryId": 189,
+            "clubId": "1123",
+            "coachId": "24018"
+          },
+          "details": {
+            "playerId": "343475",
+            "date": "2016-01-15T00:00:00+01:00",
+            "contractUntilDate": "2023-06-30T00:00:00+02:00",
+            "seasonId": 2015,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 18,
+            "fee": {
+              "value": 2950000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "2.95",
+                "suffix": "M"
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 532,
+              "daysDisplay": "1 Year, 5 Months, 15 Days"
+            },
+            "season": {
+              "id": 2015,
+              "display": "15/16",
+              "cyclicalName": "2016",
+              "nonCyclicalName": "15/16"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/ben-godfrey/transfers/spieler/343475/transfer_id/1407569"
+        },
+        {
+          "id": "1294696",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 189,
+            "clubId": "15941",
+            "coachId": "0"
+          },
+          "transferDestination": {
+            "competitionId": "GB4",
+            "countryId": 189,
+            "clubId": "1252",
+            "coachId": "6348"
+          },
+          "details": {
+            "playerId": "343475",
+            "date": "2015-07-01T00:00:00+02:00",
+            "contractUntilDate": "2017-06-30T00:00:00+02:00",
+            "seasonId": 2015,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 17,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2015,
+              "display": "15/16",
+              "cyclicalName": "2016",
+              "nonCyclicalName": "15/16"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/ben-godfrey/transfers/spieler/343475/transfer_id/1294696"
+        }
+      ],
+      "pending": [
+        {
+          "id": "6133784",
+          "transferSource": {
+            "competitionId": "DK1",
+            "countryId": 39,
+            "clubId": "206",
+            "coachId": "37574"
+          },
+          "transferDestination": {
+            "competitionId": "IT1",
+            "countryId": 75,
+            "clubId": "800",
+            "coachId": "95674"
+          },
+          "details": {
+            "playerId": "343475",
+            "date": "2026-06-30T00:00:00+02:00",
+            "contractUntilDate": "2028-06-30T00:00:00+02:00",
+            "seasonId": 2025,
+            "isPending": true,
+            "marketValue": {
+              "value": 5500000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "5.50",
+                "suffix": "M"
+              }
+            },
+            "age": 28,
+            "remainingContractPeriod": {
+              "days": 0,
+              "daysDisplay": "Unknown"
+            },
+            "season": {
+              "id": 2025,
+              "display": "25/26",
+              "cyclicalName": "2026",
+              "nonCyclicalName": "25/26"
+            }
+          },
+          "typeDetails": {
+            "type": "RETURNED_FROM_PREVIOUS_LOAN",
+            "name": "End of loan",
+            "feeDescription": "End of loan"
+          },
+          "relativeUrl": "/ben-godfrey/transfers/spieler/343475/transfer_id/6133784"
+        }
+      ],
+      "url": "",
+      "feeSum": {
+        "value": 43060000,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "43.06",
+          "suffix": "M"
+        }
+      },
+      "averageAge": 28,
+      "totalMarketValue": {
+        "value": 5500000,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "5.50",
+          "suffix": "M"
+        }
+      }
+    },
+    "clubIds": [
+      "206",
+      "800",
+      "350",
+      "677",
+      "29",
+      "1123",
+      "3054",
+      "1252",
+      "15941"
+    ],
+    "coachIds": [
+      "37574",
+      "95674",
+      "15289",
+      "16508",
+      "58333",
+      "45670",
+      "3436",
+      "15856",
+      "10939",
+      "523",
+      "20495",
+      "18753",
+      "24018",
+      "6348"
+    ],
+    "competitionIds": [
+      "DK1",
+      "IT1",
+      "GB2",
+      "GB1",
+      "GB3",
+      "GB4"
+    ],
+    "mostRecentTransfer": {
+      "id": "6133783",
+      "transferSource": {
+        "competitionId": "IT1",
+        "countryId": 75,
+        "clubId": "800",
+        "coachId": "95674"
+      },
+      "transferDestination": {
+        "competitionId": "DK1",
+        "countryId": 39,
+        "clubId": "206",
+        "coachId": "37574"
+      },
+      "details": {
+        "playerId": "343475",
+        "date": "2026-01-20T00:00:00+01:00",
+        "contractUntilDate": "2026-06-30T00:00:00+02:00",
+        "seasonId": 2025,
+        "isPending": false,
+        "marketValue": {
+          "value": 5500000,
+          "currency": "EUR",
+          "compact": {
+            "prefix": "€",
+            "content": "5.50",
+            "suffix": "M"
+          }
+        },
+        "age": 28,
+        "remainingContractPeriod": {
+          "days": 892,
+          "daysDisplay": "2 Years, 5 Months, 10 Days"
+        },
+        "season": {
+          "id": 2025,
+          "display": "25/26",
+          "cyclicalName": "2026",
+          "nonCyclicalName": "25/26"
+        }
+      },
+      "typeDetails": {
+        "type": "ACTIVE_LOAN_TRANSFER",
+        "name": "loan transfer",
+        "feeDescription": "loan transfer"
+      },
+      "relativeUrl": "/ben-godfrey/transfers/spieler/343475/transfer_id/6133783"
+    }
+  }
+}

@@ -1,0 +1,800 @@
+{
+  "success": true,
+  "message": "OK",
+  "data": {
+    "playerId": "54906",
+    "history": {
+      "terminated": [
+        {
+          "id": "3087822",
+          "transferSource": {
+            "competitionId": "IT2",
+            "countryId": 75,
+            "clubId": "130",
+            "coachId": "53749"
+          },
+          "transferDestination": {
+            "competitionId": "IT1",
+            "countryId": 75,
+            "clubId": "46",
+            "coachId": "21624"
+          },
+          "details": {
+            "playerId": "54906",
+            "date": "2021-07-01T00:00:00+02:00",
+            "contractUntilDate": "2026-06-30T00:00:00+02:00",
+            "seasonId": 2021,
+            "isPending": false,
+            "marketValue": {
+              "value": 7000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "7.00",
+                "suffix": "M"
+              }
+            },
+            "age": 31,
+            "fee": {
+              "value": 3300000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "3.30",
+                "suffix": "M"
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 729,
+              "daysDisplay": "1 Year, 11 Months, 29 Days"
+            },
+            "season": {
+              "id": 2021,
+              "display": "21/22",
+              "cyclicalName": "2022",
+              "nonCyclicalName": "21/22"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/matteo-darmian/transfers/spieler/54906/transfer_id/3087822"
+        },
+        {
+          "id": "3087592",
+          "transferSource": {
+            "competitionId": "IT1",
+            "countryId": 75,
+            "clubId": "46",
+            "coachId": "3517"
+          },
+          "transferDestination": {
+            "competitionId": "IT2",
+            "countryId": 75,
+            "clubId": "130",
+            "coachId": "53749"
+          },
+          "details": {
+            "playerId": "54906",
+            "date": "2021-06-30T00:00:00+02:00",
+            "contractUntilDate": "2023-06-30T00:00:00+02:00",
+            "seasonId": 2020,
+            "isPending": false,
+            "marketValue": {
+              "value": 7000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "7.00",
+                "suffix": "M"
+              }
+            },
+            "age": 31,
+            "remainingContractPeriod": {
+              "days": 0,
+              "daysDisplay": "Unknown"
+            },
+            "season": {
+              "id": 2020,
+              "display": "20/21",
+              "cyclicalName": "2021",
+              "nonCyclicalName": "20/21"
+            }
+          },
+          "typeDetails": {
+            "type": "RETURNED_FROM_PREVIOUS_LOAN",
+            "name": "End of loan",
+            "feeDescription": "End of loan"
+          },
+          "relativeUrl": "/matteo-darmian/transfers/spieler/54906/transfer_id/3087592"
+        },
+        {
+          "id": "3087591",
+          "transferSource": {
+            "competitionId": "IT1",
+            "countryId": 75,
+            "clubId": "130",
+            "coachId": "27554"
+          },
+          "transferDestination": {
+            "competitionId": "IT1",
+            "countryId": 75,
+            "clubId": "46",
+            "coachId": "3517"
+          },
+          "details": {
+            "playerId": "54906",
+            "date": "2020-10-05T00:00:00+02:00",
+            "contractUntilDate": "2021-06-30T00:00:00+02:00",
+            "seasonId": 2020,
+            "isPending": false,
+            "marketValue": {
+              "value": 6500000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "6.50",
+                "suffix": "M"
+              }
+            },
+            "age": 30,
+            "remainingContractPeriod": {
+              "days": 998,
+              "daysDisplay": "2 Years, 8 Months, 25 Days"
+            },
+            "season": {
+              "id": 2020,
+              "display": "20/21",
+              "cyclicalName": "2021",
+              "nonCyclicalName": "20/21"
+            }
+          },
+          "typeDetails": {
+            "type": "ACTIVE_LOAN_TRANSFER",
+            "name": "loan transfer",
+            "feeDescription": "loan transfer"
+          },
+          "relativeUrl": "/matteo-darmian/transfers/spieler/54906/transfer_id/3087591"
+        },
+        {
+          "id": "2630596",
+          "transferSource": {
+            "competitionId": "GB1",
+            "countryId": 189,
+            "clubId": "985",
+            "coachId": "7286"
+          },
+          "transferDestination": {
+            "competitionId": "IT1",
+            "countryId": 75,
+            "clubId": "130",
+            "coachId": "35782"
+          },
+          "details": {
+            "playerId": "54906",
+            "date": "2019-09-02T00:00:00+02:00",
+            "contractUntilDate": "2023-06-30T00:00:00+02:00",
+            "seasonId": 2019,
+            "isPending": false,
+            "marketValue": {
+              "value": 10000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "10.00",
+                "suffix": "M"
+              }
+            },
+            "age": 29,
+            "fee": {
+              "value": 2480000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "2.48",
+                "suffix": "M"
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 302,
+              "daysDisplay": "9 Months, 28 Days"
+            },
+            "season": {
+              "id": 2019,
+              "display": "19/20",
+              "cyclicalName": "2020",
+              "nonCyclicalName": "19/20"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/matteo-darmian/transfers/spieler/54906/transfer_id/2630596"
+        },
+        {
+          "id": "1284549",
+          "transferSource": {
+            "competitionId": "IT1",
+            "countryId": 75,
+            "clubId": "416",
+            "coachId": "3109"
+          },
+          "transferDestination": {
+            "competitionId": "GB1",
+            "countryId": 189,
+            "clubId": "985",
+            "coachId": "2029"
+          },
+          "details": {
+            "playerId": "54906",
+            "date": "2015-07-11T00:00:00+02:00",
+            "contractUntilDate": "2020-06-30T00:00:00+02:00",
+            "seasonId": 2015,
+            "isPending": false,
+            "marketValue": {
+              "value": 12000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "12.00",
+                "suffix": "M"
+              }
+            },
+            "age": 25,
+            "fee": {
+              "value": 18000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "18.00",
+                "suffix": "M"
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 720,
+              "daysDisplay": "1 Year, 11 Months, 19 Days"
+            },
+            "season": {
+              "id": 2015,
+              "display": "15/16",
+              "cyclicalName": "2016",
+              "nonCyclicalName": "15/16"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/matteo-darmian/transfers/spieler/54906/transfer_id/1284549"
+        },
+        {
+          "id": "742824",
+          "transferSource": {
+            "competitionId": "IT1",
+            "countryId": 75,
+            "clubId": "458",
+            "coachId": "12913"
+          },
+          "transferDestination": {
+            "competitionId": "IT1",
+            "countryId": 75,
+            "clubId": "416",
+            "coachId": "3109"
+          },
+          "details": {
+            "playerId": "54906",
+            "date": "2012-07-05T00:00:00+02:00",
+            "contractUntilDate": "2017-06-30T00:00:00+02:00",
+            "seasonId": 2012,
+            "isPending": false,
+            "marketValue": {
+              "value": 900000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "900.00",
+                "suffix": "K"
+              }
+            },
+            "age": 22,
+            "fee": {
+              "value": 2325000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "2.32",
+                "suffix": "M"
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 725,
+              "daysDisplay": "1 Year, 11 Months, 25 Days"
+            },
+            "season": {
+              "id": 2012,
+              "display": "12/13",
+              "cyclicalName": "2013",
+              "nonCyclicalName": "12/13"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/matteo-darmian/transfers/spieler/54906/transfer_id/742824"
+        },
+        {
+          "id": "601495",
+          "transferSource": {
+            "competitionId": "IT2",
+            "countryId": 75,
+            "clubId": "416",
+            "coachId": "3109"
+          },
+          "transferDestination": {
+            "competitionId": "IT1",
+            "countryId": 75,
+            "clubId": "458",
+            "coachId": "12913"
+          },
+          "details": {
+            "playerId": "54906",
+            "date": "2012-06-30T00:00:00+02:00",
+            "contractUntilDate": "2014-06-30T00:00:00+02:00",
+            "seasonId": 2011,
+            "isPending": false,
+            "marketValue": {
+              "value": 900000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "900.00",
+                "suffix": "K"
+              }
+            },
+            "age": 22,
+            "remainingContractPeriod": {
+              "days": 0,
+              "daysDisplay": "Unknown"
+            },
+            "season": {
+              "id": 2011,
+              "display": "11/12",
+              "cyclicalName": "2012",
+              "nonCyclicalName": "11/12"
+            }
+          },
+          "typeDetails": {
+            "type": "RETURNED_FROM_PREVIOUS_LOAN",
+            "name": "End of loan",
+            "feeDescription": "End of loan"
+          },
+          "relativeUrl": "/matteo-darmian/transfers/spieler/54906/transfer_id/601495"
+        },
+        {
+          "id": "601494",
+          "transferSource": {
+            "competitionId": "IT1",
+            "countryId": 75,
+            "clubId": "458",
+            "coachId": "2135"
+          },
+          "transferDestination": {
+            "competitionId": "IT2",
+            "countryId": 75,
+            "clubId": "416",
+            "coachId": "3109"
+          },
+          "details": {
+            "playerId": "54906",
+            "date": "2011-07-12T00:00:00+02:00",
+            "contractUntilDate": "2012-06-30T00:00:00+02:00",
+            "seasonId": 2011,
+            "isPending": false,
+            "marketValue": {
+              "value": 800000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "800.00",
+                "suffix": "K"
+              }
+            },
+            "age": 21,
+            "remainingContractPeriod": {
+              "days": 1084,
+              "daysDisplay": "2 Years, 11 Months, 18 Days"
+            },
+            "season": {
+              "id": 2011,
+              "display": "11/12",
+              "cyclicalName": "2012",
+              "nonCyclicalName": "11/12"
+            }
+          },
+          "typeDetails": {
+            "type": "ACTIVE_LOAN_TRANSFER",
+            "name": "loan transfer",
+            "feeDescription": "loan transfer"
+          },
+          "relativeUrl": "/matteo-darmian/transfers/spieler/54906/transfer_id/601494"
+        },
+        {
+          "id": "448454",
+          "transferSource": {
+            "competitionId": "IT1",
+            "countryId": 75,
+            "clubId": "5",
+            "coachId": "7671"
+          },
+          "transferDestination": {
+            "competitionId": "IT1",
+            "countryId": 75,
+            "clubId": "458",
+            "coachId": "516"
+          },
+          "details": {
+            "playerId": "54906",
+            "date": "2010-07-12T00:00:00+02:00",
+            "contractUntilDate": "2014-06-30T00:00:00+02:00",
+            "seasonId": 2010,
+            "isPending": false,
+            "marketValue": {
+              "value": 500000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "500.00",
+                "suffix": "K"
+              }
+            },
+            "age": 20,
+            "fee": {
+              "value": 1300000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "1.30",
+                "suffix": "M"
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 353,
+              "daysDisplay": "11 Months, 18 Days"
+            },
+            "season": {
+              "id": 2010,
+              "display": "10/11",
+              "cyclicalName": "2011",
+              "nonCyclicalName": "10/11"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/matteo-darmian/transfers/spieler/54906/transfer_id/448454"
+        },
+        {
+          "id": "320603",
+          "transferSource": {
+            "competitionId": "IT2",
+            "countryId": 75,
+            "clubId": "3037",
+            "coachId": "7492"
+          },
+          "transferDestination": {
+            "competitionId": "IT1",
+            "countryId": 75,
+            "clubId": "5",
+            "coachId": "0"
+          },
+          "details": {
+            "playerId": "54906",
+            "date": "2010-06-30T00:00:00+02:00",
+            "contractUntilDate": "2011-06-30T00:00:00+02:00",
+            "seasonId": 2009,
+            "isPending": false,
+            "marketValue": {
+              "value": 500000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "500.00",
+                "suffix": "K"
+              }
+            },
+            "age": 20,
+            "remainingContractPeriod": {
+              "days": 0,
+              "daysDisplay": "Unknown"
+            },
+            "season": {
+              "id": 2009,
+              "display": "09/10",
+              "cyclicalName": "2010",
+              "nonCyclicalName": "09/10"
+            }
+          },
+          "typeDetails": {
+            "type": "RETURNED_FROM_PREVIOUS_LOAN",
+            "name": "End of loan",
+            "feeDescription": "End of loan"
+          },
+          "relativeUrl": "/matteo-darmian/transfers/spieler/54906/transfer_id/320603"
+        },
+        {
+          "id": "320604",
+          "transferSource": {
+            "competitionId": "IT1",
+            "countryId": 75,
+            "clubId": "5",
+            "coachId": "8631"
+          },
+          "transferDestination": {
+            "competitionId": "IT2",
+            "countryId": 75,
+            "clubId": "3037",
+            "coachId": "7492"
+          },
+          "details": {
+            "playerId": "54906",
+            "date": "2009-07-17T00:00:00+02:00",
+            "contractUntilDate": "2010-06-30T00:00:00+02:00",
+            "seasonId": 2009,
+            "isPending": false,
+            "marketValue": {
+              "value": 300000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "300.00",
+                "suffix": "K"
+              }
+            },
+            "age": 19,
+            "season": {
+              "id": 2009,
+              "display": "09/10",
+              "cyclicalName": "2010",
+              "nonCyclicalName": "09/10"
+            }
+          },
+          "typeDetails": {
+            "type": "ACTIVE_LOAN_TRANSFER",
+            "name": "loan transfer",
+            "feeDescription": "loan transfer"
+          },
+          "relativeUrl": "/matteo-darmian/transfers/spieler/54906/transfer_id/320604"
+        },
+        {
+          "id": "139873",
+          "transferSource": {
+            "competitionId": "ITJ2",
+            "countryId": 75,
+            "clubId": "10958",
+            "coachId": "12582"
+          },
+          "transferDestination": {
+            "competitionId": "IT1",
+            "countryId": 75,
+            "clubId": "5",
+            "coachId": "523"
+          },
+          "details": {
+            "playerId": "54906",
+            "date": "2007-07-01T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2007,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 17,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2007,
+              "display": "07/08",
+              "cyclicalName": "2008",
+              "nonCyclicalName": "07/08"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/matteo-darmian/transfers/spieler/54906/transfer_id/139873"
+        },
+        {
+          "id": "1282056",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 75,
+            "clubId": "25828",
+            "coachId": "22701"
+          },
+          "transferDestination": {
+            "competitionId": "ITJ2",
+            "countryId": 75,
+            "clubId": "10958",
+            "coachId": "12582"
+          },
+          "details": {
+            "playerId": "54906",
+            "date": "2006-07-01T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2006,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 16,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2006,
+              "display": "06/07",
+              "cyclicalName": "2007",
+              "nonCyclicalName": "06/07"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/matteo-darmian/transfers/spieler/54906/transfer_id/1282056"
+        }
+      ],
+      "pending": [],
+      "url": "",
+      "feeSum": {
+        "value": 27405000,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "27.40",
+          "suffix": "M"
+        }
+      },
+      "averageAge": 36,
+      "totalMarketValue": {
+        "value": 1500000,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "1.50",
+          "suffix": "M"
+        }
+      }
+    },
+    "clubIds": [
+      "130",
+      "46",
+      "985",
+      "416",
+      "458",
+      "5",
+      "3037",
+      "10958",
+      "25828"
+    ],
+    "coachIds": [
+      "53749",
+      "21624",
+      "3517",
+      "27554",
+      "7286",
+      "35782",
+      "3109",
+      "2029",
+      "12913",
+      "2135",
+      "7671",
+      "516",
+      "7492",
+      "8631",
+      "12582",
+      "523",
+      "22701"
+    ],
+    "competitionIds": [
+      "IT2",
+      "IT1",
+      "GB1",
+      "ITJ2"
+    ],
+    "mostRecentTransfer": {
+      "id": "3087822",
+      "transferSource": {
+        "competitionId": "IT2",
+        "countryId": 75,
+        "clubId": "130",
+        "coachId": "53749"
+      },
+      "transferDestination": {
+        "competitionId": "IT1",
+        "countryId": 75,
+        "clubId": "46",
+        "coachId": "21624"
+      },
+      "details": {
+        "playerId": "54906",
+        "date": "2021-07-01T00:00:00+02:00",
+        "contractUntilDate": "2026-06-30T00:00:00+02:00",
+        "seasonId": 2021,
+        "isPending": false,
+        "marketValue": {
+          "value": 7000000,
+          "currency": "EUR",
+          "compact": {
+            "prefix": "€",
+            "content": "7.00",
+            "suffix": "M"
+          }
+        },
+        "age": 31,
+        "fee": {
+          "value": 3300000,
+          "currency": "EUR",
+          "compact": {
+            "prefix": "€",
+            "content": "3.30",
+            "suffix": "M"
+          }
+        },
+        "remainingContractPeriod": {
+          "days": 729,
+          "daysDisplay": "1 Year, 11 Months, 29 Days"
+        },
+        "season": {
+          "id": 2021,
+          "display": "21/22",
+          "cyclicalName": "2022",
+          "nonCyclicalName": "21/22"
+        }
+      },
+      "typeDetails": {
+        "type": "STANDARD",
+        "name": "",
+        "feeDescription": ""
+      },
+      "relativeUrl": "/matteo-darmian/transfers/spieler/54906/transfer_id/3087822"
+    }
+  }
+}

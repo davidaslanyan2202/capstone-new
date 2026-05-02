@@ -1,0 +1,827 @@
+{
+  "success": true,
+  "message": "OK",
+  "data": {
+    "playerId": "196095",
+    "history": {
+      "terminated": [
+        {
+          "id": "5064649",
+          "transferSource": {
+            "competitionId": "L1",
+            "countryId": 40,
+            "clubId": "82",
+            "coachId": "2300"
+          },
+          "transferDestination": {
+            "competitionId": "L2",
+            "countryId": 40,
+            "clubId": "3",
+            "coachId": "5801"
+          },
+          "details": {
+            "playerId": "196095",
+            "date": "2024-07-01T00:00:00+02:00",
+            "contractUntilDate": "2027-06-30T00:00:00+02:00",
+            "seasonId": 2024,
+            "isPending": false,
+            "marketValue": {
+              "value": 2500000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "2.50",
+                "suffix": "M"
+              }
+            },
+            "age": 28,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "Free Transfer",
+                "suffix": ""
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 364,
+              "daysDisplay": "11 Months, 29 Days"
+            },
+            "season": {
+              "id": 2024,
+              "display": "24/25",
+              "cyclicalName": "2025",
+              "nonCyclicalName": "24/25"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/luca-waldschmidt/transfers/spieler/196095/transfer_id/5064649"
+        },
+        {
+          "id": "4435832",
+          "transferSource": {
+            "competitionId": "L1",
+            "countryId": 40,
+            "clubId": "3",
+            "coachId": "20161"
+          },
+          "transferDestination": {
+            "competitionId": "L1",
+            "countryId": 40,
+            "clubId": "82",
+            "coachId": "2300"
+          },
+          "details": {
+            "playerId": "196095",
+            "date": "2024-06-30T00:00:00+02:00",
+            "contractUntilDate": "2025-06-30T00:00:00+02:00",
+            "seasonId": 2023,
+            "isPending": false,
+            "marketValue": {
+              "value": 2500000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "2.50",
+                "suffix": "M"
+              }
+            },
+            "age": 28,
+            "remainingContractPeriod": {
+              "days": 0,
+              "daysDisplay": "Unknown"
+            },
+            "season": {
+              "id": 2023,
+              "display": "23/24",
+              "cyclicalName": "2024",
+              "nonCyclicalName": "23/24"
+            }
+          },
+          "typeDetails": {
+            "type": "RETURNED_FROM_PREVIOUS_LOAN",
+            "name": "End of loan",
+            "feeDescription": "End of loan"
+          },
+          "relativeUrl": "/luca-waldschmidt/transfers/spieler/196095/transfer_id/4435832"
+        },
+        {
+          "id": "4435830",
+          "transferSource": {
+            "competitionId": "L1",
+            "countryId": 40,
+            "clubId": "82",
+            "coachId": "10463"
+          },
+          "transferDestination": {
+            "competitionId": "L1",
+            "countryId": 40,
+            "clubId": "3",
+            "coachId": "9622"
+          },
+          "details": {
+            "playerId": "196095",
+            "date": "2023-07-01T00:00:00+02:00",
+            "contractUntilDate": "2024-06-30T00:00:00+02:00",
+            "seasonId": 2023,
+            "isPending": false,
+            "marketValue": {
+              "value": 3000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "3.00",
+                "suffix": "M"
+              }
+            },
+            "age": 27,
+            "remainingContractPeriod": {
+              "days": 730,
+              "daysDisplay": "1 Year, 11 Months, 29 Days"
+            },
+            "season": {
+              "id": 2023,
+              "display": "23/24",
+              "cyclicalName": "2024",
+              "nonCyclicalName": "23/24"
+            }
+          },
+          "typeDetails": {
+            "type": "ACTIVE_LOAN_TRANSFER",
+            "name": "loan transfer",
+            "feeDescription": "loan transfer"
+          },
+          "relativeUrl": "/luca-waldschmidt/transfers/spieler/196095/transfer_id/4435830"
+        },
+        {
+          "id": "3512830",
+          "transferSource": {
+            "competitionId": "PO1",
+            "countryId": 136,
+            "clubId": "294",
+            "coachId": "2145"
+          },
+          "transferDestination": {
+            "competitionId": "L1",
+            "countryId": 40,
+            "clubId": "82",
+            "coachId": "33479"
+          },
+          "details": {
+            "playerId": "196095",
+            "date": "2021-08-22T00:00:00+02:00",
+            "contractUntilDate": "2025-06-30T00:00:00+02:00",
+            "seasonId": 2021,
+            "isPending": false,
+            "marketValue": {
+              "value": 15000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "15.00",
+                "suffix": "M"
+              }
+            },
+            "age": 25,
+            "fee": {
+              "value": 12000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "12.00",
+                "suffix": "M"
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 1408,
+              "daysDisplay": "3 Years, 10 Months, 8 Days"
+            },
+            "season": {
+              "id": 2021,
+              "display": "21/22",
+              "cyclicalName": "2022",
+              "nonCyclicalName": "21/22"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/luca-waldschmidt/transfers/spieler/196095/transfer_id/3512830"
+        },
+        {
+          "id": "3014870",
+          "transferSource": {
+            "competitionId": "L1",
+            "countryId": 40,
+            "clubId": "60",
+            "coachId": "2989"
+          },
+          "transferDestination": {
+            "competitionId": "PO1",
+            "countryId": 136,
+            "clubId": "294",
+            "coachId": "2145"
+          },
+          "details": {
+            "playerId": "196095",
+            "date": "2020-08-14T00:00:00+02:00",
+            "contractUntilDate": "2025-06-30T00:00:00+02:00",
+            "seasonId": 2020,
+            "isPending": false,
+            "marketValue": {
+              "value": 16000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "16.00",
+                "suffix": "M"
+              }
+            },
+            "age": 24,
+            "fee": {
+              "value": 15000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "15.00",
+                "suffix": "M"
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 685,
+              "daysDisplay": "1 Year, 10 Months, 16 Days"
+            },
+            "season": {
+              "id": 2020,
+              "display": "20/21",
+              "cyclicalName": "2021",
+              "nonCyclicalName": "20/21"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/luca-waldschmidt/transfers/spieler/196095/transfer_id/3014870"
+        },
+        {
+          "id": "2114839",
+          "transferSource": {
+            "competitionId": "L2",
+            "countryId": 40,
+            "clubId": "41",
+            "coachId": "11489"
+          },
+          "transferDestination": {
+            "competitionId": "L1",
+            "countryId": 40,
+            "clubId": "60",
+            "coachId": "2989"
+          },
+          "details": {
+            "playerId": "196095",
+            "date": "2018-07-01T00:00:00+02:00",
+            "contractUntilDate": "2022-06-30T00:00:00+02:00",
+            "seasonId": 2018,
+            "isPending": false,
+            "marketValue": {
+              "value": 2500000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "2.50",
+                "suffix": "M"
+              }
+            },
+            "age": 22,
+            "fee": {
+              "value": 5000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "5.00",
+                "suffix": "M"
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 730,
+              "daysDisplay": "1 Year, 11 Months, 29 Days"
+            },
+            "season": {
+              "id": 2018,
+              "display": "18/19",
+              "cyclicalName": "2019",
+              "nonCyclicalName": "18/19"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/luca-waldschmidt/transfers/spieler/196095/transfer_id/2114839"
+        },
+        {
+          "id": "1519145",
+          "transferSource": {
+            "competitionId": "L1",
+            "countryId": 40,
+            "clubId": "24",
+            "coachId": "10463"
+          },
+          "transferDestination": {
+            "competitionId": "L1",
+            "countryId": 40,
+            "clubId": "41",
+            "coachId": "588"
+          },
+          "details": {
+            "playerId": "196095",
+            "date": "2016-07-01T00:00:00+02:00",
+            "contractUntilDate": "2020-06-30T00:00:00+02:00",
+            "seasonId": 2016,
+            "isPending": false,
+            "marketValue": {
+              "value": 1000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "1.00",
+                "suffix": "M"
+              }
+            },
+            "age": 20,
+            "fee": {
+              "value": 1300000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "1.30",
+                "suffix": "M"
+              }
+            },
+            "season": {
+              "id": 2016,
+              "display": "16/17",
+              "cyclicalName": "2017",
+              "nonCyclicalName": "16/17"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/luca-waldschmidt/transfers/spieler/196095/transfer_id/1519145"
+        },
+        {
+          "id": "5324267",
+          "transferSource": {
+            "competitionId": "AJ3",
+            "countryId": 40,
+            "clubId": "5372",
+            "coachId": "20585"
+          },
+          "transferDestination": {
+            "competitionId": "L1",
+            "countryId": 40,
+            "clubId": "24",
+            "coachId": "224"
+          },
+          "details": {
+            "playerId": "196095",
+            "date": "2014-07-01T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2014,
+            "isPending": false,
+            "marketValue": {
+              "value": 500000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "500.00",
+                "suffix": "K"
+              }
+            },
+            "age": 18,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 1095,
+              "daysDisplay": "2 Years, 11 Months, 29 Days"
+            },
+            "season": {
+              "id": 2014,
+              "display": "14/15",
+              "cyclicalName": "2015",
+              "nonCyclicalName": "14/15"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/luca-waldschmidt/transfers/spieler/196095/transfer_id/5324267"
+        },
+        {
+          "id": "895528",
+          "transferSource": {
+            "competitionId": "BJ3",
+            "countryId": 40,
+            "clubId": "21057",
+            "coachId": "5929"
+          },
+          "transferDestination": {
+            "competitionId": "AJ3",
+            "countryId": 40,
+            "clubId": "5372",
+            "coachId": "20585"
+          },
+          "details": {
+            "playerId": "196095",
+            "date": "2013-07-01T00:00:00+02:00",
+            "contractUntilDate": "2017-06-30T00:00:00+02:00",
+            "seasonId": 2013,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 17,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2013,
+              "display": "13/14",
+              "cyclicalName": "2014",
+              "nonCyclicalName": "13/14"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/luca-waldschmidt/transfers/spieler/196095/transfer_id/895528"
+        },
+        {
+          "id": "935091",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 40,
+            "clubId": "12016",
+            "coachId": "8743"
+          },
+          "transferDestination": {
+            "competitionId": "BJ3",
+            "countryId": 40,
+            "clubId": "21057",
+            "coachId": "5929"
+          },
+          "details": {
+            "playerId": "196095",
+            "date": "2011-07-01T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2011,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 15,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2011,
+              "display": "11/12",
+              "cyclicalName": "2012",
+              "nonCyclicalName": "11/12"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/luca-waldschmidt/transfers/spieler/196095/transfer_id/935091"
+        },
+        {
+          "id": "2010065",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 40,
+            "clubId": "30791",
+            "coachId": "26660"
+          },
+          "transferDestination": {
+            "competitionId": "",
+            "countryId": 40,
+            "clubId": "12016",
+            "coachId": "36950"
+          },
+          "details": {
+            "playerId": "196095",
+            "date": "2010-07-01T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2010,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 14,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "Free Transfer",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2010,
+              "display": "10/11",
+              "cyclicalName": "2011",
+              "nonCyclicalName": "10/11"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/luca-waldschmidt/transfers/spieler/196095/transfer_id/2010065"
+        },
+        {
+          "id": "2010066",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 40,
+            "clubId": "64544",
+            "coachId": "0"
+          },
+          "transferDestination": {
+            "competitionId": "",
+            "countryId": 40,
+            "clubId": "30791",
+            "coachId": "0"
+          },
+          "details": {
+            "playerId": "196095",
+            "date": "2009-07-01T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2009,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 13,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "Free Transfer",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2009,
+              "display": "09/10",
+              "cyclicalName": "2010",
+              "nonCyclicalName": "09/10"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/luca-waldschmidt/transfers/spieler/196095/transfer_id/2010066"
+        },
+        {
+          "id": "2010067",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 40,
+            "clubId": "64545",
+            "coachId": "0"
+          },
+          "transferDestination": {
+            "competitionId": "",
+            "countryId": 40,
+            "clubId": "64544",
+            "coachId": "0"
+          },
+          "details": {
+            "playerId": "196095",
+            "date": "2007-07-01T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2007,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 11,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "Free Transfer",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2007,
+              "display": "07/08",
+              "cyclicalName": "2008",
+              "nonCyclicalName": "07/08"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/luca-waldschmidt/transfers/spieler/196095/transfer_id/2010067"
+        }
+      ],
+      "pending": [],
+      "url": "",
+      "feeSum": {
+        "value": 33300000,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "33.30",
+          "suffix": "M"
+        }
+      },
+      "averageAge": 29,
+      "totalMarketValue": {
+        "value": 2000000,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "2.00",
+          "suffix": "M"
+        }
+      }
+    },
+    "clubIds": [
+      "82",
+      "3",
+      "294",
+      "60",
+      "41",
+      "24",
+      "5372",
+      "21057",
+      "12016",
+      "30791",
+      "64544",
+      "64545"
+    ],
+    "coachIds": [
+      "2300",
+      "5801",
+      "20161",
+      "10463",
+      "9622",
+      "2145",
+      "33479",
+      "2989",
+      "11489",
+      "588",
+      "20585",
+      "224",
+      "5929",
+      "8743",
+      "26660",
+      "36950"
+    ],
+    "competitionIds": [
+      "L1",
+      "L2",
+      "PO1",
+      "AJ3",
+      "BJ3"
+    ],
+    "mostRecentTransfer": {
+      "id": "5064649",
+      "transferSource": {
+        "competitionId": "L1",
+        "countryId": 40,
+        "clubId": "82",
+        "coachId": "2300"
+      },
+      "transferDestination": {
+        "competitionId": "L2",
+        "countryId": 40,
+        "clubId": "3",
+        "coachId": "5801"
+      },
+      "details": {
+        "playerId": "196095",
+        "date": "2024-07-01T00:00:00+02:00",
+        "contractUntilDate": "2027-06-30T00:00:00+02:00",
+        "seasonId": 2024,
+        "isPending": false,
+        "marketValue": {
+          "value": 2500000,
+          "currency": "EUR",
+          "compact": {
+            "prefix": "€",
+            "content": "2.50",
+            "suffix": "M"
+          }
+        },
+        "age": 28,
+        "fee": {
+          "value": null,
+          "currency": "",
+          "compact": {
+            "prefix": "",
+            "content": "Free Transfer",
+            "suffix": ""
+          }
+        },
+        "remainingContractPeriod": {
+          "days": 364,
+          "daysDisplay": "11 Months, 29 Days"
+        },
+        "season": {
+          "id": 2024,
+          "display": "24/25",
+          "cyclicalName": "2025",
+          "nonCyclicalName": "24/25"
+        }
+      },
+      "typeDetails": {
+        "type": "STANDARD",
+        "name": "",
+        "feeDescription": ""
+      },
+      "relativeUrl": "/luca-waldschmidt/transfers/spieler/196095/transfer_id/5064649"
+    }
+  }
+}

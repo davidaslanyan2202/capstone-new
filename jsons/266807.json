@@ -1,0 +1,270 @@
+{
+  "success": true,
+  "message": "OK",
+  "data": {
+    "playerId": "266807",
+    "history": {
+      "terminated": [
+        {
+          "id": "5764462",
+          "transferSource": {
+            "competitionId": "ES1",
+            "countryId": 157,
+            "clubId": "13",
+            "coachId": "2868"
+          },
+          "transferDestination": {
+            "competitionId": "MEXA",
+            "countryId": 110,
+            "clubId": "7055",
+            "coachId": "140158"
+          },
+          "details": {
+            "playerId": "266807",
+            "date": "2025-07-09T00:00:00+02:00",
+            "contractUntilDate": "2030-06-30T00:00:00+02:00",
+            "seasonId": 2025,
+            "isPending": false,
+            "marketValue": {
+              "value": 10000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "10.00",
+                "suffix": "M"
+              }
+            },
+            "age": 30,
+            "fee": {
+              "value": 8000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "8.00",
+                "suffix": "M"
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 356,
+              "daysDisplay": "11 Months, 21 Days"
+            },
+            "season": {
+              "id": 2025,
+              "display": "25/26",
+              "cyclicalName": "2026",
+              "nonCyclicalName": "25/26"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/angel-correa/transfers/spieler/266807/transfer_id/5764462"
+        },
+        {
+          "id": "1159894",
+          "transferSource": {
+            "competitionId": "AR1N",
+            "countryId": 9,
+            "clubId": "1775",
+            "coachId": "22796"
+          },
+          "transferDestination": {
+            "competitionId": "ES1",
+            "countryId": 157,
+            "clubId": "13",
+            "coachId": "2868"
+          },
+          "details": {
+            "playerId": "266807",
+            "date": "2015-01-01T00:00:00+01:00",
+            "contractUntilDate": "2026-06-30T00:00:00+02:00",
+            "seasonId": 2014,
+            "isPending": false,
+            "marketValue": {
+              "value": 5000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "5.00",
+                "suffix": "M"
+              }
+            },
+            "age": 19,
+            "fee": {
+              "value": 10500000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "10.50",
+                "suffix": "M"
+              }
+            },
+            "season": {
+              "id": 2014,
+              "display": "14/15",
+              "cyclicalName": "2015",
+              "nonCyclicalName": "14/15"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/angel-correa/transfers/spieler/266807/transfer_id/1159894"
+        },
+        {
+          "id": "1026110",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 9,
+            "clubId": "15879",
+            "coachId": "0"
+          },
+          "transferDestination": {
+            "competitionId": "ARGC",
+            "countryId": 9,
+            "clubId": "1775",
+            "coachId": "10838"
+          },
+          "details": {
+            "playerId": "266807",
+            "date": "2013-01-01T00:00:00+01:00",
+            "contractUntilDate": null,
+            "seasonId": 2012,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 17,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2012,
+              "display": "12/13",
+              "cyclicalName": "2013",
+              "nonCyclicalName": "12/13"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/angel-correa/transfers/spieler/266807/transfer_id/1026110"
+        }
+      ],
+      "pending": [],
+      "url": "",
+      "feeSum": {
+        "value": 18500000,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "18.50",
+          "suffix": "M"
+        }
+      },
+      "averageAge": 31,
+      "totalMarketValue": {
+        "value": 9000000,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "9.00",
+          "suffix": "M"
+        }
+      }
+    },
+    "clubIds": [
+      "13",
+      "7055",
+      "1775",
+      "15879"
+    ],
+    "coachIds": [
+      "2868",
+      "140158",
+      "22796",
+      "10838"
+    ],
+    "competitionIds": [
+      "ES1",
+      "MEXA",
+      "AR1N",
+      "ARGC"
+    ],
+    "mostRecentTransfer": {
+      "id": "5764462",
+      "transferSource": {
+        "competitionId": "ES1",
+        "countryId": 157,
+        "clubId": "13",
+        "coachId": "2868"
+      },
+      "transferDestination": {
+        "competitionId": "MEXA",
+        "countryId": 110,
+        "clubId": "7055",
+        "coachId": "140158"
+      },
+      "details": {
+        "playerId": "266807",
+        "date": "2025-07-09T00:00:00+02:00",
+        "contractUntilDate": "2030-06-30T00:00:00+02:00",
+        "seasonId": 2025,
+        "isPending": false,
+        "marketValue": {
+          "value": 10000000,
+          "currency": "EUR",
+          "compact": {
+            "prefix": "€",
+            "content": "10.00",
+            "suffix": "M"
+          }
+        },
+        "age": 30,
+        "fee": {
+          "value": 8000000,
+          "currency": "EUR",
+          "compact": {
+            "prefix": "€",
+            "content": "8.00",
+            "suffix": "M"
+          }
+        },
+        "remainingContractPeriod": {
+          "days": 356,
+          "daysDisplay": "11 Months, 21 Days"
+        },
+        "season": {
+          "id": 2025,
+          "display": "25/26",
+          "cyclicalName": "2026",
+          "nonCyclicalName": "25/26"
+        }
+      },
+      "typeDetails": {
+        "type": "STANDARD",
+        "name": "",
+        "feeDescription": ""
+      },
+      "relativeUrl": "/angel-correa/transfers/spieler/266807/transfer_id/5764462"
+    }
+  }
+}

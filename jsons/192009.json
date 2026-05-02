@@ -1,0 +1,832 @@
+{
+  "success": true,
+  "message": "OK",
+  "data": {
+    "playerId": "192009",
+    "history": {
+      "terminated": [
+        {
+          "id": "3528158",
+          "transferSource": {
+            "competitionId": "ES1",
+            "countryId": 157,
+            "clubId": "621",
+            "coachId": "1559"
+          },
+          "transferDestination": {
+            "competitionId": "ES1",
+            "countryId": 157,
+            "clubId": "367",
+            "coachId": "60677"
+          },
+          "details": {
+            "playerId": "192009",
+            "date": "2022-07-01T00:00:00+02:00",
+            "contractUntilDate": "2026-06-30T00:00:00+02:00",
+            "seasonId": 2022,
+            "isPending": false,
+            "marketValue": {
+              "value": 4000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "4.00",
+                "suffix": "M"
+              }
+            },
+            "age": 26,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "Free Transfer",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2022,
+              "display": "22/23",
+              "cyclicalName": "2023",
+              "nonCyclicalName": "22/23"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/unai-lopez/transfers/spieler/192009/transfer_id/3528158"
+        },
+        {
+          "id": "3528155",
+          "transferSource": {
+            "competitionId": "ES1",
+            "countryId": 157,
+            "clubId": "367",
+            "coachId": "60677"
+          },
+          "transferDestination": {
+            "competitionId": "ES1",
+            "countryId": 157,
+            "clubId": "621",
+            "coachId": "5095"
+          },
+          "details": {
+            "playerId": "192009",
+            "date": "2022-06-30T00:00:00+02:00",
+            "contractUntilDate": "2022-06-30T00:00:00+02:00",
+            "seasonId": 2021,
+            "isPending": false,
+            "marketValue": {
+              "value": 4000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "4.00",
+                "suffix": "M"
+              }
+            },
+            "age": 26,
+            "remainingContractPeriod": {
+              "days": 0,
+              "daysDisplay": "Unknown"
+            },
+            "season": {
+              "id": 2021,
+              "display": "21/22",
+              "cyclicalName": "2022",
+              "nonCyclicalName": "21/22"
+            }
+          },
+          "typeDetails": {
+            "type": "RETURNED_FROM_PREVIOUS_LOAN",
+            "name": "End of loan",
+            "feeDescription": "End of loan"
+          },
+          "relativeUrl": "/unai-lopez/transfers/spieler/192009/transfer_id/3528155"
+        },
+        {
+          "id": "3528154",
+          "transferSource": {
+            "competitionId": "ES1",
+            "countryId": 157,
+            "clubId": "621",
+            "coachId": "5095"
+          },
+          "transferDestination": {
+            "competitionId": "ES1",
+            "countryId": 157,
+            "clubId": "367",
+            "coachId": "60677"
+          },
+          "details": {
+            "playerId": "192009",
+            "date": "2021-08-31T00:00:00+02:00",
+            "contractUntilDate": "2022-06-30T00:00:00+02:00",
+            "seasonId": 2021,
+            "isPending": false,
+            "marketValue": {
+              "value": 12000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "12.00",
+                "suffix": "M"
+              }
+            },
+            "age": 25,
+            "remainingContractPeriod": {
+              "days": 303,
+              "daysDisplay": "9 Months, 30 Days"
+            },
+            "season": {
+              "id": 2021,
+              "display": "21/22",
+              "cyclicalName": "2022",
+              "nonCyclicalName": "21/22"
+            }
+          },
+          "typeDetails": {
+            "type": "ACTIVE_LOAN_TRANSFER",
+            "name": "loan transfer",
+            "feeDescription": "loan transfer"
+          },
+          "relativeUrl": "/unai-lopez/transfers/spieler/192009/transfer_id/3528154"
+        },
+        {
+          "id": "1863452",
+          "transferSource": {
+            "competitionId": "ES2",
+            "countryId": 157,
+            "clubId": "367",
+            "coachId": "33636"
+          },
+          "transferDestination": {
+            "competitionId": "ES1",
+            "countryId": 157,
+            "clubId": "621",
+            "coachId": "3270"
+          },
+          "details": {
+            "playerId": "192009",
+            "date": "2018-06-30T00:00:00+02:00",
+            "contractUntilDate": "2022-06-30T00:00:00+02:00",
+            "seasonId": 2017,
+            "isPending": false,
+            "marketValue": {
+              "value": 2000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "2.00",
+                "suffix": "M"
+              }
+            },
+            "age": 22,
+            "remainingContractPeriod": {
+              "days": 0,
+              "daysDisplay": "Unknown"
+            },
+            "season": {
+              "id": 2017,
+              "display": "17/18",
+              "cyclicalName": "2018",
+              "nonCyclicalName": "17/18"
+            }
+          },
+          "typeDetails": {
+            "type": "RETURNED_FROM_PREVIOUS_LOAN",
+            "name": "End of loan",
+            "feeDescription": "End of loan"
+          },
+          "relativeUrl": "/unai-lopez/transfers/spieler/192009/transfer_id/1863452"
+        },
+        {
+          "id": "1863451",
+          "transferSource": {
+            "competitionId": "ES1",
+            "countryId": 157,
+            "clubId": "621",
+            "coachId": "3270"
+          },
+          "transferDestination": {
+            "competitionId": "ES2",
+            "countryId": 157,
+            "clubId": "367",
+            "coachId": "33636"
+          },
+          "details": {
+            "playerId": "192009",
+            "date": "2017-08-01T00:00:00+02:00",
+            "contractUntilDate": "2018-06-30T00:00:00+02:00",
+            "seasonId": 2017,
+            "isPending": false,
+            "marketValue": {
+              "value": 2000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "2.00",
+                "suffix": "M"
+              }
+            },
+            "age": 21,
+            "remainingContractPeriod": {
+              "days": 698,
+              "daysDisplay": "1 Year, 10 Months, 29 Days"
+            },
+            "season": {
+              "id": 2017,
+              "display": "17/18",
+              "cyclicalName": "2018",
+              "nonCyclicalName": "17/18"
+            }
+          },
+          "typeDetails": {
+            "type": "ACTIVE_LOAN_TRANSFER",
+            "name": "loan transfer",
+            "feeDescription": "loan transfer"
+          },
+          "relativeUrl": "/unai-lopez/transfers/spieler/192009/transfer_id/1863451"
+        },
+        {
+          "id": "1550387",
+          "transferSource": {
+            "competitionId": "ES1",
+            "countryId": 157,
+            "clubId": "1244",
+            "coachId": "7921"
+          },
+          "transferDestination": {
+            "competitionId": "ES1",
+            "countryId": 157,
+            "clubId": "621",
+            "coachId": "1559"
+          },
+          "details": {
+            "playerId": "192009",
+            "date": "2017-06-30T00:00:00+02:00",
+            "contractUntilDate": "2019-06-30T00:00:00+02:00",
+            "seasonId": 2016,
+            "isPending": false,
+            "marketValue": {
+              "value": 2000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "2.00",
+                "suffix": "M"
+              }
+            },
+            "age": 21,
+            "remainingContractPeriod": {
+              "days": 0,
+              "daysDisplay": "Unknown"
+            },
+            "season": {
+              "id": 2016,
+              "display": "16/17",
+              "cyclicalName": "2017",
+              "nonCyclicalName": "16/17"
+            }
+          },
+          "typeDetails": {
+            "type": "RETURNED_FROM_PREVIOUS_LOAN",
+            "name": "End of loan",
+            "feeDescription": "End of loan"
+          },
+          "relativeUrl": "/unai-lopez/transfers/spieler/192009/transfer_id/1550387"
+        },
+        {
+          "id": "1550386",
+          "transferSource": {
+            "competitionId": "ES1",
+            "countryId": 157,
+            "clubId": "621",
+            "coachId": "1559"
+          },
+          "transferDestination": {
+            "competitionId": "ES1",
+            "countryId": 157,
+            "clubId": "1244",
+            "coachId": "7921"
+          },
+          "details": {
+            "playerId": "192009",
+            "date": "2016-07-26T00:00:00+02:00",
+            "contractUntilDate": "2017-06-30T00:00:00+02:00",
+            "seasonId": 2016,
+            "isPending": false,
+            "marketValue": {
+              "value": 1500000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "1.50",
+                "suffix": "M"
+              }
+            },
+            "age": 20,
+            "remainingContractPeriod": {
+              "days": 2165,
+              "daysDisplay": "5 Years, 11 Months, 4 Days"
+            },
+            "season": {
+              "id": 2016,
+              "display": "16/17",
+              "cyclicalName": "2017",
+              "nonCyclicalName": "16/17"
+            }
+          },
+          "typeDetails": {
+            "type": "ACTIVE_LOAN_TRANSFER",
+            "name": "loan transfer",
+            "feeDescription": "loan transfer"
+          },
+          "relativeUrl": "/unai-lopez/transfers/spieler/192009/transfer_id/1550386"
+        },
+        {
+          "id": "1528336",
+          "transferSource": {
+            "competitionId": "ES3B",
+            "countryId": 157,
+            "clubId": "6688",
+            "coachId": "3270"
+          },
+          "transferDestination": {
+            "competitionId": "ES1",
+            "countryId": 157,
+            "clubId": "621",
+            "coachId": "1559"
+          },
+          "details": {
+            "playerId": "192009",
+            "date": "2016-07-01T00:00:00+02:00",
+            "contractUntilDate": "2022-06-30T00:00:00+02:00",
+            "seasonId": 2016,
+            "isPending": false,
+            "marketValue": {
+              "value": 1800000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "1.80",
+                "suffix": "M"
+              }
+            },
+            "age": 20,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 729,
+              "daysDisplay": "1 Year, 11 Months, 29 Days"
+            },
+            "season": {
+              "id": 2016,
+              "display": "16/17",
+              "cyclicalName": "2017",
+              "nonCyclicalName": "16/17"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/unai-lopez/transfers/spieler/192009/transfer_id/1528336"
+        },
+        {
+          "id": "1316464",
+          "transferSource": {
+            "competitionId": "ES1",
+            "countryId": 157,
+            "clubId": "621",
+            "coachId": "1559"
+          },
+          "transferDestination": {
+            "competitionId": "ES2",
+            "countryId": 157,
+            "clubId": "6688",
+            "coachId": "3270"
+          },
+          "details": {
+            "playerId": "192009",
+            "date": "2015-07-01T00:00:00+02:00",
+            "contractUntilDate": "2018-06-30T00:00:00+02:00",
+            "seasonId": 2015,
+            "isPending": false,
+            "marketValue": {
+              "value": 2000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "2.00",
+                "suffix": "M"
+              }
+            },
+            "age": 19,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 1095,
+              "daysDisplay": "2 Years, 11 Months, 29 Days"
+            },
+            "season": {
+              "id": 2015,
+              "display": "15/16",
+              "cyclicalName": "2016",
+              "nonCyclicalName": "15/16"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/unai-lopez/transfers/spieler/192009/transfer_id/1316464"
+        },
+        {
+          "id": "1111593",
+          "transferSource": {
+            "competitionId": "ES3B",
+            "countryId": 157,
+            "clubId": "6688",
+            "coachId": "3270"
+          },
+          "transferDestination": {
+            "competitionId": "ES1",
+            "countryId": 157,
+            "clubId": "621",
+            "coachId": "1559"
+          },
+          "details": {
+            "playerId": "192009",
+            "date": "2014-07-01T00:00:00+02:00",
+            "contractUntilDate": "2018-06-30T00:00:00+02:00",
+            "seasonId": 2014,
+            "isPending": false,
+            "marketValue": {
+              "value": 200000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "200.00",
+                "suffix": "K"
+              }
+            },
+            "age": 18,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2014,
+              "display": "14/15",
+              "cyclicalName": "2015",
+              "nonCyclicalName": "14/15"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/unai-lopez/transfers/spieler/192009/transfer_id/1111593"
+        },
+        {
+          "id": "923866",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 157,
+            "clubId": "28860",
+            "coachId": "53103"
+          },
+          "transferDestination": {
+            "competitionId": "ES3B",
+            "countryId": 157,
+            "clubId": "6688",
+            "coachId": "3270"
+          },
+          "details": {
+            "playerId": "192009",
+            "date": "2013-07-01T00:00:00+02:00",
+            "contractUntilDate": "2014-06-30T00:00:00+02:00",
+            "seasonId": 2013,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 17,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2013,
+              "display": "13/14",
+              "cyclicalName": "2014",
+              "nonCyclicalName": "13/14"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/unai-lopez/transfers/spieler/192009/transfer_id/923866"
+        },
+        {
+          "id": "2667616",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 157,
+            "clubId": "107198",
+            "coachId": "0"
+          },
+          "transferDestination": {
+            "competitionId": "",
+            "countryId": 157,
+            "clubId": "28860",
+            "coachId": "53103"
+          },
+          "details": {
+            "playerId": "192009",
+            "date": "2012-07-01T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2012,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 16,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2012,
+              "display": "12/13",
+              "cyclicalName": "2013",
+              "nonCyclicalName": "12/13"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/unai-lopez/transfers/spieler/192009/transfer_id/2667616"
+        },
+        {
+          "id": "602005",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 157,
+            "clubId": "14967",
+            "coachId": "28835"
+          },
+          "transferDestination": {
+            "competitionId": "",
+            "countryId": 157,
+            "clubId": "107198",
+            "coachId": "62451"
+          },
+          "details": {
+            "playerId": "192009",
+            "date": "2011-07-01T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2011,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 15,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "?",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2011,
+              "display": "11/12",
+              "cyclicalName": "2012",
+              "nonCyclicalName": "11/12"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/unai-lopez/transfers/spieler/192009/transfer_id/602005"
+        },
+        {
+          "id": "2667615",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 157,
+            "clubId": "70389",
+            "coachId": "0"
+          },
+          "transferDestination": {
+            "competitionId": "",
+            "countryId": 157,
+            "clubId": "14967",
+            "coachId": "29192"
+          },
+          "details": {
+            "playerId": "192009",
+            "date": "2010-07-01T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2010,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 14,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "?",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2010,
+              "display": "10/11",
+              "cyclicalName": "2011",
+              "nonCyclicalName": "10/11"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/unai-lopez/transfers/spieler/192009/transfer_id/2667615"
+        }
+      ],
+      "pending": [],
+      "url": "",
+      "feeSum": {
+        "value": 0,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "0.00",
+          "suffix": ""
+        }
+      },
+      "averageAge": 30,
+      "totalMarketValue": {
+        "value": 2500000,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "2.50",
+          "suffix": "M"
+        }
+      }
+    },
+    "clubIds": [
+      "621",
+      "367",
+      "1244",
+      "6688",
+      "28860",
+      "107198",
+      "14967",
+      "70389"
+    ],
+    "coachIds": [
+      "1559",
+      "60677",
+      "5095",
+      "33636",
+      "3270",
+      "7921",
+      "53103",
+      "28835",
+      "62451",
+      "29192"
+    ],
+    "competitionIds": [
+      "ES1",
+      "ES2",
+      "ES3B"
+    ],
+    "mostRecentTransfer": {
+      "id": "3528158",
+      "transferSource": {
+        "competitionId": "ES1",
+        "countryId": 157,
+        "clubId": "621",
+        "coachId": "1559"
+      },
+      "transferDestination": {
+        "competitionId": "ES1",
+        "countryId": 157,
+        "clubId": "367",
+        "coachId": "60677"
+      },
+      "details": {
+        "playerId": "192009",
+        "date": "2022-07-01T00:00:00+02:00",
+        "contractUntilDate": "2026-06-30T00:00:00+02:00",
+        "seasonId": 2022,
+        "isPending": false,
+        "marketValue": {
+          "value": 4000000,
+          "currency": "EUR",
+          "compact": {
+            "prefix": "€",
+            "content": "4.00",
+            "suffix": "M"
+          }
+        },
+        "age": 26,
+        "fee": {
+          "value": null,
+          "currency": "",
+          "compact": {
+            "prefix": "",
+            "content": "Free Transfer",
+            "suffix": ""
+          }
+        },
+        "season": {
+          "id": 2022,
+          "display": "22/23",
+          "cyclicalName": "2023",
+          "nonCyclicalName": "22/23"
+        }
+      },
+      "typeDetails": {
+        "type": "STANDARD",
+        "name": "",
+        "feeDescription": ""
+      },
+      "relativeUrl": "/unai-lopez/transfers/spieler/192009/transfer_id/3528158"
+    }
+  }
+}

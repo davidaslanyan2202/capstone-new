@@ -1,0 +1,677 @@
+{
+  "success": true,
+  "message": "OK",
+  "data": {
+    "playerId": "368482",
+    "history": {
+      "terminated": [
+        {
+          "id": "2514642",
+          "transferSource": {
+            "competitionId": "IT1",
+            "countryId": 75,
+            "clubId": "506",
+            "coachId": "10073"
+          },
+          "transferDestination": {
+            "competitionId": "IT1",
+            "countryId": 75,
+            "clubId": "1025",
+            "coachId": "3896"
+          },
+          "details": {
+            "playerId": "368482",
+            "date": "2019-07-01T00:00:00+02:00",
+            "contractUntilDate": "2027-06-30T00:00:00+02:00",
+            "seasonId": 2019,
+            "isPending": false,
+            "marketValue": {
+              "value": 15000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "15.00",
+                "suffix": "M"
+              }
+            },
+            "age": 22,
+            "fee": {
+              "value": 15000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "15.00",
+                "suffix": "M"
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 1095,
+              "daysDisplay": "2 Years, 11 Months, 29 Days"
+            },
+            "season": {
+              "id": 2019,
+              "display": "19/20",
+              "cyclicalName": "2020",
+              "nonCyclicalName": "19/20"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/riccardo-orsolini/transfers/spieler/368482/transfer_id/2514642"
+        },
+        {
+          "id": "2023153",
+          "transferSource": {
+            "competitionId": "IT1",
+            "countryId": 75,
+            "clubId": "1025",
+            "coachId": "3896"
+          },
+          "transferDestination": {
+            "competitionId": "IT1",
+            "countryId": 75,
+            "clubId": "506",
+            "coachId": "7671"
+          },
+          "details": {
+            "playerId": "368482",
+            "date": "2019-06-30T00:00:00+02:00",
+            "contractUntilDate": "2022-06-30T00:00:00+02:00",
+            "seasonId": 2018,
+            "isPending": false,
+            "marketValue": {
+              "value": 15000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "15.00",
+                "suffix": "M"
+              }
+            },
+            "age": 22,
+            "remainingContractPeriod": {
+              "days": 0,
+              "daysDisplay": "Unknown"
+            },
+            "season": {
+              "id": 2018,
+              "display": "18/19",
+              "cyclicalName": "2019",
+              "nonCyclicalName": "18/19"
+            }
+          },
+          "typeDetails": {
+            "type": "RETURNED_FROM_PREVIOUS_LOAN",
+            "name": "End of loan",
+            "feeDescription": "End of loan"
+          },
+          "relativeUrl": "/riccardo-orsolini/transfers/spieler/368482/transfer_id/2023153"
+        },
+        {
+          "id": "2023152",
+          "transferSource": {
+            "competitionId": "IT1",
+            "countryId": 75,
+            "clubId": "506",
+            "coachId": "7671"
+          },
+          "transferDestination": {
+            "competitionId": "IT1",
+            "countryId": 75,
+            "clubId": "1025",
+            "coachId": "2047"
+          },
+          "details": {
+            "playerId": "368482",
+            "date": "2018-01-31T00:00:00+01:00",
+            "contractUntilDate": "2019-06-30T00:00:00+02:00",
+            "seasonId": 2017,
+            "isPending": false,
+            "marketValue": {
+              "value": 3500000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "3.50",
+                "suffix": "M"
+              }
+            },
+            "age": 21,
+            "remainingContractPeriod": {
+              "days": 1246,
+              "daysDisplay": "3 Years, 4 Months, 30 Days"
+            },
+            "season": {
+              "id": 2017,
+              "display": "17/18",
+              "cyclicalName": "2018",
+              "nonCyclicalName": "17/18"
+            }
+          },
+          "typeDetails": {
+            "type": "ACTIVE_LOAN_TRANSFER",
+            "name": "loan transfer",
+            "feeDescription": "loan transfer"
+          },
+          "relativeUrl": "/riccardo-orsolini/transfers/spieler/368482/transfer_id/2023152"
+        },
+        {
+          "id": "1835778",
+          "transferSource": {
+            "competitionId": "IT1",
+            "countryId": 75,
+            "clubId": "800",
+            "coachId": "3436"
+          },
+          "transferDestination": {
+            "competitionId": "IT1",
+            "countryId": 75,
+            "clubId": "506",
+            "coachId": "7671"
+          },
+          "details": {
+            "playerId": "368482",
+            "date": "2018-01-30T00:00:00+01:00",
+            "contractUntilDate": "2021-06-30T00:00:00+02:00",
+            "seasonId": 2017,
+            "isPending": false,
+            "marketValue": {
+              "value": 3500000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "3.50",
+                "suffix": "M"
+              }
+            },
+            "age": 21,
+            "remainingContractPeriod": {
+              "days": 516,
+              "daysDisplay": "1 Year, 5 Months"
+            },
+            "season": {
+              "id": 2017,
+              "display": "17/18",
+              "cyclicalName": "2018",
+              "nonCyclicalName": "17/18"
+            }
+          },
+          "typeDetails": {
+            "type": "RETURNED_FROM_PREVIOUS_LOAN",
+            "name": "End of loan",
+            "feeDescription": "End of loan"
+          },
+          "relativeUrl": "/riccardo-orsolini/transfers/spieler/368482/transfer_id/1835778"
+        },
+        {
+          "id": "1835777",
+          "transferSource": {
+            "competitionId": "IT1",
+            "countryId": 75,
+            "clubId": "506",
+            "coachId": "7671"
+          },
+          "transferDestination": {
+            "competitionId": "IT1",
+            "countryId": 75,
+            "clubId": "800",
+            "coachId": "3436"
+          },
+          "details": {
+            "playerId": "368482",
+            "date": "2017-07-14T00:00:00+02:00",
+            "contractUntilDate": "2019-06-30T00:00:00+02:00",
+            "seasonId": 2017,
+            "isPending": false,
+            "marketValue": {
+              "value": 3500000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "3.50",
+                "suffix": "M"
+              }
+            },
+            "age": 20,
+            "remainingContractPeriod": {
+              "days": 1447,
+              "daysDisplay": "3 Years, 11 Months, 16 Days"
+            },
+            "season": {
+              "id": 2017,
+              "display": "17/18",
+              "cyclicalName": "2018",
+              "nonCyclicalName": "17/18"
+            }
+          },
+          "typeDetails": {
+            "type": "ACTIVE_LOAN_TRANSFER",
+            "name": "loan transfer",
+            "feeDescription": "loan transfer"
+          },
+          "relativeUrl": "/riccardo-orsolini/transfers/spieler/368482/transfer_id/1835777"
+        },
+        {
+          "id": "1690195",
+          "transferSource": {
+            "competitionId": "IT2",
+            "countryId": 75,
+            "clubId": "408",
+            "coachId": "0"
+          },
+          "transferDestination": {
+            "competitionId": "IT1",
+            "countryId": 75,
+            "clubId": "506",
+            "coachId": "7671"
+          },
+          "details": {
+            "playerId": "368482",
+            "date": "2017-06-30T00:00:00+02:00",
+            "contractUntilDate": "2021-06-30T00:00:00+02:00",
+            "seasonId": 2016,
+            "isPending": false,
+            "marketValue": {
+              "value": 3500000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "3.50",
+                "suffix": "M"
+              }
+            },
+            "age": 20,
+            "remainingContractPeriod": {
+              "days": 0,
+              "daysDisplay": "Unknown"
+            },
+            "season": {
+              "id": 2016,
+              "display": "16/17",
+              "cyclicalName": "2017",
+              "nonCyclicalName": "16/17"
+            }
+          },
+          "typeDetails": {
+            "type": "RETURNED_FROM_PREVIOUS_LOAN",
+            "name": "End of loan",
+            "feeDescription": "End of loan"
+          },
+          "relativeUrl": "/riccardo-orsolini/transfers/spieler/368482/transfer_id/1690195"
+        },
+        {
+          "id": "1690196",
+          "transferSource": {
+            "competitionId": "IT1",
+            "countryId": 75,
+            "clubId": "506",
+            "coachId": "7671"
+          },
+          "transferDestination": {
+            "competitionId": "IT2",
+            "countryId": 75,
+            "clubId": "408",
+            "coachId": "4902"
+          },
+          "details": {
+            "playerId": "368482",
+            "date": "2017-01-30T00:00:00+01:00",
+            "contractUntilDate": "2017-06-30T00:00:00+02:00",
+            "seasonId": 2016,
+            "isPending": false,
+            "marketValue": {
+              "value": 1500000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "1.50",
+                "suffix": "M"
+              }
+            },
+            "age": 20,
+            "remainingContractPeriod": {
+              "days": 881,
+              "daysDisplay": "2 Years, 5 Months"
+            },
+            "season": {
+              "id": 2016,
+              "display": "16/17",
+              "cyclicalName": "2017",
+              "nonCyclicalName": "16/17"
+            }
+          },
+          "typeDetails": {
+            "type": "ACTIVE_LOAN_TRANSFER",
+            "name": "loan transfer",
+            "feeDescription": "loan transfer"
+          },
+          "relativeUrl": "/riccardo-orsolini/transfers/spieler/368482/transfer_id/1690196"
+        },
+        {
+          "id": "1690194",
+          "transferSource": {
+            "competitionId": "IT2",
+            "countryId": 75,
+            "clubId": "408",
+            "coachId": "4902"
+          },
+          "transferDestination": {
+            "competitionId": "IT1",
+            "countryId": 75,
+            "clubId": "506",
+            "coachId": "7671"
+          },
+          "details": {
+            "playerId": "368482",
+            "date": "2017-01-30T00:00:00+01:00",
+            "contractUntilDate": "2021-06-30T00:00:00+02:00",
+            "seasonId": 2016,
+            "isPending": false,
+            "marketValue": {
+              "value": 1500000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "1.50",
+                "suffix": "M"
+              }
+            },
+            "age": 20,
+            "fee": {
+              "value": 6000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "6.00",
+                "suffix": "M"
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 881,
+              "daysDisplay": "2 Years, 5 Months"
+            },
+            "season": {
+              "id": 2016,
+              "display": "16/17",
+              "cyclicalName": "2017",
+              "nonCyclicalName": "16/17"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/riccardo-orsolini/transfers/spieler/368482/transfer_id/1690194"
+        },
+        {
+          "id": "1567418",
+          "transferSource": {
+            "competitionId": "ITJ2",
+            "countryId": 75,
+            "clubId": "14909",
+            "coachId": "37003"
+          },
+          "transferDestination": {
+            "competitionId": "IT2",
+            "countryId": 75,
+            "clubId": "408",
+            "coachId": "4902"
+          },
+          "details": {
+            "playerId": "368482",
+            "date": "2016-07-01T00:00:00+02:00",
+            "contractUntilDate": "2019-06-30T00:00:00+02:00",
+            "seasonId": 2016,
+            "isPending": false,
+            "marketValue": {
+              "value": 400000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "400.00",
+                "suffix": "K"
+              }
+            },
+            "age": 19,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2016,
+              "display": "16/17",
+              "cyclicalName": "2017",
+              "nonCyclicalName": "16/17"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/riccardo-orsolini/transfers/spieler/368482/transfer_id/1567418"
+        },
+        {
+          "id": "1366242",
+          "transferSource": {
+            "competitionId": "ITJ6",
+            "countryId": 75,
+            "clubId": "50523",
+            "coachId": "42322"
+          },
+          "transferDestination": {
+            "competitionId": "ITJ3",
+            "countryId": 75,
+            "clubId": "14909",
+            "coachId": "0"
+          },
+          "details": {
+            "playerId": "368482",
+            "date": "2015-07-01T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2014,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 18,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2014,
+              "display": "14/15",
+              "cyclicalName": "2015",
+              "nonCyclicalName": "14/15"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/riccardo-orsolini/transfers/spieler/368482/transfer_id/1366242"
+        },
+        {
+          "id": "6090163",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 75,
+            "clubId": "29443",
+            "coachId": "43060"
+          },
+          "transferDestination": {
+            "competitionId": "",
+            "countryId": 75,
+            "clubId": "50523",
+            "coachId": "0"
+          },
+          "details": {
+            "playerId": "368482",
+            "date": "2013-07-01T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2013,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 16,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2013,
+              "display": "13/14",
+              "cyclicalName": "2014",
+              "nonCyclicalName": "13/14"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/riccardo-orsolini/transfers/spieler/368482/transfer_id/6090163"
+        }
+      ],
+      "pending": [],
+      "url": "",
+      "feeSum": {
+        "value": 21000000,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "21.00",
+          "suffix": "M"
+        }
+      },
+      "averageAge": 29,
+      "totalMarketValue": {
+        "value": 18000000,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "18.00",
+          "suffix": "M"
+        }
+      }
+    },
+    "clubIds": [
+      "506",
+      "1025",
+      "800",
+      "408",
+      "14909",
+      "50523",
+      "29443"
+    ],
+    "coachIds": [
+      "10073",
+      "3896",
+      "7671",
+      "2047",
+      "3436",
+      "4902",
+      "37003",
+      "42322",
+      "43060"
+    ],
+    "competitionIds": [
+      "IT1",
+      "IT2",
+      "ITJ2",
+      "ITJ6",
+      "ITJ3"
+    ],
+    "mostRecentTransfer": {
+      "id": "2514642",
+      "transferSource": {
+        "competitionId": "IT1",
+        "countryId": 75,
+        "clubId": "506",
+        "coachId": "10073"
+      },
+      "transferDestination": {
+        "competitionId": "IT1",
+        "countryId": 75,
+        "clubId": "1025",
+        "coachId": "3896"
+      },
+      "details": {
+        "playerId": "368482",
+        "date": "2019-07-01T00:00:00+02:00",
+        "contractUntilDate": "2027-06-30T00:00:00+02:00",
+        "seasonId": 2019,
+        "isPending": false,
+        "marketValue": {
+          "value": 15000000,
+          "currency": "EUR",
+          "compact": {
+            "prefix": "€",
+            "content": "15.00",
+            "suffix": "M"
+          }
+        },
+        "age": 22,
+        "fee": {
+          "value": 15000000,
+          "currency": "EUR",
+          "compact": {
+            "prefix": "€",
+            "content": "15.00",
+            "suffix": "M"
+          }
+        },
+        "remainingContractPeriod": {
+          "days": 1095,
+          "daysDisplay": "2 Years, 11 Months, 29 Days"
+        },
+        "season": {
+          "id": 2019,
+          "display": "19/20",
+          "cyclicalName": "2020",
+          "nonCyclicalName": "19/20"
+        }
+      },
+      "typeDetails": {
+        "type": "STANDARD",
+        "name": "",
+        "feeDescription": ""
+      },
+      "relativeUrl": "/riccardo-orsolini/transfers/spieler/368482/transfer_id/2514642"
+    }
+  }
+}

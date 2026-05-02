@@ -1,0 +1,530 @@
+{
+  "success": true,
+  "message": "OK",
+  "data": {
+    "playerId": "855134",
+    "history": {
+      "terminated": [
+        {
+          "id": "6161843",
+          "transferSource": {
+            "competitionId": "L1",
+            "countryId": 40,
+            "clubId": "86",
+            "coachId": "0"
+          },
+          "transferDestination": {
+            "competitionId": "FR2",
+            "countryId": 50,
+            "clubId": "1416",
+            "coachId": "30421"
+          },
+          "details": {
+            "playerId": "855134",
+            "date": "2026-02-02T00:00:00+01:00",
+            "contractUntilDate": "2026-06-30T00:00:00+02:00",
+            "seasonId": 2025,
+            "isPending": false,
+            "marketValue": {
+              "value": 2500000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "2.50",
+                "suffix": "M"
+              }
+            },
+            "age": 23,
+            "remainingContractPeriod": {
+              "days": 879,
+              "daysDisplay": "2 Years, 4 Months, 28 Days"
+            },
+            "season": {
+              "id": 2025,
+              "display": "25/26",
+              "cyclicalName": "2026",
+              "nonCyclicalName": "25/26"
+            }
+          },
+          "typeDetails": {
+            "type": "ACTIVE_LOAN_TRANSFER",
+            "name": "loan transfer",
+            "feeDescription": "loan transfer"
+          },
+          "relativeUrl": "/skelly-alvero/transfers/spieler/855134/transfer_id/6161843"
+        },
+        {
+          "id": "5049108",
+          "transferSource": {
+            "competitionId": "FR1",
+            "countryId": 50,
+            "clubId": "1041",
+            "coachId": "110443"
+          },
+          "transferDestination": {
+            "competitionId": "L1",
+            "countryId": 40,
+            "clubId": "86",
+            "coachId": "34514"
+          },
+          "details": {
+            "playerId": "855134",
+            "date": "2024-07-01T00:00:00+02:00",
+            "contractUntilDate": "2028-06-30T00:00:00+02:00",
+            "seasonId": 2024,
+            "isPending": false,
+            "marketValue": {
+              "value": 4000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "4.00",
+                "suffix": "M"
+              }
+            },
+            "age": 22,
+            "fee": {
+              "value": 4750000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "4.75",
+                "suffix": "M"
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 1460,
+              "daysDisplay": "3 Years, 11 Months, 29 Days"
+            },
+            "season": {
+              "id": 2024,
+              "display": "24/25",
+              "cyclicalName": "2025",
+              "nonCyclicalName": "24/25"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/skelly-alvero/transfers/spieler/855134/transfer_id/5049108"
+        },
+        {
+          "id": "4860184",
+          "transferSource": {
+            "competitionId": "L1",
+            "countryId": 40,
+            "clubId": "86",
+            "coachId": "34514"
+          },
+          "transferDestination": {
+            "competitionId": "FR1",
+            "countryId": 50,
+            "clubId": "1041",
+            "coachId": "110443"
+          },
+          "details": {
+            "playerId": "855134",
+            "date": "2024-06-30T00:00:00+02:00",
+            "contractUntilDate": "2028-06-30T00:00:00+02:00",
+            "seasonId": 2023,
+            "isPending": false,
+            "marketValue": {
+              "value": 4000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "4.00",
+                "suffix": "M"
+              }
+            },
+            "age": 22,
+            "remainingContractPeriod": {
+              "days": 0,
+              "daysDisplay": "Unknown"
+            },
+            "season": {
+              "id": 2023,
+              "display": "23/24",
+              "cyclicalName": "2024",
+              "nonCyclicalName": "23/24"
+            }
+          },
+          "typeDetails": {
+            "type": "RETURNED_FROM_PREVIOUS_LOAN",
+            "name": "End of loan",
+            "feeDescription": "End of loan"
+          },
+          "relativeUrl": "/skelly-alvero/transfers/spieler/855134/transfer_id/4860184"
+        },
+        {
+          "id": "4860185",
+          "transferSource": {
+            "competitionId": "FR1",
+            "countryId": 50,
+            "clubId": "1041",
+            "coachId": "110443"
+          },
+          "transferDestination": {
+            "competitionId": "L1",
+            "countryId": 40,
+            "clubId": "86",
+            "coachId": "34514"
+          },
+          "details": {
+            "playerId": "855134",
+            "date": "2024-01-31T00:00:00+01:00",
+            "contractUntilDate": "2024-06-30T00:00:00+02:00",
+            "seasonId": 2023,
+            "isPending": false,
+            "marketValue": {
+              "value": 4000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "4.00",
+                "suffix": "M"
+              }
+            },
+            "age": 21,
+            "fee": {
+              "value": 250000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "250.00",
+                "suffix": "K"
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 1612,
+              "daysDisplay": "4 Years, 4 Months, 30 Days"
+            },
+            "season": {
+              "id": 2023,
+              "display": "23/24",
+              "cyclicalName": "2024",
+              "nonCyclicalName": "23/24"
+            }
+          },
+          "typeDetails": {
+            "type": "ACTIVE_LOAN_TRANSFER",
+            "name": "loan transfer",
+            "feeDescription": "Loan fee"
+          },
+          "relativeUrl": "/skelly-alvero/transfers/spieler/855134/transfer_id/4860185"
+        },
+        {
+          "id": "4481120",
+          "transferSource": {
+            "competitionId": "FR3",
+            "countryId": 50,
+            "clubId": "750",
+            "coachId": "24309"
+          },
+          "transferDestination": {
+            "competitionId": "FR1",
+            "countryId": 50,
+            "clubId": "1041",
+            "coachId": "4589"
+          },
+          "details": {
+            "playerId": "855134",
+            "date": "2023-07-05T00:00:00+02:00",
+            "contractUntilDate": "2028-06-30T00:00:00+02:00",
+            "seasonId": 2023,
+            "isPending": false,
+            "marketValue": {
+              "value": 3000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "3.00",
+                "suffix": "M"
+              }
+            },
+            "age": 21,
+            "fee": {
+              "value": 4000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "4.00",
+                "suffix": "M"
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 726,
+              "daysDisplay": "1 Year, 11 Months, 25 Days"
+            },
+            "season": {
+              "id": 2023,
+              "display": "23/24",
+              "cyclicalName": "2024",
+              "nonCyclicalName": "23/24"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/skelly-alvero/transfers/spieler/855134/transfer_id/4481120"
+        },
+        {
+          "id": "4015353",
+          "transferSource": {
+            "competitionId": "C3BF",
+            "countryId": 50,
+            "clubId": "10825",
+            "coachId": "65981"
+          },
+          "transferDestination": {
+            "competitionId": "FR2",
+            "countryId": 50,
+            "clubId": "750",
+            "coachId": "24083"
+          },
+          "details": {
+            "playerId": "855134",
+            "date": "2022-07-01T00:00:00+02:00",
+            "contractUntilDate": "2025-06-30T00:00:00+02:00",
+            "seasonId": 2022,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 20,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2022,
+              "display": "22/23",
+              "cyclicalName": "2023",
+              "nonCyclicalName": "22/23"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/skelly-alvero/transfers/spieler/855134/transfer_id/4015353"
+        },
+        {
+          "id": "3610813",
+          "transferSource": {
+            "competitionId": "F19B",
+            "countryId": 50,
+            "clubId": "10826",
+            "coachId": "53855"
+          },
+          "transferDestination": {
+            "competitionId": "C3BF",
+            "countryId": 50,
+            "clubId": "10825",
+            "coachId": "65981"
+          },
+          "details": {
+            "playerId": "855134",
+            "date": "2021-07-01T00:00:00+02:00",
+            "contractUntilDate": "2022-06-30T00:00:00+02:00",
+            "seasonId": 2021,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 19,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2021,
+              "display": "21/22",
+              "cyclicalName": "2022",
+              "nonCyclicalName": "21/22"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/skelly-alvero/transfers/spieler/855134/transfer_id/3610813"
+        }
+      ],
+      "pending": [
+        {
+          "id": "6161844",
+          "transferSource": {
+            "competitionId": "FR2",
+            "countryId": 50,
+            "clubId": "1416",
+            "coachId": "49495"
+          },
+          "transferDestination": {
+            "competitionId": "L1",
+            "countryId": 40,
+            "clubId": "86",
+            "coachId": "15452"
+          },
+          "details": {
+            "playerId": "855134",
+            "date": "2026-06-30T00:00:00+02:00",
+            "contractUntilDate": "2028-06-30T00:00:00+02:00",
+            "seasonId": 2025,
+            "isPending": true,
+            "marketValue": {
+              "value": 2500000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "2.50",
+                "suffix": "M"
+              }
+            },
+            "age": 24,
+            "remainingContractPeriod": {
+              "days": 0,
+              "daysDisplay": "Unknown"
+            },
+            "season": {
+              "id": 2025,
+              "display": "25/26",
+              "cyclicalName": "2026",
+              "nonCyclicalName": "25/26"
+            }
+          },
+          "typeDetails": {
+            "type": "RETURNED_FROM_PREVIOUS_LOAN",
+            "name": "End of loan",
+            "feeDescription": "End of loan"
+          },
+          "relativeUrl": "/skelly-alvero/transfers/spieler/855134/transfer_id/6161844"
+        }
+      ],
+      "url": "",
+      "feeSum": {
+        "value": 9000000,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "9.00",
+          "suffix": "M"
+        }
+      },
+      "averageAge": 23,
+      "totalMarketValue": {
+        "value": 2500000,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "2.50",
+          "suffix": "M"
+        }
+      }
+    },
+    "clubIds": [
+      "1416",
+      "86",
+      "1041",
+      "750",
+      "10825",
+      "10826"
+    ],
+    "coachIds": [
+      "49495",
+      "15452",
+      "30421",
+      "110443",
+      "34514",
+      "24309",
+      "4589",
+      "65981",
+      "24083",
+      "53855"
+    ],
+    "competitionIds": [
+      "FR2",
+      "L1",
+      "FR1",
+      "FR3",
+      "C3BF",
+      "F19B"
+    ],
+    "mostRecentTransfer": {
+      "id": "6161843",
+      "transferSource": {
+        "competitionId": "L1",
+        "countryId": 40,
+        "clubId": "86",
+        "coachId": "0"
+      },
+      "transferDestination": {
+        "competitionId": "FR2",
+        "countryId": 50,
+        "clubId": "1416",
+        "coachId": "30421"
+      },
+      "details": {
+        "playerId": "855134",
+        "date": "2026-02-02T00:00:00+01:00",
+        "contractUntilDate": "2026-06-30T00:00:00+02:00",
+        "seasonId": 2025,
+        "isPending": false,
+        "marketValue": {
+          "value": 2500000,
+          "currency": "EUR",
+          "compact": {
+            "prefix": "€",
+            "content": "2.50",
+            "suffix": "M"
+          }
+        },
+        "age": 23,
+        "remainingContractPeriod": {
+          "days": 879,
+          "daysDisplay": "2 Years, 4 Months, 28 Days"
+        },
+        "season": {
+          "id": 2025,
+          "display": "25/26",
+          "cyclicalName": "2026",
+          "nonCyclicalName": "25/26"
+        }
+      },
+      "typeDetails": {
+        "type": "ACTIVE_LOAN_TRANSFER",
+        "name": "loan transfer",
+        "feeDescription": "loan transfer"
+      },
+      "relativeUrl": "/skelly-alvero/transfers/spieler/855134/transfer_id/6161843"
+    }
+  }
+}

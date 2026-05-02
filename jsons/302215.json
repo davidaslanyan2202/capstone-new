@@ -1,0 +1,601 @@
+{
+  "success": true,
+  "message": "OK",
+  "data": {
+    "playerId": "302215",
+    "history": {
+      "terminated": [
+        {
+          "id": "6118779",
+          "transferSource": {
+            "competitionId": "L1",
+            "countryId": 40,
+            "clubId": "86",
+            "coachId": "2438"
+          },
+          "transferDestination": {
+            "competitionId": "UNG1",
+            "countryId": 178,
+            "clubId": "279",
+            "coachId": "60074"
+          },
+          "details": {
+            "playerId": "302215",
+            "date": "2026-01-15T00:00:00+01:00",
+            "contractUntilDate": null,
+            "seasonId": 2025,
+            "isPending": false,
+            "marketValue": {
+              "value": 1500000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "1.50",
+                "suffix": "M"
+              }
+            },
+            "age": 30,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "Free Transfer",
+                "suffix": ""
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 166,
+              "daysDisplay": "5 Months, 15 Days"
+            },
+            "season": {
+              "id": 2025,
+              "display": "25/26",
+              "cyclicalName": "2026",
+              "nonCyclicalName": "25/26"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/naby-keita/transfers/spieler/302215/transfer_id/6118779"
+        },
+        {
+          "id": "5387498",
+          "transferSource": {
+            "competitionId": "UNG1",
+            "countryId": 178,
+            "clubId": "279",
+            "coachId": "60074"
+          },
+          "transferDestination": {
+            "competitionId": "L1",
+            "countryId": 40,
+            "clubId": "86",
+            "coachId": "2438"
+          },
+          "details": {
+            "playerId": "302215",
+            "date": "2026-01-14T00:00:00+01:00",
+            "contractUntilDate": "2026-06-30T00:00:00+02:00",
+            "seasonId": 2025,
+            "isPending": false,
+            "marketValue": {
+              "value": 1500000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "1.50",
+                "suffix": "M"
+              }
+            },
+            "age": 30,
+            "remainingContractPeriod": {
+              "days": 1,
+              "daysDisplay": "1 Day"
+            },
+            "season": {
+              "id": 2025,
+              "display": "25/26",
+              "cyclicalName": "2026",
+              "nonCyclicalName": "25/26"
+            }
+          },
+          "typeDetails": {
+            "type": "RETURNED_FROM_PREVIOUS_LOAN",
+            "name": "End of loan",
+            "feeDescription": "End of loan"
+          },
+          "relativeUrl": "/naby-keita/transfers/spieler/302215/transfer_id/5387498"
+        },
+        {
+          "id": "5387497",
+          "transferSource": {
+            "competitionId": "L1",
+            "countryId": 40,
+            "clubId": "86",
+            "coachId": "34514"
+          },
+          "transferDestination": {
+            "competitionId": "UNG1",
+            "countryId": 178,
+            "clubId": "279",
+            "coachId": "60074"
+          },
+          "details": {
+            "playerId": "302215",
+            "date": "2025-01-15T00:00:00+01:00",
+            "contractUntilDate": "2026-01-15T00:00:00+01:00",
+            "seasonId": 2024,
+            "isPending": false,
+            "marketValue": {
+              "value": 1000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "1.00",
+                "suffix": "M"
+              }
+            },
+            "age": 29,
+            "remainingContractPeriod": {
+              "days": 531,
+              "daysDisplay": "1 Year, 5 Months, 15 Days"
+            },
+            "season": {
+              "id": 2024,
+              "display": "24/25",
+              "cyclicalName": "2025",
+              "nonCyclicalName": "24/25"
+            }
+          },
+          "typeDetails": {
+            "type": "ACTIVE_LOAN_TRANSFER",
+            "name": "loan transfer",
+            "feeDescription": "loan transfer"
+          },
+          "relativeUrl": "/naby-keita/transfers/spieler/302215/transfer_id/5387497"
+        },
+        {
+          "id": "4429143",
+          "transferSource": {
+            "competitionId": "GB1",
+            "countryId": 189,
+            "clubId": "31",
+            "coachId": "118"
+          },
+          "transferDestination": {
+            "competitionId": "L1",
+            "countryId": 40,
+            "clubId": "86",
+            "coachId": "34514"
+          },
+          "details": {
+            "playerId": "302215",
+            "date": "2023-07-01T00:00:00+02:00",
+            "contractUntilDate": "2026-06-30T00:00:00+02:00",
+            "seasonId": 2023,
+            "isPending": false,
+            "marketValue": {
+              "value": 12000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "12.00",
+                "suffix": "M"
+              }
+            },
+            "age": 28,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "Free Transfer",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2023,
+              "display": "23/24",
+              "cyclicalName": "2024",
+              "nonCyclicalName": "23/24"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/naby-keita/transfers/spieler/302215/transfer_id/4429143"
+        },
+        {
+          "id": "1896394",
+          "transferSource": {
+            "competitionId": "L1",
+            "countryId": 40,
+            "clubId": "23826",
+            "coachId": "0"
+          },
+          "transferDestination": {
+            "competitionId": "GB1",
+            "countryId": 189,
+            "clubId": "31",
+            "coachId": "118"
+          },
+          "details": {
+            "playerId": "302215",
+            "date": "2018-07-01T00:00:00+02:00",
+            "contractUntilDate": "2023-06-30T00:00:00+02:00",
+            "seasonId": 2018,
+            "isPending": false,
+            "marketValue": {
+              "value": 65000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "65.00",
+                "suffix": "M"
+              }
+            },
+            "age": 23,
+            "fee": {
+              "value": 60000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "60.00",
+                "suffix": "M"
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 730,
+              "daysDisplay": "1 Year, 11 Months, 29 Days"
+            },
+            "season": {
+              "id": 2018,
+              "display": "18/19",
+              "cyclicalName": "2019",
+              "nonCyclicalName": "18/19"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/naby-keita/transfers/spieler/302215/transfer_id/1896394"
+        },
+        {
+          "id": "1509528",
+          "transferSource": {
+            "competitionId": "A1",
+            "countryId": 127,
+            "clubId": "409",
+            "coachId": "16362"
+          },
+          "transferDestination": {
+            "competitionId": "L1",
+            "countryId": 40,
+            "clubId": "23826",
+            "coachId": "2300"
+          },
+          "details": {
+            "playerId": "302215",
+            "date": "2016-07-01T00:00:00+02:00",
+            "contractUntilDate": "2020-06-30T00:00:00+02:00",
+            "seasonId": 2016,
+            "isPending": false,
+            "marketValue": {
+              "value": 11000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "11.00",
+                "suffix": "M"
+              }
+            },
+            "age": 21,
+            "fee": {
+              "value": 29750000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "29.75",
+                "suffix": "M"
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 1825,
+              "daysDisplay": "4 Years, 11 Months, 29 Days"
+            },
+            "season": {
+              "id": 2016,
+              "display": "16/17",
+              "cyclicalName": "2017",
+              "nonCyclicalName": "16/17"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/naby-keita/transfers/spieler/302215/transfer_id/1509528"
+        },
+        {
+          "id": "1076562",
+          "transferSource": {
+            "competitionId": "FR3",
+            "countryId": 50,
+            "clubId": "2580",
+            "coachId": "10320"
+          },
+          "transferDestination": {
+            "competitionId": "A1",
+            "countryId": 127,
+            "clubId": "409",
+            "coachId": "5018"
+          },
+          "details": {
+            "playerId": "302215",
+            "date": "2014-07-01T00:00:00+02:00",
+            "contractUntilDate": "2021-06-30T00:00:00+02:00",
+            "seasonId": 2014,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 19,
+            "fee": {
+              "value": 1500000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "1.50",
+                "suffix": "M"
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 730,
+              "daysDisplay": "1 Year, 11 Months, 29 Days"
+            },
+            "season": {
+              "id": 2014,
+              "display": "14/15",
+              "cyclicalName": "2015",
+              "nonCyclicalName": "14/15"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/naby-keita/transfers/spieler/302215/transfer_id/1076562"
+        },
+        {
+          "id": "1495312",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 59,
+            "clubId": "8474",
+            "coachId": "0"
+          },
+          "transferDestination": {
+            "competitionId": "FR2",
+            "countryId": 50,
+            "clubId": "2580",
+            "coachId": "2807"
+          },
+          "details": {
+            "playerId": "302215",
+            "date": "2013-08-30T00:00:00+02:00",
+            "contractUntilDate": "2016-06-30T00:00:00+02:00",
+            "seasonId": 2013,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 18,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "?",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2013,
+              "display": "13/14",
+              "cyclicalName": "2014",
+              "nonCyclicalName": "13/14"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/naby-keita/transfers/spieler/302215/transfer_id/1495312"
+        },
+        {
+          "id": "2912382",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 59,
+            "clubId": "74190",
+            "coachId": "0"
+          },
+          "transferDestination": {
+            "competitionId": "",
+            "countryId": 59,
+            "clubId": "8474",
+            "coachId": "0"
+          },
+          "details": {
+            "playerId": "302215",
+            "date": "2013-01-01T00:00:00+01:00",
+            "contractUntilDate": null,
+            "seasonId": 2012,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 17,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2012,
+              "display": "12/13",
+              "cyclicalName": "2013",
+              "nonCyclicalName": "12/13"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/naby-keita/transfers/spieler/302215/transfer_id/2912382"
+        }
+      ],
+      "pending": [],
+      "url": "",
+      "feeSum": {
+        "value": 91250000,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "91.25",
+          "suffix": "M"
+        }
+      },
+      "averageAge": 31,
+      "totalMarketValue": {
+        "value": 1500000,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "1.50",
+          "suffix": "M"
+        }
+      }
+    },
+    "clubIds": [
+      "86",
+      "279",
+      "31",
+      "23826",
+      "409",
+      "2580",
+      "8474",
+      "74190"
+    ],
+    "coachIds": [
+      "2438",
+      "60074",
+      "34514",
+      "118",
+      "16362",
+      "2300",
+      "10320",
+      "5018",
+      "2807"
+    ],
+    "competitionIds": [
+      "L1",
+      "UNG1",
+      "GB1",
+      "A1",
+      "FR3",
+      "FR2"
+    ],
+    "mostRecentTransfer": {
+      "id": "6118779",
+      "transferSource": {
+        "competitionId": "L1",
+        "countryId": 40,
+        "clubId": "86",
+        "coachId": "2438"
+      },
+      "transferDestination": {
+        "competitionId": "UNG1",
+        "countryId": 178,
+        "clubId": "279",
+        "coachId": "60074"
+      },
+      "details": {
+        "playerId": "302215",
+        "date": "2026-01-15T00:00:00+01:00",
+        "contractUntilDate": null,
+        "seasonId": 2025,
+        "isPending": false,
+        "marketValue": {
+          "value": 1500000,
+          "currency": "EUR",
+          "compact": {
+            "prefix": "€",
+            "content": "1.50",
+            "suffix": "M"
+          }
+        },
+        "age": 30,
+        "fee": {
+          "value": null,
+          "currency": "",
+          "compact": {
+            "prefix": "",
+            "content": "Free Transfer",
+            "suffix": ""
+          }
+        },
+        "remainingContractPeriod": {
+          "days": 166,
+          "daysDisplay": "5 Months, 15 Days"
+        },
+        "season": {
+          "id": 2025,
+          "display": "25/26",
+          "cyclicalName": "2026",
+          "nonCyclicalName": "25/26"
+        }
+      },
+      "typeDetails": {
+        "type": "STANDARD",
+        "name": "",
+        "feeDescription": ""
+      },
+      "relativeUrl": "/naby-keita/transfers/spieler/302215/transfer_id/6118779"
+    }
+  }
+}

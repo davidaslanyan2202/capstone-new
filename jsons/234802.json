@@ -1,0 +1,419 @@
+{
+  "success": true,
+  "message": "OK",
+  "data": {
+    "playerId": "234802",
+    "history": {
+      "terminated": [
+        {
+          "id": "5954957",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 0,
+            "clubId": "515",
+            "coachId": "0"
+          },
+          "transferDestination": {
+            "competitionId": "FR2",
+            "countryId": 50,
+            "clubId": "1095",
+            "coachId": "75226"
+          },
+          "details": {
+            "playerId": "234802",
+            "date": "2025-09-21T00:00:00+02:00",
+            "contractUntilDate": "2026-06-30T00:00:00+02:00",
+            "seasonId": 2025,
+            "isPending": false,
+            "marketValue": {
+              "value": 500000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "500.00",
+                "suffix": "K"
+              }
+            },
+            "age": 32,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2025,
+              "display": "25/26",
+              "cyclicalName": "2026",
+              "nonCyclicalName": "25/26"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/renaud-ripart/transfers/spieler/234802/transfer_id/5954957"
+        },
+        {
+          "id": "5663319",
+          "transferSource": {
+            "competitionId": "FR2",
+            "countryId": 50,
+            "clubId": "1095",
+            "coachId": "75226"
+          },
+          "transferDestination": {
+            "competitionId": "",
+            "countryId": 0,
+            "clubId": "515",
+            "coachId": "0"
+          },
+          "details": {
+            "playerId": "234802",
+            "date": "2025-07-01T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2025,
+            "isPending": false,
+            "marketValue": {
+              "value": 500000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "500.00",
+                "suffix": "K"
+              }
+            },
+            "age": 32,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2025,
+              "display": "25/26",
+              "cyclicalName": "2026",
+              "nonCyclicalName": "25/26"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/renaud-ripart/transfers/spieler/234802/transfer_id/5663319"
+        },
+        {
+          "id": "3441532",
+          "transferSource": {
+            "competitionId": "FR2",
+            "countryId": 50,
+            "clubId": "1160",
+            "coachId": "5771"
+          },
+          "transferDestination": {
+            "competitionId": "FR1",
+            "countryId": 50,
+            "clubId": "1095",
+            "coachId": "30609"
+          },
+          "details": {
+            "playerId": "234802",
+            "date": "2021-07-15T00:00:00+02:00",
+            "contractUntilDate": "2025-06-30T00:00:00+02:00",
+            "seasonId": 2021,
+            "isPending": false,
+            "marketValue": {
+              "value": 5000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "5.00",
+                "suffix": "M"
+              }
+            },
+            "age": 28,
+            "fee": {
+              "value": 3300000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "3.30",
+                "suffix": "M"
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 715,
+              "daysDisplay": "1 Year, 11 Months, 15 Days"
+            },
+            "season": {
+              "id": 2021,
+              "display": "21/22",
+              "cyclicalName": "2022",
+              "nonCyclicalName": "21/22"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/renaud-ripart/transfers/spieler/234802/transfer_id/3441532"
+        },
+        {
+          "id": "1076364",
+          "transferSource": {
+            "competitionId": "FR3",
+            "countryId": 50,
+            "clubId": "28559",
+            "coachId": "0"
+          },
+          "transferDestination": {
+            "competitionId": "FR2",
+            "countryId": 50,
+            "clubId": "1160",
+            "coachId": "2807"
+          },
+          "details": {
+            "playerId": "234802",
+            "date": "2015-06-30T00:00:00+02:00",
+            "contractUntilDate": "2023-06-30T00:00:00+02:00",
+            "seasonId": 2014,
+            "isPending": false,
+            "marketValue": {
+              "value": 150000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "150.00",
+                "suffix": "K"
+              }
+            },
+            "age": 22,
+            "remainingContractPeriod": {
+              "days": 366,
+              "daysDisplay": "1 Year"
+            },
+            "season": {
+              "id": 2014,
+              "display": "14/15",
+              "cyclicalName": "2015",
+              "nonCyclicalName": "14/15"
+            }
+          },
+          "typeDetails": {
+            "type": "RETURNED_FROM_PREVIOUS_LOAN",
+            "name": "End of loan",
+            "feeDescription": "End of loan"
+          },
+          "relativeUrl": "/renaud-ripart/transfers/spieler/234802/transfer_id/1076364"
+        },
+        {
+          "id": "1076363",
+          "transferSource": {
+            "competitionId": "FR2",
+            "countryId": 50,
+            "clubId": "1160",
+            "coachId": "2807"
+          },
+          "transferDestination": {
+            "competitionId": "FR3",
+            "countryId": 50,
+            "clubId": "28559",
+            "coachId": "30213"
+          },
+          "details": {
+            "playerId": "234802",
+            "date": "2014-07-01T00:00:00+02:00",
+            "contractUntilDate": "2016-06-30T00:00:00+02:00",
+            "seasonId": 2014,
+            "isPending": false,
+            "marketValue": {
+              "value": 150000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "150.00",
+                "suffix": "K"
+              }
+            },
+            "age": 21,
+            "remainingContractPeriod": {
+              "days": 3286,
+              "daysDisplay": "8 Years, 11 Months, 29 Days"
+            },
+            "season": {
+              "id": 2014,
+              "display": "14/15",
+              "cyclicalName": "2015",
+              "nonCyclicalName": "14/15"
+            }
+          },
+          "typeDetails": {
+            "type": "ACTIVE_LOAN_TRANSFER",
+            "name": "loan transfer",
+            "feeDescription": "loan transfer"
+          },
+          "relativeUrl": "/renaud-ripart/transfers/spieler/234802/transfer_id/1076363"
+        },
+        {
+          "id": "785942",
+          "transferSource": {
+            "competitionId": "C3NO",
+            "countryId": 50,
+            "clubId": "18015",
+            "coachId": "24276"
+          },
+          "transferDestination": {
+            "competitionId": "FR3",
+            "countryId": 50,
+            "clubId": "1160",
+            "coachId": "1536"
+          },
+          "details": {
+            "playerId": "234802",
+            "date": "2011-10-10T00:00:00+02:00",
+            "contractUntilDate": "2023-06-30T00:00:00+02:00",
+            "seasonId": 2011,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 18,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2011,
+              "display": "11/12",
+              "cyclicalName": "2012",
+              "nonCyclicalName": "11/12"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/renaud-ripart/transfers/spieler/234802/transfer_id/785942"
+        }
+      ],
+      "pending": [],
+      "url": "",
+      "feeSum": {
+        "value": 3300000,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "3.30",
+          "suffix": "M"
+        }
+      },
+      "averageAge": 33,
+      "totalMarketValue": {
+        "value": 400000,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "400.00",
+          "suffix": "K"
+        }
+      }
+    },
+    "clubIds": [
+      "515",
+      "1095",
+      "1160",
+      "28559",
+      "18015"
+    ],
+    "coachIds": [
+      "75226",
+      "5771",
+      "30609",
+      "2807",
+      "30213",
+      "24276",
+      "1536"
+    ],
+    "competitionIds": [
+      "FR2",
+      "FR1",
+      "FR3",
+      "C3NO"
+    ],
+    "mostRecentTransfer": {
+      "id": "5954957",
+      "transferSource": {
+        "competitionId": "",
+        "countryId": 0,
+        "clubId": "515",
+        "coachId": "0"
+      },
+      "transferDestination": {
+        "competitionId": "FR2",
+        "countryId": 50,
+        "clubId": "1095",
+        "coachId": "75226"
+      },
+      "details": {
+        "playerId": "234802",
+        "date": "2025-09-21T00:00:00+02:00",
+        "contractUntilDate": "2026-06-30T00:00:00+02:00",
+        "seasonId": 2025,
+        "isPending": false,
+        "marketValue": {
+          "value": 500000,
+          "currency": "EUR",
+          "compact": {
+            "prefix": "€",
+            "content": "500.00",
+            "suffix": "K"
+          }
+        },
+        "age": 32,
+        "fee": {
+          "value": null,
+          "currency": "",
+          "compact": {
+            "prefix": "",
+            "content": "-",
+            "suffix": ""
+          }
+        },
+        "season": {
+          "id": 2025,
+          "display": "25/26",
+          "cyclicalName": "2026",
+          "nonCyclicalName": "25/26"
+        }
+      },
+      "typeDetails": {
+        "type": "STANDARD",
+        "name": "",
+        "feeDescription": ""
+      },
+      "relativeUrl": "/renaud-ripart/transfers/spieler/234802/transfer_id/5954957"
+    }
+  }
+}

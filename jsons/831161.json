@@ -1,0 +1,428 @@
+{
+  "success": true,
+  "message": "OK",
+  "data": {
+    "playerId": "831161",
+    "history": {
+      "terminated": [
+        {
+          "id": "4861467",
+          "transferSource": {
+            "competitionId": "ES2",
+            "countryId": 157,
+            "clubId": "1531",
+            "coachId": "34076"
+          },
+          "transferDestination": {
+            "competitionId": "AR1N",
+            "countryId": 9,
+            "clubId": "189",
+            "coachId": "70683"
+          },
+          "details": {
+            "playerId": "831161",
+            "date": "2024-01-31T00:00:00+01:00",
+            "contractUntilDate": "2028-12-31T00:00:00+01:00",
+            "seasonId": 2023,
+            "isPending": false,
+            "marketValue": {
+              "value": 1500000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "1.50",
+                "suffix": "M"
+              }
+            },
+            "age": 24,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "Free Transfer",
+                "suffix": ""
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 1246,
+              "daysDisplay": "3 Years, 4 Months, 30 Days"
+            },
+            "season": {
+              "id": 2023,
+              "display": "23/24",
+              "cyclicalName": "2024",
+              "nonCyclicalName": "23/24"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/lautaro-blanco/transfers/spieler/831161/transfer_id/4861467"
+        },
+        {
+          "id": "3996295",
+          "transferSource": {
+            "competitionId": "AR1N",
+            "countryId": 9,
+            "clubId": "1418",
+            "coachId": "0"
+          },
+          "transferDestination": {
+            "competitionId": "ES1",
+            "countryId": 157,
+            "clubId": "1531",
+            "coachId": "6386"
+          },
+          "details": {
+            "playerId": "831161",
+            "date": "2022-12-31T00:00:00+01:00",
+            "contractUntilDate": "2027-06-30T00:00:00+02:00",
+            "seasonId": 2022,
+            "isPending": false,
+            "marketValue": {
+              "value": 4500000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "4.50",
+                "suffix": "M"
+              }
+            },
+            "age": 23,
+            "remainingContractPeriod": {
+              "days": 0,
+              "daysDisplay": "Unknown"
+            },
+            "season": {
+              "id": 2022,
+              "display": "22/23",
+              "cyclicalName": "2023",
+              "nonCyclicalName": "22/23"
+            }
+          },
+          "typeDetails": {
+            "type": "RETURNED_FROM_PREVIOUS_LOAN",
+            "name": "End of loan",
+            "feeDescription": "End of loan"
+          },
+          "relativeUrl": "/lautaro-blanco/transfers/spieler/831161/transfer_id/3996295"
+        },
+        {
+          "id": "3996294",
+          "transferSource": {
+            "competitionId": "ES1",
+            "countryId": 157,
+            "clubId": "1531",
+            "coachId": "28876"
+          },
+          "transferDestination": {
+            "competitionId": "AR1N",
+            "countryId": 9,
+            "clubId": "1418",
+            "coachId": "104899"
+          },
+          "details": {
+            "playerId": "831161",
+            "date": "2022-08-08T00:00:00+02:00",
+            "contractUntilDate": "2022-12-31T00:00:00+01:00",
+            "seasonId": 2022,
+            "isPending": false,
+            "marketValue": {
+              "value": 1500000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "1.50",
+                "suffix": "M"
+              }
+            },
+            "age": 23,
+            "remainingContractPeriod": {
+              "days": 1787,
+              "daysDisplay": "4 Years, 10 Months, 22 Days"
+            },
+            "season": {
+              "id": 2022,
+              "display": "22/23",
+              "cyclicalName": "2023",
+              "nonCyclicalName": "22/23"
+            }
+          },
+          "typeDetails": {
+            "type": "ACTIVE_LOAN_TRANSFER",
+            "name": "loan transfer",
+            "feeDescription": "loan transfer"
+          },
+          "relativeUrl": "/lautaro-blanco/transfers/spieler/831161/transfer_id/3996294"
+        },
+        {
+          "id": "4000515",
+          "transferSource": {
+            "competitionId": "AR1N",
+            "countryId": 9,
+            "clubId": "1418",
+            "coachId": "104899"
+          },
+          "transferDestination": {
+            "competitionId": "ES1",
+            "countryId": 157,
+            "clubId": "1531",
+            "coachId": "28876"
+          },
+          "details": {
+            "playerId": "831161",
+            "date": "2022-08-05T00:00:00+02:00",
+            "contractUntilDate": "2027-06-30T00:00:00+02:00",
+            "seasonId": 2022,
+            "isPending": false,
+            "marketValue": {
+              "value": 1500000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "1.50",
+                "suffix": "M"
+              }
+            },
+            "age": 23,
+            "fee": {
+              "value": 1960000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "1.96",
+                "suffix": "M"
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 513,
+              "daysDisplay": "1 Year, 4 Months, 26 Days"
+            },
+            "season": {
+              "id": 2022,
+              "display": "22/23",
+              "cyclicalName": "2023",
+              "nonCyclicalName": "22/23"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/lautaro-blanco/transfers/spieler/831161/transfer_id/4000515"
+        },
+        {
+          "id": "3468627",
+          "transferSource": {
+            "competitionId": "CLPI",
+            "countryId": 9,
+            "clubId": "14838",
+            "coachId": "102347"
+          },
+          "transferDestination": {
+            "competitionId": "AR1N",
+            "countryId": 9,
+            "clubId": "1418",
+            "coachId": "81288"
+          },
+          "details": {
+            "playerId": "831161",
+            "date": "2021-01-01T00:00:00+01:00",
+            "contractUntilDate": "2023-12-31T00:00:00+01:00",
+            "seasonId": 2020,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 21,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2020,
+              "display": "20/21",
+              "cyclicalName": "2021",
+              "nonCyclicalName": "20/21"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/lautaro-blanco/transfers/spieler/831161/transfer_id/3468627"
+        },
+        {
+          "id": "3141131",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 9,
+            "clubId": "15109",
+            "coachId": "139870"
+          },
+          "transferDestination": {
+            "competitionId": "CLPI",
+            "countryId": 9,
+            "clubId": "14838",
+            "coachId": "81288"
+          },
+          "details": {
+            "playerId": "831161",
+            "date": "2020-01-01T00:00:00+01:00",
+            "contractUntilDate": null,
+            "seasonId": 2019,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 20,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2019,
+              "display": "19/20",
+              "cyclicalName": "2020",
+              "nonCyclicalName": "19/20"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/lautaro-blanco/transfers/spieler/831161/transfer_id/3141131"
+        }
+      ],
+      "pending": [],
+      "url": "",
+      "feeSum": {
+        "value": 1960000,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "1.96",
+          "suffix": "M"
+        }
+      },
+      "averageAge": 27,
+      "totalMarketValue": {
+        "value": 3800000,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "3.80",
+          "suffix": "M"
+        }
+      }
+    },
+    "clubIds": [
+      "1531",
+      "189",
+      "1418",
+      "14838",
+      "15109"
+    ],
+    "coachIds": [
+      "34076",
+      "70683",
+      "6386",
+      "28876",
+      "104899",
+      "102347",
+      "81288",
+      "139870"
+    ],
+    "competitionIds": [
+      "ES2",
+      "AR1N",
+      "ES1",
+      "CLPI"
+    ],
+    "mostRecentTransfer": {
+      "id": "4861467",
+      "transferSource": {
+        "competitionId": "ES2",
+        "countryId": 157,
+        "clubId": "1531",
+        "coachId": "34076"
+      },
+      "transferDestination": {
+        "competitionId": "AR1N",
+        "countryId": 9,
+        "clubId": "189",
+        "coachId": "70683"
+      },
+      "details": {
+        "playerId": "831161",
+        "date": "2024-01-31T00:00:00+01:00",
+        "contractUntilDate": "2028-12-31T00:00:00+01:00",
+        "seasonId": 2023,
+        "isPending": false,
+        "marketValue": {
+          "value": 1500000,
+          "currency": "EUR",
+          "compact": {
+            "prefix": "€",
+            "content": "1.50",
+            "suffix": "M"
+          }
+        },
+        "age": 24,
+        "fee": {
+          "value": null,
+          "currency": "",
+          "compact": {
+            "prefix": "",
+            "content": "Free Transfer",
+            "suffix": ""
+          }
+        },
+        "remainingContractPeriod": {
+          "days": 1246,
+          "daysDisplay": "3 Years, 4 Months, 30 Days"
+        },
+        "season": {
+          "id": 2023,
+          "display": "23/24",
+          "cyclicalName": "2024",
+          "nonCyclicalName": "23/24"
+        }
+      },
+      "typeDetails": {
+        "type": "STANDARD",
+        "name": "",
+        "feeDescription": ""
+      },
+      "relativeUrl": "/lautaro-blanco/transfers/spieler/831161/transfer_id/4861467"
+    }
+  }
+}

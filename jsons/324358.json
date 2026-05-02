@@ -1,0 +1,368 @@
+{
+  "success": true,
+  "message": "OK",
+  "data": {
+    "playerId": "324358",
+    "history": {
+      "terminated": [
+        {
+          "id": "3052704",
+          "transferSource": {
+            "competitionId": "GB2",
+            "countryId": 189,
+            "clubId": "1148",
+            "coachId": "9002"
+          },
+          "transferDestination": {
+            "competitionId": "GB1",
+            "countryId": 189,
+            "clubId": "405",
+            "coachId": "15315"
+          },
+          "details": {
+            "playerId": "324358",
+            "date": "2020-09-09T00:00:00+02:00",
+            "contractUntilDate": "2028-06-30T00:00:00+02:00",
+            "seasonId": 2020,
+            "isPending": false,
+            "marketValue": {
+              "value": 12000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "12.00",
+                "suffix": "M"
+              }
+            },
+            "age": 24,
+            "fee": {
+              "value": 34000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "34.00",
+                "suffix": "M"
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 1024,
+              "daysDisplay": "2 Years, 9 Months, 21 Days"
+            },
+            "season": {
+              "id": 2020,
+              "display": "20/21",
+              "cyclicalName": "2021",
+              "nonCyclicalName": "20/21"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/ollie-watkins/transfers/spieler/324358/transfer_id/3052704"
+        },
+        {
+          "id": "1843116",
+          "transferSource": {
+            "competitionId": "GB4",
+            "countryId": 189,
+            "clubId": "6699",
+            "coachId": "7879"
+          },
+          "transferDestination": {
+            "competitionId": "GB2",
+            "countryId": 189,
+            "clubId": "1148",
+            "coachId": "15315"
+          },
+          "details": {
+            "playerId": "324358",
+            "date": "2017-07-18T00:00:00+02:00",
+            "contractUntilDate": "2023-06-30T00:00:00+02:00",
+            "seasonId": 2017,
+            "isPending": false,
+            "marketValue": {
+              "value": 150000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "150.00",
+                "suffix": "K"
+              }
+            },
+            "age": 21,
+            "fee": {
+              "value": 7220000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "7.22",
+                "suffix": "M"
+              }
+            },
+            "season": {
+              "id": 2017,
+              "display": "17/18",
+              "cyclicalName": "2018",
+              "nonCyclicalName": "17/18"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/ollie-watkins/transfers/spieler/324358/transfer_id/1843116"
+        },
+        {
+          "id": "1464431",
+          "transferSource": {
+            "competitionId": "NLS6",
+            "countryId": 189,
+            "clubId": "3712",
+            "coachId": "58817"
+          },
+          "transferDestination": {
+            "competitionId": "GB4",
+            "countryId": 189,
+            "clubId": "6699",
+            "coachId": "7879"
+          },
+          "details": {
+            "playerId": "324358",
+            "date": "2015-05-31T00:00:00+02:00",
+            "contractUntilDate": "2016-06-30T00:00:00+02:00",
+            "seasonId": 2014,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 19,
+            "remainingContractPeriod": {
+              "days": 0,
+              "daysDisplay": "Unknown"
+            },
+            "season": {
+              "id": 2014,
+              "display": "14/15",
+              "cyclicalName": "2015",
+              "nonCyclicalName": "14/15"
+            }
+          },
+          "typeDetails": {
+            "type": "RETURNED_FROM_PREVIOUS_LOAN",
+            "name": "End of loan",
+            "feeDescription": "End of loan"
+          },
+          "relativeUrl": "/ollie-watkins/transfers/spieler/324358/transfer_id/1464431"
+        },
+        {
+          "id": "1464430",
+          "transferSource": {
+            "competitionId": "GB4",
+            "countryId": 189,
+            "clubId": "6699",
+            "coachId": "7879"
+          },
+          "transferDestination": {
+            "competitionId": "NLS6",
+            "countryId": 189,
+            "clubId": "3712",
+            "coachId": "58817"
+          },
+          "details": {
+            "playerId": "324358",
+            "date": "2014-12-08T00:00:00+01:00",
+            "contractUntilDate": "2015-05-31T00:00:00+02:00",
+            "seasonId": 2014,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 18,
+            "remainingContractPeriod": {
+              "days": 1300,
+              "daysDisplay": "3 Years, 6 Months, 22 Days"
+            },
+            "season": {
+              "id": 2014,
+              "display": "14/15",
+              "cyclicalName": "2015",
+              "nonCyclicalName": "14/15"
+            }
+          },
+          "typeDetails": {
+            "type": "ACTIVE_LOAN_TRANSFER",
+            "name": "loan transfer",
+            "feeDescription": "loan transfer"
+          },
+          "relativeUrl": "/ollie-watkins/transfers/spieler/324358/transfer_id/1464430"
+        },
+        {
+          "id": "1078668",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 189,
+            "clubId": "18258",
+            "coachId": "72322"
+          },
+          "transferDestination": {
+            "competitionId": "GB4",
+            "countryId": 189,
+            "clubId": "6699",
+            "coachId": "7879"
+          },
+          "details": {
+            "playerId": "324358",
+            "date": "2014-07-01T00:00:00+02:00",
+            "contractUntilDate": "2018-06-30T00:00:00+02:00",
+            "seasonId": 2014,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 18,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2014,
+              "display": "14/15",
+              "cyclicalName": "2015",
+              "nonCyclicalName": "14/15"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/ollie-watkins/transfers/spieler/324358/transfer_id/1078668"
+        }
+      ],
+      "pending": [],
+      "url": "",
+      "feeSum": {
+        "value": 41220000,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "41.22",
+          "suffix": "M"
+        }
+      },
+      "averageAge": 30,
+      "totalMarketValue": {
+        "value": 30000000,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "30.00",
+          "suffix": "M"
+        }
+      }
+    },
+    "clubIds": [
+      "1148",
+      "405",
+      "6699",
+      "3712",
+      "18258"
+    ],
+    "coachIds": [
+      "9002",
+      "15315",
+      "7879",
+      "58817",
+      "72322"
+    ],
+    "competitionIds": [
+      "GB2",
+      "GB1",
+      "GB4",
+      "NLS6"
+    ],
+    "mostRecentTransfer": {
+      "id": "3052704",
+      "transferSource": {
+        "competitionId": "GB2",
+        "countryId": 189,
+        "clubId": "1148",
+        "coachId": "9002"
+      },
+      "transferDestination": {
+        "competitionId": "GB1",
+        "countryId": 189,
+        "clubId": "405",
+        "coachId": "15315"
+      },
+      "details": {
+        "playerId": "324358",
+        "date": "2020-09-09T00:00:00+02:00",
+        "contractUntilDate": "2028-06-30T00:00:00+02:00",
+        "seasonId": 2020,
+        "isPending": false,
+        "marketValue": {
+          "value": 12000000,
+          "currency": "EUR",
+          "compact": {
+            "prefix": "€",
+            "content": "12.00",
+            "suffix": "M"
+          }
+        },
+        "age": 24,
+        "fee": {
+          "value": 34000000,
+          "currency": "EUR",
+          "compact": {
+            "prefix": "€",
+            "content": "34.00",
+            "suffix": "M"
+          }
+        },
+        "remainingContractPeriod": {
+          "days": 1024,
+          "daysDisplay": "2 Years, 9 Months, 21 Days"
+        },
+        "season": {
+          "id": 2020,
+          "display": "20/21",
+          "cyclicalName": "2021",
+          "nonCyclicalName": "20/21"
+        }
+      },
+      "typeDetails": {
+        "type": "STANDARD",
+        "name": "",
+        "feeDescription": ""
+      },
+      "relativeUrl": "/ollie-watkins/transfers/spieler/324358/transfer_id/3052704"
+    }
+  }
+}

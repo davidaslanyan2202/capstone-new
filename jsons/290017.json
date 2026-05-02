@@ -1,0 +1,744 @@
+{
+  "success": true,
+  "message": "OK",
+  "data": {
+    "playerId": "290017",
+    "history": {
+      "terminated": [
+        {
+          "id": "4031893",
+          "transferSource": {
+            "competitionId": "GB2",
+            "countryId": 189,
+            "clubId": "1010",
+            "coachId": "0"
+          },
+          "transferDestination": {
+            "competitionId": "IT1",
+            "countryId": 75,
+            "clubId": "410",
+            "coachId": "19718"
+          },
+          "details": {
+            "playerId": "290017",
+            "date": "2023-06-30T00:00:00+02:00",
+            "contractUntilDate": "2026-06-30T00:00:00+02:00",
+            "seasonId": 2022,
+            "isPending": false,
+            "marketValue": {
+              "value": 8000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "8.00",
+                "suffix": "M"
+              }
+            },
+            "age": 29,
+            "remainingContractPeriod": {
+              "days": 0,
+              "daysDisplay": "Unknown"
+            },
+            "season": {
+              "id": 2022,
+              "display": "22/23",
+              "cyclicalName": "2023",
+              "nonCyclicalName": "22/23"
+            }
+          },
+          "typeDetails": {
+            "type": "RETURNED_FROM_PREVIOUS_LOAN",
+            "name": "End of loan",
+            "feeDescription": "End of loan"
+          },
+          "relativeUrl": "/hassane-kamara/transfers/spieler/290017/transfer_id/4031893"
+        },
+        {
+          "id": "4031892",
+          "transferSource": {
+            "competitionId": "IT1",
+            "countryId": 75,
+            "clubId": "410",
+            "coachId": "19718"
+          },
+          "transferDestination": {
+            "competitionId": "GB2",
+            "countryId": 189,
+            "clubId": "1010",
+            "coachId": "49800"
+          },
+          "details": {
+            "playerId": "290017",
+            "date": "2022-08-23T00:00:00+02:00",
+            "contractUntilDate": "2023-06-30T00:00:00+02:00",
+            "seasonId": 2022,
+            "isPending": false,
+            "marketValue": {
+              "value": 4000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "4.00",
+                "suffix": "M"
+              }
+            },
+            "age": 28,
+            "remainingContractPeriod": {
+              "days": 1407,
+              "daysDisplay": "3 Years, 10 Months, 7 Days"
+            },
+            "season": {
+              "id": 2022,
+              "display": "22/23",
+              "cyclicalName": "2023",
+              "nonCyclicalName": "22/23"
+            }
+          },
+          "typeDetails": {
+            "type": "ACTIVE_LOAN_TRANSFER",
+            "name": "loan transfer",
+            "feeDescription": "loan transfer"
+          },
+          "relativeUrl": "/hassane-kamara/transfers/spieler/290017/transfer_id/4031892"
+        },
+        {
+          "id": "4031602",
+          "transferSource": {
+            "competitionId": "GB2",
+            "countryId": 189,
+            "clubId": "1010",
+            "coachId": "49800"
+          },
+          "transferDestination": {
+            "competitionId": "IT1",
+            "countryId": 75,
+            "clubId": "410",
+            "coachId": "19718"
+          },
+          "details": {
+            "playerId": "290017",
+            "date": "2022-08-22T00:00:00+02:00",
+            "contractUntilDate": "2026-06-30T00:00:00+02:00",
+            "seasonId": 2022,
+            "isPending": false,
+            "marketValue": {
+              "value": 4000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "4.00",
+                "suffix": "M"
+              }
+            },
+            "age": 28,
+            "fee": {
+              "value": 19000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "19.00",
+                "suffix": "M"
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 1043,
+              "daysDisplay": "2 Years, 10 Months, 8 Days"
+            },
+            "season": {
+              "id": 2022,
+              "display": "22/23",
+              "cyclicalName": "2023",
+              "nonCyclicalName": "22/23"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/hassane-kamara/transfers/spieler/290017/transfer_id/4031602"
+        },
+        {
+          "id": "3680875",
+          "transferSource": {
+            "competitionId": "FR1",
+            "countryId": 50,
+            "clubId": "417",
+            "coachId": "5035"
+          },
+          "transferDestination": {
+            "competitionId": "GB1",
+            "countryId": 189,
+            "clubId": "1010",
+            "coachId": "456"
+          },
+          "details": {
+            "playerId": "290017",
+            "date": "2022-01-04T00:00:00+01:00",
+            "contractUntilDate": "2025-06-30T00:00:00+02:00",
+            "seasonId": 2021,
+            "isPending": false,
+            "marketValue": {
+              "value": 6000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "6.00",
+                "suffix": "M"
+              }
+            },
+            "age": 27,
+            "fee": {
+              "value": 4000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "4.00",
+                "suffix": "M"
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 908,
+              "daysDisplay": "2 Years, 5 Months, 26 Days"
+            },
+            "season": {
+              "id": 2021,
+              "display": "21/22",
+              "cyclicalName": "2022",
+              "nonCyclicalName": "21/22"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/hassane-kamara/transfers/spieler/290017/transfer_id/3680875"
+        },
+        {
+          "id": "2945212",
+          "transferSource": {
+            "competitionId": "FR1",
+            "countryId": 50,
+            "clubId": "1421",
+            "coachId": "5753"
+          },
+          "transferDestination": {
+            "competitionId": "FR1",
+            "countryId": 50,
+            "clubId": "417",
+            "coachId": "20029"
+          },
+          "details": {
+            "playerId": "290017",
+            "date": "2020-07-01T00:00:00+02:00",
+            "contractUntilDate": "2024-06-30T00:00:00+02:00",
+            "seasonId": 2020,
+            "isPending": false,
+            "marketValue": {
+              "value": 4800000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "4.80",
+                "suffix": "M"
+              }
+            },
+            "age": 26,
+            "fee": {
+              "value": 4000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "4.00",
+                "suffix": "M"
+              }
+            },
+            "season": {
+              "id": 2020,
+              "display": "20/21",
+              "cyclicalName": "2021",
+              "nonCyclicalName": "20/21"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/hassane-kamara/transfers/spieler/290017/transfer_id/2945212"
+        },
+        {
+          "id": "1685764",
+          "transferSource": {
+            "competitionId": "FR3",
+            "countryId": 50,
+            "clubId": "2067",
+            "coachId": "7218"
+          },
+          "transferDestination": {
+            "competitionId": "FR2",
+            "countryId": 50,
+            "clubId": "1421",
+            "coachId": "5753"
+          },
+          "details": {
+            "playerId": "290017",
+            "date": "2017-06-30T00:00:00+02:00",
+            "contractUntilDate": "2019-06-30T00:00:00+02:00",
+            "seasonId": 2016,
+            "isPending": false,
+            "marketValue": {
+              "value": 300000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "300.00",
+                "suffix": "K"
+              }
+            },
+            "age": 23,
+            "remainingContractPeriod": {
+              "days": 0,
+              "daysDisplay": "Unknown"
+            },
+            "season": {
+              "id": 2016,
+              "display": "16/17",
+              "cyclicalName": "2017",
+              "nonCyclicalName": "16/17"
+            }
+          },
+          "typeDetails": {
+            "type": "RETURNED_FROM_PREVIOUS_LOAN",
+            "name": "End of loan",
+            "feeDescription": "End of loan"
+          },
+          "relativeUrl": "/hassane-kamara/transfers/spieler/290017/transfer_id/1685764"
+        },
+        {
+          "id": "1685763",
+          "transferSource": {
+            "competitionId": "FR2",
+            "countryId": 50,
+            "clubId": "1421",
+            "coachId": "4002"
+          },
+          "transferDestination": {
+            "competitionId": "FR3",
+            "countryId": 50,
+            "clubId": "2067",
+            "coachId": "7218"
+          },
+          "details": {
+            "playerId": "290017",
+            "date": "2017-01-25T00:00:00+01:00",
+            "contractUntilDate": "2017-06-30T00:00:00+02:00",
+            "seasonId": 2016,
+            "isPending": false,
+            "marketValue": {
+              "value": 300000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "300.00",
+                "suffix": "K"
+              }
+            },
+            "age": 22,
+            "remainingContractPeriod": {
+              "days": 1617,
+              "daysDisplay": "4 Years, 5 Months, 5 Days"
+            },
+            "season": {
+              "id": 2016,
+              "display": "16/17",
+              "cyclicalName": "2017",
+              "nonCyclicalName": "16/17"
+            }
+          },
+          "typeDetails": {
+            "type": "ACTIVE_LOAN_TRANSFER",
+            "name": "loan transfer",
+            "feeDescription": "loan transfer"
+          },
+          "relativeUrl": "/hassane-kamara/transfers/spieler/290017/transfer_id/1685763"
+        },
+        {
+          "id": "1342239",
+          "transferSource": {
+            "competitionId": "FR3",
+            "countryId": 50,
+            "clubId": "1175",
+            "coachId": "4037"
+          },
+          "transferDestination": {
+            "competitionId": "FR1",
+            "countryId": 50,
+            "clubId": "1421",
+            "coachId": "24083"
+          },
+          "details": {
+            "playerId": "290017",
+            "date": "2015-08-27T00:00:00+02:00",
+            "contractUntilDate": "2021-06-30T00:00:00+02:00",
+            "seasonId": 2015,
+            "isPending": false,
+            "marketValue": {
+              "value": 300000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "300.00",
+                "suffix": "K"
+              }
+            },
+            "age": 21,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "Free Transfer",
+                "suffix": ""
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 673,
+              "daysDisplay": "1 Year, 10 Months, 3 Days"
+            },
+            "season": {
+              "id": 2015,
+              "display": "15/16",
+              "cyclicalName": "2016",
+              "nonCyclicalName": "15/16"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/hassane-kamara/transfers/spieler/290017/transfer_id/1342239"
+        },
+        {
+          "id": "1101823",
+          "transferSource": {
+            "competitionId": "C3CM",
+            "countryId": 50,
+            "clubId": "12761",
+            "coachId": "155520"
+          },
+          "transferDestination": {
+            "competitionId": "FR2",
+            "countryId": 50,
+            "clubId": "1175",
+            "coachId": "13916"
+          },
+          "details": {
+            "playerId": "290017",
+            "date": "2014-07-01T00:00:00+02:00",
+            "contractUntilDate": "2017-06-30T00:00:00+02:00",
+            "seasonId": 2014,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 20,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2014,
+              "display": "14/15",
+              "cyclicalName": "2015",
+              "nonCyclicalName": "14/15"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/hassane-kamara/transfers/spieler/290017/transfer_id/1101823"
+        },
+        {
+          "id": "1342240",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 50,
+            "clubId": "9372",
+            "coachId": "0"
+          },
+          "transferDestination": {
+            "competitionId": "C3HF",
+            "countryId": 50,
+            "clubId": "12761",
+            "coachId": "155520"
+          },
+          "details": {
+            "playerId": "290017",
+            "date": "2012-08-01T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2012,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 18,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "Free Transfer",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2012,
+              "display": "12/13",
+              "cyclicalName": "2013",
+              "nonCyclicalName": "12/13"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/hassane-kamara/transfers/spieler/290017/transfer_id/1342240"
+        },
+        {
+          "id": "6218640",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 50,
+            "clubId": "100152",
+            "coachId": "0"
+          },
+          "transferDestination": {
+            "competitionId": "",
+            "countryId": 50,
+            "clubId": "9372",
+            "coachId": "0"
+          },
+          "details": {
+            "playerId": "290017",
+            "date": "2011-07-01T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2011,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 17,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2011,
+              "display": "11/12",
+              "cyclicalName": "2012",
+              "nonCyclicalName": "11/12"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/hassane-kamara/transfers/spieler/290017/transfer_id/6218640"
+        },
+        {
+          "id": "6218639",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 50,
+            "clubId": "108888",
+            "coachId": "0"
+          },
+          "transferDestination": {
+            "competitionId": "",
+            "countryId": 50,
+            "clubId": "100152",
+            "coachId": "0"
+          },
+          "details": {
+            "playerId": "290017",
+            "date": "2007-07-01T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2007,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 13,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "Free Transfer",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2007,
+              "display": "07/08",
+              "cyclicalName": "2008",
+              "nonCyclicalName": "07/08"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/hassane-kamara/transfers/spieler/290017/transfer_id/6218639"
+        }
+      ],
+      "pending": [],
+      "url": "",
+      "feeSum": {
+        "value": 27000000,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "27.00",
+          "suffix": "M"
+        }
+      },
+      "averageAge": 32,
+      "totalMarketValue": {
+        "value": 3000000,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "3.00",
+          "suffix": "M"
+        }
+      }
+    },
+    "clubIds": [
+      "1010",
+      "410",
+      "417",
+      "1421",
+      "2067",
+      "1175",
+      "12761",
+      "9372",
+      "100152",
+      "108888"
+    ],
+    "coachIds": [
+      "19718",
+      "49800",
+      "5035",
+      "456",
+      "5753",
+      "20029",
+      "7218",
+      "4002",
+      "4037",
+      "24083",
+      "155520",
+      "13916"
+    ],
+    "competitionIds": [
+      "GB2",
+      "IT1",
+      "FR1",
+      "GB1",
+      "FR3",
+      "FR2",
+      "C3CM",
+      "C3HF"
+    ],
+    "mostRecentTransfer": {
+      "id": "4031893",
+      "transferSource": {
+        "competitionId": "GB2",
+        "countryId": 189,
+        "clubId": "1010",
+        "coachId": "0"
+      },
+      "transferDestination": {
+        "competitionId": "IT1",
+        "countryId": 75,
+        "clubId": "410",
+        "coachId": "19718"
+      },
+      "details": {
+        "playerId": "290017",
+        "date": "2023-06-30T00:00:00+02:00",
+        "contractUntilDate": "2026-06-30T00:00:00+02:00",
+        "seasonId": 2022,
+        "isPending": false,
+        "marketValue": {
+          "value": 8000000,
+          "currency": "EUR",
+          "compact": {
+            "prefix": "€",
+            "content": "8.00",
+            "suffix": "M"
+          }
+        },
+        "age": 29,
+        "remainingContractPeriod": {
+          "days": 0,
+          "daysDisplay": "Unknown"
+        },
+        "season": {
+          "id": 2022,
+          "display": "22/23",
+          "cyclicalName": "2023",
+          "nonCyclicalName": "22/23"
+        }
+      },
+      "typeDetails": {
+        "type": "RETURNED_FROM_PREVIOUS_LOAN",
+        "name": "End of loan",
+        "feeDescription": "End of loan"
+      },
+      "relativeUrl": "/hassane-kamara/transfers/spieler/290017/transfer_id/4031893"
+    }
+  }
+}

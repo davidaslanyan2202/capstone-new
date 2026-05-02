@@ -1,0 +1,205 @@
+{
+  "success": true,
+  "message": "OK",
+  "data": {
+    "playerId": "1109825",
+    "history": {
+      "terminated": [
+        {
+          "id": "5262040",
+          "transferSource": {
+            "competitionId": "A2SW",
+            "countryId": 12,
+            "clubId": "11419",
+            "coachId": "113150"
+          },
+          "transferDestination": {
+            "competitionId": "AUS1",
+            "countryId": 12,
+            "clubId": "5551",
+            "coachId": "117162"
+          },
+          "details": {
+            "playerId": "1109825",
+            "date": "2024-09-09T00:00:00+02:00",
+            "contractUntilDate": "2026-06-30T00:00:00+02:00",
+            "seasonId": 2024,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 21,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "Free Transfer",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2024,
+              "display": "24/25",
+              "cyclicalName": "2025",
+              "nonCyclicalName": "24/25"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/ben-gibson/transfers/spieler/1109825/transfer_id/5262040"
+        },
+        {
+          "id": "4768060",
+          "transferSource": {
+            "competitionId": "A2SW",
+            "countryId": 12,
+            "clubId": "19820",
+            "coachId": "88210"
+          },
+          "transferDestination": {
+            "competitionId": "A2SW",
+            "countryId": 12,
+            "clubId": "11419",
+            "coachId": "113150"
+          },
+          "details": {
+            "playerId": "1109825",
+            "date": "2023-12-14T00:00:00+01:00",
+            "contractUntilDate": null,
+            "seasonId": 2023,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 20,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "?",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2023,
+              "display": "23/24",
+              "cyclicalName": "2024",
+              "nonCyclicalName": "23/24"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/ben-gibson/transfers/spieler/1109825/transfer_id/4768060"
+        }
+      ],
+      "pending": [],
+      "url": "",
+      "feeSum": {
+        "value": 0,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "0.00",
+          "suffix": ""
+        }
+      },
+      "averageAge": 23,
+      "totalMarketValue": {
+        "value": 250000,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "250.00",
+          "suffix": "K"
+        }
+      }
+    },
+    "clubIds": [
+      "11419",
+      "5551",
+      "19820"
+    ],
+    "coachIds": [
+      "113150",
+      "117162",
+      "88210"
+    ],
+    "competitionIds": [
+      "A2SW",
+      "AUS1"
+    ],
+    "mostRecentTransfer": {
+      "id": "5262040",
+      "transferSource": {
+        "competitionId": "A2SW",
+        "countryId": 12,
+        "clubId": "11419",
+        "coachId": "113150"
+      },
+      "transferDestination": {
+        "competitionId": "AUS1",
+        "countryId": 12,
+        "clubId": "5551",
+        "coachId": "117162"
+      },
+      "details": {
+        "playerId": "1109825",
+        "date": "2024-09-09T00:00:00+02:00",
+        "contractUntilDate": "2026-06-30T00:00:00+02:00",
+        "seasonId": 2024,
+        "isPending": false,
+        "marketValue": {
+          "value": 0,
+          "currency": "EUR",
+          "compact": {
+            "prefix": "€",
+            "content": "0.00",
+            "suffix": ""
+          }
+        },
+        "age": 21,
+        "fee": {
+          "value": null,
+          "currency": "",
+          "compact": {
+            "prefix": "",
+            "content": "Free Transfer",
+            "suffix": ""
+          }
+        },
+        "season": {
+          "id": 2024,
+          "display": "24/25",
+          "cyclicalName": "2025",
+          "nonCyclicalName": "24/25"
+        }
+      },
+      "typeDetails": {
+        "type": "STANDARD",
+        "name": "",
+        "feeDescription": ""
+      },
+      "relativeUrl": "/ben-gibson/transfers/spieler/1109825/transfer_id/5262040"
+    }
+  }
+}

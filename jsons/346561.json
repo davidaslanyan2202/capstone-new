@@ -1,0 +1,662 @@
+{
+  "success": true,
+  "message": "OK",
+  "data": {
+    "playerId": "346561",
+    "history": {
+      "terminated": [
+        {
+          "id": "3529844",
+          "transferSource": {
+            "competitionId": "IT1",
+            "countryId": 75,
+            "clubId": "380",
+            "coachId": "14892"
+          },
+          "transferDestination": {
+            "competitionId": "IT1",
+            "countryId": 75,
+            "clubId": "430",
+            "coachId": "47288"
+          },
+          "details": {
+            "playerId": "346561",
+            "date": "2022-06-30T00:00:00+02:00",
+            "contractUntilDate": "2028-06-30T00:00:00+02:00",
+            "seasonId": 2021,
+            "isPending": false,
+            "marketValue": {
+              "value": 2500000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "2.50",
+                "suffix": "M"
+              }
+            },
+            "age": 23,
+            "remainingContractPeriod": {
+              "days": 0,
+              "daysDisplay": "Unknown"
+            },
+            "season": {
+              "id": 2021,
+              "display": "21/22",
+              "cyclicalName": "2022",
+              "nonCyclicalName": "21/22"
+            }
+          },
+          "typeDetails": {
+            "type": "RETURNED_FROM_PREVIOUS_LOAN",
+            "name": "End of loan",
+            "feeDescription": "End of loan"
+          },
+          "relativeUrl": "/luca-ranieri/transfers/spieler/346561/transfer_id/3529844"
+        },
+        {
+          "id": "3529843",
+          "transferSource": {
+            "competitionId": "IT1",
+            "countryId": 75,
+            "clubId": "430",
+            "coachId": "47288"
+          },
+          "transferDestination": {
+            "competitionId": "IT1",
+            "countryId": 75,
+            "clubId": "380",
+            "coachId": "2126"
+          },
+          "details": {
+            "playerId": "346561",
+            "date": "2021-08-31T00:00:00+02:00",
+            "contractUntilDate": "2022-06-30T00:00:00+02:00",
+            "seasonId": 2021,
+            "isPending": false,
+            "marketValue": {
+              "value": 2500000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "2.50",
+                "suffix": "M"
+              }
+            },
+            "age": 22,
+            "remainingContractPeriod": {
+              "days": 1034,
+              "daysDisplay": "2 Years, 9 Months, 30 Days"
+            },
+            "season": {
+              "id": 2021,
+              "display": "21/22",
+              "cyclicalName": "2022",
+              "nonCyclicalName": "21/22"
+            }
+          },
+          "typeDetails": {
+            "type": "ACTIVE_LOAN_TRANSFER",
+            "name": "loan transfer",
+            "feeDescription": "loan transfer"
+          },
+          "relativeUrl": "/luca-ranieri/transfers/spieler/346561/transfer_id/3529843"
+        },
+        {
+          "id": "3076285",
+          "transferSource": {
+            "competitionId": "IT2",
+            "countryId": 75,
+            "clubId": "2722",
+            "coachId": "16377"
+          },
+          "transferDestination": {
+            "competitionId": "IT1",
+            "countryId": 75,
+            "clubId": "430",
+            "coachId": "2132"
+          },
+          "details": {
+            "playerId": "346561",
+            "date": "2021-06-30T00:00:00+02:00",
+            "contractUntilDate": "2024-06-30T00:00:00+02:00",
+            "seasonId": 2020,
+            "isPending": false,
+            "marketValue": {
+              "value": 2500000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "2.50",
+                "suffix": "M"
+              }
+            },
+            "age": 22,
+            "remainingContractPeriod": {
+              "days": 0,
+              "daysDisplay": "Unknown"
+            },
+            "season": {
+              "id": 2020,
+              "display": "20/21",
+              "cyclicalName": "2021",
+              "nonCyclicalName": "20/21"
+            }
+          },
+          "typeDetails": {
+            "type": "RETURNED_FROM_PREVIOUS_LOAN",
+            "name": "End of loan",
+            "feeDescription": "End of loan"
+          },
+          "relativeUrl": "/luca-ranieri/transfers/spieler/346561/transfer_id/3076285"
+        },
+        {
+          "id": "3076284",
+          "transferSource": {
+            "competitionId": "IT1",
+            "countryId": 75,
+            "clubId": "430",
+            "coachId": "2132"
+          },
+          "transferDestination": {
+            "competitionId": "IT2",
+            "countryId": 75,
+            "clubId": "2722",
+            "coachId": "3776"
+          },
+          "details": {
+            "playerId": "346561",
+            "date": "2020-09-25T00:00:00+02:00",
+            "contractUntilDate": "2021-06-30T00:00:00+02:00",
+            "seasonId": 2020,
+            "isPending": false,
+            "marketValue": {
+              "value": 2000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "2.00",
+                "suffix": "M"
+              }
+            },
+            "age": 21,
+            "remainingContractPeriod": {
+              "days": 1374,
+              "daysDisplay": "3 Years, 9 Months, 5 Days"
+            },
+            "season": {
+              "id": 2020,
+              "display": "20/21",
+              "cyclicalName": "2021",
+              "nonCyclicalName": "20/21"
+            }
+          },
+          "typeDetails": {
+            "type": "ACTIVE_LOAN_TRANSFER",
+            "name": "loan transfer",
+            "feeDescription": "loan transfer"
+          },
+          "relativeUrl": "/luca-ranieri/transfers/spieler/346561/transfer_id/3076284"
+        },
+        {
+          "id": "2780122",
+          "transferSource": {
+            "competitionId": "IT2",
+            "countryId": 75,
+            "clubId": "408",
+            "coachId": "34537"
+          },
+          "transferDestination": {
+            "competitionId": "IT1",
+            "countryId": 75,
+            "clubId": "430",
+            "coachId": "2132"
+          },
+          "details": {
+            "playerId": "346561",
+            "date": "2020-08-31T00:00:00+02:00",
+            "contractUntilDate": "2024-06-30T00:00:00+02:00",
+            "seasonId": 2019,
+            "isPending": false,
+            "marketValue": {
+              "value": 2000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "2.00",
+                "suffix": "M"
+              }
+            },
+            "age": 21,
+            "season": {
+              "id": 2019,
+              "display": "19/20",
+              "cyclicalName": "2020",
+              "nonCyclicalName": "19/20"
+            }
+          },
+          "typeDetails": {
+            "type": "RETURNED_FROM_PREVIOUS_LOAN",
+            "name": "End of loan",
+            "feeDescription": "End of loan"
+          },
+          "relativeUrl": "/luca-ranieri/transfers/spieler/346561/transfer_id/2780122"
+        },
+        {
+          "id": "2780121",
+          "transferSource": {
+            "competitionId": "IT1",
+            "countryId": 75,
+            "clubId": "430",
+            "coachId": "2132"
+          },
+          "transferDestination": {
+            "competitionId": "IT2",
+            "countryId": 75,
+            "clubId": "408",
+            "coachId": "53943"
+          },
+          "details": {
+            "playerId": "346561",
+            "date": "2020-01-31T00:00:00+01:00",
+            "contractUntilDate": "2020-06-30T00:00:00+02:00",
+            "seasonId": 2019,
+            "isPending": false,
+            "marketValue": {
+              "value": 2000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "2.00",
+                "suffix": "M"
+              }
+            },
+            "age": 20,
+            "remainingContractPeriod": {
+              "days": 1612,
+              "daysDisplay": "4 Years, 4 Months, 30 Days"
+            },
+            "season": {
+              "id": 2019,
+              "display": "19/20",
+              "cyclicalName": "2020",
+              "nonCyclicalName": "19/20"
+            }
+          },
+          "typeDetails": {
+            "type": "ACTIVE_LOAN_TRANSFER",
+            "name": "loan transfer",
+            "feeDescription": "loan transfer"
+          },
+          "relativeUrl": "/luca-ranieri/transfers/spieler/346561/transfer_id/2780121"
+        },
+        {
+          "id": "2177858",
+          "transferSource": {
+            "competitionId": "IT2",
+            "countryId": 75,
+            "clubId": "704",
+            "coachId": "12224"
+          },
+          "transferDestination": {
+            "competitionId": "IT1",
+            "countryId": 75,
+            "clubId": "430",
+            "coachId": "11795"
+          },
+          "details": {
+            "playerId": "346561",
+            "date": "2019-06-30T00:00:00+02:00",
+            "contractUntilDate": "2024-06-30T00:00:00+02:00",
+            "seasonId": 2018,
+            "isPending": false,
+            "marketValue": {
+              "value": 2000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "2.00",
+                "suffix": "M"
+              }
+            },
+            "age": 20,
+            "remainingContractPeriod": {
+              "days": 0,
+              "daysDisplay": "Unknown"
+            },
+            "season": {
+              "id": 2018,
+              "display": "18/19",
+              "cyclicalName": "2019",
+              "nonCyclicalName": "18/19"
+            }
+          },
+          "typeDetails": {
+            "type": "RETURNED_FROM_PREVIOUS_LOAN",
+            "name": "End of loan",
+            "feeDescription": "End of loan"
+          },
+          "relativeUrl": "/luca-ranieri/transfers/spieler/346561/transfer_id/2177858"
+        },
+        {
+          "id": "2177857",
+          "transferSource": {
+            "competitionId": "IT1",
+            "countryId": 75,
+            "clubId": "430",
+            "coachId": "2135"
+          },
+          "transferDestination": {
+            "competitionId": "IT2",
+            "countryId": 75,
+            "clubId": "704",
+            "coachId": "12224"
+          },
+          "details": {
+            "playerId": "346561",
+            "date": "2018-07-16T00:00:00+02:00",
+            "contractUntilDate": "2019-06-30T00:00:00+02:00",
+            "seasonId": 2018,
+            "isPending": false,
+            "marketValue": {
+              "value": 200000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "200.00",
+                "suffix": "K"
+              }
+            },
+            "age": 19,
+            "fee": {
+              "value": 25000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "25.00",
+                "suffix": "K"
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 3637,
+              "daysDisplay": "9 Years, 11 Months, 14 Days"
+            },
+            "season": {
+              "id": 2018,
+              "display": "18/19",
+              "cyclicalName": "2019",
+              "nonCyclicalName": "18/19"
+            }
+          },
+          "typeDetails": {
+            "type": "ACTIVE_LOAN_TRANSFER",
+            "name": "loan transfer",
+            "feeDescription": "Loan fee"
+          },
+          "relativeUrl": "/luca-ranieri/transfers/spieler/346561/transfer_id/2177857"
+        },
+        {
+          "id": "4078026",
+          "transferSource": {
+            "competitionId": "IJ1",
+            "countryId": 75,
+            "clubId": "8505",
+            "coachId": "42068"
+          },
+          "transferDestination": {
+            "competitionId": "IT1",
+            "countryId": 75,
+            "clubId": "430",
+            "coachId": "2135"
+          },
+          "details": {
+            "playerId": "346561",
+            "date": "2018-07-01T00:00:00+02:00",
+            "contractUntilDate": "2028-06-30T00:00:00+02:00",
+            "seasonId": 2018,
+            "isPending": false,
+            "marketValue": {
+              "value": 200000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "200.00",
+                "suffix": "K"
+              }
+            },
+            "age": 19,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2018,
+              "display": "18/19",
+              "cyclicalName": "2019",
+              "nonCyclicalName": "18/19"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/luca-ranieri/transfers/spieler/346561/transfer_id/4078026"
+        },
+        {
+          "id": "1365749",
+          "transferSource": {
+            "competitionId": "ITJ4",
+            "countryId": 75,
+            "clubId": "49741",
+            "coachId": "42062"
+          },
+          "transferDestination": {
+            "competitionId": "ITJ1",
+            "countryId": 75,
+            "clubId": "8505",
+            "coachId": "27200"
+          },
+          "details": {
+            "playerId": "346561",
+            "date": "2016-07-01T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2016,
+            "isPending": false,
+            "marketValue": {
+              "value": 200000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "200.00",
+                "suffix": "K"
+              }
+            },
+            "age": 17,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2016,
+              "display": "16/17",
+              "cyclicalName": "2017",
+              "nonCyclicalName": "16/17"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/luca-ranieri/transfers/spieler/346561/transfer_id/1365749"
+        },
+        {
+          "id": "6103273",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 75,
+            "clubId": "12812",
+            "coachId": "49104"
+          },
+          "transferDestination": {
+            "competitionId": "ITJ4",
+            "countryId": 75,
+            "clubId": "49741",
+            "coachId": "42062"
+          },
+          "details": {
+            "playerId": "346561",
+            "date": "2015-07-01T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2015,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 16,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2015,
+              "display": "15/16",
+              "cyclicalName": "2016",
+              "nonCyclicalName": "15/16"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/luca-ranieri/transfers/spieler/346561/transfer_id/6103273"
+        }
+      ],
+      "pending": [],
+      "url": "",
+      "feeSum": {
+        "value": 25000,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "25.00",
+          "suffix": "K"
+        }
+      },
+      "averageAge": 27,
+      "totalMarketValue": {
+        "value": 7000000,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "7.00",
+          "suffix": "M"
+        }
+      }
+    },
+    "clubIds": [
+      "380",
+      "430",
+      "2722",
+      "408",
+      "704",
+      "8505",
+      "49741",
+      "12812"
+    ],
+    "coachIds": [
+      "14892",
+      "47288",
+      "2126",
+      "16377",
+      "2132",
+      "3776",
+      "34537",
+      "53943",
+      "12224",
+      "11795",
+      "2135",
+      "42068",
+      "42062",
+      "27200",
+      "49104"
+    ],
+    "competitionIds": [
+      "IT1",
+      "IT2",
+      "IJ1",
+      "ITJ4",
+      "ITJ1"
+    ],
+    "mostRecentTransfer": {
+      "id": "3529844",
+      "transferSource": {
+        "competitionId": "IT1",
+        "countryId": 75,
+        "clubId": "380",
+        "coachId": "14892"
+      },
+      "transferDestination": {
+        "competitionId": "IT1",
+        "countryId": 75,
+        "clubId": "430",
+        "coachId": "47288"
+      },
+      "details": {
+        "playerId": "346561",
+        "date": "2022-06-30T00:00:00+02:00",
+        "contractUntilDate": "2028-06-30T00:00:00+02:00",
+        "seasonId": 2021,
+        "isPending": false,
+        "marketValue": {
+          "value": 2500000,
+          "currency": "EUR",
+          "compact": {
+            "prefix": "€",
+            "content": "2.50",
+            "suffix": "M"
+          }
+        },
+        "age": 23,
+        "remainingContractPeriod": {
+          "days": 0,
+          "daysDisplay": "Unknown"
+        },
+        "season": {
+          "id": 2021,
+          "display": "21/22",
+          "cyclicalName": "2022",
+          "nonCyclicalName": "21/22"
+        }
+      },
+      "typeDetails": {
+        "type": "RETURNED_FROM_PREVIOUS_LOAN",
+        "name": "End of loan",
+        "feeDescription": "End of loan"
+      },
+      "relativeUrl": "/luca-ranieri/transfers/spieler/346561/transfer_id/3529844"
+    }
+  }
+}

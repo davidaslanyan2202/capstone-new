@@ -1,0 +1,291 @@
+{
+  "success": true,
+  "message": "OK",
+  "data": {
+    "playerId": "68390",
+    "history": {
+      "terminated": [
+        {
+          "id": "414022",
+          "transferSource": {
+            "competitionId": "GB2",
+            "countryId": 189,
+            "clubId": "1181",
+            "coachId": "1524"
+          },
+          "transferDestination": {
+            "competitionId": "GB1",
+            "countryId": 189,
+            "clubId": "29",
+            "coachId": "450"
+          },
+          "details": {
+            "playerId": "68390",
+            "date": "2010-05-31T00:00:00+02:00",
+            "contractUntilDate": "2025-06-30T00:00:00+02:00",
+            "seasonId": 2009,
+            "isPending": false,
+            "marketValue": {
+              "value": 1000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "1.00",
+                "suffix": "M"
+              }
+            },
+            "age": 21,
+            "season": {
+              "id": 2009,
+              "display": "09/10",
+              "cyclicalName": "2010",
+              "nonCyclicalName": "09/10"
+            }
+          },
+          "typeDetails": {
+            "type": "RETURNED_FROM_PREVIOUS_LOAN",
+            "name": "End of loan",
+            "feeDescription": "End of loan"
+          },
+          "relativeUrl": "/seamus-coleman/transfers/spieler/68390/transfer_id/414022"
+        },
+        {
+          "id": "414023",
+          "transferSource": {
+            "competitionId": "GB1",
+            "countryId": 189,
+            "clubId": "29",
+            "coachId": "450"
+          },
+          "transferDestination": {
+            "competitionId": "GB2",
+            "countryId": 189,
+            "clubId": "1181",
+            "coachId": "1524"
+          },
+          "details": {
+            "playerId": "68390",
+            "date": "2010-03-19T00:00:00+01:00",
+            "contractUntilDate": null,
+            "seasonId": 2009,
+            "isPending": false,
+            "marketValue": {
+              "value": 1000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "1.00",
+                "suffix": "M"
+              }
+            },
+            "age": 21,
+            "remainingContractPeriod": {
+              "days": 5947,
+              "daysDisplay": "16 Years, 3 Months, 11 Days"
+            },
+            "season": {
+              "id": 2009,
+              "display": "09/10",
+              "cyclicalName": "2010",
+              "nonCyclicalName": "09/10"
+            }
+          },
+          "typeDetails": {
+            "type": "ACTIVE_LOAN_TRANSFER",
+            "name": "loan transfer",
+            "feeDescription": "loan transfer"
+          },
+          "relativeUrl": "/seamus-coleman/transfers/spieler/68390/transfer_id/414023"
+        },
+        {
+          "id": "265542",
+          "transferSource": {
+            "competitionId": "IR1",
+            "countryId": 72,
+            "clubId": "8780",
+            "coachId": "8661"
+          },
+          "transferDestination": {
+            "competitionId": "GB1",
+            "countryId": 189,
+            "clubId": "29",
+            "coachId": "450"
+          },
+          "details": {
+            "playerId": "68390",
+            "date": "2009-01-01T00:00:00+01:00",
+            "contractUntilDate": "2026-06-30T00:00:00+02:00",
+            "seasonId": 2008,
+            "isPending": false,
+            "marketValue": {
+              "value": 125000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "125.00",
+                "suffix": "K"
+              }
+            },
+            "age": 20,
+            "fee": {
+              "value": 70000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "70.00",
+                "suffix": "K"
+              }
+            },
+            "season": {
+              "id": 2008,
+              "display": "08/09",
+              "cyclicalName": "2009",
+              "nonCyclicalName": "08/09"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/seamus-coleman/transfers/spieler/68390/transfer_id/265542"
+        },
+        {
+          "id": "178955",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 72,
+            "clubId": "15254",
+            "coachId": "0"
+          },
+          "transferDestination": {
+            "competitionId": "IR1",
+            "countryId": 72,
+            "clubId": "8780",
+            "coachId": "16350"
+          },
+          "details": {
+            "playerId": "68390",
+            "date": "2006-07-01T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2006,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 17,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "Free Transfer",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2006,
+              "display": "06/07",
+              "cyclicalName": "2007",
+              "nonCyclicalName": "06/07"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/seamus-coleman/transfers/spieler/68390/transfer_id/178955"
+        }
+      ],
+      "pending": [],
+      "url": "",
+      "feeSum": {
+        "value": 70000,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "70.00",
+          "suffix": "K"
+        }
+      },
+      "averageAge": 37,
+      "totalMarketValue": {
+        "value": 300000,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "300.00",
+          "suffix": "K"
+        }
+      }
+    },
+    "clubIds": [
+      "1181",
+      "29",
+      "8780",
+      "15254"
+    ],
+    "coachIds": [
+      "1524",
+      "450",
+      "8661",
+      "16350"
+    ],
+    "competitionIds": [
+      "GB2",
+      "GB1",
+      "IR1"
+    ],
+    "mostRecentTransfer": {
+      "id": "414022",
+      "transferSource": {
+        "competitionId": "GB2",
+        "countryId": 189,
+        "clubId": "1181",
+        "coachId": "1524"
+      },
+      "transferDestination": {
+        "competitionId": "GB1",
+        "countryId": 189,
+        "clubId": "29",
+        "coachId": "450"
+      },
+      "details": {
+        "playerId": "68390",
+        "date": "2010-05-31T00:00:00+02:00",
+        "contractUntilDate": "2025-06-30T00:00:00+02:00",
+        "seasonId": 2009,
+        "isPending": false,
+        "marketValue": {
+          "value": 1000000,
+          "currency": "EUR",
+          "compact": {
+            "prefix": "€",
+            "content": "1.00",
+            "suffix": "M"
+          }
+        },
+        "age": 21,
+        "season": {
+          "id": 2009,
+          "display": "09/10",
+          "cyclicalName": "2010",
+          "nonCyclicalName": "09/10"
+        }
+      },
+      "typeDetails": {
+        "type": "RETURNED_FROM_PREVIOUS_LOAN",
+        "name": "End of loan",
+        "feeDescription": "End of loan"
+      },
+      "relativeUrl": "/seamus-coleman/transfers/spieler/68390/transfer_id/414022"
+    }
+  }
+}

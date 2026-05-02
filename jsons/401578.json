@@ -1,0 +1,272 @@
+{
+  "success": true,
+  "message": "OK",
+  "data": {
+    "playerId": "401578",
+    "history": {
+      "terminated": [
+        {
+          "id": "2726673",
+          "transferSource": {
+            "competitionId": "AR1N",
+            "countryId": 9,
+            "clubId": "209",
+            "coachId": "19885"
+          },
+          "transferDestination": {
+            "competitionId": "L1",
+            "countryId": 40,
+            "clubId": "15",
+            "coachId": "1269"
+          },
+          "details": {
+            "playerId": "401578",
+            "date": "2020-01-01T00:00:00+01:00",
+            "contractUntilDate": "2030-06-30T00:00:00+02:00",
+            "seasonId": 2019,
+            "isPending": false,
+            "marketValue": {
+              "value": 25000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "25.00",
+                "suffix": "M"
+              }
+            },
+            "age": 21,
+            "fee": {
+              "value": 17000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "17.00",
+                "suffix": "M"
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 546,
+              "daysDisplay": "1 Year, 5 Months, 29 Days"
+            },
+            "season": {
+              "id": 2019,
+              "display": "19/20",
+              "cyclicalName": "2020",
+              "nonCyclicalName": "19/20"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/exequiel-palacios/transfers/spieler/401578/transfer_id/2726673"
+        },
+        {
+          "id": "2054237",
+          "transferSource": {
+            "competitionId": "ARY3",
+            "countryId": 9,
+            "clubId": "14837",
+            "coachId": "94332"
+          },
+          "transferDestination": {
+            "competitionId": "AR1N",
+            "countryId": 9,
+            "clubId": "209",
+            "coachId": "19885"
+          },
+          "details": {
+            "playerId": "401578",
+            "date": "2017-01-01T00:00:00+01:00",
+            "contractUntilDate": "2021-06-30T00:00:00+02:00",
+            "seasonId": 2016,
+            "isPending": false,
+            "marketValue": {
+              "value": 300000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "300.00",
+                "suffix": "K"
+              }
+            },
+            "age": 18,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 1641,
+              "daysDisplay": "4 Years, 5 Months, 29 Days"
+            },
+            "season": {
+              "id": 2016,
+              "display": "16/17",
+              "cyclicalName": "2017",
+              "nonCyclicalName": "16/17"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/exequiel-palacios/transfers/spieler/401578/transfer_id/2054237"
+        },
+        {
+          "id": "1410149",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 9,
+            "clubId": "15108",
+            "coachId": "0"
+          },
+          "transferDestination": {
+            "competitionId": "",
+            "countryId": 9,
+            "clubId": "14837",
+            "coachId": "94332"
+          },
+          "details": {
+            "playerId": "401578",
+            "date": "2015-07-01T00:00:00+02:00",
+            "contractUntilDate": "2021-06-30T00:00:00+02:00",
+            "seasonId": 2015,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 16,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2015,
+              "display": "15/16",
+              "cyclicalName": "2016",
+              "nonCyclicalName": "15/16"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/exequiel-palacios/transfers/spieler/401578/transfer_id/1410149"
+        }
+      ],
+      "pending": [],
+      "url": "",
+      "feeSum": {
+        "value": 17000000,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "17.00",
+          "suffix": "M"
+        }
+      },
+      "averageAge": 27,
+      "totalMarketValue": {
+        "value": 30000000,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "30.00",
+          "suffix": "M"
+        }
+      }
+    },
+    "clubIds": [
+      "209",
+      "15",
+      "14837",
+      "15108"
+    ],
+    "coachIds": [
+      "19885",
+      "1269",
+      "94332"
+    ],
+    "competitionIds": [
+      "AR1N",
+      "L1",
+      "ARY3"
+    ],
+    "mostRecentTransfer": {
+      "id": "2726673",
+      "transferSource": {
+        "competitionId": "AR1N",
+        "countryId": 9,
+        "clubId": "209",
+        "coachId": "19885"
+      },
+      "transferDestination": {
+        "competitionId": "L1",
+        "countryId": 40,
+        "clubId": "15",
+        "coachId": "1269"
+      },
+      "details": {
+        "playerId": "401578",
+        "date": "2020-01-01T00:00:00+01:00",
+        "contractUntilDate": "2030-06-30T00:00:00+02:00",
+        "seasonId": 2019,
+        "isPending": false,
+        "marketValue": {
+          "value": 25000000,
+          "currency": "EUR",
+          "compact": {
+            "prefix": "€",
+            "content": "25.00",
+            "suffix": "M"
+          }
+        },
+        "age": 21,
+        "fee": {
+          "value": 17000000,
+          "currency": "EUR",
+          "compact": {
+            "prefix": "€",
+            "content": "17.00",
+            "suffix": "M"
+          }
+        },
+        "remainingContractPeriod": {
+          "days": 546,
+          "daysDisplay": "1 Year, 5 Months, 29 Days"
+        },
+        "season": {
+          "id": 2019,
+          "display": "19/20",
+          "cyclicalName": "2020",
+          "nonCyclicalName": "19/20"
+        }
+      },
+      "typeDetails": {
+        "type": "STANDARD",
+        "name": "",
+        "feeDescription": ""
+      },
+      "relativeUrl": "/exequiel-palacios/transfers/spieler/401578/transfer_id/2726673"
+    }
+  }
+}

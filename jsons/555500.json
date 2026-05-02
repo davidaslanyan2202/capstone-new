@@ -1,0 +1,309 @@
+{
+  "success": true,
+  "message": "OK",
+  "data": {
+    "playerId": "555500",
+    "history": {
+      "terminated": [
+        {
+          "id": "4522717",
+          "transferSource": {
+            "competitionId": "E3G1",
+            "countryId": 157,
+            "clubId": "8516",
+            "coachId": "24331"
+          },
+          "transferDestination": {
+            "competitionId": "ES1",
+            "countryId": 157,
+            "clubId": "331",
+            "coachId": "29192"
+          },
+          "details": {
+            "playerId": "555500",
+            "date": "2023-07-01T00:00:00+02:00",
+            "contractUntilDate": "2027-06-30T00:00:00+02:00",
+            "seasonId": 2023,
+            "isPending": false,
+            "marketValue": {
+              "value": 400000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "400.00",
+                "suffix": "K"
+              }
+            },
+            "age": 22,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 1460,
+              "daysDisplay": "3 Years, 11 Months, 29 Days"
+            },
+            "season": {
+              "id": 2023,
+              "display": "23/24",
+              "cyclicalName": "2024",
+              "nonCyclicalName": "23/24"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/jorge-herrando/transfers/spieler/555500/transfer_id/4522717"
+        },
+        {
+          "id": "3442757",
+          "transferSource": {
+            "competitionId": "E3G1",
+            "countryId": 157,
+            "clubId": "24420",
+            "coachId": "75338"
+          },
+          "transferDestination": {
+            "competitionId": "E3G2",
+            "countryId": 157,
+            "clubId": "8516",
+            "coachId": "24331"
+          },
+          "details": {
+            "playerId": "555500",
+            "date": "2022-06-30T00:00:00+02:00",
+            "contractUntilDate": "2027-06-30T00:00:00+02:00",
+            "seasonId": 2021,
+            "isPending": false,
+            "marketValue": {
+              "value": 300000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "300.00",
+                "suffix": "K"
+              }
+            },
+            "age": 21,
+            "remainingContractPeriod": {
+              "days": 0,
+              "daysDisplay": "Unknown"
+            },
+            "season": {
+              "id": 2021,
+              "display": "21/22",
+              "cyclicalName": "2022",
+              "nonCyclicalName": "21/22"
+            }
+          },
+          "typeDetails": {
+            "type": "RETURNED_FROM_PREVIOUS_LOAN",
+            "name": "End of loan",
+            "feeDescription": "End of loan"
+          },
+          "relativeUrl": "/jorge-herrando/transfers/spieler/555500/transfer_id/3442757"
+        },
+        {
+          "id": "3442756",
+          "transferSource": {
+            "competitionId": "E4G2",
+            "countryId": 157,
+            "clubId": "8516",
+            "coachId": "24331"
+          },
+          "transferDestination": {
+            "competitionId": "E3G1",
+            "countryId": 157,
+            "clubId": "24420",
+            "coachId": "41064"
+          },
+          "details": {
+            "playerId": "555500",
+            "date": "2021-07-15T00:00:00+02:00",
+            "contractUntilDate": "2022-06-30T00:00:00+02:00",
+            "seasonId": 2021,
+            "isPending": false,
+            "marketValue": {
+              "value": 250000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "250.00",
+                "suffix": "K"
+              }
+            },
+            "age": 20,
+            "season": {
+              "id": 2021,
+              "display": "21/22",
+              "cyclicalName": "2022",
+              "nonCyclicalName": "21/22"
+            }
+          },
+          "typeDetails": {
+            "type": "ACTIVE_LOAN_TRANSFER",
+            "name": "loan transfer",
+            "feeDescription": "loan transfer"
+          },
+          "relativeUrl": "/jorge-herrando/transfers/spieler/555500/transfer_id/3442756"
+        },
+        {
+          "id": "2235090",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 157,
+            "clubId": "28861",
+            "coachId": "75338"
+          },
+          "transferDestination": {
+            "competitionId": "",
+            "countryId": 157,
+            "clubId": "8516",
+            "coachId": "24331"
+          },
+          "details": {
+            "playerId": "555500",
+            "date": "2018-07-01T00:00:00+02:00",
+            "contractUntilDate": "2019-06-30T00:00:00+02:00",
+            "seasonId": 2018,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 17,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2018,
+              "display": "18/19",
+              "cyclicalName": "2019",
+              "nonCyclicalName": "18/19"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/jorge-herrando/transfers/spieler/555500/transfer_id/2235090"
+        }
+      ],
+      "pending": [],
+      "url": "",
+      "feeSum": {
+        "value": 0,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "0.00",
+          "suffix": ""
+        }
+      },
+      "averageAge": 25,
+      "totalMarketValue": {
+        "value": 4000000,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "4.00",
+          "suffix": "M"
+        }
+      }
+    },
+    "clubIds": [
+      "8516",
+      "331",
+      "24420",
+      "28861"
+    ],
+    "coachIds": [
+      "24331",
+      "29192",
+      "75338",
+      "41064"
+    ],
+    "competitionIds": [
+      "E3G1",
+      "ES1",
+      "E3G2",
+      "E4G2"
+    ],
+    "mostRecentTransfer": {
+      "id": "4522717",
+      "transferSource": {
+        "competitionId": "E3G1",
+        "countryId": 157,
+        "clubId": "8516",
+        "coachId": "24331"
+      },
+      "transferDestination": {
+        "competitionId": "ES1",
+        "countryId": 157,
+        "clubId": "331",
+        "coachId": "29192"
+      },
+      "details": {
+        "playerId": "555500",
+        "date": "2023-07-01T00:00:00+02:00",
+        "contractUntilDate": "2027-06-30T00:00:00+02:00",
+        "seasonId": 2023,
+        "isPending": false,
+        "marketValue": {
+          "value": 400000,
+          "currency": "EUR",
+          "compact": {
+            "prefix": "€",
+            "content": "400.00",
+            "suffix": "K"
+          }
+        },
+        "age": 22,
+        "fee": {
+          "value": null,
+          "currency": "",
+          "compact": {
+            "prefix": "",
+            "content": "-",
+            "suffix": ""
+          }
+        },
+        "remainingContractPeriod": {
+          "days": 1460,
+          "daysDisplay": "3 Years, 11 Months, 29 Days"
+        },
+        "season": {
+          "id": 2023,
+          "display": "23/24",
+          "cyclicalName": "2024",
+          "nonCyclicalName": "23/24"
+        }
+      },
+      "typeDetails": {
+        "type": "STANDARD",
+        "name": "",
+        "feeDescription": ""
+      },
+      "relativeUrl": "/jorge-herrando/transfers/spieler/555500/transfer_id/4522717"
+    }
+  }
+}

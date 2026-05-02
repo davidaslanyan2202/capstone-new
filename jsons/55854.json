@@ -1,0 +1,871 @@
+{
+  "success": true,
+  "message": "OK",
+  "data": {
+    "playerId": "55854",
+    "history": {
+      "terminated": [
+        {
+          "id": "5013998",
+          "transferSource": {
+            "competitionId": "IT1",
+            "countryId": 75,
+            "clubId": "130",
+            "coachId": "19635"
+          },
+          "transferDestination": {
+            "competitionId": "",
+            "countryId": 0,
+            "clubId": "123",
+            "coachId": "0"
+          },
+          "details": {
+            "playerId": "55854",
+            "date": "2024-07-01T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2024,
+            "isPending": false,
+            "marketValue": {
+              "value": 250000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "250.00",
+                "suffix": "K"
+              }
+            },
+            "age": 37,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2024,
+              "display": "24/25",
+              "cyclicalName": "2025",
+              "nonCyclicalName": "24/25"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/cristian-ansaldi/transfers/spieler/55854/transfer_id/5013998"
+        },
+        {
+          "id": "4031247",
+          "transferSource": {
+            "competitionId": "IT1",
+            "countryId": 75,
+            "clubId": "416",
+            "coachId": "16508"
+          },
+          "transferDestination": {
+            "competitionId": "IT2",
+            "countryId": 75,
+            "clubId": "130",
+            "coachId": "19635"
+          },
+          "details": {
+            "playerId": "55854",
+            "date": "2022-08-22T00:00:00+02:00",
+            "contractUntilDate": "2024-06-30T00:00:00+02:00",
+            "seasonId": 2022,
+            "isPending": false,
+            "marketValue": {
+              "value": 700000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "700.00",
+                "suffix": "K"
+              }
+            },
+            "age": 35,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "Free Transfer",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2022,
+              "display": "22/23",
+              "cyclicalName": "2023",
+              "nonCyclicalName": "22/23"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/cristian-ansaldi/transfers/spieler/55854/transfer_id/4031247"
+        },
+        {
+          "id": "2426176",
+          "transferSource": {
+            "competitionId": "IT1",
+            "countryId": 75,
+            "clubId": "46",
+            "coachId": "3517"
+          },
+          "transferDestination": {
+            "competitionId": "IT1",
+            "countryId": 75,
+            "clubId": "416",
+            "coachId": "1933"
+          },
+          "details": {
+            "playerId": "55854",
+            "date": "2019-07-01T00:00:00+02:00",
+            "contractUntilDate": "2022-06-30T00:00:00+02:00",
+            "seasonId": 2019,
+            "isPending": false,
+            "marketValue": {
+              "value": 5000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "5.00",
+                "suffix": "M"
+              }
+            },
+            "age": 32,
+            "fee": {
+              "value": 2500000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "2.50",
+                "suffix": "M"
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 365,
+              "daysDisplay": "11 Months, 29 Days"
+            },
+            "season": {
+              "id": 2019,
+              "display": "19/20",
+              "cyclicalName": "2020",
+              "nonCyclicalName": "19/20"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/cristian-ansaldi/transfers/spieler/55854/transfer_id/2426176"
+        },
+        {
+          "id": "1900326",
+          "transferSource": {
+            "competitionId": "IT1",
+            "countryId": 75,
+            "clubId": "416",
+            "coachId": "1933"
+          },
+          "transferDestination": {
+            "competitionId": "IT1",
+            "countryId": 75,
+            "clubId": "46",
+            "coachId": "517"
+          },
+          "details": {
+            "playerId": "55854",
+            "date": "2019-06-30T00:00:00+02:00",
+            "contractUntilDate": "2020-06-30T00:00:00+02:00",
+            "seasonId": 2018,
+            "isPending": false,
+            "marketValue": {
+              "value": 5000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "5.00",
+                "suffix": "M"
+              }
+            },
+            "age": 32,
+            "remainingContractPeriod": {
+              "days": 0,
+              "daysDisplay": "Unknown"
+            },
+            "season": {
+              "id": 2018,
+              "display": "18/19",
+              "cyclicalName": "2019",
+              "nonCyclicalName": "18/19"
+            }
+          },
+          "typeDetails": {
+            "type": "RETURNED_FROM_PREVIOUS_LOAN",
+            "name": "End of loan",
+            "feeDescription": "End of loan"
+          },
+          "relativeUrl": "/cristian-ansaldi/transfers/spieler/55854/transfer_id/1900326"
+        },
+        {
+          "id": "1900325",
+          "transferSource": {
+            "competitionId": "IT1",
+            "countryId": 75,
+            "clubId": "46",
+            "coachId": "517"
+          },
+          "transferDestination": {
+            "competitionId": "IT1",
+            "countryId": 75,
+            "clubId": "416",
+            "coachId": "3896"
+          },
+          "details": {
+            "playerId": "55854",
+            "date": "2017-08-31T00:00:00+02:00",
+            "contractUntilDate": "2019-06-30T00:00:00+02:00",
+            "seasonId": 2017,
+            "isPending": false,
+            "marketValue": {
+              "value": 5500000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "5.50",
+                "suffix": "M"
+              }
+            },
+            "age": 30,
+            "fee": {
+              "value": 2000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "2.00",
+                "suffix": "M"
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 668,
+              "daysDisplay": "1 Year, 9 Months, 30 Days"
+            },
+            "season": {
+              "id": 2017,
+              "display": "17/18",
+              "cyclicalName": "2018",
+              "nonCyclicalName": "17/18"
+            }
+          },
+          "typeDetails": {
+            "type": "ACTIVE_LOAN_TRANSFER",
+            "name": "loan transfer",
+            "feeDescription": "Loan fee"
+          },
+          "relativeUrl": "/cristian-ansaldi/transfers/spieler/55854/transfer_id/1900325"
+        },
+        {
+          "id": "1554497",
+          "transferSource": {
+            "competitionId": "IT1",
+            "countryId": 75,
+            "clubId": "252",
+            "coachId": "16508"
+          },
+          "transferDestination": {
+            "competitionId": "IT1",
+            "countryId": 75,
+            "clubId": "46",
+            "coachId": "524"
+          },
+          "details": {
+            "playerId": "55854",
+            "date": "2016-07-30T00:00:00+02:00",
+            "contractUntilDate": "2019-06-30T00:00:00+02:00",
+            "seasonId": 2016,
+            "isPending": false,
+            "marketValue": {
+              "value": 6000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "6.00",
+                "suffix": "M"
+              }
+            },
+            "age": 29,
+            "fee": {
+              "value": 10500000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "10.50",
+                "suffix": "M"
+              }
+            },
+            "season": {
+              "id": 2016,
+              "display": "16/17",
+              "cyclicalName": "2017",
+              "nonCyclicalName": "16/17"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/cristian-ansaldi/transfers/spieler/55854/transfer_id/1554497"
+        },
+        {
+          "id": "1553532",
+          "transferSource": {
+            "competitionId": "RU1",
+            "countryId": 141,
+            "clubId": "964",
+            "coachId": "805"
+          },
+          "transferDestination": {
+            "competitionId": "IT1",
+            "countryId": 75,
+            "clubId": "252",
+            "coachId": "16508"
+          },
+          "details": {
+            "playerId": "55854",
+            "date": "2016-07-29T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2016,
+            "isPending": false,
+            "marketValue": {
+              "value": 6000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "6.00",
+                "suffix": "M"
+              }
+            },
+            "age": 29,
+            "fee": {
+              "value": 4000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "4.00",
+                "suffix": "M"
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 336,
+              "daysDisplay": "11 Months, 1 Day"
+            },
+            "season": {
+              "id": 2016,
+              "display": "16/17",
+              "cyclicalName": "2017",
+              "nonCyclicalName": "16/17"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/cristian-ansaldi/transfers/spieler/55854/transfer_id/1553532"
+        },
+        {
+          "id": "1547191",
+          "transferSource": {
+            "competitionId": "IT1",
+            "countryId": 75,
+            "clubId": "252",
+            "coachId": "3436"
+          },
+          "transferDestination": {
+            "competitionId": "RU1",
+            "countryId": 141,
+            "clubId": "964",
+            "coachId": "805"
+          },
+          "details": {
+            "playerId": "55854",
+            "date": "2016-06-30T00:00:00+02:00",
+            "contractUntilDate": "2017-06-30T00:00:00+02:00",
+            "seasonId": 2015,
+            "isPending": false,
+            "marketValue": {
+              "value": 6000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "6.00",
+                "suffix": "M"
+              }
+            },
+            "age": 29,
+            "remainingContractPeriod": {
+              "days": 0,
+              "daysDisplay": "Unknown"
+            },
+            "season": {
+              "id": 2015,
+              "display": "15/16",
+              "cyclicalName": "2016",
+              "nonCyclicalName": "15/16"
+            }
+          },
+          "typeDetails": {
+            "type": "RETURNED_FROM_PREVIOUS_LOAN",
+            "name": "End of loan",
+            "feeDescription": "End of loan"
+          },
+          "relativeUrl": "/cristian-ansaldi/transfers/spieler/55854/transfer_id/1547191"
+        },
+        {
+          "id": "1547192",
+          "transferSource": {
+            "competitionId": "RU1",
+            "countryId": 141,
+            "clubId": "964",
+            "coachId": "1696"
+          },
+          "transferDestination": {
+            "competitionId": "IT1",
+            "countryId": 75,
+            "clubId": "252",
+            "coachId": "3436"
+          },
+          "details": {
+            "playerId": "55854",
+            "date": "2015-08-31T00:00:00+02:00",
+            "contractUntilDate": "2016-06-30T00:00:00+02:00",
+            "seasonId": 2015,
+            "isPending": false,
+            "marketValue": {
+              "value": 6000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "6.00",
+                "suffix": "M"
+              }
+            },
+            "age": 28,
+            "fee": {
+              "value": 650000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "650.00",
+                "suffix": "K"
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 669,
+              "daysDisplay": "1 Year, 9 Months, 30 Days"
+            },
+            "season": {
+              "id": 2015,
+              "display": "15/16",
+              "cyclicalName": "2016",
+              "nonCyclicalName": "15/16"
+            }
+          },
+          "typeDetails": {
+            "type": "ACTIVE_LOAN_TRANSFER",
+            "name": "loan transfer",
+            "feeDescription": "Loan fee"
+          },
+          "relativeUrl": "/cristian-ansaldi/transfers/spieler/55854/transfer_id/1547192"
+        },
+        {
+          "id": "1101128",
+          "transferSource": {
+            "competitionId": "ES1",
+            "countryId": 157,
+            "clubId": "13",
+            "coachId": "2868"
+          },
+          "transferDestination": {
+            "competitionId": "RU1",
+            "countryId": 141,
+            "clubId": "964",
+            "coachId": "1696"
+          },
+          "details": {
+            "playerId": "55854",
+            "date": "2015-06-30T00:00:00+02:00",
+            "contractUntilDate": "2017-06-30T00:00:00+02:00",
+            "seasonId": 2014,
+            "isPending": false,
+            "marketValue": {
+              "value": 9000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "9.00",
+                "suffix": "M"
+              }
+            },
+            "age": 28,
+            "remainingContractPeriod": {
+              "days": 0,
+              "daysDisplay": "Unknown"
+            },
+            "season": {
+              "id": 2014,
+              "display": "14/15",
+              "cyclicalName": "2015",
+              "nonCyclicalName": "14/15"
+            }
+          },
+          "typeDetails": {
+            "type": "RETURNED_FROM_PREVIOUS_LOAN",
+            "name": "End of loan",
+            "feeDescription": "End of loan"
+          },
+          "relativeUrl": "/cristian-ansaldi/transfers/spieler/55854/transfer_id/1101128"
+        },
+        {
+          "id": "1101127",
+          "transferSource": {
+            "competitionId": "RU1",
+            "countryId": 141,
+            "clubId": "964",
+            "coachId": "1696"
+          },
+          "transferDestination": {
+            "competitionId": "ES1",
+            "countryId": 157,
+            "clubId": "13",
+            "coachId": "2868"
+          },
+          "details": {
+            "playerId": "55854",
+            "date": "2014-08-01T00:00:00+02:00",
+            "contractUntilDate": "2015-06-30T00:00:00+02:00",
+            "seasonId": 2014,
+            "isPending": false,
+            "marketValue": {
+              "value": 9000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "9.00",
+                "suffix": "M"
+              }
+            },
+            "age": 27,
+            "fee": {
+              "value": 1000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "1.00",
+                "suffix": "M"
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 1064,
+              "daysDisplay": "2 Years, 10 Months, 29 Days"
+            },
+            "season": {
+              "id": 2014,
+              "display": "14/15",
+              "cyclicalName": "2015",
+              "nonCyclicalName": "14/15"
+            }
+          },
+          "typeDetails": {
+            "type": "ACTIVE_LOAN_TRANSFER",
+            "name": "loan transfer",
+            "feeDescription": "Loan fee"
+          },
+          "relativeUrl": "/cristian-ansaldi/transfers/spieler/55854/transfer_id/1101127"
+        },
+        {
+          "id": "923727",
+          "transferSource": {
+            "competitionId": "RU1",
+            "countryId": 141,
+            "clubId": "2698",
+            "coachId": "2754"
+          },
+          "transferDestination": {
+            "competitionId": "RU1",
+            "countryId": 141,
+            "clubId": "964",
+            "coachId": "517"
+          },
+          "details": {
+            "playerId": "55854",
+            "date": "2013-08-05T00:00:00+02:00",
+            "contractUntilDate": "2017-06-30T00:00:00+02:00",
+            "seasonId": 2013,
+            "isPending": false,
+            "marketValue": {
+              "value": 10000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "10.00",
+                "suffix": "M"
+              }
+            },
+            "age": 26,
+            "fee": {
+              "value": 8000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "8.00",
+                "suffix": "M"
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 513,
+              "daysDisplay": "1 Year, 4 Months, 26 Days"
+            },
+            "season": {
+              "id": 2013,
+              "display": "13/14",
+              "cyclicalName": "2014",
+              "nonCyclicalName": "13/14"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/cristian-ansaldi/transfers/spieler/55854/transfer_id/923727"
+        },
+        {
+          "id": "170001",
+          "transferSource": {
+            "competitionId": "ARGC",
+            "countryId": 9,
+            "clubId": "1286",
+            "coachId": "4875"
+          },
+          "transferDestination": {
+            "competitionId": "RU1",
+            "countryId": 141,
+            "clubId": "2698",
+            "coachId": "2754"
+          },
+          "details": {
+            "playerId": "55854",
+            "date": "2008-01-06T00:00:00+01:00",
+            "contractUntilDate": "2014-12-31T00:00:00+01:00",
+            "seasonId": 2007,
+            "isPending": false,
+            "marketValue": {
+              "value": 1200000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "1.20",
+                "suffix": "M"
+              }
+            },
+            "age": 21,
+            "fee": {
+              "value": 3600000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "3.60",
+                "suffix": "M"
+              }
+            },
+            "season": {
+              "id": 2007,
+              "display": "07/08",
+              "cyclicalName": "2008",
+              "nonCyclicalName": "07/08"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/cristian-ansaldi/transfers/spieler/55854/transfer_id/170001"
+        },
+        {
+          "id": "149585",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 9,
+            "clubId": "15107",
+            "coachId": "0"
+          },
+          "transferDestination": {
+            "competitionId": "ARGC",
+            "countryId": 9,
+            "clubId": "1286",
+            "coachId": "103429"
+          },
+          "details": {
+            "playerId": "55854",
+            "date": "2005-07-01T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2005,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 18,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2005,
+              "display": "05/06",
+              "cyclicalName": "2006",
+              "nonCyclicalName": "05/06"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/cristian-ansaldi/transfers/spieler/55854/transfer_id/149585"
+        }
+      ],
+      "pending": [],
+      "url": "",
+      "feeSum": {
+        "value": 32250000,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "32.25",
+          "suffix": "M"
+        }
+      },
+      "averageAge": 39,
+      "totalMarketValue": {
+        "value": 0,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "0.00",
+          "suffix": ""
+        }
+      }
+    },
+    "clubIds": [
+      "130",
+      "123",
+      "416",
+      "46",
+      "252",
+      "964",
+      "13",
+      "2698",
+      "1286",
+      "15107"
+    ],
+    "coachIds": [
+      "19635",
+      "16508",
+      "3517",
+      "1933",
+      "517",
+      "3896",
+      "524",
+      "805",
+      "3436",
+      "1696",
+      "2868",
+      "2754",
+      "4875",
+      "103429"
+    ],
+    "competitionIds": [
+      "IT1",
+      "IT2",
+      "RU1",
+      "ES1",
+      "ARGC"
+    ],
+    "mostRecentTransfer": {
+      "id": "5013998",
+      "transferSource": {
+        "competitionId": "IT1",
+        "countryId": 75,
+        "clubId": "130",
+        "coachId": "19635"
+      },
+      "transferDestination": {
+        "competitionId": "",
+        "countryId": 0,
+        "clubId": "123",
+        "coachId": "0"
+      },
+      "details": {
+        "playerId": "55854",
+        "date": "2024-07-01T00:00:00+02:00",
+        "contractUntilDate": null,
+        "seasonId": 2024,
+        "isPending": false,
+        "marketValue": {
+          "value": 250000,
+          "currency": "EUR",
+          "compact": {
+            "prefix": "€",
+            "content": "250.00",
+            "suffix": "K"
+          }
+        },
+        "age": 37,
+        "fee": {
+          "value": null,
+          "currency": "",
+          "compact": {
+            "prefix": "",
+            "content": "-",
+            "suffix": ""
+          }
+        },
+        "season": {
+          "id": 2024,
+          "display": "24/25",
+          "cyclicalName": "2025",
+          "nonCyclicalName": "24/25"
+        }
+      },
+      "typeDetails": {
+        "type": "STANDARD",
+        "name": "",
+        "feeDescription": ""
+      },
+      "relativeUrl": "/cristian-ansaldi/transfers/spieler/55854/transfer_id/5013998"
+    }
+  }
+}

@@ -1,0 +1,529 @@
+{
+  "success": true,
+  "message": "OK",
+  "data": {
+    "playerId": "64134",
+    "history": {
+      "terminated": [
+        {
+          "id": "3901953",
+          "transferSource": {
+            "competitionId": "ES1",
+            "countryId": 157,
+            "clubId": "940",
+            "coachId": "38808"
+          },
+          "transferDestination": {
+            "competitionId": "MEXA",
+            "countryId": 110,
+            "clubId": "3631",
+            "coachId": "53794"
+          },
+          "details": {
+            "playerId": "64134",
+            "date": "2022-07-01T00:00:00+02:00",
+            "contractUntilDate": "2025-06-30T00:00:00+02:00",
+            "seasonId": 2022,
+            "isPending": false,
+            "marketValue": {
+              "value": 4000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "4.00",
+                "suffix": "M"
+              }
+            },
+            "age": 30,
+            "fee": {
+              "value": 3000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "3.00",
+                "suffix": "M"
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 364,
+              "daysDisplay": "11 Months, 29 Days"
+            },
+            "season": {
+              "id": 2022,
+              "display": "22/23",
+              "cyclicalName": "2023",
+              "nonCyclicalName": "22/23"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/nestor-araujo/transfers/spieler/64134/transfer_id/3901953"
+        },
+        {
+          "id": "2133864",
+          "transferSource": {
+            "competitionId": "MEXA",
+            "countryId": 110,
+            "clubId": "1403",
+            "coachId": "5977"
+          },
+          "transferDestination": {
+            "competitionId": "ES1",
+            "countryId": 157,
+            "clubId": "940",
+            "coachId": "4882"
+          },
+          "details": {
+            "playerId": "64134",
+            "date": "2018-07-01T00:00:00+02:00",
+            "contractUntilDate": "2023-06-30T00:00:00+02:00",
+            "seasonId": 2018,
+            "isPending": false,
+            "marketValue": {
+              "value": 2800000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "2.80",
+                "suffix": "M"
+              }
+            },
+            "age": 26,
+            "fee": {
+              "value": 7000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "7.00",
+                "suffix": "M"
+              }
+            },
+            "season": {
+              "id": 2018,
+              "display": "18/19",
+              "cyclicalName": "2019",
+              "nonCyclicalName": "18/19"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/nestor-araujo/transfers/spieler/64134/transfer_id/2133864"
+        },
+        {
+          "id": "1970400",
+          "transferSource": {
+            "competitionId": "MEXA",
+            "countryId": 110,
+            "clubId": "3711",
+            "coachId": "3718"
+          },
+          "transferDestination": {
+            "competitionId": "MEXA",
+            "countryId": 110,
+            "clubId": "1403",
+            "coachId": "6175"
+          },
+          "details": {
+            "playerId": "64134",
+            "date": "2014-07-01T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2014,
+            "isPending": false,
+            "marketValue": {
+              "value": 1700000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "1.70",
+                "suffix": "M"
+              }
+            },
+            "age": 22,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "?",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2014,
+              "display": "14/15",
+              "cyclicalName": "2015",
+              "nonCyclicalName": "14/15"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/nestor-araujo/transfers/spieler/64134/transfer_id/1970400"
+        },
+        {
+          "id": "1970401",
+          "transferSource": {
+            "competitionId": "MEXA",
+            "countryId": 110,
+            "clubId": "1403",
+            "coachId": "6175"
+          },
+          "transferDestination": {
+            "competitionId": "MEXA",
+            "countryId": 110,
+            "clubId": "3711",
+            "coachId": "3718"
+          },
+          "details": {
+            "playerId": "64134",
+            "date": "2014-06-30T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2013,
+            "isPending": false,
+            "marketValue": {
+              "value": 1700000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "1.70",
+                "suffix": "M"
+              }
+            },
+            "age": 22,
+            "remainingContractPeriod": {
+              "days": 0,
+              "daysDisplay": "Unknown"
+            },
+            "season": {
+              "id": 2013,
+              "display": "13/14",
+              "cyclicalName": "2014",
+              "nonCyclicalName": "13/14"
+            }
+          },
+          "typeDetails": {
+            "type": "RETURNED_FROM_PREVIOUS_LOAN",
+            "name": "End of loan",
+            "feeDescription": "End of loan"
+          },
+          "relativeUrl": "/nestor-araujo/transfers/spieler/64134/transfer_id/1970401"
+        },
+        {
+          "id": "881894",
+          "transferSource": {
+            "competitionId": "MEXA",
+            "countryId": 110,
+            "clubId": "3711",
+            "coachId": "14035"
+          },
+          "transferDestination": {
+            "competitionId": "MEXA",
+            "countryId": 110,
+            "clubId": "1403",
+            "coachId": "6175"
+          },
+          "details": {
+            "playerId": "64134",
+            "date": "2013-07-01T00:00:00+02:00",
+            "contractUntilDate": "2014-06-30T00:00:00+02:00",
+            "seasonId": 2013,
+            "isPending": false,
+            "marketValue": {
+              "value": 1500000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "1.50",
+                "suffix": "M"
+              }
+            },
+            "age": 21,
+            "season": {
+              "id": 2013,
+              "display": "13/14",
+              "cyclicalName": "2014",
+              "nonCyclicalName": "13/14"
+            }
+          },
+          "typeDetails": {
+            "type": "ACTIVE_LOAN_TRANSFER",
+            "name": "loan transfer",
+            "feeDescription": "loan transfer"
+          },
+          "relativeUrl": "/nestor-araujo/transfers/spieler/64134/transfer_id/881894"
+        },
+        {
+          "id": "451111",
+          "transferSource": {
+            "competitionId": "M20C",
+            "countryId": 110,
+            "clubId": "25928",
+            "coachId": "34231"
+          },
+          "transferDestination": {
+            "competitionId": "MEXA",
+            "countryId": 110,
+            "clubId": "3711",
+            "coachId": "5101"
+          },
+          "details": {
+            "playerId": "64134",
+            "date": "2010-07-01T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2010,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 18,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2010,
+              "display": "10/11",
+              "cyclicalName": "2011",
+              "nonCyclicalName": "10/11"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/nestor-araujo/transfers/spieler/64134/transfer_id/451111"
+        },
+        {
+          "id": "4504587",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 110,
+            "clubId": "13355",
+            "coachId": "0"
+          },
+          "transferDestination": {
+            "competitionId": "M20H",
+            "countryId": 110,
+            "clubId": "25928",
+            "coachId": "34231"
+          },
+          "details": {
+            "playerId": "64134",
+            "date": "2009-07-01T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2009,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 17,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2009,
+              "display": "09/10",
+              "cyclicalName": "2010",
+              "nonCyclicalName": "09/10"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/nestor-araujo/transfers/spieler/64134/transfer_id/4504587"
+        },
+        {
+          "id": "4504588",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 110,
+            "clubId": "105709",
+            "coachId": "0"
+          },
+          "transferDestination": {
+            "competitionId": "",
+            "countryId": 110,
+            "clubId": "13355",
+            "coachId": "0"
+          },
+          "details": {
+            "playerId": "64134",
+            "date": "2008-07-01T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2008,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 16,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2008,
+              "display": "08/09",
+              "cyclicalName": "2009",
+              "nonCyclicalName": "08/09"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/nestor-araujo/transfers/spieler/64134/transfer_id/4504588"
+        }
+      ],
+      "pending": [],
+      "url": "",
+      "feeSum": {
+        "value": 10000000,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "10.00",
+          "suffix": "M"
+        }
+      },
+      "averageAge": 34,
+      "totalMarketValue": {
+        "value": 400000,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "400.00",
+          "suffix": "K"
+        }
+      }
+    },
+    "clubIds": [
+      "940",
+      "3631",
+      "1403",
+      "3711",
+      "25928",
+      "13355",
+      "105709"
+    ],
+    "coachIds": [
+      "38808",
+      "53794",
+      "5977",
+      "4882",
+      "3718",
+      "6175",
+      "14035",
+      "34231",
+      "5101"
+    ],
+    "competitionIds": [
+      "ES1",
+      "MEXA",
+      "M20C",
+      "M20H"
+    ],
+    "mostRecentTransfer": {
+      "id": "3901953",
+      "transferSource": {
+        "competitionId": "ES1",
+        "countryId": 157,
+        "clubId": "940",
+        "coachId": "38808"
+      },
+      "transferDestination": {
+        "competitionId": "MEXA",
+        "countryId": 110,
+        "clubId": "3631",
+        "coachId": "53794"
+      },
+      "details": {
+        "playerId": "64134",
+        "date": "2022-07-01T00:00:00+02:00",
+        "contractUntilDate": "2025-06-30T00:00:00+02:00",
+        "seasonId": 2022,
+        "isPending": false,
+        "marketValue": {
+          "value": 4000000,
+          "currency": "EUR",
+          "compact": {
+            "prefix": "€",
+            "content": "4.00",
+            "suffix": "M"
+          }
+        },
+        "age": 30,
+        "fee": {
+          "value": 3000000,
+          "currency": "EUR",
+          "compact": {
+            "prefix": "€",
+            "content": "3.00",
+            "suffix": "M"
+          }
+        },
+        "remainingContractPeriod": {
+          "days": 364,
+          "daysDisplay": "11 Months, 29 Days"
+        },
+        "season": {
+          "id": 2022,
+          "display": "22/23",
+          "cyclicalName": "2023",
+          "nonCyclicalName": "22/23"
+        }
+      },
+      "typeDetails": {
+        "type": "STANDARD",
+        "name": "",
+        "feeDescription": ""
+      },
+      "relativeUrl": "/nestor-araujo/transfers/spieler/64134/transfer_id/3901953"
+    }
+  }
+}

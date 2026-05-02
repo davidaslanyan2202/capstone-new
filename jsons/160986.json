@@ -1,0 +1,777 @@
+{
+  "success": true,
+  "message": "OK",
+  "data": {
+    "playerId": "160986",
+    "history": {
+      "terminated": [
+        {
+          "id": "2531520",
+          "transferSource": {
+            "competitionId": "IT1",
+            "countryId": 75,
+            "clubId": "276",
+            "coachId": "16508"
+          },
+          "transferDestination": {
+            "competitionId": "IT2",
+            "countryId": 75,
+            "clubId": "2239",
+            "coachId": "16377"
+          },
+          "details": {
+            "playerId": "160986",
+            "date": "2019-08-17T00:00:00+02:00",
+            "contractUntilDate": "2026-06-30T00:00:00+02:00",
+            "seasonId": 2019,
+            "isPending": false,
+            "marketValue": {
+              "value": 800000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "800.00",
+                "suffix": "K"
+              }
+            },
+            "age": 26,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "Free Transfer",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2019,
+              "display": "19/20",
+              "cyclicalName": "2020",
+              "nonCyclicalName": "19/20"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/matteo-bianchetti/transfers/spieler/160986/transfer_id/2531520"
+        },
+        {
+          "id": "1183484",
+          "transferSource": {
+            "competitionId": "IT2",
+            "countryId": 75,
+            "clubId": "3522",
+            "coachId": "5197"
+          },
+          "transferDestination": {
+            "competitionId": "IT1",
+            "countryId": 75,
+            "clubId": "276",
+            "coachId": "1294"
+          },
+          "details": {
+            "playerId": "160986",
+            "date": "2015-06-30T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2014,
+            "isPending": false,
+            "marketValue": {
+              "value": 1400000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "1.40",
+                "suffix": "M"
+              }
+            },
+            "age": 22,
+            "remainingContractPeriod": {
+              "days": 0,
+              "daysDisplay": "Unknown"
+            },
+            "season": {
+              "id": 2014,
+              "display": "14/15",
+              "cyclicalName": "2015",
+              "nonCyclicalName": "14/15"
+            }
+          },
+          "typeDetails": {
+            "type": "RETURNED_FROM_PREVIOUS_LOAN",
+            "name": "End of loan",
+            "feeDescription": "End of loan"
+          },
+          "relativeUrl": "/matteo-bianchetti/transfers/spieler/160986/transfer_id/1183484"
+        },
+        {
+          "id": "1183483",
+          "transferSource": {
+            "competitionId": "IT1",
+            "countryId": 75,
+            "clubId": "276",
+            "coachId": "1294"
+          },
+          "transferDestination": {
+            "competitionId": "IT2",
+            "countryId": 75,
+            "clubId": "3522",
+            "coachId": "5197"
+          },
+          "details": {
+            "playerId": "160986",
+            "date": "2015-01-29T00:00:00+01:00",
+            "contractUntilDate": "2015-06-30T00:00:00+02:00",
+            "seasonId": 2014,
+            "isPending": false,
+            "marketValue": {
+              "value": 1200000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "1.20",
+                "suffix": "M"
+              }
+            },
+            "age": 21,
+            "season": {
+              "id": 2014,
+              "display": "14/15",
+              "cyclicalName": "2015",
+              "nonCyclicalName": "14/15"
+            }
+          },
+          "typeDetails": {
+            "type": "ACTIVE_LOAN_TRANSFER",
+            "name": "loan transfer",
+            "feeDescription": "loan transfer"
+          },
+          "relativeUrl": "/matteo-bianchetti/transfers/spieler/160986/transfer_id/1183483"
+        },
+        {
+          "id": "1109216",
+          "transferSource": {
+            "competitionId": "IT1",
+            "countryId": 75,
+            "clubId": "749",
+            "coachId": "10073"
+          },
+          "transferDestination": {
+            "competitionId": "IT1",
+            "countryId": 75,
+            "clubId": "276",
+            "coachId": "1294"
+          },
+          "details": {
+            "playerId": "160986",
+            "date": "2015-01-28T00:00:00+01:00",
+            "contractUntilDate": null,
+            "seasonId": 2014,
+            "isPending": false,
+            "marketValue": {
+              "value": 1200000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "1.20",
+                "suffix": "M"
+              }
+            },
+            "age": 21,
+            "remainingContractPeriod": {
+              "days": 153,
+              "daysDisplay": "5 Months, 2 Days"
+            },
+            "season": {
+              "id": 2014,
+              "display": "14/15",
+              "cyclicalName": "2015",
+              "nonCyclicalName": "14/15"
+            }
+          },
+          "typeDetails": {
+            "type": "RETURNED_FROM_PREVIOUS_LOAN",
+            "name": "End of loan",
+            "feeDescription": "End of loan"
+          },
+          "relativeUrl": "/matteo-bianchetti/transfers/spieler/160986/transfer_id/1109216"
+        },
+        {
+          "id": "1109215",
+          "transferSource": {
+            "competitionId": "IT1",
+            "countryId": 75,
+            "clubId": "276",
+            "coachId": "1294"
+          },
+          "transferDestination": {
+            "competitionId": "IT1",
+            "countryId": 75,
+            "clubId": "749",
+            "coachId": "10073"
+          },
+          "details": {
+            "playerId": "160986",
+            "date": "2014-08-08T00:00:00+02:00",
+            "contractUntilDate": "2015-06-30T00:00:00+02:00",
+            "seasonId": 2014,
+            "isPending": false,
+            "marketValue": {
+              "value": 1400000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "1.40",
+                "suffix": "M"
+              }
+            },
+            "age": 21,
+            "season": {
+              "id": 2014,
+              "display": "14/15",
+              "cyclicalName": "2015",
+              "nonCyclicalName": "14/15"
+            }
+          },
+          "typeDetails": {
+            "type": "ACTIVE_LOAN_TRANSFER",
+            "name": "loan transfer",
+            "feeDescription": "loan transfer"
+          },
+          "relativeUrl": "/matteo-bianchetti/transfers/spieler/160986/transfer_id/1109215"
+        },
+        {
+          "id": "995000",
+          "transferSource": {
+            "competitionId": "IT2",
+            "countryId": 75,
+            "clubId": "3522",
+            "coachId": "0"
+          },
+          "transferDestination": {
+            "competitionId": "IT1",
+            "countryId": 75,
+            "clubId": "276",
+            "coachId": "1294"
+          },
+          "details": {
+            "playerId": "160986",
+            "date": "2014-06-30T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2013,
+            "isPending": false,
+            "marketValue": {
+              "value": 1000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "1.00",
+                "suffix": "M"
+              }
+            },
+            "age": 21,
+            "season": {
+              "id": 2013,
+              "display": "13/14",
+              "cyclicalName": "2014",
+              "nonCyclicalName": "13/14"
+            }
+          },
+          "typeDetails": {
+            "type": "RETURNED_FROM_PREVIOUS_LOAN",
+            "name": "End of loan",
+            "feeDescription": "End of loan"
+          },
+          "relativeUrl": "/matteo-bianchetti/transfers/spieler/160986/transfer_id/995000"
+        },
+        {
+          "id": "994999",
+          "transferSource": {
+            "competitionId": "IT1",
+            "countryId": 75,
+            "clubId": "276",
+            "coachId": "1294"
+          },
+          "transferDestination": {
+            "competitionId": "IT2",
+            "countryId": 75,
+            "clubId": "3522",
+            "coachId": "12602"
+          },
+          "details": {
+            "playerId": "160986",
+            "date": "2014-01-07T00:00:00+01:00",
+            "contractUntilDate": null,
+            "seasonId": 2013,
+            "isPending": false,
+            "marketValue": {
+              "value": 1000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "1.00",
+                "suffix": "M"
+              }
+            },
+            "age": 20,
+            "remainingContractPeriod": {
+              "days": 2000,
+              "daysDisplay": "5 Years, 5 Months, 23 Days"
+            },
+            "season": {
+              "id": 2013,
+              "display": "13/14",
+              "cyclicalName": "2014",
+              "nonCyclicalName": "13/14"
+            }
+          },
+          "typeDetails": {
+            "type": "ACTIVE_LOAN_TRANSFER",
+            "name": "loan transfer",
+            "feeDescription": "loan transfer"
+          },
+          "relativeUrl": "/matteo-bianchetti/transfers/spieler/160986/transfer_id/994999"
+        },
+        {
+          "id": "879835",
+          "transferSource": {
+            "competitionId": "IT1",
+            "countryId": 75,
+            "clubId": "46",
+            "coachId": "1933"
+          },
+          "transferDestination": {
+            "competitionId": "IT1",
+            "countryId": 75,
+            "clubId": "276",
+            "coachId": "1294"
+          },
+          "details": {
+            "playerId": "160986",
+            "date": "2013-07-01T00:00:00+02:00",
+            "contractUntilDate": "2019-06-30T00:00:00+02:00",
+            "seasonId": 2013,
+            "isPending": false,
+            "marketValue": {
+              "value": 1000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "1.00",
+                "suffix": "M"
+              }
+            },
+            "age": 20,
+            "fee": {
+              "value": 1600000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "1.60",
+                "suffix": "M"
+              }
+            },
+            "season": {
+              "id": 2013,
+              "display": "13/14",
+              "cyclicalName": "2014",
+              "nonCyclicalName": "13/14"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/matteo-bianchetti/transfers/spieler/160986/transfer_id/879835"
+        },
+        {
+          "id": "826798",
+          "transferSource": {
+            "competitionId": "IT2",
+            "countryId": 75,
+            "clubId": "276",
+            "coachId": "1294"
+          },
+          "transferDestination": {
+            "competitionId": "IT1",
+            "countryId": 75,
+            "clubId": "46",
+            "coachId": "19857"
+          },
+          "details": {
+            "playerId": "160986",
+            "date": "2013-06-30T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2012,
+            "isPending": false,
+            "marketValue": {
+              "value": 1000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "1.00",
+                "suffix": "M"
+              }
+            },
+            "age": 20,
+            "season": {
+              "id": 2012,
+              "display": "12/13",
+              "cyclicalName": "2013",
+              "nonCyclicalName": "12/13"
+            }
+          },
+          "typeDetails": {
+            "type": "RETURNED_FROM_PREVIOUS_LOAN",
+            "name": "End of loan",
+            "feeDescription": "End of loan"
+          },
+          "relativeUrl": "/matteo-bianchetti/transfers/spieler/160986/transfer_id/826798"
+        },
+        {
+          "id": "826797",
+          "transferSource": {
+            "competitionId": "IT1",
+            "countryId": 75,
+            "clubId": "46",
+            "coachId": "19857"
+          },
+          "transferDestination": {
+            "competitionId": "IT2",
+            "countryId": 75,
+            "clubId": "276",
+            "coachId": "1294"
+          },
+          "details": {
+            "playerId": "160986",
+            "date": "2013-01-23T00:00:00+01:00",
+            "contractUntilDate": null,
+            "seasonId": 2012,
+            "isPending": false,
+            "marketValue": {
+              "value": 400000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "400.00",
+                "suffix": "K"
+              }
+            },
+            "age": 19,
+            "season": {
+              "id": 2012,
+              "display": "12/13",
+              "cyclicalName": "2013",
+              "nonCyclicalName": "12/13"
+            }
+          },
+          "typeDetails": {
+            "type": "ACTIVE_LOAN_TRANSFER",
+            "name": "loan transfer",
+            "feeDescription": "loan transfer"
+          },
+          "relativeUrl": "/matteo-bianchetti/transfers/spieler/160986/transfer_id/826797"
+        },
+        {
+          "id": "739937",
+          "transferSource": {
+            "competitionId": "ITJ2",
+            "countryId": 75,
+            "clubId": "5380",
+            "coachId": "8653"
+          },
+          "transferDestination": {
+            "competitionId": "IT1",
+            "countryId": 75,
+            "clubId": "46",
+            "coachId": "19857"
+          },
+          "details": {
+            "playerId": "160986",
+            "date": "2012-07-01T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2012,
+            "isPending": false,
+            "marketValue": {
+              "value": 250000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "250.00",
+                "suffix": "K"
+              }
+            },
+            "age": 19,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2012,
+              "display": "12/13",
+              "cyclicalName": "2013",
+              "nonCyclicalName": "12/13"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/matteo-bianchetti/transfers/spieler/160986/transfer_id/739937"
+        },
+        {
+          "id": "506143",
+          "transferSource": {
+            "competitionId": "ITJ2",
+            "countryId": 75,
+            "clubId": "26331",
+            "coachId": "12602"
+          },
+          "transferDestination": {
+            "competitionId": "ITJ2",
+            "countryId": 75,
+            "clubId": "5380",
+            "coachId": "0"
+          },
+          "details": {
+            "playerId": "160986",
+            "date": "2011-06-30T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2010,
+            "isPending": false,
+            "marketValue": {
+              "value": 300000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "300.00",
+                "suffix": "K"
+              }
+            },
+            "age": 18,
+            "season": {
+              "id": 2010,
+              "display": "10/11",
+              "cyclicalName": "2011",
+              "nonCyclicalName": "10/11"
+            }
+          },
+          "typeDetails": {
+            "type": "RETURNED_FROM_PREVIOUS_LOAN",
+            "name": "End of loan",
+            "feeDescription": "End of loan"
+          },
+          "relativeUrl": "/matteo-bianchetti/transfers/spieler/160986/transfer_id/506143"
+        },
+        {
+          "id": "506144",
+          "transferSource": {
+            "competitionId": "ITJ2",
+            "countryId": 75,
+            "clubId": "5380",
+            "coachId": "2263"
+          },
+          "transferDestination": {
+            "competitionId": "ITJ2",
+            "countryId": 75,
+            "clubId": "26331",
+            "coachId": "12602"
+          },
+          "details": {
+            "playerId": "160986",
+            "date": "2010-08-01T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2010,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 17,
+            "season": {
+              "id": 2010,
+              "display": "10/11",
+              "cyclicalName": "2011",
+              "nonCyclicalName": "10/11"
+            }
+          },
+          "typeDetails": {
+            "type": "ACTIVE_LOAN_TRANSFER",
+            "name": "loan transfer",
+            "feeDescription": "loan transfer"
+          },
+          "relativeUrl": "/matteo-bianchetti/transfers/spieler/160986/transfer_id/506144"
+        },
+        {
+          "id": "1326731",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 75,
+            "clubId": "6975",
+            "coachId": "0"
+          },
+          "transferDestination": {
+            "competitionId": "ITJ2",
+            "countryId": 75,
+            "clubId": "5380",
+            "coachId": "12925"
+          },
+          "details": {
+            "playerId": "160986",
+            "date": "2007-07-01T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2007,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 14,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "?",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2007,
+              "display": "07/08",
+              "cyclicalName": "2008",
+              "nonCyclicalName": "07/08"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/matteo-bianchetti/transfers/spieler/160986/transfer_id/1326731"
+        }
+      ],
+      "pending": [],
+      "url": "",
+      "feeSum": {
+        "value": 1600000,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "1.60",
+          "suffix": "M"
+        }
+      },
+      "averageAge": 33,
+      "totalMarketValue": {
+        "value": 800000,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "800.00",
+          "suffix": "K"
+        }
+      }
+    },
+    "clubIds": [
+      "276",
+      "2239",
+      "3522",
+      "749",
+      "46",
+      "5380",
+      "26331",
+      "6975"
+    ],
+    "coachIds": [
+      "16508",
+      "16377",
+      "5197",
+      "1294",
+      "10073",
+      "12602",
+      "1933",
+      "19857",
+      "8653",
+      "2263",
+      "12925"
+    ],
+    "competitionIds": [
+      "IT1",
+      "IT2",
+      "ITJ2"
+    ],
+    "mostRecentTransfer": {
+      "id": "2531520",
+      "transferSource": {
+        "competitionId": "IT1",
+        "countryId": 75,
+        "clubId": "276",
+        "coachId": "16508"
+      },
+      "transferDestination": {
+        "competitionId": "IT2",
+        "countryId": 75,
+        "clubId": "2239",
+        "coachId": "16377"
+      },
+      "details": {
+        "playerId": "160986",
+        "date": "2019-08-17T00:00:00+02:00",
+        "contractUntilDate": "2026-06-30T00:00:00+02:00",
+        "seasonId": 2019,
+        "isPending": false,
+        "marketValue": {
+          "value": 800000,
+          "currency": "EUR",
+          "compact": {
+            "prefix": "€",
+            "content": "800.00",
+            "suffix": "K"
+          }
+        },
+        "age": 26,
+        "fee": {
+          "value": null,
+          "currency": "",
+          "compact": {
+            "prefix": "",
+            "content": "Free Transfer",
+            "suffix": ""
+          }
+        },
+        "season": {
+          "id": 2019,
+          "display": "19/20",
+          "cyclicalName": "2020",
+          "nonCyclicalName": "19/20"
+        }
+      },
+      "typeDetails": {
+        "type": "STANDARD",
+        "name": "",
+        "feeDescription": ""
+      },
+      "relativeUrl": "/matteo-bianchetti/transfers/spieler/160986/transfer_id/2531520"
+    }
+  }
+}

@@ -1,0 +1,530 @@
+{
+  "success": true,
+  "message": "OK",
+  "data": {
+    "playerId": "354666",
+    "history": {
+      "terminated": [
+        {
+          "id": "6221359",
+          "transferSource": {
+            "competitionId": "MEXA",
+            "countryId": 110,
+            "clubId": "13353",
+            "coachId": "69287"
+          },
+          "transferDestination": {
+            "competitionId": "WER1",
+            "countryId": 18,
+            "clubId": "36596",
+            "coachId": "57532"
+          },
+          "details": {
+            "playerId": "354666",
+            "date": "2026-03-09T00:00:00+01:00",
+            "contractUntilDate": "2026-12-31T00:00:00+01:00",
+            "seasonId": 2025,
+            "isPending": false,
+            "marketValue": {
+              "value": 3200000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "3.20",
+                "suffix": "M"
+              }
+            },
+            "age": 28,
+            "season": {
+              "id": 2025,
+              "display": "25/26",
+              "cyclicalName": "2026",
+              "nonCyclicalName": "25/26"
+            }
+          },
+          "typeDetails": {
+            "type": "ACTIVE_LOAN_TRANSFER",
+            "name": "loan transfer",
+            "feeDescription": "loan transfer"
+          },
+          "relativeUrl": "/shamar-nicholson/transfers/spieler/354666/transfer_id/6221359"
+        },
+        {
+          "id": "5497239",
+          "transferSource": {
+            "competitionId": "RU1",
+            "countryId": 141,
+            "clubId": "232",
+            "coachId": "35560"
+          },
+          "transferDestination": {
+            "competitionId": "MEXA",
+            "countryId": 110,
+            "clubId": "13353",
+            "coachId": "6359"
+          },
+          "details": {
+            "playerId": "354666",
+            "date": "2025-02-02T00:00:00+01:00",
+            "contractUntilDate": null,
+            "seasonId": 2024,
+            "isPending": false,
+            "marketValue": {
+              "value": 4000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "4.00",
+                "suffix": "M"
+              }
+            },
+            "age": 27,
+            "fee": {
+              "value": 1600000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "1.60",
+                "suffix": "M"
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 513,
+              "daysDisplay": "1 Year, 4 Months, 28 Days"
+            },
+            "season": {
+              "id": 2024,
+              "display": "24/25",
+              "cyclicalName": "2025",
+              "nonCyclicalName": "24/25"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/shamar-nicholson/transfers/spieler/354666/transfer_id/5497239"
+        },
+        {
+          "id": "4623662",
+          "transferSource": {
+            "competitionId": "FR1",
+            "countryId": 50,
+            "clubId": "3524",
+            "coachId": "13916"
+          },
+          "transferDestination": {
+            "competitionId": "RU1",
+            "countryId": 141,
+            "clubId": "232",
+            "coachId": "0"
+          },
+          "details": {
+            "playerId": "354666",
+            "date": "2024-06-30T00:00:00+02:00",
+            "contractUntilDate": "2026-06-30T00:00:00+02:00",
+            "seasonId": 2023,
+            "isPending": false,
+            "marketValue": {
+              "value": 5000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "5.00",
+                "suffix": "M"
+              }
+            },
+            "age": 27,
+            "remainingContractPeriod": {
+              "days": 0,
+              "daysDisplay": "Unknown"
+            },
+            "season": {
+              "id": 2023,
+              "display": "23/24",
+              "cyclicalName": "2024",
+              "nonCyclicalName": "23/24"
+            }
+          },
+          "typeDetails": {
+            "type": "RETURNED_FROM_PREVIOUS_LOAN",
+            "name": "End of loan",
+            "feeDescription": "End of loan"
+          },
+          "relativeUrl": "/shamar-nicholson/transfers/spieler/354666/transfer_id/4623662"
+        },
+        {
+          "id": "4623661",
+          "transferSource": {
+            "competitionId": "RU1",
+            "countryId": 141,
+            "clubId": "232",
+            "coachId": "53943"
+          },
+          "transferDestination": {
+            "competitionId": "FR1",
+            "countryId": 50,
+            "clubId": "3524",
+            "coachId": "13916"
+          },
+          "details": {
+            "playerId": "354666",
+            "date": "2023-09-01T00:00:00+02:00",
+            "contractUntilDate": "2024-06-30T00:00:00+02:00",
+            "seasonId": 2023,
+            "isPending": false,
+            "marketValue": {
+              "value": 4500000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "4.50",
+                "suffix": "M"
+              }
+            },
+            "age": 26,
+            "fee": {
+              "value": 500000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "500.00",
+                "suffix": "K"
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 1033,
+              "daysDisplay": "2 Years, 9 Months, 29 Days"
+            },
+            "season": {
+              "id": 2023,
+              "display": "23/24",
+              "cyclicalName": "2024",
+              "nonCyclicalName": "23/24"
+            }
+          },
+          "typeDetails": {
+            "type": "ACTIVE_LOAN_TRANSFER",
+            "name": "loan transfer",
+            "feeDescription": "Loan fee"
+          },
+          "relativeUrl": "/shamar-nicholson/transfers/spieler/354666/transfer_id/4623661"
+        },
+        {
+          "id": "3663083",
+          "transferSource": {
+            "competitionId": "BE1",
+            "countryId": 19,
+            "clubId": "172",
+            "coachId": "54039"
+          },
+          "transferDestination": {
+            "competitionId": "RU1",
+            "countryId": 141,
+            "clubId": "232",
+            "coachId": "31876"
+          },
+          "details": {
+            "playerId": "354666",
+            "date": "2022-01-07T00:00:00+01:00",
+            "contractUntilDate": "2026-06-30T00:00:00+02:00",
+            "seasonId": 2021,
+            "isPending": false,
+            "marketValue": {
+              "value": 6500000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "6.50",
+                "suffix": "M"
+              }
+            },
+            "age": 24,
+            "fee": {
+              "value": 8000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "8.00",
+                "suffix": "M"
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 539,
+              "daysDisplay": "1 Year, 5 Months, 23 Days"
+            },
+            "season": {
+              "id": 2021,
+              "display": "21/22",
+              "cyclicalName": "2022",
+              "nonCyclicalName": "21/22"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/shamar-nicholson/transfers/spieler/354666/transfer_id/3663083"
+        },
+        {
+          "id": "2604685",
+          "transferSource": {
+            "competitionId": "SL1",
+            "countryId": 155,
+            "clubId": "6248",
+            "coachId": "34952"
+          },
+          "transferDestination": {
+            "competitionId": "BE1",
+            "countryId": 19,
+            "clubId": "172",
+            "coachId": "45182"
+          },
+          "details": {
+            "playerId": "354666",
+            "date": "2019-08-13T00:00:00+02:00",
+            "contractUntilDate": "2023-06-30T00:00:00+02:00",
+            "seasonId": 2019,
+            "isPending": false,
+            "marketValue": {
+              "value": 700000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "700.00",
+                "suffix": "K"
+              }
+            },
+            "age": 22,
+            "fee": {
+              "value": 1500000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "1.50",
+                "suffix": "M"
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 292,
+              "daysDisplay": "9 Months, 18 Days"
+            },
+            "season": {
+              "id": 2019,
+              "display": "19/20",
+              "cyclicalName": "2020",
+              "nonCyclicalName": "19/20"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/shamar-nicholson/transfers/spieler/354666/transfer_id/2604685"
+        },
+        {
+          "id": "1901317",
+          "transferSource": {
+            "competitionId": "JPL1",
+            "countryId": 76,
+            "clubId": "23504",
+            "coachId": "91346"
+          },
+          "transferDestination": {
+            "competitionId": "SL1",
+            "countryId": 155,
+            "clubId": "6248",
+            "coachId": "34952"
+          },
+          "details": {
+            "playerId": "354666",
+            "date": "2017-08-31T00:00:00+02:00",
+            "contractUntilDate": "2020-05-31T00:00:00+02:00",
+            "seasonId": 2017,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 20,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "Free Transfer",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2017,
+              "display": "17/18",
+              "cyclicalName": "2018",
+              "nonCyclicalName": "17/18"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/shamar-nicholson/transfers/spieler/354666/transfer_id/1901317"
+        }
+      ],
+      "pending": [
+        {
+          "id": "6221360",
+          "transferSource": {
+            "competitionId": "WER1",
+            "countryId": 18,
+            "clubId": "36596",
+            "coachId": "17565"
+          },
+          "transferDestination": {
+            "competitionId": "MEXA",
+            "countryId": 110,
+            "clubId": "13353",
+            "coachId": "69287"
+          },
+          "details": {
+            "playerId": "354666",
+            "date": "2026-12-31T00:00:00+01:00",
+            "contractUntilDate": null,
+            "seasonId": 2026,
+            "isPending": true,
+            "marketValue": {
+              "value": 3200000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "3.20",
+                "suffix": "M"
+              }
+            },
+            "age": 29,
+            "remainingContractPeriod": {
+              "days": 0,
+              "daysDisplay": "Unknown"
+            },
+            "season": {
+              "id": 2026,
+              "display": "26/27",
+              "cyclicalName": "2027",
+              "nonCyclicalName": "26/27"
+            }
+          },
+          "typeDetails": {
+            "type": "RETURNED_FROM_PREVIOUS_LOAN",
+            "name": "End of loan",
+            "feeDescription": "End of loan"
+          },
+          "relativeUrl": "/shamar-nicholson/transfers/spieler/354666/transfer_id/6221360"
+        }
+      ],
+      "url": "",
+      "feeSum": {
+        "value": 11600000,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "11.60",
+          "suffix": "M"
+        }
+      },
+      "averageAge": 29,
+      "totalMarketValue": {
+        "value": 3200000,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "3.20",
+          "suffix": "M"
+        }
+      }
+    },
+    "clubIds": [
+      "36596",
+      "13353",
+      "232",
+      "3524",
+      "172",
+      "6248",
+      "23504"
+    ],
+    "coachIds": [
+      "17565",
+      "69287",
+      "57532",
+      "35560",
+      "6359",
+      "13916",
+      "53943",
+      "54039",
+      "31876",
+      "34952",
+      "45182",
+      "91346"
+    ],
+    "competitionIds": [
+      "WER1",
+      "MEXA",
+      "RU1",
+      "FR1",
+      "BE1",
+      "SL1",
+      "JPL1"
+    ],
+    "mostRecentTransfer": {
+      "id": "6221359",
+      "transferSource": {
+        "competitionId": "MEXA",
+        "countryId": 110,
+        "clubId": "13353",
+        "coachId": "69287"
+      },
+      "transferDestination": {
+        "competitionId": "WER1",
+        "countryId": 18,
+        "clubId": "36596",
+        "coachId": "57532"
+      },
+      "details": {
+        "playerId": "354666",
+        "date": "2026-03-09T00:00:00+01:00",
+        "contractUntilDate": "2026-12-31T00:00:00+01:00",
+        "seasonId": 2025,
+        "isPending": false,
+        "marketValue": {
+          "value": 3200000,
+          "currency": "EUR",
+          "compact": {
+            "prefix": "€",
+            "content": "3.20",
+            "suffix": "M"
+          }
+        },
+        "age": 28,
+        "season": {
+          "id": 2025,
+          "display": "25/26",
+          "cyclicalName": "2026",
+          "nonCyclicalName": "25/26"
+        }
+      },
+      "typeDetails": {
+        "type": "ACTIVE_LOAN_TRANSFER",
+        "name": "loan transfer",
+        "feeDescription": "loan transfer"
+      },
+      "relativeUrl": "/shamar-nicholson/transfers/spieler/354666/transfer_id/6221359"
+    }
+  }
+}

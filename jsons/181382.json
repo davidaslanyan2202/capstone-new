@@ -1,0 +1,694 @@
+{
+  "success": true,
+  "message": "OK",
+  "data": {
+    "playerId": "181382",
+    "history": {
+      "terminated": [
+        {
+          "id": "4535368",
+          "transferSource": {
+            "competitionId": "IT1",
+            "countryId": 75,
+            "clubId": "252",
+            "coachId": "64045"
+          },
+          "transferDestination": {
+            "competitionId": "FR1",
+            "countryId": 50,
+            "clubId": "738",
+            "coachId": "23576"
+          },
+          "details": {
+            "playerId": "181382",
+            "date": "2023-07-26T00:00:00+02:00",
+            "contractUntilDate": "2026-06-30T00:00:00+02:00",
+            "seasonId": 2023,
+            "isPending": false,
+            "marketValue": {
+              "value": 1300000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "1.30",
+                "suffix": "M"
+              }
+            },
+            "age": 29,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "Free Transfer",
+                "suffix": ""
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 705,
+              "daysDisplay": "1 Year, 11 Months, 4 Days"
+            },
+            "season": {
+              "id": 2023,
+              "display": "23/24",
+              "cyclicalName": "2024",
+              "nonCyclicalName": "23/24"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/abdoulaye-toure/transfers/spieler/181382/transfer_id/4535368"
+        },
+        {
+          "id": "3706339",
+          "transferSource": {
+            "competitionId": "TR1",
+            "countryId": 174,
+            "clubId": "6646",
+            "coachId": "72485"
+          },
+          "transferDestination": {
+            "competitionId": "IT2",
+            "countryId": 75,
+            "clubId": "252",
+            "coachId": "26099"
+          },
+          "details": {
+            "playerId": "181382",
+            "date": "2022-06-30T00:00:00+02:00",
+            "contractUntilDate": "2025-06-30T00:00:00+02:00",
+            "seasonId": 2021,
+            "isPending": false,
+            "marketValue": {
+              "value": 2500000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "2.50",
+                "suffix": "M"
+              }
+            },
+            "age": 28,
+            "remainingContractPeriod": {
+              "days": 0,
+              "daysDisplay": "Unknown"
+            },
+            "season": {
+              "id": 2021,
+              "display": "21/22",
+              "cyclicalName": "2022",
+              "nonCyclicalName": "21/22"
+            }
+          },
+          "typeDetails": {
+            "type": "RETURNED_FROM_PREVIOUS_LOAN",
+            "name": "End of loan",
+            "feeDescription": "End of loan"
+          },
+          "relativeUrl": "/abdoulaye-toure/transfers/spieler/181382/transfer_id/3706339"
+        },
+        {
+          "id": "3706338",
+          "transferSource": {
+            "competitionId": "IT1",
+            "countryId": 75,
+            "clubId": "252",
+            "coachId": "26099"
+          },
+          "transferDestination": {
+            "competitionId": "TR1",
+            "countryId": 174,
+            "clubId": "6646",
+            "coachId": "72485"
+          },
+          "details": {
+            "playerId": "181382",
+            "date": "2022-01-21T00:00:00+01:00",
+            "contractUntilDate": "2022-06-30T00:00:00+02:00",
+            "seasonId": 2021,
+            "isPending": false,
+            "marketValue": {
+              "value": 3500000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "3.50",
+                "suffix": "M"
+              }
+            },
+            "age": 27,
+            "remainingContractPeriod": {
+              "days": 1256,
+              "daysDisplay": "3 Years, 5 Months, 9 Days"
+            },
+            "season": {
+              "id": 2021,
+              "display": "21/22",
+              "cyclicalName": "2022",
+              "nonCyclicalName": "21/22"
+            }
+          },
+          "typeDetails": {
+            "type": "ACTIVE_LOAN_TRANSFER",
+            "name": "loan transfer",
+            "feeDescription": "loan transfer"
+          },
+          "relativeUrl": "/abdoulaye-toure/transfers/spieler/181382/transfer_id/3706338"
+        },
+        {
+          "id": "3529432",
+          "transferSource": {
+            "competitionId": "FR1",
+            "countryId": 50,
+            "clubId": "995",
+            "coachId": "1224"
+          },
+          "transferDestination": {
+            "competitionId": "IT1",
+            "countryId": 75,
+            "clubId": "252",
+            "coachId": "3793"
+          },
+          "details": {
+            "playerId": "181382",
+            "date": "2021-08-31T00:00:00+02:00",
+            "contractUntilDate": "2025-06-30T00:00:00+02:00",
+            "seasonId": 2021,
+            "isPending": false,
+            "marketValue": {
+              "value": 4000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "4.00",
+                "suffix": "M"
+              }
+            },
+            "age": 27,
+            "fee": {
+              "value": 3500000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "3.50",
+                "suffix": "M"
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 303,
+              "daysDisplay": "9 Months, 30 Days"
+            },
+            "season": {
+              "id": 2021,
+              "display": "21/22",
+              "cyclicalName": "2022",
+              "nonCyclicalName": "21/22"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/abdoulaye-toure/transfers/spieler/181382/transfer_id/3529432"
+        },
+        {
+          "id": "1338207",
+          "transferSource": {
+            "competitionId": "FR3",
+            "countryId": 50,
+            "clubId": "9902",
+            "coachId": "83019"
+          },
+          "transferDestination": {
+            "competitionId": "FR1",
+            "countryId": 50,
+            "clubId": "995",
+            "coachId": "4002"
+          },
+          "details": {
+            "playerId": "181382",
+            "date": "2015-06-30T00:00:00+02:00",
+            "contractUntilDate": "2022-06-30T00:00:00+02:00",
+            "seasonId": 2014,
+            "isPending": false,
+            "marketValue": {
+              "value": 150000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "150.00",
+                "suffix": "K"
+              }
+            },
+            "age": 21,
+            "remainingContractPeriod": {
+              "days": 0,
+              "daysDisplay": "Unknown"
+            },
+            "season": {
+              "id": 2014,
+              "display": "14/15",
+              "cyclicalName": "2015",
+              "nonCyclicalName": "14/15"
+            }
+          },
+          "typeDetails": {
+            "type": "RETURNED_FROM_PREVIOUS_LOAN",
+            "name": "End of loan",
+            "feeDescription": "End of loan"
+          },
+          "relativeUrl": "/abdoulaye-toure/transfers/spieler/181382/transfer_id/1338207"
+        },
+        {
+          "id": "1178988",
+          "transferSource": {
+            "competitionId": "FR1",
+            "countryId": 50,
+            "clubId": "995",
+            "coachId": "4002"
+          },
+          "transferDestination": {
+            "competitionId": "FR3",
+            "countryId": 50,
+            "clubId": "9902",
+            "coachId": "24309"
+          },
+          "details": {
+            "playerId": "181382",
+            "date": "2015-01-13T00:00:00+01:00",
+            "contractUntilDate": "2015-06-30T00:00:00+02:00",
+            "seasonId": 2014,
+            "isPending": false,
+            "marketValue": {
+              "value": 150000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "150.00",
+                "suffix": "K"
+              }
+            },
+            "age": 20,
+            "remainingContractPeriod": {
+              "days": 2725,
+              "daysDisplay": "7 Years, 5 Months, 17 Days"
+            },
+            "season": {
+              "id": 2014,
+              "display": "14/15",
+              "cyclicalName": "2015",
+              "nonCyclicalName": "14/15"
+            }
+          },
+          "typeDetails": {
+            "type": "ACTIVE_LOAN_TRANSFER",
+            "name": "loan transfer",
+            "feeDescription": "loan transfer"
+          },
+          "relativeUrl": "/abdoulaye-toure/transfers/spieler/181382/transfer_id/1178988"
+        },
+        {
+          "id": "1801894",
+          "transferSource": {
+            "competitionId": "CN2D",
+            "countryId": 50,
+            "clubId": "10850",
+            "coachId": "85607"
+          },
+          "transferDestination": {
+            "competitionId": "FR1",
+            "countryId": 50,
+            "clubId": "995",
+            "coachId": "4002"
+          },
+          "details": {
+            "playerId": "181382",
+            "date": "2014-07-01T00:00:00+02:00",
+            "contractUntilDate": "2022-06-30T00:00:00+02:00",
+            "seasonId": 2014,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 20,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2014,
+              "display": "14/15",
+              "cyclicalName": "2015",
+              "nonCyclicalName": "14/15"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/abdoulaye-toure/transfers/spieler/181382/transfer_id/1801894"
+        },
+        {
+          "id": "788134",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 50,
+            "clubId": "10851",
+            "coachId": "85607"
+          },
+          "transferDestination": {
+            "competitionId": "C3HF",
+            "countryId": 50,
+            "clubId": "10850",
+            "coachId": "1225"
+          },
+          "details": {
+            "playerId": "181382",
+            "date": "2012-07-01T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2012,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 18,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2012,
+              "display": "12/13",
+              "cyclicalName": "2013",
+              "nonCyclicalName": "12/13"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/abdoulaye-toure/transfers/spieler/181382/transfer_id/788134"
+        },
+        {
+          "id": "6022982",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 50,
+            "clubId": "69157",
+            "coachId": "0"
+          },
+          "transferDestination": {
+            "competitionId": "",
+            "countryId": 50,
+            "clubId": "10851",
+            "coachId": "85607"
+          },
+          "details": {
+            "playerId": "181382",
+            "date": "2011-07-01T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2011,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 17,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2011,
+              "display": "11/12",
+              "cyclicalName": "2012",
+              "nonCyclicalName": "11/12"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/abdoulaye-toure/transfers/spieler/181382/transfer_id/6022982"
+        },
+        {
+          "id": "6022981",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 50,
+            "clubId": "85572",
+            "coachId": "0"
+          },
+          "transferDestination": {
+            "competitionId": "",
+            "countryId": 50,
+            "clubId": "69157",
+            "coachId": "0"
+          },
+          "details": {
+            "playerId": "181382",
+            "date": "2009-07-01T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2009,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 15,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2009,
+              "display": "09/10",
+              "cyclicalName": "2010",
+              "nonCyclicalName": "09/10"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/abdoulaye-toure/transfers/spieler/181382/transfer_id/6022981"
+        },
+        {
+          "id": "6022980",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 50,
+            "clubId": "108387",
+            "coachId": "0"
+          },
+          "transferDestination": {
+            "competitionId": "",
+            "countryId": 50,
+            "clubId": "85572",
+            "coachId": "0"
+          },
+          "details": {
+            "playerId": "181382",
+            "date": "2006-07-01T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2006,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 12,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "Free Transfer",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2006,
+              "display": "06/07",
+              "cyclicalName": "2007",
+              "nonCyclicalName": "06/07"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/abdoulaye-toure/transfers/spieler/181382/transfer_id/6022980"
+        }
+      ],
+      "pending": [],
+      "url": "",
+      "feeSum": {
+        "value": 3500000,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "3.50",
+          "suffix": "M"
+        }
+      },
+      "averageAge": 32,
+      "totalMarketValue": {
+        "value": 3000000,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "3.00",
+          "suffix": "M"
+        }
+      }
+    },
+    "clubIds": [
+      "252",
+      "738",
+      "6646",
+      "995",
+      "9902",
+      "10850",
+      "10851",
+      "69157",
+      "85572",
+      "108387"
+    ],
+    "coachIds": [
+      "64045",
+      "23576",
+      "72485",
+      "26099",
+      "1224",
+      "3793",
+      "83019",
+      "4002",
+      "24309",
+      "85607",
+      "1225"
+    ],
+    "competitionIds": [
+      "IT1",
+      "FR1",
+      "TR1",
+      "IT2",
+      "FR3",
+      "CN2D",
+      "C3HF"
+    ],
+    "mostRecentTransfer": {
+      "id": "4535368",
+      "transferSource": {
+        "competitionId": "IT1",
+        "countryId": 75,
+        "clubId": "252",
+        "coachId": "64045"
+      },
+      "transferDestination": {
+        "competitionId": "FR1",
+        "countryId": 50,
+        "clubId": "738",
+        "coachId": "23576"
+      },
+      "details": {
+        "playerId": "181382",
+        "date": "2023-07-26T00:00:00+02:00",
+        "contractUntilDate": "2026-06-30T00:00:00+02:00",
+        "seasonId": 2023,
+        "isPending": false,
+        "marketValue": {
+          "value": 1300000,
+          "currency": "EUR",
+          "compact": {
+            "prefix": "€",
+            "content": "1.30",
+            "suffix": "M"
+          }
+        },
+        "age": 29,
+        "fee": {
+          "value": null,
+          "currency": "",
+          "compact": {
+            "prefix": "",
+            "content": "Free Transfer",
+            "suffix": ""
+          }
+        },
+        "remainingContractPeriod": {
+          "days": 705,
+          "daysDisplay": "1 Year, 11 Months, 4 Days"
+        },
+        "season": {
+          "id": 2023,
+          "display": "23/24",
+          "cyclicalName": "2024",
+          "nonCyclicalName": "23/24"
+        }
+      },
+      "typeDetails": {
+        "type": "STANDARD",
+        "name": "",
+        "feeDescription": ""
+      },
+      "relativeUrl": "/abdoulaye-toure/transfers/spieler/181382/transfer_id/4535368"
+    }
+  }
+}

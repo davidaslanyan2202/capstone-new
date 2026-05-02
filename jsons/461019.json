@@ -1,0 +1,269 @@
+{
+  "success": true,
+  "message": "OK",
+  "data": {
+    "playerId": "461019",
+    "history": {
+      "terminated": [
+        {
+          "id": "3927406",
+          "transferSource": {
+            "competitionId": "IT2",
+            "countryId": 75,
+            "clubId": "4172",
+            "coachId": "3018"
+          },
+          "transferDestination": {
+            "competitionId": "IT1",
+            "countryId": 75,
+            "clubId": "2919",
+            "coachId": "16452"
+          },
+          "details": {
+            "playerId": "461019",
+            "date": "2022-07-07T00:00:00+02:00",
+            "contractUntilDate": "2026-06-30T00:00:00+02:00",
+            "seasonId": 2022,
+            "isPending": false,
+            "marketValue": {
+              "value": 2500000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "2.50",
+                "suffix": "M"
+              }
+            },
+            "age": 22,
+            "fee": {
+              "value": 1600000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "1.60",
+                "suffix": "M"
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 724,
+              "daysDisplay": "1 Year, 11 Months, 23 Days"
+            },
+            "season": {
+              "id": 2022,
+              "display": "22/23",
+              "cyclicalName": "2023",
+              "nonCyclicalName": "22/23"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/samuele-birindelli/transfers/spieler/461019/transfer_id/3927406"
+        },
+        {
+          "id": "1759078",
+          "transferSource": {
+            "competitionId": "ITJ3",
+            "countryId": 75,
+            "clubId": "14821",
+            "coachId": "49104"
+          },
+          "transferDestination": {
+            "competitionId": "IT2",
+            "countryId": 75,
+            "clubId": "4172",
+            "coachId": "27803"
+          },
+          "details": {
+            "playerId": "461019",
+            "date": "2016-11-29T00:00:00+01:00",
+            "contractUntilDate": "2024-06-30T00:00:00+02:00",
+            "seasonId": 2016,
+            "isPending": false,
+            "marketValue": {
+              "value": 50000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "50.00",
+                "suffix": "K"
+              }
+            },
+            "age": 17,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2016,
+              "display": "16/17",
+              "cyclicalName": "2017",
+              "nonCyclicalName": "16/17"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/samuele-birindelli/transfers/spieler/461019/transfer_id/1759078"
+        },
+        {
+          "id": "6238318",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 75,
+            "clubId": "29539",
+            "coachId": "0"
+          },
+          "transferDestination": {
+            "competitionId": "ITJ3",
+            "countryId": 75,
+            "clubId": "14821",
+            "coachId": "0"
+          },
+          "details": {
+            "playerId": "461019",
+            "date": "2016-07-01T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2016,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 16,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2016,
+              "display": "16/17",
+              "cyclicalName": "2017",
+              "nonCyclicalName": "16/17"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/samuele-birindelli/transfers/spieler/461019/transfer_id/6238318"
+        }
+      ],
+      "pending": [],
+      "url": "",
+      "feeSum": {
+        "value": 1600000,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "1.60",
+          "suffix": "M"
+        }
+      },
+      "averageAge": 26,
+      "totalMarketValue": {
+        "value": 2500000,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "2.50",
+          "suffix": "M"
+        }
+      }
+    },
+    "clubIds": [
+      "4172",
+      "2919",
+      "14821",
+      "29539"
+    ],
+    "coachIds": [
+      "3018",
+      "16452",
+      "49104",
+      "27803"
+    ],
+    "competitionIds": [
+      "IT2",
+      "IT1",
+      "ITJ3"
+    ],
+    "mostRecentTransfer": {
+      "id": "3927406",
+      "transferSource": {
+        "competitionId": "IT2",
+        "countryId": 75,
+        "clubId": "4172",
+        "coachId": "3018"
+      },
+      "transferDestination": {
+        "competitionId": "IT1",
+        "countryId": 75,
+        "clubId": "2919",
+        "coachId": "16452"
+      },
+      "details": {
+        "playerId": "461019",
+        "date": "2022-07-07T00:00:00+02:00",
+        "contractUntilDate": "2026-06-30T00:00:00+02:00",
+        "seasonId": 2022,
+        "isPending": false,
+        "marketValue": {
+          "value": 2500000,
+          "currency": "EUR",
+          "compact": {
+            "prefix": "€",
+            "content": "2.50",
+            "suffix": "M"
+          }
+        },
+        "age": 22,
+        "fee": {
+          "value": 1600000,
+          "currency": "EUR",
+          "compact": {
+            "prefix": "€",
+            "content": "1.60",
+            "suffix": "M"
+          }
+        },
+        "remainingContractPeriod": {
+          "days": 724,
+          "daysDisplay": "1 Year, 11 Months, 23 Days"
+        },
+        "season": {
+          "id": 2022,
+          "display": "22/23",
+          "cyclicalName": "2023",
+          "nonCyclicalName": "22/23"
+        }
+      },
+      "typeDetails": {
+        "type": "STANDARD",
+        "name": "",
+        "feeDescription": ""
+      },
+      "relativeUrl": "/samuele-birindelli/transfers/spieler/461019/transfer_id/3927406"
+    }
+  }
+}

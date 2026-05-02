@@ -1,0 +1,503 @@
+{
+  "success": true,
+  "message": "OK",
+  "data": {
+    "playerId": "1072630",
+    "history": {
+      "terminated": [
+        {
+          "id": "6220265",
+          "transferSource": {
+            "competitionId": "BRA1",
+            "countryId": 26,
+            "clubId": "609",
+            "coachId": "6623"
+          },
+          "transferDestination": {
+            "competitionId": "BRA2",
+            "countryId": 26,
+            "clubId": "2646",
+            "coachId": "7839"
+          },
+          "details": {
+            "playerId": "1072630",
+            "date": "2026-03-01T00:00:00+01:00",
+            "contractUntilDate": "2026-12-31T00:00:00+01:00",
+            "seasonId": 2025,
+            "isPending": false,
+            "marketValue": {
+              "value": 500000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "500.00",
+                "suffix": "K"
+              }
+            },
+            "age": 22,
+            "remainingContractPeriod": {
+              "days": 670,
+              "daysDisplay": "1 Year, 9 Months, 30 Days"
+            },
+            "season": {
+              "id": 2025,
+              "display": "25/26",
+              "cyclicalName": "2026",
+              "nonCyclicalName": "25/26"
+            }
+          },
+          "typeDetails": {
+            "type": "ACTIVE_LOAN_TRANSFER",
+            "name": "loan transfer",
+            "feeDescription": "loan transfer"
+          },
+          "relativeUrl": "/vitinho/transfers/spieler/1072630/transfer_id/6220265"
+        },
+        {
+          "id": "5914822",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 26,
+            "clubId": "2646",
+            "coachId": "7839"
+          },
+          "transferDestination": {
+            "competitionId": "BRA1",
+            "countryId": 26,
+            "clubId": "609",
+            "coachId": "6623"
+          },
+          "details": {
+            "playerId": "1072630",
+            "date": "2025-12-31T00:00:00+01:00",
+            "contractUntilDate": "2027-12-31T00:00:00+01:00",
+            "seasonId": 2025,
+            "isPending": false,
+            "marketValue": {
+              "value": 500000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "500.00",
+                "suffix": "K"
+              }
+            },
+            "age": 21,
+            "remainingContractPeriod": {
+              "days": 0,
+              "daysDisplay": "Unknown"
+            },
+            "season": {
+              "id": 2025,
+              "display": "25/26",
+              "cyclicalName": "2026",
+              "nonCyclicalName": "25/26"
+            }
+          },
+          "typeDetails": {
+            "type": "RETURNED_FROM_PREVIOUS_LOAN",
+            "name": "End of loan",
+            "feeDescription": "End of loan"
+          },
+          "relativeUrl": "/vitinho/transfers/spieler/1072630/transfer_id/5914822"
+        },
+        {
+          "id": "5914821",
+          "transferSource": {
+            "competitionId": "BRA1",
+            "countryId": 26,
+            "clubId": "609",
+            "coachId": "10682"
+          },
+          "transferDestination": {
+            "competitionId": "",
+            "countryId": 26,
+            "clubId": "2646",
+            "coachId": "7839"
+          },
+          "details": {
+            "playerId": "1072630",
+            "date": "2025-09-02T00:00:00+02:00",
+            "contractUntilDate": "2025-12-31T00:00:00+01:00",
+            "seasonId": 2025,
+            "isPending": false,
+            "marketValue": {
+              "value": 600000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "600.00",
+                "suffix": "K"
+              }
+            },
+            "age": 21,
+            "remainingContractPeriod": {
+              "days": 850,
+              "daysDisplay": "2 Years, 3 Months, 29 Days"
+            },
+            "season": {
+              "id": 2025,
+              "display": "25/26",
+              "cyclicalName": "2026",
+              "nonCyclicalName": "25/26"
+            }
+          },
+          "typeDetails": {
+            "type": "ACTIVE_LOAN_TRANSFER",
+            "name": "loan transfer",
+            "feeDescription": "loan transfer"
+          },
+          "relativeUrl": "/vitinho/transfers/spieler/1072630/transfer_id/5914821"
+        },
+        {
+          "id": "5483699",
+          "transferSource": {
+            "competitionId": "BRA2",
+            "countryId": 26,
+            "clubId": "3197",
+            "coachId": "5667"
+          },
+          "transferDestination": {
+            "competitionId": "BRA1",
+            "countryId": 26,
+            "clubId": "609",
+            "coachId": "10682"
+          },
+          "details": {
+            "playerId": "1072630",
+            "date": "2025-09-01T00:00:00+02:00",
+            "contractUntilDate": "2027-12-31T00:00:00+01:00",
+            "seasonId": 2025,
+            "isPending": false,
+            "marketValue": {
+              "value": 600000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "600.00",
+                "suffix": "K"
+              }
+            },
+            "age": 21,
+            "remainingContractPeriod": {
+              "days": 121,
+              "daysDisplay": "3 Months, 30 Days"
+            },
+            "season": {
+              "id": 2025,
+              "display": "25/26",
+              "cyclicalName": "2026",
+              "nonCyclicalName": "25/26"
+            }
+          },
+          "typeDetails": {
+            "type": "RETURNED_FROM_PREVIOUS_LOAN",
+            "name": "End of loan",
+            "feeDescription": "End of loan"
+          },
+          "relativeUrl": "/vitinho/transfers/spieler/1072630/transfer_id/5483699"
+        },
+        {
+          "id": "5483698",
+          "transferSource": {
+            "competitionId": "BRA1",
+            "countryId": 26,
+            "clubId": "609",
+            "coachId": "41120"
+          },
+          "transferDestination": {
+            "competitionId": "BRA2",
+            "countryId": 26,
+            "clubId": "3197",
+            "coachId": "22198"
+          },
+          "details": {
+            "playerId": "1072630",
+            "date": "2025-01-27T00:00:00+01:00",
+            "contractUntilDate": "2025-12-31T00:00:00+01:00",
+            "seasonId": 2024,
+            "isPending": false,
+            "marketValue": {
+              "value": 600000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "600.00",
+                "suffix": "K"
+              }
+            },
+            "age": 20,
+            "remainingContractPeriod": {
+              "days": 1068,
+              "daysDisplay": "2 Years, 11 Months, 4 Days"
+            },
+            "season": {
+              "id": 2024,
+              "display": "24/25",
+              "cyclicalName": "2025",
+              "nonCyclicalName": "24/25"
+            }
+          },
+          "typeDetails": {
+            "type": "ACTIVE_LOAN_TRANSFER",
+            "name": "loan transfer",
+            "feeDescription": "loan transfer"
+          },
+          "relativeUrl": "/vitinho/transfers/spieler/1072630/transfer_id/5483698"
+        },
+        {
+          "id": "4866699",
+          "transferSource": {
+            "competitionId": "CB20",
+            "countryId": 26,
+            "clubId": "16658",
+            "coachId": "110764"
+          },
+          "transferDestination": {
+            "competitionId": "BRA1",
+            "countryId": 26,
+            "clubId": "609",
+            "coachId": "44623"
+          },
+          "details": {
+            "playerId": "1072630",
+            "date": "2024-01-01T00:00:00+01:00",
+            "contractUntilDate": "2027-12-31T00:00:00+01:00",
+            "seasonId": 2023,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 19,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 365,
+              "daysDisplay": "11 Months, 30 Days"
+            },
+            "season": {
+              "id": 2023,
+              "display": "23/24",
+              "cyclicalName": "2024",
+              "nonCyclicalName": "23/24"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/vitinho/transfers/spieler/1072630/transfer_id/4866699"
+        },
+        {
+          "id": "4190975",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 26,
+            "clubId": "16805",
+            "coachId": "111933"
+          },
+          "transferDestination": {
+            "competitionId": "CB20",
+            "countryId": 26,
+            "clubId": "16658",
+            "coachId": "110764"
+          },
+          "details": {
+            "playerId": "1072630",
+            "date": "2023-01-01T00:00:00+01:00",
+            "contractUntilDate": "2024-12-31T00:00:00+01:00",
+            "seasonId": 2022,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 18,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "?",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2022,
+              "display": "22/23",
+              "cyclicalName": "2023",
+              "nonCyclicalName": "22/23"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/vitinho/transfers/spieler/1072630/transfer_id/4190975"
+        }
+      ],
+      "pending": [
+        {
+          "id": "6220266",
+          "transferSource": {
+            "competitionId": "BRA2",
+            "countryId": 26,
+            "clubId": "2646",
+            "coachId": "7839"
+          },
+          "transferDestination": {
+            "competitionId": "BRA1",
+            "countryId": 26,
+            "clubId": "609",
+            "coachId": "24055"
+          },
+          "details": {
+            "playerId": "1072630",
+            "date": "2026-12-31T00:00:00+01:00",
+            "contractUntilDate": "2027-12-31T00:00:00+01:00",
+            "seasonId": 2026,
+            "isPending": true,
+            "marketValue": {
+              "value": 500000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "500.00",
+                "suffix": "K"
+              }
+            },
+            "age": 22,
+            "remainingContractPeriod": {
+              "days": 0,
+              "daysDisplay": "Unknown"
+            },
+            "season": {
+              "id": 2026,
+              "display": "26/27",
+              "cyclicalName": "2027",
+              "nonCyclicalName": "26/27"
+            }
+          },
+          "typeDetails": {
+            "type": "RETURNED_FROM_PREVIOUS_LOAN",
+            "name": "End of loan",
+            "feeDescription": "End of loan"
+          },
+          "relativeUrl": "/vitinho/transfers/spieler/1072630/transfer_id/6220266"
+        }
+      ],
+      "url": "",
+      "feeSum": {
+        "value": 0,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "0.00",
+          "suffix": ""
+        }
+      },
+      "averageAge": 22,
+      "totalMarketValue": {
+        "value": 500000,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "500.00",
+          "suffix": "K"
+        }
+      }
+    },
+    "clubIds": [
+      "2646",
+      "609",
+      "3197",
+      "16658",
+      "16805"
+    ],
+    "coachIds": [
+      "7839",
+      "24055",
+      "6623",
+      "10682",
+      "5667",
+      "41120",
+      "22198",
+      "110764",
+      "44623",
+      "111933"
+    ],
+    "competitionIds": [
+      "BRA2",
+      "BRA1",
+      "CB20"
+    ],
+    "mostRecentTransfer": {
+      "id": "6220265",
+      "transferSource": {
+        "competitionId": "BRA1",
+        "countryId": 26,
+        "clubId": "609",
+        "coachId": "6623"
+      },
+      "transferDestination": {
+        "competitionId": "BRA2",
+        "countryId": 26,
+        "clubId": "2646",
+        "coachId": "7839"
+      },
+      "details": {
+        "playerId": "1072630",
+        "date": "2026-03-01T00:00:00+01:00",
+        "contractUntilDate": "2026-12-31T00:00:00+01:00",
+        "seasonId": 2025,
+        "isPending": false,
+        "marketValue": {
+          "value": 500000,
+          "currency": "EUR",
+          "compact": {
+            "prefix": "€",
+            "content": "500.00",
+            "suffix": "K"
+          }
+        },
+        "age": 22,
+        "remainingContractPeriod": {
+          "days": 670,
+          "daysDisplay": "1 Year, 9 Months, 30 Days"
+        },
+        "season": {
+          "id": 2025,
+          "display": "25/26",
+          "cyclicalName": "2026",
+          "nonCyclicalName": "25/26"
+        }
+      },
+      "typeDetails": {
+        "type": "ACTIVE_LOAN_TRANSFER",
+        "name": "loan transfer",
+        "feeDescription": "loan transfer"
+      },
+      "relativeUrl": "/vitinho/transfers/spieler/1072630/transfer_id/6220265"
+    }
+  }
+}

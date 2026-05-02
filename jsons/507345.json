@@ -1,0 +1,525 @@
+{
+  "success": true,
+  "message": "OK",
+  "data": {
+    "playerId": "507345",
+    "history": {
+      "terminated": [
+        {
+          "id": "6120126",
+          "transferSource": {
+            "competitionId": "L1",
+            "countryId": 40,
+            "clubId": "79",
+            "coachId": "20940"
+          },
+          "transferDestination": {
+            "competitionId": "L1",
+            "countryId": 40,
+            "clubId": "2036",
+            "coachId": "6416"
+          },
+          "details": {
+            "playerId": "507345",
+            "date": "2026-01-15T00:00:00+01:00",
+            "contractUntilDate": "2026-06-30T00:00:00+02:00",
+            "seasonId": 2025,
+            "isPending": false,
+            "marketValue": {
+              "value": 3500000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "3.50",
+                "suffix": "M"
+              }
+            },
+            "age": 23,
+            "remainingContractPeriod": {
+              "days": 897,
+              "daysDisplay": "2 Years, 5 Months, 15 Days"
+            },
+            "season": {
+              "id": 2025,
+              "display": "25/26",
+              "cyclicalName": "2026",
+              "nonCyclicalName": "25/26"
+            }
+          },
+          "typeDetails": {
+            "type": "ACTIVE_LOAN_TRANSFER",
+            "name": "loan transfer",
+            "feeDescription": "loan transfer"
+          },
+          "relativeUrl": "/leonidas-stergiou/transfers/spieler/507345/transfer_id/6120126"
+        },
+        {
+          "id": "5014929",
+          "transferSource": {
+            "competitionId": "C1",
+            "countryId": 148,
+            "clubId": "257",
+            "coachId": "35442"
+          },
+          "transferDestination": {
+            "competitionId": "L1",
+            "countryId": 40,
+            "clubId": "79",
+            "coachId": "20940"
+          },
+          "details": {
+            "playerId": "507345",
+            "date": "2024-07-01T00:00:00+02:00",
+            "contractUntilDate": "2028-06-30T00:00:00+02:00",
+            "seasonId": 2024,
+            "isPending": false,
+            "marketValue": {
+              "value": 5000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "5.00",
+                "suffix": "M"
+              }
+            },
+            "age": 22,
+            "fee": {
+              "value": 2000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "2.00",
+                "suffix": "M"
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 364,
+              "daysDisplay": "11 Months, 29 Days"
+            },
+            "season": {
+              "id": 2024,
+              "display": "24/25",
+              "cyclicalName": "2025",
+              "nonCyclicalName": "24/25"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/leonidas-stergiou/transfers/spieler/507345/transfer_id/5014929"
+        },
+        {
+          "id": "4600675",
+          "transferSource": {
+            "competitionId": "L1",
+            "countryId": 40,
+            "clubId": "79",
+            "coachId": "20940"
+          },
+          "transferDestination": {
+            "competitionId": "C1",
+            "countryId": 148,
+            "clubId": "257",
+            "coachId": "472"
+          },
+          "details": {
+            "playerId": "507345",
+            "date": "2024-06-30T00:00:00+02:00",
+            "contractUntilDate": "2025-06-30T00:00:00+02:00",
+            "seasonId": 2023,
+            "isPending": false,
+            "marketValue": {
+              "value": 5000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "5.00",
+                "suffix": "M"
+              }
+            },
+            "age": 22,
+            "remainingContractPeriod": {
+              "days": 0,
+              "daysDisplay": "Unknown"
+            },
+            "season": {
+              "id": 2023,
+              "display": "23/24",
+              "cyclicalName": "2024",
+              "nonCyclicalName": "23/24"
+            }
+          },
+          "typeDetails": {
+            "type": "RETURNED_FROM_PREVIOUS_LOAN",
+            "name": "End of loan",
+            "feeDescription": "End of loan"
+          },
+          "relativeUrl": "/leonidas-stergiou/transfers/spieler/507345/transfer_id/4600675"
+        },
+        {
+          "id": "4600674",
+          "transferSource": {
+            "competitionId": "C1",
+            "countryId": 148,
+            "clubId": "257",
+            "coachId": "472"
+          },
+          "transferDestination": {
+            "competitionId": "L1",
+            "countryId": 40,
+            "clubId": "79",
+            "coachId": "20940"
+          },
+          "details": {
+            "playerId": "507345",
+            "date": "2023-08-22T00:00:00+02:00",
+            "contractUntilDate": "2024-06-30T00:00:00+02:00",
+            "seasonId": 2023,
+            "isPending": false,
+            "marketValue": {
+              "value": 3000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "3.00",
+                "suffix": "M"
+              }
+            },
+            "age": 21,
+            "fee": {
+              "value": 100000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "100.00",
+                "suffix": "K"
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 313,
+              "daysDisplay": "10 Months, 8 Days"
+            },
+            "season": {
+              "id": 2023,
+              "display": "23/24",
+              "cyclicalName": "2024",
+              "nonCyclicalName": "23/24"
+            }
+          },
+          "typeDetails": {
+            "type": "ACTIVE_LOAN_TRANSFER",
+            "name": "loan transfer",
+            "feeDescription": "Loan fee"
+          },
+          "relativeUrl": "/leonidas-stergiou/transfers/spieler/507345/transfer_id/4600674"
+        },
+        {
+          "id": "2397000",
+          "transferSource": {
+            "competitionId": "CHC3",
+            "countryId": 148,
+            "clubId": "9178",
+            "coachId": "54831"
+          },
+          "transferDestination": {
+            "competitionId": "C1",
+            "countryId": 148,
+            "clubId": "257",
+            "coachId": "472"
+          },
+          "details": {
+            "playerId": "507345",
+            "date": "2019-02-06T00:00:00+01:00",
+            "contractUntilDate": "2024-06-30T00:00:00+02:00",
+            "seasonId": 2018,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 16,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 875,
+              "daysDisplay": "2 Years, 4 Months, 24 Days"
+            },
+            "season": {
+              "id": 2018,
+              "display": "18/19",
+              "cyclicalName": "2019",
+              "nonCyclicalName": "18/19"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/leonidas-stergiou/transfers/spieler/507345/transfer_id/2397000"
+        },
+        {
+          "id": "2222855",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 148,
+            "clubId": "42251",
+            "coachId": "21605"
+          },
+          "transferDestination": {
+            "competitionId": "CHC3",
+            "countryId": 148,
+            "clubId": "9178",
+            "coachId": "54831"
+          },
+          "details": {
+            "playerId": "507345",
+            "date": "2018-07-01T00:00:00+02:00",
+            "contractUntilDate": "2021-06-30T00:00:00+02:00",
+            "seasonId": 2018,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 16,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2018,
+              "display": "18/19",
+              "cyclicalName": "2019",
+              "nonCyclicalName": "18/19"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/leonidas-stergiou/transfers/spieler/507345/transfer_id/2222855"
+        },
+        {
+          "id": "2933837",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 148,
+            "clubId": "15604",
+            "coachId": "53102"
+          },
+          "transferDestination": {
+            "competitionId": "",
+            "countryId": 148,
+            "clubId": "42251",
+            "coachId": "14221"
+          },
+          "details": {
+            "playerId": "507345",
+            "date": "2015-07-01T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2015,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 13,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "Free Transfer",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2015,
+              "display": "15/16",
+              "cyclicalName": "2016",
+              "nonCyclicalName": "15/16"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/leonidas-stergiou/transfers/spieler/507345/transfer_id/2933837"
+        }
+      ],
+      "pending": [
+        {
+          "id": "6120127",
+          "transferSource": {
+            "competitionId": "L1",
+            "countryId": 40,
+            "clubId": "2036",
+            "coachId": "6416"
+          },
+          "transferDestination": {
+            "competitionId": "L1",
+            "countryId": 40,
+            "clubId": "79",
+            "coachId": "20940"
+          },
+          "details": {
+            "playerId": "507345",
+            "date": "2026-06-30T00:00:00+02:00",
+            "contractUntilDate": "2028-06-30T00:00:00+02:00",
+            "seasonId": 2025,
+            "isPending": true,
+            "marketValue": {
+              "value": 3000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "3.00",
+                "suffix": "M"
+              }
+            },
+            "age": 24,
+            "remainingContractPeriod": {
+              "days": 0,
+              "daysDisplay": "Unknown"
+            },
+            "season": {
+              "id": 2025,
+              "display": "25/26",
+              "cyclicalName": "2026",
+              "nonCyclicalName": "25/26"
+            }
+          },
+          "typeDetails": {
+            "type": "RETURNED_FROM_PREVIOUS_LOAN",
+            "name": "End of loan",
+            "feeDescription": "End of loan"
+          },
+          "relativeUrl": "/leonidas-stergiou/transfers/spieler/507345/transfer_id/6120127"
+        }
+      ],
+      "url": "",
+      "feeSum": {
+        "value": 2100000,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "2.10",
+          "suffix": "M"
+        }
+      },
+      "averageAge": 24,
+      "totalMarketValue": {
+        "value": 3000000,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "3.00",
+          "suffix": "M"
+        }
+      }
+    },
+    "clubIds": [
+      "2036",
+      "79",
+      "257",
+      "9178",
+      "42251",
+      "15604"
+    ],
+    "coachIds": [
+      "6416",
+      "20940",
+      "35442",
+      "472",
+      "54831",
+      "21605",
+      "53102",
+      "14221"
+    ],
+    "competitionIds": [
+      "L1",
+      "C1",
+      "CHC3"
+    ],
+    "mostRecentTransfer": {
+      "id": "6120126",
+      "transferSource": {
+        "competitionId": "L1",
+        "countryId": 40,
+        "clubId": "79",
+        "coachId": "20940"
+      },
+      "transferDestination": {
+        "competitionId": "L1",
+        "countryId": 40,
+        "clubId": "2036",
+        "coachId": "6416"
+      },
+      "details": {
+        "playerId": "507345",
+        "date": "2026-01-15T00:00:00+01:00",
+        "contractUntilDate": "2026-06-30T00:00:00+02:00",
+        "seasonId": 2025,
+        "isPending": false,
+        "marketValue": {
+          "value": 3500000,
+          "currency": "EUR",
+          "compact": {
+            "prefix": "€",
+            "content": "3.50",
+            "suffix": "M"
+          }
+        },
+        "age": 23,
+        "remainingContractPeriod": {
+          "days": 897,
+          "daysDisplay": "2 Years, 5 Months, 15 Days"
+        },
+        "season": {
+          "id": 2025,
+          "display": "25/26",
+          "cyclicalName": "2026",
+          "nonCyclicalName": "25/26"
+        }
+      },
+      "typeDetails": {
+        "type": "ACTIVE_LOAN_TRANSFER",
+        "name": "loan transfer",
+        "feeDescription": "loan transfer"
+      },
+      "relativeUrl": "/leonidas-stergiou/transfers/spieler/507345/transfer_id/6120126"
+    }
+  }
+}

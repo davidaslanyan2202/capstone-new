@@ -1,0 +1,529 @@
+{
+  "success": true,
+  "message": "OK",
+  "data": {
+    "playerId": "532178",
+    "history": {
+      "terminated": [
+        {
+          "id": "5897786",
+          "transferSource": {
+            "competitionId": "GB1",
+            "countryId": 189,
+            "clubId": "399",
+            "coachId": "10939"
+          },
+          "transferDestination": {
+            "competitionId": "PL1",
+            "countryId": 135,
+            "clubId": "324",
+            "coachId": "60741"
+          },
+          "details": {
+            "playerId": "532178",
+            "date": "2025-08-27T00:00:00+02:00",
+            "contractUntilDate": "2028-06-30T00:00:00+02:00",
+            "seasonId": 2025,
+            "isPending": false,
+            "marketValue": {
+              "value": 4500000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "4.50",
+                "suffix": "M"
+              }
+            },
+            "age": 23,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "Free Transfer",
+                "suffix": ""
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 307,
+              "daysDisplay": "10 Months, 3 Days"
+            },
+            "season": {
+              "id": 2025,
+              "display": "25/26",
+              "cyclicalName": "2026",
+              "nonCyclicalName": "25/26"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/sam-greenwood/transfers/spieler/532178/transfer_id/5897786"
+        },
+        {
+          "id": "5096752",
+          "transferSource": {
+            "competitionId": "GB2",
+            "countryId": 189,
+            "clubId": "466",
+            "coachId": "45358"
+          },
+          "transferDestination": {
+            "competitionId": "GB1",
+            "countryId": 189,
+            "clubId": "399",
+            "coachId": "10939"
+          },
+          "details": {
+            "playerId": "532178",
+            "date": "2025-06-30T00:00:00+02:00",
+            "contractUntilDate": "2026-06-30T00:00:00+02:00",
+            "seasonId": 2024,
+            "isPending": false,
+            "marketValue": {
+              "value": 4500000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "4.50",
+                "suffix": "M"
+              }
+            },
+            "age": 23,
+            "remainingContractPeriod": {
+              "days": 0,
+              "daysDisplay": "Unknown"
+            },
+            "season": {
+              "id": 2024,
+              "display": "24/25",
+              "cyclicalName": "2025",
+              "nonCyclicalName": "24/25"
+            }
+          },
+          "typeDetails": {
+            "type": "RETURNED_FROM_PREVIOUS_LOAN",
+            "name": "End of loan",
+            "feeDescription": "End of loan"
+          },
+          "relativeUrl": "/sam-greenwood/transfers/spieler/532178/transfer_id/5096752"
+        },
+        {
+          "id": "5096751",
+          "transferSource": {
+            "competitionId": "GB2",
+            "countryId": 189,
+            "clubId": "399",
+            "coachId": "10939"
+          },
+          "transferDestination": {
+            "competitionId": "GB2",
+            "countryId": 189,
+            "clubId": "466",
+            "coachId": "57137"
+          },
+          "details": {
+            "playerId": "532178",
+            "date": "2024-07-05T00:00:00+02:00",
+            "contractUntilDate": "2025-06-30T00:00:00+02:00",
+            "seasonId": 2024,
+            "isPending": false,
+            "marketValue": {
+              "value": 4500000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "4.50",
+                "suffix": "M"
+              }
+            },
+            "age": 22,
+            "remainingContractPeriod": {
+              "days": 725,
+              "daysDisplay": "1 Year, 11 Months, 25 Days"
+            },
+            "season": {
+              "id": 2024,
+              "display": "24/25",
+              "cyclicalName": "2025",
+              "nonCyclicalName": "24/25"
+            }
+          },
+          "typeDetails": {
+            "type": "ACTIVE_LOAN_TRANSFER",
+            "name": "loan transfer",
+            "feeDescription": "loan transfer"
+          },
+          "relativeUrl": "/sam-greenwood/transfers/spieler/532178/transfer_id/5096751"
+        },
+        {
+          "id": "4619363",
+          "transferSource": {
+            "competitionId": "GB2",
+            "countryId": 189,
+            "clubId": "641",
+            "coachId": "65647"
+          },
+          "transferDestination": {
+            "competitionId": "GB2",
+            "countryId": 189,
+            "clubId": "399",
+            "coachId": "10939"
+          },
+          "details": {
+            "playerId": "532178",
+            "date": "2024-05-31T00:00:00+02:00",
+            "contractUntilDate": "2026-06-30T00:00:00+02:00",
+            "seasonId": 2023,
+            "isPending": false,
+            "marketValue": {
+              "value": 4500000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "4.50",
+                "suffix": "M"
+              }
+            },
+            "age": 22,
+            "remainingContractPeriod": {
+              "days": 0,
+              "daysDisplay": "Unknown"
+            },
+            "season": {
+              "id": 2023,
+              "display": "23/24",
+              "cyclicalName": "2024",
+              "nonCyclicalName": "23/24"
+            }
+          },
+          "typeDetails": {
+            "type": "RETURNED_FROM_PREVIOUS_LOAN",
+            "name": "End of loan",
+            "feeDescription": "End of loan"
+          },
+          "relativeUrl": "/sam-greenwood/transfers/spieler/532178/transfer_id/4619363"
+        },
+        {
+          "id": "4619362",
+          "transferSource": {
+            "competitionId": "GB2",
+            "countryId": 189,
+            "clubId": "399",
+            "coachId": "10939"
+          },
+          "transferDestination": {
+            "competitionId": "GB2",
+            "countryId": 189,
+            "clubId": "641",
+            "coachId": "65647"
+          },
+          "details": {
+            "playerId": "532178",
+            "date": "2023-08-31T00:00:00+02:00",
+            "contractUntilDate": "2024-05-31T00:00:00+02:00",
+            "seasonId": 2023,
+            "isPending": false,
+            "marketValue": {
+              "value": 5000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "5.00",
+                "suffix": "M"
+              }
+            },
+            "age": 21,
+            "remainingContractPeriod": {
+              "days": 1034,
+              "daysDisplay": "2 Years, 9 Months, 30 Days"
+            },
+            "season": {
+              "id": 2023,
+              "display": "23/24",
+              "cyclicalName": "2024",
+              "nonCyclicalName": "23/24"
+            }
+          },
+          "typeDetails": {
+            "type": "ACTIVE_LOAN_TRANSFER",
+            "name": "loan transfer",
+            "feeDescription": "loan transfer"
+          },
+          "relativeUrl": "/sam-greenwood/transfers/spieler/532178/transfer_id/4619362"
+        },
+        {
+          "id": "3864523",
+          "transferSource": {
+            "competitionId": "GB21",
+            "countryId": 189,
+            "clubId": "20116",
+            "coachId": "77117"
+          },
+          "transferDestination": {
+            "competitionId": "GB1",
+            "countryId": 189,
+            "clubId": "399",
+            "coachId": "2553"
+          },
+          "details": {
+            "playerId": "532178",
+            "date": "2022-01-01T00:00:00+01:00",
+            "contractUntilDate": "2026-06-30T00:00:00+02:00",
+            "seasonId": 2021,
+            "isPending": false,
+            "marketValue": {
+              "value": 500000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "500.00",
+                "suffix": "K"
+              }
+            },
+            "age": 19,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 545,
+              "daysDisplay": "1 Year, 5 Months, 29 Days"
+            },
+            "season": {
+              "id": 2021,
+              "display": "21/22",
+              "cyclicalName": "2022",
+              "nonCyclicalName": "21/22"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/sam-greenwood/transfers/spieler/532178/transfer_id/3864523"
+        },
+        {
+          "id": "2998774",
+          "transferSource": {
+            "competitionId": "GB18",
+            "countryId": 189,
+            "clubId": "5679",
+            "coachId": "65071"
+          },
+          "transferDestination": {
+            "competitionId": "GB21",
+            "countryId": 189,
+            "clubId": "20116",
+            "coachId": "0"
+          },
+          "details": {
+            "playerId": "532178",
+            "date": "2020-08-28T00:00:00+02:00",
+            "contractUntilDate": "2023-06-30T00:00:00+02:00",
+            "seasonId": 2020,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 18,
+            "fee": {
+              "value": 1700000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "1.70",
+                "suffix": "M"
+              }
+            },
+            "season": {
+              "id": 2020,
+              "display": "20/21",
+              "cyclicalName": "2021",
+              "nonCyclicalName": "20/21"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/sam-greenwood/transfers/spieler/532178/transfer_id/2998774"
+        },
+        {
+          "id": "2169396",
+          "transferSource": {
+            "competitionId": "GB18",
+            "countryId": 189,
+            "clubId": "12797",
+            "coachId": "53644"
+          },
+          "transferDestination": {
+            "competitionId": "GB18",
+            "countryId": 189,
+            "clubId": "5679",
+            "coachId": "50870"
+          },
+          "details": {
+            "playerId": "532178",
+            "date": "2018-07-10T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2018,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 16,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "?",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2018,
+              "display": "18/19",
+              "cyclicalName": "2019",
+              "nonCyclicalName": "18/19"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/sam-greenwood/transfers/spieler/532178/transfer_id/2169396"
+        }
+      ],
+      "pending": [],
+      "url": "",
+      "feeSum": {
+        "value": 1700000,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "1.70",
+          "suffix": "M"
+        }
+      },
+      "averageAge": 24,
+      "totalMarketValue": {
+        "value": 2500000,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "2.50",
+          "suffix": "M"
+        }
+      }
+    },
+    "clubIds": [
+      "399",
+      "324",
+      "466",
+      "641",
+      "20116",
+      "5679",
+      "12797"
+    ],
+    "coachIds": [
+      "10939",
+      "60741",
+      "45358",
+      "57137",
+      "65647",
+      "77117",
+      "2553",
+      "65071",
+      "53644",
+      "50870"
+    ],
+    "competitionIds": [
+      "GB1",
+      "PL1",
+      "GB2",
+      "GB21",
+      "GB18"
+    ],
+    "mostRecentTransfer": {
+      "id": "5897786",
+      "transferSource": {
+        "competitionId": "GB1",
+        "countryId": 189,
+        "clubId": "399",
+        "coachId": "10939"
+      },
+      "transferDestination": {
+        "competitionId": "PL1",
+        "countryId": 135,
+        "clubId": "324",
+        "coachId": "60741"
+      },
+      "details": {
+        "playerId": "532178",
+        "date": "2025-08-27T00:00:00+02:00",
+        "contractUntilDate": "2028-06-30T00:00:00+02:00",
+        "seasonId": 2025,
+        "isPending": false,
+        "marketValue": {
+          "value": 4500000,
+          "currency": "EUR",
+          "compact": {
+            "prefix": "€",
+            "content": "4.50",
+            "suffix": "M"
+          }
+        },
+        "age": 23,
+        "fee": {
+          "value": null,
+          "currency": "",
+          "compact": {
+            "prefix": "",
+            "content": "Free Transfer",
+            "suffix": ""
+          }
+        },
+        "remainingContractPeriod": {
+          "days": 307,
+          "daysDisplay": "10 Months, 3 Days"
+        },
+        "season": {
+          "id": 2025,
+          "display": "25/26",
+          "cyclicalName": "2026",
+          "nonCyclicalName": "25/26"
+        }
+      },
+      "typeDetails": {
+        "type": "STANDARD",
+        "name": "",
+        "feeDescription": ""
+      },
+      "relativeUrl": "/sam-greenwood/transfers/spieler/532178/transfer_id/5897786"
+    }
+  }
+}

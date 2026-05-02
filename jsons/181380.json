@@ -1,0 +1,638 @@
+{
+  "success": true,
+  "message": "OK",
+  "data": {
+    "playerId": "181380",
+    "history": {
+      "terminated": [
+        {
+          "id": "6146332",
+          "transferSource": {
+            "competitionId": "GB1",
+            "countryId": 189,
+            "clubId": "289",
+            "coachId": "40910"
+          },
+          "transferDestination": {
+            "competitionId": "FR1",
+            "countryId": 50,
+            "clubId": "826",
+            "coachId": "110443"
+          },
+          "details": {
+            "playerId": "181380",
+            "date": "2026-01-27T00:00:00+01:00",
+            "contractUntilDate": "2026-06-30T00:00:00+02:00",
+            "seasonId": 2025,
+            "isPending": false,
+            "marketValue": {
+              "value": 2500000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "2.50",
+                "suffix": "M"
+              }
+            },
+            "age": 32,
+            "remainingContractPeriod": {
+              "days": 519,
+              "daysDisplay": "1 Year, 5 Months, 3 Days"
+            },
+            "season": {
+              "id": 2025,
+              "display": "25/26",
+              "cyclicalName": "2026",
+              "nonCyclicalName": "25/26"
+            }
+          },
+          "typeDetails": {
+            "type": "ACTIVE_LOAN_TRANSFER",
+            "name": "loan transfer",
+            "feeDescription": "loan transfer"
+          },
+          "relativeUrl": "/arthur-masuaku/transfers/spieler/181380/transfer_id/6146332"
+        },
+        {
+          "id": "5850974",
+          "transferSource": {
+            "competitionId": "TR1",
+            "countryId": 174,
+            "clubId": "114",
+            "coachId": "7286"
+          },
+          "transferDestination": {
+            "competitionId": "GB1",
+            "countryId": 189,
+            "clubId": "289",
+            "coachId": "40910"
+          },
+          "details": {
+            "playerId": "181380",
+            "date": "2025-08-10T00:00:00+02:00",
+            "contractUntilDate": "2027-06-30T00:00:00+02:00",
+            "seasonId": 2025,
+            "isPending": false,
+            "marketValue": {
+              "value": 3000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "3.00",
+                "suffix": "M"
+              }
+            },
+            "age": 31,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "Free Transfer",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2025,
+              "display": "25/26",
+              "cyclicalName": "2026",
+              "nonCyclicalName": "25/26"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/arthur-masuaku/transfers/spieler/181380/transfer_id/5850974"
+        },
+        {
+          "id": "4367492",
+          "transferSource": {
+            "competitionId": "GB1",
+            "countryId": 189,
+            "clubId": "379",
+            "coachId": "450"
+          },
+          "transferDestination": {
+            "competitionId": "TR1",
+            "countryId": 174,
+            "clubId": "114",
+            "coachId": "2332"
+          },
+          "details": {
+            "playerId": "181380",
+            "date": "2023-07-01T00:00:00+02:00",
+            "contractUntilDate": "2025-06-30T00:00:00+02:00",
+            "seasonId": 2023,
+            "isPending": false,
+            "marketValue": {
+              "value": 6000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "6.00",
+                "suffix": "M"
+              }
+            },
+            "age": 29,
+            "fee": {
+              "value": 2000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "2.00",
+                "suffix": "M"
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 365,
+              "daysDisplay": "11 Months, 29 Days"
+            },
+            "season": {
+              "id": 2023,
+              "display": "23/24",
+              "cyclicalName": "2024",
+              "nonCyclicalName": "23/24"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/arthur-masuaku/transfers/spieler/181380/transfer_id/4367492"
+        },
+        {
+          "id": "3987344",
+          "transferSource": {
+            "competitionId": "TR1",
+            "countryId": 174,
+            "clubId": "114",
+            "coachId": "2332"
+          },
+          "transferDestination": {
+            "competitionId": "GB1",
+            "countryId": 189,
+            "clubId": "379",
+            "coachId": "450"
+          },
+          "details": {
+            "playerId": "181380",
+            "date": "2023-06-30T00:00:00+02:00",
+            "contractUntilDate": "2024-06-30T00:00:00+02:00",
+            "seasonId": 2022,
+            "isPending": false,
+            "marketValue": {
+              "value": 6000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "6.00",
+                "suffix": "M"
+              }
+            },
+            "age": 29,
+            "remainingContractPeriod": {
+              "days": 0,
+              "daysDisplay": "Unknown"
+            },
+            "season": {
+              "id": 2022,
+              "display": "22/23",
+              "cyclicalName": "2023",
+              "nonCyclicalName": "22/23"
+            }
+          },
+          "typeDetails": {
+            "type": "RETURNED_FROM_PREVIOUS_LOAN",
+            "name": "End of loan",
+            "feeDescription": "End of loan"
+          },
+          "relativeUrl": "/arthur-masuaku/transfers/spieler/181380/transfer_id/3987344"
+        },
+        {
+          "id": "3987327",
+          "transferSource": {
+            "competitionId": "GB1",
+            "countryId": 189,
+            "clubId": "379",
+            "coachId": "450"
+          },
+          "transferDestination": {
+            "competitionId": "TR1",
+            "countryId": 174,
+            "clubId": "114",
+            "coachId": "12871"
+          },
+          "details": {
+            "playerId": "181380",
+            "date": "2022-08-02T00:00:00+02:00",
+            "contractUntilDate": "2023-06-30T00:00:00+02:00",
+            "seasonId": 2022,
+            "isPending": false,
+            "marketValue": {
+              "value": 5000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "5.00",
+                "suffix": "M"
+              }
+            },
+            "age": 28,
+            "remainingContractPeriod": {
+              "days": 698,
+              "daysDisplay": "1 Year, 10 Months, 28 Days"
+            },
+            "season": {
+              "id": 2022,
+              "display": "22/23",
+              "cyclicalName": "2023",
+              "nonCyclicalName": "22/23"
+            }
+          },
+          "typeDetails": {
+            "type": "ACTIVE_LOAN_TRANSFER",
+            "name": "loan transfer",
+            "feeDescription": "loan transfer"
+          },
+          "relativeUrl": "/arthur-masuaku/transfers/spieler/181380/transfer_id/3987327"
+        },
+        {
+          "id": "3987314",
+          "transferSource": {
+            "competitionId": "GR1",
+            "countryId": 56,
+            "clubId": "683",
+            "coachId": "2594"
+          },
+          "transferDestination": {
+            "competitionId": "GB1",
+            "countryId": 189,
+            "clubId": "379",
+            "coachId": "3598"
+          },
+          "details": {
+            "playerId": "181380",
+            "date": "2016-08-08T00:00:00+02:00",
+            "contractUntilDate": "2024-06-30T00:00:00+02:00",
+            "seasonId": 2016,
+            "isPending": false,
+            "marketValue": {
+              "value": 7000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "7.00",
+                "suffix": "M"
+              }
+            },
+            "age": 22,
+            "fee": {
+              "value": 7100000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "7.10",
+                "suffix": "M"
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 3613,
+              "daysDisplay": "9 Years, 10 Months, 22 Days"
+            },
+            "season": {
+              "id": 2016,
+              "display": "16/17",
+              "cyclicalName": "2017",
+              "nonCyclicalName": "16/17"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/arthur-masuaku/transfers/spieler/181380/transfer_id/3987314"
+        },
+        {
+          "id": "1563157",
+          "transferSource": {
+            "competitionId": "FR2",
+            "countryId": 50,
+            "clubId": "1423",
+            "coachId": "3577"
+          },
+          "transferDestination": {
+            "competitionId": "GR1",
+            "countryId": 56,
+            "clubId": "683",
+            "coachId": "9897"
+          },
+          "details": {
+            "playerId": "181380",
+            "date": "2014-07-22T00:00:00+02:00",
+            "contractUntilDate": "2026-06-30T00:00:00+02:00",
+            "seasonId": 2014,
+            "isPending": false,
+            "marketValue": {
+              "value": 500000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "500.00",
+                "suffix": "K"
+              }
+            },
+            "age": 20,
+            "fee": {
+              "value": 300000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "300.00",
+                "suffix": "K"
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 709,
+              "daysDisplay": "1 Year, 11 Months, 8 Days"
+            },
+            "season": {
+              "id": 2014,
+              "display": "14/15",
+              "cyclicalName": "2015",
+              "nonCyclicalName": "14/15"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/arthur-masuaku/transfers/spieler/181380/transfer_id/1563157"
+        },
+        {
+          "id": "1078555",
+          "transferSource": {
+            "competitionId": "C3NA",
+            "countryId": 50,
+            "clubId": "16663",
+            "coachId": "89412"
+          },
+          "transferDestination": {
+            "competitionId": "FR1",
+            "countryId": 50,
+            "clubId": "1423",
+            "coachId": "6627"
+          },
+          "details": {
+            "playerId": "181380",
+            "date": "2013-07-01T00:00:00+02:00",
+            "contractUntilDate": "2016-06-30T00:00:00+02:00",
+            "seasonId": 2013,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 19,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2013,
+              "display": "13/14",
+              "cyclicalName": "2014",
+              "nonCyclicalName": "13/14"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/arthur-masuaku/transfers/spieler/181380/transfer_id/1078555"
+        },
+        {
+          "id": "1244074",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 50,
+            "clubId": "12744",
+            "coachId": "129365"
+          },
+          "transferDestination": {
+            "competitionId": "CN2A",
+            "countryId": 50,
+            "clubId": "16663",
+            "coachId": "23709"
+          },
+          "details": {
+            "playerId": "181380",
+            "date": "2012-07-01T00:00:00+02:00",
+            "contractUntilDate": "2013-06-30T00:00:00+02:00",
+            "seasonId": 2012,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 18,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2012,
+              "display": "12/13",
+              "cyclicalName": "2013",
+              "nonCyclicalName": "12/13"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/arthur-masuaku/transfers/spieler/181380/transfer_id/1244074"
+        }
+      ],
+      "pending": [
+        {
+          "id": "6146333",
+          "transferSource": {
+            "competitionId": "FR1",
+            "countryId": 50,
+            "clubId": "826",
+            "coachId": "110443"
+          },
+          "transferDestination": {
+            "competitionId": "GB1",
+            "countryId": 189,
+            "clubId": "289",
+            "coachId": "40910"
+          },
+          "details": {
+            "playerId": "181380",
+            "date": "2026-06-30T00:00:00+02:00",
+            "contractUntilDate": "2027-06-30T00:00:00+02:00",
+            "seasonId": 2025,
+            "isPending": true,
+            "marketValue": {
+              "value": 2500000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "2.50",
+                "suffix": "M"
+              }
+            },
+            "age": 32,
+            "remainingContractPeriod": {
+              "days": 0,
+              "daysDisplay": "Unknown"
+            },
+            "season": {
+              "id": 2025,
+              "display": "25/26",
+              "cyclicalName": "2026",
+              "nonCyclicalName": "25/26"
+            }
+          },
+          "typeDetails": {
+            "type": "RETURNED_FROM_PREVIOUS_LOAN",
+            "name": "End of loan",
+            "feeDescription": "End of loan"
+          },
+          "relativeUrl": "/arthur-masuaku/transfers/spieler/181380/transfer_id/6146333"
+        }
+      ],
+      "url": "",
+      "feeSum": {
+        "value": 9400000,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "9.40",
+          "suffix": "M"
+        }
+      },
+      "averageAge": 32,
+      "totalMarketValue": {
+        "value": 2500000,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "2.50",
+          "suffix": "M"
+        }
+      }
+    },
+    "clubIds": [
+      "826",
+      "289",
+      "114",
+      "379",
+      "683",
+      "1423",
+      "16663",
+      "12744"
+    ],
+    "coachIds": [
+      "110443",
+      "40910",
+      "7286",
+      "450",
+      "2332",
+      "12871",
+      "2594",
+      "3598",
+      "3577",
+      "9897",
+      "89412",
+      "6627",
+      "129365",
+      "23709"
+    ],
+    "competitionIds": [
+      "FR1",
+      "GB1",
+      "TR1",
+      "GR1",
+      "FR2",
+      "C3NA",
+      "CN2A"
+    ],
+    "mostRecentTransfer": {
+      "id": "6146332",
+      "transferSource": {
+        "competitionId": "GB1",
+        "countryId": 189,
+        "clubId": "289",
+        "coachId": "40910"
+      },
+      "transferDestination": {
+        "competitionId": "FR1",
+        "countryId": 50,
+        "clubId": "826",
+        "coachId": "110443"
+      },
+      "details": {
+        "playerId": "181380",
+        "date": "2026-01-27T00:00:00+01:00",
+        "contractUntilDate": "2026-06-30T00:00:00+02:00",
+        "seasonId": 2025,
+        "isPending": false,
+        "marketValue": {
+          "value": 2500000,
+          "currency": "EUR",
+          "compact": {
+            "prefix": "€",
+            "content": "2.50",
+            "suffix": "M"
+          }
+        },
+        "age": 32,
+        "remainingContractPeriod": {
+          "days": 519,
+          "daysDisplay": "1 Year, 5 Months, 3 Days"
+        },
+        "season": {
+          "id": 2025,
+          "display": "25/26",
+          "cyclicalName": "2026",
+          "nonCyclicalName": "25/26"
+        }
+      },
+      "typeDetails": {
+        "type": "ACTIVE_LOAN_TRANSFER",
+        "name": "loan transfer",
+        "feeDescription": "loan transfer"
+      },
+      "relativeUrl": "/arthur-masuaku/transfers/spieler/181380/transfer_id/6146332"
+    }
+  }
+}

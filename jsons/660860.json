@@ -1,0 +1,364 @@
+{
+  "success": true,
+  "message": "OK",
+  "data": {
+    "playerId": "660860",
+    "history": {
+      "terminated": [
+        {
+          "id": "6150611",
+          "transferSource": {
+            "competitionId": "GB1",
+            "countryId": 189,
+            "clubId": "1237",
+            "coachId": "48076"
+          },
+          "transferDestination": {
+            "competitionId": "FR1",
+            "countryId": 50,
+            "clubId": "10004",
+            "coachId": "5750"
+          },
+          "details": {
+            "playerId": "660860",
+            "date": "2026-01-29T00:00:00+01:00",
+            "contractUntilDate": "2026-06-30T00:00:00+02:00",
+            "seasonId": 2025,
+            "isPending": false,
+            "marketValue": {
+              "value": 10000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "10.00",
+                "suffix": "M"
+              }
+            },
+            "age": 22,
+            "remainingContractPeriod": {
+              "days": 1613,
+              "daysDisplay": "4 Years, 5 Months, 1 Day"
+            },
+            "season": {
+              "id": 2025,
+              "display": "25/26",
+              "cyclicalName": "2026",
+              "nonCyclicalName": "25/26"
+            }
+          },
+          "typeDetails": {
+            "type": "ACTIVE_LOAN_TRANSFER",
+            "name": "loan transfer",
+            "feeDescription": "loan transfer"
+          },
+          "relativeUrl": "/diego-coppola/transfers/spieler/660860/transfer_id/6150611"
+        },
+        {
+          "id": "5710016",
+          "transferSource": {
+            "competitionId": "IT1",
+            "countryId": 75,
+            "clubId": "276",
+            "coachId": "52249"
+          },
+          "transferDestination": {
+            "competitionId": "GB1",
+            "countryId": 189,
+            "clubId": "1237",
+            "coachId": "48076"
+          },
+          "details": {
+            "playerId": "660860",
+            "date": "2025-07-01T00:00:00+02:00",
+            "contractUntilDate": "2030-06-30T00:00:00+02:00",
+            "seasonId": 2025,
+            "isPending": false,
+            "marketValue": {
+              "value": 10000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "10.00",
+                "suffix": "M"
+              }
+            },
+            "age": 21,
+            "fee": {
+              "value": 11000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "11.00",
+                "suffix": "M"
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 729,
+              "daysDisplay": "1 Year, 11 Months, 29 Days"
+            },
+            "season": {
+              "id": 2025,
+              "display": "25/26",
+              "cyclicalName": "2026",
+              "nonCyclicalName": "25/26"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/diego-coppola/transfers/spieler/660860/transfer_id/5710016"
+        },
+        {
+          "id": "3763873",
+          "transferSource": {
+            "competitionId": "IJ1",
+            "countryId": 75,
+            "clubId": "16996",
+            "coachId": "49207"
+          },
+          "transferDestination": {
+            "competitionId": "IT1",
+            "countryId": 75,
+            "clubId": "276",
+            "coachId": "28632"
+          },
+          "details": {
+            "playerId": "660860",
+            "date": "2022-01-01T00:00:00+01:00",
+            "contractUntilDate": "2027-06-30T00:00:00+02:00",
+            "seasonId": 2021,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 18,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2021,
+              "display": "21/22",
+              "cyclicalName": "2022",
+              "nonCyclicalName": "21/22"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/diego-coppola/transfers/spieler/660860/transfer_id/3763873"
+        },
+        {
+          "id": "3076189",
+          "transferSource": {
+            "competitionId": "ITJ8",
+            "countryId": 75,
+            "clubId": "49755",
+            "coachId": "46336"
+          },
+          "transferDestination": {
+            "competitionId": "IJ2A",
+            "countryId": 75,
+            "clubId": "16996",
+            "coachId": "49207"
+          },
+          "details": {
+            "playerId": "660860",
+            "date": "2020-09-01T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2020,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 16,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2020,
+              "display": "20/21",
+              "cyclicalName": "2021",
+              "nonCyclicalName": "20/21"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/diego-coppola/transfers/spieler/660860/transfer_id/3076189"
+        }
+      ],
+      "pending": [
+        {
+          "id": "6150612",
+          "transferSource": {
+            "competitionId": "FR1",
+            "countryId": 50,
+            "clubId": "10004",
+            "coachId": "1224"
+          },
+          "transferDestination": {
+            "competitionId": "GB1",
+            "countryId": 189,
+            "clubId": "1237",
+            "coachId": "48076"
+          },
+          "details": {
+            "playerId": "660860",
+            "date": "2026-06-30T00:00:00+02:00",
+            "contractUntilDate": "2030-06-30T00:00:00+02:00",
+            "seasonId": 2025,
+            "isPending": true,
+            "marketValue": {
+              "value": 10000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "10.00",
+                "suffix": "M"
+              }
+            },
+            "age": 22,
+            "remainingContractPeriod": {
+              "days": 0,
+              "daysDisplay": "Unknown"
+            },
+            "season": {
+              "id": 2025,
+              "display": "25/26",
+              "cyclicalName": "2026",
+              "nonCyclicalName": "25/26"
+            }
+          },
+          "typeDetails": {
+            "type": "RETURNED_FROM_PREVIOUS_LOAN",
+            "name": "End of loan",
+            "feeDescription": "End of loan"
+          },
+          "relativeUrl": "/diego-coppola/transfers/spieler/660860/transfer_id/6150612"
+        }
+      ],
+      "url": "",
+      "feeSum": {
+        "value": 11000000,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "11.00",
+          "suffix": "M"
+        }
+      },
+      "averageAge": 22,
+      "totalMarketValue": {
+        "value": 10000000,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "10.00",
+          "suffix": "M"
+        }
+      }
+    },
+    "clubIds": [
+      "10004",
+      "1237",
+      "276",
+      "16996",
+      "49755"
+    ],
+    "coachIds": [
+      "1224",
+      "48076",
+      "5750",
+      "52249",
+      "49207",
+      "28632",
+      "46336"
+    ],
+    "competitionIds": [
+      "FR1",
+      "GB1",
+      "IT1",
+      "IJ1",
+      "ITJ8",
+      "IJ2A"
+    ],
+    "mostRecentTransfer": {
+      "id": "6150611",
+      "transferSource": {
+        "competitionId": "GB1",
+        "countryId": 189,
+        "clubId": "1237",
+        "coachId": "48076"
+      },
+      "transferDestination": {
+        "competitionId": "FR1",
+        "countryId": 50,
+        "clubId": "10004",
+        "coachId": "5750"
+      },
+      "details": {
+        "playerId": "660860",
+        "date": "2026-01-29T00:00:00+01:00",
+        "contractUntilDate": "2026-06-30T00:00:00+02:00",
+        "seasonId": 2025,
+        "isPending": false,
+        "marketValue": {
+          "value": 10000000,
+          "currency": "EUR",
+          "compact": {
+            "prefix": "€",
+            "content": "10.00",
+            "suffix": "M"
+          }
+        },
+        "age": 22,
+        "remainingContractPeriod": {
+          "days": 1613,
+          "daysDisplay": "4 Years, 5 Months, 1 Day"
+        },
+        "season": {
+          "id": 2025,
+          "display": "25/26",
+          "cyclicalName": "2026",
+          "nonCyclicalName": "25/26"
+        }
+      },
+      "typeDetails": {
+        "type": "ACTIVE_LOAN_TRANSFER",
+        "name": "loan transfer",
+        "feeDescription": "loan transfer"
+      },
+      "relativeUrl": "/diego-coppola/transfers/spieler/660860/transfer_id/6150611"
+    }
+  }
+}

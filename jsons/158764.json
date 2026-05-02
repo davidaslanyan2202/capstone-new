@@ -1,0 +1,478 @@
+{
+  "success": true,
+  "message": "OK",
+  "data": {
+    "playerId": "158764",
+    "history": {
+      "terminated": [
+        {
+          "id": "4974163",
+          "transferSource": {
+            "competitionId": "GB2",
+            "countryId": 189,
+            "clubId": "399",
+            "coachId": "10939"
+          },
+          "transferDestination": {
+            "competitionId": "",
+            "countryId": 0,
+            "clubId": "123",
+            "coachId": "0"
+          },
+          "details": {
+            "playerId": "158764",
+            "date": "2024-04-10T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2023,
+            "isPending": false,
+            "marketValue": {
+              "value": 900000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "900.00",
+                "suffix": "K"
+              }
+            },
+            "age": 32,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 81,
+              "daysDisplay": "2 Months, 20 Days"
+            },
+            "season": {
+              "id": 2023,
+              "display": "23/24",
+              "cyclicalName": "2024",
+              "nonCyclicalName": "23/24"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/stuart-dallas/transfers/spieler/158764/transfer_id/4974163"
+        },
+        {
+          "id": "1309410",
+          "transferSource": {
+            "competitionId": "GB2",
+            "countryId": 189,
+            "clubId": "1148",
+            "coachId": "25155"
+          },
+          "transferDestination": {
+            "competitionId": "GB2",
+            "countryId": 189,
+            "clubId": "399",
+            "coachId": "1766"
+          },
+          "details": {
+            "playerId": "158764",
+            "date": "2015-08-04T00:00:00+02:00",
+            "contractUntilDate": "2024-06-30T00:00:00+02:00",
+            "seasonId": 2015,
+            "isPending": false,
+            "marketValue": {
+              "value": 350000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "350.00",
+                "suffix": "K"
+              }
+            },
+            "age": 24,
+            "fee": {
+              "value": 1900000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "1.90",
+                "suffix": "M"
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 696,
+              "daysDisplay": "1 Year, 10 Months, 26 Days"
+            },
+            "season": {
+              "id": 2015,
+              "display": "15/16",
+              "cyclicalName": "2016",
+              "nonCyclicalName": "15/16"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/stuart-dallas/transfers/spieler/158764/transfer_id/1309410"
+        },
+        {
+          "id": "960650",
+          "transferSource": {
+            "competitionId": "GB4",
+            "countryId": 189,
+            "clubId": "1302",
+            "coachId": "22322"
+          },
+          "transferDestination": {
+            "competitionId": "GB3",
+            "countryId": 189,
+            "clubId": "1148",
+            "coachId": "20869"
+          },
+          "details": {
+            "playerId": "158764",
+            "date": "2013-12-23T00:00:00+01:00",
+            "contractUntilDate": "2017-06-30T00:00:00+02:00",
+            "seasonId": 2013,
+            "isPending": false,
+            "marketValue": {
+              "value": 50000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "50.00",
+                "suffix": "K"
+              }
+            },
+            "age": 22,
+            "season": {
+              "id": 2013,
+              "display": "13/14",
+              "cyclicalName": "2014",
+              "nonCyclicalName": "13/14"
+            }
+          },
+          "typeDetails": {
+            "type": "RETURNED_FROM_PREVIOUS_LOAN",
+            "name": "End of loan",
+            "feeDescription": "End of loan"
+          },
+          "relativeUrl": "/stuart-dallas/transfers/spieler/158764/transfer_id/960650"
+        },
+        {
+          "id": "960649",
+          "transferSource": {
+            "competitionId": "GB3",
+            "countryId": 189,
+            "clubId": "1148",
+            "coachId": "1766"
+          },
+          "transferDestination": {
+            "competitionId": "GB4",
+            "countryId": 189,
+            "clubId": "1302",
+            "coachId": "3245"
+          },
+          "details": {
+            "playerId": "158764",
+            "date": "2013-10-05T00:00:00+02:00",
+            "contractUntilDate": "2013-11-30T00:00:00+01:00",
+            "seasonId": 2013,
+            "isPending": false,
+            "marketValue": {
+              "value": 50000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "50.00",
+                "suffix": "K"
+              }
+            },
+            "age": 22,
+            "remainingContractPeriod": {
+              "days": 1364,
+              "daysDisplay": "3 Years, 8 Months, 25 Days"
+            },
+            "season": {
+              "id": 2013,
+              "display": "13/14",
+              "cyclicalName": "2014",
+              "nonCyclicalName": "13/14"
+            }
+          },
+          "typeDetails": {
+            "type": "ACTIVE_LOAN_TRANSFER",
+            "name": "loan transfer",
+            "feeDescription": "loan transfer"
+          },
+          "relativeUrl": "/stuart-dallas/transfers/spieler/158764/transfer_id/960649"
+        },
+        {
+          "id": "708767",
+          "transferSource": {
+            "competitionId": "NIR1",
+            "countryId": 192,
+            "clubId": "21532",
+            "coachId": "10899"
+          },
+          "transferDestination": {
+            "competitionId": "GB3",
+            "countryId": 189,
+            "clubId": "1148",
+            "coachId": "1766"
+          },
+          "details": {
+            "playerId": "158764",
+            "date": "2012-07-01T00:00:00+02:00",
+            "contractUntilDate": "2017-06-30T00:00:00+02:00",
+            "seasonId": 2012,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 21,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "?",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2012,
+              "display": "12/13",
+              "cyclicalName": "2013",
+              "nonCyclicalName": "12/13"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/stuart-dallas/transfers/spieler/158764/transfer_id/708767"
+        },
+        {
+          "id": "4874640",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 192,
+            "clubId": "21931",
+            "coachId": "0"
+          },
+          "transferDestination": {
+            "competitionId": "NIR1",
+            "countryId": 192,
+            "clubId": "21532",
+            "coachId": "10899"
+          },
+          "details": {
+            "playerId": "158764",
+            "date": "2010-07-01T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2010,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 19,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "Free Transfer",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2010,
+              "display": "10/11",
+              "cyclicalName": "2011",
+              "nonCyclicalName": "10/11"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/stuart-dallas/transfers/spieler/158764/transfer_id/4874640"
+        },
+        {
+          "id": "4874641",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 192,
+            "clubId": "116246",
+            "coachId": "0"
+          },
+          "transferDestination": {
+            "competitionId": "",
+            "countryId": 192,
+            "clubId": "21931",
+            "coachId": "0"
+          },
+          "details": {
+            "playerId": "158764",
+            "date": "2009-07-01T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2009,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 18,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2009,
+              "display": "09/10",
+              "cyclicalName": "2010",
+              "nonCyclicalName": "09/10"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/stuart-dallas/transfers/spieler/158764/transfer_id/4874641"
+        }
+      ],
+      "pending": [],
+      "url": "",
+      "feeSum": {
+        "value": 1900000,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "1.90",
+          "suffix": "M"
+        }
+      },
+      "averageAge": 35,
+      "totalMarketValue": {
+        "value": 0,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "0.00",
+          "suffix": ""
+        }
+      }
+    },
+    "clubIds": [
+      "399",
+      "123",
+      "1148",
+      "1302",
+      "21532",
+      "21931",
+      "116246"
+    ],
+    "coachIds": [
+      "10939",
+      "25155",
+      "1766",
+      "22322",
+      "20869",
+      "3245",
+      "10899"
+    ],
+    "competitionIds": [
+      "GB2",
+      "GB4",
+      "GB3",
+      "NIR1"
+    ],
+    "mostRecentTransfer": {
+      "id": "4974163",
+      "transferSource": {
+        "competitionId": "GB2",
+        "countryId": 189,
+        "clubId": "399",
+        "coachId": "10939"
+      },
+      "transferDestination": {
+        "competitionId": "",
+        "countryId": 0,
+        "clubId": "123",
+        "coachId": "0"
+      },
+      "details": {
+        "playerId": "158764",
+        "date": "2024-04-10T00:00:00+02:00",
+        "contractUntilDate": null,
+        "seasonId": 2023,
+        "isPending": false,
+        "marketValue": {
+          "value": 900000,
+          "currency": "EUR",
+          "compact": {
+            "prefix": "€",
+            "content": "900.00",
+            "suffix": "K"
+          }
+        },
+        "age": 32,
+        "fee": {
+          "value": null,
+          "currency": "",
+          "compact": {
+            "prefix": "",
+            "content": "-",
+            "suffix": ""
+          }
+        },
+        "remainingContractPeriod": {
+          "days": 81,
+          "daysDisplay": "2 Months, 20 Days"
+        },
+        "season": {
+          "id": 2023,
+          "display": "23/24",
+          "cyclicalName": "2024",
+          "nonCyclicalName": "23/24"
+        }
+      },
+      "typeDetails": {
+        "type": "STANDARD",
+        "name": "",
+        "feeDescription": ""
+      },
+      "relativeUrl": "/stuart-dallas/transfers/spieler/158764/transfer_id/4974163"
+    }
+  }
+}

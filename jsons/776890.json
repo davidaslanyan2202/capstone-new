@@ -1,0 +1,528 @@
+{
+  "success": true,
+  "message": "OK",
+  "data": {
+    "playerId": "776890",
+    "history": {
+      "terminated": [
+        {
+          "id": "5911930",
+          "transferSource": {
+            "competitionId": "GB1",
+            "countryId": 189,
+            "clubId": "631",
+            "coachId": "53749"
+          },
+          "transferDestination": {
+            "competitionId": "L1",
+            "countryId": 40,
+            "clubId": "27",
+            "coachId": "69681"
+          },
+          "details": {
+            "playerId": "776890",
+            "date": "2025-09-01T00:00:00+02:00",
+            "contractUntilDate": "2026-06-30T00:00:00+02:00",
+            "seasonId": 2025,
+            "isPending": false,
+            "marketValue": {
+              "value": 50000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "50.00",
+                "suffix": "M"
+              }
+            },
+            "age": 24,
+            "fee": {
+              "value": 16500000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "16.50",
+                "suffix": "M"
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 2859,
+              "daysDisplay": "7 Years, 9 Months, 29 Days"
+            },
+            "season": {
+              "id": 2025,
+              "display": "25/26",
+              "cyclicalName": "2026",
+              "nonCyclicalName": "25/26"
+            }
+          },
+          "typeDetails": {
+            "type": "ACTIVE_LOAN_TRANSFER",
+            "name": "loan transfer",
+            "feeDescription": "Loan fee"
+          },
+          "relativeUrl": "/nicolas-jackson/transfers/spieler/776890/transfer_id/5911930"
+        },
+        {
+          "id": "4466454",
+          "transferSource": {
+            "competitionId": "ES1",
+            "countryId": 157,
+            "clubId": "1050",
+            "coachId": "12440"
+          },
+          "transferDestination": {
+            "competitionId": "GB1",
+            "countryId": 189,
+            "clubId": "631",
+            "coachId": "9044"
+          },
+          "details": {
+            "playerId": "776890",
+            "date": "2023-07-01T00:00:00+02:00",
+            "contractUntilDate": "2033-06-30T00:00:00+02:00",
+            "seasonId": 2023,
+            "isPending": false,
+            "marketValue": {
+              "value": 30000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "30.00",
+                "suffix": "M"
+              }
+            },
+            "age": 22,
+            "fee": {
+              "value": 37000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "37.00",
+                "suffix": "M"
+              }
+            },
+            "season": {
+              "id": 2023,
+              "display": "23/24",
+              "cyclicalName": "2024",
+              "nonCyclicalName": "23/24"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/nicolas-jackson/transfers/spieler/776890/transfer_id/4466454"
+        },
+        {
+          "id": "3998763",
+          "transferSource": {
+            "competitionId": "ES2",
+            "countryId": 157,
+            "clubId": "11972",
+            "coachId": "30963"
+          },
+          "transferDestination": {
+            "competitionId": "ES1",
+            "countryId": 157,
+            "clubId": "1050",
+            "coachId": "5075"
+          },
+          "details": {
+            "playerId": "776890",
+            "date": "2022-07-01T00:00:00+02:00",
+            "contractUntilDate": "2023-06-30T00:00:00+02:00",
+            "seasonId": 2022,
+            "isPending": false,
+            "marketValue": {
+              "value": 1000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "1.00",
+                "suffix": "M"
+              }
+            },
+            "age": 21,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2022,
+              "display": "22/23",
+              "cyclicalName": "2023",
+              "nonCyclicalName": "22/23"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/nicolas-jackson/transfers/spieler/776890/transfer_id/3998763"
+        },
+        {
+          "id": "3089193",
+          "transferSource": {
+            "competitionId": "ES2",
+            "countryId": 157,
+            "clubId": "13222",
+            "coachId": "54421"
+          },
+          "transferDestination": {
+            "competitionId": "E3G2",
+            "countryId": 157,
+            "clubId": "11972",
+            "coachId": "30963"
+          },
+          "details": {
+            "playerId": "776890",
+            "date": "2021-06-30T00:00:00+02:00",
+            "contractUntilDate": "2022-06-30T00:00:00+02:00",
+            "seasonId": 2020,
+            "isPending": false,
+            "marketValue": {
+              "value": 300000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "300.00",
+                "suffix": "K"
+              }
+            },
+            "age": 20,
+            "remainingContractPeriod": {
+              "days": 0,
+              "daysDisplay": "Unknown"
+            },
+            "season": {
+              "id": 2020,
+              "display": "20/21",
+              "cyclicalName": "2021",
+              "nonCyclicalName": "20/21"
+            }
+          },
+          "typeDetails": {
+            "type": "RETURNED_FROM_PREVIOUS_LOAN",
+            "name": "End of loan",
+            "feeDescription": "End of loan"
+          },
+          "relativeUrl": "/nicolas-jackson/transfers/spieler/776890/transfer_id/3089193"
+        },
+        {
+          "id": "3089192",
+          "transferSource": {
+            "competitionId": "ES3C",
+            "countryId": 157,
+            "clubId": "11972",
+            "coachId": "30963"
+          },
+          "transferDestination": {
+            "competitionId": "ES2",
+            "countryId": 157,
+            "clubId": "13222",
+            "coachId": "54421"
+          },
+          "details": {
+            "playerId": "776890",
+            "date": "2020-10-05T00:00:00+02:00",
+            "contractUntilDate": "2021-06-30T00:00:00+02:00",
+            "seasonId": 2020,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 19,
+            "season": {
+              "id": 2020,
+              "display": "20/21",
+              "cyclicalName": "2021",
+              "nonCyclicalName": "20/21"
+            }
+          },
+          "typeDetails": {
+            "type": "ACTIVE_LOAN_TRANSFER",
+            "name": "loan transfer",
+            "feeDescription": "loan transfer"
+          },
+          "relativeUrl": "/nicolas-jackson/transfers/spieler/776890/transfer_id/3089192"
+        },
+        {
+          "id": "3089194",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 157,
+            "clubId": "28868",
+            "coachId": "55310"
+          },
+          "transferDestination": {
+            "competitionId": "ES3C",
+            "countryId": 157,
+            "clubId": "11972",
+            "coachId": "30963"
+          },
+          "details": {
+            "playerId": "776890",
+            "date": "2020-07-01T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2020,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 19,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2020,
+              "display": "20/21",
+              "cyclicalName": "2021",
+              "nonCyclicalName": "20/21"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/nicolas-jackson/transfers/spieler/776890/transfer_id/3089194"
+        },
+        {
+          "id": "3159497",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 149,
+            "clubId": "118044",
+            "coachId": "0"
+          },
+          "transferDestination": {
+            "competitionId": "",
+            "countryId": 157,
+            "clubId": "28868",
+            "coachId": "40817"
+          },
+          "details": {
+            "playerId": "776890",
+            "date": "2019-09-02T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2019,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 18,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "?",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2019,
+              "display": "19/20",
+              "cyclicalName": "2020",
+              "nonCyclicalName": "19/20"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/nicolas-jackson/transfers/spieler/776890/transfer_id/3159497"
+        }
+      ],
+      "pending": [
+        {
+          "id": "5911929",
+          "transferSource": {
+            "competitionId": "L1",
+            "countryId": 40,
+            "clubId": "27",
+            "coachId": "69681"
+          },
+          "transferDestination": {
+            "competitionId": "GB1",
+            "countryId": 189,
+            "clubId": "631",
+            "coachId": "94579"
+          },
+          "details": {
+            "playerId": "776890",
+            "date": "2026-06-30T00:00:00+02:00",
+            "contractUntilDate": "2033-06-30T00:00:00+02:00",
+            "seasonId": 2025,
+            "isPending": true,
+            "marketValue": {
+              "value": 40000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "40.00",
+                "suffix": "M"
+              }
+            },
+            "age": 25,
+            "remainingContractPeriod": {
+              "days": 0,
+              "daysDisplay": "Unknown"
+            },
+            "season": {
+              "id": 2025,
+              "display": "25/26",
+              "cyclicalName": "2026",
+              "nonCyclicalName": "25/26"
+            }
+          },
+          "typeDetails": {
+            "type": "RETURNED_FROM_PREVIOUS_LOAN",
+            "name": "End of loan",
+            "feeDescription": "End of loan"
+          },
+          "relativeUrl": "/nicolas-jackson/transfers/spieler/776890/transfer_id/5911929"
+        }
+      ],
+      "url": "",
+      "feeSum": {
+        "value": 53500000,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "53.50",
+          "suffix": "M"
+        }
+      },
+      "averageAge": 24,
+      "totalMarketValue": {
+        "value": 40000000,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "40.00",
+          "suffix": "M"
+        }
+      }
+    },
+    "clubIds": [
+      "27",
+      "631",
+      "1050",
+      "11972",
+      "13222",
+      "28868",
+      "118044"
+    ],
+    "coachIds": [
+      "69681",
+      "94579",
+      "53749",
+      "12440",
+      "9044",
+      "30963",
+      "5075",
+      "54421",
+      "55310",
+      "40817"
+    ],
+    "competitionIds": [
+      "L1",
+      "GB1",
+      "ES1",
+      "ES2",
+      "E3G2",
+      "ES3C"
+    ],
+    "mostRecentTransfer": {
+      "id": "5911930",
+      "transferSource": {
+        "competitionId": "GB1",
+        "countryId": 189,
+        "clubId": "631",
+        "coachId": "53749"
+      },
+      "transferDestination": {
+        "competitionId": "L1",
+        "countryId": 40,
+        "clubId": "27",
+        "coachId": "69681"
+      },
+      "details": {
+        "playerId": "776890",
+        "date": "2025-09-01T00:00:00+02:00",
+        "contractUntilDate": "2026-06-30T00:00:00+02:00",
+        "seasonId": 2025,
+        "isPending": false,
+        "marketValue": {
+          "value": 50000000,
+          "currency": "EUR",
+          "compact": {
+            "prefix": "€",
+            "content": "50.00",
+            "suffix": "M"
+          }
+        },
+        "age": 24,
+        "fee": {
+          "value": 16500000,
+          "currency": "EUR",
+          "compact": {
+            "prefix": "€",
+            "content": "16.50",
+            "suffix": "M"
+          }
+        },
+        "remainingContractPeriod": {
+          "days": 2859,
+          "daysDisplay": "7 Years, 9 Months, 29 Days"
+        },
+        "season": {
+          "id": 2025,
+          "display": "25/26",
+          "cyclicalName": "2026",
+          "nonCyclicalName": "25/26"
+        }
+      },
+      "typeDetails": {
+        "type": "ACTIVE_LOAN_TRANSFER",
+        "name": "loan transfer",
+        "feeDescription": "Loan fee"
+      },
+      "relativeUrl": "/nicolas-jackson/transfers/spieler/776890/transfer_id/5911930"
+    }
+  }
+}

@@ -1,0 +1,707 @@
+{
+  "success": true,
+  "message": "OK",
+  "data": {
+    "playerId": "431698",
+    "history": {
+      "terminated": [
+        {
+          "id": "5882355",
+          "transferSource": {
+            "competitionId": "BE1",
+            "countryId": 19,
+            "clubId": "3057",
+            "coachId": "4796"
+          },
+          "transferDestination": {
+            "competitionId": "PL1",
+            "countryId": 135,
+            "clubId": "5689",
+            "coachId": "23576"
+          },
+          "details": {
+            "playerId": "431698",
+            "date": "2025-08-21T00:00:00+02:00",
+            "contractUntilDate": "2026-06-30T00:00:00+02:00",
+            "seasonId": 2025,
+            "isPending": false,
+            "marketValue": {
+              "value": 2500000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "2.50",
+                "suffix": "M"
+              }
+            },
+            "age": 25,
+            "remainingContractPeriod": {
+              "days": 1409,
+              "daysDisplay": "3 Years, 10 Months, 9 Days"
+            },
+            "season": {
+              "id": 2025,
+              "display": "25/26",
+              "cyclicalName": "2026",
+              "nonCyclicalName": "25/26"
+            }
+          },
+          "typeDetails": {
+            "type": "ACTIVE_LOAN_TRANSFER",
+            "name": "loan transfer",
+            "feeDescription": "loan transfer"
+          },
+          "relativeUrl": "/bosko-sutalo/transfers/spieler/431698/transfer_id/5882355"
+        },
+        {
+          "id": "5101269",
+          "transferSource": {
+            "competitionId": "KR1",
+            "countryId": 37,
+            "clubId": "419",
+            "coachId": "55762"
+          },
+          "transferDestination": {
+            "competitionId": "BE1",
+            "countryId": 19,
+            "clubId": "3057",
+            "coachId": "34157"
+          },
+          "details": {
+            "playerId": "431698",
+            "date": "2024-07-08T00:00:00+02:00",
+            "contractUntilDate": "2029-06-30T00:00:00+02:00",
+            "seasonId": 2024,
+            "isPending": false,
+            "marketValue": {
+              "value": 1000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "1.00",
+                "suffix": "M"
+              }
+            },
+            "age": 24,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "Free Transfer",
+                "suffix": ""
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 1087,
+              "daysDisplay": "2 Years, 11 Months, 22 Days"
+            },
+            "season": {
+              "id": 2024,
+              "display": "24/25",
+              "cyclicalName": "2025",
+              "nonCyclicalName": "24/25"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/bosko-sutalo/transfers/spieler/431698/transfer_id/5101269"
+        },
+        {
+          "id": "3897117",
+          "transferSource": {
+            "competitionId": "IT1",
+            "countryId": 75,
+            "clubId": "800",
+            "coachId": "3436"
+          },
+          "transferDestination": {
+            "competitionId": "KR1",
+            "countryId": 37,
+            "clubId": "419",
+            "coachId": "4303"
+          },
+          "details": {
+            "playerId": "431698",
+            "date": "2022-07-01T00:00:00+02:00",
+            "contractUntilDate": "2027-06-30T00:00:00+02:00",
+            "seasonId": 2022,
+            "isPending": false,
+            "marketValue": {
+              "value": 3000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "3.00",
+                "suffix": "M"
+              }
+            },
+            "age": 22,
+            "fee": {
+              "value": 4050000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "4.05",
+                "suffix": "M"
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 1095,
+              "daysDisplay": "2 Years, 11 Months, 29 Days"
+            },
+            "season": {
+              "id": 2022,
+              "display": "22/23",
+              "cyclicalName": "2023",
+              "nonCyclicalName": "22/23"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/bosko-sutalo/transfers/spieler/431698/transfer_id/3897117"
+        },
+        {
+          "id": "3517746",
+          "transferSource": {
+            "competitionId": "IT1",
+            "countryId": 75,
+            "clubId": "276",
+            "coachId": "31903"
+          },
+          "transferDestination": {
+            "competitionId": "IT1",
+            "countryId": 75,
+            "clubId": "800",
+            "coachId": "3436"
+          },
+          "details": {
+            "playerId": "431698",
+            "date": "2022-06-30T00:00:00+02:00",
+            "contractUntilDate": "2025-06-30T00:00:00+02:00",
+            "seasonId": 2021,
+            "isPending": false,
+            "marketValue": {
+              "value": 3000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "3.00",
+                "suffix": "M"
+              }
+            },
+            "age": 22,
+            "remainingContractPeriod": {
+              "days": 0,
+              "daysDisplay": "Unknown"
+            },
+            "season": {
+              "id": 2021,
+              "display": "21/22",
+              "cyclicalName": "2022",
+              "nonCyclicalName": "21/22"
+            }
+          },
+          "typeDetails": {
+            "type": "RETURNED_FROM_PREVIOUS_LOAN",
+            "name": "End of loan",
+            "feeDescription": "End of loan"
+          },
+          "relativeUrl": "/bosko-sutalo/transfers/spieler/431698/transfer_id/3517746"
+        },
+        {
+          "id": "3517745",
+          "transferSource": {
+            "competitionId": "IT1",
+            "countryId": 75,
+            "clubId": "800",
+            "coachId": "3436"
+          },
+          "transferDestination": {
+            "competitionId": "IT1",
+            "countryId": 75,
+            "clubId": "276",
+            "coachId": "12924"
+          },
+          "details": {
+            "playerId": "431698",
+            "date": "2021-08-25T00:00:00+02:00",
+            "contractUntilDate": "2022-06-30T00:00:00+02:00",
+            "seasonId": 2021,
+            "isPending": false,
+            "marketValue": {
+              "value": 3500000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "3.50",
+                "suffix": "M"
+              }
+            },
+            "age": 21,
+            "fee": {
+              "value": 150000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "150.00",
+                "suffix": "K"
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 1040,
+              "daysDisplay": "2 Years, 10 Months, 5 Days"
+            },
+            "season": {
+              "id": 2021,
+              "display": "21/22",
+              "cyclicalName": "2022",
+              "nonCyclicalName": "21/22"
+            }
+          },
+          "typeDetails": {
+            "type": "ACTIVE_LOAN_TRANSFER",
+            "name": "loan transfer",
+            "feeDescription": "Loan fee"
+          },
+          "relativeUrl": "/bosko-sutalo/transfers/spieler/431698/transfer_id/3517745"
+        },
+        {
+          "id": "2779129",
+          "transferSource": {
+            "competitionId": "KR1",
+            "countryId": 37,
+            "clubId": "327",
+            "coachId": "31610"
+          },
+          "transferDestination": {
+            "competitionId": "IT1",
+            "countryId": 75,
+            "clubId": "800",
+            "coachId": "3436"
+          },
+          "details": {
+            "playerId": "431698",
+            "date": "2020-01-30T00:00:00+01:00",
+            "contractUntilDate": "2024-06-30T00:00:00+02:00",
+            "seasonId": 2019,
+            "isPending": false,
+            "marketValue": {
+              "value": 1500000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "1.50",
+                "suffix": "M"
+              }
+            },
+            "age": 20,
+            "fee": {
+              "value": 4000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "4.00",
+                "suffix": "M"
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 1247,
+              "daysDisplay": "3 Years, 5 Months"
+            },
+            "season": {
+              "id": 2019,
+              "display": "19/20",
+              "cyclicalName": "2020",
+              "nonCyclicalName": "19/20"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/bosko-sutalo/transfers/spieler/431698/transfer_id/2779129"
+        },
+        {
+          "id": "2417349",
+          "transferSource": {
+            "competitionId": "KR2",
+            "countryId": 37,
+            "clubId": "59009",
+            "coachId": "62910"
+          },
+          "transferDestination": {
+            "competitionId": "KR1",
+            "countryId": 37,
+            "clubId": "327",
+            "coachId": "36182"
+          },
+          "details": {
+            "playerId": "431698",
+            "date": "2018-10-15T00:00:00+02:00",
+            "contractUntilDate": "2023-06-30T00:00:00+02:00",
+            "seasonId": 2018,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 18,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 258,
+              "daysDisplay": "8 Months, 15 Days"
+            },
+            "season": {
+              "id": 2018,
+              "display": "18/19",
+              "cyclicalName": "2019",
+              "nonCyclicalName": "18/19"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/bosko-sutalo/transfers/spieler/431698/transfer_id/2417349"
+        },
+        {
+          "id": "2256291",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 37,
+            "clubId": "11036",
+            "coachId": "0"
+          },
+          "transferDestination": {
+            "competitionId": "",
+            "countryId": 37,
+            "clubId": "59009",
+            "coachId": "62910"
+          },
+          "details": {
+            "playerId": "431698",
+            "date": "2018-01-15T00:00:00+01:00",
+            "contractUntilDate": "2019-06-30T00:00:00+02:00",
+            "seasonId": 2017,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 18,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 166,
+              "daysDisplay": "5 Months, 15 Days"
+            },
+            "season": {
+              "id": 2017,
+              "display": "17/18",
+              "cyclicalName": "2018",
+              "nonCyclicalName": "17/18"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/bosko-sutalo/transfers/spieler/431698/transfer_id/2256291"
+        },
+        {
+          "id": "1874465",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 37,
+            "clubId": "36358",
+            "coachId": "0"
+          },
+          "transferDestination": {
+            "competitionId": "",
+            "countryId": 37,
+            "clubId": "11036",
+            "coachId": "0"
+          },
+          "details": {
+            "playerId": "431698",
+            "date": "2017-07-28T00:00:00+02:00",
+            "contractUntilDate": "2018-06-30T00:00:00+02:00",
+            "seasonId": 2017,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 17,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "?",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2017,
+              "display": "17/18",
+              "cyclicalName": "2018",
+              "nonCyclicalName": "17/18"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/bosko-sutalo/transfers/spieler/431698/transfer_id/1874465"
+        },
+        {
+          "id": "1470357",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 37,
+            "clubId": "20949",
+            "coachId": "0"
+          },
+          "transferDestination": {
+            "competitionId": "",
+            "countryId": 37,
+            "clubId": "36358",
+            "coachId": "0"
+          },
+          "details": {
+            "playerId": "431698",
+            "date": "2015-08-31T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2015,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 15,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "?",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2015,
+              "display": "15/16",
+              "cyclicalName": "2016",
+              "nonCyclicalName": "15/16"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/bosko-sutalo/transfers/spieler/431698/transfer_id/1470357"
+        }
+      ],
+      "pending": [
+        {
+          "id": "5882356",
+          "transferSource": {
+            "competitionId": "PL1",
+            "countryId": 135,
+            "clubId": "5689",
+            "coachId": "24630"
+          },
+          "transferDestination": {
+            "competitionId": "BE1",
+            "countryId": 19,
+            "clubId": "3057",
+            "coachId": "44033"
+          },
+          "details": {
+            "playerId": "431698",
+            "date": "2026-06-30T00:00:00+02:00",
+            "contractUntilDate": "2029-06-30T00:00:00+02:00",
+            "seasonId": 2025,
+            "isPending": true,
+            "marketValue": {
+              "value": 2000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "2.00",
+                "suffix": "M"
+              }
+            },
+            "age": 26,
+            "remainingContractPeriod": {
+              "days": 0,
+              "daysDisplay": "Unknown"
+            },
+            "season": {
+              "id": 2025,
+              "display": "25/26",
+              "cyclicalName": "2026",
+              "nonCyclicalName": "25/26"
+            }
+          },
+          "typeDetails": {
+            "type": "RETURNED_FROM_PREVIOUS_LOAN",
+            "name": "End of loan",
+            "feeDescription": "End of loan"
+          },
+          "relativeUrl": "/bosko-sutalo/transfers/spieler/431698/transfer_id/5882356"
+        }
+      ],
+      "url": "",
+      "feeSum": {
+        "value": 8200000,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "8.20",
+          "suffix": "M"
+        }
+      },
+      "averageAge": 26,
+      "totalMarketValue": {
+        "value": 2000000,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "2.00",
+          "suffix": "M"
+        }
+      }
+    },
+    "clubIds": [
+      "5689",
+      "3057",
+      "419",
+      "800",
+      "276",
+      "327",
+      "59009",
+      "11036",
+      "36358",
+      "20949"
+    ],
+    "coachIds": [
+      "24630",
+      "44033",
+      "4796",
+      "23576",
+      "55762",
+      "34157",
+      "3436",
+      "4303",
+      "31903",
+      "12924",
+      "31610",
+      "62910",
+      "36182"
+    ],
+    "competitionIds": [
+      "PL1",
+      "BE1",
+      "KR1",
+      "IT1",
+      "KR2"
+    ],
+    "mostRecentTransfer": {
+      "id": "5882355",
+      "transferSource": {
+        "competitionId": "BE1",
+        "countryId": 19,
+        "clubId": "3057",
+        "coachId": "4796"
+      },
+      "transferDestination": {
+        "competitionId": "PL1",
+        "countryId": 135,
+        "clubId": "5689",
+        "coachId": "23576"
+      },
+      "details": {
+        "playerId": "431698",
+        "date": "2025-08-21T00:00:00+02:00",
+        "contractUntilDate": "2026-06-30T00:00:00+02:00",
+        "seasonId": 2025,
+        "isPending": false,
+        "marketValue": {
+          "value": 2500000,
+          "currency": "EUR",
+          "compact": {
+            "prefix": "€",
+            "content": "2.50",
+            "suffix": "M"
+          }
+        },
+        "age": 25,
+        "remainingContractPeriod": {
+          "days": 1409,
+          "daysDisplay": "3 Years, 10 Months, 9 Days"
+        },
+        "season": {
+          "id": 2025,
+          "display": "25/26",
+          "cyclicalName": "2026",
+          "nonCyclicalName": "25/26"
+        }
+      },
+      "typeDetails": {
+        "type": "ACTIVE_LOAN_TRANSFER",
+        "name": "loan transfer",
+        "feeDescription": "loan transfer"
+      },
+      "relativeUrl": "/bosko-sutalo/transfers/spieler/431698/transfer_id/5882355"
+    }
+  }
+}

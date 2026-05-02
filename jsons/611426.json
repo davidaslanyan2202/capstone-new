@@ -1,0 +1,485 @@
+{
+  "success": true,
+  "message": "OK",
+  "data": {
+    "playerId": "611426",
+    "history": {
+      "terminated": [
+        {
+          "id": "5778375",
+          "transferSource": {
+            "competitionId": "BRA1",
+            "countryId": 26,
+            "clubId": "210",
+            "coachId": "4734"
+          },
+          "transferDestination": {
+            "competitionId": "URUC",
+            "countryId": 179,
+            "clubId": "861",
+            "coachId": "11780"
+          },
+          "details": {
+            "playerId": "611426",
+            "date": "2025-07-14T00:00:00+02:00",
+            "contractUntilDate": "2026-12-31T00:00:00+01:00",
+            "seasonId": 2025,
+            "isPending": false,
+            "marketValue": {
+              "value": 6000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "6.00",
+                "suffix": "M"
+              }
+            },
+            "age": 22,
+            "fee": {
+              "value": 301431,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "301.43",
+                "suffix": "K"
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 1266,
+              "daysDisplay": "3 Years, 5 Months, 17 Days"
+            },
+            "season": {
+              "id": 2025,
+              "display": "25/26",
+              "cyclicalName": "2026",
+              "nonCyclicalName": "25/26"
+            }
+          },
+          "typeDetails": {
+            "type": "ACTIVE_LOAN_TRANSFER",
+            "name": "loan transfer",
+            "feeDescription": "Loan fee"
+          },
+          "relativeUrl": "/matias-arezo/transfers/spieler/611426/transfer_id/5778375"
+        },
+        {
+          "id": "5131219",
+          "transferSource": {
+            "competitionId": "ES2",
+            "countryId": 157,
+            "clubId": "16795",
+            "coachId": "53943"
+          },
+          "transferDestination": {
+            "competitionId": "BRA1",
+            "countryId": 26,
+            "clubId": "210",
+            "coachId": "4728"
+          },
+          "details": {
+            "playerId": "611426",
+            "date": "2024-07-19T00:00:00+02:00",
+            "contractUntilDate": "2028-12-31T00:00:00+01:00",
+            "seasonId": 2024,
+            "isPending": false,
+            "marketValue": {
+              "value": 7000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "7.00",
+                "suffix": "M"
+              }
+            },
+            "age": 21,
+            "fee": {
+              "value": 3000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "3.00",
+                "suffix": "M"
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 711,
+              "daysDisplay": "1 Year, 11 Months, 11 Days"
+            },
+            "season": {
+              "id": 2024,
+              "display": "24/25",
+              "cyclicalName": "2025",
+              "nonCyclicalName": "24/25"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/matias-arezo/transfers/spieler/611426/transfer_id/5131219"
+        },
+        {
+          "id": "4234773",
+          "transferSource": {
+            "competitionId": "URUC",
+            "countryId": 179,
+            "clubId": "861",
+            "coachId": "11780"
+          },
+          "transferDestination": {
+            "competitionId": "ES1",
+            "countryId": 157,
+            "clubId": "16795",
+            "coachId": "47797"
+          },
+          "details": {
+            "playerId": "611426",
+            "date": "2023-12-31T00:00:00+01:00",
+            "contractUntilDate": "2026-06-30T00:00:00+02:00",
+            "seasonId": 2023,
+            "isPending": false,
+            "marketValue": {
+              "value": 7500000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "7.50",
+                "suffix": "M"
+              }
+            },
+            "age": 21,
+            "remainingContractPeriod": {
+              "days": 0,
+              "daysDisplay": "Unknown"
+            },
+            "season": {
+              "id": 2023,
+              "display": "23/24",
+              "cyclicalName": "2024",
+              "nonCyclicalName": "23/24"
+            }
+          },
+          "typeDetails": {
+            "type": "RETURNED_FROM_PREVIOUS_LOAN",
+            "name": "End of loan",
+            "feeDescription": "End of loan"
+          },
+          "relativeUrl": "/matias-arezo/transfers/spieler/611426/transfer_id/4234773"
+        },
+        {
+          "id": "4234772",
+          "transferSource": {
+            "competitionId": "ES2",
+            "countryId": 157,
+            "clubId": "16795",
+            "coachId": "8115"
+          },
+          "transferDestination": {
+            "competitionId": "URUC",
+            "countryId": 179,
+            "clubId": "861",
+            "coachId": "23077"
+          },
+          "details": {
+            "playerId": "611426",
+            "date": "2023-01-20T00:00:00+01:00",
+            "contractUntilDate": "2023-12-31T00:00:00+01:00",
+            "seasonId": 2022,
+            "isPending": false,
+            "marketValue": {
+              "value": 4000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "4.00",
+                "suffix": "M"
+              }
+            },
+            "age": 20,
+            "remainingContractPeriod": {
+              "days": 1257,
+              "daysDisplay": "3 Years, 5 Months, 10 Days"
+            },
+            "season": {
+              "id": 2022,
+              "display": "22/23",
+              "cyclicalName": "2023",
+              "nonCyclicalName": "22/23"
+            }
+          },
+          "typeDetails": {
+            "type": "ACTIVE_LOAN_TRANSFER",
+            "name": "loan transfer",
+            "feeDescription": "loan transfer"
+          },
+          "relativeUrl": "/matias-arezo/transfers/spieler/611426/transfer_id/4234772"
+        },
+        {
+          "id": "3723730",
+          "transferSource": {
+            "competitionId": "URUC",
+            "countryId": 179,
+            "clubId": "2419",
+            "coachId": "22496"
+          },
+          "transferDestination": {
+            "competitionId": "ES1",
+            "countryId": 157,
+            "clubId": "16795",
+            "coachId": "20727"
+          },
+          "details": {
+            "playerId": "611426",
+            "date": "2022-01-31T00:00:00+01:00",
+            "contractUntilDate": "2026-06-30T00:00:00+02:00",
+            "seasonId": 2021,
+            "isPending": false,
+            "marketValue": {
+              "value": 7000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "7.00",
+                "suffix": "M"
+              }
+            },
+            "age": 19,
+            "fee": {
+              "value": 5700000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "5.70",
+                "suffix": "M"
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 150,
+              "daysDisplay": "4 Months, 30 Days"
+            },
+            "season": {
+              "id": 2021,
+              "display": "21/22",
+              "cyclicalName": "2022",
+              "nonCyclicalName": "21/22"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/matias-arezo/transfers/spieler/611426/transfer_id/3723730"
+        },
+        {
+          "id": "2582253",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 179,
+            "clubId": "27778",
+            "coachId": "0"
+          },
+          "transferDestination": {
+            "competitionId": "URUC",
+            "countryId": 179,
+            "clubId": "2419",
+            "coachId": "11445"
+          },
+          "details": {
+            "playerId": "611426",
+            "date": "2019-01-01T00:00:00+01:00",
+            "contractUntilDate": "2022-06-30T00:00:00+02:00",
+            "seasonId": 2018,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 16,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2018,
+              "display": "18/19",
+              "cyclicalName": "2019",
+              "nonCyclicalName": "18/19"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/matias-arezo/transfers/spieler/611426/transfer_id/2582253"
+        }
+      ],
+      "pending": [
+        {
+          "id": "6086998",
+          "transferSource": {
+            "competitionId": "URU1",
+            "countryId": 179,
+            "clubId": "861",
+            "coachId": "11780"
+          },
+          "transferDestination": {
+            "competitionId": "BRA1",
+            "countryId": 26,
+            "clubId": "210",
+            "coachId": "2063"
+          },
+          "details": {
+            "playerId": "611426",
+            "date": "2026-12-31T00:00:00+01:00",
+            "contractUntilDate": "2028-12-31T00:00:00+01:00",
+            "seasonId": 2026,
+            "isPending": true,
+            "marketValue": {
+              "value": 6000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "6.00",
+                "suffix": "M"
+              }
+            },
+            "age": 24,
+            "remainingContractPeriod": {
+              "days": 0,
+              "daysDisplay": "Unknown"
+            },
+            "season": {
+              "id": 2026,
+              "display": "26/27",
+              "cyclicalName": "2027",
+              "nonCyclicalName": "26/27"
+            }
+          },
+          "typeDetails": {
+            "type": "RETURNED_FROM_PREVIOUS_LOAN",
+            "name": "End of loan",
+            "feeDescription": "End of loan"
+          },
+          "relativeUrl": "/matias-arezo/transfers/spieler/611426/transfer_id/6086998"
+        }
+      ],
+      "url": "",
+      "feeSum": {
+        "value": 9001431,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "9.00",
+          "suffix": "M"
+        }
+      },
+      "averageAge": 23,
+      "totalMarketValue": {
+        "value": 6000000,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "6.00",
+          "suffix": "M"
+        }
+      }
+    },
+    "clubIds": [
+      "861",
+      "210",
+      "16795",
+      "2419",
+      "27778"
+    ],
+    "coachIds": [
+      "11780",
+      "2063",
+      "4734",
+      "53943",
+      "4728",
+      "47797",
+      "8115",
+      "23077",
+      "22496",
+      "20727",
+      "11445"
+    ],
+    "competitionIds": [
+      "URU1",
+      "BRA1",
+      "URUC",
+      "ES2",
+      "ES1"
+    ],
+    "mostRecentTransfer": {
+      "id": "5778375",
+      "transferSource": {
+        "competitionId": "BRA1",
+        "countryId": 26,
+        "clubId": "210",
+        "coachId": "4734"
+      },
+      "transferDestination": {
+        "competitionId": "URUC",
+        "countryId": 179,
+        "clubId": "861",
+        "coachId": "11780"
+      },
+      "details": {
+        "playerId": "611426",
+        "date": "2025-07-14T00:00:00+02:00",
+        "contractUntilDate": "2026-12-31T00:00:00+01:00",
+        "seasonId": 2025,
+        "isPending": false,
+        "marketValue": {
+          "value": 6000000,
+          "currency": "EUR",
+          "compact": {
+            "prefix": "€",
+            "content": "6.00",
+            "suffix": "M"
+          }
+        },
+        "age": 22,
+        "fee": {
+          "value": 301431,
+          "currency": "EUR",
+          "compact": {
+            "prefix": "€",
+            "content": "301.43",
+            "suffix": "K"
+          }
+        },
+        "remainingContractPeriod": {
+          "days": 1266,
+          "daysDisplay": "3 Years, 5 Months, 17 Days"
+        },
+        "season": {
+          "id": 2025,
+          "display": "25/26",
+          "cyclicalName": "2026",
+          "nonCyclicalName": "25/26"
+        }
+      },
+      "typeDetails": {
+        "type": "ACTIVE_LOAN_TRANSFER",
+        "name": "loan transfer",
+        "feeDescription": "Loan fee"
+      },
+      "relativeUrl": "/matias-arezo/transfers/spieler/611426/transfer_id/5778375"
+    }
+  }
+}

@@ -1,0 +1,658 @@
+{
+  "success": true,
+  "message": "OK",
+  "data": {
+    "playerId": "232454",
+    "history": {
+      "terminated": [
+        {
+          "id": "4860631",
+          "transferSource": {
+            "competitionId": "L1",
+            "countryId": 40,
+            "clubId": "15",
+            "coachId": "63052"
+          },
+          "transferDestination": {
+            "competitionId": "L1",
+            "countryId": 40,
+            "clubId": "39",
+            "coachId": "40349"
+          },
+          "details": {
+            "playerId": "232454",
+            "date": "2024-01-31T00:00:00+01:00",
+            "contractUntilDate": "2028-06-30T00:00:00+02:00",
+            "seasonId": 2023,
+            "isPending": false,
+            "marketValue": {
+              "value": 4000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "4.00",
+                "suffix": "M"
+              }
+            },
+            "age": 27,
+            "fee": {
+              "value": 1000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "1.00",
+                "suffix": "M"
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 151,
+              "daysDisplay": "4 Months, 30 Days"
+            },
+            "season": {
+              "id": 2023,
+              "display": "23/24",
+              "cyclicalName": "2024",
+              "nonCyclicalName": "23/24"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/nadiem-amiri/transfers/spieler/232454/transfer_id/4860631"
+        },
+        {
+          "id": "3719002",
+          "transferSource": {
+            "competitionId": "IT1",
+            "countryId": 75,
+            "clubId": "252",
+            "coachId": "26099"
+          },
+          "transferDestination": {
+            "competitionId": "L1",
+            "countryId": 40,
+            "clubId": "15",
+            "coachId": "23817"
+          },
+          "details": {
+            "playerId": "232454",
+            "date": "2022-06-30T00:00:00+02:00",
+            "contractUntilDate": "2024-06-30T00:00:00+02:00",
+            "seasonId": 2021,
+            "isPending": false,
+            "marketValue": {
+              "value": 8000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "8.00",
+                "suffix": "M"
+              }
+            },
+            "age": 25,
+            "remainingContractPeriod": {
+              "days": 0,
+              "daysDisplay": "Unknown"
+            },
+            "season": {
+              "id": 2021,
+              "display": "21/22",
+              "cyclicalName": "2022",
+              "nonCyclicalName": "21/22"
+            }
+          },
+          "typeDetails": {
+            "type": "RETURNED_FROM_PREVIOUS_LOAN",
+            "name": "End of loan",
+            "feeDescription": "End of loan"
+          },
+          "relativeUrl": "/nadiem-amiri/transfers/spieler/232454/transfer_id/3719002"
+        },
+        {
+          "id": "3719001",
+          "transferSource": {
+            "competitionId": "L1",
+            "countryId": 40,
+            "clubId": "15",
+            "coachId": "23817"
+          },
+          "transferDestination": {
+            "competitionId": "IT1",
+            "countryId": 75,
+            "clubId": "252",
+            "coachId": "26099"
+          },
+          "details": {
+            "playerId": "232454",
+            "date": "2022-01-29T00:00:00+01:00",
+            "contractUntilDate": "2022-06-30T00:00:00+02:00",
+            "seasonId": 2021,
+            "isPending": false,
+            "marketValue": {
+              "value": 11000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "11.00",
+                "suffix": "M"
+              }
+            },
+            "age": 25,
+            "fee": {
+              "value": 240000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "240.00",
+                "suffix": "K"
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 883,
+              "daysDisplay": "2 Years, 5 Months, 1 Day"
+            },
+            "season": {
+              "id": 2021,
+              "display": "21/22",
+              "cyclicalName": "2022",
+              "nonCyclicalName": "21/22"
+            }
+          },
+          "typeDetails": {
+            "type": "ACTIVE_LOAN_TRANSFER",
+            "name": "loan transfer",
+            "feeDescription": "Loan fee"
+          },
+          "relativeUrl": "/nadiem-amiri/transfers/spieler/232454/transfer_id/3719001"
+        },
+        {
+          "id": "2581905",
+          "transferSource": {
+            "competitionId": "L1",
+            "countryId": 40,
+            "clubId": "533",
+            "coachId": "10267"
+          },
+          "transferDestination": {
+            "competitionId": "L1",
+            "countryId": 40,
+            "clubId": "15",
+            "coachId": "1269"
+          },
+          "details": {
+            "playerId": "232454",
+            "date": "2019-07-30T00:00:00+02:00",
+            "contractUntilDate": "2024-06-30T00:00:00+02:00",
+            "seasonId": 2019,
+            "isPending": false,
+            "marketValue": {
+              "value": 17000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "17.00",
+                "suffix": "M"
+              }
+            },
+            "age": 22,
+            "fee": {
+              "value": 10500000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "10.50",
+                "suffix": "M"
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 336,
+              "daysDisplay": "11 Months"
+            },
+            "season": {
+              "id": 2019,
+              "display": "19/20",
+              "cyclicalName": "2020",
+              "nonCyclicalName": "19/20"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/nadiem-amiri/transfers/spieler/232454/transfer_id/2581905"
+        },
+        {
+          "id": "1127965",
+          "transferSource": {
+            "competitionId": "AJ3",
+            "countryId": 40,
+            "clubId": "8925",
+            "coachId": "8402"
+          },
+          "transferDestination": {
+            "competitionId": "L1",
+            "countryId": 40,
+            "clubId": "533",
+            "coachId": "4849"
+          },
+          "details": {
+            "playerId": "232454",
+            "date": "2014-08-01T00:00:00+02:00",
+            "contractUntilDate": "2020-06-30T00:00:00+02:00",
+            "seasonId": 2014,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 17,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2014,
+              "display": "14/15",
+              "cyclicalName": "2015",
+              "nonCyclicalName": "14/15"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/nadiem-amiri/transfers/spieler/232454/transfer_id/1127965"
+        },
+        {
+          "id": "897566",
+          "transferSource": {
+            "competitionId": "BJ3",
+            "countryId": 40,
+            "clubId": "21082",
+            "coachId": "19636"
+          },
+          "transferDestination": {
+            "competitionId": "AJ3",
+            "countryId": 40,
+            "clubId": "8925",
+            "coachId": "8402"
+          },
+          "details": {
+            "playerId": "232454",
+            "date": "2013-07-01T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2013,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 16,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2013,
+              "display": "13/14",
+              "cyclicalName": "2014",
+              "nonCyclicalName": "13/14"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/nadiem-amiri/transfers/spieler/232454/transfer_id/897566"
+        },
+        {
+          "id": "751036",
+          "transferSource": {
+            "competitionId": "BJ3",
+            "countryId": 40,
+            "clubId": "29177",
+            "coachId": "26390"
+          },
+          "transferDestination": {
+            "competitionId": "BJ3",
+            "countryId": 40,
+            "clubId": "21082",
+            "coachId": "19636"
+          },
+          "details": {
+            "playerId": "232454",
+            "date": "2012-07-01T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2012,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 15,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "Free Transfer",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2012,
+              "display": "12/13",
+              "cyclicalName": "2013",
+              "nonCyclicalName": "12/13"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/nadiem-amiri/transfers/spieler/232454/transfer_id/751036"
+        },
+        {
+          "id": "1735232",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 40,
+            "clubId": "25336",
+            "coachId": "0"
+          },
+          "transferDestination": {
+            "competitionId": "",
+            "countryId": 40,
+            "clubId": "29177",
+            "coachId": "0"
+          },
+          "details": {
+            "playerId": "232454",
+            "date": "2011-07-01T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2011,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 14,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2011,
+              "display": "11/12",
+              "cyclicalName": "2012",
+              "nonCyclicalName": "11/12"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/nadiem-amiri/transfers/spieler/232454/transfer_id/1735232"
+        },
+        {
+          "id": "2064029",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 40,
+            "clubId": "12015",
+            "coachId": "63712"
+          },
+          "transferDestination": {
+            "competitionId": "",
+            "countryId": 40,
+            "clubId": "25336",
+            "coachId": "26390"
+          },
+          "details": {
+            "playerId": "232454",
+            "date": "2010-07-01T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2010,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 13,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "Free Transfer",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2010,
+              "display": "10/11",
+              "cyclicalName": "2011",
+              "nonCyclicalName": "10/11"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/nadiem-amiri/transfers/spieler/232454/transfer_id/2064029"
+        },
+        {
+          "id": "5600269",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 40,
+            "clubId": "40756",
+            "coachId": "0"
+          },
+          "transferDestination": {
+            "competitionId": "",
+            "countryId": 40,
+            "clubId": "12015",
+            "coachId": "22875"
+          },
+          "details": {
+            "playerId": "232454",
+            "date": "2005-07-01T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2005,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 8,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "?",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2005,
+              "display": "05/06",
+              "cyclicalName": "2006",
+              "nonCyclicalName": "05/06"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/nadiem-amiri/transfers/spieler/232454/transfer_id/5600269"
+        }
+      ],
+      "pending": [],
+      "url": "",
+      "feeSum": {
+        "value": 11740000,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "11.74",
+          "suffix": "M"
+        }
+      },
+      "averageAge": 29,
+      "totalMarketValue": {
+        "value": 17000000,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "17.00",
+          "suffix": "M"
+        }
+      }
+    },
+    "clubIds": [
+      "15",
+      "39",
+      "252",
+      "533",
+      "8925",
+      "21082",
+      "29177",
+      "25336",
+      "12015",
+      "40756"
+    ],
+    "coachIds": [
+      "63052",
+      "40349",
+      "26099",
+      "23817",
+      "10267",
+      "1269",
+      "8402",
+      "4849",
+      "19636",
+      "26390",
+      "63712",
+      "22875"
+    ],
+    "competitionIds": [
+      "L1",
+      "IT1",
+      "AJ3",
+      "BJ3"
+    ],
+    "mostRecentTransfer": {
+      "id": "4860631",
+      "transferSource": {
+        "competitionId": "L1",
+        "countryId": 40,
+        "clubId": "15",
+        "coachId": "63052"
+      },
+      "transferDestination": {
+        "competitionId": "L1",
+        "countryId": 40,
+        "clubId": "39",
+        "coachId": "40349"
+      },
+      "details": {
+        "playerId": "232454",
+        "date": "2024-01-31T00:00:00+01:00",
+        "contractUntilDate": "2028-06-30T00:00:00+02:00",
+        "seasonId": 2023,
+        "isPending": false,
+        "marketValue": {
+          "value": 4000000,
+          "currency": "EUR",
+          "compact": {
+            "prefix": "€",
+            "content": "4.00",
+            "suffix": "M"
+          }
+        },
+        "age": 27,
+        "fee": {
+          "value": 1000000,
+          "currency": "EUR",
+          "compact": {
+            "prefix": "€",
+            "content": "1.00",
+            "suffix": "M"
+          }
+        },
+        "remainingContractPeriod": {
+          "days": 151,
+          "daysDisplay": "4 Months, 30 Days"
+        },
+        "season": {
+          "id": 2023,
+          "display": "23/24",
+          "cyclicalName": "2024",
+          "nonCyclicalName": "23/24"
+        }
+      },
+      "typeDetails": {
+        "type": "STANDARD",
+        "name": "",
+        "feeDescription": ""
+      },
+      "relativeUrl": "/nadiem-amiri/transfers/spieler/232454/transfer_id/4860631"
+    }
+  }
+}

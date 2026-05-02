@@ -1,0 +1,205 @@
+{
+  "success": true,
+  "message": "OK",
+  "data": {
+    "playerId": "1111777",
+    "history": {
+      "terminated": [
+        {
+          "id": "4526346",
+          "transferSource": {
+            "competitionId": "SEN1",
+            "countryId": 149,
+            "clubId": "30031",
+            "coachId": "137603"
+          },
+          "transferDestination": {
+            "competitionId": "FR1",
+            "countryId": 50,
+            "clubId": "347",
+            "coachId": "1227"
+          },
+          "details": {
+            "playerId": "1111777",
+            "date": "2023-07-22T00:00:00+02:00",
+            "contractUntilDate": "2027-06-30T00:00:00+02:00",
+            "seasonId": 2023,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 19,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "?",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2023,
+              "display": "23/24",
+              "cyclicalName": "2024",
+              "nonCyclicalName": "23/24"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/sadibou-sane/transfers/spieler/1111777/transfer_id/4526346"
+        },
+        {
+          "id": "4305231",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 149,
+            "clubId": "119215",
+            "coachId": "0"
+          },
+          "transferDestination": {
+            "competitionId": "SEN1",
+            "countryId": 149,
+            "clubId": "30031",
+            "coachId": "72810"
+          },
+          "details": {
+            "playerId": "1111777",
+            "date": "2021-11-11T00:00:00+01:00",
+            "contractUntilDate": null,
+            "seasonId": 2021,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 17,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "?",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2021,
+              "display": "21/22",
+              "cyclicalName": "2022",
+              "nonCyclicalName": "21/22"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/sadibou-sane/transfers/spieler/1111777/transfer_id/4305231"
+        }
+      ],
+      "pending": [],
+      "url": "",
+      "feeSum": {
+        "value": 0,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "0.00",
+          "suffix": ""
+        }
+      },
+      "averageAge": 21,
+      "totalMarketValue": {
+        "value": 4000000,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "4.00",
+          "suffix": "M"
+        }
+      }
+    },
+    "clubIds": [
+      "30031",
+      "347",
+      "119215"
+    ],
+    "coachIds": [
+      "137603",
+      "1227",
+      "72810"
+    ],
+    "competitionIds": [
+      "SEN1",
+      "FR1"
+    ],
+    "mostRecentTransfer": {
+      "id": "4526346",
+      "transferSource": {
+        "competitionId": "SEN1",
+        "countryId": 149,
+        "clubId": "30031",
+        "coachId": "137603"
+      },
+      "transferDestination": {
+        "competitionId": "FR1",
+        "countryId": 50,
+        "clubId": "347",
+        "coachId": "1227"
+      },
+      "details": {
+        "playerId": "1111777",
+        "date": "2023-07-22T00:00:00+02:00",
+        "contractUntilDate": "2027-06-30T00:00:00+02:00",
+        "seasonId": 2023,
+        "isPending": false,
+        "marketValue": {
+          "value": 0,
+          "currency": "EUR",
+          "compact": {
+            "prefix": "€",
+            "content": "0.00",
+            "suffix": ""
+          }
+        },
+        "age": 19,
+        "fee": {
+          "value": null,
+          "currency": "",
+          "compact": {
+            "prefix": "",
+            "content": "?",
+            "suffix": ""
+          }
+        },
+        "season": {
+          "id": 2023,
+          "display": "23/24",
+          "cyclicalName": "2024",
+          "nonCyclicalName": "23/24"
+        }
+      },
+      "typeDetails": {
+        "type": "STANDARD",
+        "name": "",
+        "feeDescription": ""
+      },
+      "relativeUrl": "/sadibou-sane/transfers/spieler/1111777/transfer_id/4526346"
+    }
+  }
+}

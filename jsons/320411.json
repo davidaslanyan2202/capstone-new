@@ -1,0 +1,433 @@
+{
+  "success": true,
+  "message": "OK",
+  "data": {
+    "playerId": "320411",
+    "history": {
+      "terminated": [
+        {
+          "id": "5895685",
+          "transferSource": {
+            "competitionId": "GB1",
+            "countryId": 189,
+            "clubId": "989",
+            "coachId": "60677"
+          },
+          "transferDestination": {
+            "competitionId": "DK1",
+            "countryId": 39,
+            "clubId": "865",
+            "coachId": "6611"
+          },
+          "details": {
+            "playerId": "320411",
+            "date": "2025-08-26T00:00:00+02:00",
+            "contractUntilDate": "2030-06-30T00:00:00+02:00",
+            "seasonId": 2025,
+            "isPending": false,
+            "marketValue": {
+              "value": 10000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "10.00",
+                "suffix": "M"
+              }
+            },
+            "age": 29,
+            "fee": {
+              "value": 5000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "5.00",
+                "suffix": "M"
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 673,
+              "daysDisplay": "1 Year, 10 Months, 4 Days"
+            },
+            "season": {
+              "id": 2025,
+              "display": "25/26",
+              "cyclicalName": "2026",
+              "nonCyclicalName": "25/26"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/philip-billing/transfers/spieler/320411/transfer_id/5895685"
+        },
+        {
+          "id": "5445349",
+          "transferSource": {
+            "competitionId": "IT1",
+            "countryId": 75,
+            "clubId": "6195",
+            "coachId": "3517"
+          },
+          "transferDestination": {
+            "competitionId": "GB1",
+            "countryId": 189,
+            "clubId": "989",
+            "coachId": "60677"
+          },
+          "details": {
+            "playerId": "320411",
+            "date": "2025-06-30T00:00:00+02:00",
+            "contractUntilDate": "2027-06-30T00:00:00+02:00",
+            "seasonId": 2024,
+            "isPending": false,
+            "marketValue": {
+              "value": 10000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "10.00",
+                "suffix": "M"
+              }
+            },
+            "age": 29,
+            "remainingContractPeriod": {
+              "days": 0,
+              "daysDisplay": "Unknown"
+            },
+            "season": {
+              "id": 2024,
+              "display": "24/25",
+              "cyclicalName": "2025",
+              "nonCyclicalName": "24/25"
+            }
+          },
+          "typeDetails": {
+            "type": "RETURNED_FROM_PREVIOUS_LOAN",
+            "name": "End of loan",
+            "feeDescription": "End of loan"
+          },
+          "relativeUrl": "/philip-billing/transfers/spieler/320411/transfer_id/5445349"
+        },
+        {
+          "id": "5445348",
+          "transferSource": {
+            "competitionId": "GB1",
+            "countryId": 189,
+            "clubId": "989",
+            "coachId": "60677"
+          },
+          "transferDestination": {
+            "competitionId": "IT1",
+            "countryId": 75,
+            "clubId": "6195",
+            "coachId": "3517"
+          },
+          "details": {
+            "playerId": "320411",
+            "date": "2025-01-11T00:00:00+01:00",
+            "contractUntilDate": "2025-06-30T00:00:00+02:00",
+            "seasonId": 2024,
+            "isPending": false,
+            "marketValue": {
+              "value": 14000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "14.00",
+                "suffix": "M"
+              }
+            },
+            "age": 28,
+            "remainingContractPeriod": {
+              "days": 900,
+              "daysDisplay": "2 Years, 5 Months, 19 Days"
+            },
+            "season": {
+              "id": 2024,
+              "display": "24/25",
+              "cyclicalName": "2025",
+              "nonCyclicalName": "24/25"
+            }
+          },
+          "typeDetails": {
+            "type": "ACTIVE_LOAN_TRANSFER",
+            "name": "loan transfer",
+            "feeDescription": "loan transfer"
+          },
+          "relativeUrl": "/philip-billing/transfers/spieler/320411/transfer_id/5445348"
+        },
+        {
+          "id": "2580244",
+          "transferSource": {
+            "competitionId": "GB2",
+            "countryId": 189,
+            "clubId": "1110",
+            "coachId": "40349"
+          },
+          "transferDestination": {
+            "competitionId": "GB1",
+            "countryId": 189,
+            "clubId": "989",
+            "coachId": "10976"
+          },
+          "details": {
+            "playerId": "320411",
+            "date": "2019-07-29T00:00:00+02:00",
+            "contractUntilDate": "2027-06-30T00:00:00+02:00",
+            "seasonId": 2019,
+            "isPending": false,
+            "marketValue": {
+              "value": 7000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "7.00",
+                "suffix": "M"
+              }
+            },
+            "age": 23,
+            "fee": {
+              "value": 16500000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "16.50",
+                "suffix": "M"
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 337,
+              "daysDisplay": "11 Months, 1 Day"
+            },
+            "season": {
+              "id": 2019,
+              "display": "19/20",
+              "cyclicalName": "2020",
+              "nonCyclicalName": "19/20"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/philip-billing/transfers/spieler/320411/transfer_id/2580244"
+        },
+        {
+          "id": "1078846",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 189,
+            "clubId": "14629",
+            "coachId": "0"
+          },
+          "transferDestination": {
+            "competitionId": "GB2",
+            "countryId": 189,
+            "clubId": "1110",
+            "coachId": "15701"
+          },
+          "details": {
+            "playerId": "320411",
+            "date": "2015-07-01T00:00:00+02:00",
+            "contractUntilDate": "2020-06-30T00:00:00+02:00",
+            "seasonId": 2015,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 19,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 730,
+              "daysDisplay": "1 Year, 11 Months, 29 Days"
+            },
+            "season": {
+              "id": 2015,
+              "display": "15/16",
+              "cyclicalName": "2016",
+              "nonCyclicalName": "15/16"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/philip-billing/transfers/spieler/320411/transfer_id/1078846"
+        },
+        {
+          "id": "1911126",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 39,
+            "clubId": "11253",
+            "coachId": "53896"
+          },
+          "transferDestination": {
+            "competitionId": "",
+            "countryId": 189,
+            "clubId": "14629",
+            "coachId": "15237"
+          },
+          "details": {
+            "playerId": "320411",
+            "date": "2013-10-09T00:00:00+02:00",
+            "contractUntilDate": "2017-06-30T00:00:00+02:00",
+            "seasonId": 2013,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 17,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "?",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2013,
+              "display": "13/14",
+              "cyclicalName": "2014",
+              "nonCyclicalName": "13/14"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/philip-billing/transfers/spieler/320411/transfer_id/1911126"
+        }
+      ],
+      "pending": [],
+      "url": "",
+      "feeSum": {
+        "value": 21500000,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "21.50",
+          "suffix": "M"
+        }
+      },
+      "averageAge": 29,
+      "totalMarketValue": {
+        "value": 7000000,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "7.00",
+          "suffix": "M"
+        }
+      }
+    },
+    "clubIds": [
+      "989",
+      "865",
+      "6195",
+      "1110",
+      "14629",
+      "11253"
+    ],
+    "coachIds": [
+      "60677",
+      "6611",
+      "3517",
+      "40349",
+      "10976",
+      "15701",
+      "53896",
+      "15237"
+    ],
+    "competitionIds": [
+      "GB1",
+      "DK1",
+      "IT1",
+      "GB2"
+    ],
+    "mostRecentTransfer": {
+      "id": "5895685",
+      "transferSource": {
+        "competitionId": "GB1",
+        "countryId": 189,
+        "clubId": "989",
+        "coachId": "60677"
+      },
+      "transferDestination": {
+        "competitionId": "DK1",
+        "countryId": 39,
+        "clubId": "865",
+        "coachId": "6611"
+      },
+      "details": {
+        "playerId": "320411",
+        "date": "2025-08-26T00:00:00+02:00",
+        "contractUntilDate": "2030-06-30T00:00:00+02:00",
+        "seasonId": 2025,
+        "isPending": false,
+        "marketValue": {
+          "value": 10000000,
+          "currency": "EUR",
+          "compact": {
+            "prefix": "€",
+            "content": "10.00",
+            "suffix": "M"
+          }
+        },
+        "age": 29,
+        "fee": {
+          "value": 5000000,
+          "currency": "EUR",
+          "compact": {
+            "prefix": "€",
+            "content": "5.00",
+            "suffix": "M"
+          }
+        },
+        "remainingContractPeriod": {
+          "days": 673,
+          "daysDisplay": "1 Year, 10 Months, 4 Days"
+        },
+        "season": {
+          "id": 2025,
+          "display": "25/26",
+          "cyclicalName": "2026",
+          "nonCyclicalName": "25/26"
+        }
+      },
+      "typeDetails": {
+        "type": "STANDARD",
+        "name": "",
+        "feeDescription": ""
+      },
+      "relativeUrl": "/philip-billing/transfers/spieler/320411/transfer_id/5895685"
+    }
+  }
+}

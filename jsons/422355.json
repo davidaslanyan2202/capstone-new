@@ -1,0 +1,730 @@
+{
+  "success": true,
+  "message": "OK",
+  "data": {
+    "playerId": "422355",
+    "history": {
+      "terminated": [
+        {
+          "id": "5458453",
+          "transferSource": {
+            "competitionId": "L1",
+            "countryId": 40,
+            "clubId": "24",
+            "coachId": "14861"
+          },
+          "transferDestination": {
+            "competitionId": "NO1",
+            "countryId": 125,
+            "clubId": "501",
+            "coachId": "22987"
+          },
+          "details": {
+            "playerId": "422355",
+            "date": "2025-01-30T00:00:00+01:00",
+            "contractUntilDate": "2028-12-31T00:00:00+01:00",
+            "seasonId": 2024,
+            "isPending": false,
+            "marketValue": {
+              "value": 4500000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "4.50",
+                "suffix": "M"
+              }
+            },
+            "age": 25,
+            "fee": {
+              "value": 4000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "4.00",
+                "suffix": "M"
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 516,
+              "daysDisplay": "1 Year, 5 Months"
+            },
+            "season": {
+              "id": 2024,
+              "display": "24/25",
+              "cyclicalName": "2025",
+              "nonCyclicalName": "24/25"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/jens-petter-hauge/transfers/spieler/422355/transfer_id/5458453"
+        },
+        {
+          "id": "4860267",
+          "transferSource": {
+            "competitionId": "NO1",
+            "countryId": 125,
+            "clubId": "501",
+            "coachId": "22987"
+          },
+          "transferDestination": {
+            "competitionId": "L1",
+            "countryId": 40,
+            "clubId": "24",
+            "coachId": "14861"
+          },
+          "details": {
+            "playerId": "422355",
+            "date": "2024-12-31T00:00:00+01:00",
+            "contractUntilDate": "2026-06-30T00:00:00+02:00",
+            "seasonId": 2024,
+            "isPending": false,
+            "marketValue": {
+              "value": 4500000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "4.50",
+                "suffix": "M"
+              }
+            },
+            "age": 25,
+            "remainingContractPeriod": {
+              "days": 0,
+              "daysDisplay": "Unknown"
+            },
+            "season": {
+              "id": 2024,
+              "display": "24/25",
+              "cyclicalName": "2025",
+              "nonCyclicalName": "24/25"
+            }
+          },
+          "typeDetails": {
+            "type": "RETURNED_FROM_PREVIOUS_LOAN",
+            "name": "End of loan",
+            "feeDescription": "End of loan"
+          },
+          "relativeUrl": "/jens-petter-hauge/transfers/spieler/422355/transfer_id/4860267"
+        },
+        {
+          "id": "4860262",
+          "transferSource": {
+            "competitionId": "L1",
+            "countryId": 40,
+            "clubId": "24",
+            "coachId": "14861"
+          },
+          "transferDestination": {
+            "competitionId": "NO1",
+            "countryId": 125,
+            "clubId": "501",
+            "coachId": "22987"
+          },
+          "details": {
+            "playerId": "422355",
+            "date": "2024-01-31T00:00:00+01:00",
+            "contractUntilDate": "2024-12-31T00:00:00+01:00",
+            "seasonId": 2023,
+            "isPending": false,
+            "marketValue": {
+              "value": 2500000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "2.50",
+                "suffix": "M"
+              }
+            },
+            "age": 24,
+            "remainingContractPeriod": {
+              "days": 881,
+              "daysDisplay": "2 Years, 4 Months, 30 Days"
+            },
+            "season": {
+              "id": 2023,
+              "display": "23/24",
+              "cyclicalName": "2024",
+              "nonCyclicalName": "23/24"
+            }
+          },
+          "typeDetails": {
+            "type": "ACTIVE_LOAN_TRANSFER",
+            "name": "loan transfer",
+            "feeDescription": "loan transfer"
+          },
+          "relativeUrl": "/jens-petter-hauge/transfers/spieler/422355/transfer_id/4860262"
+        },
+        {
+          "id": "4018572",
+          "transferSource": {
+            "competitionId": "BE1",
+            "countryId": 19,
+            "clubId": "157",
+            "coachId": "14472"
+          },
+          "transferDestination": {
+            "competitionId": "L1",
+            "countryId": 40,
+            "clubId": "24",
+            "coachId": "22891"
+          },
+          "details": {
+            "playerId": "422355",
+            "date": "2023-06-30T00:00:00+02:00",
+            "contractUntilDate": "2026-06-30T00:00:00+02:00",
+            "seasonId": 2022,
+            "isPending": false,
+            "marketValue": {
+              "value": 2500000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "2.50",
+                "suffix": "M"
+              }
+            },
+            "age": 23,
+            "remainingContractPeriod": {
+              "days": 0,
+              "daysDisplay": "Unknown"
+            },
+            "season": {
+              "id": 2022,
+              "display": "22/23",
+              "cyclicalName": "2023",
+              "nonCyclicalName": "22/23"
+            }
+          },
+          "typeDetails": {
+            "type": "RETURNED_FROM_PREVIOUS_LOAN",
+            "name": "End of loan",
+            "feeDescription": "End of loan"
+          },
+          "relativeUrl": "/jens-petter-hauge/transfers/spieler/422355/transfer_id/4018572"
+        },
+        {
+          "id": "4018567",
+          "transferSource": {
+            "competitionId": "L1",
+            "countryId": 40,
+            "clubId": "24",
+            "coachId": "22891"
+          },
+          "transferDestination": {
+            "competitionId": "BE1",
+            "countryId": 19,
+            "clubId": "157",
+            "coachId": "14472"
+          },
+          "details": {
+            "playerId": "422355",
+            "date": "2022-08-16T00:00:00+02:00",
+            "contractUntilDate": "2023-06-30T00:00:00+02:00",
+            "seasonId": 2022,
+            "isPending": false,
+            "marketValue": {
+              "value": 8000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "8.00",
+                "suffix": "M"
+              }
+            },
+            "age": 22,
+            "remainingContractPeriod": {
+              "days": 1414,
+              "daysDisplay": "3 Years, 10 Months, 14 Days"
+            },
+            "season": {
+              "id": 2022,
+              "display": "22/23",
+              "cyclicalName": "2023",
+              "nonCyclicalName": "22/23"
+            }
+          },
+          "typeDetails": {
+            "type": "ACTIVE_LOAN_TRANSFER",
+            "name": "loan transfer",
+            "feeDescription": "loan transfer"
+          },
+          "relativeUrl": "/jens-petter-hauge/transfers/spieler/422355/transfer_id/4018567"
+        },
+        {
+          "id": "3864419",
+          "transferSource": {
+            "competitionId": "IT1",
+            "countryId": 75,
+            "clubId": "5",
+            "coachId": "2135"
+          },
+          "transferDestination": {
+            "competitionId": "L1",
+            "countryId": 40,
+            "clubId": "24",
+            "coachId": "22891"
+          },
+          "details": {
+            "playerId": "422355",
+            "date": "2022-07-01T00:00:00+02:00",
+            "contractUntilDate": "2026-06-30T00:00:00+02:00",
+            "seasonId": 2022,
+            "isPending": false,
+            "marketValue": {
+              "value": 8000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "8.00",
+                "suffix": "M"
+              }
+            },
+            "age": 22,
+            "fee": {
+              "value": 8200000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "8.20",
+                "suffix": "M"
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 1095,
+              "daysDisplay": "2 Years, 11 Months, 29 Days"
+            },
+            "season": {
+              "id": 2022,
+              "display": "22/23",
+              "cyclicalName": "2023",
+              "nonCyclicalName": "22/23"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/jens-petter-hauge/transfers/spieler/422355/transfer_id/3864419"
+        },
+        {
+          "id": "3488185",
+          "transferSource": {
+            "competitionId": "L1",
+            "countryId": 40,
+            "clubId": "24",
+            "coachId": "22891"
+          },
+          "transferDestination": {
+            "competitionId": "IT1",
+            "countryId": 75,
+            "clubId": "5",
+            "coachId": "2135"
+          },
+          "details": {
+            "playerId": "422355",
+            "date": "2022-06-30T00:00:00+02:00",
+            "contractUntilDate": "2025-06-30T00:00:00+02:00",
+            "seasonId": 2021,
+            "isPending": false,
+            "marketValue": {
+              "value": 8000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "8.00",
+                "suffix": "M"
+              }
+            },
+            "age": 22,
+            "remainingContractPeriod": {
+              "days": 0,
+              "daysDisplay": "Unknown"
+            },
+            "season": {
+              "id": 2021,
+              "display": "21/22",
+              "cyclicalName": "2022",
+              "nonCyclicalName": "21/22"
+            }
+          },
+          "typeDetails": {
+            "type": "RETURNED_FROM_PREVIOUS_LOAN",
+            "name": "End of loan",
+            "feeDescription": "End of loan"
+          },
+          "relativeUrl": "/jens-petter-hauge/transfers/spieler/422355/transfer_id/3488185"
+        },
+        {
+          "id": "3488184",
+          "transferSource": {
+            "competitionId": "IT1",
+            "countryId": 75,
+            "clubId": "5",
+            "coachId": "2135"
+          },
+          "transferDestination": {
+            "competitionId": "L1",
+            "countryId": 40,
+            "clubId": "24",
+            "coachId": "22891"
+          },
+          "details": {
+            "playerId": "422355",
+            "date": "2021-08-10T00:00:00+02:00",
+            "contractUntilDate": "2022-06-30T00:00:00+02:00",
+            "seasonId": 2021,
+            "isPending": false,
+            "marketValue": {
+              "value": 9500000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "9.50",
+                "suffix": "M"
+              }
+            },
+            "age": 21,
+            "fee": {
+              "value": 1600000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "1.60",
+                "suffix": "M"
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 1420,
+              "daysDisplay": "3 Years, 10 Months, 20 Days"
+            },
+            "season": {
+              "id": 2021,
+              "display": "21/22",
+              "cyclicalName": "2022",
+              "nonCyclicalName": "21/22"
+            }
+          },
+          "typeDetails": {
+            "type": "ACTIVE_LOAN_TRANSFER",
+            "name": "loan transfer",
+            "feeDescription": "Loan fee"
+          },
+          "relativeUrl": "/jens-petter-hauge/transfers/spieler/422355/transfer_id/3488184"
+        },
+        {
+          "id": "3083352",
+          "transferSource": {
+            "competitionId": "NO1",
+            "countryId": 125,
+            "clubId": "501",
+            "coachId": "22987"
+          },
+          "transferDestination": {
+            "competitionId": "IT1",
+            "countryId": 75,
+            "clubId": "5",
+            "coachId": "2135"
+          },
+          "details": {
+            "playerId": "422355",
+            "date": "2020-10-01T00:00:00+02:00",
+            "contractUntilDate": "2025-06-30T00:00:00+02:00",
+            "seasonId": 2020,
+            "isPending": false,
+            "marketValue": {
+              "value": 1000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "1.00",
+                "suffix": "M"
+              }
+            },
+            "age": 20,
+            "fee": {
+              "value": 4800000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "4.80",
+                "suffix": "M"
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 456,
+              "daysDisplay": "1 Year, 2 Months, 30 Days"
+            },
+            "season": {
+              "id": 2020,
+              "display": "20/21",
+              "cyclicalName": "2021",
+              "nonCyclicalName": "20/21"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/jens-petter-hauge/transfers/spieler/422355/transfer_id/3083352"
+        },
+        {
+          "id": "2226353",
+          "transferSource": {
+            "competitionId": "NO2",
+            "countryId": 125,
+            "clubId": "5619",
+            "coachId": "28441"
+          },
+          "transferDestination": {
+            "competitionId": "NO1",
+            "countryId": 125,
+            "clubId": "501",
+            "coachId": "22987"
+          },
+          "details": {
+            "playerId": "422355",
+            "date": "2018-12-31T00:00:00+01:00",
+            "contractUntilDate": "2021-12-31T00:00:00+01:00",
+            "seasonId": 2018,
+            "isPending": false,
+            "marketValue": {
+              "value": 200000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "200.00",
+                "suffix": "K"
+              }
+            },
+            "age": 19,
+            "remainingContractPeriod": {
+              "days": 0,
+              "daysDisplay": "Unknown"
+            },
+            "season": {
+              "id": 2018,
+              "display": "18/19",
+              "cyclicalName": "2019",
+              "nonCyclicalName": "18/19"
+            }
+          },
+          "typeDetails": {
+            "type": "RETURNED_FROM_PREVIOUS_LOAN",
+            "name": "End of loan",
+            "feeDescription": "End of loan"
+          },
+          "relativeUrl": "/jens-petter-hauge/transfers/spieler/422355/transfer_id/2226353"
+        },
+        {
+          "id": "2226352",
+          "transferSource": {
+            "competitionId": "NO1",
+            "countryId": 125,
+            "clubId": "501",
+            "coachId": "22987"
+          },
+          "transferDestination": {
+            "competitionId": "NO2",
+            "countryId": 125,
+            "clubId": "5619",
+            "coachId": "28441"
+          },
+          "details": {
+            "playerId": "422355",
+            "date": "2018-08-15T00:00:00+02:00",
+            "contractUntilDate": "2018-12-31T00:00:00+01:00",
+            "seasonId": 2018,
+            "isPending": false,
+            "marketValue": {
+              "value": 300000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "300.00",
+                "suffix": "K"
+              }
+            },
+            "age": 18,
+            "remainingContractPeriod": {
+              "days": 1234,
+              "daysDisplay": "3 Years, 4 Months, 16 Days"
+            },
+            "season": {
+              "id": 2018,
+              "display": "18/19",
+              "cyclicalName": "2019",
+              "nonCyclicalName": "18/19"
+            }
+          },
+          "typeDetails": {
+            "type": "ACTIVE_LOAN_TRANSFER",
+            "name": "loan transfer",
+            "feeDescription": "loan transfer"
+          },
+          "relativeUrl": "/jens-petter-hauge/transfers/spieler/422355/transfer_id/2226352"
+        },
+        {
+          "id": "1483453",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 125,
+            "clubId": "19351",
+            "coachId": "0"
+          },
+          "transferDestination": {
+            "competitionId": "NO1",
+            "countryId": 125,
+            "clubId": "501",
+            "coachId": "9581"
+          },
+          "details": {
+            "playerId": "422355",
+            "date": "2016-04-12T00:00:00+02:00",
+            "contractUntilDate": "2021-12-31T00:00:00+01:00",
+            "seasonId": 2015,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 16,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2015,
+              "display": "15/16",
+              "cyclicalName": "2016",
+              "nonCyclicalName": "15/16"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/jens-petter-hauge/transfers/spieler/422355/transfer_id/1483453"
+        }
+      ],
+      "pending": [],
+      "url": "",
+      "feeSum": {
+        "value": 18600000,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "18.60",
+          "suffix": "M"
+        }
+      },
+      "averageAge": 26,
+      "totalMarketValue": {
+        "value": 12000000,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "12.00",
+          "suffix": "M"
+        }
+      }
+    },
+    "clubIds": [
+      "24",
+      "501",
+      "157",
+      "5",
+      "5619",
+      "19351"
+    ],
+    "coachIds": [
+      "14861",
+      "22987",
+      "14472",
+      "22891",
+      "2135",
+      "28441",
+      "9581"
+    ],
+    "competitionIds": [
+      "L1",
+      "NO1",
+      "BE1",
+      "IT1",
+      "NO2"
+    ],
+    "mostRecentTransfer": {
+      "id": "5458453",
+      "transferSource": {
+        "competitionId": "L1",
+        "countryId": 40,
+        "clubId": "24",
+        "coachId": "14861"
+      },
+      "transferDestination": {
+        "competitionId": "NO1",
+        "countryId": 125,
+        "clubId": "501",
+        "coachId": "22987"
+      },
+      "details": {
+        "playerId": "422355",
+        "date": "2025-01-30T00:00:00+01:00",
+        "contractUntilDate": "2028-12-31T00:00:00+01:00",
+        "seasonId": 2024,
+        "isPending": false,
+        "marketValue": {
+          "value": 4500000,
+          "currency": "EUR",
+          "compact": {
+            "prefix": "€",
+            "content": "4.50",
+            "suffix": "M"
+          }
+        },
+        "age": 25,
+        "fee": {
+          "value": 4000000,
+          "currency": "EUR",
+          "compact": {
+            "prefix": "€",
+            "content": "4.00",
+            "suffix": "M"
+          }
+        },
+        "remainingContractPeriod": {
+          "days": 516,
+          "daysDisplay": "1 Year, 5 Months"
+        },
+        "season": {
+          "id": 2024,
+          "display": "24/25",
+          "cyclicalName": "2025",
+          "nonCyclicalName": "24/25"
+        }
+      },
+      "typeDetails": {
+        "type": "STANDARD",
+        "name": "",
+        "feeDescription": ""
+      },
+      "relativeUrl": "/jens-petter-hauge/transfers/spieler/422355/transfer_id/5458453"
+    }
+  }
+}

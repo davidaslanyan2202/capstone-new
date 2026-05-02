@@ -1,0 +1,701 @@
+{
+  "success": true,
+  "message": "OK",
+  "data": {
+    "playerId": "61087",
+    "history": {
+      "terminated": [
+        {
+          "id": "4400499",
+          "transferSource": {
+            "competitionId": "L1",
+            "countryId": 40,
+            "clubId": "15",
+            "coachId": "63052"
+          },
+          "transferDestination": {
+            "competitionId": "",
+            "countryId": 0,
+            "clubId": "123",
+            "coachId": "0"
+          },
+          "details": {
+            "playerId": "61087",
+            "date": "2023-07-01T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2023,
+            "isPending": false,
+            "marketValue": {
+              "value": 1500000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "1.50",
+                "suffix": "M"
+              }
+            },
+            "age": 33,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2023,
+              "display": "23/24",
+              "cyclicalName": "2024",
+              "nonCyclicalName": "23/24"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/karim-bellarabi/transfers/spieler/61087/transfer_id/4400499"
+        },
+        {
+          "id": "935353",
+          "transferSource": {
+            "competitionId": "L1",
+            "countryId": 40,
+            "clubId": "23",
+            "coachId": "5236"
+          },
+          "transferDestination": {
+            "competitionId": "L1",
+            "countryId": 40,
+            "clubId": "15",
+            "coachId": "858"
+          },
+          "details": {
+            "playerId": "61087",
+            "date": "2014-06-30T00:00:00+02:00",
+            "contractUntilDate": "2023-06-30T00:00:00+02:00",
+            "seasonId": 2013,
+            "isPending": false,
+            "marketValue": {
+              "value": 2500000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "2.50",
+                "suffix": "M"
+              }
+            },
+            "age": 24,
+            "remainingContractPeriod": {
+              "days": 0,
+              "daysDisplay": "Unknown"
+            },
+            "season": {
+              "id": 2013,
+              "display": "13/14",
+              "cyclicalName": "2014",
+              "nonCyclicalName": "13/14"
+            }
+          },
+          "typeDetails": {
+            "type": "RETURNED_FROM_PREVIOUS_LOAN",
+            "name": "End of loan",
+            "feeDescription": "End of loan"
+          },
+          "relativeUrl": "/karim-bellarabi/transfers/spieler/61087/transfer_id/935353"
+        },
+        {
+          "id": "935352",
+          "transferSource": {
+            "competitionId": "L1",
+            "countryId": 40,
+            "clubId": "15",
+            "coachId": "21049"
+          },
+          "transferDestination": {
+            "competitionId": "L1",
+            "countryId": 40,
+            "clubId": "23",
+            "coachId": "5236"
+          },
+          "details": {
+            "playerId": "61087",
+            "date": "2013-08-21T00:00:00+02:00",
+            "contractUntilDate": "2014-06-30T00:00:00+02:00",
+            "seasonId": 2013,
+            "isPending": false,
+            "marketValue": {
+              "value": 2500000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "2.50",
+                "suffix": "M"
+              }
+            },
+            "age": 23,
+            "fee": {
+              "value": 150000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "150.00",
+                "suffix": "K"
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 3600,
+              "daysDisplay": "9 Years, 10 Months, 9 Days"
+            },
+            "season": {
+              "id": 2013,
+              "display": "13/14",
+              "cyclicalName": "2014",
+              "nonCyclicalName": "13/14"
+            }
+          },
+          "typeDetails": {
+            "type": "ACTIVE_LOAN_TRANSFER",
+            "name": "loan transfer",
+            "feeDescription": "Loan fee"
+          },
+          "relativeUrl": "/karim-bellarabi/transfers/spieler/61087/transfer_id/935352"
+        },
+        {
+          "id": "523313",
+          "transferSource": {
+            "competitionId": "L2",
+            "countryId": 40,
+            "clubId": "23",
+            "coachId": "5236"
+          },
+          "transferDestination": {
+            "competitionId": "L1",
+            "countryId": 40,
+            "clubId": "15",
+            "coachId": "1049"
+          },
+          "details": {
+            "playerId": "61087",
+            "date": "2011-07-01T00:00:00+02:00",
+            "contractUntilDate": "2023-06-30T00:00:00+02:00",
+            "seasonId": 2011,
+            "isPending": false,
+            "marketValue": {
+              "value": 1000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "1.00",
+                "suffix": "M"
+              }
+            },
+            "age": 21,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "Free Transfer",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2011,
+              "display": "11/12",
+              "cyclicalName": "2012",
+              "nonCyclicalName": "11/12"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/karim-bellarabi/transfers/spieler/61087/transfer_id/523313"
+        },
+        {
+          "id": "416896",
+          "transferSource": {
+            "competitionId": "RL1",
+            "countryId": 40,
+            "clubId": "1212",
+            "coachId": "2836"
+          },
+          "transferDestination": {
+            "competitionId": "L3",
+            "countryId": 40,
+            "clubId": "23",
+            "coachId": "5236"
+          },
+          "details": {
+            "playerId": "61087",
+            "date": "2010-07-01T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2010,
+            "isPending": false,
+            "marketValue": {
+              "value": 50000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "50.00",
+                "suffix": "K"
+              }
+            },
+            "age": 20,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2010,
+              "display": "10/11",
+              "cyclicalName": "2011",
+              "nonCyclicalName": "10/11"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/karim-bellarabi/transfers/spieler/61087/transfer_id/416896"
+        },
+        {
+          "id": "307643",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 40,
+            "clubId": "9196",
+            "coachId": "1907"
+          },
+          "transferDestination": {
+            "competitionId": "OBLI",
+            "countryId": 40,
+            "clubId": "1212",
+            "coachId": "2836"
+          },
+          "details": {
+            "playerId": "61087",
+            "date": "2009-07-01T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2009,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 19,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2009,
+              "display": "09/10",
+              "cyclicalName": "2010",
+              "nonCyclicalName": "09/10"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/karim-bellarabi/transfers/spieler/61087/transfer_id/307643"
+        },
+        {
+          "id": "212737",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 40,
+            "clubId": "16027",
+            "coachId": "20673"
+          },
+          "transferDestination": {
+            "competitionId": "AJ1",
+            "countryId": 40,
+            "clubId": "9196",
+            "coachId": "1907"
+          },
+          "details": {
+            "playerId": "61087",
+            "date": "2008-07-01T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2008,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 18,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "Free Transfer",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2008,
+              "display": "08/09",
+              "cyclicalName": "2009",
+              "nonCyclicalName": "08/09"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/karim-bellarabi/transfers/spieler/61087/transfer_id/212737"
+        },
+        {
+          "id": "560769",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 40,
+            "clubId": "38504",
+            "coachId": "38540"
+          },
+          "transferDestination": {
+            "competitionId": "",
+            "countryId": 40,
+            "clubId": "16027",
+            "coachId": "20673"
+          },
+          "details": {
+            "playerId": "61087",
+            "date": "2007-07-01T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2007,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 17,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2007,
+              "display": "07/08",
+              "cyclicalName": "2008",
+              "nonCyclicalName": "07/08"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/karim-bellarabi/transfers/spieler/61087/transfer_id/560769"
+        },
+        {
+          "id": "846035",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 40,
+            "clubId": "18485",
+            "coachId": "14787"
+          },
+          "transferDestination": {
+            "competitionId": "",
+            "countryId": 40,
+            "clubId": "38504",
+            "coachId": "38540"
+          },
+          "details": {
+            "playerId": "61087",
+            "date": "2005-07-01T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2005,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 15,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2005,
+              "display": "05/06",
+              "cyclicalName": "2006",
+              "nonCyclicalName": "05/06"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/karim-bellarabi/transfers/spieler/61087/transfer_id/846035"
+        },
+        {
+          "id": "846036",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 40,
+            "clubId": "12012",
+            "coachId": "22876"
+          },
+          "transferDestination": {
+            "competitionId": "",
+            "countryId": 40,
+            "clubId": "18485",
+            "coachId": "14787"
+          },
+          "details": {
+            "playerId": "61087",
+            "date": "2004-07-01T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2004,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 14,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "Free Transfer",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2004,
+              "display": "04/05",
+              "cyclicalName": "2005",
+              "nonCyclicalName": "04/05"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/karim-bellarabi/transfers/spieler/61087/transfer_id/846036"
+        },
+        {
+          "id": "1473215",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 40,
+            "clubId": "53610",
+            "coachId": "0"
+          },
+          "transferDestination": {
+            "competitionId": "",
+            "countryId": 40,
+            "clubId": "12012",
+            "coachId": "6508"
+          },
+          "details": {
+            "playerId": "61087",
+            "date": "1998-07-01T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 1998,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 8,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "Free Transfer",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 1998,
+              "display": "98/99",
+              "cyclicalName": "1999",
+              "nonCyclicalName": "98/99"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/karim-bellarabi/transfers/spieler/61087/transfer_id/1473215"
+        }
+      ],
+      "pending": [],
+      "url": "",
+      "feeSum": {
+        "value": 150000,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "150.00",
+          "suffix": "K"
+        }
+      },
+      "averageAge": 36,
+      "totalMarketValue": {
+        "value": 0,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "0.00",
+          "suffix": ""
+        }
+      }
+    },
+    "clubIds": [
+      "15",
+      "123",
+      "23",
+      "1212",
+      "9196",
+      "16027",
+      "38504",
+      "18485",
+      "12012",
+      "53610"
+    ],
+    "coachIds": [
+      "63052",
+      "5236",
+      "858",
+      "21049",
+      "1049",
+      "2836",
+      "1907",
+      "20673",
+      "38540",
+      "14787",
+      "22876",
+      "6508"
+    ],
+    "competitionIds": [
+      "L1",
+      "L2",
+      "RL1",
+      "L3",
+      "OBLI",
+      "AJ1"
+    ],
+    "mostRecentTransfer": {
+      "id": "4400499",
+      "transferSource": {
+        "competitionId": "L1",
+        "countryId": 40,
+        "clubId": "15",
+        "coachId": "63052"
+      },
+      "transferDestination": {
+        "competitionId": "",
+        "countryId": 0,
+        "clubId": "123",
+        "coachId": "0"
+      },
+      "details": {
+        "playerId": "61087",
+        "date": "2023-07-01T00:00:00+02:00",
+        "contractUntilDate": null,
+        "seasonId": 2023,
+        "isPending": false,
+        "marketValue": {
+          "value": 1500000,
+          "currency": "EUR",
+          "compact": {
+            "prefix": "€",
+            "content": "1.50",
+            "suffix": "M"
+          }
+        },
+        "age": 33,
+        "fee": {
+          "value": null,
+          "currency": "",
+          "compact": {
+            "prefix": "",
+            "content": "-",
+            "suffix": ""
+          }
+        },
+        "season": {
+          "id": 2023,
+          "display": "23/24",
+          "cyclicalName": "2024",
+          "nonCyclicalName": "23/24"
+        }
+      },
+      "typeDetails": {
+        "type": "STANDARD",
+        "name": "",
+        "feeDescription": ""
+      },
+      "relativeUrl": "/karim-bellarabi/transfers/spieler/61087/transfer_id/4400499"
+    }
+  }
+}

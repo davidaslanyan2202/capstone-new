@@ -1,0 +1,724 @@
+{
+  "success": true,
+  "message": "OK",
+  "data": {
+    "playerId": "493702",
+    "history": {
+      "terminated": [
+        {
+          "id": "6123609",
+          "transferSource": {
+            "competitionId": "FR1",
+            "countryId": 50,
+            "clubId": "417",
+            "coachId": "1240"
+          },
+          "transferDestination": {
+            "competitionId": "IT2",
+            "countryId": 75,
+            "clubId": "1038",
+            "coachId": "2130"
+          },
+          "details": {
+            "playerId": "493702",
+            "date": "2026-01-16T00:00:00+01:00",
+            "contractUntilDate": "2026-06-30T00:00:00+02:00",
+            "seasonId": 2025,
+            "isPending": false,
+            "marketValue": {
+              "value": 4000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "4.00",
+                "suffix": "M"
+              }
+            },
+            "age": 23,
+            "remainingContractPeriod": {
+              "days": 530,
+              "daysDisplay": "1 Year, 5 Months, 14 Days"
+            },
+            "season": {
+              "id": 2025,
+              "display": "25/26",
+              "cyclicalName": "2026",
+              "nonCyclicalName": "25/26"
+            }
+          },
+          "typeDetails": {
+            "type": "ACTIVE_LOAN_TRANSFER",
+            "name": "loan transfer",
+            "feeDescription": "loan transfer"
+          },
+          "relativeUrl": "/mattia-viti/transfers/spieler/493702/transfer_id/6123609"
+        },
+        {
+          "id": "5743106",
+          "transferSource": {
+            "competitionId": "IT1",
+            "countryId": 75,
+            "clubId": "430",
+            "coachId": "31876"
+          },
+          "transferDestination": {
+            "competitionId": "FR1",
+            "countryId": 50,
+            "clubId": "417",
+            "coachId": "1240"
+          },
+          "details": {
+            "playerId": "493702",
+            "date": "2026-01-15T00:00:00+01:00",
+            "contractUntilDate": "2027-06-30T00:00:00+02:00",
+            "seasonId": 2025,
+            "isPending": false,
+            "marketValue": {
+              "value": 4000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "4.00",
+                "suffix": "M"
+              }
+            },
+            "age": 23,
+            "remainingContractPeriod": {
+              "days": 166,
+              "daysDisplay": "5 Months, 15 Days"
+            },
+            "season": {
+              "id": 2025,
+              "display": "25/26",
+              "cyclicalName": "2026",
+              "nonCyclicalName": "25/26"
+            }
+          },
+          "typeDetails": {
+            "type": "RETURNED_FROM_PREVIOUS_LOAN",
+            "name": "End of loan",
+            "feeDescription": "End of loan"
+          },
+          "relativeUrl": "/mattia-viti/transfers/spieler/493702/transfer_id/5743106"
+        },
+        {
+          "id": "5743105",
+          "transferSource": {
+            "competitionId": "FR1",
+            "countryId": 50,
+            "clubId": "417",
+            "coachId": "27176"
+          },
+          "transferDestination": {
+            "competitionId": "IT1",
+            "countryId": 75,
+            "clubId": "430",
+            "coachId": "0"
+          },
+          "details": {
+            "playerId": "493702",
+            "date": "2025-07-01T00:00:00+02:00",
+            "contractUntilDate": "2026-06-30T00:00:00+02:00",
+            "seasonId": 2025,
+            "isPending": false,
+            "marketValue": {
+              "value": 5500000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "5.50",
+                "suffix": "M"
+              }
+            },
+            "age": 23,
+            "remainingContractPeriod": {
+              "days": 729,
+              "daysDisplay": "1 Year, 11 Months, 29 Days"
+            },
+            "season": {
+              "id": 2025,
+              "display": "25/26",
+              "cyclicalName": "2026",
+              "nonCyclicalName": "25/26"
+            }
+          },
+          "typeDetails": {
+            "type": "ACTIVE_LOAN_TRANSFER",
+            "name": "loan transfer",
+            "feeDescription": "loan transfer"
+          },
+          "relativeUrl": "/mattia-viti/transfers/spieler/493702/transfer_id/5743105"
+        },
+        {
+          "id": "5139392",
+          "transferSource": {
+            "competitionId": "IT1",
+            "countryId": 75,
+            "clubId": "749",
+            "coachId": "35535"
+          },
+          "transferDestination": {
+            "competitionId": "FR1",
+            "countryId": 50,
+            "clubId": "417",
+            "coachId": "27176"
+          },
+          "details": {
+            "playerId": "493702",
+            "date": "2025-06-30T00:00:00+02:00",
+            "contractUntilDate": "2027-06-30T00:00:00+02:00",
+            "seasonId": 2024,
+            "isPending": false,
+            "marketValue": {
+              "value": 5500000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "5.50",
+                "suffix": "M"
+              }
+            },
+            "age": 23,
+            "remainingContractPeriod": {
+              "days": 0,
+              "daysDisplay": "Unknown"
+            },
+            "season": {
+              "id": 2024,
+              "display": "24/25",
+              "cyclicalName": "2025",
+              "nonCyclicalName": "24/25"
+            }
+          },
+          "typeDetails": {
+            "type": "RETURNED_FROM_PREVIOUS_LOAN",
+            "name": "End of loan",
+            "feeDescription": "End of loan"
+          },
+          "relativeUrl": "/mattia-viti/transfers/spieler/493702/transfer_id/5139392"
+        },
+        {
+          "id": "5139391",
+          "transferSource": {
+            "competitionId": "FR1",
+            "countryId": 50,
+            "clubId": "417",
+            "coachId": "27176"
+          },
+          "transferDestination": {
+            "competitionId": "IT1",
+            "countryId": 75,
+            "clubId": "749",
+            "coachId": "35782"
+          },
+          "details": {
+            "playerId": "493702",
+            "date": "2024-07-22T00:00:00+02:00",
+            "contractUntilDate": "2025-06-30T00:00:00+02:00",
+            "seasonId": 2024,
+            "isPending": false,
+            "marketValue": {
+              "value": 5000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "5.00",
+                "suffix": "M"
+              }
+            },
+            "age": 22,
+            "remainingContractPeriod": {
+              "days": 1073,
+              "daysDisplay": "2 Years, 11 Months, 8 Days"
+            },
+            "season": {
+              "id": 2024,
+              "display": "24/25",
+              "cyclicalName": "2025",
+              "nonCyclicalName": "24/25"
+            }
+          },
+          "typeDetails": {
+            "type": "ACTIVE_LOAN_TRANSFER",
+            "name": "loan transfer",
+            "feeDescription": "loan transfer"
+          },
+          "relativeUrl": "/mattia-viti/transfers/spieler/493702/transfer_id/5139391"
+        },
+        {
+          "id": "4499286",
+          "transferSource": {
+            "competitionId": "IT1",
+            "countryId": 75,
+            "clubId": "6574",
+            "coachId": "34361"
+          },
+          "transferDestination": {
+            "competitionId": "FR1",
+            "countryId": 50,
+            "clubId": "417",
+            "coachId": "73923"
+          },
+          "details": {
+            "playerId": "493702",
+            "date": "2024-06-30T00:00:00+02:00",
+            "contractUntilDate": "2027-06-30T00:00:00+02:00",
+            "seasonId": 2023,
+            "isPending": false,
+            "marketValue": {
+              "value": 5000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "5.00",
+                "suffix": "M"
+              }
+            },
+            "age": 22,
+            "remainingContractPeriod": {
+              "days": 0,
+              "daysDisplay": "Unknown"
+            },
+            "season": {
+              "id": 2023,
+              "display": "23/24",
+              "cyclicalName": "2024",
+              "nonCyclicalName": "23/24"
+            }
+          },
+          "typeDetails": {
+            "type": "RETURNED_FROM_PREVIOUS_LOAN",
+            "name": "End of loan",
+            "feeDescription": "End of loan"
+          },
+          "relativeUrl": "/mattia-viti/transfers/spieler/493702/transfer_id/4499286"
+        },
+        {
+          "id": "4499285",
+          "transferSource": {
+            "competitionId": "FR1",
+            "countryId": 50,
+            "clubId": "417",
+            "coachId": "73923"
+          },
+          "transferDestination": {
+            "competitionId": "IT1",
+            "countryId": 75,
+            "clubId": "6574",
+            "coachId": "36126"
+          },
+          "details": {
+            "playerId": "493702",
+            "date": "2023-07-12T00:00:00+02:00",
+            "contractUntilDate": "2024-06-30T00:00:00+02:00",
+            "seasonId": 2023,
+            "isPending": false,
+            "marketValue": {
+              "value": 7000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "7.00",
+                "suffix": "M"
+              }
+            },
+            "age": 21,
+            "fee": {
+              "value": 510000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "510.00",
+                "suffix": "K"
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 1449,
+              "daysDisplay": "3 Years, 11 Months, 18 Days"
+            },
+            "season": {
+              "id": 2023,
+              "display": "23/24",
+              "cyclicalName": "2024",
+              "nonCyclicalName": "23/24"
+            }
+          },
+          "typeDetails": {
+            "type": "ACTIVE_LOAN_TRANSFER",
+            "name": "loan transfer",
+            "feeDescription": "Loan fee"
+          },
+          "relativeUrl": "/mattia-viti/transfers/spieler/493702/transfer_id/4499285"
+        },
+        {
+          "id": "3988759",
+          "transferSource": {
+            "competitionId": "IT1",
+            "countryId": 75,
+            "clubId": "749",
+            "coachId": "52249"
+          },
+          "transferDestination": {
+            "competitionId": "FR1",
+            "countryId": 50,
+            "clubId": "417",
+            "coachId": "535"
+          },
+          "details": {
+            "playerId": "493702",
+            "date": "2022-08-03T00:00:00+02:00",
+            "contractUntilDate": "2027-06-30T00:00:00+02:00",
+            "seasonId": 2022,
+            "isPending": false,
+            "marketValue": {
+              "value": 7000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "7.00",
+                "suffix": "M"
+              }
+            },
+            "age": 20,
+            "fee": {
+              "value": 13000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "13.00",
+                "suffix": "M"
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 1062,
+              "daysDisplay": "2 Years, 10 Months, 27 Days"
+            },
+            "season": {
+              "id": 2022,
+              "display": "22/23",
+              "cyclicalName": "2023",
+              "nonCyclicalName": "22/23"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/mattia-viti/transfers/spieler/493702/transfer_id/3988759"
+        },
+        {
+          "id": "3054793",
+          "transferSource": {
+            "competitionId": "IJ1",
+            "countryId": 75,
+            "clubId": "8492",
+            "coachId": "55241"
+          },
+          "transferDestination": {
+            "competitionId": "IT2",
+            "countryId": 75,
+            "clubId": "749",
+            "coachId": "3776"
+          },
+          "details": {
+            "playerId": "493702",
+            "date": "2020-07-01T00:00:00+02:00",
+            "contractUntilDate": "2025-06-30T00:00:00+02:00",
+            "seasonId": 2020,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 18,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2020,
+              "display": "20/21",
+              "cyclicalName": "2021",
+              "nonCyclicalName": "20/21"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/mattia-viti/transfers/spieler/493702/transfer_id/3054793"
+        },
+        {
+          "id": "2653892",
+          "transferSource": {
+            "competitionId": "ITJ4",
+            "countryId": 75,
+            "clubId": "49868",
+            "coachId": "0"
+          },
+          "transferDestination": {
+            "competitionId": "IJ1",
+            "countryId": 75,
+            "clubId": "8492",
+            "coachId": "22549"
+          },
+          "details": {
+            "playerId": "493702",
+            "date": "2019-07-01T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2019,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 17,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2019,
+              "display": "19/20",
+              "cyclicalName": "2020",
+              "nonCyclicalName": "19/20"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/mattia-viti/transfers/spieler/493702/transfer_id/2653892"
+        },
+        {
+          "id": "2213643",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 75,
+            "clubId": "14431",
+            "coachId": "55241"
+          },
+          "transferDestination": {
+            "competitionId": "ITJ4",
+            "countryId": 75,
+            "clubId": "49868",
+            "coachId": "0"
+          },
+          "details": {
+            "playerId": "493702",
+            "date": "2018-07-01T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2018,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 16,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2018,
+              "display": "18/19",
+              "cyclicalName": "2019",
+              "nonCyclicalName": "18/19"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/mattia-viti/transfers/spieler/493702/transfer_id/2213643"
+        }
+      ],
+      "pending": [
+        {
+          "id": "6123610",
+          "transferSource": {
+            "competitionId": "IT2",
+            "countryId": 75,
+            "clubId": "1038",
+            "coachId": "6317"
+          },
+          "transferDestination": {
+            "competitionId": "FR1",
+            "countryId": 50,
+            "clubId": "417",
+            "coachId": "1240"
+          },
+          "details": {
+            "playerId": "493702",
+            "date": "2026-06-30T00:00:00+02:00",
+            "contractUntilDate": "2027-06-30T00:00:00+02:00",
+            "seasonId": 2025,
+            "isPending": true,
+            "marketValue": {
+              "value": 4000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "4.00",
+                "suffix": "M"
+              }
+            },
+            "age": 24,
+            "remainingContractPeriod": {
+              "days": 0,
+              "daysDisplay": "Unknown"
+            },
+            "season": {
+              "id": 2025,
+              "display": "25/26",
+              "cyclicalName": "2026",
+              "nonCyclicalName": "25/26"
+            }
+          },
+          "typeDetails": {
+            "type": "RETURNED_FROM_PREVIOUS_LOAN",
+            "name": "End of loan",
+            "feeDescription": "End of loan"
+          },
+          "relativeUrl": "/mattia-viti/transfers/spieler/493702/transfer_id/6123610"
+        }
+      ],
+      "url": "",
+      "feeSum": {
+        "value": 13510000,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "13.51",
+          "suffix": "M"
+        }
+      },
+      "averageAge": 24,
+      "totalMarketValue": {
+        "value": 4000000,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "4.00",
+          "suffix": "M"
+        }
+      }
+    },
+    "clubIds": [
+      "1038",
+      "417",
+      "430",
+      "749",
+      "6574",
+      "8492",
+      "49868",
+      "14431"
+    ],
+    "coachIds": [
+      "6317",
+      "1240",
+      "2130",
+      "31876",
+      "27176",
+      "35535",
+      "35782",
+      "34361",
+      "73923",
+      "36126",
+      "52249",
+      "535",
+      "55241",
+      "3776",
+      "22549"
+    ],
+    "competitionIds": [
+      "IT2",
+      "FR1",
+      "IT1",
+      "IJ1",
+      "ITJ4"
+    ],
+    "mostRecentTransfer": {
+      "id": "6123609",
+      "transferSource": {
+        "competitionId": "FR1",
+        "countryId": 50,
+        "clubId": "417",
+        "coachId": "1240"
+      },
+      "transferDestination": {
+        "competitionId": "IT2",
+        "countryId": 75,
+        "clubId": "1038",
+        "coachId": "2130"
+      },
+      "details": {
+        "playerId": "493702",
+        "date": "2026-01-16T00:00:00+01:00",
+        "contractUntilDate": "2026-06-30T00:00:00+02:00",
+        "seasonId": 2025,
+        "isPending": false,
+        "marketValue": {
+          "value": 4000000,
+          "currency": "EUR",
+          "compact": {
+            "prefix": "€",
+            "content": "4.00",
+            "suffix": "M"
+          }
+        },
+        "age": 23,
+        "remainingContractPeriod": {
+          "days": 530,
+          "daysDisplay": "1 Year, 5 Months, 14 Days"
+        },
+        "season": {
+          "id": 2025,
+          "display": "25/26",
+          "cyclicalName": "2026",
+          "nonCyclicalName": "25/26"
+        }
+      },
+      "typeDetails": {
+        "type": "ACTIVE_LOAN_TRANSFER",
+        "name": "loan transfer",
+        "feeDescription": "loan transfer"
+      },
+      "relativeUrl": "/mattia-viti/transfers/spieler/493702/transfer_id/6123609"
+    }
+  }
+}

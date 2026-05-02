@@ -1,0 +1,785 @@
+{
+  "success": true,
+  "message": "OK",
+  "data": {
+    "playerId": "71579",
+    "history": {
+      "terminated": [
+        {
+          "id": "3856642",
+          "transferSource": {
+            "competitionId": "ES1",
+            "countryId": 157,
+            "clubId": "331",
+            "coachId": "29192"
+          },
+          "transferDestination": {
+            "competitionId": "",
+            "countryId": 0,
+            "clubId": "123",
+            "coachId": "0"
+          },
+          "details": {
+            "playerId": "71579",
+            "date": "2022-07-01T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2022,
+            "isPending": false,
+            "marketValue": {
+              "value": 600000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "600.00",
+                "suffix": "K"
+              }
+            },
+            "age": 34,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2022,
+              "display": "22/23",
+              "cyclicalName": "2023",
+              "nonCyclicalName": "22/23"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/inigo-perez/transfers/spieler/71579/transfer_id/3856642"
+        },
+        {
+          "id": "2157013",
+          "transferSource": {
+            "competitionId": "ES2",
+            "countryId": 157,
+            "clubId": "2296",
+            "coachId": "53991"
+          },
+          "transferDestination": {
+            "competitionId": "ES2",
+            "countryId": 157,
+            "clubId": "331",
+            "coachId": "29192"
+          },
+          "details": {
+            "playerId": "71579",
+            "date": "2018-07-02T00:00:00+02:00",
+            "contractUntilDate": "2022-06-30T00:00:00+02:00",
+            "seasonId": 2018,
+            "isPending": false,
+            "marketValue": {
+              "value": 800000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "800.00",
+                "suffix": "K"
+              }
+            },
+            "age": 30,
+            "fee": {
+              "value": 750000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "750.00",
+                "suffix": "K"
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 363,
+              "daysDisplay": "11 Months, 28 Days"
+            },
+            "season": {
+              "id": 2018,
+              "display": "18/19",
+              "cyclicalName": "2019",
+              "nonCyclicalName": "18/19"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/inigo-perez/transfers/spieler/71579/transfer_id/2157013"
+        },
+        {
+          "id": "1089331",
+          "transferSource": {
+            "competitionId": "ES1",
+            "countryId": 157,
+            "clubId": "621",
+            "coachId": "1559"
+          },
+          "transferDestination": {
+            "competitionId": "ES2",
+            "countryId": 157,
+            "clubId": "2296",
+            "coachId": "6526"
+          },
+          "details": {
+            "playerId": "71579",
+            "date": "2014-07-18T00:00:00+02:00",
+            "contractUntilDate": "2019-06-30T00:00:00+02:00",
+            "seasonId": 2014,
+            "isPending": false,
+            "marketValue": {
+              "value": 1000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "1.00",
+                "suffix": "M"
+              }
+            },
+            "age": 26,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "Free Transfer",
+                "suffix": ""
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 347,
+              "daysDisplay": "11 Months, 12 Days"
+            },
+            "season": {
+              "id": 2014,
+              "display": "14/15",
+              "cyclicalName": "2015",
+              "nonCyclicalName": "14/15"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/inigo-perez/transfers/spieler/71579/transfer_id/1089331"
+        },
+        {
+          "id": "937181",
+          "transferSource": {
+            "competitionId": "ES2",
+            "countryId": 157,
+            "clubId": "237",
+            "coachId": "5180"
+          },
+          "transferDestination": {
+            "competitionId": "ES1",
+            "countryId": 157,
+            "clubId": "621",
+            "coachId": "1559"
+          },
+          "details": {
+            "playerId": "71579",
+            "date": "2014-01-31T00:00:00+01:00",
+            "contractUntilDate": "2015-06-30T00:00:00+02:00",
+            "seasonId": 2013,
+            "isPending": false,
+            "marketValue": {
+              "value": 1500000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "1.50",
+                "suffix": "M"
+              }
+            },
+            "age": 26,
+            "season": {
+              "id": 2013,
+              "display": "13/14",
+              "cyclicalName": "2014",
+              "nonCyclicalName": "13/14"
+            }
+          },
+          "typeDetails": {
+            "type": "RETURNED_FROM_PREVIOUS_LOAN",
+            "name": "End of loan",
+            "feeDescription": "End of loan"
+          },
+          "relativeUrl": "/inigo-perez/transfers/spieler/71579/transfer_id/937181"
+        },
+        {
+          "id": "936922",
+          "transferSource": {
+            "competitionId": "ES1",
+            "countryId": 157,
+            "clubId": "621",
+            "coachId": "1559"
+          },
+          "transferDestination": {
+            "competitionId": "ES2",
+            "countryId": 157,
+            "clubId": "237",
+            "coachId": "5180"
+          },
+          "details": {
+            "playerId": "71579",
+            "date": "2013-08-20T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2013,
+            "isPending": false,
+            "marketValue": {
+              "value": 1500000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "1.50",
+                "suffix": "M"
+              }
+            },
+            "age": 25,
+            "remainingContractPeriod": {
+              "days": 679,
+              "daysDisplay": "1 Year, 10 Months, 10 Days"
+            },
+            "season": {
+              "id": 2013,
+              "display": "13/14",
+              "cyclicalName": "2014",
+              "nonCyclicalName": "13/14"
+            }
+          },
+          "typeDetails": {
+            "type": "ACTIVE_LOAN_TRANSFER",
+            "name": "loan transfer",
+            "feeDescription": "loan transfer"
+          },
+          "relativeUrl": "/inigo-perez/transfers/spieler/71579/transfer_id/936922"
+        },
+        {
+          "id": "550712",
+          "transferSource": {
+            "competitionId": "ES2",
+            "countryId": 157,
+            "clubId": "5358",
+            "coachId": "14807"
+          },
+          "transferDestination": {
+            "competitionId": "ES1",
+            "countryId": 157,
+            "clubId": "621",
+            "coachId": "1550"
+          },
+          "details": {
+            "playerId": "71579",
+            "date": "2011-06-30T00:00:00+02:00",
+            "contractUntilDate": "2015-06-30T00:00:00+02:00",
+            "seasonId": 2010,
+            "isPending": false,
+            "marketValue": {
+              "value": 500000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "500.00",
+                "suffix": "K"
+              }
+            },
+            "age": 23,
+            "season": {
+              "id": 2010,
+              "display": "10/11",
+              "cyclicalName": "2011",
+              "nonCyclicalName": "10/11"
+            }
+          },
+          "typeDetails": {
+            "type": "RETURNED_FROM_PREVIOUS_LOAN",
+            "name": "End of loan",
+            "feeDescription": "End of loan"
+          },
+          "relativeUrl": "/inigo-perez/transfers/spieler/71579/transfer_id/550712"
+        },
+        {
+          "id": "550711",
+          "transferSource": {
+            "competitionId": "ES1",
+            "countryId": 157,
+            "clubId": "621",
+            "coachId": "1550"
+          },
+          "transferDestination": {
+            "competitionId": "ES2",
+            "countryId": 157,
+            "clubId": "5358",
+            "coachId": "6723"
+          },
+          "details": {
+            "playerId": "71579",
+            "date": "2011-03-08T00:00:00+01:00",
+            "contractUntilDate": null,
+            "seasonId": 2010,
+            "isPending": false,
+            "marketValue": {
+              "value": 500000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "500.00",
+                "suffix": "K"
+              }
+            },
+            "age": 23,
+            "season": {
+              "id": 2010,
+              "display": "10/11",
+              "cyclicalName": "2011",
+              "nonCyclicalName": "10/11"
+            }
+          },
+          "typeDetails": {
+            "type": "ACTIVE_LOAN_TRANSFER",
+            "name": "loan transfer",
+            "feeDescription": "loan transfer"
+          },
+          "relativeUrl": "/inigo-perez/transfers/spieler/71579/transfer_id/550711"
+        },
+        {
+          "id": "458270",
+          "transferSource": {
+            "competitionId": "ES3B",
+            "countryId": 157,
+            "clubId": "6688",
+            "coachId": "20031"
+          },
+          "transferDestination": {
+            "competitionId": "ES1",
+            "countryId": 157,
+            "clubId": "621",
+            "coachId": "1550"
+          },
+          "details": {
+            "playerId": "71579",
+            "date": "2010-07-01T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2010,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 22,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2010,
+              "display": "10/11",
+              "cyclicalName": "2011",
+              "nonCyclicalName": "10/11"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/inigo-perez/transfers/spieler/71579/transfer_id/458270"
+        },
+        {
+          "id": "978260",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 157,
+            "clubId": "6665",
+            "coachId": "53145"
+          },
+          "transferDestination": {
+            "competitionId": "ES3B",
+            "countryId": 157,
+            "clubId": "6688",
+            "coachId": "30415"
+          },
+          "details": {
+            "playerId": "71579",
+            "date": "2007-07-01T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2007,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 19,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2007,
+              "display": "07/08",
+              "cyclicalName": "2008",
+              "nonCyclicalName": "07/08"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/inigo-perez/transfers/spieler/71579/transfer_id/978260"
+        },
+        {
+          "id": "978259",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 157,
+            "clubId": "28860",
+            "coachId": "19405"
+          },
+          "transferDestination": {
+            "competitionId": "",
+            "countryId": 157,
+            "clubId": "6665",
+            "coachId": "53145"
+          },
+          "details": {
+            "playerId": "71579",
+            "date": "2006-07-01T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2006,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 18,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2006,
+              "display": "06/07",
+              "cyclicalName": "2007",
+              "nonCyclicalName": "06/07"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/inigo-perez/transfers/spieler/71579/transfer_id/978259"
+        },
+        {
+          "id": "4332222",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 157,
+            "clubId": "107198",
+            "coachId": "0"
+          },
+          "transferDestination": {
+            "competitionId": "",
+            "countryId": 157,
+            "clubId": "28860",
+            "coachId": "20031"
+          },
+          "details": {
+            "playerId": "71579",
+            "date": "2005-07-01T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2005,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 17,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2005,
+              "display": "05/06",
+              "cyclicalName": "2006",
+              "nonCyclicalName": "05/06"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/inigo-perez/transfers/spieler/71579/transfer_id/4332222"
+        },
+        {
+          "id": "4332221",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 157,
+            "clubId": "14733",
+            "coachId": "62451"
+          },
+          "transferDestination": {
+            "competitionId": "",
+            "countryId": 157,
+            "clubId": "107198",
+            "coachId": "0"
+          },
+          "details": {
+            "playerId": "71579",
+            "date": "2004-07-01T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2004,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 16,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2004,
+              "display": "04/05",
+              "cyclicalName": "2005",
+              "nonCyclicalName": "04/05"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/inigo-perez/transfers/spieler/71579/transfer_id/4332221"
+        },
+        {
+          "id": "4332223",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 157,
+            "clubId": "107090",
+            "coachId": "0"
+          },
+          "transferDestination": {
+            "competitionId": "",
+            "countryId": 157,
+            "clubId": "14733",
+            "coachId": "45416"
+          },
+          "details": {
+            "playerId": "71579",
+            "date": "2002-07-01T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2002,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 14,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "?",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2002,
+              "display": "02/03",
+              "cyclicalName": "2003",
+              "nonCyclicalName": "02/03"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/inigo-perez/transfers/spieler/71579/transfer_id/4332223"
+        }
+      ],
+      "pending": [],
+      "url": "",
+      "feeSum": {
+        "value": 750000,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "750.00",
+          "suffix": "K"
+        }
+      },
+      "averageAge": 38,
+      "totalMarketValue": {
+        "value": 0,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "0.00",
+          "suffix": ""
+        }
+      }
+    },
+    "clubIds": [
+      "331",
+      "123",
+      "2296",
+      "621",
+      "237",
+      "5358",
+      "6688",
+      "6665",
+      "28860",
+      "107198",
+      "14733",
+      "107090"
+    ],
+    "coachIds": [
+      "29192",
+      "53991",
+      "1559",
+      "6526",
+      "5180",
+      "14807",
+      "1550",
+      "6723",
+      "20031",
+      "53145",
+      "30415",
+      "19405",
+      "62451",
+      "45416"
+    ],
+    "competitionIds": [
+      "ES1",
+      "ES2",
+      "ES3B"
+    ],
+    "mostRecentTransfer": {
+      "id": "3856642",
+      "transferSource": {
+        "competitionId": "ES1",
+        "countryId": 157,
+        "clubId": "331",
+        "coachId": "29192"
+      },
+      "transferDestination": {
+        "competitionId": "",
+        "countryId": 0,
+        "clubId": "123",
+        "coachId": "0"
+      },
+      "details": {
+        "playerId": "71579",
+        "date": "2022-07-01T00:00:00+02:00",
+        "contractUntilDate": null,
+        "seasonId": 2022,
+        "isPending": false,
+        "marketValue": {
+          "value": 600000,
+          "currency": "EUR",
+          "compact": {
+            "prefix": "€",
+            "content": "600.00",
+            "suffix": "K"
+          }
+        },
+        "age": 34,
+        "fee": {
+          "value": null,
+          "currency": "",
+          "compact": {
+            "prefix": "",
+            "content": "-",
+            "suffix": ""
+          }
+        },
+        "season": {
+          "id": 2022,
+          "display": "22/23",
+          "cyclicalName": "2023",
+          "nonCyclicalName": "22/23"
+        }
+      },
+      "typeDetails": {
+        "type": "STANDARD",
+        "name": "",
+        "feeDescription": ""
+      },
+      "relativeUrl": "/inigo-perez/transfers/spieler/71579/transfer_id/3856642"
+    }
+  }
+}

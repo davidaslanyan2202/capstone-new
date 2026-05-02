@@ -1,0 +1,205 @@
+{
+  "success": true,
+  "message": "OK",
+  "data": {
+    "playerId": "560593",
+    "history": {
+      "terminated": [
+        {
+          "id": "2631264",
+          "transferSource": {
+            "competitionId": "ALG1",
+            "countryId": 4,
+            "clubId": "30929",
+            "coachId": "4583"
+          },
+          "transferDestination": {
+            "competitionId": "FR1",
+            "countryId": 50,
+            "clubId": "417",
+            "coachId": "20029"
+          },
+          "details": {
+            "playerId": "560593",
+            "date": "2019-09-02T00:00:00+02:00",
+            "contractUntilDate": "2027-06-30T00:00:00+02:00",
+            "seasonId": 2019,
+            "isPending": false,
+            "marketValue": {
+              "value": 1400000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "1.40",
+                "suffix": "M"
+              }
+            },
+            "age": 19,
+            "fee": {
+              "value": 4000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "4.00",
+                "suffix": "M"
+              }
+            },
+            "season": {
+              "id": 2019,
+              "display": "19/20",
+              "cyclicalName": "2020",
+              "nonCyclicalName": "19/20"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/hicham-boudaoui/transfers/spieler/560593/transfer_id/2631264"
+        },
+        {
+          "id": "1995196",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 4,
+            "clubId": "48978",
+            "coachId": "0"
+          },
+          "transferDestination": {
+            "competitionId": "ALG1",
+            "countryId": 4,
+            "clubId": "30929",
+            "coachId": "6500"
+          },
+          "details": {
+            "playerId": "560593",
+            "date": "2018-01-01T00:00:00+01:00",
+            "contractUntilDate": null,
+            "seasonId": 2017,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 18,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2017,
+              "display": "17/18",
+              "cyclicalName": "2018",
+              "nonCyclicalName": "17/18"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/hicham-boudaoui/transfers/spieler/560593/transfer_id/1995196"
+        }
+      ],
+      "pending": [],
+      "url": "",
+      "feeSum": {
+        "value": 4000000,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "4.00",
+          "suffix": "M"
+        }
+      },
+      "averageAge": 26,
+      "totalMarketValue": {
+        "value": 12000000,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "12.00",
+          "suffix": "M"
+        }
+      }
+    },
+    "clubIds": [
+      "30929",
+      "417",
+      "48978"
+    ],
+    "coachIds": [
+      "4583",
+      "20029",
+      "6500"
+    ],
+    "competitionIds": [
+      "ALG1",
+      "FR1"
+    ],
+    "mostRecentTransfer": {
+      "id": "2631264",
+      "transferSource": {
+        "competitionId": "ALG1",
+        "countryId": 4,
+        "clubId": "30929",
+        "coachId": "4583"
+      },
+      "transferDestination": {
+        "competitionId": "FR1",
+        "countryId": 50,
+        "clubId": "417",
+        "coachId": "20029"
+      },
+      "details": {
+        "playerId": "560593",
+        "date": "2019-09-02T00:00:00+02:00",
+        "contractUntilDate": "2027-06-30T00:00:00+02:00",
+        "seasonId": 2019,
+        "isPending": false,
+        "marketValue": {
+          "value": 1400000,
+          "currency": "EUR",
+          "compact": {
+            "prefix": "€",
+            "content": "1.40",
+            "suffix": "M"
+          }
+        },
+        "age": 19,
+        "fee": {
+          "value": 4000000,
+          "currency": "EUR",
+          "compact": {
+            "prefix": "€",
+            "content": "4.00",
+            "suffix": "M"
+          }
+        },
+        "season": {
+          "id": 2019,
+          "display": "19/20",
+          "cyclicalName": "2020",
+          "nonCyclicalName": "19/20"
+        }
+      },
+      "typeDetails": {
+        "type": "STANDARD",
+        "name": "",
+        "feeDescription": ""
+      },
+      "relativeUrl": "/hicham-boudaoui/transfers/spieler/560593/transfer_id/2631264"
+    }
+  }
+}

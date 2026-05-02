@@ -1,0 +1,374 @@
+{
+  "success": true,
+  "message": "OK",
+  "data": {
+    "playerId": "470607",
+    "history": {
+      "terminated": [
+        {
+          "id": "6090832",
+          "transferSource": {
+            "competitionId": "GB1",
+            "countryId": 189,
+            "clubId": "148",
+            "coachId": "9002"
+          },
+          "transferDestination": {
+            "competitionId": "GB1",
+            "countryId": 189,
+            "clubId": "873",
+            "coachId": "22891"
+          },
+          "details": {
+            "playerId": "470607",
+            "date": "2026-01-02T00:00:00+01:00",
+            "contractUntilDate": "2030-06-30T00:00:00+02:00",
+            "seasonId": 2025,
+            "isPending": false,
+            "marketValue": {
+              "value": 35000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "35.00",
+                "suffix": "M"
+              }
+            },
+            "age": 24,
+            "fee": {
+              "value": 40000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "40.00",
+                "suffix": "M"
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 910,
+              "daysDisplay": "2 Years, 5 Months, 28 Days"
+            },
+            "season": {
+              "id": 2025,
+              "display": "25/26",
+              "cyclicalName": "2026",
+              "nonCyclicalName": "25/26"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/brennan-johnson/transfers/spieler/470607/transfer_id/6090832"
+        },
+        {
+          "id": "4624971",
+          "transferSource": {
+            "competitionId": "GB1",
+            "countryId": 189,
+            "clubId": "703",
+            "coachId": "37574"
+          },
+          "transferDestination": {
+            "competitionId": "GB1",
+            "countryId": 189,
+            "clubId": "148",
+            "coachId": "11929"
+          },
+          "details": {
+            "playerId": "470607",
+            "date": "2023-09-01T00:00:00+02:00",
+            "contractUntilDate": "2028-06-30T00:00:00+02:00",
+            "seasonId": 2023,
+            "isPending": false,
+            "marketValue": {
+              "value": 38000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "38.00",
+                "suffix": "M"
+              }
+            },
+            "age": 22,
+            "fee": {
+              "value": 55000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "55.00",
+                "suffix": "M"
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 1033,
+              "daysDisplay": "2 Years, 9 Months, 29 Days"
+            },
+            "season": {
+              "id": 2023,
+              "display": "23/24",
+              "cyclicalName": "2024",
+              "nonCyclicalName": "23/24"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/brennan-johnson/transfers/spieler/470607/transfer_id/4624971"
+        },
+        {
+          "id": "3076757",
+          "transferSource": {
+            "competitionId": "GB3",
+            "countryId": 189,
+            "clubId": "1198",
+            "coachId": "15920"
+          },
+          "transferDestination": {
+            "competitionId": "GB2",
+            "countryId": 189,
+            "clubId": "703",
+            "coachId": "2654"
+          },
+          "details": {
+            "playerId": "470607",
+            "date": "2021-05-31T00:00:00+02:00",
+            "contractUntilDate": "2026-06-30T00:00:00+02:00",
+            "seasonId": 2020,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 20,
+            "remainingContractPeriod": {
+              "days": 0,
+              "daysDisplay": "Unknown"
+            },
+            "season": {
+              "id": 2020,
+              "display": "20/21",
+              "cyclicalName": "2021",
+              "nonCyclicalName": "20/21"
+            }
+          },
+          "typeDetails": {
+            "type": "RETURNED_FROM_PREVIOUS_LOAN",
+            "name": "End of loan",
+            "feeDescription": "End of loan"
+          },
+          "relativeUrl": "/brennan-johnson/transfers/spieler/470607/transfer_id/3076757"
+        },
+        {
+          "id": "3076756",
+          "transferSource": {
+            "competitionId": "GB2",
+            "countryId": 189,
+            "clubId": "703",
+            "coachId": "24207"
+          },
+          "transferDestination": {
+            "competitionId": "GB3",
+            "countryId": 189,
+            "clubId": "1198",
+            "coachId": "15920"
+          },
+          "details": {
+            "playerId": "470607",
+            "date": "2020-09-25T00:00:00+02:00",
+            "contractUntilDate": "2021-05-31T00:00:00+02:00",
+            "seasonId": 2020,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 19,
+            "remainingContractPeriod": {
+              "days": 2104,
+              "daysDisplay": "5 Years, 9 Months, 5 Days"
+            },
+            "season": {
+              "id": 2020,
+              "display": "20/21",
+              "cyclicalName": "2021",
+              "nonCyclicalName": "20/21"
+            }
+          },
+          "typeDetails": {
+            "type": "ACTIVE_LOAN_TRANSFER",
+            "name": "loan transfer",
+            "feeDescription": "loan transfer"
+          },
+          "relativeUrl": "/brennan-johnson/transfers/spieler/470607/transfer_id/3076756"
+        },
+        {
+          "id": "3076758",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 189,
+            "clubId": "12799",
+            "coachId": "15228"
+          },
+          "transferDestination": {
+            "competitionId": "GB2",
+            "countryId": 189,
+            "clubId": "703",
+            "coachId": "24207"
+          },
+          "details": {
+            "playerId": "470607",
+            "date": "2019-07-01T00:00:00+02:00",
+            "contractUntilDate": "2026-06-30T00:00:00+02:00",
+            "seasonId": 2019,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 18,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2019,
+              "display": "19/20",
+              "cyclicalName": "2020",
+              "nonCyclicalName": "19/20"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/brennan-johnson/transfers/spieler/470607/transfer_id/3076758"
+        }
+      ],
+      "pending": [],
+      "url": "",
+      "feeSum": {
+        "value": 95000000,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "95.00",
+          "suffix": "M"
+        }
+      },
+      "averageAge": 24,
+      "totalMarketValue": {
+        "value": 35000000,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "35.00",
+          "suffix": "M"
+        }
+      }
+    },
+    "clubIds": [
+      "148",
+      "873",
+      "703",
+      "1198",
+      "12799"
+    ],
+    "coachIds": [
+      "9002",
+      "22891",
+      "37574",
+      "11929",
+      "15920",
+      "2654",
+      "24207",
+      "15228"
+    ],
+    "competitionIds": [
+      "GB1",
+      "GB3",
+      "GB2"
+    ],
+    "mostRecentTransfer": {
+      "id": "6090832",
+      "transferSource": {
+        "competitionId": "GB1",
+        "countryId": 189,
+        "clubId": "148",
+        "coachId": "9002"
+      },
+      "transferDestination": {
+        "competitionId": "GB1",
+        "countryId": 189,
+        "clubId": "873",
+        "coachId": "22891"
+      },
+      "details": {
+        "playerId": "470607",
+        "date": "2026-01-02T00:00:00+01:00",
+        "contractUntilDate": "2030-06-30T00:00:00+02:00",
+        "seasonId": 2025,
+        "isPending": false,
+        "marketValue": {
+          "value": 35000000,
+          "currency": "EUR",
+          "compact": {
+            "prefix": "€",
+            "content": "35.00",
+            "suffix": "M"
+          }
+        },
+        "age": 24,
+        "fee": {
+          "value": 40000000,
+          "currency": "EUR",
+          "compact": {
+            "prefix": "€",
+            "content": "40.00",
+            "suffix": "M"
+          }
+        },
+        "remainingContractPeriod": {
+          "days": 910,
+          "daysDisplay": "2 Years, 5 Months, 28 Days"
+        },
+        "season": {
+          "id": 2025,
+          "display": "25/26",
+          "cyclicalName": "2026",
+          "nonCyclicalName": "25/26"
+        }
+      },
+      "typeDetails": {
+        "type": "STANDARD",
+        "name": "",
+        "feeDescription": ""
+      },
+      "relativeUrl": "/brennan-johnson/transfers/spieler/470607/transfer_id/6090832"
+    }
+  }
+}

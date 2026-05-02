@@ -1,0 +1,901 @@
+{
+  "success": true,
+  "message": "OK",
+  "data": {
+    "playerId": "657742",
+    "history": {
+      "terminated": [
+        {
+          "id": "6086945",
+          "transferSource": {
+            "competitionId": "IT1",
+            "countryId": 75,
+            "clubId": "1025",
+            "coachId": "47288"
+          },
+          "transferDestination": {
+            "competitionId": "CLPD",
+            "countryId": 33,
+            "clubId": "2433",
+            "coachId": "53794"
+          },
+          "details": {
+            "playerId": "657742",
+            "date": "2026-01-02T00:00:00+01:00",
+            "contractUntilDate": "2026-12-31T00:00:00+01:00",
+            "seasonId": 2025,
+            "isPending": false,
+            "marketValue": {
+              "value": 550000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "550.00",
+                "suffix": "K"
+              }
+            },
+            "age": 23,
+            "remainingContractPeriod": {
+              "days": 544,
+              "daysDisplay": "1 Year, 5 Months, 28 Days"
+            },
+            "season": {
+              "id": 2025,
+              "display": "25/26",
+              "cyclicalName": "2026",
+              "nonCyclicalName": "25/26"
+            }
+          },
+          "typeDetails": {
+            "type": "ACTIVE_LOAN_TRANSFER",
+            "name": "loan transfer",
+            "feeDescription": "loan transfer"
+          },
+          "relativeUrl": "/joaquin-sosa/transfers/spieler/657742/transfer_id/6086945"
+        },
+        {
+          "id": "5794607",
+          "transferSource": {
+            "competitionId": "COL1",
+            "countryId": 83,
+            "clubId": "11648",
+            "coachId": "15809"
+          },
+          "transferDestination": {
+            "competitionId": "IT1",
+            "countryId": 75,
+            "clubId": "1025",
+            "coachId": "47288"
+          },
+          "details": {
+            "playerId": "657742",
+            "date": "2025-12-31T00:00:00+01:00",
+            "contractUntilDate": "2027-06-30T00:00:00+02:00",
+            "seasonId": 2025,
+            "isPending": false,
+            "marketValue": {
+              "value": 550000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "550.00",
+                "suffix": "K"
+              }
+            },
+            "age": 23,
+            "remainingContractPeriod": {
+              "days": 0,
+              "daysDisplay": "Unknown"
+            },
+            "season": {
+              "id": 2025,
+              "display": "25/26",
+              "cyclicalName": "2026",
+              "nonCyclicalName": "25/26"
+            }
+          },
+          "typeDetails": {
+            "type": "RETURNED_FROM_PREVIOUS_LOAN",
+            "name": "End of loan",
+            "feeDescription": "End of loan"
+          },
+          "relativeUrl": "/joaquin-sosa/transfers/spieler/657742/transfer_id/5794607"
+        },
+        {
+          "id": "5794606",
+          "transferSource": {
+            "competitionId": "IT1",
+            "countryId": 75,
+            "clubId": "1025",
+            "coachId": "47288"
+          },
+          "transferDestination": {
+            "competitionId": "COL1",
+            "countryId": 83,
+            "clubId": "11648",
+            "coachId": "93501"
+          },
+          "details": {
+            "playerId": "657742",
+            "date": "2025-07-19T00:00:00+02:00",
+            "contractUntilDate": "2025-12-31T00:00:00+01:00",
+            "seasonId": 2025,
+            "isPending": false,
+            "marketValue": {
+              "value": 900000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "900.00",
+                "suffix": "K"
+              }
+            },
+            "age": 23,
+            "remainingContractPeriod": {
+              "days": 346,
+              "daysDisplay": "11 Months, 11 Days"
+            },
+            "season": {
+              "id": 2025,
+              "display": "25/26",
+              "cyclicalName": "2026",
+              "nonCyclicalName": "25/26"
+            }
+          },
+          "typeDetails": {
+            "type": "ACTIVE_LOAN_TRANSFER",
+            "name": "loan transfer",
+            "feeDescription": "loan transfer"
+          },
+          "relativeUrl": "/joaquin-sosa/transfers/spieler/657742/transfer_id/5794606"
+        },
+        {
+          "id": "5443249",
+          "transferSource": {
+            "competitionId": "IT2",
+            "countryId": 75,
+            "clubId": "5621",
+            "coachId": "16861"
+          },
+          "transferDestination": {
+            "competitionId": "IT1",
+            "countryId": 75,
+            "clubId": "1025",
+            "coachId": "47288"
+          },
+          "details": {
+            "playerId": "657742",
+            "date": "2025-06-30T00:00:00+02:00",
+            "contractUntilDate": "2026-06-30T00:00:00+02:00",
+            "seasonId": 2024,
+            "isPending": false,
+            "marketValue": {
+              "value": 900000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "900.00",
+                "suffix": "K"
+              }
+            },
+            "age": 23,
+            "remainingContractPeriod": {
+              "days": 0,
+              "daysDisplay": "Unknown"
+            },
+            "season": {
+              "id": 2024,
+              "display": "24/25",
+              "cyclicalName": "2025",
+              "nonCyclicalName": "24/25"
+            }
+          },
+          "typeDetails": {
+            "type": "RETURNED_FROM_PREVIOUS_LOAN",
+            "name": "End of loan",
+            "feeDescription": "End of loan"
+          },
+          "relativeUrl": "/joaquin-sosa/transfers/spieler/657742/transfer_id/5443249"
+        },
+        {
+          "id": "5443248",
+          "transferSource": {
+            "competitionId": "IT1",
+            "countryId": 75,
+            "clubId": "1025",
+            "coachId": "47288"
+          },
+          "transferDestination": {
+            "competitionId": "IT2",
+            "countryId": 75,
+            "clubId": "5621",
+            "coachId": "16271"
+          },
+          "details": {
+            "playerId": "657742",
+            "date": "2025-01-10T00:00:00+01:00",
+            "contractUntilDate": "2025-06-30T00:00:00+02:00",
+            "seasonId": 2024,
+            "isPending": false,
+            "marketValue": {
+              "value": 1200000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "1.20",
+                "suffix": "M"
+              }
+            },
+            "age": 23,
+            "remainingContractPeriod": {
+              "days": 536,
+              "daysDisplay": "1 Year, 5 Months, 20 Days"
+            },
+            "season": {
+              "id": 2024,
+              "display": "24/25",
+              "cyclicalName": "2025",
+              "nonCyclicalName": "24/25"
+            }
+          },
+          "typeDetails": {
+            "type": "ACTIVE_LOAN_TRANSFER",
+            "name": "loan transfer",
+            "feeDescription": "loan transfer"
+          },
+          "relativeUrl": "/joaquin-sosa/transfers/spieler/657742/transfer_id/5443248"
+        },
+        {
+          "id": "4823673",
+          "transferSource": {
+            "competitionId": "MLS1",
+            "countryId": 184,
+            "clubId": "4078",
+            "coachId": "100654"
+          },
+          "transferDestination": {
+            "competitionId": "IT1",
+            "countryId": 75,
+            "clubId": "1025",
+            "coachId": "47288"
+          },
+          "details": {
+            "playerId": "657742",
+            "date": "2024-12-31T00:00:00+01:00",
+            "contractUntilDate": "2026-06-30T00:00:00+02:00",
+            "seasonId": 2024,
+            "isPending": false,
+            "marketValue": {
+              "value": 1200000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "1.20",
+                "suffix": "M"
+              }
+            },
+            "age": 22,
+            "remainingContractPeriod": {
+              "days": 0,
+              "daysDisplay": "Unknown"
+            },
+            "season": {
+              "id": 2024,
+              "display": "24/25",
+              "cyclicalName": "2025",
+              "nonCyclicalName": "24/25"
+            }
+          },
+          "typeDetails": {
+            "type": "RETURNED_FROM_PREVIOUS_LOAN",
+            "name": "End of loan",
+            "feeDescription": "End of loan"
+          },
+          "relativeUrl": "/joaquin-sosa/transfers/spieler/657742/transfer_id/4823673"
+        },
+        {
+          "id": "4859773",
+          "transferSource": {
+            "competitionId": "IT1",
+            "countryId": 75,
+            "clubId": "1025",
+            "coachId": "61868"
+          },
+          "transferDestination": {
+            "competitionId": "MLS1",
+            "countryId": 184,
+            "clubId": "4078",
+            "coachId": "100654"
+          },
+          "details": {
+            "playerId": "657742",
+            "date": "2024-01-15T00:00:00+01:00",
+            "contractUntilDate": "2024-12-31T00:00:00+01:00",
+            "seasonId": 2023,
+            "isPending": false,
+            "marketValue": {
+              "value": 1500000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "1.50",
+                "suffix": "M"
+              }
+            },
+            "age": 22,
+            "remainingContractPeriod": {
+              "days": 897,
+              "daysDisplay": "2 Years, 5 Months, 15 Days"
+            },
+            "season": {
+              "id": 2023,
+              "display": "23/24",
+              "cyclicalName": "2024",
+              "nonCyclicalName": "23/24"
+            }
+          },
+          "typeDetails": {
+            "type": "ACTIVE_LOAN_TRANSFER",
+            "name": "loan transfer",
+            "feeDescription": "loan transfer"
+          },
+          "relativeUrl": "/joaquin-sosa/transfers/spieler/657742/transfer_id/4859773"
+        },
+        {
+          "id": "4629979",
+          "transferSource": {
+            "competitionId": "KR1",
+            "countryId": 37,
+            "clubId": "419",
+            "coachId": "55762"
+          },
+          "transferDestination": {
+            "competitionId": "IT1",
+            "countryId": 75,
+            "clubId": "1025",
+            "coachId": "61868"
+          },
+          "details": {
+            "playerId": "657742",
+            "date": "2024-01-10T00:00:00+01:00",
+            "contractUntilDate": "2026-06-30T00:00:00+02:00",
+            "seasonId": 2023,
+            "isPending": false,
+            "marketValue": {
+              "value": 1500000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "1.50",
+                "suffix": "M"
+              }
+            },
+            "age": 22,
+            "remainingContractPeriod": {
+              "days": 172,
+              "daysDisplay": "5 Months, 20 Days"
+            },
+            "season": {
+              "id": 2023,
+              "display": "23/24",
+              "cyclicalName": "2024",
+              "nonCyclicalName": "23/24"
+            }
+          },
+          "typeDetails": {
+            "type": "RETURNED_FROM_PREVIOUS_LOAN",
+            "name": "End of loan",
+            "feeDescription": "End of loan"
+          },
+          "relativeUrl": "/joaquin-sosa/transfers/spieler/657742/transfer_id/4629979"
+        },
+        {
+          "id": "4629978",
+          "transferSource": {
+            "competitionId": "IT1",
+            "countryId": 75,
+            "clubId": "1025",
+            "coachId": "61868"
+          },
+          "transferDestination": {
+            "competitionId": "KR1",
+            "countryId": 37,
+            "clubId": "419",
+            "coachId": "55762"
+          },
+          "details": {
+            "playerId": "657742",
+            "date": "2023-09-04T00:00:00+02:00",
+            "contractUntilDate": "2024-06-30T00:00:00+02:00",
+            "seasonId": 2023,
+            "isPending": false,
+            "marketValue": {
+              "value": 3000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "3.00",
+                "suffix": "M"
+              }
+            },
+            "age": 21,
+            "remainingContractPeriod": {
+              "days": 1030,
+              "daysDisplay": "2 Years, 9 Months, 26 Days"
+            },
+            "season": {
+              "id": 2023,
+              "display": "23/24",
+              "cyclicalName": "2024",
+              "nonCyclicalName": "23/24"
+            }
+          },
+          "typeDetails": {
+            "type": "ACTIVE_LOAN_TRANSFER",
+            "name": "loan transfer",
+            "feeDescription": "loan transfer"
+          },
+          "relativeUrl": "/joaquin-sosa/transfers/spieler/657742/transfer_id/4629978"
+        },
+        {
+          "id": "4021030",
+          "transferSource": {
+            "competitionId": "URUC",
+            "countryId": 179,
+            "clubId": "866",
+            "coachId": "15809"
+          },
+          "transferDestination": {
+            "competitionId": "IT1",
+            "countryId": 75,
+            "clubId": "1025",
+            "coachId": "3896"
+          },
+          "details": {
+            "playerId": "657742",
+            "date": "2022-08-17T00:00:00+02:00",
+            "contractUntilDate": "2026-06-30T00:00:00+02:00",
+            "seasonId": 2022,
+            "isPending": false,
+            "marketValue": {
+              "value": 500000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "500.00",
+                "suffix": "K"
+              }
+            },
+            "age": 20,
+            "fee": {
+              "value": 950000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "950.00",
+                "suffix": "K"
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 501,
+              "daysDisplay": "1 Year, 4 Months, 14 Days"
+            },
+            "season": {
+              "id": 2022,
+              "display": "22/23",
+              "cyclicalName": "2023",
+              "nonCyclicalName": "22/23"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/joaquin-sosa/transfers/spieler/657742/transfer_id/4021030"
+        },
+        {
+          "id": "3724770",
+          "transferSource": {
+            "competitionId": "URUC",
+            "countryId": 179,
+            "clubId": "10663",
+            "coachId": "93501"
+          },
+          "transferDestination": {
+            "competitionId": "URUC",
+            "countryId": 179,
+            "clubId": "866",
+            "coachId": "15809"
+          },
+          "details": {
+            "playerId": "657742",
+            "date": "2022-07-31T00:00:00+02:00",
+            "contractUntilDate": "2023-12-31T00:00:00+01:00",
+            "seasonId": 2022,
+            "isPending": false,
+            "marketValue": {
+              "value": 500000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "500.00",
+                "suffix": "K"
+              }
+            },
+            "age": 20,
+            "remainingContractPeriod": {
+              "days": 153,
+              "daysDisplay": "5 Months"
+            },
+            "season": {
+              "id": 2022,
+              "display": "22/23",
+              "cyclicalName": "2023",
+              "nonCyclicalName": "22/23"
+            }
+          },
+          "typeDetails": {
+            "type": "RETURNED_FROM_PREVIOUS_LOAN",
+            "name": "End of loan",
+            "feeDescription": "End of loan"
+          },
+          "relativeUrl": "/joaquin-sosa/transfers/spieler/657742/transfer_id/3724770"
+        },
+        {
+          "id": "3724769",
+          "transferSource": {
+            "competitionId": "URUC",
+            "countryId": 179,
+            "clubId": "866",
+            "coachId": "15809"
+          },
+          "transferDestination": {
+            "competitionId": "URUC",
+            "countryId": 179,
+            "clubId": "10663",
+            "coachId": "93501"
+          },
+          "details": {
+            "playerId": "657742",
+            "date": "2022-02-03T00:00:00+01:00",
+            "contractUntilDate": "2022-12-31T00:00:00+01:00",
+            "seasonId": 2021,
+            "isPending": false,
+            "marketValue": {
+              "value": 450000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "450.00",
+                "suffix": "K"
+              }
+            },
+            "age": 20,
+            "remainingContractPeriod": {
+              "days": 696,
+              "daysDisplay": "1 Year, 10 Months, 28 Days"
+            },
+            "season": {
+              "id": 2021,
+              "display": "21/22",
+              "cyclicalName": "2022",
+              "nonCyclicalName": "21/22"
+            }
+          },
+          "typeDetails": {
+            "type": "ACTIVE_LOAN_TRANSFER",
+            "name": "loan transfer",
+            "feeDescription": "loan transfer"
+          },
+          "relativeUrl": "/joaquin-sosa/transfers/spieler/657742/transfer_id/3724769"
+        },
+        {
+          "id": "3327502",
+          "transferSource": {
+            "competitionId": "URUC",
+            "countryId": 179,
+            "clubId": "10632",
+            "coachId": "96785"
+          },
+          "transferDestination": {
+            "competitionId": "URUC",
+            "countryId": 179,
+            "clubId": "866",
+            "coachId": "0"
+          },
+          "details": {
+            "playerId": "657742",
+            "date": "2021-12-31T00:00:00+01:00",
+            "contractUntilDate": "2023-12-31T00:00:00+01:00",
+            "seasonId": 2021,
+            "isPending": false,
+            "marketValue": {
+              "value": 375000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "375.00",
+                "suffix": "K"
+              }
+            },
+            "age": 19,
+            "remainingContractPeriod": {
+              "days": 0,
+              "daysDisplay": "Unknown"
+            },
+            "season": {
+              "id": 2021,
+              "display": "21/22",
+              "cyclicalName": "2022",
+              "nonCyclicalName": "21/22"
+            }
+          },
+          "typeDetails": {
+            "type": "RETURNED_FROM_PREVIOUS_LOAN",
+            "name": "End of loan",
+            "feeDescription": "End of loan"
+          },
+          "relativeUrl": "/joaquin-sosa/transfers/spieler/657742/transfer_id/3327502"
+        },
+        {
+          "id": "3327499",
+          "transferSource": {
+            "competitionId": "URUC",
+            "countryId": 179,
+            "clubId": "866",
+            "coachId": "62784"
+          },
+          "transferDestination": {
+            "competitionId": "URUC",
+            "countryId": 179,
+            "clubId": "10632",
+            "coachId": "91432"
+          },
+          "details": {
+            "playerId": "657742",
+            "date": "2021-04-11T00:00:00+02:00",
+            "contractUntilDate": "2021-12-31T00:00:00+01:00",
+            "seasonId": 2020,
+            "isPending": false,
+            "marketValue": {
+              "value": 100000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "100.00",
+                "suffix": "K"
+              }
+            },
+            "age": 19,
+            "remainingContractPeriod": {
+              "days": 994,
+              "daysDisplay": "2 Years, 8 Months, 20 Days"
+            },
+            "season": {
+              "id": 2020,
+              "display": "20/21",
+              "cyclicalName": "2021",
+              "nonCyclicalName": "20/21"
+            }
+          },
+          "typeDetails": {
+            "type": "ACTIVE_LOAN_TRANSFER",
+            "name": "loan transfer",
+            "feeDescription": "loan transfer"
+          },
+          "relativeUrl": "/joaquin-sosa/transfers/spieler/657742/transfer_id/3327499"
+        },
+        {
+          "id": "2743713",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 179,
+            "clubId": "16560",
+            "coachId": "154442"
+          },
+          "transferDestination": {
+            "competitionId": "URUC",
+            "countryId": 179,
+            "clubId": "866",
+            "coachId": "40987"
+          },
+          "details": {
+            "playerId": "657742",
+            "date": "2020-01-01T00:00:00+01:00",
+            "contractUntilDate": "2023-12-31T00:00:00+01:00",
+            "seasonId": 2019,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 17,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2019,
+              "display": "19/20",
+              "cyclicalName": "2020",
+              "nonCyclicalName": "19/20"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/joaquin-sosa/transfers/spieler/657742/transfer_id/2743713"
+        }
+      ],
+      "pending": [
+        {
+          "id": "6086946",
+          "transferSource": {
+            "competitionId": "CLPD",
+            "countryId": 33,
+            "clubId": "2433",
+            "coachId": "53794"
+          },
+          "transferDestination": {
+            "competitionId": "IT1",
+            "countryId": 75,
+            "clubId": "1025",
+            "coachId": "47288"
+          },
+          "details": {
+            "playerId": "657742",
+            "date": "2026-12-31T00:00:00+01:00",
+            "contractUntilDate": "2027-06-30T00:00:00+02:00",
+            "seasonId": 2026,
+            "isPending": true,
+            "marketValue": {
+              "value": 550000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "550.00",
+                "suffix": "K"
+              }
+            },
+            "age": 24,
+            "remainingContractPeriod": {
+              "days": 0,
+              "daysDisplay": "Unknown"
+            },
+            "season": {
+              "id": 2026,
+              "display": "26/27",
+              "cyclicalName": "2027",
+              "nonCyclicalName": "26/27"
+            }
+          },
+          "typeDetails": {
+            "type": "RETURNED_FROM_PREVIOUS_LOAN",
+            "name": "End of loan",
+            "feeDescription": "End of loan"
+          },
+          "relativeUrl": "/joaquin-sosa/transfers/spieler/657742/transfer_id/6086946"
+        }
+      ],
+      "url": "",
+      "feeSum": {
+        "value": 950000,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "950.00",
+          "suffix": "K"
+        }
+      },
+      "averageAge": 24,
+      "totalMarketValue": {
+        "value": 550000,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "550.00",
+          "suffix": "K"
+        }
+      }
+    },
+    "clubIds": [
+      "2433",
+      "1025",
+      "11648",
+      "5621",
+      "4078",
+      "419",
+      "866",
+      "10663",
+      "10632",
+      "16560"
+    ],
+    "coachIds": [
+      "53794",
+      "47288",
+      "15809",
+      "93501",
+      "16861",
+      "16271",
+      "100654",
+      "61868",
+      "55762",
+      "3896",
+      "96785",
+      "62784",
+      "91432",
+      "154442",
+      "40987"
+    ],
+    "competitionIds": [
+      "CLPD",
+      "IT1",
+      "COL1",
+      "IT2",
+      "MLS1",
+      "KR1",
+      "URUC"
+    ],
+    "mostRecentTransfer": {
+      "id": "6086945",
+      "transferSource": {
+        "competitionId": "IT1",
+        "countryId": 75,
+        "clubId": "1025",
+        "coachId": "47288"
+      },
+      "transferDestination": {
+        "competitionId": "CLPD",
+        "countryId": 33,
+        "clubId": "2433",
+        "coachId": "53794"
+      },
+      "details": {
+        "playerId": "657742",
+        "date": "2026-01-02T00:00:00+01:00",
+        "contractUntilDate": "2026-12-31T00:00:00+01:00",
+        "seasonId": 2025,
+        "isPending": false,
+        "marketValue": {
+          "value": 550000,
+          "currency": "EUR",
+          "compact": {
+            "prefix": "€",
+            "content": "550.00",
+            "suffix": "K"
+          }
+        },
+        "age": 23,
+        "remainingContractPeriod": {
+          "days": 544,
+          "daysDisplay": "1 Year, 5 Months, 28 Days"
+        },
+        "season": {
+          "id": 2025,
+          "display": "25/26",
+          "cyclicalName": "2026",
+          "nonCyclicalName": "25/26"
+        }
+      },
+      "typeDetails": {
+        "type": "ACTIVE_LOAN_TRANSFER",
+        "name": "loan transfer",
+        "feeDescription": "loan transfer"
+      },
+      "relativeUrl": "/joaquin-sosa/transfers/spieler/657742/transfer_id/6086945"
+    }
+  }
+}

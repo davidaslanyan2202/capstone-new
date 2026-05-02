@@ -1,0 +1,517 @@
+{
+  "success": true,
+  "message": "OK",
+  "data": {
+    "playerId": "694928",
+    "history": {
+      "terminated": [
+        {
+          "id": "5821912",
+          "transferSource": {
+            "competitionId": "ES1",
+            "countryId": 157,
+            "clubId": "13",
+            "coachId": "2868"
+          },
+          "transferDestination": {
+            "competitionId": "BRA1",
+            "countryId": 26,
+            "clubId": "614",
+            "coachId": "128436"
+          },
+          "details": {
+            "playerId": "694928",
+            "date": "2025-07-29T00:00:00+02:00",
+            "contractUntilDate": "2029-12-31T00:00:00+01:00",
+            "seasonId": 2025,
+            "isPending": false,
+            "marketValue": {
+              "value": 22000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "22.00",
+                "suffix": "M"
+              }
+            },
+            "age": 25,
+            "fee": {
+              "value": 22000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "22.00",
+                "suffix": "M"
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 701,
+              "daysDisplay": "1 Year, 11 Months, 1 Day"
+            },
+            "season": {
+              "id": 2025,
+              "display": "25/26",
+              "cyclicalName": "2026",
+              "nonCyclicalName": "25/26"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/samuel-lino/transfers/spieler/694928/transfer_id/5821912"
+        },
+        {
+          "id": "3976108",
+          "transferSource": {
+            "competitionId": "ES1",
+            "countryId": 157,
+            "clubId": "1049",
+            "coachId": "19552"
+          },
+          "transferDestination": {
+            "competitionId": "ES1",
+            "countryId": 157,
+            "clubId": "13",
+            "coachId": "2868"
+          },
+          "details": {
+            "playerId": "694928",
+            "date": "2023-06-30T00:00:00+02:00",
+            "contractUntilDate": "2027-06-30T00:00:00+02:00",
+            "seasonId": 2022,
+            "isPending": false,
+            "marketValue": {
+              "value": 16000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "16.00",
+                "suffix": "M"
+              }
+            },
+            "age": 23,
+            "remainingContractPeriod": {
+              "days": 0,
+              "daysDisplay": "Unknown"
+            },
+            "season": {
+              "id": 2022,
+              "display": "22/23",
+              "cyclicalName": "2023",
+              "nonCyclicalName": "22/23"
+            }
+          },
+          "typeDetails": {
+            "type": "RETURNED_FROM_PREVIOUS_LOAN",
+            "name": "End of loan",
+            "feeDescription": "End of loan"
+          },
+          "relativeUrl": "/samuel-lino/transfers/spieler/694928/transfer_id/3976108"
+        },
+        {
+          "id": "3976107",
+          "transferSource": {
+            "competitionId": "ES1",
+            "countryId": 157,
+            "clubId": "13",
+            "coachId": "2868"
+          },
+          "transferDestination": {
+            "competitionId": "ES1",
+            "countryId": 157,
+            "clubId": "1049",
+            "coachId": "27803"
+          },
+          "details": {
+            "playerId": "694928",
+            "date": "2022-07-28T00:00:00+02:00",
+            "contractUntilDate": "2023-06-30T00:00:00+02:00",
+            "seasonId": 2022,
+            "isPending": false,
+            "marketValue": {
+              "value": 7000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "7.00",
+                "suffix": "M"
+              }
+            },
+            "age": 22,
+            "remainingContractPeriod": {
+              "days": 1798,
+              "daysDisplay": "4 Years, 11 Months, 2 Days"
+            },
+            "season": {
+              "id": 2022,
+              "display": "22/23",
+              "cyclicalName": "2023",
+              "nonCyclicalName": "22/23"
+            }
+          },
+          "typeDetails": {
+            "type": "ACTIVE_LOAN_TRANSFER",
+            "name": "loan transfer",
+            "feeDescription": "loan transfer"
+          },
+          "relativeUrl": "/samuel-lino/transfers/spieler/694928/transfer_id/3976107"
+        },
+        {
+          "id": "3928904",
+          "transferSource": {
+            "competitionId": "PO1",
+            "countryId": 136,
+            "clubId": "2424",
+            "coachId": "2819"
+          },
+          "transferDestination": {
+            "competitionId": "ES1",
+            "countryId": 157,
+            "clubId": "13",
+            "coachId": "2868"
+          },
+          "details": {
+            "playerId": "694928",
+            "date": "2022-07-08T00:00:00+02:00",
+            "contractUntilDate": "2027-06-30T00:00:00+02:00",
+            "seasonId": 2022,
+            "isPending": false,
+            "marketValue": {
+              "value": 7000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "7.00",
+                "suffix": "M"
+              }
+            },
+            "age": 22,
+            "fee": {
+              "value": 6500000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "6.50",
+                "suffix": "M"
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 723,
+              "daysDisplay": "1 Year, 11 Months, 22 Days"
+            },
+            "season": {
+              "id": 2022,
+              "display": "22/23",
+              "cyclicalName": "2023",
+              "nonCyclicalName": "22/23"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/samuel-lino/transfers/spieler/694928/transfer_id/3928904"
+        },
+        {
+          "id": "2604256",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 26,
+            "clubId": "16439",
+            "coachId": "0"
+          },
+          "transferDestination": {
+            "competitionId": "PO1",
+            "countryId": 136,
+            "clubId": "2424",
+            "coachId": "1593"
+          },
+          "details": {
+            "playerId": "694928",
+            "date": "2019-07-01T00:00:00+02:00",
+            "contractUntilDate": "2024-06-30T00:00:00+02:00",
+            "seasonId": 2019,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 19,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "?",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2019,
+              "display": "19/20",
+              "cyclicalName": "2020",
+              "nonCyclicalName": "19/20"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/samuel-lino/transfers/spieler/694928/transfer_id/2604256"
+        },
+        {
+          "id": "3778376",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 26,
+            "clubId": "15002",
+            "coachId": "82508"
+          },
+          "transferDestination": {
+            "competitionId": "",
+            "countryId": 26,
+            "clubId": "16439",
+            "coachId": "0"
+          },
+          "details": {
+            "playerId": "694928",
+            "date": "2018-05-01T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2017,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 18,
+            "season": {
+              "id": 2017,
+              "display": "17/18",
+              "cyclicalName": "2018",
+              "nonCyclicalName": "17/18"
+            }
+          },
+          "typeDetails": {
+            "type": "RETURNED_FROM_PREVIOUS_LOAN",
+            "name": "End of loan",
+            "feeDescription": "End of loan"
+          },
+          "relativeUrl": "/samuel-lino/transfers/spieler/694928/transfer_id/3778376"
+        },
+        {
+          "id": "3778377",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 26,
+            "clubId": "16439",
+            "coachId": "0"
+          },
+          "transferDestination": {
+            "competitionId": "",
+            "countryId": 26,
+            "clubId": "15002",
+            "coachId": "82508"
+          },
+          "details": {
+            "playerId": "694928",
+            "date": "2018-02-01T00:00:00+01:00",
+            "contractUntilDate": null,
+            "seasonId": 2017,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 18,
+            "season": {
+              "id": 2017,
+              "display": "17/18",
+              "cyclicalName": "2018",
+              "nonCyclicalName": "17/18"
+            }
+          },
+          "typeDetails": {
+            "type": "ACTIVE_LOAN_TRANSFER",
+            "name": "loan transfer",
+            "feeDescription": "loan transfer"
+          },
+          "relativeUrl": "/samuel-lino/transfers/spieler/694928/transfer_id/3778377"
+        },
+        {
+          "id": "3778378",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 26,
+            "clubId": "74339",
+            "coachId": "111655"
+          },
+          "transferDestination": {
+            "competitionId": "",
+            "countryId": 26,
+            "clubId": "16439",
+            "coachId": "0"
+          },
+          "details": {
+            "playerId": "694928",
+            "date": "2018-01-01T00:00:00+01:00",
+            "contractUntilDate": null,
+            "seasonId": 2017,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 18,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2017,
+              "display": "17/18",
+              "cyclicalName": "2018",
+              "nonCyclicalName": "17/18"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/samuel-lino/transfers/spieler/694928/transfer_id/3778378"
+        }
+      ],
+      "pending": [],
+      "url": "",
+      "feeSum": {
+        "value": 28500000,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "28.50",
+          "suffix": "M"
+        }
+      },
+      "averageAge": 26,
+      "totalMarketValue": {
+        "value": 17000000,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "17.00",
+          "suffix": "M"
+        }
+      }
+    },
+    "clubIds": [
+      "13",
+      "614",
+      "1049",
+      "2424",
+      "16439",
+      "15002",
+      "74339"
+    ],
+    "coachIds": [
+      "2868",
+      "128436",
+      "19552",
+      "27803",
+      "2819",
+      "1593",
+      "82508",
+      "111655"
+    ],
+    "competitionIds": [
+      "ES1",
+      "BRA1",
+      "PO1"
+    ],
+    "mostRecentTransfer": {
+      "id": "5821912",
+      "transferSource": {
+        "competitionId": "ES1",
+        "countryId": 157,
+        "clubId": "13",
+        "coachId": "2868"
+      },
+      "transferDestination": {
+        "competitionId": "BRA1",
+        "countryId": 26,
+        "clubId": "614",
+        "coachId": "128436"
+      },
+      "details": {
+        "playerId": "694928",
+        "date": "2025-07-29T00:00:00+02:00",
+        "contractUntilDate": "2029-12-31T00:00:00+01:00",
+        "seasonId": 2025,
+        "isPending": false,
+        "marketValue": {
+          "value": 22000000,
+          "currency": "EUR",
+          "compact": {
+            "prefix": "€",
+            "content": "22.00",
+            "suffix": "M"
+          }
+        },
+        "age": 25,
+        "fee": {
+          "value": 22000000,
+          "currency": "EUR",
+          "compact": {
+            "prefix": "€",
+            "content": "22.00",
+            "suffix": "M"
+          }
+        },
+        "remainingContractPeriod": {
+          "days": 701,
+          "daysDisplay": "1 Year, 11 Months, 1 Day"
+        },
+        "season": {
+          "id": 2025,
+          "display": "25/26",
+          "cyclicalName": "2026",
+          "nonCyclicalName": "25/26"
+        }
+      },
+      "typeDetails": {
+        "type": "STANDARD",
+        "name": "",
+        "feeDescription": ""
+      },
+      "relativeUrl": "/samuel-lino/transfers/spieler/694928/transfer_id/5821912"
+    }
+  }
+}

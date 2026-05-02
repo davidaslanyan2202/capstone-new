@@ -1,0 +1,654 @@
+{
+  "success": true,
+  "message": "OK",
+  "data": {
+    "playerId": "456535",
+    "history": {
+      "terminated": [
+        {
+          "id": "6168292",
+          "transferSource": {
+            "competitionId": "L2",
+            "countryId": 40,
+            "clubId": "44",
+            "coachId": "28936"
+          },
+          "transferDestination": {
+            "competitionId": "URU1",
+            "countryId": 179,
+            "clubId": "866",
+            "coachId": "58348"
+          },
+          "details": {
+            "playerId": "456535",
+            "date": "2026-02-04T00:00:00+01:00",
+            "contractUntilDate": "2027-12-31T00:00:00+01:00",
+            "seasonId": 2025,
+            "isPending": false,
+            "marketValue": {
+              "value": 500000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "500.00",
+                "suffix": "K"
+              }
+            },
+            "age": 28,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "Free Transfer",
+                "suffix": ""
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 146,
+              "daysDisplay": "4 Months, 26 Days"
+            },
+            "season": {
+              "id": 2025,
+              "display": "25/26",
+              "cyclicalName": "2026",
+              "nonCyclicalName": "25/26"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/agustin-rogel/transfers/spieler/456535/transfer_id/6168292"
+        },
+        {
+          "id": "5179827",
+          "transferSource": {
+            "competitionId": "BRA1",
+            "countryId": 26,
+            "clubId": "6600",
+            "coachId": "32869"
+          },
+          "transferDestination": {
+            "competitionId": "L2",
+            "countryId": 40,
+            "clubId": "44",
+            "coachId": "28936"
+          },
+          "details": {
+            "playerId": "456535",
+            "date": "2025-06-30T00:00:00+02:00",
+            "contractUntilDate": "2026-06-30T00:00:00+02:00",
+            "seasonId": 2024,
+            "isPending": false,
+            "marketValue": {
+              "value": 600000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "600.00",
+                "suffix": "K"
+              }
+            },
+            "age": 27,
+            "remainingContractPeriod": {
+              "days": 0,
+              "daysDisplay": "Unknown"
+            },
+            "season": {
+              "id": 2024,
+              "display": "24/25",
+              "cyclicalName": "2025",
+              "nonCyclicalName": "24/25"
+            }
+          },
+          "typeDetails": {
+            "type": "RETURNED_FROM_PREVIOUS_LOAN",
+            "name": "End of loan",
+            "feeDescription": "End of loan"
+          },
+          "relativeUrl": "/agustin-rogel/transfers/spieler/456535/transfer_id/5179827"
+        },
+        {
+          "id": "5179826",
+          "transferSource": {
+            "competitionId": "L2",
+            "countryId": 40,
+            "clubId": "44",
+            "coachId": "40217"
+          },
+          "transferDestination": {
+            "competitionId": "BRA1",
+            "countryId": 26,
+            "clubId": "6600",
+            "coachId": "32869"
+          },
+          "details": {
+            "playerId": "456535",
+            "date": "2024-08-07T00:00:00+02:00",
+            "contractUntilDate": "2025-06-30T00:00:00+02:00",
+            "seasonId": 2024,
+            "isPending": false,
+            "marketValue": {
+              "value": 600000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "600.00",
+                "suffix": "K"
+              }
+            },
+            "age": 26,
+            "remainingContractPeriod": {
+              "days": 692,
+              "daysDisplay": "1 Year, 10 Months, 23 Days"
+            },
+            "season": {
+              "id": 2024,
+              "display": "24/25",
+              "cyclicalName": "2025",
+              "nonCyclicalName": "24/25"
+            }
+          },
+          "typeDetails": {
+            "type": "ACTIVE_LOAN_TRANSFER",
+            "name": "loan transfer",
+            "feeDescription": "loan transfer"
+          },
+          "relativeUrl": "/agustin-rogel/transfers/spieler/456535/transfer_id/5179826"
+        },
+        {
+          "id": "4048674",
+          "transferSource": {
+            "competitionId": "AR1N",
+            "countryId": 9,
+            "clubId": "288",
+            "coachId": "11405"
+          },
+          "transferDestination": {
+            "competitionId": "L1",
+            "countryId": 40,
+            "clubId": "44",
+            "coachId": "9570"
+          },
+          "details": {
+            "playerId": "456535",
+            "date": "2022-08-31T00:00:00+02:00",
+            "contractUntilDate": "2026-06-30T00:00:00+02:00",
+            "seasonId": 2022,
+            "isPending": false,
+            "marketValue": {
+              "value": 4500000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "4.50",
+                "suffix": "M"
+              }
+            },
+            "age": 24,
+            "fee": {
+              "value": 400000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "400.00",
+                "suffix": "K"
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 122,
+              "daysDisplay": "4 Months"
+            },
+            "season": {
+              "id": 2022,
+              "display": "22/23",
+              "cyclicalName": "2023",
+              "nonCyclicalName": "22/23"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/agustin-rogel/transfers/spieler/456535/transfer_id/4048674"
+        },
+        {
+          "id": "3700331",
+          "transferSource": {
+            "competitionId": "FR2",
+            "countryId": 50,
+            "clubId": "415",
+            "coachId": "5065"
+          },
+          "transferDestination": {
+            "competitionId": "AR1N",
+            "countryId": 9,
+            "clubId": "288",
+            "coachId": "11405"
+          },
+          "details": {
+            "playerId": "456535",
+            "date": "2022-01-17T00:00:00+01:00",
+            "contractUntilDate": "2022-12-31T00:00:00+01:00",
+            "seasonId": 2021,
+            "isPending": false,
+            "marketValue": {
+              "value": 2300000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "2.30",
+                "suffix": "M"
+              }
+            },
+            "age": 24,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "Free Transfer",
+                "suffix": ""
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 164,
+              "daysDisplay": "5 Months, 13 Days"
+            },
+            "season": {
+              "id": 2021,
+              "display": "21/22",
+              "cyclicalName": "2022",
+              "nonCyclicalName": "21/22"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/agustin-rogel/transfers/spieler/456535/transfer_id/3700331"
+        },
+        {
+          "id": "3260420",
+          "transferSource": {
+            "competitionId": "AR1N",
+            "countryId": 9,
+            "clubId": "288",
+            "coachId": "11405"
+          },
+          "transferDestination": {
+            "competitionId": "FR2",
+            "countryId": 50,
+            "clubId": "415",
+            "coachId": "5065"
+          },
+          "details": {
+            "playerId": "456535",
+            "date": "2021-12-31T00:00:00+01:00",
+            "contractUntilDate": "2022-06-30T00:00:00+02:00",
+            "seasonId": 2021,
+            "isPending": false,
+            "marketValue": {
+              "value": 2300000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "2.30",
+                "suffix": "M"
+              }
+            },
+            "age": 24,
+            "remainingContractPeriod": {
+              "days": 0,
+              "daysDisplay": "Unknown"
+            },
+            "season": {
+              "id": 2021,
+              "display": "21/22",
+              "cyclicalName": "2022",
+              "nonCyclicalName": "21/22"
+            }
+          },
+          "typeDetails": {
+            "type": "RETURNED_FROM_PREVIOUS_LOAN",
+            "name": "End of loan",
+            "feeDescription": "End of loan"
+          },
+          "relativeUrl": "/agustin-rogel/transfers/spieler/456535/transfer_id/3260420"
+        },
+        {
+          "id": "3260419",
+          "transferSource": {
+            "competitionId": "FR2",
+            "countryId": 50,
+            "clubId": "415",
+            "coachId": "5747"
+          },
+          "transferDestination": {
+            "competitionId": "AR1N",
+            "countryId": 9,
+            "clubId": "288",
+            "coachId": "11405"
+          },
+          "details": {
+            "playerId": "456535",
+            "date": "2021-02-18T00:00:00+01:00",
+            "contractUntilDate": "2021-12-31T00:00:00+01:00",
+            "seasonId": 2020,
+            "isPending": false,
+            "marketValue": {
+              "value": 900000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "900.00",
+                "suffix": "K"
+              }
+            },
+            "age": 23,
+            "remainingContractPeriod": {
+              "days": 497,
+              "daysDisplay": "1 Year, 4 Months, 12 Days"
+            },
+            "season": {
+              "id": 2020,
+              "display": "20/21",
+              "cyclicalName": "2021",
+              "nonCyclicalName": "20/21"
+            }
+          },
+          "typeDetails": {
+            "type": "ACTIVE_LOAN_TRANSFER",
+            "name": "loan transfer",
+            "feeDescription": "loan transfer"
+          },
+          "relativeUrl": "/agustin-rogel/transfers/spieler/456535/transfer_id/3260419"
+        },
+        {
+          "id": "2566739",
+          "transferSource": {
+            "competitionId": "RU1",
+            "countryId": 141,
+            "clubId": "2696",
+            "coachId": "4955"
+          },
+          "transferDestination": {
+            "competitionId": "FR1",
+            "countryId": 50,
+            "clubId": "415",
+            "coachId": "5034"
+          },
+          "details": {
+            "playerId": "456535",
+            "date": "2019-07-19T00:00:00+02:00",
+            "contractUntilDate": "2022-06-30T00:00:00+02:00",
+            "seasonId": 2019,
+            "isPending": false,
+            "marketValue": {
+              "value": 1000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "1.00",
+                "suffix": "M"
+              }
+            },
+            "age": 21,
+            "fee": {
+              "value": 2500000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "2.50",
+                "suffix": "M"
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 1077,
+              "daysDisplay": "2 Years, 11 Months, 11 Days"
+            },
+            "season": {
+              "id": 2019,
+              "display": "19/20",
+              "cyclicalName": "2020",
+              "nonCyclicalName": "19/20"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/agustin-rogel/transfers/spieler/456535/transfer_id/2566739"
+        },
+        {
+          "id": "2095164",
+          "transferSource": {
+            "competitionId": "URUC",
+            "countryId": 179,
+            "clubId": "866",
+            "coachId": "47797"
+          },
+          "transferDestination": {
+            "competitionId": "RU1",
+            "countryId": 141,
+            "clubId": "2696",
+            "coachId": "17918"
+          },
+          "details": {
+            "playerId": "456535",
+            "date": "2018-08-21T00:00:00+02:00",
+            "contractUntilDate": "2022-06-30T00:00:00+02:00",
+            "seasonId": 2018,
+            "isPending": false,
+            "marketValue": {
+              "value": 750000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "750.00",
+                "suffix": "K"
+              }
+            },
+            "age": 20,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "Free Transfer",
+                "suffix": ""
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 10,
+              "daysDisplay": "10 Days"
+            },
+            "season": {
+              "id": 2018,
+              "display": "18/19",
+              "cyclicalName": "2019",
+              "nonCyclicalName": "18/19"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/agustin-rogel/transfers/spieler/456535/transfer_id/2095164"
+        },
+        {
+          "id": "1723958",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 179,
+            "clubId": "16560",
+            "coachId": "47797"
+          },
+          "transferDestination": {
+            "competitionId": "URUC",
+            "countryId": 179,
+            "clubId": "866",
+            "coachId": "10302"
+          },
+          "details": {
+            "playerId": "456535",
+            "date": "2017-02-20T00:00:00+01:00",
+            "contractUntilDate": "2018-08-31T00:00:00+02:00",
+            "seasonId": 2016,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 19,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2016,
+              "display": "16/17",
+              "cyclicalName": "2017",
+              "nonCyclicalName": "16/17"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/agustin-rogel/transfers/spieler/456535/transfer_id/1723958"
+        }
+      ],
+      "pending": [],
+      "url": "",
+      "feeSum": {
+        "value": 2900000,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "2.90",
+          "suffix": "M"
+        }
+      },
+      "averageAge": 28,
+      "totalMarketValue": {
+        "value": 500000,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "500.00",
+          "suffix": "K"
+        }
+      }
+    },
+    "clubIds": [
+      "44",
+      "866",
+      "6600",
+      "288",
+      "415",
+      "2696",
+      "16560"
+    ],
+    "coachIds": [
+      "28936",
+      "58348",
+      "32869",
+      "40217",
+      "11405",
+      "9570",
+      "5065",
+      "5747",
+      "4955",
+      "5034",
+      "47797",
+      "17918",
+      "10302"
+    ],
+    "competitionIds": [
+      "L2",
+      "URU1",
+      "BRA1",
+      "AR1N",
+      "L1",
+      "FR2",
+      "RU1",
+      "FR1",
+      "URUC"
+    ],
+    "mostRecentTransfer": {
+      "id": "6168292",
+      "transferSource": {
+        "competitionId": "L2",
+        "countryId": 40,
+        "clubId": "44",
+        "coachId": "28936"
+      },
+      "transferDestination": {
+        "competitionId": "URU1",
+        "countryId": 179,
+        "clubId": "866",
+        "coachId": "58348"
+      },
+      "details": {
+        "playerId": "456535",
+        "date": "2026-02-04T00:00:00+01:00",
+        "contractUntilDate": "2027-12-31T00:00:00+01:00",
+        "seasonId": 2025,
+        "isPending": false,
+        "marketValue": {
+          "value": 500000,
+          "currency": "EUR",
+          "compact": {
+            "prefix": "€",
+            "content": "500.00",
+            "suffix": "K"
+          }
+        },
+        "age": 28,
+        "fee": {
+          "value": null,
+          "currency": "",
+          "compact": {
+            "prefix": "",
+            "content": "Free Transfer",
+            "suffix": ""
+          }
+        },
+        "remainingContractPeriod": {
+          "days": 146,
+          "daysDisplay": "4 Months, 26 Days"
+        },
+        "season": {
+          "id": 2025,
+          "display": "25/26",
+          "cyclicalName": "2026",
+          "nonCyclicalName": "25/26"
+        }
+      },
+      "typeDetails": {
+        "type": "STANDARD",
+        "name": "",
+        "feeDescription": ""
+      },
+      "relativeUrl": "/agustin-rogel/transfers/spieler/456535/transfer_id/6168292"
+    }
+  }
+}

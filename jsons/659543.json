@@ -1,0 +1,631 @@
+{
+  "success": true,
+  "message": "OK",
+  "data": {
+    "playerId": "659543",
+    "history": {
+      "terminated": [
+        {
+          "id": "5091598",
+          "transferSource": {
+            "competitionId": "FR1",
+            "countryId": 50,
+            "clubId": "273",
+            "coachId": "61003"
+          },
+          "transferDestination": {
+            "competitionId": "FR1",
+            "countryId": 50,
+            "clubId": "995",
+            "coachId": "1224"
+          },
+          "details": {
+            "playerId": "659543",
+            "date": "2024-07-03T00:00:00+02:00",
+            "contractUntilDate": "2028-06-30T00:00:00+02:00",
+            "seasonId": 2024,
+            "isPending": false,
+            "marketValue": {
+              "value": 6000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "6.00",
+                "suffix": "M"
+              }
+            },
+            "age": 21,
+            "fee": {
+              "value": 10000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "10.00",
+                "suffix": "M"
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 727,
+              "daysDisplay": "1 Year, 11 Months, 27 Days"
+            },
+            "season": {
+              "id": 2024,
+              "display": "24/25",
+              "cyclicalName": "2025",
+              "nonCyclicalName": "24/25"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/matthis-abline/transfers/spieler/659543/transfer_id/5091598"
+        },
+        {
+          "id": "4607124",
+          "transferSource": {
+            "competitionId": "FR1",
+            "countryId": 50,
+            "clubId": "995",
+            "coachId": "1224"
+          },
+          "transferDestination": {
+            "competitionId": "FR1",
+            "countryId": 50,
+            "clubId": "273",
+            "coachId": "61003"
+          },
+          "details": {
+            "playerId": "659543",
+            "date": "2024-06-30T00:00:00+02:00",
+            "contractUntilDate": "2026-06-30T00:00:00+02:00",
+            "seasonId": 2023,
+            "isPending": false,
+            "marketValue": {
+              "value": 6000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "6.00",
+                "suffix": "M"
+              }
+            },
+            "age": 21,
+            "fee": {
+              "value": 2000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "2.00",
+                "suffix": "M"
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 0,
+              "daysDisplay": "Unknown"
+            },
+            "season": {
+              "id": 2023,
+              "display": "23/24",
+              "cyclicalName": "2024",
+              "nonCyclicalName": "23/24"
+            }
+          },
+          "typeDetails": {
+            "type": "RETURNED_FROM_PREVIOUS_LOAN",
+            "name": "End of loan",
+            "feeDescription": "End of loan"
+          },
+          "relativeUrl": "/matthis-abline/transfers/spieler/659543/transfer_id/4607124"
+        },
+        {
+          "id": "4607123",
+          "transferSource": {
+            "competitionId": "FR1",
+            "countryId": 50,
+            "clubId": "273",
+            "coachId": "5036"
+          },
+          "transferDestination": {
+            "competitionId": "FR1",
+            "countryId": 50,
+            "clubId": "995",
+            "coachId": "82583"
+          },
+          "details": {
+            "playerId": "659543",
+            "date": "2023-08-25T00:00:00+02:00",
+            "contractUntilDate": "2024-06-30T00:00:00+02:00",
+            "seasonId": 2023,
+            "isPending": false,
+            "marketValue": {
+              "value": 4500000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "4.50",
+                "suffix": "M"
+              }
+            },
+            "age": 20,
+            "remainingContractPeriod": {
+              "days": 1040,
+              "daysDisplay": "2 Years, 10 Months, 5 Days"
+            },
+            "season": {
+              "id": 2023,
+              "display": "23/24",
+              "cyclicalName": "2024",
+              "nonCyclicalName": "23/24"
+            }
+          },
+          "typeDetails": {
+            "type": "ACTIVE_LOAN_TRANSFER",
+            "name": "loan transfer",
+            "feeDescription": "loan transfer"
+          },
+          "relativeUrl": "/matthis-abline/transfers/spieler/659543/transfer_id/4607123"
+        },
+        {
+          "id": "4200148",
+          "transferSource": {
+            "competitionId": "FR1",
+            "countryId": 50,
+            "clubId": "290",
+            "coachId": "24802"
+          },
+          "transferDestination": {
+            "competitionId": "FR1",
+            "countryId": 50,
+            "clubId": "273",
+            "coachId": "5036"
+          },
+          "details": {
+            "playerId": "659543",
+            "date": "2023-06-30T00:00:00+02:00",
+            "contractUntilDate": "2026-06-30T00:00:00+02:00",
+            "seasonId": 2022,
+            "isPending": false,
+            "marketValue": {
+              "value": 4500000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "4.50",
+                "suffix": "M"
+              }
+            },
+            "age": 20,
+            "remainingContractPeriod": {
+              "days": 0,
+              "daysDisplay": "Unknown"
+            },
+            "season": {
+              "id": 2022,
+              "display": "22/23",
+              "cyclicalName": "2023",
+              "nonCyclicalName": "22/23"
+            }
+          },
+          "typeDetails": {
+            "type": "RETURNED_FROM_PREVIOUS_LOAN",
+            "name": "End of loan",
+            "feeDescription": "End of loan"
+          },
+          "relativeUrl": "/matthis-abline/transfers/spieler/659543/transfer_id/4200148"
+        },
+        {
+          "id": "4200147",
+          "transferSource": {
+            "competitionId": "FR1",
+            "countryId": 50,
+            "clubId": "273",
+            "coachId": "5036"
+          },
+          "transferDestination": {
+            "competitionId": "FR1",
+            "countryId": 50,
+            "clubId": "290",
+            "coachId": "24802"
+          },
+          "details": {
+            "playerId": "659543",
+            "date": "2023-01-02T00:00:00+01:00",
+            "contractUntilDate": "2023-06-30T00:00:00+02:00",
+            "seasonId": 2022,
+            "isPending": false,
+            "marketValue": {
+              "value": 3000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "3.00",
+                "suffix": "M"
+              }
+            },
+            "age": 19,
+            "remainingContractPeriod": {
+              "days": 910,
+              "daysDisplay": "2 Years, 5 Months, 28 Days"
+            },
+            "season": {
+              "id": 2022,
+              "display": "22/23",
+              "cyclicalName": "2023",
+              "nonCyclicalName": "22/23"
+            }
+          },
+          "typeDetails": {
+            "type": "ACTIVE_LOAN_TRANSFER",
+            "name": "loan transfer",
+            "feeDescription": "loan transfer"
+          },
+          "relativeUrl": "/matthis-abline/transfers/spieler/659543/transfer_id/4200147"
+        },
+        {
+          "id": "3705842",
+          "transferSource": {
+            "competitionId": "FR2",
+            "countryId": 50,
+            "clubId": "738",
+            "coachId": "23576"
+          },
+          "transferDestination": {
+            "competitionId": "FR1",
+            "countryId": 50,
+            "clubId": "273",
+            "coachId": "5036"
+          },
+          "details": {
+            "playerId": "659543",
+            "date": "2022-06-30T00:00:00+02:00",
+            "contractUntilDate": "2025-06-30T00:00:00+02:00",
+            "seasonId": 2021,
+            "isPending": false,
+            "marketValue": {
+              "value": 3000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "3.00",
+                "suffix": "M"
+              }
+            },
+            "age": 19,
+            "remainingContractPeriod": {
+              "days": 0,
+              "daysDisplay": "Unknown"
+            },
+            "season": {
+              "id": 2021,
+              "display": "21/22",
+              "cyclicalName": "2022",
+              "nonCyclicalName": "21/22"
+            }
+          },
+          "typeDetails": {
+            "type": "RETURNED_FROM_PREVIOUS_LOAN",
+            "name": "End of loan",
+            "feeDescription": "End of loan"
+          },
+          "relativeUrl": "/matthis-abline/transfers/spieler/659543/transfer_id/3705842"
+        },
+        {
+          "id": "3705841",
+          "transferSource": {
+            "competitionId": "FR1",
+            "countryId": 50,
+            "clubId": "273",
+            "coachId": "5036"
+          },
+          "transferDestination": {
+            "competitionId": "FR2",
+            "countryId": 50,
+            "clubId": "738",
+            "coachId": "1234"
+          },
+          "details": {
+            "playerId": "659543",
+            "date": "2022-01-21T00:00:00+01:00",
+            "contractUntilDate": "2022-06-30T00:00:00+02:00",
+            "seasonId": 2021,
+            "isPending": false,
+            "marketValue": {
+              "value": 2000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "2.00",
+                "suffix": "M"
+              }
+            },
+            "age": 18,
+            "remainingContractPeriod": {
+              "days": 1256,
+              "daysDisplay": "3 Years, 5 Months, 9 Days"
+            },
+            "season": {
+              "id": 2021,
+              "display": "21/22",
+              "cyclicalName": "2022",
+              "nonCyclicalName": "21/22"
+            }
+          },
+          "typeDetails": {
+            "type": "ACTIVE_LOAN_TRANSFER",
+            "name": "loan transfer",
+            "feeDescription": "loan transfer"
+          },
+          "relativeUrl": "/matthis-abline/transfers/spieler/659543/transfer_id/3705841"
+        },
+        {
+          "id": "3414404",
+          "transferSource": {
+            "competitionId": "C3BR",
+            "countryId": 50,
+            "clubId": "8154",
+            "coachId": "72257"
+          },
+          "transferDestination": {
+            "competitionId": "FR1",
+            "countryId": 50,
+            "clubId": "273",
+            "coachId": "5036"
+          },
+          "details": {
+            "playerId": "659543",
+            "date": "2021-07-01T00:00:00+02:00",
+            "contractUntilDate": "2025-06-30T00:00:00+02:00",
+            "seasonId": 2021,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 18,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 1095,
+              "daysDisplay": "2 Years, 11 Months, 29 Days"
+            },
+            "season": {
+              "id": 2021,
+              "display": "21/22",
+              "cyclicalName": "2022",
+              "nonCyclicalName": "21/22"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/matthis-abline/transfers/spieler/659543/transfer_id/3414404"
+        },
+        {
+          "id": "3351550",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 50,
+            "clubId": "107721",
+            "coachId": "72257"
+          },
+          "transferDestination": {
+            "competitionId": "C3BR",
+            "countryId": 50,
+            "clubId": "8154",
+            "coachId": "65811"
+          },
+          "details": {
+            "playerId": "659543",
+            "date": "2020-07-01T00:00:00+02:00",
+            "contractUntilDate": "2024-06-30T00:00:00+02:00",
+            "seasonId": 2020,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 17,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2020,
+              "display": "20/21",
+              "cyclicalName": "2021",
+              "nonCyclicalName": "20/21"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/matthis-abline/transfers/spieler/659543/transfer_id/3351550"
+        },
+        {
+          "id": "6234459",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 50,
+            "clubId": "108651",
+            "coachId": "0"
+          },
+          "transferDestination": {
+            "competitionId": "",
+            "countryId": 50,
+            "clubId": "107721",
+            "coachId": "0"
+          },
+          "details": {
+            "playerId": "659543",
+            "date": "2018-07-01T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2018,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 15,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "Free Transfer",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2018,
+              "display": "18/19",
+              "cyclicalName": "2019",
+              "nonCyclicalName": "18/19"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/matthis-abline/transfers/spieler/659543/transfer_id/6234459"
+        }
+      ],
+      "pending": [],
+      "url": "",
+      "feeSum": {
+        "value": 12000000,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "12.00",
+          "suffix": "M"
+        }
+      },
+      "averageAge": 23,
+      "totalMarketValue": {
+        "value": 20000000,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "20.00",
+          "suffix": "M"
+        }
+      }
+    },
+    "clubIds": [
+      "273",
+      "995",
+      "290",
+      "738",
+      "8154",
+      "107721",
+      "108651"
+    ],
+    "coachIds": [
+      "61003",
+      "1224",
+      "5036",
+      "82583",
+      "24802",
+      "23576",
+      "1234",
+      "72257",
+      "65811"
+    ],
+    "competitionIds": [
+      "FR1",
+      "FR2",
+      "C3BR"
+    ],
+    "mostRecentTransfer": {
+      "id": "5091598",
+      "transferSource": {
+        "competitionId": "FR1",
+        "countryId": 50,
+        "clubId": "273",
+        "coachId": "61003"
+      },
+      "transferDestination": {
+        "competitionId": "FR1",
+        "countryId": 50,
+        "clubId": "995",
+        "coachId": "1224"
+      },
+      "details": {
+        "playerId": "659543",
+        "date": "2024-07-03T00:00:00+02:00",
+        "contractUntilDate": "2028-06-30T00:00:00+02:00",
+        "seasonId": 2024,
+        "isPending": false,
+        "marketValue": {
+          "value": 6000000,
+          "currency": "EUR",
+          "compact": {
+            "prefix": "€",
+            "content": "6.00",
+            "suffix": "M"
+          }
+        },
+        "age": 21,
+        "fee": {
+          "value": 10000000,
+          "currency": "EUR",
+          "compact": {
+            "prefix": "€",
+            "content": "10.00",
+            "suffix": "M"
+          }
+        },
+        "remainingContractPeriod": {
+          "days": 727,
+          "daysDisplay": "1 Year, 11 Months, 27 Days"
+        },
+        "season": {
+          "id": 2024,
+          "display": "24/25",
+          "cyclicalName": "2025",
+          "nonCyclicalName": "24/25"
+        }
+      },
+      "typeDetails": {
+        "type": "STANDARD",
+        "name": "",
+        "feeDescription": ""
+      },
+      "relativeUrl": "/matthis-abline/transfers/spieler/659543/transfer_id/5091598"
+    }
+  }
+}

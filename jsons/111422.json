@@ -1,0 +1,748 @@
+{
+  "success": true,
+  "message": "OK",
+  "data": {
+    "playerId": "111422",
+    "history": {
+      "terminated": [
+        {
+          "id": "5933047",
+          "transferSource": {
+            "competitionId": "UAE1",
+            "countryId": 183,
+            "clubId": "2524",
+            "coachId": "28942"
+          },
+          "transferDestination": {
+            "competitionId": "",
+            "countryId": 89,
+            "clubId": "7733",
+            "coachId": "17399"
+          },
+          "details": {
+            "playerId": "111422",
+            "date": "2025-09-10T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2025,
+            "isPending": false,
+            "marketValue": {
+              "value": 500000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "500.00",
+                "suffix": "K"
+              }
+            },
+            "age": 33,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "?",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2025,
+              "display": "25/26",
+              "cyclicalName": "2026",
+              "nonCyclicalName": "25/26"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/neeskens-kebano/transfers/spieler/111422/transfer_id/5933047"
+        },
+        {
+          "id": "4486618",
+          "transferSource": {
+            "competitionId": "GB1",
+            "countryId": 189,
+            "clubId": "931",
+            "coachId": "19631"
+          },
+          "transferDestination": {
+            "competitionId": "UAE1",
+            "countryId": 183,
+            "clubId": "2524",
+            "coachId": "8371"
+          },
+          "details": {
+            "playerId": "111422",
+            "date": "2023-07-08T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2023,
+            "isPending": false,
+            "marketValue": {
+              "value": 2000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "2.00",
+                "suffix": "M"
+              }
+            },
+            "age": 31,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "Free Transfer",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2023,
+              "display": "23/24",
+              "cyclicalName": "2024",
+              "nonCyclicalName": "23/24"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/neeskens-kebano/transfers/spieler/111422/transfer_id/4486618"
+        },
+        {
+          "id": "3234235",
+          "transferSource": {
+            "competitionId": "GB2",
+            "countryId": 189,
+            "clubId": "641",
+            "coachId": "1527"
+          },
+          "transferDestination": {
+            "competitionId": "GB1",
+            "countryId": 189,
+            "clubId": "931",
+            "coachId": "54455"
+          },
+          "details": {
+            "playerId": "111422",
+            "date": "2021-05-31T00:00:00+02:00",
+            "contractUntilDate": "2023-06-30T00:00:00+02:00",
+            "seasonId": 2020,
+            "isPending": false,
+            "marketValue": {
+              "value": 1200000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "1.20",
+                "suffix": "M"
+              }
+            },
+            "age": 29,
+            "remainingContractPeriod": {
+              "days": 0,
+              "daysDisplay": "Unknown"
+            },
+            "season": {
+              "id": 2020,
+              "display": "20/21",
+              "cyclicalName": "2021",
+              "nonCyclicalName": "20/21"
+            }
+          },
+          "typeDetails": {
+            "type": "RETURNED_FROM_PREVIOUS_LOAN",
+            "name": "End of loan",
+            "feeDescription": "End of loan"
+          },
+          "relativeUrl": "/neeskens-kebano/transfers/spieler/111422/transfer_id/3234235"
+        },
+        {
+          "id": "3234234",
+          "transferSource": {
+            "competitionId": "GB1",
+            "countryId": 189,
+            "clubId": "931",
+            "coachId": "54455"
+          },
+          "transferDestination": {
+            "competitionId": "GB2",
+            "countryId": 189,
+            "clubId": "641",
+            "coachId": "1527"
+          },
+          "details": {
+            "playerId": "111422",
+            "date": "2021-02-01T00:00:00+01:00",
+            "contractUntilDate": "2021-05-31T00:00:00+02:00",
+            "seasonId": 2020,
+            "isPending": false,
+            "marketValue": {
+              "value": 1200000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "1.20",
+                "suffix": "M"
+              }
+            },
+            "age": 28,
+            "remainingContractPeriod": {
+              "days": 879,
+              "daysDisplay": "2 Years, 4 Months, 29 Days"
+            },
+            "season": {
+              "id": 2020,
+              "display": "20/21",
+              "cyclicalName": "2021",
+              "nonCyclicalName": "20/21"
+            }
+          },
+          "typeDetails": {
+            "type": "ACTIVE_LOAN_TRANSFER",
+            "name": "loan transfer",
+            "feeDescription": "loan transfer"
+          },
+          "relativeUrl": "/neeskens-kebano/transfers/spieler/111422/transfer_id/3234234"
+        },
+        {
+          "id": "1581459",
+          "transferSource": {
+            "competitionId": "BE1",
+            "countryId": 19,
+            "clubId": "1184",
+            "coachId": "3249"
+          },
+          "transferDestination": {
+            "competitionId": "GB2",
+            "countryId": 189,
+            "clubId": "931",
+            "coachId": "5627"
+          },
+          "details": {
+            "playerId": "111422",
+            "date": "2016-08-26T00:00:00+02:00",
+            "contractUntilDate": "2023-06-30T00:00:00+02:00",
+            "seasonId": 2016,
+            "isPending": false,
+            "marketValue": {
+              "value": 4500000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "4.50",
+                "suffix": "M"
+              }
+            },
+            "age": 24,
+            "fee": {
+              "value": 4450000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "4.45",
+                "suffix": "M"
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 1038,
+              "daysDisplay": "2 Years, 10 Months, 4 Days"
+            },
+            "season": {
+              "id": 2016,
+              "display": "16/17",
+              "cyclicalName": "2017",
+              "nonCyclicalName": "16/17"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/neeskens-kebano/transfers/spieler/111422/transfer_id/1581459"
+        },
+        {
+          "id": "1330384",
+          "transferSource": {
+            "competitionId": "BE1",
+            "countryId": 19,
+            "clubId": "172",
+            "coachId": "7843"
+          },
+          "transferDestination": {
+            "competitionId": "BE1",
+            "countryId": 19,
+            "clubId": "1184",
+            "coachId": "3249"
+          },
+          "details": {
+            "playerId": "111422",
+            "date": "2015-08-26T00:00:00+02:00",
+            "contractUntilDate": "2019-06-30T00:00:00+02:00",
+            "seasonId": 2015,
+            "isPending": false,
+            "marketValue": {
+              "value": 3500000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "3.50",
+                "suffix": "M"
+              }
+            },
+            "age": 23,
+            "fee": {
+              "value": 4000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "4.00",
+                "suffix": "M"
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 674,
+              "daysDisplay": "1 Year, 10 Months, 4 Days"
+            },
+            "season": {
+              "id": 2015,
+              "display": "15/16",
+              "cyclicalName": "2016",
+              "nonCyclicalName": "15/16"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/neeskens-kebano/transfers/spieler/111422/transfer_id/1330384"
+        },
+        {
+          "id": "943141",
+          "transferSource": {
+            "competitionId": "FR1",
+            "countryId": 50,
+            "clubId": "583",
+            "coachId": "4589"
+          },
+          "transferDestination": {
+            "competitionId": "BE1",
+            "countryId": 19,
+            "clubId": "172",
+            "coachId": "7843"
+          },
+          "details": {
+            "playerId": "111422",
+            "date": "2013-09-02T00:00:00+02:00",
+            "contractUntilDate": "2017-06-30T00:00:00+02:00",
+            "seasonId": 2013,
+            "isPending": false,
+            "marketValue": {
+              "value": 400000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "400.00",
+                "suffix": "K"
+              }
+            },
+            "age": 21,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "Free Transfer",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2013,
+              "display": "13/14",
+              "cyclicalName": "2014",
+              "nonCyclicalName": "13/14"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/neeskens-kebano/transfers/spieler/111422/transfer_id/943141"
+        },
+        {
+          "id": "5032725",
+          "transferSource": {
+            "competitionId": "FR1",
+            "countryId": 50,
+            "clubId": "583",
+            "coachId": "4589"
+          },
+          "transferDestination": {
+            "competitionId": "CN2A",
+            "countryId": 50,
+            "clubId": "8512",
+            "coachId": "30556"
+          },
+          "details": {
+            "playerId": "111422",
+            "date": "2013-07-01T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2013,
+            "isPending": false,
+            "marketValue": {
+              "value": 400000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "400.00",
+                "suffix": "K"
+              }
+            },
+            "age": 21,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 1095,
+              "daysDisplay": "2 Years, 11 Months, 29 Days"
+            },
+            "season": {
+              "id": 2013,
+              "display": "13/14",
+              "cyclicalName": "2014",
+              "nonCyclicalName": "13/14"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/neeskens-kebano/transfers/spieler/111422/transfer_id/5032725"
+        },
+        {
+          "id": "768024",
+          "transferSource": {
+            "competitionId": "FR2",
+            "countryId": 50,
+            "clubId": "1162",
+            "coachId": "5747"
+          },
+          "transferDestination": {
+            "competitionId": "FR1",
+            "countryId": 50,
+            "clubId": "583",
+            "coachId": "4589"
+          },
+          "details": {
+            "playerId": "111422",
+            "date": "2013-06-30T00:00:00+02:00",
+            "contractUntilDate": "2016-06-30T00:00:00+02:00",
+            "seasonId": 2012,
+            "isPending": false,
+            "marketValue": {
+              "value": 400000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "400.00",
+                "suffix": "K"
+              }
+            },
+            "age": 21,
+            "remainingContractPeriod": {
+              "days": 0,
+              "daysDisplay": "Unknown"
+            },
+            "season": {
+              "id": 2012,
+              "display": "12/13",
+              "cyclicalName": "2013",
+              "nonCyclicalName": "12/13"
+            }
+          },
+          "typeDetails": {
+            "type": "RETURNED_FROM_PREVIOUS_LOAN",
+            "name": "End of loan",
+            "feeDescription": "End of loan"
+          },
+          "relativeUrl": "/neeskens-kebano/transfers/spieler/111422/transfer_id/768024"
+        },
+        {
+          "id": "768022",
+          "transferSource": {
+            "competitionId": "FR1",
+            "countryId": 50,
+            "clubId": "583",
+            "coachId": "523"
+          },
+          "transferDestination": {
+            "competitionId": "FR2",
+            "countryId": 50,
+            "clubId": "1162",
+            "coachId": "5747"
+          },
+          "details": {
+            "playerId": "111422",
+            "date": "2012-08-14T00:00:00+02:00",
+            "contractUntilDate": "2013-06-30T00:00:00+02:00",
+            "seasonId": 2012,
+            "isPending": false,
+            "marketValue": {
+              "value": 400000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "400.00",
+                "suffix": "K"
+              }
+            },
+            "age": 20,
+            "season": {
+              "id": 2012,
+              "display": "12/13",
+              "cyclicalName": "2013",
+              "nonCyclicalName": "12/13"
+            }
+          },
+          "typeDetails": {
+            "type": "ACTIVE_LOAN_TRANSFER",
+            "name": "loan transfer",
+            "feeDescription": "loan transfer"
+          },
+          "relativeUrl": "/neeskens-kebano/transfers/spieler/111422/transfer_id/768022"
+        },
+        {
+          "id": "486487",
+          "transferSource": {
+            "competitionId": "CN2B",
+            "countryId": 50,
+            "clubId": "8512",
+            "coachId": "80889"
+          },
+          "transferDestination": {
+            "competitionId": "FR1",
+            "countryId": 50,
+            "clubId": "583",
+            "coachId": "1224"
+          },
+          "details": {
+            "playerId": "111422",
+            "date": "2011-01-01T00:00:00+01:00",
+            "contractUntilDate": null,
+            "seasonId": 2010,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 18,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2010,
+              "display": "10/11",
+              "cyclicalName": "2011",
+              "nonCyclicalName": "10/11"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/neeskens-kebano/transfers/spieler/111422/transfer_id/486487"
+        },
+        {
+          "id": "5032724",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 50,
+            "clubId": "6326",
+            "coachId": "30556"
+          },
+          "transferDestination": {
+            "competitionId": "CN2B",
+            "countryId": 50,
+            "clubId": "8512",
+            "coachId": "80889"
+          },
+          "details": {
+            "playerId": "111422",
+            "date": "2010-07-01T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2010,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 18,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2010,
+              "display": "10/11",
+              "cyclicalName": "2011",
+              "nonCyclicalName": "10/11"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/neeskens-kebano/transfers/spieler/111422/transfer_id/5032724"
+        }
+      ],
+      "pending": [],
+      "url": "",
+      "feeSum": {
+        "value": 8450000,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "8.45",
+          "suffix": "M"
+        }
+      },
+      "averageAge": 34,
+      "totalMarketValue": {
+        "value": 0,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "0.00",
+          "suffix": ""
+        }
+      }
+    },
+    "clubIds": [
+      "2524",
+      "7733",
+      "931",
+      "641",
+      "1184",
+      "172",
+      "583",
+      "8512",
+      "1162",
+      "6326"
+    ],
+    "coachIds": [
+      "28942",
+      "17399",
+      "19631",
+      "8371",
+      "1527",
+      "54455",
+      "3249",
+      "5627",
+      "7843",
+      "4589",
+      "30556",
+      "5747",
+      "523",
+      "80889",
+      "1224"
+    ],
+    "competitionIds": [
+      "UAE1",
+      "GB1",
+      "GB2",
+      "BE1",
+      "FR1",
+      "CN2A",
+      "FR2",
+      "CN2B"
+    ],
+    "mostRecentTransfer": {
+      "id": "5933047",
+      "transferSource": {
+        "competitionId": "UAE1",
+        "countryId": 183,
+        "clubId": "2524",
+        "coachId": "28942"
+      },
+      "transferDestination": {
+        "competitionId": "",
+        "countryId": 89,
+        "clubId": "7733",
+        "coachId": "17399"
+      },
+      "details": {
+        "playerId": "111422",
+        "date": "2025-09-10T00:00:00+02:00",
+        "contractUntilDate": null,
+        "seasonId": 2025,
+        "isPending": false,
+        "marketValue": {
+          "value": 500000,
+          "currency": "EUR",
+          "compact": {
+            "prefix": "€",
+            "content": "500.00",
+            "suffix": "K"
+          }
+        },
+        "age": 33,
+        "fee": {
+          "value": null,
+          "currency": "",
+          "compact": {
+            "prefix": "",
+            "content": "?",
+            "suffix": ""
+          }
+        },
+        "season": {
+          "id": 2025,
+          "display": "25/26",
+          "cyclicalName": "2026",
+          "nonCyclicalName": "25/26"
+        }
+      },
+      "typeDetails": {
+        "type": "STANDARD",
+        "name": "",
+        "feeDescription": ""
+      },
+      "relativeUrl": "/neeskens-kebano/transfers/spieler/111422/transfer_id/5933047"
+    }
+  }
+}

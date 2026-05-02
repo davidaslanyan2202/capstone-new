@@ -1,0 +1,694 @@
+{
+  "success": true,
+  "message": "OK",
+  "data": {
+    "playerId": "431811",
+    "history": {
+      "terminated": [
+        {
+          "id": "5833267",
+          "transferSource": {
+            "competitionId": "IT1",
+            "countryId": 75,
+            "clubId": "12",
+            "coachId": "3436"
+          },
+          "transferDestination": {
+            "competitionId": "DK1",
+            "countryId": 39,
+            "clubId": "2778",
+            "coachId": "53334"
+          },
+          "details": {
+            "playerId": "431811",
+            "date": "2025-08-04T00:00:00+02:00",
+            "contractUntilDate": "2029-06-30T00:00:00+02:00",
+            "seasonId": 2025,
+            "isPending": false,
+            "marketValue": {
+              "value": 2300000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "2.30",
+                "suffix": "M"
+              }
+            },
+            "age": 26,
+            "fee": {
+              "value": 950000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "950.00",
+                "suffix": "K"
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 695,
+              "daysDisplay": "1 Year, 10 Months, 26 Days"
+            },
+            "season": {
+              "id": 2025,
+              "display": "25/26",
+              "cyclicalName": "2026",
+              "nonCyclicalName": "25/26"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/ola-solbakken/transfers/spieler/431811/transfer_id/5833267"
+        },
+        {
+          "id": "5195838",
+          "transferSource": {
+            "competitionId": "IT1",
+            "countryId": 75,
+            "clubId": "749",
+            "coachId": "35535"
+          },
+          "transferDestination": {
+            "competitionId": "IT1",
+            "countryId": 75,
+            "clubId": "12",
+            "coachId": "3436"
+          },
+          "details": {
+            "playerId": "431811",
+            "date": "2025-06-30T00:00:00+02:00",
+            "contractUntilDate": "2027-06-30T00:00:00+02:00",
+            "seasonId": 2024,
+            "isPending": false,
+            "marketValue": {
+              "value": 2300000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "2.30",
+                "suffix": "M"
+              }
+            },
+            "age": 26,
+            "remainingContractPeriod": {
+              "days": 0,
+              "daysDisplay": "Unknown"
+            },
+            "season": {
+              "id": 2024,
+              "display": "24/25",
+              "cyclicalName": "2025",
+              "nonCyclicalName": "24/25"
+            }
+          },
+          "typeDetails": {
+            "type": "RETURNED_FROM_PREVIOUS_LOAN",
+            "name": "End of loan",
+            "feeDescription": "End of loan"
+          },
+          "relativeUrl": "/ola-solbakken/transfers/spieler/431811/transfer_id/5195838"
+        },
+        {
+          "id": "5195837",
+          "transferSource": {
+            "competitionId": "IT1",
+            "countryId": 75,
+            "clubId": "12",
+            "coachId": "90748"
+          },
+          "transferDestination": {
+            "competitionId": "IT1",
+            "countryId": 75,
+            "clubId": "749",
+            "coachId": "35782"
+          },
+          "details": {
+            "playerId": "431811",
+            "date": "2024-08-14T00:00:00+02:00",
+            "contractUntilDate": "2025-06-30T00:00:00+02:00",
+            "seasonId": 2024,
+            "isPending": false,
+            "marketValue": {
+              "value": 2500000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "2.50",
+                "suffix": "M"
+              }
+            },
+            "age": 25,
+            "remainingContractPeriod": {
+              "days": 1050,
+              "daysDisplay": "2 Years, 10 Months, 16 Days"
+            },
+            "season": {
+              "id": 2024,
+              "display": "24/25",
+              "cyclicalName": "2025",
+              "nonCyclicalName": "24/25"
+            }
+          },
+          "typeDetails": {
+            "type": "ACTIVE_LOAN_TRANSFER",
+            "name": "loan transfer",
+            "feeDescription": "loan transfer"
+          },
+          "relativeUrl": "/ola-solbakken/transfers/spieler/431811/transfer_id/5195837"
+        },
+        {
+          "id": "4817517",
+          "transferSource": {
+            "competitionId": "JAP1",
+            "countryId": 77,
+            "clubId": "828",
+            "coachId": "2643"
+          },
+          "transferDestination": {
+            "competitionId": "IT1",
+            "countryId": 75,
+            "clubId": "12",
+            "coachId": "90748"
+          },
+          "details": {
+            "playerId": "431811",
+            "date": "2024-06-30T00:00:00+02:00",
+            "contractUntilDate": "2027-06-30T00:00:00+02:00",
+            "seasonId": 2023,
+            "isPending": false,
+            "marketValue": {
+              "value": 2500000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "2.50",
+                "suffix": "M"
+              }
+            },
+            "age": 25,
+            "remainingContractPeriod": {
+              "days": 0,
+              "daysDisplay": "Unknown"
+            },
+            "season": {
+              "id": 2023,
+              "display": "23/24",
+              "cyclicalName": "2024",
+              "nonCyclicalName": "23/24"
+            }
+          },
+          "typeDetails": {
+            "type": "RETURNED_FROM_PREVIOUS_LOAN",
+            "name": "End of loan",
+            "feeDescription": "End of loan"
+          },
+          "relativeUrl": "/ola-solbakken/transfers/spieler/431811/transfer_id/4817517"
+        },
+        {
+          "id": "4817516",
+          "transferSource": {
+            "competitionId": "IT1",
+            "countryId": 75,
+            "clubId": "12",
+            "coachId": "781"
+          },
+          "transferDestination": {
+            "competitionId": "JAP1",
+            "countryId": 77,
+            "clubId": "828",
+            "coachId": "2643"
+          },
+          "details": {
+            "playerId": "431811",
+            "date": "2024-01-12T00:00:00+01:00",
+            "contractUntilDate": "2024-06-30T00:00:00+02:00",
+            "seasonId": 2023,
+            "isPending": false,
+            "marketValue": {
+              "value": 3000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "3.00",
+                "suffix": "M"
+              }
+            },
+            "age": 25,
+            "remainingContractPeriod": {
+              "days": 1265,
+              "daysDisplay": "3 Years, 5 Months, 18 Days"
+            },
+            "season": {
+              "id": 2023,
+              "display": "23/24",
+              "cyclicalName": "2024",
+              "nonCyclicalName": "23/24"
+            }
+          },
+          "typeDetails": {
+            "type": "ACTIVE_LOAN_TRANSFER",
+            "name": "loan transfer",
+            "feeDescription": "loan transfer"
+          },
+          "relativeUrl": "/ola-solbakken/transfers/spieler/431811/transfer_id/4817516"
+        },
+        {
+          "id": "4625680",
+          "transferSource": {
+            "competitionId": "GR1",
+            "countryId": 56,
+            "clubId": "683",
+            "coachId": "1588"
+          },
+          "transferDestination": {
+            "competitionId": "IT1",
+            "countryId": 75,
+            "clubId": "12",
+            "coachId": "781"
+          },
+          "details": {
+            "playerId": "431811",
+            "date": "2024-01-11T00:00:00+01:00",
+            "contractUntilDate": "2027-06-30T00:00:00+02:00",
+            "seasonId": 2023,
+            "isPending": false,
+            "marketValue": {
+              "value": 3000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "3.00",
+                "suffix": "M"
+              }
+            },
+            "age": 25,
+            "remainingContractPeriod": {
+              "days": 171,
+              "daysDisplay": "5 Months, 19 Days"
+            },
+            "season": {
+              "id": 2023,
+              "display": "23/24",
+              "cyclicalName": "2024",
+              "nonCyclicalName": "23/24"
+            }
+          },
+          "typeDetails": {
+            "type": "RETURNED_FROM_PREVIOUS_LOAN",
+            "name": "End of loan",
+            "feeDescription": "End of loan"
+          },
+          "relativeUrl": "/ola-solbakken/transfers/spieler/431811/transfer_id/4625680"
+        },
+        {
+          "id": "4625679",
+          "transferSource": {
+            "competitionId": "IT1",
+            "countryId": 75,
+            "clubId": "12",
+            "coachId": "781"
+          },
+          "transferDestination": {
+            "competitionId": "GR1",
+            "countryId": 56,
+            "clubId": "683",
+            "coachId": "25435"
+          },
+          "details": {
+            "playerId": "431811",
+            "date": "2023-09-02T00:00:00+02:00",
+            "contractUntilDate": "2024-06-30T00:00:00+02:00",
+            "seasonId": 2023,
+            "isPending": false,
+            "marketValue": {
+              "value": 3500000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "3.50",
+                "suffix": "M"
+              }
+            },
+            "age": 24,
+            "fee": {
+              "value": 1500000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "1.50",
+                "suffix": "M"
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 1397,
+              "daysDisplay": "3 Years, 9 Months, 28 Days"
+            },
+            "season": {
+              "id": 2023,
+              "display": "23/24",
+              "cyclicalName": "2024",
+              "nonCyclicalName": "23/24"
+            }
+          },
+          "typeDetails": {
+            "type": "ACTIVE_LOAN_TRANSFER",
+            "name": "loan transfer",
+            "feeDescription": "Loan fee"
+          },
+          "relativeUrl": "/ola-solbakken/transfers/spieler/431811/transfer_id/4625679"
+        },
+        {
+          "id": "4138960",
+          "transferSource": {
+            "competitionId": "NO1",
+            "countryId": 125,
+            "clubId": "501",
+            "coachId": "22987"
+          },
+          "transferDestination": {
+            "competitionId": "IT1",
+            "countryId": 75,
+            "clubId": "12",
+            "coachId": "781"
+          },
+          "details": {
+            "playerId": "431811",
+            "date": "2023-01-02T00:00:00+01:00",
+            "contractUntilDate": "2027-06-30T00:00:00+02:00",
+            "seasonId": 2022,
+            "isPending": false,
+            "marketValue": {
+              "value": 3500000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "3.50",
+                "suffix": "M"
+              }
+            },
+            "age": 24,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "Free Transfer",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2022,
+              "display": "22/23",
+              "cyclicalName": "2023",
+              "nonCyclicalName": "22/23"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/ola-solbakken/transfers/spieler/431811/transfer_id/4138960"
+        },
+        {
+          "id": "2731739",
+          "transferSource": {
+            "competitionId": "NO2",
+            "countryId": 125,
+            "clubId": "13519",
+            "coachId": "27729"
+          },
+          "transferDestination": {
+            "competitionId": "NO1",
+            "countryId": 125,
+            "clubId": "501",
+            "coachId": "22987"
+          },
+          "details": {
+            "playerId": "431811",
+            "date": "2020-01-09T00:00:00+01:00",
+            "contractUntilDate": "2022-12-31T00:00:00+01:00",
+            "seasonId": 2019,
+            "isPending": false,
+            "marketValue": {
+              "value": 300000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "300.00",
+                "suffix": "K"
+              }
+            },
+            "age": 21,
+            "fee": {
+              "value": 65000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "65.00",
+                "suffix": "K"
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 722,
+              "daysDisplay": "1 Year, 11 Months, 22 Days"
+            },
+            "season": {
+              "id": 2019,
+              "display": "19/20",
+              "cyclicalName": "2020",
+              "nonCyclicalName": "19/20"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/ola-solbakken/transfers/spieler/431811/transfer_id/2731739"
+        },
+        {
+          "id": "1991915",
+          "transferSource": {
+            "competitionId": "NO45",
+            "countryId": 125,
+            "clubId": "35024",
+            "coachId": "3413"
+          },
+          "transferDestination": {
+            "competitionId": "NO1",
+            "countryId": 125,
+            "clubId": "13519",
+            "coachId": "27729"
+          },
+          "details": {
+            "playerId": "431811",
+            "date": "2018-01-12T00:00:00+01:00",
+            "contractUntilDate": "2021-12-31T00:00:00+01:00",
+            "seasonId": 2017,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 19,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "Free Transfer",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2017,
+              "display": "17/18",
+              "cyclicalName": "2018",
+              "nonCyclicalName": "17/18"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/ola-solbakken/transfers/spieler/431811/transfer_id/1991915"
+        },
+        {
+          "id": "1991914",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 125,
+            "clubId": "12847",
+            "coachId": "28610"
+          },
+          "transferDestination": {
+            "competitionId": "",
+            "countryId": 125,
+            "clubId": "35024",
+            "coachId": "28610"
+          },
+          "details": {
+            "playerId": "431811",
+            "date": "2015-01-01T00:00:00+01:00",
+            "contractUntilDate": null,
+            "seasonId": 2014,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 16,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2014,
+              "display": "14/15",
+              "cyclicalName": "2015",
+              "nonCyclicalName": "14/15"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/ola-solbakken/transfers/spieler/431811/transfer_id/1991914"
+        }
+      ],
+      "pending": [],
+      "url": "",
+      "feeSum": {
+        "value": 2515000,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "2.52",
+          "suffix": "M"
+        }
+      },
+      "averageAge": 27,
+      "totalMarketValue": {
+        "value": 1800000,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "1.80",
+          "suffix": "M"
+        }
+      }
+    },
+    "clubIds": [
+      "12",
+      "2778",
+      "749",
+      "828",
+      "683",
+      "501",
+      "13519",
+      "35024",
+      "12847"
+    ],
+    "coachIds": [
+      "3436",
+      "53334",
+      "35535",
+      "90748",
+      "35782",
+      "2643",
+      "781",
+      "1588",
+      "25435",
+      "22987",
+      "27729",
+      "3413",
+      "28610"
+    ],
+    "competitionIds": [
+      "IT1",
+      "DK1",
+      "JAP1",
+      "GR1",
+      "NO1",
+      "NO2",
+      "NO45"
+    ],
+    "mostRecentTransfer": {
+      "id": "5833267",
+      "transferSource": {
+        "competitionId": "IT1",
+        "countryId": 75,
+        "clubId": "12",
+        "coachId": "3436"
+      },
+      "transferDestination": {
+        "competitionId": "DK1",
+        "countryId": 39,
+        "clubId": "2778",
+        "coachId": "53334"
+      },
+      "details": {
+        "playerId": "431811",
+        "date": "2025-08-04T00:00:00+02:00",
+        "contractUntilDate": "2029-06-30T00:00:00+02:00",
+        "seasonId": 2025,
+        "isPending": false,
+        "marketValue": {
+          "value": 2300000,
+          "currency": "EUR",
+          "compact": {
+            "prefix": "€",
+            "content": "2.30",
+            "suffix": "M"
+          }
+        },
+        "age": 26,
+        "fee": {
+          "value": 950000,
+          "currency": "EUR",
+          "compact": {
+            "prefix": "€",
+            "content": "950.00",
+            "suffix": "K"
+          }
+        },
+        "remainingContractPeriod": {
+          "days": 695,
+          "daysDisplay": "1 Year, 10 Months, 26 Days"
+        },
+        "season": {
+          "id": 2025,
+          "display": "25/26",
+          "cyclicalName": "2026",
+          "nonCyclicalName": "25/26"
+        }
+      },
+      "typeDetails": {
+        "type": "STANDARD",
+        "name": "",
+        "feeDescription": ""
+      },
+      "relativeUrl": "/ola-solbakken/transfers/spieler/431811/transfer_id/5833267"
+    }
+  }
+}

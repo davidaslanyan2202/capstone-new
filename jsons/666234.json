@@ -1,0 +1,483 @@
+{
+  "success": true,
+  "message": "OK",
+  "data": {
+    "playerId": "666234",
+    "history": {
+      "terminated": [
+        {
+          "id": "5934996",
+          "transferSource": {
+            "competitionId": "L1",
+            "countryId": 40,
+            "clubId": "23826",
+            "coachId": "34514"
+          },
+          "transferDestination": {
+            "competitionId": "SA1",
+            "countryId": 146,
+            "clubId": "18544",
+            "coachId": "0"
+          },
+          "details": {
+            "playerId": "666234",
+            "date": "2025-07-01T00:00:00+02:00",
+            "contractUntilDate": "2029-06-30T00:00:00+02:00",
+            "seasonId": 2025,
+            "isPending": false,
+            "marketValue": {
+              "value": 23000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "23.00",
+                "suffix": "M"
+              }
+            },
+            "age": 25,
+            "fee": {
+              "value": 35000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "35.00",
+                "suffix": "M"
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 729,
+              "daysDisplay": "1 Year, 11 Months, 29 Days"
+            },
+            "season": {
+              "id": 2025,
+              "display": "25/26",
+              "cyclicalName": "2026",
+              "nonCyclicalName": "25/26"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/mohamed-simakan/transfers/spieler/666234/transfer_id/5934996"
+        },
+        {
+          "id": "5934995",
+          "transferSource": {
+            "competitionId": "SA1",
+            "countryId": 146,
+            "clubId": "18544",
+            "coachId": "0"
+          },
+          "transferDestination": {
+            "competitionId": "L1",
+            "countryId": 40,
+            "clubId": "23826",
+            "coachId": "26393"
+          },
+          "details": {
+            "playerId": "666234",
+            "date": "2025-06-30T00:00:00+02:00",
+            "contractUntilDate": "2027-06-30T00:00:00+02:00",
+            "seasonId": 2024,
+            "isPending": false,
+            "marketValue": {
+              "value": 23000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "23.00",
+                "suffix": "M"
+              }
+            },
+            "age": 25,
+            "remainingContractPeriod": {
+              "days": 0,
+              "daysDisplay": "Unknown"
+            },
+            "season": {
+              "id": 2024,
+              "display": "24/25",
+              "cyclicalName": "2025",
+              "nonCyclicalName": "24/25"
+            }
+          },
+          "typeDetails": {
+            "type": "RETURNED_FROM_PREVIOUS_LOAN",
+            "name": "End of loan",
+            "feeDescription": "End of loan"
+          },
+          "relativeUrl": "/mohamed-simakan/transfers/spieler/666234/transfer_id/5934995"
+        },
+        {
+          "id": "5243595",
+          "transferSource": {
+            "competitionId": "L1",
+            "countryId": 40,
+            "clubId": "23826",
+            "coachId": "24197"
+          },
+          "transferDestination": {
+            "competitionId": "SA1",
+            "countryId": 146,
+            "clubId": "18544",
+            "coachId": "2063"
+          },
+          "details": {
+            "playerId": "666234",
+            "date": "2024-09-02T00:00:00+02:00",
+            "contractUntilDate": "2025-06-30T00:00:00+02:00",
+            "seasonId": 2024,
+            "isPending": false,
+            "marketValue": {
+              "value": 35000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "35.00",
+                "suffix": "M"
+              }
+            },
+            "age": 24,
+            "remainingContractPeriod": {
+              "days": 1031,
+              "daysDisplay": "2 Years, 9 Months, 28 Days"
+            },
+            "season": {
+              "id": 2024,
+              "display": "24/25",
+              "cyclicalName": "2025",
+              "nonCyclicalName": "24/25"
+            }
+          },
+          "typeDetails": {
+            "type": "ACTIVE_LOAN_TRANSFER",
+            "name": "loan transfer",
+            "feeDescription": "loan transfer"
+          },
+          "relativeUrl": "/mohamed-simakan/transfers/spieler/666234/transfer_id/5243595"
+        },
+        {
+          "id": "3301520",
+          "transferSource": {
+            "competitionId": "FR1",
+            "countryId": 50,
+            "clubId": "667",
+            "coachId": "61003"
+          },
+          "transferDestination": {
+            "competitionId": "L1",
+            "countryId": 40,
+            "clubId": "23826",
+            "coachId": "17275"
+          },
+          "details": {
+            "playerId": "666234",
+            "date": "2021-07-01T00:00:00+02:00",
+            "contractUntilDate": "2027-06-30T00:00:00+02:00",
+            "seasonId": 2021,
+            "isPending": false,
+            "marketValue": {
+              "value": 18000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "18.00",
+                "suffix": "M"
+              }
+            },
+            "age": 21,
+            "fee": {
+              "value": 15000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "15.00",
+                "suffix": "M"
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 729,
+              "daysDisplay": "1 Year, 11 Months, 29 Days"
+            },
+            "season": {
+              "id": 2021,
+              "display": "21/22",
+              "cyclicalName": "2022",
+              "nonCyclicalName": "21/22"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/mohamed-simakan/transfers/spieler/666234/transfer_id/3301520"
+        },
+        {
+          "id": "2579755",
+          "transferSource": {
+            "competitionId": "C3GE",
+            "countryId": 50,
+            "clubId": "7968",
+            "coachId": "24336"
+          },
+          "transferDestination": {
+            "competitionId": "FR1",
+            "countryId": 50,
+            "clubId": "667",
+            "coachId": "7232"
+          },
+          "details": {
+            "playerId": "666234",
+            "date": "2019-07-01T00:00:00+02:00",
+            "contractUntilDate": "2023-06-30T00:00:00+02:00",
+            "seasonId": 2019,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 19,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2019,
+              "display": "19/20",
+              "cyclicalName": "2020",
+              "nonCyclicalName": "19/20"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/mohamed-simakan/transfers/spieler/666234/transfer_id/2579755"
+        },
+        {
+          "id": "3180639",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 50,
+            "clubId": "11199",
+            "coachId": "67628"
+          },
+          "transferDestination": {
+            "competitionId": "C3GE",
+            "countryId": 50,
+            "clubId": "7968",
+            "coachId": "24336"
+          },
+          "details": {
+            "playerId": "666234",
+            "date": "2018-07-01T00:00:00+02:00",
+            "contractUntilDate": "2019-06-30T00:00:00+02:00",
+            "seasonId": 2018,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 18,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2018,
+              "display": "18/19",
+              "cyclicalName": "2019",
+              "nonCyclicalName": "18/19"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/mohamed-simakan/transfers/spieler/666234/transfer_id/3180639"
+        },
+        {
+          "id": "6075244",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 50,
+            "clubId": "83361",
+            "coachId": "0"
+          },
+          "transferDestination": {
+            "competitionId": "",
+            "countryId": 50,
+            "clubId": "11199",
+            "coachId": "67628"
+          },
+          "details": {
+            "playerId": "666234",
+            "date": "2017-07-01T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2017,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 17,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "Free Transfer",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2017,
+              "display": "17/18",
+              "cyclicalName": "2018",
+              "nonCyclicalName": "17/18"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/mohamed-simakan/transfers/spieler/666234/transfer_id/6075244"
+        }
+      ],
+      "pending": [],
+      "url": "",
+      "feeSum": {
+        "value": 50000000,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "50.00",
+          "suffix": "M"
+        }
+      },
+      "averageAge": 25,
+      "totalMarketValue": {
+        "value": 20000000,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "20.00",
+          "suffix": "M"
+        }
+      }
+    },
+    "clubIds": [
+      "23826",
+      "18544",
+      "667",
+      "7968",
+      "11199",
+      "83361"
+    ],
+    "coachIds": [
+      "34514",
+      "26393",
+      "24197",
+      "2063",
+      "61003",
+      "17275",
+      "24336",
+      "7232",
+      "67628"
+    ],
+    "competitionIds": [
+      "L1",
+      "SA1",
+      "FR1",
+      "C3GE"
+    ],
+    "mostRecentTransfer": {
+      "id": "5934996",
+      "transferSource": {
+        "competitionId": "L1",
+        "countryId": 40,
+        "clubId": "23826",
+        "coachId": "34514"
+      },
+      "transferDestination": {
+        "competitionId": "SA1",
+        "countryId": 146,
+        "clubId": "18544",
+        "coachId": "0"
+      },
+      "details": {
+        "playerId": "666234",
+        "date": "2025-07-01T00:00:00+02:00",
+        "contractUntilDate": "2029-06-30T00:00:00+02:00",
+        "seasonId": 2025,
+        "isPending": false,
+        "marketValue": {
+          "value": 23000000,
+          "currency": "EUR",
+          "compact": {
+            "prefix": "€",
+            "content": "23.00",
+            "suffix": "M"
+          }
+        },
+        "age": 25,
+        "fee": {
+          "value": 35000000,
+          "currency": "EUR",
+          "compact": {
+            "prefix": "€",
+            "content": "35.00",
+            "suffix": "M"
+          }
+        },
+        "remainingContractPeriod": {
+          "days": 729,
+          "daysDisplay": "1 Year, 11 Months, 29 Days"
+        },
+        "season": {
+          "id": 2025,
+          "display": "25/26",
+          "cyclicalName": "2026",
+          "nonCyclicalName": "25/26"
+        }
+      },
+      "typeDetails": {
+        "type": "STANDARD",
+        "name": "",
+        "feeDescription": ""
+      },
+      "relativeUrl": "/mohamed-simakan/transfers/spieler/666234/transfer_id/5934996"
+    }
+  }
+}

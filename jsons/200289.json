@@ -1,0 +1,297 @@
+{
+  "success": true,
+  "message": "OK",
+  "data": {
+    "playerId": "200289",
+    "history": {
+      "terminated": [
+        {
+          "id": "1801929",
+          "transferSource": {
+            "competitionId": "BRA2",
+            "countryId": 26,
+            "clubId": "2029",
+            "coachId": "37824"
+          },
+          "transferDestination": {
+            "competitionId": "",
+            "countryId": 0,
+            "clubId": "123",
+            "coachId": "0"
+          },
+          "details": {
+            "playerId": "200289",
+            "date": "2016-01-01T00:00:00+01:00",
+            "contractUntilDate": null,
+            "seasonId": 2015,
+            "isPending": false,
+            "marketValue": {
+              "value": 50000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "50.00",
+                "suffix": "K"
+              }
+            },
+            "age": 23,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2015,
+              "display": "15/16",
+              "cyclicalName": "2016",
+              "nonCyclicalName": "15/16"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/luiz-henrique/transfers/spieler/200289/transfer_id/1801929"
+        },
+        {
+          "id": "719746",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 26,
+            "clubId": "28708",
+            "coachId": "0"
+          },
+          "transferDestination": {
+            "competitionId": "BRA2",
+            "countryId": 26,
+            "clubId": "2029",
+            "coachId": "4834"
+          },
+          "details": {
+            "playerId": "200289",
+            "date": "2012-06-30T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2011,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 19,
+            "season": {
+              "id": 2011,
+              "display": "11/12",
+              "cyclicalName": "2012",
+              "nonCyclicalName": "11/12"
+            }
+          },
+          "typeDetails": {
+            "type": "RETURNED_FROM_PREVIOUS_LOAN",
+            "name": "End of loan",
+            "feeDescription": "End of loan"
+          },
+          "relativeUrl": "/luiz-henrique/transfers/spieler/200289/transfer_id/719746"
+        },
+        {
+          "id": "719745",
+          "transferSource": {
+            "competitionId": "BRA2",
+            "countryId": 26,
+            "clubId": "2029",
+            "coachId": "4834"
+          },
+          "transferDestination": {
+            "competitionId": "",
+            "countryId": 26,
+            "clubId": "28708",
+            "coachId": "0"
+          },
+          "details": {
+            "playerId": "200289",
+            "date": "2012-04-01T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2011,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 19,
+            "remainingContractPeriod": {
+              "days": 1704,
+              "daysDisplay": "4 Years, 7 Months, 29 Days"
+            },
+            "season": {
+              "id": 2011,
+              "display": "11/12",
+              "cyclicalName": "2012",
+              "nonCyclicalName": "11/12"
+            }
+          },
+          "typeDetails": {
+            "type": "ACTIVE_LOAN_TRANSFER",
+            "name": "loan transfer",
+            "feeDescription": "loan transfer"
+          },
+          "relativeUrl": "/luiz-henrique/transfers/spieler/200289/transfer_id/719745"
+        },
+        {
+          "id": "675303",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 26,
+            "clubId": "17891",
+            "coachId": "0"
+          },
+          "transferDestination": {
+            "competitionId": "BRA2",
+            "countryId": 26,
+            "clubId": "2029",
+            "coachId": "16827"
+          },
+          "details": {
+            "playerId": "200289",
+            "date": "2012-01-01T00:00:00+01:00",
+            "contractUntilDate": "2016-11-30T00:00:00+01:00",
+            "seasonId": 2011,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 19,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2011,
+              "display": "11/12",
+              "cyclicalName": "2012",
+              "nonCyclicalName": "11/12"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/luiz-henrique/transfers/spieler/200289/transfer_id/675303"
+        }
+      ],
+      "pending": [],
+      "url": "",
+      "feeSum": {
+        "value": 0,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "0.00",
+          "suffix": ""
+        }
+      },
+      "averageAge": 32,
+      "totalMarketValue": {
+        "value": 0,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "0.00",
+          "suffix": ""
+        }
+      }
+    },
+    "clubIds": [
+      "2029",
+      "123",
+      "28708",
+      "17891"
+    ],
+    "coachIds": [
+      "37824",
+      "4834",
+      "16827"
+    ],
+    "competitionIds": [
+      "BRA2"
+    ],
+    "mostRecentTransfer": {
+      "id": "1801929",
+      "transferSource": {
+        "competitionId": "BRA2",
+        "countryId": 26,
+        "clubId": "2029",
+        "coachId": "37824"
+      },
+      "transferDestination": {
+        "competitionId": "",
+        "countryId": 0,
+        "clubId": "123",
+        "coachId": "0"
+      },
+      "details": {
+        "playerId": "200289",
+        "date": "2016-01-01T00:00:00+01:00",
+        "contractUntilDate": null,
+        "seasonId": 2015,
+        "isPending": false,
+        "marketValue": {
+          "value": 50000,
+          "currency": "EUR",
+          "compact": {
+            "prefix": "€",
+            "content": "50.00",
+            "suffix": "K"
+          }
+        },
+        "age": 23,
+        "fee": {
+          "value": null,
+          "currency": "",
+          "compact": {
+            "prefix": "",
+            "content": "-",
+            "suffix": ""
+          }
+        },
+        "season": {
+          "id": 2015,
+          "display": "15/16",
+          "cyclicalName": "2016",
+          "nonCyclicalName": "15/16"
+        }
+      },
+      "typeDetails": {
+        "type": "STANDARD",
+        "name": "",
+        "feeDescription": ""
+      },
+      "relativeUrl": "/luiz-henrique/transfers/spieler/200289/transfer_id/1801929"
+    }
+  }
+}

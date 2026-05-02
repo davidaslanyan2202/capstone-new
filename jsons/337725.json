@@ -1,0 +1,980 @@
+{
+  "success": true,
+  "message": "OK",
+  "data": {
+    "playerId": "337725",
+    "history": {
+      "terminated": [
+        {
+          "id": "6172503",
+          "transferSource": {
+            "competitionId": "IT1",
+            "countryId": 75,
+            "clubId": "430",
+            "coachId": "31876"
+          },
+          "transferDestination": {
+            "competitionId": "GR1",
+            "countryId": 56,
+            "clubId": "605",
+            "coachId": "5113"
+          },
+          "details": {
+            "playerId": "337725",
+            "date": "2026-02-06T00:00:00+01:00",
+            "contractUntilDate": "2027-06-30T00:00:00+02:00",
+            "seasonId": 2025,
+            "isPending": false,
+            "marketValue": {
+              "value": 2500000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "2.50",
+                "suffix": "M"
+              }
+            },
+            "age": 28,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "?",
+                "suffix": ""
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 509,
+              "daysDisplay": "1 Year, 4 Months, 24 Days"
+            },
+            "season": {
+              "id": 2025,
+              "display": "25/26",
+              "cyclicalName": "2026",
+              "nonCyclicalName": "25/26"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/christian-kouame/transfers/spieler/337725/transfer_id/6172503"
+        },
+        {
+          "id": "5498307",
+          "transferSource": {
+            "competitionId": "IT1",
+            "countryId": 75,
+            "clubId": "749",
+            "coachId": "35535"
+          },
+          "transferDestination": {
+            "competitionId": "IT1",
+            "countryId": 75,
+            "clubId": "430",
+            "coachId": "95674"
+          },
+          "details": {
+            "playerId": "337725",
+            "date": "2025-06-30T00:00:00+02:00",
+            "contractUntilDate": "2027-06-30T00:00:00+02:00",
+            "seasonId": 2024,
+            "isPending": false,
+            "marketValue": {
+              "value": 4000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "4.00",
+                "suffix": "M"
+              }
+            },
+            "age": 27,
+            "remainingContractPeriod": {
+              "days": 0,
+              "daysDisplay": "Unknown"
+            },
+            "season": {
+              "id": 2024,
+              "display": "24/25",
+              "cyclicalName": "2025",
+              "nonCyclicalName": "24/25"
+            }
+          },
+          "typeDetails": {
+            "type": "RETURNED_FROM_PREVIOUS_LOAN",
+            "name": "End of loan",
+            "feeDescription": "End of loan"
+          },
+          "relativeUrl": "/christian-kouame/transfers/spieler/337725/transfer_id/5498307"
+        },
+        {
+          "id": "5498306",
+          "transferSource": {
+            "competitionId": "IT1",
+            "countryId": 75,
+            "clubId": "430",
+            "coachId": "95674"
+          },
+          "transferDestination": {
+            "competitionId": "IT1",
+            "countryId": 75,
+            "clubId": "749",
+            "coachId": "35782"
+          },
+          "details": {
+            "playerId": "337725",
+            "date": "2025-02-03T00:00:00+01:00",
+            "contractUntilDate": "2025-06-30T00:00:00+02:00",
+            "seasonId": 2024,
+            "isPending": false,
+            "marketValue": {
+              "value": 7500000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "7.50",
+                "suffix": "M"
+              }
+            },
+            "age": 27,
+            "remainingContractPeriod": {
+              "days": 877,
+              "daysDisplay": "2 Years, 4 Months, 27 Days"
+            },
+            "season": {
+              "id": 2024,
+              "display": "24/25",
+              "cyclicalName": "2025",
+              "nonCyclicalName": "24/25"
+            }
+          },
+          "typeDetails": {
+            "type": "ACTIVE_LOAN_TRANSFER",
+            "name": "loan transfer",
+            "feeDescription": "loan transfer"
+          },
+          "relativeUrl": "/christian-kouame/transfers/spieler/337725/transfer_id/5498306"
+        },
+        {
+          "id": "3511591",
+          "transferSource": {
+            "competitionId": "BE1",
+            "countryId": 19,
+            "clubId": "58",
+            "coachId": "69681"
+          },
+          "transferDestination": {
+            "competitionId": "IT1",
+            "countryId": 75,
+            "clubId": "430",
+            "coachId": "47288"
+          },
+          "details": {
+            "playerId": "337725",
+            "date": "2022-06-30T00:00:00+02:00",
+            "contractUntilDate": "2027-06-30T00:00:00+02:00",
+            "seasonId": 2021,
+            "isPending": false,
+            "marketValue": {
+              "value": 9000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "9.00",
+                "suffix": "M"
+              }
+            },
+            "age": 24,
+            "remainingContractPeriod": {
+              "days": 0,
+              "daysDisplay": "Unknown"
+            },
+            "season": {
+              "id": 2021,
+              "display": "21/22",
+              "cyclicalName": "2022",
+              "nonCyclicalName": "21/22"
+            }
+          },
+          "typeDetails": {
+            "type": "RETURNED_FROM_PREVIOUS_LOAN",
+            "name": "End of loan",
+            "feeDescription": "End of loan"
+          },
+          "relativeUrl": "/christian-kouame/transfers/spieler/337725/transfer_id/3511591"
+        },
+        {
+          "id": "3511590",
+          "transferSource": {
+            "competitionId": "IT1",
+            "countryId": 75,
+            "clubId": "430",
+            "coachId": "47288"
+          },
+          "transferDestination": {
+            "competitionId": "BE1",
+            "countryId": 19,
+            "clubId": "58",
+            "coachId": "69681"
+          },
+          "details": {
+            "playerId": "337725",
+            "date": "2021-08-21T00:00:00+02:00",
+            "contractUntilDate": "2022-06-30T00:00:00+02:00",
+            "seasonId": 2021,
+            "isPending": false,
+            "marketValue": {
+              "value": 8500000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "8.50",
+                "suffix": "M"
+              }
+            },
+            "age": 23,
+            "fee": {
+              "value": 1000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "1.00",
+                "suffix": "M"
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 1044,
+              "daysDisplay": "2 Years, 10 Months, 9 Days"
+            },
+            "season": {
+              "id": 2021,
+              "display": "21/22",
+              "cyclicalName": "2022",
+              "nonCyclicalName": "21/22"
+            }
+          },
+          "typeDetails": {
+            "type": "ACTIVE_LOAN_TRANSFER",
+            "name": "loan transfer",
+            "feeDescription": "Loan fee"
+          },
+          "relativeUrl": "/christian-kouame/transfers/spieler/337725/transfer_id/3511590"
+        },
+        {
+          "id": "3028203",
+          "transferSource": {
+            "competitionId": "IT1",
+            "countryId": 75,
+            "clubId": "252",
+            "coachId": "3018"
+          },
+          "transferDestination": {
+            "competitionId": "IT1",
+            "countryId": 75,
+            "clubId": "430",
+            "coachId": "2132"
+          },
+          "details": {
+            "playerId": "337725",
+            "date": "2020-09-01T00:00:00+02:00",
+            "contractUntilDate": "2024-06-30T00:00:00+02:00",
+            "seasonId": 2020,
+            "isPending": false,
+            "marketValue": {
+              "value": 17500000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "17.00",
+                "suffix": "M"
+              }
+            },
+            "age": 22,
+            "fee": {
+              "value": 15500000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "15.50",
+                "suffix": "M"
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 1032,
+              "daysDisplay": "2 Years, 9 Months, 29 Days"
+            },
+            "season": {
+              "id": 2020,
+              "display": "20/21",
+              "cyclicalName": "2021",
+              "nonCyclicalName": "20/21"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/christian-kouame/transfers/spieler/337725/transfer_id/3028203"
+        },
+        {
+          "id": "2780520",
+          "transferSource": {
+            "competitionId": "IT1",
+            "countryId": 75,
+            "clubId": "430",
+            "coachId": "2132"
+          },
+          "transferDestination": {
+            "competitionId": "IT1",
+            "countryId": 75,
+            "clubId": "252",
+            "coachId": "3018"
+          },
+          "details": {
+            "playerId": "337725",
+            "date": "2020-08-31T00:00:00+02:00",
+            "contractUntilDate": "2023-06-30T00:00:00+02:00",
+            "seasonId": 2019,
+            "isPending": false,
+            "marketValue": {
+              "value": 17500000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "17.00",
+                "suffix": "M"
+              }
+            },
+            "age": 22,
+            "season": {
+              "id": 2019,
+              "display": "19/20",
+              "cyclicalName": "2020",
+              "nonCyclicalName": "19/20"
+            }
+          },
+          "typeDetails": {
+            "type": "RETURNED_FROM_PREVIOUS_LOAN",
+            "name": "End of loan",
+            "feeDescription": "End of loan"
+          },
+          "relativeUrl": "/christian-kouame/transfers/spieler/337725/transfer_id/2780520"
+        },
+        {
+          "id": "2780518",
+          "transferSource": {
+            "competitionId": "IT1",
+            "countryId": 75,
+            "clubId": "252",
+            "coachId": "14892"
+          },
+          "transferDestination": {
+            "competitionId": "IT1",
+            "countryId": 75,
+            "clubId": "430",
+            "coachId": "2132"
+          },
+          "details": {
+            "playerId": "337725",
+            "date": "2020-01-31T00:00:00+01:00",
+            "contractUntilDate": "2020-06-30T00:00:00+02:00",
+            "seasonId": 2019,
+            "isPending": false,
+            "marketValue": {
+              "value": 22000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "22.00",
+                "suffix": "M"
+              }
+            },
+            "age": 22,
+            "fee": {
+              "value": 1000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "1.00",
+                "suffix": "M"
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 1246,
+              "daysDisplay": "3 Years, 4 Months, 30 Days"
+            },
+            "season": {
+              "id": 2019,
+              "display": "19/20",
+              "cyclicalName": "2020",
+              "nonCyclicalName": "19/20"
+            }
+          },
+          "typeDetails": {
+            "type": "ACTIVE_LOAN_TRANSFER",
+            "name": "loan transfer",
+            "feeDescription": "Loan fee"
+          },
+          "relativeUrl": "/christian-kouame/transfers/spieler/337725/transfer_id/2780518"
+        },
+        {
+          "id": "2174767",
+          "transferSource": {
+            "competitionId": "IT2",
+            "countryId": 75,
+            "clubId": "4084",
+            "coachId": "12121"
+          },
+          "transferDestination": {
+            "competitionId": "IT1",
+            "countryId": 75,
+            "clubId": "252",
+            "coachId": "3793"
+          },
+          "details": {
+            "playerId": "337725",
+            "date": "2018-07-13T00:00:00+02:00",
+            "contractUntilDate": "2023-06-30T00:00:00+02:00",
+            "seasonId": 2018,
+            "isPending": false,
+            "marketValue": {
+              "value": 2800000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "2.80",
+                "suffix": "M"
+              }
+            },
+            "age": 20,
+            "fee": {
+              "value": 6350000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "6.35",
+                "suffix": "M"
+              }
+            },
+            "season": {
+              "id": 2018,
+              "display": "18/19",
+              "cyclicalName": "2019",
+              "nonCyclicalName": "18/19"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/christian-kouame/transfers/spieler/337725/transfer_id/2174767"
+        },
+        {
+          "id": "1784114",
+          "transferSource": {
+            "competitionId": "IT3A",
+            "countryId": 75,
+            "clubId": "2250",
+            "coachId": "0"
+          },
+          "transferDestination": {
+            "competitionId": "IT2",
+            "countryId": 75,
+            "clubId": "4084",
+            "coachId": "12121"
+          },
+          "details": {
+            "playerId": "337725",
+            "date": "2017-07-01T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2017,
+            "isPending": false,
+            "marketValue": {
+              "value": 400000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "400.00",
+                "suffix": "K"
+              }
+            },
+            "age": 19,
+            "fee": {
+              "value": 130000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "130.00",
+                "suffix": "K"
+              }
+            },
+            "season": {
+              "id": 2017,
+              "display": "17/18",
+              "cyclicalName": "2018",
+              "nonCyclicalName": "17/18"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/christian-kouame/transfers/spieler/337725/transfer_id/1784114"
+        },
+        {
+          "id": "1551859",
+          "transferSource": {
+            "competitionId": "IT2",
+            "countryId": 75,
+            "clubId": "4084",
+            "coachId": "12121"
+          },
+          "transferDestination": {
+            "competitionId": "IT3A",
+            "countryId": 75,
+            "clubId": "2250",
+            "coachId": "5502"
+          },
+          "details": {
+            "playerId": "337725",
+            "date": "2017-06-30T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2016,
+            "isPending": false,
+            "marketValue": {
+              "value": 400000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "400.00",
+                "suffix": "K"
+              }
+            },
+            "age": 19,
+            "remainingContractPeriod": {
+              "days": 0,
+              "daysDisplay": "Unknown"
+            },
+            "season": {
+              "id": 2016,
+              "display": "16/17",
+              "cyclicalName": "2017",
+              "nonCyclicalName": "16/17"
+            }
+          },
+          "typeDetails": {
+            "type": "RETURNED_FROM_PREVIOUS_LOAN",
+            "name": "End of loan",
+            "feeDescription": "End of loan"
+          },
+          "relativeUrl": "/christian-kouame/transfers/spieler/337725/transfer_id/1551859"
+        },
+        {
+          "id": "1550955",
+          "transferSource": {
+            "competitionId": "IT3A",
+            "countryId": 75,
+            "clubId": "2250",
+            "coachId": "5415"
+          },
+          "transferDestination": {
+            "competitionId": "IT2",
+            "countryId": 75,
+            "clubId": "4084",
+            "coachId": "12121"
+          },
+          "details": {
+            "playerId": "337725",
+            "date": "2016-07-27T00:00:00+02:00",
+            "contractUntilDate": "2017-06-30T00:00:00+02:00",
+            "seasonId": 2016,
+            "isPending": false,
+            "marketValue": {
+              "value": 150000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "150.00",
+                "suffix": "K"
+              }
+            },
+            "age": 18,
+            "season": {
+              "id": 2016,
+              "display": "16/17",
+              "cyclicalName": "2017",
+              "nonCyclicalName": "16/17"
+            }
+          },
+          "typeDetails": {
+            "type": "ACTIVE_LOAN_TRANSFER",
+            "name": "loan transfer",
+            "feeDescription": "loan transfer"
+          },
+          "relativeUrl": "/christian-kouame/transfers/spieler/337725/transfer_id/1550955"
+        },
+        {
+          "id": "1425362",
+          "transferSource": {
+            "competitionId": "ITJ2",
+            "countryId": 75,
+            "clubId": "5380",
+            "coachId": "19628"
+          },
+          "transferDestination": {
+            "competitionId": "IT3A",
+            "countryId": 75,
+            "clubId": "2250",
+            "coachId": "49315"
+          },
+          "details": {
+            "playerId": "337725",
+            "date": "2016-06-30T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2015,
+            "isPending": false,
+            "marketValue": {
+              "value": 150000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "150.00",
+                "suffix": "K"
+              }
+            },
+            "age": 18,
+            "season": {
+              "id": 2015,
+              "display": "15/16",
+              "cyclicalName": "2016",
+              "nonCyclicalName": "15/16"
+            }
+          },
+          "typeDetails": {
+            "type": "RETURNED_FROM_PREVIOUS_LOAN",
+            "name": "End of loan",
+            "feeDescription": "End of loan"
+          },
+          "relativeUrl": "/christian-kouame/transfers/spieler/337725/transfer_id/1425362"
+        },
+        {
+          "id": "1425361",
+          "transferSource": {
+            "competitionId": "IT3B",
+            "countryId": 75,
+            "clubId": "2250",
+            "coachId": "16086"
+          },
+          "transferDestination": {
+            "competitionId": "ITJ2",
+            "countryId": 75,
+            "clubId": "5380",
+            "coachId": "19628"
+          },
+          "details": {
+            "playerId": "337725",
+            "date": "2016-02-01T00:00:00+01:00",
+            "contractUntilDate": null,
+            "seasonId": 2015,
+            "isPending": false,
+            "marketValue": {
+              "value": 150000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "150.00",
+                "suffix": "K"
+              }
+            },
+            "age": 18,
+            "season": {
+              "id": 2015,
+              "display": "15/16",
+              "cyclicalName": "2016",
+              "nonCyclicalName": "15/16"
+            }
+          },
+          "typeDetails": {
+            "type": "ACTIVE_LOAN_TRANSFER",
+            "name": "loan transfer",
+            "feeDescription": "loan transfer"
+          },
+          "relativeUrl": "/christian-kouame/transfers/spieler/337725/transfer_id/1425361"
+        },
+        {
+          "id": "1291824",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 75,
+            "clubId": "26780",
+            "coachId": "59444"
+          },
+          "transferDestination": {
+            "competitionId": "IT3B",
+            "countryId": 75,
+            "clubId": "2250",
+            "coachId": "81153"
+          },
+          "details": {
+            "playerId": "337725",
+            "date": "2015-07-01T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2015,
+            "isPending": false,
+            "marketValue": {
+              "value": 75000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "75.00",
+                "suffix": "K"
+              }
+            },
+            "age": 17,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2015,
+              "display": "15/16",
+              "cyclicalName": "2016",
+              "nonCyclicalName": "15/16"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/christian-kouame/transfers/spieler/337725/transfer_id/1291824"
+        },
+        {
+          "id": "1131886",
+          "transferSource": {
+            "competitionId": "ITJ2",
+            "countryId": 75,
+            "clubId": "19114",
+            "coachId": "16443"
+          },
+          "transferDestination": {
+            "competitionId": "",
+            "countryId": 75,
+            "clubId": "26780",
+            "coachId": "88782"
+          },
+          "details": {
+            "playerId": "337725",
+            "date": "2015-06-30T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2014,
+            "isPending": false,
+            "marketValue": {
+              "value": 75000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "75.00",
+                "suffix": "K"
+              }
+            },
+            "age": 17,
+            "remainingContractPeriod": {
+              "days": 0,
+              "daysDisplay": "Unknown"
+            },
+            "season": {
+              "id": 2014,
+              "display": "14/15",
+              "cyclicalName": "2015",
+              "nonCyclicalName": "14/15"
+            }
+          },
+          "typeDetails": {
+            "type": "RETURNED_FROM_PREVIOUS_LOAN",
+            "name": "End of loan",
+            "feeDescription": "End of loan"
+          },
+          "relativeUrl": "/christian-kouame/transfers/spieler/337725/transfer_id/1131886"
+        },
+        {
+          "id": "1131887",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 75,
+            "clubId": "26780",
+            "coachId": "88782"
+          },
+          "transferDestination": {
+            "competitionId": "ITJ2",
+            "countryId": 75,
+            "clubId": "19114",
+            "coachId": "16443"
+          },
+          "details": {
+            "playerId": "337725",
+            "date": "2014-07-21T00:00:00+02:00",
+            "contractUntilDate": "2015-06-30T00:00:00+02:00",
+            "seasonId": 2014,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 16,
+            "season": {
+              "id": 2014,
+              "display": "14/15",
+              "cyclicalName": "2015",
+              "nonCyclicalName": "14/15"
+            }
+          },
+          "typeDetails": {
+            "type": "ACTIVE_LOAN_TRANSFER",
+            "name": "loan transfer",
+            "feeDescription": "loan transfer"
+          },
+          "relativeUrl": "/christian-kouame/transfers/spieler/337725/transfer_id/1131887"
+        }
+      ],
+      "pending": [],
+      "url": "",
+      "feeSum": {
+        "value": 23980000,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "23.98",
+          "suffix": "M"
+        }
+      },
+      "averageAge": 28,
+      "totalMarketValue": {
+        "value": 2000000,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "2.00",
+          "suffix": "M"
+        }
+      }
+    },
+    "clubIds": [
+      "430",
+      "605",
+      "749",
+      "58",
+      "252",
+      "4084",
+      "2250",
+      "5380",
+      "26780",
+      "19114"
+    ],
+    "coachIds": [
+      "31876",
+      "5113",
+      "35535",
+      "95674",
+      "35782",
+      "69681",
+      "47288",
+      "3018",
+      "2132",
+      "14892",
+      "12121",
+      "3793",
+      "5502",
+      "5415",
+      "19628",
+      "49315",
+      "16086",
+      "59444",
+      "81153",
+      "16443",
+      "88782"
+    ],
+    "competitionIds": [
+      "IT1",
+      "GR1",
+      "BE1",
+      "IT2",
+      "IT3A",
+      "ITJ2",
+      "IT3B"
+    ],
+    "mostRecentTransfer": {
+      "id": "6172503",
+      "transferSource": {
+        "competitionId": "IT1",
+        "countryId": 75,
+        "clubId": "430",
+        "coachId": "31876"
+      },
+      "transferDestination": {
+        "competitionId": "GR1",
+        "countryId": 56,
+        "clubId": "605",
+        "coachId": "5113"
+      },
+      "details": {
+        "playerId": "337725",
+        "date": "2026-02-06T00:00:00+01:00",
+        "contractUntilDate": "2027-06-30T00:00:00+02:00",
+        "seasonId": 2025,
+        "isPending": false,
+        "marketValue": {
+          "value": 2500000,
+          "currency": "EUR",
+          "compact": {
+            "prefix": "€",
+            "content": "2.50",
+            "suffix": "M"
+          }
+        },
+        "age": 28,
+        "fee": {
+          "value": null,
+          "currency": "",
+          "compact": {
+            "prefix": "",
+            "content": "?",
+            "suffix": ""
+          }
+        },
+        "remainingContractPeriod": {
+          "days": 509,
+          "daysDisplay": "1 Year, 4 Months, 24 Days"
+        },
+        "season": {
+          "id": 2025,
+          "display": "25/26",
+          "cyclicalName": "2026",
+          "nonCyclicalName": "25/26"
+        }
+      },
+      "typeDetails": {
+        "type": "STANDARD",
+        "name": "",
+        "feeDescription": ""
+      },
+      "relativeUrl": "/christian-kouame/transfers/spieler/337725/transfer_id/6172503"
+    }
+  }
+}

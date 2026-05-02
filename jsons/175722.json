@@ -1,0 +1,643 @@
+{
+  "success": true,
+  "message": "OK",
+  "data": {
+    "playerId": "175722",
+    "history": {
+      "terminated": [
+        {
+          "id": "5638929",
+          "transferSource": {
+            "competitionId": "L1",
+            "countryId": 40,
+            "clubId": "27",
+            "coachId": "69681"
+          },
+          "transferDestination": {
+            "competitionId": "FR1",
+            "countryId": 50,
+            "clubId": "162",
+            "coachId": "5018"
+          },
+          "details": {
+            "playerId": "175722",
+            "date": "2025-07-01T00:00:00+02:00",
+            "contractUntilDate": "2028-06-30T00:00:00+02:00",
+            "seasonId": 2025,
+            "isPending": false,
+            "marketValue": {
+              "value": 8000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "8.00",
+                "suffix": "M"
+              }
+            },
+            "age": 31,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "Free Transfer",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2025,
+              "display": "25/26",
+              "cyclicalName": "2026",
+              "nonCyclicalName": "25/26"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/eric-dier/transfers/spieler/175722/transfer_id/5638929"
+        },
+        {
+          "id": "4918710",
+          "transferSource": {
+            "competitionId": "GB1",
+            "countryId": 189,
+            "clubId": "148",
+            "coachId": "11929"
+          },
+          "transferDestination": {
+            "competitionId": "L1",
+            "countryId": 40,
+            "clubId": "27",
+            "coachId": "69681"
+          },
+          "details": {
+            "playerId": "175722",
+            "date": "2024-07-01T00:00:00+02:00",
+            "contractUntilDate": "2025-06-30T00:00:00+02:00",
+            "seasonId": 2024,
+            "isPending": false,
+            "marketValue": {
+              "value": 12000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "12.00",
+                "suffix": "M"
+              }
+            },
+            "age": 30,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "Free Transfer",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2024,
+              "display": "24/25",
+              "cyclicalName": "2025",
+              "nonCyclicalName": "24/25"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/eric-dier/transfers/spieler/175722/transfer_id/4918710"
+        },
+        {
+          "id": "4816308",
+          "transferSource": {
+            "competitionId": "L1",
+            "countryId": 40,
+            "clubId": "27",
+            "coachId": "7471"
+          },
+          "transferDestination": {
+            "competitionId": "GB1",
+            "countryId": 189,
+            "clubId": "148",
+            "coachId": "11929"
+          },
+          "details": {
+            "playerId": "175722",
+            "date": "2024-06-30T00:00:00+02:00",
+            "contractUntilDate": "2024-06-30T00:00:00+02:00",
+            "seasonId": 2023,
+            "isPending": false,
+            "marketValue": {
+              "value": 12000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "12.00",
+                "suffix": "M"
+              }
+            },
+            "age": 30,
+            "remainingContractPeriod": {
+              "days": 0,
+              "daysDisplay": "Unknown"
+            },
+            "season": {
+              "id": 2023,
+              "display": "23/24",
+              "cyclicalName": "2024",
+              "nonCyclicalName": "23/24"
+            }
+          },
+          "typeDetails": {
+            "type": "RETURNED_FROM_PREVIOUS_LOAN",
+            "name": "End of loan",
+            "feeDescription": "End of loan"
+          },
+          "relativeUrl": "/eric-dier/transfers/spieler/175722/transfer_id/4816308"
+        },
+        {
+          "id": "4816307",
+          "transferSource": {
+            "competitionId": "GB1",
+            "countryId": 189,
+            "clubId": "148",
+            "coachId": "11929"
+          },
+          "transferDestination": {
+            "competitionId": "L1",
+            "countryId": 40,
+            "clubId": "27",
+            "coachId": "7471"
+          },
+          "details": {
+            "playerId": "175722",
+            "date": "2024-01-11T00:00:00+01:00",
+            "contractUntilDate": "2024-06-30T00:00:00+02:00",
+            "seasonId": 2023,
+            "isPending": false,
+            "marketValue": {
+              "value": 12000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "12.00",
+                "suffix": "M"
+              }
+            },
+            "age": 29,
+            "fee": {
+              "value": 3500000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "3.50",
+                "suffix": "M"
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 171,
+              "daysDisplay": "5 Months, 19 Days"
+            },
+            "season": {
+              "id": 2023,
+              "display": "23/24",
+              "cyclicalName": "2024",
+              "nonCyclicalName": "23/24"
+            }
+          },
+          "typeDetails": {
+            "type": "ACTIVE_LOAN_TRANSFER",
+            "name": "loan transfer",
+            "feeDescription": "Loan fee"
+          },
+          "relativeUrl": "/eric-dier/transfers/spieler/175722/transfer_id/4816307"
+        },
+        {
+          "id": "1100656",
+          "transferSource": {
+            "competitionId": "PO1",
+            "countryId": 136,
+            "clubId": "336",
+            "coachId": "19631"
+          },
+          "transferDestination": {
+            "competitionId": "GB1",
+            "countryId": 189,
+            "clubId": "148",
+            "coachId": "9044"
+          },
+          "details": {
+            "playerId": "175722",
+            "date": "2014-07-31T00:00:00+02:00",
+            "contractUntilDate": "2024-06-30T00:00:00+02:00",
+            "seasonId": 2014,
+            "isPending": false,
+            "marketValue": {
+              "value": 3500000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "3.50",
+                "suffix": "M"
+              }
+            },
+            "age": 20,
+            "fee": {
+              "value": 5000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "5.00",
+                "suffix": "M"
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 334,
+              "daysDisplay": "10 Months, 30 Days"
+            },
+            "season": {
+              "id": 2014,
+              "display": "14/15",
+              "cyclicalName": "2015",
+              "nonCyclicalName": "14/15"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/eric-dier/transfers/spieler/175722/transfer_id/1100656"
+        },
+        {
+          "id": "817059",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 136,
+            "clubId": "10283",
+            "coachId": "23009"
+          },
+          "transferDestination": {
+            "competitionId": "PO1",
+            "countryId": 136,
+            "clubId": "336",
+            "coachId": "12110"
+          },
+          "details": {
+            "playerId": "175722",
+            "date": "2012-07-01T00:00:00+02:00",
+            "contractUntilDate": "2015-06-30T00:00:00+02:00",
+            "seasonId": 2012,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 18,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 364,
+              "daysDisplay": "11 Months, 29 Days"
+            },
+            "season": {
+              "id": 2012,
+              "display": "12/13",
+              "cyclicalName": "2013",
+              "nonCyclicalName": "12/13"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/eric-dier/transfers/spieler/175722/transfer_id/817059"
+        },
+        {
+          "id": "529421",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 189,
+            "clubId": "6920",
+            "coachId": "1686"
+          },
+          "transferDestination": {
+            "competitionId": "",
+            "countryId": 136,
+            "clubId": "10283",
+            "coachId": "23009"
+          },
+          "details": {
+            "playerId": "175722",
+            "date": "2012-06-30T00:00:00+02:00",
+            "contractUntilDate": "2013-06-30T00:00:00+02:00",
+            "seasonId": 2011,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 18,
+            "remainingContractPeriod": {
+              "days": 0,
+              "daysDisplay": "Unknown"
+            },
+            "season": {
+              "id": 2011,
+              "display": "11/12",
+              "cyclicalName": "2012",
+              "nonCyclicalName": "11/12"
+            }
+          },
+          "typeDetails": {
+            "type": "RETURNED_FROM_PREVIOUS_LOAN",
+            "name": "End of loan",
+            "feeDescription": "End of loan"
+          },
+          "relativeUrl": "/eric-dier/transfers/spieler/175722/transfer_id/529421"
+        },
+        {
+          "id": "527685",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 136,
+            "clubId": "10283",
+            "coachId": "1863"
+          },
+          "transferDestination": {
+            "competitionId": "",
+            "countryId": 189,
+            "clubId": "6920",
+            "coachId": "53143"
+          },
+          "details": {
+            "playerId": "175722",
+            "date": "2011-01-20T00:00:00+01:00",
+            "contractUntilDate": "2012-06-30T00:00:00+02:00",
+            "seasonId": 2010,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 17,
+            "remainingContractPeriod": {
+              "days": 892,
+              "daysDisplay": "2 Years, 5 Months, 10 Days"
+            },
+            "season": {
+              "id": 2010,
+              "display": "10/11",
+              "cyclicalName": "2011",
+              "nonCyclicalName": "10/11"
+            }
+          },
+          "typeDetails": {
+            "type": "ACTIVE_LOAN_TRANSFER",
+            "name": "loan transfer",
+            "feeDescription": "loan transfer"
+          },
+          "relativeUrl": "/eric-dier/transfers/spieler/175722/transfer_id/527685"
+        },
+        {
+          "id": "1709032",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 136,
+            "clubId": "48365",
+            "coachId": "75246"
+          },
+          "transferDestination": {
+            "competitionId": "",
+            "countryId": 136,
+            "clubId": "10283",
+            "coachId": "1863"
+          },
+          "details": {
+            "playerId": "175722",
+            "date": "2010-07-01T00:00:00+02:00",
+            "contractUntilDate": "2013-06-30T00:00:00+02:00",
+            "seasonId": 2010,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 16,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2010,
+              "display": "10/11",
+              "cyclicalName": "2011",
+              "nonCyclicalName": "10/11"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/eric-dier/transfers/spieler/175722/transfer_id/1709032"
+        },
+        {
+          "id": "1709033",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 136,
+            "clubId": "53956",
+            "coachId": "59258"
+          },
+          "transferDestination": {
+            "competitionId": "",
+            "countryId": 136,
+            "clubId": "48365",
+            "coachId": "75246"
+          },
+          "details": {
+            "playerId": "175722",
+            "date": "2009-07-01T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2009,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 15,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2009,
+              "display": "09/10",
+              "cyclicalName": "2010",
+              "nonCyclicalName": "09/10"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/eric-dier/transfers/spieler/175722/transfer_id/1709033"
+        }
+      ],
+      "pending": [],
+      "url": "",
+      "feeSum": {
+        "value": 8500000,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "8.50",
+          "suffix": "M"
+        }
+      },
+      "averageAge": 32,
+      "totalMarketValue": {
+        "value": 5000000,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "5.00",
+          "suffix": "M"
+        }
+      }
+    },
+    "clubIds": [
+      "27",
+      "162",
+      "148",
+      "336",
+      "10283",
+      "6920",
+      "48365",
+      "53956"
+    ],
+    "coachIds": [
+      "69681",
+      "5018",
+      "11929",
+      "7471",
+      "19631",
+      "9044",
+      "23009",
+      "12110",
+      "1686",
+      "1863",
+      "53143",
+      "75246",
+      "59258"
+    ],
+    "competitionIds": [
+      "L1",
+      "FR1",
+      "GB1",
+      "PO1"
+    ],
+    "mostRecentTransfer": {
+      "id": "5638929",
+      "transferSource": {
+        "competitionId": "L1",
+        "countryId": 40,
+        "clubId": "27",
+        "coachId": "69681"
+      },
+      "transferDestination": {
+        "competitionId": "FR1",
+        "countryId": 50,
+        "clubId": "162",
+        "coachId": "5018"
+      },
+      "details": {
+        "playerId": "175722",
+        "date": "2025-07-01T00:00:00+02:00",
+        "contractUntilDate": "2028-06-30T00:00:00+02:00",
+        "seasonId": 2025,
+        "isPending": false,
+        "marketValue": {
+          "value": 8000000,
+          "currency": "EUR",
+          "compact": {
+            "prefix": "€",
+            "content": "8.00",
+            "suffix": "M"
+          }
+        },
+        "age": 31,
+        "fee": {
+          "value": null,
+          "currency": "",
+          "compact": {
+            "prefix": "",
+            "content": "Free Transfer",
+            "suffix": ""
+          }
+        },
+        "season": {
+          "id": 2025,
+          "display": "25/26",
+          "cyclicalName": "2026",
+          "nonCyclicalName": "25/26"
+        }
+      },
+      "typeDetails": {
+        "type": "STANDARD",
+        "name": "",
+        "feeDescription": ""
+      },
+      "relativeUrl": "/eric-dier/transfers/spieler/175722/transfer_id/5638929"
+    }
+  }
+}

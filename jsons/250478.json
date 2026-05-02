@@ -1,0 +1,616 @@
+{
+  "success": true,
+  "message": "OK",
+  "data": {
+    "playerId": "250478",
+    "history": {
+      "terminated": [
+        {
+          "id": "5897391",
+          "transferSource": {
+            "competitionId": "GB1",
+            "countryId": 189,
+            "clubId": "762",
+            "coachId": "10976"
+          },
+          "transferDestination": {
+            "competitionId": "GB2",
+            "countryId": 189,
+            "clubId": "641",
+            "coachId": "49800"
+          },
+          "details": {
+            "playerId": "250478",
+            "date": "2025-08-27T00:00:00+02:00",
+            "contractUntilDate": "2026-05-31T00:00:00+02:00",
+            "seasonId": 2025,
+            "isPending": false,
+            "marketValue": {
+              "value": 5000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "5.00",
+                "suffix": "M"
+              }
+            },
+            "age": 29,
+            "remainingContractPeriod": {
+              "days": 307,
+              "daysDisplay": "10 Months, 3 Days"
+            },
+            "season": {
+              "id": 2025,
+              "display": "25/26",
+              "cyclicalName": "2026",
+              "nonCyclicalName": "25/26"
+            }
+          },
+          "typeDetails": {
+            "type": "ACTIVE_LOAN_TRANSFER",
+            "name": "loan transfer",
+            "feeDescription": "loan transfer"
+          },
+          "relativeUrl": "/matt-targett/transfers/spieler/250478/transfer_id/5897391"
+        },
+        {
+          "id": "3877138",
+          "transferSource": {
+            "competitionId": "GB1",
+            "countryId": 189,
+            "clubId": "405",
+            "coachId": "51276"
+          },
+          "transferDestination": {
+            "competitionId": "GB1",
+            "countryId": 189,
+            "clubId": "762",
+            "coachId": "10976"
+          },
+          "details": {
+            "playerId": "250478",
+            "date": "2022-07-01T00:00:00+02:00",
+            "contractUntilDate": "2026-06-30T00:00:00+02:00",
+            "seasonId": 2022,
+            "isPending": false,
+            "marketValue": {
+              "value": 17000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "17.00",
+                "suffix": "M"
+              }
+            },
+            "age": 26,
+            "fee": {
+              "value": 17500000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "17.50",
+                "suffix": "M"
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 1095,
+              "daysDisplay": "2 Years, 11 Months, 29 Days"
+            },
+            "season": {
+              "id": 2022,
+              "display": "22/23",
+              "cyclicalName": "2023",
+              "nonCyclicalName": "22/23"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/matt-targett/transfers/spieler/250478/transfer_id/3877138"
+        },
+        {
+          "id": "3722704",
+          "transferSource": {
+            "competitionId": "GB1",
+            "countryId": 189,
+            "clubId": "762",
+            "coachId": "10976"
+          },
+          "transferDestination": {
+            "competitionId": "GB1",
+            "countryId": 189,
+            "clubId": "405",
+            "coachId": "51276"
+          },
+          "details": {
+            "playerId": "250478",
+            "date": "2022-05-31T00:00:00+02:00",
+            "contractUntilDate": "2025-06-30T00:00:00+02:00",
+            "seasonId": 2021,
+            "isPending": false,
+            "marketValue": {
+              "value": 17000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "17.00",
+                "suffix": "M"
+              }
+            },
+            "age": 26,
+            "remainingContractPeriod": {
+              "days": 0,
+              "daysDisplay": "Unknown"
+            },
+            "season": {
+              "id": 2021,
+              "display": "21/22",
+              "cyclicalName": "2022",
+              "nonCyclicalName": "21/22"
+            }
+          },
+          "typeDetails": {
+            "type": "RETURNED_FROM_PREVIOUS_LOAN",
+            "name": "End of loan",
+            "feeDescription": "End of loan"
+          },
+          "relativeUrl": "/matt-targett/transfers/spieler/250478/transfer_id/3722704"
+        },
+        {
+          "id": "3722703",
+          "transferSource": {
+            "competitionId": "GB1",
+            "countryId": 189,
+            "clubId": "405",
+            "coachId": "51276"
+          },
+          "transferDestination": {
+            "competitionId": "GB1",
+            "countryId": 189,
+            "clubId": "762",
+            "coachId": "10976"
+          },
+          "details": {
+            "playerId": "250478",
+            "date": "2022-01-31T00:00:00+01:00",
+            "contractUntilDate": "2022-05-31T00:00:00+02:00",
+            "seasonId": 2021,
+            "isPending": false,
+            "marketValue": {
+              "value": 17000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "17.00",
+                "suffix": "M"
+              }
+            },
+            "age": 26,
+            "remainingContractPeriod": {
+              "days": 1246,
+              "daysDisplay": "3 Years, 4 Months, 30 Days"
+            },
+            "season": {
+              "id": 2021,
+              "display": "21/22",
+              "cyclicalName": "2022",
+              "nonCyclicalName": "21/22"
+            }
+          },
+          "typeDetails": {
+            "type": "ACTIVE_LOAN_TRANSFER",
+            "name": "loan transfer",
+            "feeDescription": "loan transfer"
+          },
+          "relativeUrl": "/matt-targett/transfers/spieler/250478/transfer_id/3722703"
+        },
+        {
+          "id": "2531505",
+          "transferSource": {
+            "competitionId": "GB1",
+            "countryId": 189,
+            "clubId": "180",
+            "coachId": "2300"
+          },
+          "transferDestination": {
+            "competitionId": "GB1",
+            "countryId": 189,
+            "clubId": "405",
+            "coachId": "15315"
+          },
+          "details": {
+            "playerId": "250478",
+            "date": "2019-07-01T00:00:00+02:00",
+            "contractUntilDate": "2025-06-30T00:00:00+02:00",
+            "seasonId": 2019,
+            "isPending": false,
+            "marketValue": {
+              "value": 7000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "7.00",
+                "suffix": "M"
+              }
+            },
+            "age": 23,
+            "fee": {
+              "value": 15500000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "15.50",
+                "suffix": "M"
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 1095,
+              "daysDisplay": "2 Years, 11 Months, 29 Days"
+            },
+            "season": {
+              "id": 2019,
+              "display": "19/20",
+              "cyclicalName": "2020",
+              "nonCyclicalName": "19/20"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/matt-targett/transfers/spieler/250478/transfer_id/2531505"
+        },
+        {
+          "id": "2010834",
+          "transferSource": {
+            "competitionId": "GB2",
+            "countryId": 189,
+            "clubId": "931",
+            "coachId": "5627"
+          },
+          "transferDestination": {
+            "competitionId": "GB1",
+            "countryId": 189,
+            "clubId": "180",
+            "coachId": "1646"
+          },
+          "details": {
+            "playerId": "250478",
+            "date": "2018-05-31T00:00:00+02:00",
+            "contractUntilDate": "2022-06-30T00:00:00+02:00",
+            "seasonId": 2017,
+            "isPending": false,
+            "marketValue": {
+              "value": 3000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "3.00",
+                "suffix": "M"
+              }
+            },
+            "age": 22,
+            "remainingContractPeriod": {
+              "days": 0,
+              "daysDisplay": "Unknown"
+            },
+            "season": {
+              "id": 2017,
+              "display": "17/18",
+              "cyclicalName": "2018",
+              "nonCyclicalName": "17/18"
+            }
+          },
+          "typeDetails": {
+            "type": "RETURNED_FROM_PREVIOUS_LOAN",
+            "name": "End of loan",
+            "feeDescription": "End of loan"
+          },
+          "relativeUrl": "/matt-targett/transfers/spieler/250478/transfer_id/2010834"
+        },
+        {
+          "id": "2010827",
+          "transferSource": {
+            "competitionId": "GB1",
+            "countryId": 189,
+            "clubId": "180",
+            "coachId": "7827"
+          },
+          "transferDestination": {
+            "competitionId": "GB2",
+            "countryId": 189,
+            "clubId": "931",
+            "coachId": "5627"
+          },
+          "details": {
+            "playerId": "250478",
+            "date": "2018-01-22T00:00:00+01:00",
+            "contractUntilDate": "2018-05-31T00:00:00+02:00",
+            "seasonId": 2017,
+            "isPending": false,
+            "marketValue": {
+              "value": 3000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "3.00",
+                "suffix": "M"
+              }
+            },
+            "age": 22,
+            "remainingContractPeriod": {
+              "days": 1620,
+              "daysDisplay": "4 Years, 5 Months, 8 Days"
+            },
+            "season": {
+              "id": 2017,
+              "display": "17/18",
+              "cyclicalName": "2018",
+              "nonCyclicalName": "17/18"
+            }
+          },
+          "typeDetails": {
+            "type": "ACTIVE_LOAN_TRANSFER",
+            "name": "loan transfer",
+            "feeDescription": "loan transfer"
+          },
+          "relativeUrl": "/matt-targett/transfers/spieler/250478/transfer_id/2010827"
+        },
+        {
+          "id": "842464",
+          "transferSource": {
+            "competitionId": "GB21",
+            "countryId": 189,
+            "clubId": "36546",
+            "coachId": "3397"
+          },
+          "transferDestination": {
+            "competitionId": "GB1",
+            "countryId": 189,
+            "clubId": "180",
+            "coachId": "439"
+          },
+          "details": {
+            "playerId": "250478",
+            "date": "2014-07-01T00:00:00+02:00",
+            "contractUntilDate": "2022-06-30T00:00:00+02:00",
+            "seasonId": 2014,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 18,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2014,
+              "display": "14/15",
+              "cyclicalName": "2015",
+              "nonCyclicalName": "14/15"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/matt-targett/transfers/spieler/250478/transfer_id/842464"
+        },
+        {
+          "id": "1442194",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 189,
+            "clubId": "6893",
+            "coachId": "0"
+          },
+          "transferDestination": {
+            "competitionId": "GB21",
+            "countryId": 189,
+            "clubId": "36546",
+            "coachId": "3397"
+          },
+          "details": {
+            "playerId": "250478",
+            "date": "2013-07-01T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2013,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 17,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2013,
+              "display": "13/14",
+              "cyclicalName": "2014",
+              "nonCyclicalName": "13/14"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/matt-targett/transfers/spieler/250478/transfer_id/1442194"
+        }
+      ],
+      "pending": [
+        {
+          "id": "5897392",
+          "transferSource": {
+            "competitionId": "GB2",
+            "countryId": 189,
+            "clubId": "641",
+            "coachId": "68946"
+          },
+          "transferDestination": {
+            "competitionId": "GB1",
+            "countryId": 189,
+            "clubId": "762",
+            "coachId": "10976"
+          },
+          "details": {
+            "playerId": "250478",
+            "date": "2026-05-31T00:00:00+02:00",
+            "contractUntilDate": "2026-06-30T00:00:00+02:00",
+            "seasonId": 2025,
+            "isPending": true,
+            "marketValue": {
+              "value": 3500000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "3.50",
+                "suffix": "M"
+              }
+            },
+            "age": 30,
+            "remainingContractPeriod": {
+              "days": 0,
+              "daysDisplay": "Unknown"
+            },
+            "season": {
+              "id": 2025,
+              "display": "25/26",
+              "cyclicalName": "2026",
+              "nonCyclicalName": "25/26"
+            }
+          },
+          "typeDetails": {
+            "type": "RETURNED_FROM_PREVIOUS_LOAN",
+            "name": "End of loan",
+            "feeDescription": "End of loan"
+          },
+          "relativeUrl": "/matt-targett/transfers/spieler/250478/transfer_id/5897392"
+        }
+      ],
+      "url": "",
+      "feeSum": {
+        "value": 33000000,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "33.00",
+          "suffix": "M"
+        }
+      },
+      "averageAge": 30,
+      "totalMarketValue": {
+        "value": 3500000,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "3.50",
+          "suffix": "M"
+        }
+      }
+    },
+    "clubIds": [
+      "641",
+      "762",
+      "405",
+      "180",
+      "931",
+      "36546",
+      "6893"
+    ],
+    "coachIds": [
+      "68946",
+      "10976",
+      "49800",
+      "51276",
+      "2300",
+      "15315",
+      "5627",
+      "1646",
+      "7827",
+      "3397",
+      "439"
+    ],
+    "competitionIds": [
+      "GB2",
+      "GB1",
+      "GB21"
+    ],
+    "mostRecentTransfer": {
+      "id": "5897391",
+      "transferSource": {
+        "competitionId": "GB1",
+        "countryId": 189,
+        "clubId": "762",
+        "coachId": "10976"
+      },
+      "transferDestination": {
+        "competitionId": "GB2",
+        "countryId": 189,
+        "clubId": "641",
+        "coachId": "49800"
+      },
+      "details": {
+        "playerId": "250478",
+        "date": "2025-08-27T00:00:00+02:00",
+        "contractUntilDate": "2026-05-31T00:00:00+02:00",
+        "seasonId": 2025,
+        "isPending": false,
+        "marketValue": {
+          "value": 5000000,
+          "currency": "EUR",
+          "compact": {
+            "prefix": "€",
+            "content": "5.00",
+            "suffix": "M"
+          }
+        },
+        "age": 29,
+        "remainingContractPeriod": {
+          "days": 307,
+          "daysDisplay": "10 Months, 3 Days"
+        },
+        "season": {
+          "id": 2025,
+          "display": "25/26",
+          "cyclicalName": "2026",
+          "nonCyclicalName": "25/26"
+        }
+      },
+      "typeDetails": {
+        "type": "ACTIVE_LOAN_TRANSFER",
+        "name": "loan transfer",
+        "feeDescription": "loan transfer"
+      },
+      "relativeUrl": "/matt-targett/transfers/spieler/250478/transfer_id/5897391"
+    }
+  }
+}

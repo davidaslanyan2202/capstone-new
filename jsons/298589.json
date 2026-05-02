@@ -1,0 +1,423 @@
+{
+  "success": true,
+  "message": "OK",
+  "data": {
+    "playerId": "298589",
+    "history": {
+      "terminated": [
+        {
+          "id": "5163833",
+          "transferSource": {
+            "competitionId": "ES1",
+            "countryId": 157,
+            "clubId": "331",
+            "coachId": "19601"
+          },
+          "transferDestination": {
+            "competitionId": "QSL",
+            "countryId": 137,
+            "clubId": "3229",
+            "coachId": "43537"
+          },
+          "details": {
+            "playerId": "298589",
+            "date": "2024-08-01T00:00:00+02:00",
+            "contractUntilDate": "2027-06-30T00:00:00+02:00",
+            "seasonId": 2024,
+            "isPending": false,
+            "marketValue": {
+              "value": 10000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "10.00",
+                "suffix": "M"
+              }
+            },
+            "age": 30,
+            "fee": {
+              "value": 8750000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "8.75",
+                "suffix": "M"
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 698,
+              "daysDisplay": "1 Year, 10 Months, 29 Days"
+            },
+            "season": {
+              "id": 2024,
+              "display": "24/25",
+              "cyclicalName": "2025",
+              "nonCyclicalName": "24/25"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/david-garcia/transfers/spieler/298589/transfer_id/5163833"
+        },
+        {
+          "id": "2006559",
+          "transferSource": {
+            "competitionId": "ES2",
+            "countryId": 157,
+            "clubId": "4542",
+            "coachId": "30776"
+          },
+          "transferDestination": {
+            "competitionId": "ES2",
+            "countryId": 157,
+            "clubId": "331",
+            "coachId": "25435"
+          },
+          "details": {
+            "playerId": "298589",
+            "date": "2018-06-30T00:00:00+02:00",
+            "contractUntilDate": "2026-06-30T00:00:00+02:00",
+            "seasonId": 2017,
+            "isPending": false,
+            "marketValue": {
+              "value": 1000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "1.00",
+                "suffix": "M"
+              }
+            },
+            "age": 24,
+            "remainingContractPeriod": {
+              "days": 0,
+              "daysDisplay": "Unknown"
+            },
+            "season": {
+              "id": 2017,
+              "display": "17/18",
+              "cyclicalName": "2018",
+              "nonCyclicalName": "17/18"
+            }
+          },
+          "typeDetails": {
+            "type": "RETURNED_FROM_PREVIOUS_LOAN",
+            "name": "End of loan",
+            "feeDescription": "End of loan"
+          },
+          "relativeUrl": "/david-garcia/transfers/spieler/298589/transfer_id/2006559"
+        },
+        {
+          "id": "2006558",
+          "transferSource": {
+            "competitionId": "ES2",
+            "countryId": 157,
+            "clubId": "331",
+            "coachId": "25435"
+          },
+          "transferDestination": {
+            "competitionId": "ES2",
+            "countryId": 157,
+            "clubId": "4542",
+            "coachId": "30776"
+          },
+          "details": {
+            "playerId": "298589",
+            "date": "2018-01-17T00:00:00+01:00",
+            "contractUntilDate": "2018-06-30T00:00:00+02:00",
+            "seasonId": 2017,
+            "isPending": false,
+            "marketValue": {
+              "value": 1000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "1.00",
+                "suffix": "M"
+              }
+            },
+            "age": 23,
+            "remainingContractPeriod": {
+              "days": 3086,
+              "daysDisplay": "8 Years, 5 Months, 13 Days"
+            },
+            "season": {
+              "id": 2017,
+              "display": "17/18",
+              "cyclicalName": "2018",
+              "nonCyclicalName": "17/18"
+            }
+          },
+          "typeDetails": {
+            "type": "ACTIVE_LOAN_TRANSFER",
+            "name": "loan transfer",
+            "feeDescription": "loan transfer"
+          },
+          "relativeUrl": "/david-garcia/transfers/spieler/298589/transfer_id/2006558"
+        },
+        {
+          "id": "1213415",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 157,
+            "clubId": "8516",
+            "coachId": "39121"
+          },
+          "transferDestination": {
+            "competitionId": "ES2",
+            "countryId": 157,
+            "clubId": "331",
+            "coachId": "4586"
+          },
+          "details": {
+            "playerId": "298589",
+            "date": "2015-01-01T00:00:00+01:00",
+            "contractUntilDate": "2026-06-30T00:00:00+02:00",
+            "seasonId": 2014,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 20,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2014,
+              "display": "14/15",
+              "cyclicalName": "2015",
+              "nonCyclicalName": "14/15"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/david-garcia/transfers/spieler/298589/transfer_id/1213415"
+        },
+        {
+          "id": "1264336",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 157,
+            "clubId": "28861",
+            "coachId": "0"
+          },
+          "transferDestination": {
+            "competitionId": "",
+            "countryId": 157,
+            "clubId": "8516",
+            "coachId": "29408"
+          },
+          "details": {
+            "playerId": "298589",
+            "date": "2013-07-01T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2013,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 19,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2013,
+              "display": "13/14",
+              "cyclicalName": "2014",
+              "nonCyclicalName": "13/14"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/david-garcia/transfers/spieler/298589/transfer_id/1264336"
+        },
+        {
+          "id": "4093237",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 157,
+            "clubId": "13314",
+            "coachId": "0"
+          },
+          "transferDestination": {
+            "competitionId": "",
+            "countryId": 157,
+            "clubId": "28861",
+            "coachId": "0"
+          },
+          "details": {
+            "playerId": "298589",
+            "date": "2012-07-01T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2012,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 18,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2012,
+              "display": "12/13",
+              "cyclicalName": "2013",
+              "nonCyclicalName": "12/13"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/david-garcia/transfers/spieler/298589/transfer_id/4093237"
+        }
+      ],
+      "pending": [],
+      "url": "",
+      "feeSum": {
+        "value": 8750000,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "8.75",
+          "suffix": "M"
+        }
+      },
+      "averageAge": 32,
+      "totalMarketValue": {
+        "value": 5000000,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "5.00",
+          "suffix": "M"
+        }
+      }
+    },
+    "clubIds": [
+      "331",
+      "3229",
+      "4542",
+      "8516",
+      "28861",
+      "13314"
+    ],
+    "coachIds": [
+      "19601",
+      "43537",
+      "30776",
+      "25435",
+      "39121",
+      "4586",
+      "29408"
+    ],
+    "competitionIds": [
+      "ES1",
+      "QSL",
+      "ES2"
+    ],
+    "mostRecentTransfer": {
+      "id": "5163833",
+      "transferSource": {
+        "competitionId": "ES1",
+        "countryId": 157,
+        "clubId": "331",
+        "coachId": "19601"
+      },
+      "transferDestination": {
+        "competitionId": "QSL",
+        "countryId": 137,
+        "clubId": "3229",
+        "coachId": "43537"
+      },
+      "details": {
+        "playerId": "298589",
+        "date": "2024-08-01T00:00:00+02:00",
+        "contractUntilDate": "2027-06-30T00:00:00+02:00",
+        "seasonId": 2024,
+        "isPending": false,
+        "marketValue": {
+          "value": 10000000,
+          "currency": "EUR",
+          "compact": {
+            "prefix": "€",
+            "content": "10.00",
+            "suffix": "M"
+          }
+        },
+        "age": 30,
+        "fee": {
+          "value": 8750000,
+          "currency": "EUR",
+          "compact": {
+            "prefix": "€",
+            "content": "8.75",
+            "suffix": "M"
+          }
+        },
+        "remainingContractPeriod": {
+          "days": 698,
+          "daysDisplay": "1 Year, 10 Months, 29 Days"
+        },
+        "season": {
+          "id": 2024,
+          "display": "24/25",
+          "cyclicalName": "2025",
+          "nonCyclicalName": "24/25"
+        }
+      },
+      "typeDetails": {
+        "type": "STANDARD",
+        "name": "",
+        "feeDescription": ""
+      },
+      "relativeUrl": "/david-garcia/transfers/spieler/298589/transfer_id/5163833"
+    }
+  }
+}

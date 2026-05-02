@@ -1,0 +1,524 @@
+{
+  "success": true,
+  "message": "OK",
+  "data": {
+    "playerId": "782476",
+    "history": {
+      "terminated": [
+        {
+          "id": "5616936",
+          "transferSource": {
+            "competitionId": "FR1",
+            "countryId": 50,
+            "clubId": "1158",
+            "coachId": "5769"
+          },
+          "transferDestination": {
+            "competitionId": "NL1",
+            "countryId": 122,
+            "clubId": "200",
+            "coachId": "512"
+          },
+          "details": {
+            "playerId": "782476",
+            "date": "2025-07-01T00:00:00+02:00",
+            "contractUntilDate": "2029-06-30T00:00:00+02:00",
+            "seasonId": 2025,
+            "isPending": false,
+            "marketValue": {
+              "value": 8000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "8.00",
+                "suffix": "M"
+              }
+            },
+            "age": 22,
+            "fee": {
+              "value": 2800000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "2.80",
+                "suffix": "M"
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 729,
+              "daysDisplay": "1 Year, 11 Months, 29 Days"
+            },
+            "season": {
+              "id": 2025,
+              "display": "25/26",
+              "cyclicalName": "2026",
+              "nonCyclicalName": "25/26"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/yoann-cathline/transfers/spieler/782476/transfer_id/5616936"
+        },
+        {
+          "id": "5141870",
+          "transferSource": {
+            "competitionId": "NL1",
+            "countryId": 122,
+            "clubId": "200",
+            "coachId": "512"
+          },
+          "transferDestination": {
+            "competitionId": "FR1",
+            "countryId": 50,
+            "clubId": "1158",
+            "coachId": "5769"
+          },
+          "details": {
+            "playerId": "782476",
+            "date": "2025-06-30T00:00:00+02:00",
+            "contractUntilDate": "2027-06-30T00:00:00+02:00",
+            "seasonId": 2024,
+            "isPending": false,
+            "marketValue": {
+              "value": 8000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "8.00",
+                "suffix": "M"
+              }
+            },
+            "age": 22,
+            "remainingContractPeriod": {
+              "days": 0,
+              "daysDisplay": "Unknown"
+            },
+            "season": {
+              "id": 2024,
+              "display": "24/25",
+              "cyclicalName": "2025",
+              "nonCyclicalName": "24/25"
+            }
+          },
+          "typeDetails": {
+            "type": "RETURNED_FROM_PREVIOUS_LOAN",
+            "name": "End of loan",
+            "feeDescription": "End of loan"
+          },
+          "relativeUrl": "/yoann-cathline/transfers/spieler/782476/transfer_id/5141870"
+        },
+        {
+          "id": "5141869",
+          "transferSource": {
+            "competitionId": "FR2",
+            "countryId": 50,
+            "clubId": "1158",
+            "coachId": "5769"
+          },
+          "transferDestination": {
+            "competitionId": "NL1",
+            "countryId": 122,
+            "clubId": "200",
+            "coachId": "512"
+          },
+          "details": {
+            "playerId": "782476",
+            "date": "2024-07-23T00:00:00+02:00",
+            "contractUntilDate": "2025-06-30T00:00:00+02:00",
+            "seasonId": 2024,
+            "isPending": false,
+            "marketValue": {
+              "value": 2000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "2.00",
+                "suffix": "M"
+              }
+            },
+            "age": 22,
+            "remainingContractPeriod": {
+              "days": 1072,
+              "daysDisplay": "2 Years, 11 Months, 7 Days"
+            },
+            "season": {
+              "id": 2024,
+              "display": "24/25",
+              "cyclicalName": "2025",
+              "nonCyclicalName": "24/25"
+            }
+          },
+          "typeDetails": {
+            "type": "ACTIVE_LOAN_TRANSFER",
+            "name": "loan transfer",
+            "feeDescription": "loan transfer"
+          },
+          "relativeUrl": "/yoann-cathline/transfers/spieler/782476/transfer_id/5141869"
+        },
+        {
+          "id": "4598201",
+          "transferSource": {
+            "competitionId": "NL1",
+            "countryId": 122,
+            "clubId": "723",
+            "coachId": "3801"
+          },
+          "transferDestination": {
+            "competitionId": "FR2",
+            "countryId": 50,
+            "clubId": "1158",
+            "coachId": "40910"
+          },
+          "details": {
+            "playerId": "782476",
+            "date": "2024-06-30T00:00:00+02:00",
+            "contractUntilDate": "2027-06-30T00:00:00+02:00",
+            "seasonId": 2023,
+            "isPending": false,
+            "marketValue": {
+              "value": 2000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "2.00",
+                "suffix": "M"
+              }
+            },
+            "age": 21,
+            "remainingContractPeriod": {
+              "days": 0,
+              "daysDisplay": "Unknown"
+            },
+            "season": {
+              "id": 2023,
+              "display": "23/24",
+              "cyclicalName": "2024",
+              "nonCyclicalName": "23/24"
+            }
+          },
+          "typeDetails": {
+            "type": "RETURNED_FROM_PREVIOUS_LOAN",
+            "name": "End of loan",
+            "feeDescription": "End of loan"
+          },
+          "relativeUrl": "/yoann-cathline/transfers/spieler/782476/transfer_id/4598201"
+        },
+        {
+          "id": "4598200",
+          "transferSource": {
+            "competitionId": "FR1",
+            "countryId": 50,
+            "clubId": "1158",
+            "coachId": "40910"
+          },
+          "transferDestination": {
+            "competitionId": "NL1",
+            "countryId": 122,
+            "clubId": "723",
+            "coachId": "3801"
+          },
+          "details": {
+            "playerId": "782476",
+            "date": "2023-08-21T00:00:00+02:00",
+            "contractUntilDate": "2024-06-30T00:00:00+02:00",
+            "seasonId": 2023,
+            "isPending": false,
+            "marketValue": {
+              "value": 2000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "2.00",
+                "suffix": "M"
+              }
+            },
+            "age": 21,
+            "remainingContractPeriod": {
+              "days": 1409,
+              "daysDisplay": "3 Years, 10 Months, 9 Days"
+            },
+            "season": {
+              "id": 2023,
+              "display": "23/24",
+              "cyclicalName": "2024",
+              "nonCyclicalName": "23/24"
+            }
+          },
+          "typeDetails": {
+            "type": "ACTIVE_LOAN_TRANSFER",
+            "name": "loan transfer",
+            "feeDescription": "loan transfer"
+          },
+          "relativeUrl": "/yoann-cathline/transfers/spieler/782476/transfer_id/4598200"
+        },
+        {
+          "id": "4058430",
+          "transferSource": {
+            "competitionId": "FR2",
+            "countryId": 50,
+            "clubId": "855",
+            "coachId": "75226"
+          },
+          "transferDestination": {
+            "competitionId": "FR1",
+            "countryId": 50,
+            "clubId": "1158",
+            "coachId": "40910"
+          },
+          "details": {
+            "playerId": "782476",
+            "date": "2022-09-05T00:00:00+02:00",
+            "contractUntilDate": "2027-06-30T00:00:00+02:00",
+            "seasonId": 2022,
+            "isPending": false,
+            "marketValue": {
+              "value": 400000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "400.00",
+                "suffix": "K"
+              }
+            },
+            "age": 20,
+            "fee": {
+              "value": 2700000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "2.70",
+                "suffix": "M"
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 1029,
+              "daysDisplay": "2 Years, 9 Months, 25 Days"
+            },
+            "season": {
+              "id": 2022,
+              "display": "22/23",
+              "cyclicalName": "2023",
+              "nonCyclicalName": "22/23"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/yoann-cathline/transfers/spieler/782476/transfer_id/4058430"
+        },
+        {
+          "id": "2921656",
+          "transferSource": {
+            "competitionId": "F19C",
+            "countryId": 50,
+            "clubId": "12749",
+            "coachId": "73127"
+          },
+          "transferDestination": {
+            "competitionId": "FR2",
+            "countryId": 50,
+            "clubId": "855",
+            "coachId": "64696"
+          },
+          "details": {
+            "playerId": "782476",
+            "date": "2020-07-01T00:00:00+02:00",
+            "contractUntilDate": "2025-06-30T00:00:00+02:00",
+            "seasonId": 2020,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 17,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2020,
+              "display": "20/21",
+              "cyclicalName": "2021",
+              "nonCyclicalName": "20/21"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/yoann-cathline/transfers/spieler/782476/transfer_id/2921656"
+        },
+        {
+          "id": "2921657",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 50,
+            "clubId": "40470",
+            "coachId": "0"
+          },
+          "transferDestination": {
+            "competitionId": "F19C",
+            "countryId": 50,
+            "clubId": "12749",
+            "coachId": "73127"
+          },
+          "details": {
+            "playerId": "782476",
+            "date": "2019-07-01T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2019,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 16,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "?",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2019,
+              "display": "19/20",
+              "cyclicalName": "2020",
+              "nonCyclicalName": "19/20"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/yoann-cathline/transfers/spieler/782476/transfer_id/2921657"
+        }
+      ],
+      "pending": [],
+      "url": "",
+      "feeSum": {
+        "value": 5500000,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "5.50",
+          "suffix": "M"
+        }
+      },
+      "averageAge": 23,
+      "totalMarketValue": {
+        "value": 7000000,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "7.00",
+          "suffix": "M"
+        }
+      }
+    },
+    "clubIds": [
+      "1158",
+      "200",
+      "723",
+      "855",
+      "12749",
+      "40470"
+    ],
+    "coachIds": [
+      "5769",
+      "512",
+      "3801",
+      "40910",
+      "75226",
+      "73127",
+      "64696"
+    ],
+    "competitionIds": [
+      "FR1",
+      "NL1",
+      "FR2",
+      "F19C"
+    ],
+    "mostRecentTransfer": {
+      "id": "5616936",
+      "transferSource": {
+        "competitionId": "FR1",
+        "countryId": 50,
+        "clubId": "1158",
+        "coachId": "5769"
+      },
+      "transferDestination": {
+        "competitionId": "NL1",
+        "countryId": 122,
+        "clubId": "200",
+        "coachId": "512"
+      },
+      "details": {
+        "playerId": "782476",
+        "date": "2025-07-01T00:00:00+02:00",
+        "contractUntilDate": "2029-06-30T00:00:00+02:00",
+        "seasonId": 2025,
+        "isPending": false,
+        "marketValue": {
+          "value": 8000000,
+          "currency": "EUR",
+          "compact": {
+            "prefix": "€",
+            "content": "8.00",
+            "suffix": "M"
+          }
+        },
+        "age": 22,
+        "fee": {
+          "value": 2800000,
+          "currency": "EUR",
+          "compact": {
+            "prefix": "€",
+            "content": "2.80",
+            "suffix": "M"
+          }
+        },
+        "remainingContractPeriod": {
+          "days": 729,
+          "daysDisplay": "1 Year, 11 Months, 29 Days"
+        },
+        "season": {
+          "id": 2025,
+          "display": "25/26",
+          "cyclicalName": "2026",
+          "nonCyclicalName": "25/26"
+        }
+      },
+      "typeDetails": {
+        "type": "STANDARD",
+        "name": "",
+        "feeDescription": ""
+      },
+      "relativeUrl": "/yoann-cathline/transfers/spieler/782476/transfer_id/5616936"
+    }
+  }
+}

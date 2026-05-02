@@ -1,0 +1,731 @@
+{
+  "success": true,
+  "message": "OK",
+  "data": {
+    "playerId": "398030",
+    "history": {
+      "terminated": [
+        {
+          "id": "6137861",
+          "transferSource": {
+            "competitionId": "IT2",
+            "countryId": 75,
+            "clubId": "1385",
+            "coachId": "19718"
+          },
+          "transferDestination": {
+            "competitionId": "IT2",
+            "countryId": 75,
+            "clubId": "2919",
+            "coachId": "54264"
+          },
+          "details": {
+            "playerId": "398030",
+            "date": "2026-01-22T00:00:00+01:00",
+            "contractUntilDate": "2026-06-30T00:00:00+02:00",
+            "seasonId": 2025,
+            "isPending": false,
+            "marketValue": {
+              "value": 900000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "900.00",
+                "suffix": "K"
+              }
+            },
+            "age": 27,
+            "remainingContractPeriod": {
+              "days": 524,
+              "daysDisplay": "1 Year, 5 Months, 8 Days"
+            },
+            "season": {
+              "id": 2025,
+              "display": "25/26",
+              "cyclicalName": "2026",
+              "nonCyclicalName": "25/26"
+            }
+          },
+          "typeDetails": {
+            "type": "ACTIVE_LOAN_TRANSFER",
+            "name": "loan transfer",
+            "feeDescription": "loan transfer"
+          },
+          "relativeUrl": "/giuseppe-caso/transfers/spieler/398030/transfer_id/6137861"
+        },
+        {
+          "id": "5238872",
+          "transferSource": {
+            "competitionId": "IT2",
+            "countryId": 75,
+            "clubId": "8970",
+            "coachId": "10050"
+          },
+          "transferDestination": {
+            "competitionId": "IT2",
+            "countryId": 75,
+            "clubId": "1385",
+            "coachId": "2238"
+          },
+          "details": {
+            "playerId": "398030",
+            "date": "2024-08-30T00:00:00+02:00",
+            "contractUntilDate": "2027-06-30T00:00:00+02:00",
+            "seasonId": 2024,
+            "isPending": false,
+            "marketValue": {
+              "value": 1500000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "1.50",
+                "suffix": "M"
+              }
+            },
+            "age": 25,
+            "fee": {
+              "value": 1400000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "1.40",
+                "suffix": "M"
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 304,
+              "daysDisplay": "10 Months"
+            },
+            "season": {
+              "id": 2024,
+              "display": "24/25",
+              "cyclicalName": "2025",
+              "nonCyclicalName": "24/25"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/giuseppe-caso/transfers/spieler/398030/transfer_id/5238872"
+        },
+        {
+          "id": "3948536",
+          "transferSource": {
+            "competitionId": "IT2",
+            "countryId": 75,
+            "clubId": "252",
+            "coachId": "26099"
+          },
+          "transferDestination": {
+            "competitionId": "IT2",
+            "countryId": 75,
+            "clubId": "8970",
+            "coachId": "34361"
+          },
+          "details": {
+            "playerId": "398030",
+            "date": "2022-07-16T00:00:00+02:00",
+            "contractUntilDate": "2025-06-30T00:00:00+02:00",
+            "seasonId": 2022,
+            "isPending": false,
+            "marketValue": {
+              "value": 1200000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "1.20",
+                "suffix": "M"
+              }
+            },
+            "age": 23,
+            "fee": {
+              "value": 1350000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "1.35",
+                "suffix": "M"
+              }
+            },
+            "season": {
+              "id": 2022,
+              "display": "22/23",
+              "cyclicalName": "2023",
+              "nonCyclicalName": "22/23"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/giuseppe-caso/transfers/spieler/398030/transfer_id/3948536"
+        },
+        {
+          "id": "3509723",
+          "transferSource": {
+            "competitionId": "IT2",
+            "countryId": 75,
+            "clubId": "4031",
+            "coachId": "16861"
+          },
+          "transferDestination": {
+            "competitionId": "IT2",
+            "countryId": 75,
+            "clubId": "252",
+            "coachId": "26099"
+          },
+          "details": {
+            "playerId": "398030",
+            "date": "2022-06-30T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2021,
+            "isPending": false,
+            "marketValue": {
+              "value": 1200000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "1.20",
+                "suffix": "M"
+              }
+            },
+            "age": 23,
+            "remainingContractPeriod": {
+              "days": 0,
+              "daysDisplay": "Unknown"
+            },
+            "season": {
+              "id": 2021,
+              "display": "21/22",
+              "cyclicalName": "2022",
+              "nonCyclicalName": "21/22"
+            }
+          },
+          "typeDetails": {
+            "type": "RETURNED_FROM_PREVIOUS_LOAN",
+            "name": "End of loan",
+            "feeDescription": "End of loan"
+          },
+          "relativeUrl": "/giuseppe-caso/transfers/spieler/398030/transfer_id/3509723"
+        },
+        {
+          "id": "3509722",
+          "transferSource": {
+            "competitionId": "IT1",
+            "countryId": 75,
+            "clubId": "252",
+            "coachId": "3793"
+          },
+          "transferDestination": {
+            "competitionId": "IT2",
+            "countryId": 75,
+            "clubId": "4031",
+            "coachId": "42459"
+          },
+          "details": {
+            "playerId": "398030",
+            "date": "2021-08-20T00:00:00+02:00",
+            "contractUntilDate": "2022-06-30T00:00:00+02:00",
+            "seasonId": 2021,
+            "isPending": false,
+            "marketValue": {
+              "value": 200000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "200.00",
+                "suffix": "K"
+              }
+            },
+            "age": 22,
+            "season": {
+              "id": 2021,
+              "display": "21/22",
+              "cyclicalName": "2022",
+              "nonCyclicalName": "21/22"
+            }
+          },
+          "typeDetails": {
+            "type": "ACTIVE_LOAN_TRANSFER",
+            "name": "loan transfer",
+            "feeDescription": "loan transfer"
+          },
+          "relativeUrl": "/giuseppe-caso/transfers/spieler/398030/transfer_id/3509722"
+        },
+        {
+          "id": "3060771",
+          "transferSource": {
+            "competitionId": "IT3B",
+            "countryId": 75,
+            "clubId": "4255",
+            "coachId": "50812"
+          },
+          "transferDestination": {
+            "competitionId": "IT1",
+            "countryId": 75,
+            "clubId": "252",
+            "coachId": "3018"
+          },
+          "details": {
+            "playerId": "398030",
+            "date": "2020-09-14T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2020,
+            "isPending": false,
+            "marketValue": {
+              "value": 200000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "200.00",
+                "suffix": "K"
+              }
+            },
+            "age": 21,
+            "fee": {
+              "value": 350000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "350.00",
+                "suffix": "K"
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 289,
+              "daysDisplay": "9 Months, 16 Days"
+            },
+            "season": {
+              "id": 2020,
+              "display": "20/21",
+              "cyclicalName": "2021",
+              "nonCyclicalName": "20/21"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/giuseppe-caso/transfers/spieler/398030/transfer_id/3060771"
+        },
+        {
+          "id": "2531441",
+          "transferSource": {
+            "competitionId": "IJ1",
+            "countryId": 75,
+            "clubId": "8505",
+            "coachId": "42068"
+          },
+          "transferDestination": {
+            "competitionId": "IT3A",
+            "countryId": 75,
+            "clubId": "4255",
+            "coachId": "42064"
+          },
+          "details": {
+            "playerId": "398030",
+            "date": "2019-07-12T00:00:00+02:00",
+            "contractUntilDate": "2021-06-30T00:00:00+02:00",
+            "seasonId": 2019,
+            "isPending": false,
+            "marketValue": {
+              "value": 125000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "125.00",
+                "suffix": "K"
+              }
+            },
+            "age": 20,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "Free Transfer",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2019,
+              "display": "19/20",
+              "cyclicalName": "2020",
+              "nonCyclicalName": "19/20"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/giuseppe-caso/transfers/spieler/398030/transfer_id/2531441"
+        },
+        {
+          "id": "2221982",
+          "transferSource": {
+            "competitionId": "IT3A",
+            "countryId": 75,
+            "clubId": "4150",
+            "coachId": "0"
+          },
+          "transferDestination": {
+            "competitionId": "IJ1",
+            "countryId": 75,
+            "clubId": "8505",
+            "coachId": "42068"
+          },
+          "details": {
+            "playerId": "398030",
+            "date": "2019-06-30T00:00:00+02:00",
+            "contractUntilDate": "2019-06-30T00:00:00+02:00",
+            "seasonId": 2018,
+            "isPending": false,
+            "marketValue": {
+              "value": 125000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "125.00",
+                "suffix": "K"
+              }
+            },
+            "age": 20,
+            "remainingContractPeriod": {
+              "days": 0,
+              "daysDisplay": "Unknown"
+            },
+            "season": {
+              "id": 2018,
+              "display": "18/19",
+              "cyclicalName": "2019",
+              "nonCyclicalName": "18/19"
+            }
+          },
+          "typeDetails": {
+            "type": "RETURNED_FROM_PREVIOUS_LOAN",
+            "name": "End of loan",
+            "feeDescription": "End of loan"
+          },
+          "relativeUrl": "/giuseppe-caso/transfers/spieler/398030/transfer_id/2221982"
+        },
+        {
+          "id": "2221981",
+          "transferSource": {
+            "competitionId": "IJ1",
+            "countryId": 75,
+            "clubId": "8505",
+            "coachId": "42068"
+          },
+          "transferDestination": {
+            "competitionId": "IT3A",
+            "countryId": 75,
+            "clubId": "4150",
+            "coachId": "25628"
+          },
+          "details": {
+            "playerId": "398030",
+            "date": "2018-08-11T00:00:00+02:00",
+            "contractUntilDate": "2019-06-30T00:00:00+02:00",
+            "seasonId": 2018,
+            "isPending": false,
+            "marketValue": {
+              "value": 50000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "50.00",
+                "suffix": "K"
+              }
+            },
+            "age": 19,
+            "remainingContractPeriod": {
+              "days": 323,
+              "daysDisplay": "10 Months, 19 Days"
+            },
+            "season": {
+              "id": 2018,
+              "display": "18/19",
+              "cyclicalName": "2019",
+              "nonCyclicalName": "18/19"
+            }
+          },
+          "typeDetails": {
+            "type": "ACTIVE_LOAN_TRANSFER",
+            "name": "loan transfer",
+            "feeDescription": "loan transfer"
+          },
+          "relativeUrl": "/giuseppe-caso/transfers/spieler/398030/transfer_id/2221981"
+        },
+        {
+          "id": "1365753",
+          "transferSource": {
+            "competitionId": "ITJ4",
+            "countryId": 75,
+            "clubId": "49741",
+            "coachId": "42062"
+          },
+          "transferDestination": {
+            "competitionId": "ITJ1",
+            "countryId": 75,
+            "clubId": "8505",
+            "coachId": "27200"
+          },
+          "details": {
+            "playerId": "398030",
+            "date": "2015-07-01T00:00:00+02:00",
+            "contractUntilDate": "2019-06-30T00:00:00+02:00",
+            "seasonId": 2015,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 16,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2015,
+              "display": "15/16",
+              "cyclicalName": "2016",
+              "nonCyclicalName": "15/16"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/giuseppe-caso/transfers/spieler/398030/transfer_id/1365753"
+        },
+        {
+          "id": "3072545",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 75,
+            "clubId": "12812",
+            "coachId": "43150"
+          },
+          "transferDestination": {
+            "competitionId": "ITJ4",
+            "countryId": 75,
+            "clubId": "49741",
+            "coachId": "0"
+          },
+          "details": {
+            "playerId": "398030",
+            "date": "2014-07-01T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2014,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 15,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2014,
+              "display": "14/15",
+              "cyclicalName": "2015",
+              "nonCyclicalName": "14/15"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/giuseppe-caso/transfers/spieler/398030/transfer_id/3072545"
+        }
+      ],
+      "pending": [
+        {
+          "id": "6137862",
+          "transferSource": {
+            "competitionId": "IT2",
+            "countryId": 75,
+            "clubId": "2919",
+            "coachId": "54264"
+          },
+          "transferDestination": {
+            "competitionId": "IT2",
+            "countryId": 75,
+            "clubId": "1385",
+            "coachId": "19718"
+          },
+          "details": {
+            "playerId": "398030",
+            "date": "2026-06-30T00:00:00+02:00",
+            "contractUntilDate": "2027-06-30T00:00:00+02:00",
+            "seasonId": 2025,
+            "isPending": true,
+            "marketValue": {
+              "value": 900000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "900.00",
+                "suffix": "K"
+              }
+            },
+            "age": 27,
+            "remainingContractPeriod": {
+              "days": 0,
+              "daysDisplay": "Unknown"
+            },
+            "season": {
+              "id": 2025,
+              "display": "25/26",
+              "cyclicalName": "2026",
+              "nonCyclicalName": "25/26"
+            }
+          },
+          "typeDetails": {
+            "type": "RETURNED_FROM_PREVIOUS_LOAN",
+            "name": "End of loan",
+            "feeDescription": "End of loan"
+          },
+          "relativeUrl": "/giuseppe-caso/transfers/spieler/398030/transfer_id/6137862"
+        }
+      ],
+      "url": "",
+      "feeSum": {
+        "value": 3100000,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "3.10",
+          "suffix": "M"
+        }
+      },
+      "averageAge": 27,
+      "totalMarketValue": {
+        "value": 900000,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "900.00",
+          "suffix": "K"
+        }
+      }
+    },
+    "clubIds": [
+      "2919",
+      "1385",
+      "8970",
+      "252",
+      "4031",
+      "4255",
+      "8505",
+      "4150",
+      "49741",
+      "12812"
+    ],
+    "coachIds": [
+      "54264",
+      "19718",
+      "10050",
+      "2238",
+      "26099",
+      "34361",
+      "16861",
+      "3793",
+      "42459",
+      "50812",
+      "3018",
+      "42068",
+      "42064",
+      "25628",
+      "42062",
+      "27200",
+      "43150"
+    ],
+    "competitionIds": [
+      "IT2",
+      "IT1",
+      "IT3B",
+      "IJ1",
+      "IT3A",
+      "ITJ4",
+      "ITJ1"
+    ],
+    "mostRecentTransfer": {
+      "id": "6137861",
+      "transferSource": {
+        "competitionId": "IT2",
+        "countryId": 75,
+        "clubId": "1385",
+        "coachId": "19718"
+      },
+      "transferDestination": {
+        "competitionId": "IT2",
+        "countryId": 75,
+        "clubId": "2919",
+        "coachId": "54264"
+      },
+      "details": {
+        "playerId": "398030",
+        "date": "2026-01-22T00:00:00+01:00",
+        "contractUntilDate": "2026-06-30T00:00:00+02:00",
+        "seasonId": 2025,
+        "isPending": false,
+        "marketValue": {
+          "value": 900000,
+          "currency": "EUR",
+          "compact": {
+            "prefix": "€",
+            "content": "900.00",
+            "suffix": "K"
+          }
+        },
+        "age": 27,
+        "remainingContractPeriod": {
+          "days": 524,
+          "daysDisplay": "1 Year, 5 Months, 8 Days"
+        },
+        "season": {
+          "id": 2025,
+          "display": "25/26",
+          "cyclicalName": "2026",
+          "nonCyclicalName": "25/26"
+        }
+      },
+      "typeDetails": {
+        "type": "ACTIVE_LOAN_TRANSFER",
+        "name": "loan transfer",
+        "feeDescription": "loan transfer"
+      },
+      "relativeUrl": "/giuseppe-caso/transfers/spieler/398030/transfer_id/6137861"
+    }
+  }
+}

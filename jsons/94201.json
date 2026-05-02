@@ -1,0 +1,611 @@
+{
+  "success": true,
+  "message": "OK",
+  "data": {
+    "playerId": "94201",
+    "history": {
+      "terminated": [
+        {
+          "id": "6151813",
+          "transferSource": {
+            "competitionId": "L2",
+            "countryId": 40,
+            "clubId": "4",
+            "coachId": "49850"
+          },
+          "transferDestination": {
+            "competitionId": "L2",
+            "countryId": 40,
+            "clubId": "10",
+            "coachId": "35168"
+          },
+          "details": {
+            "playerId": "94201",
+            "date": "2026-01-30T00:00:00+01:00",
+            "contractUntilDate": null,
+            "seasonId": 2025,
+            "isPending": false,
+            "marketValue": {
+              "value": 500000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "500.00",
+                "suffix": "K"
+              }
+            },
+            "age": 33,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "Free Transfer",
+                "suffix": ""
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 151,
+              "daysDisplay": "5 Months"
+            },
+            "season": {
+              "id": 2025,
+              "display": "25/26",
+              "cyclicalName": "2026",
+              "nonCyclicalName": "25/26"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/robin-knoche/transfers/spieler/94201/transfer_id/6151813"
+        },
+        {
+          "id": "5020658",
+          "transferSource": {
+            "competitionId": "L1",
+            "countryId": 40,
+            "clubId": "89",
+            "coachId": "35997"
+          },
+          "transferDestination": {
+            "competitionId": "L2",
+            "countryId": 40,
+            "clubId": "4",
+            "coachId": "49850"
+          },
+          "details": {
+            "playerId": "94201",
+            "date": "2024-07-19T00:00:00+02:00",
+            "contractUntilDate": "2026-06-30T00:00:00+02:00",
+            "seasonId": 2024,
+            "isPending": false,
+            "marketValue": {
+              "value": 2500000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "2.50",
+                "suffix": "M"
+              }
+            },
+            "age": 32,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "Free Transfer",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2024,
+              "display": "24/25",
+              "cyclicalName": "2025",
+              "nonCyclicalName": "24/25"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/robin-knoche/transfers/spieler/94201/transfer_id/5020658"
+        },
+        {
+          "id": "2915096",
+          "transferSource": {
+            "competitionId": "L1",
+            "countryId": 40,
+            "clubId": "82",
+            "coachId": "22891"
+          },
+          "transferDestination": {
+            "competitionId": "L1",
+            "countryId": 40,
+            "clubId": "89",
+            "coachId": "5965"
+          },
+          "details": {
+            "playerId": "94201",
+            "date": "2020-08-04T00:00:00+02:00",
+            "contractUntilDate": "2024-06-30T00:00:00+02:00",
+            "seasonId": 2020,
+            "isPending": false,
+            "marketValue": {
+              "value": 6500000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "6.50",
+                "suffix": "M"
+              }
+            },
+            "age": 28,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "Free Transfer",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2020,
+              "display": "20/21",
+              "cyclicalName": "2021",
+              "nonCyclicalName": "20/21"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/robin-knoche/transfers/spieler/94201/transfer_id/2915096"
+        },
+        {
+          "id": "2721072",
+          "transferSource": {
+            "competitionId": "RLN3",
+            "countryId": 40,
+            "clubId": "143",
+            "coachId": "126"
+          },
+          "transferDestination": {
+            "competitionId": "L1",
+            "countryId": 40,
+            "clubId": "82",
+            "coachId": "149"
+          },
+          "details": {
+            "playerId": "94201",
+            "date": "2012-07-01T00:00:00+02:00",
+            "contractUntilDate": "2020-06-30T00:00:00+02:00",
+            "seasonId": 2012,
+            "isPending": false,
+            "marketValue": {
+              "value": 250000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "250.00",
+                "suffix": "K"
+              }
+            },
+            "age": 20,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 2921,
+              "daysDisplay": "7 Years, 11 Months, 29 Days"
+            },
+            "season": {
+              "id": 2012,
+              "display": "12/13",
+              "cyclicalName": "2013",
+              "nonCyclicalName": "12/13"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/robin-knoche/transfers/spieler/94201/transfer_id/2721072"
+        },
+        {
+          "id": "579657",
+          "transferSource": {
+            "competitionId": "AJ1",
+            "countryId": 40,
+            "clubId": "5343",
+            "coachId": "5310"
+          },
+          "transferDestination": {
+            "competitionId": "RL1",
+            "countryId": 40,
+            "clubId": "143",
+            "coachId": "126"
+          },
+          "details": {
+            "playerId": "94201",
+            "date": "2010-07-01T00:00:00+02:00",
+            "contractUntilDate": "2020-06-30T00:00:00+02:00",
+            "seasonId": 2010,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 18,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 364,
+              "daysDisplay": "11 Months, 29 Days"
+            },
+            "season": {
+              "id": 2010,
+              "display": "10/11",
+              "cyclicalName": "2011",
+              "nonCyclicalName": "10/11"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/robin-knoche/transfers/spieler/94201/transfer_id/579657"
+        },
+        {
+          "id": "301455",
+          "transferSource": {
+            "competitionId": "BJ1",
+            "countryId": 40,
+            "clubId": "21087",
+            "coachId": "7706"
+          },
+          "transferDestination": {
+            "competitionId": "AJ1",
+            "countryId": 40,
+            "clubId": "5343",
+            "coachId": "5310"
+          },
+          "details": {
+            "playerId": "94201",
+            "date": "2009-07-01T00:00:00+02:00",
+            "contractUntilDate": "2011-06-30T00:00:00+02:00",
+            "seasonId": 2009,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 17,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2009,
+              "display": "09/10",
+              "cyclicalName": "2010",
+              "nonCyclicalName": "09/10"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/robin-knoche/transfers/spieler/94201/transfer_id/301455"
+        },
+        {
+          "id": "645503",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 40,
+            "clubId": "12821",
+            "coachId": "11272"
+          },
+          "transferDestination": {
+            "competitionId": "BJ1",
+            "countryId": 40,
+            "clubId": "21087",
+            "coachId": "7706"
+          },
+          "details": {
+            "playerId": "94201",
+            "date": "2007-07-01T00:00:00+02:00",
+            "contractUntilDate": "2009-06-30T00:00:00+02:00",
+            "seasonId": 2007,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 15,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2007,
+              "display": "07/08",
+              "cyclicalName": "2008",
+              "nonCyclicalName": "07/08"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/robin-knoche/transfers/spieler/94201/transfer_id/645503"
+        },
+        {
+          "id": "1454632",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 40,
+            "clubId": "53149",
+            "coachId": "0"
+          },
+          "transferDestination": {
+            "competitionId": "",
+            "countryId": 40,
+            "clubId": "12821",
+            "coachId": "12512"
+          },
+          "details": {
+            "playerId": "94201",
+            "date": "2005-07-01T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2005,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 13,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "Free Transfer",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2005,
+              "display": "05/06",
+              "cyclicalName": "2006",
+              "nonCyclicalName": "05/06"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/robin-knoche/transfers/spieler/94201/transfer_id/1454632"
+        },
+        {
+          "id": "1454631",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 40,
+            "clubId": "53147",
+            "coachId": "0"
+          },
+          "transferDestination": {
+            "competitionId": "",
+            "countryId": 40,
+            "clubId": "53149",
+            "coachId": "0"
+          },
+          "details": {
+            "playerId": "94201",
+            "date": "2002-07-01T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2002,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 10,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "Free Transfer",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2002,
+              "display": "02/03",
+              "cyclicalName": "2003",
+              "nonCyclicalName": "02/03"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/robin-knoche/transfers/spieler/94201/transfer_id/1454631"
+        }
+      ],
+      "pending": [],
+      "url": "",
+      "feeSum": {
+        "value": 0,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "0.00",
+          "suffix": ""
+        }
+      },
+      "averageAge": 33,
+      "totalMarketValue": {
+        "value": 500000,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "500.00",
+          "suffix": "K"
+        }
+      }
+    },
+    "clubIds": [
+      "4",
+      "10",
+      "89",
+      "82",
+      "143",
+      "5343",
+      "21087",
+      "12821",
+      "53149",
+      "53147"
+    ],
+    "coachIds": [
+      "49850",
+      "35168",
+      "35997",
+      "22891",
+      "5965",
+      "126",
+      "149",
+      "5310",
+      "7706",
+      "11272",
+      "12512"
+    ],
+    "competitionIds": [
+      "L2",
+      "L1",
+      "RLN3",
+      "AJ1",
+      "RL1",
+      "BJ1"
+    ],
+    "mostRecentTransfer": {
+      "id": "6151813",
+      "transferSource": {
+        "competitionId": "L2",
+        "countryId": 40,
+        "clubId": "4",
+        "coachId": "49850"
+      },
+      "transferDestination": {
+        "competitionId": "L2",
+        "countryId": 40,
+        "clubId": "10",
+        "coachId": "35168"
+      },
+      "details": {
+        "playerId": "94201",
+        "date": "2026-01-30T00:00:00+01:00",
+        "contractUntilDate": null,
+        "seasonId": 2025,
+        "isPending": false,
+        "marketValue": {
+          "value": 500000,
+          "currency": "EUR",
+          "compact": {
+            "prefix": "€",
+            "content": "500.00",
+            "suffix": "K"
+          }
+        },
+        "age": 33,
+        "fee": {
+          "value": null,
+          "currency": "",
+          "compact": {
+            "prefix": "",
+            "content": "Free Transfer",
+            "suffix": ""
+          }
+        },
+        "remainingContractPeriod": {
+          "days": 151,
+          "daysDisplay": "5 Months"
+        },
+        "season": {
+          "id": 2025,
+          "display": "25/26",
+          "cyclicalName": "2026",
+          "nonCyclicalName": "25/26"
+        }
+      },
+      "typeDetails": {
+        "type": "STANDARD",
+        "name": "",
+        "feeDescription": ""
+      },
+      "relativeUrl": "/robin-knoche/transfers/spieler/94201/transfer_id/6151813"
+    }
+  }
+}

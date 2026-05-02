@@ -1,0 +1,580 @@
+{
+  "success": true,
+  "message": "OK",
+  "data": {
+    "playerId": "495667",
+    "history": {
+      "terminated": [
+        {
+          "id": "4225957",
+          "transferSource": {
+            "competitionId": "FR1",
+            "countryId": 50,
+            "clubId": "417",
+            "coachId": "92937"
+          },
+          "transferDestination": {
+            "competitionId": "IT2",
+            "countryId": 75,
+            "clubId": "1047",
+            "coachId": "25681"
+          },
+          "details": {
+            "playerId": "495667",
+            "date": "2023-01-16T00:00:00+01:00",
+            "contractUntilDate": "2029-06-30T00:00:00+02:00",
+            "seasonId": 2022,
+            "isPending": false,
+            "marketValue": {
+              "value": 3000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "3.00",
+                "suffix": "M"
+              }
+            },
+            "age": 21,
+            "fee": {
+              "value": 750000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "750.00",
+                "suffix": "K"
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 531,
+              "daysDisplay": "1 Year, 5 Months, 14 Days"
+            },
+            "season": {
+              "id": 2022,
+              "display": "22/23",
+              "cyclicalName": "2023",
+              "nonCyclicalName": "22/23"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/lucas-da-cunha/transfers/spieler/495667/transfer_id/4225957"
+        },
+        {
+          "id": "3700524",
+          "transferSource": {
+            "competitionId": "FR1",
+            "countryId": 50,
+            "clubId": "3524",
+            "coachId": "13916"
+          },
+          "transferDestination": {
+            "competitionId": "FR1",
+            "countryId": 50,
+            "clubId": "417",
+            "coachId": "5035"
+          },
+          "details": {
+            "playerId": "495667",
+            "date": "2022-06-30T00:00:00+02:00",
+            "contractUntilDate": "2024-06-30T00:00:00+02:00",
+            "seasonId": 2021,
+            "isPending": false,
+            "marketValue": {
+              "value": 4000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "4.00",
+                "suffix": "M"
+              }
+            },
+            "age": 21,
+            "remainingContractPeriod": {
+              "days": 0,
+              "daysDisplay": "Unknown"
+            },
+            "season": {
+              "id": 2021,
+              "display": "21/22",
+              "cyclicalName": "2022",
+              "nonCyclicalName": "21/22"
+            }
+          },
+          "typeDetails": {
+            "type": "RETURNED_FROM_PREVIOUS_LOAN",
+            "name": "End of loan",
+            "feeDescription": "End of loan"
+          },
+          "relativeUrl": "/lucas-da-cunha/transfers/spieler/495667/transfer_id/3700524"
+        },
+        {
+          "id": "3700523",
+          "transferSource": {
+            "competitionId": "FR1",
+            "countryId": 50,
+            "clubId": "417",
+            "coachId": "5035"
+          },
+          "transferDestination": {
+            "competitionId": "FR1",
+            "countryId": 50,
+            "clubId": "3524",
+            "coachId": "13916"
+          },
+          "details": {
+            "playerId": "495667",
+            "date": "2022-01-17T00:00:00+01:00",
+            "contractUntilDate": "2022-06-30T00:00:00+02:00",
+            "seasonId": 2021,
+            "isPending": false,
+            "marketValue": {
+              "value": 3000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "3.00",
+                "suffix": "M"
+              }
+            },
+            "age": 20,
+            "remainingContractPeriod": {
+              "days": 895,
+              "daysDisplay": "2 Years, 5 Months, 13 Days"
+            },
+            "season": {
+              "id": 2021,
+              "display": "21/22",
+              "cyclicalName": "2022",
+              "nonCyclicalName": "21/22"
+            }
+          },
+          "typeDetails": {
+            "type": "ACTIVE_LOAN_TRANSFER",
+            "name": "loan transfer",
+            "feeDescription": "loan transfer"
+          },
+          "relativeUrl": "/lucas-da-cunha/transfers/spieler/495667/transfer_id/3700523"
+        },
+        {
+          "id": "3700521",
+          "transferSource": {
+            "competitionId": "C1",
+            "countryId": 148,
+            "clubId": "527",
+            "coachId": "2808"
+          },
+          "transferDestination": {
+            "competitionId": "FR1",
+            "countryId": 50,
+            "clubId": "417",
+            "coachId": "0"
+          },
+          "details": {
+            "playerId": "495667",
+            "date": "2021-06-30T00:00:00+02:00",
+            "contractUntilDate": "2024-06-30T00:00:00+02:00",
+            "seasonId": 2020,
+            "isPending": false,
+            "marketValue": {
+              "value": 3000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "3.00",
+                "suffix": "M"
+              }
+            },
+            "age": 20,
+            "remainingContractPeriod": {
+              "days": 365,
+              "daysDisplay": "1 Year"
+            },
+            "season": {
+              "id": 2020,
+              "display": "20/21",
+              "cyclicalName": "2021",
+              "nonCyclicalName": "20/21"
+            }
+          },
+          "typeDetails": {
+            "type": "RETURNED_FROM_PREVIOUS_LOAN",
+            "name": "End of loan",
+            "feeDescription": "End of loan"
+          },
+          "relativeUrl": "/lucas-da-cunha/transfers/spieler/495667/transfer_id/3700521"
+        },
+        {
+          "id": "3700520",
+          "transferSource": {
+            "competitionId": "FR1",
+            "countryId": 50,
+            "clubId": "417",
+            "coachId": "20029"
+          },
+          "transferDestination": {
+            "competitionId": "C1",
+            "countryId": 148,
+            "clubId": "527",
+            "coachId": "2808"
+          },
+          "details": {
+            "playerId": "495667",
+            "date": "2020-10-01T00:00:00+02:00",
+            "contractUntilDate": "2022-06-30T00:00:00+02:00",
+            "seasonId": 2020,
+            "isPending": false,
+            "marketValue": {
+              "value": 1800000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "1.80",
+                "suffix": "M"
+              }
+            },
+            "age": 19,
+            "remainingContractPeriod": {
+              "days": 1368,
+              "daysDisplay": "3 Years, 8 Months, 29 Days"
+            },
+            "season": {
+              "id": 2020,
+              "display": "20/21",
+              "cyclicalName": "2021",
+              "nonCyclicalName": "20/21"
+            }
+          },
+          "typeDetails": {
+            "type": "ACTIVE_LOAN_TRANSFER",
+            "name": "loan transfer",
+            "feeDescription": "loan transfer"
+          },
+          "relativeUrl": "/lucas-da-cunha/transfers/spieler/495667/transfer_id/3700520"
+        },
+        {
+          "id": "3082687",
+          "transferSource": {
+            "competitionId": "FR1",
+            "countryId": 50,
+            "clubId": "273",
+            "coachId": "61003"
+          },
+          "transferDestination": {
+            "competitionId": "FR1",
+            "countryId": 50,
+            "clubId": "417",
+            "coachId": "20029"
+          },
+          "details": {
+            "playerId": "495667",
+            "date": "2020-09-30T00:00:00+02:00",
+            "contractUntilDate": "2024-06-30T00:00:00+02:00",
+            "seasonId": 2020,
+            "isPending": false,
+            "marketValue": {
+              "value": 1800000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "1.80",
+                "suffix": "M"
+              }
+            },
+            "age": 19,
+            "fee": {
+              "value": 1000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "1.00",
+                "suffix": "M"
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 273,
+              "daysDisplay": "9 Months"
+            },
+            "season": {
+              "id": 2020,
+              "display": "20/21",
+              "cyclicalName": "2021",
+              "nonCyclicalName": "20/21"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/lucas-da-cunha/transfers/spieler/495667/transfer_id/3082687"
+        },
+        {
+          "id": "3082686",
+          "transferSource": {
+            "competitionId": "C3BR",
+            "countryId": 50,
+            "clubId": "8154",
+            "coachId": "65811"
+          },
+          "transferDestination": {
+            "competitionId": "FR1",
+            "countryId": 50,
+            "clubId": "273",
+            "coachId": "61003"
+          },
+          "details": {
+            "playerId": "495667",
+            "date": "2019-07-01T00:00:00+02:00",
+            "contractUntilDate": "2021-06-30T00:00:00+02:00",
+            "seasonId": 2019,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 18,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2019,
+              "display": "19/20",
+              "cyclicalName": "2020",
+              "nonCyclicalName": "19/20"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/lucas-da-cunha/transfers/spieler/495667/transfer_id/3082686"
+        },
+        {
+          "id": "3082685",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 50,
+            "clubId": "107721",
+            "coachId": "65811"
+          },
+          "transferDestination": {
+            "competitionId": "C3BR",
+            "countryId": 50,
+            "clubId": "8154",
+            "coachId": "61003"
+          },
+          "details": {
+            "playerId": "495667",
+            "date": "2018-07-01T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2018,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 17,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2018,
+              "display": "18/19",
+              "cyclicalName": "2019",
+              "nonCyclicalName": "18/19"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/lucas-da-cunha/transfers/spieler/495667/transfer_id/3082685"
+        },
+        {
+          "id": "6294620",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 50,
+            "clubId": "140767",
+            "coachId": "0"
+          },
+          "transferDestination": {
+            "competitionId": "",
+            "countryId": 50,
+            "clubId": "107721",
+            "coachId": "0"
+          },
+          "details": {
+            "playerId": "495667",
+            "date": "2016-07-01T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2016,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 15,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "Free Transfer",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2016,
+              "display": "16/17",
+              "cyclicalName": "2017",
+              "nonCyclicalName": "16/17"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/lucas-da-cunha/transfers/spieler/495667/transfer_id/6294620"
+        }
+      ],
+      "pending": [],
+      "url": "",
+      "feeSum": {
+        "value": 1750000,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "1.75",
+          "suffix": "M"
+        }
+      },
+      "averageAge": 24,
+      "totalMarketValue": {
+        "value": 20000000,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "20.00",
+          "suffix": "M"
+        }
+      }
+    },
+    "clubIds": [
+      "417",
+      "1047",
+      "3524",
+      "527",
+      "273",
+      "8154",
+      "107721",
+      "140767"
+    ],
+    "coachIds": [
+      "92937",
+      "25681",
+      "13916",
+      "5035",
+      "2808",
+      "20029",
+      "61003",
+      "65811"
+    ],
+    "competitionIds": [
+      "FR1",
+      "IT2",
+      "C1",
+      "C3BR"
+    ],
+    "mostRecentTransfer": {
+      "id": "4225957",
+      "transferSource": {
+        "competitionId": "FR1",
+        "countryId": 50,
+        "clubId": "417",
+        "coachId": "92937"
+      },
+      "transferDestination": {
+        "competitionId": "IT2",
+        "countryId": 75,
+        "clubId": "1047",
+        "coachId": "25681"
+      },
+      "details": {
+        "playerId": "495667",
+        "date": "2023-01-16T00:00:00+01:00",
+        "contractUntilDate": "2029-06-30T00:00:00+02:00",
+        "seasonId": 2022,
+        "isPending": false,
+        "marketValue": {
+          "value": 3000000,
+          "currency": "EUR",
+          "compact": {
+            "prefix": "€",
+            "content": "3.00",
+            "suffix": "M"
+          }
+        },
+        "age": 21,
+        "fee": {
+          "value": 750000,
+          "currency": "EUR",
+          "compact": {
+            "prefix": "€",
+            "content": "750.00",
+            "suffix": "K"
+          }
+        },
+        "remainingContractPeriod": {
+          "days": 531,
+          "daysDisplay": "1 Year, 5 Months, 14 Days"
+        },
+        "season": {
+          "id": 2022,
+          "display": "22/23",
+          "cyclicalName": "2023",
+          "nonCyclicalName": "22/23"
+        }
+      },
+      "typeDetails": {
+        "type": "STANDARD",
+        "name": "",
+        "feeDescription": ""
+      },
+      "relativeUrl": "/lucas-da-cunha/transfers/spieler/495667/transfer_id/4225957"
+    }
+  }
+}

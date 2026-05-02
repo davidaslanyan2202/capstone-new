@@ -1,0 +1,532 @@
+{
+  "success": true,
+  "message": "OK",
+  "data": {
+    "playerId": "527966",
+    "history": {
+      "terminated": [
+        {
+          "id": "4608492",
+          "transferSource": {
+            "competitionId": "ES2",
+            "countryId": 157,
+            "clubId": "5358",
+            "coachId": "3270"
+          },
+          "transferDestination": {
+            "competitionId": "ES1",
+            "countryId": 157,
+            "clubId": "367",
+            "coachId": "28876"
+          },
+          "details": {
+            "playerId": "527966",
+            "date": "2023-08-26T00:00:00+02:00",
+            "contractUntilDate": "2030-06-30T00:00:00+02:00",
+            "seasonId": 2023,
+            "isPending": false,
+            "marketValue": {
+              "value": 1500000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "1.50",
+                "suffix": "M"
+              }
+            },
+            "age": 25,
+            "fee": {
+              "value": 500000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "500.00",
+                "suffix": "K"
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 309,
+              "daysDisplay": "10 Months, 4 Days"
+            },
+            "season": {
+              "id": 2023,
+              "display": "23/24",
+              "cyclicalName": "2024",
+              "nonCyclicalName": "23/24"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/andrei-ratiu/transfers/spieler/527966/transfer_id/4608492"
+        },
+        {
+          "id": "3477441",
+          "transferSource": {
+            "competitionId": "ES1",
+            "countryId": 157,
+            "clubId": "1050",
+            "coachId": "5075"
+          },
+          "transferDestination": {
+            "competitionId": "ES2",
+            "countryId": 157,
+            "clubId": "5358",
+            "coachId": "12323"
+          },
+          "details": {
+            "playerId": "527966",
+            "date": "2021-08-04T00:00:00+02:00",
+            "contractUntilDate": "2024-06-30T00:00:00+02:00",
+            "seasonId": 2021,
+            "isPending": false,
+            "marketValue": {
+              "value": 300000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "300.00",
+                "suffix": "K"
+              }
+            },
+            "age": 23,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "Free Transfer",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2021,
+              "display": "21/22",
+              "cyclicalName": "2022",
+              "nonCyclicalName": "21/22"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/andrei-ratiu/transfers/spieler/527966/transfer_id/3477441"
+        },
+        {
+          "id": "3001352",
+          "transferSource": {
+            "competitionId": "ES3C",
+            "countryId": 157,
+            "clubId": "11972",
+            "coachId": "30963"
+          },
+          "transferDestination": {
+            "competitionId": "ES1",
+            "countryId": 157,
+            "clubId": "1050",
+            "coachId": "5075"
+          },
+          "details": {
+            "playerId": "527966",
+            "date": "2021-01-29T00:00:00+01:00",
+            "contractUntilDate": null,
+            "seasonId": 2020,
+            "isPending": false,
+            "marketValue": {
+              "value": 300000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "300.00",
+                "suffix": "K"
+              }
+            },
+            "age": 22,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2020,
+              "display": "20/21",
+              "cyclicalName": "2021",
+              "nonCyclicalName": "20/21"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/andrei-ratiu/transfers/spieler/527966/transfer_id/3001352"
+        },
+        {
+          "id": "5794732",
+          "transferSource": {
+            "competitionId": "NL1",
+            "countryId": 122,
+            "clubId": "1268",
+            "coachId": "1270"
+          },
+          "transferDestination": {
+            "competitionId": "ES3C",
+            "countryId": 157,
+            "clubId": "11972",
+            "coachId": "30963"
+          },
+          "details": {
+            "playerId": "527966",
+            "date": "2021-01-28T00:00:00+01:00",
+            "contractUntilDate": null,
+            "seasonId": 2020,
+            "isPending": false,
+            "marketValue": {
+              "value": 300000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "300.00",
+                "suffix": "K"
+              }
+            },
+            "age": 22,
+            "remainingContractPeriod": {
+              "days": 153,
+              "daysDisplay": "5 Months, 2 Days"
+            },
+            "season": {
+              "id": 2020,
+              "display": "20/21",
+              "cyclicalName": "2021",
+              "nonCyclicalName": "20/21"
+            }
+          },
+          "typeDetails": {
+            "type": "RETURNED_FROM_PREVIOUS_LOAN",
+            "name": "End of loan",
+            "feeDescription": "End of loan"
+          },
+          "relativeUrl": "/andrei-ratiu/transfers/spieler/527966/transfer_id/5794732"
+        },
+        {
+          "id": "3001351",
+          "transferSource": {
+            "competitionId": "ES3C",
+            "countryId": 157,
+            "clubId": "11972",
+            "coachId": "30963"
+          },
+          "transferDestination": {
+            "competitionId": "NL1",
+            "countryId": 122,
+            "clubId": "1268",
+            "coachId": "40185"
+          },
+          "details": {
+            "playerId": "527966",
+            "date": "2020-08-04T00:00:00+02:00",
+            "contractUntilDate": "2021-06-30T00:00:00+02:00",
+            "seasonId": 2020,
+            "isPending": false,
+            "marketValue": {
+              "value": 300000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "300.00",
+                "suffix": "K"
+              }
+            },
+            "age": 22,
+            "season": {
+              "id": 2020,
+              "display": "20/21",
+              "cyclicalName": "2021",
+              "nonCyclicalName": "20/21"
+            }
+          },
+          "typeDetails": {
+            "type": "ACTIVE_LOAN_TRANSFER",
+            "name": "loan transfer",
+            "feeDescription": "loan transfer"
+          },
+          "relativeUrl": "/andrei-ratiu/transfers/spieler/527966/transfer_id/3001351"
+        },
+        {
+          "id": "2241372",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 157,
+            "clubId": "12853",
+            "coachId": "55310"
+          },
+          "transferDestination": {
+            "competitionId": "ES3C",
+            "countryId": 157,
+            "clubId": "11972",
+            "coachId": "30963"
+          },
+          "details": {
+            "playerId": "527966",
+            "date": "2018-07-01T00:00:00+02:00",
+            "contractUntilDate": "2019-06-30T00:00:00+02:00",
+            "seasonId": 2018,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 20,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2018,
+              "display": "18/19",
+              "cyclicalName": "2019",
+              "nonCyclicalName": "18/19"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/andrei-ratiu/transfers/spieler/527966/transfer_id/2241372"
+        },
+        {
+          "id": "1907529",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 157,
+            "clubId": "28868",
+            "coachId": "42706"
+          },
+          "transferDestination": {
+            "competitionId": "",
+            "countryId": 157,
+            "clubId": "12853",
+            "coachId": "19729"
+          },
+          "details": {
+            "playerId": "527966",
+            "date": "2016-07-01T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2016,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 18,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2016,
+              "display": "16/17",
+              "cyclicalName": "2017",
+              "nonCyclicalName": "16/17"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/andrei-ratiu/transfers/spieler/527966/transfer_id/1907529"
+        },
+        {
+          "id": "5386137",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 157,
+            "clubId": "14740",
+            "coachId": "106029"
+          },
+          "transferDestination": {
+            "competitionId": "",
+            "countryId": 157,
+            "clubId": "28868",
+            "coachId": "42706"
+          },
+          "details": {
+            "playerId": "527966",
+            "date": "2015-07-01T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2015,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 17,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2015,
+              "display": "15/16",
+              "cyclicalName": "2016",
+              "nonCyclicalName": "15/16"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/andrei-ratiu/transfers/spieler/527966/transfer_id/5386137"
+        }
+      ],
+      "pending": [],
+      "url": "",
+      "feeSum": {
+        "value": 500000,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "500.00",
+          "suffix": "K"
+        }
+      },
+      "averageAge": 27,
+      "totalMarketValue": {
+        "value": 18000000,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "18.00",
+          "suffix": "M"
+        }
+      }
+    },
+    "clubIds": [
+      "5358",
+      "367",
+      "1050",
+      "11972",
+      "1268",
+      "12853",
+      "28868",
+      "14740"
+    ],
+    "coachIds": [
+      "3270",
+      "28876",
+      "5075",
+      "12323",
+      "30963",
+      "1270",
+      "40185",
+      "55310",
+      "42706",
+      "19729",
+      "106029"
+    ],
+    "competitionIds": [
+      "ES2",
+      "ES1",
+      "ES3C",
+      "NL1"
+    ],
+    "mostRecentTransfer": {
+      "id": "4608492",
+      "transferSource": {
+        "competitionId": "ES2",
+        "countryId": 157,
+        "clubId": "5358",
+        "coachId": "3270"
+      },
+      "transferDestination": {
+        "competitionId": "ES1",
+        "countryId": 157,
+        "clubId": "367",
+        "coachId": "28876"
+      },
+      "details": {
+        "playerId": "527966",
+        "date": "2023-08-26T00:00:00+02:00",
+        "contractUntilDate": "2030-06-30T00:00:00+02:00",
+        "seasonId": 2023,
+        "isPending": false,
+        "marketValue": {
+          "value": 1500000,
+          "currency": "EUR",
+          "compact": {
+            "prefix": "€",
+            "content": "1.50",
+            "suffix": "M"
+          }
+        },
+        "age": 25,
+        "fee": {
+          "value": 500000,
+          "currency": "EUR",
+          "compact": {
+            "prefix": "€",
+            "content": "500.00",
+            "suffix": "K"
+          }
+        },
+        "remainingContractPeriod": {
+          "days": 309,
+          "daysDisplay": "10 Months, 4 Days"
+        },
+        "season": {
+          "id": 2023,
+          "display": "23/24",
+          "cyclicalName": "2024",
+          "nonCyclicalName": "23/24"
+        }
+      },
+      "typeDetails": {
+        "type": "STANDARD",
+        "name": "",
+        "feeDescription": ""
+      },
+      "relativeUrl": "/andrei-ratiu/transfers/spieler/527966/transfer_id/4608492"
+    }
+  }
+}

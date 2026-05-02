@@ -1,0 +1,419 @@
+{
+  "success": true,
+  "message": "OK",
+  "data": {
+    "playerId": "468198",
+    "history": {
+      "terminated": [
+        {
+          "id": "6162511",
+          "transferSource": {
+            "competitionId": "GB2",
+            "countryId": 189,
+            "clubId": "180",
+            "coachId": "85725"
+          },
+          "transferDestination": {
+            "competitionId": "GB2",
+            "countryId": 189,
+            "clubId": "1003",
+            "coachId": "139849"
+          },
+          "details": {
+            "playerId": "468198",
+            "date": "2026-02-02T00:00:00+01:00",
+            "contractUntilDate": "2026-05-31T00:00:00+02:00",
+            "seasonId": 2025,
+            "isPending": false,
+            "marketValue": {
+              "value": 4000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "4.00",
+                "suffix": "M"
+              }
+            },
+            "age": 29,
+            "remainingContractPeriod": {
+              "days": 148,
+              "daysDisplay": "4 Months, 28 Days"
+            },
+            "season": {
+              "id": 2025,
+              "display": "25/26",
+              "cyclicalName": "2026",
+              "nonCyclicalName": "25/26"
+            }
+          },
+          "typeDetails": {
+            "type": "ACTIVE_LOAN_TRANSFER",
+            "name": "loan transfer",
+            "feeDescription": "loan transfer"
+          },
+          "relativeUrl": "/joe-aribo/transfers/spieler/468198/transfer_id/6162511"
+        },
+        {
+          "id": "3931949",
+          "transferSource": {
+            "competitionId": "SC1",
+            "countryId": 190,
+            "clubId": "124",
+            "coachId": "20014"
+          },
+          "transferDestination": {
+            "competitionId": "GB1",
+            "countryId": 189,
+            "clubId": "180",
+            "coachId": "2300"
+          },
+          "details": {
+            "playerId": "468198",
+            "date": "2022-07-09T00:00:00+02:00",
+            "contractUntilDate": "2026-06-30T00:00:00+02:00",
+            "seasonId": 2022,
+            "isPending": false,
+            "marketValue": {
+              "value": 10000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "10.00",
+                "suffix": "M"
+              }
+            },
+            "age": 25,
+            "fee": {
+              "value": 8200000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "8.20",
+                "suffix": "M"
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 326,
+              "daysDisplay": "10 Months, 22 Days"
+            },
+            "season": {
+              "id": 2022,
+              "display": "22/23",
+              "cyclicalName": "2023",
+              "nonCyclicalName": "22/23"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/joe-aribo/transfers/spieler/468198/transfer_id/3931949"
+        },
+        {
+          "id": "2527107",
+          "transferSource": {
+            "competitionId": "GB2",
+            "countryId": 189,
+            "clubId": "358",
+            "coachId": "54482"
+          },
+          "transferDestination": {
+            "competitionId": "SC1",
+            "countryId": 190,
+            "clubId": "124",
+            "coachId": "51276"
+          },
+          "details": {
+            "playerId": "468198",
+            "date": "2019-07-01T00:00:00+02:00",
+            "contractUntilDate": "2023-05-31T00:00:00+02:00",
+            "seasonId": 2019,
+            "isPending": false,
+            "marketValue": {
+              "value": 200000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "200.00",
+                "suffix": "K"
+              }
+            },
+            "age": 22,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "Free Transfer",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2019,
+              "display": "19/20",
+              "cyclicalName": "2020",
+              "nonCyclicalName": "19/20"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/joe-aribo/transfers/spieler/468198/transfer_id/2527107"
+        },
+        {
+          "id": "1615958",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 189,
+            "clubId": "10956",
+            "coachId": "17897"
+          },
+          "transferDestination": {
+            "competitionId": "GB2",
+            "countryId": 189,
+            "clubId": "358",
+            "coachId": "10912"
+          },
+          "details": {
+            "playerId": "468198",
+            "date": "2015-09-07T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2015,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 19,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "?",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2015,
+              "display": "15/16",
+              "cyclicalName": "2016",
+              "nonCyclicalName": "15/16"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/joe-aribo/transfers/spieler/468198/transfer_id/1615958"
+        },
+        {
+          "id": "3854466",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 189,
+            "clubId": "92719",
+            "coachId": "0"
+          },
+          "transferDestination": {
+            "competitionId": "NLS6",
+            "countryId": 189,
+            "clubId": "10956",
+            "coachId": "21051"
+          },
+          "details": {
+            "playerId": "468198",
+            "date": "2014-07-01T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2014,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 17,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "?",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2014,
+              "display": "14/15",
+              "cyclicalName": "2015",
+              "nonCyclicalName": "14/15"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/joe-aribo/transfers/spieler/468198/transfer_id/3854466"
+        }
+      ],
+      "pending": [
+        {
+          "id": "6162512",
+          "transferSource": {
+            "competitionId": "GB2",
+            "countryId": 189,
+            "clubId": "1003",
+            "coachId": "15225"
+          },
+          "transferDestination": {
+            "competitionId": "GB2",
+            "countryId": 189,
+            "clubId": "180",
+            "coachId": "85725"
+          },
+          "details": {
+            "playerId": "468198",
+            "date": "2026-05-31T00:00:00+02:00",
+            "contractUntilDate": "2026-06-30T00:00:00+02:00",
+            "seasonId": 2025,
+            "isPending": true,
+            "marketValue": {
+              "value": 2800000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "2.80",
+                "suffix": "M"
+              }
+            },
+            "age": 29,
+            "remainingContractPeriod": {
+              "days": 0,
+              "daysDisplay": "Unknown"
+            },
+            "season": {
+              "id": 2025,
+              "display": "25/26",
+              "cyclicalName": "2026",
+              "nonCyclicalName": "25/26"
+            }
+          },
+          "typeDetails": {
+            "type": "RETURNED_FROM_PREVIOUS_LOAN",
+            "name": "End of loan",
+            "feeDescription": "End of loan"
+          },
+          "relativeUrl": "/joe-aribo/transfers/spieler/468198/transfer_id/6162512"
+        }
+      ],
+      "url": "",
+      "feeSum": {
+        "value": 8200000,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "8.20",
+          "suffix": "M"
+        }
+      },
+      "averageAge": 29,
+      "totalMarketValue": {
+        "value": 2800000,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "2.80",
+          "suffix": "M"
+        }
+      }
+    },
+    "clubIds": [
+      "1003",
+      "180",
+      "124",
+      "358",
+      "10956",
+      "92719"
+    ],
+    "coachIds": [
+      "15225",
+      "85725",
+      "139849",
+      "20014",
+      "2300",
+      "54482",
+      "51276",
+      "17897",
+      "10912",
+      "21051"
+    ],
+    "competitionIds": [
+      "GB2",
+      "SC1",
+      "GB1",
+      "NLS6"
+    ],
+    "mostRecentTransfer": {
+      "id": "6162511",
+      "transferSource": {
+        "competitionId": "GB2",
+        "countryId": 189,
+        "clubId": "180",
+        "coachId": "85725"
+      },
+      "transferDestination": {
+        "competitionId": "GB2",
+        "countryId": 189,
+        "clubId": "1003",
+        "coachId": "139849"
+      },
+      "details": {
+        "playerId": "468198",
+        "date": "2026-02-02T00:00:00+01:00",
+        "contractUntilDate": "2026-05-31T00:00:00+02:00",
+        "seasonId": 2025,
+        "isPending": false,
+        "marketValue": {
+          "value": 4000000,
+          "currency": "EUR",
+          "compact": {
+            "prefix": "€",
+            "content": "4.00",
+            "suffix": "M"
+          }
+        },
+        "age": 29,
+        "remainingContractPeriod": {
+          "days": 148,
+          "daysDisplay": "4 Months, 28 Days"
+        },
+        "season": {
+          "id": 2025,
+          "display": "25/26",
+          "cyclicalName": "2026",
+          "nonCyclicalName": "25/26"
+        }
+      },
+      "typeDetails": {
+        "type": "ACTIVE_LOAN_TRANSFER",
+        "name": "loan transfer",
+        "feeDescription": "loan transfer"
+      },
+      "relativeUrl": "/joe-aribo/transfers/spieler/468198/transfer_id/6162511"
+    }
+  }
+}

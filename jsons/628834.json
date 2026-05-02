@@ -1,0 +1,270 @@
+{
+  "success": true,
+  "message": "OK",
+  "data": {
+    "playerId": "628834",
+    "history": {
+      "terminated": [
+        {
+          "id": "5181403",
+          "transferSource": {
+            "competitionId": "FR2",
+            "countryId": 50,
+            "clubId": "347",
+            "coachId": "7218"
+          },
+          "transferDestination": {
+            "competitionId": "MLS1",
+            "countryId": 184,
+            "clubId": "25467",
+            "coachId": "26925"
+          },
+          "details": {
+            "playerId": "628834",
+            "date": "2024-08-08T00:00:00+02:00",
+            "contractUntilDate": "2026-12-31T00:00:00+01:00",
+            "seasonId": 2024,
+            "isPending": false,
+            "marketValue": {
+              "value": 2000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "2.00",
+                "suffix": "M"
+              }
+            },
+            "age": 24,
+            "fee": {
+              "value": 1400000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "1.40",
+                "suffix": "M"
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 1056,
+              "daysDisplay": "2 Years, 10 Months, 22 Days"
+            },
+            "season": {
+              "id": 2024,
+              "display": "24/25",
+              "cyclicalName": "2025",
+              "nonCyclicalName": "24/25"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/danley-jean-jacques/transfers/spieler/628834/transfer_id/5181403"
+        },
+        {
+          "id": "3934659",
+          "transferSource": {
+            "competitionId": "CN2B",
+            "countryId": 50,
+            "clubId": "8179",
+            "coachId": "0"
+          },
+          "transferDestination": {
+            "competitionId": "FR2",
+            "countryId": 50,
+            "clubId": "347",
+            "coachId": "1227"
+          },
+          "details": {
+            "playerId": "628834",
+            "date": "2022-07-07T00:00:00+02:00",
+            "contractUntilDate": "2027-06-30T00:00:00+02:00",
+            "seasonId": 2022,
+            "isPending": false,
+            "marketValue": {
+              "value": 100000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "100.00",
+                "suffix": "K"
+              }
+            },
+            "age": 22,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2022,
+              "display": "22/23",
+              "cyclicalName": "2023",
+              "nonCyclicalName": "22/23"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/danley-jean-jacques/transfers/spieler/628834/transfer_id/3934659"
+        },
+        {
+          "id": "3585903",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 62,
+            "clubId": "6498",
+            "coachId": "93909"
+          },
+          "transferDestination": {
+            "competitionId": "CN2B",
+            "countryId": 50,
+            "clubId": "8179",
+            "coachId": "93643"
+          },
+          "details": {
+            "playerId": "628834",
+            "date": "2021-08-25T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2021,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 21,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "?",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2021,
+              "display": "21/22",
+              "cyclicalName": "2022",
+              "nonCyclicalName": "21/22"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/danley-jean-jacques/transfers/spieler/628834/transfer_id/3585903"
+        }
+      ],
+      "pending": [],
+      "url": "",
+      "feeSum": {
+        "value": 1400000,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "1.40",
+          "suffix": "M"
+        }
+      },
+      "averageAge": 25,
+      "totalMarketValue": {
+        "value": 3000000,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "3.00",
+          "suffix": "M"
+        }
+      }
+    },
+    "clubIds": [
+      "347",
+      "25467",
+      "8179",
+      "6498"
+    ],
+    "coachIds": [
+      "7218",
+      "26925",
+      "1227",
+      "93909",
+      "93643"
+    ],
+    "competitionIds": [
+      "FR2",
+      "MLS1",
+      "CN2B"
+    ],
+    "mostRecentTransfer": {
+      "id": "5181403",
+      "transferSource": {
+        "competitionId": "FR2",
+        "countryId": 50,
+        "clubId": "347",
+        "coachId": "7218"
+      },
+      "transferDestination": {
+        "competitionId": "MLS1",
+        "countryId": 184,
+        "clubId": "25467",
+        "coachId": "26925"
+      },
+      "details": {
+        "playerId": "628834",
+        "date": "2024-08-08T00:00:00+02:00",
+        "contractUntilDate": "2026-12-31T00:00:00+01:00",
+        "seasonId": 2024,
+        "isPending": false,
+        "marketValue": {
+          "value": 2000000,
+          "currency": "EUR",
+          "compact": {
+            "prefix": "€",
+            "content": "2.00",
+            "suffix": "M"
+          }
+        },
+        "age": 24,
+        "fee": {
+          "value": 1400000,
+          "currency": "EUR",
+          "compact": {
+            "prefix": "€",
+            "content": "1.40",
+            "suffix": "M"
+          }
+        },
+        "remainingContractPeriod": {
+          "days": 1056,
+          "daysDisplay": "2 Years, 10 Months, 22 Days"
+        },
+        "season": {
+          "id": 2024,
+          "display": "24/25",
+          "cyclicalName": "2025",
+          "nonCyclicalName": "24/25"
+        }
+      },
+      "typeDetails": {
+        "type": "STANDARD",
+        "name": "",
+        "feeDescription": ""
+      },
+      "relativeUrl": "/danley-jean-jacques/transfers/spieler/628834/transfer_id/5181403"
+    }
+  }
+}

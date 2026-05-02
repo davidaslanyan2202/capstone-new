@@ -1,0 +1,971 @@
+{
+  "success": true,
+  "message": "OK",
+  "data": {
+    "playerId": "330208",
+    "history": {
+      "terminated": [
+        {
+          "id": "5905969",
+          "transferSource": {
+            "competitionId": "IT1",
+            "countryId": 75,
+            "clubId": "252",
+            "coachId": "20029"
+          },
+          "transferDestination": {
+            "competitionId": "GR1",
+            "countryId": 56,
+            "clubId": "1091",
+            "coachId": "2599"
+          },
+          "details": {
+            "playerId": "330208",
+            "date": "2025-08-31T00:00:00+02:00",
+            "contractUntilDate": "2026-06-30T00:00:00+02:00",
+            "seasonId": 2025,
+            "isPending": false,
+            "marketValue": {
+              "value": 2800000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "2.80",
+                "suffix": "M"
+              }
+            },
+            "age": 26,
+            "remainingContractPeriod": {
+              "days": 668,
+              "daysDisplay": "1 Year, 9 Months, 30 Days"
+            },
+            "season": {
+              "id": 2025,
+              "display": "25/26",
+              "cyclicalName": "2026",
+              "nonCyclicalName": "25/26"
+            }
+          },
+          "typeDetails": {
+            "type": "ACTIVE_LOAN_TRANSFER",
+            "name": "loan transfer",
+            "feeDescription": "loan transfer"
+          },
+          "relativeUrl": "/alessandro-vogliacco/transfers/spieler/330208/transfer_id/5905969"
+        },
+        {
+          "id": "5454349",
+          "transferSource": {
+            "competitionId": "IT1",
+            "countryId": 75,
+            "clubId": "130",
+            "coachId": "56780"
+          },
+          "transferDestination": {
+            "competitionId": "IT1",
+            "countryId": 75,
+            "clubId": "252",
+            "coachId": "20029"
+          },
+          "details": {
+            "playerId": "330208",
+            "date": "2025-06-30T00:00:00+02:00",
+            "contractUntilDate": "2027-06-30T00:00:00+02:00",
+            "seasonId": 2024,
+            "isPending": false,
+            "marketValue": {
+              "value": 2800000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "2.80",
+                "suffix": "M"
+              }
+            },
+            "age": 26,
+            "remainingContractPeriod": {
+              "days": 0,
+              "daysDisplay": "Unknown"
+            },
+            "season": {
+              "id": 2024,
+              "display": "24/25",
+              "cyclicalName": "2025",
+              "nonCyclicalName": "24/25"
+            }
+          },
+          "typeDetails": {
+            "type": "RETURNED_FROM_PREVIOUS_LOAN",
+            "name": "End of loan",
+            "feeDescription": "End of loan"
+          },
+          "relativeUrl": "/alessandro-vogliacco/transfers/spieler/330208/transfer_id/5454349"
+        },
+        {
+          "id": "5454348",
+          "transferSource": {
+            "competitionId": "IT1",
+            "countryId": 75,
+            "clubId": "252",
+            "coachId": "20029"
+          },
+          "transferDestination": {
+            "competitionId": "IT1",
+            "countryId": 75,
+            "clubId": "130",
+            "coachId": "19635"
+          },
+          "details": {
+            "playerId": "330208",
+            "date": "2025-01-15T00:00:00+01:00",
+            "contractUntilDate": "2025-06-30T00:00:00+02:00",
+            "seasonId": 2024,
+            "isPending": false,
+            "marketValue": {
+              "value": 2000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "2.00",
+                "suffix": "M"
+              }
+            },
+            "age": 26,
+            "fee": {
+              "value": 180000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "180.00",
+                "suffix": "K"
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 896,
+              "daysDisplay": "2 Years, 5 Months, 15 Days"
+            },
+            "season": {
+              "id": 2024,
+              "display": "24/25",
+              "cyclicalName": "2025",
+              "nonCyclicalName": "24/25"
+            }
+          },
+          "typeDetails": {
+            "type": "ACTIVE_LOAN_TRANSFER",
+            "name": "loan transfer",
+            "feeDescription": "Loan fee"
+          },
+          "relativeUrl": "/alessandro-vogliacco/transfers/spieler/330208/transfer_id/5454348"
+        },
+        {
+          "id": "3496465",
+          "transferSource": {
+            "competitionId": "IT2",
+            "countryId": 75,
+            "clubId": "4171",
+            "coachId": "54836"
+          },
+          "transferDestination": {
+            "competitionId": "IT2",
+            "countryId": 75,
+            "clubId": "252",
+            "coachId": "26099"
+          },
+          "details": {
+            "playerId": "330208",
+            "date": "2022-06-30T00:00:00+02:00",
+            "contractUntilDate": "2027-06-30T00:00:00+02:00",
+            "seasonId": 2021,
+            "isPending": false,
+            "marketValue": {
+              "value": 1500000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "1.50",
+                "suffix": "M"
+              }
+            },
+            "age": 23,
+            "remainingContractPeriod": {
+              "days": 0,
+              "daysDisplay": "Unknown"
+            },
+            "season": {
+              "id": 2021,
+              "display": "21/22",
+              "cyclicalName": "2022",
+              "nonCyclicalName": "21/22"
+            }
+          },
+          "typeDetails": {
+            "type": "RETURNED_FROM_PREVIOUS_LOAN",
+            "name": "End of loan",
+            "feeDescription": "End of loan"
+          },
+          "relativeUrl": "/alessandro-vogliacco/transfers/spieler/330208/transfer_id/3496465"
+        },
+        {
+          "id": "3496464",
+          "transferSource": {
+            "competitionId": "IT1",
+            "countryId": 75,
+            "clubId": "252",
+            "coachId": "3793"
+          },
+          "transferDestination": {
+            "competitionId": "IT2",
+            "countryId": 75,
+            "clubId": "4171",
+            "coachId": "54836"
+          },
+          "details": {
+            "playerId": "330208",
+            "date": "2021-08-14T00:00:00+02:00",
+            "contractUntilDate": "2022-06-30T00:00:00+02:00",
+            "seasonId": 2021,
+            "isPending": false,
+            "marketValue": {
+              "value": 1300000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "1.30",
+                "suffix": "M"
+              }
+            },
+            "age": 22,
+            "season": {
+              "id": 2021,
+              "display": "21/22",
+              "cyclicalName": "2022",
+              "nonCyclicalName": "21/22"
+            }
+          },
+          "typeDetails": {
+            "type": "ACTIVE_LOAN_TRANSFER",
+            "name": "loan transfer",
+            "feeDescription": "loan transfer"
+          },
+          "relativeUrl": "/alessandro-vogliacco/transfers/spieler/330208/transfer_id/3496464"
+        },
+        {
+          "id": "3496463",
+          "transferSource": {
+            "competitionId": "IT2",
+            "countryId": 75,
+            "clubId": "21331",
+            "coachId": "45621"
+          },
+          "transferDestination": {
+            "competitionId": "IT1",
+            "countryId": 75,
+            "clubId": "252",
+            "coachId": "3793"
+          },
+          "details": {
+            "playerId": "330208",
+            "date": "2021-08-13T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2021,
+            "isPending": false,
+            "marketValue": {
+              "value": 1300000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "1.30",
+                "suffix": "M"
+              }
+            },
+            "age": 22,
+            "fee": {
+              "value": 2000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "2.00",
+                "suffix": "M"
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 686,
+              "daysDisplay": "1 Year, 10 Months, 17 Days"
+            },
+            "season": {
+              "id": 2021,
+              "display": "21/22",
+              "cyclicalName": "2022",
+              "nonCyclicalName": "21/22"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/alessandro-vogliacco/transfers/spieler/330208/transfer_id/3496463"
+        },
+        {
+          "id": "2573047",
+          "transferSource": {
+            "competitionId": "IT3A",
+            "countryId": 75,
+            "clubId": "41101",
+            "coachId": "19635"
+          },
+          "transferDestination": {
+            "competitionId": "IT2",
+            "countryId": 75,
+            "clubId": "21331",
+            "coachId": "2141"
+          },
+          "details": {
+            "playerId": "330208",
+            "date": "2019-07-24T00:00:00+02:00",
+            "contractUntilDate": "2023-06-30T00:00:00+02:00",
+            "seasonId": 2019,
+            "isPending": false,
+            "marketValue": {
+              "value": 75000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "75.00",
+                "suffix": "K"
+              }
+            },
+            "age": 20,
+            "fee": {
+              "value": 250000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "250.00",
+                "suffix": "K"
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 707,
+              "daysDisplay": "1 Year, 11 Months, 6 Days"
+            },
+            "season": {
+              "id": 2019,
+              "display": "19/20",
+              "cyclicalName": "2020",
+              "nonCyclicalName": "19/20"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/alessandro-vogliacco/transfers/spieler/330208/transfer_id/2573047"
+        },
+        {
+          "id": "2377112",
+          "transferSource": {
+            "competitionId": "IT3B",
+            "countryId": 75,
+            "clubId": "21331",
+            "coachId": "2141"
+          },
+          "transferDestination": {
+            "competitionId": "IT3A",
+            "countryId": 75,
+            "clubId": "41101",
+            "coachId": "0"
+          },
+          "details": {
+            "playerId": "330208",
+            "date": "2019-06-30T00:00:00+02:00",
+            "contractUntilDate": "2021-06-30T00:00:00+02:00",
+            "seasonId": 2018,
+            "isPending": false,
+            "marketValue": {
+              "value": 75000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "75.00",
+                "suffix": "K"
+              }
+            },
+            "age": 20,
+            "remainingContractPeriod": {
+              "days": 0,
+              "daysDisplay": "Unknown"
+            },
+            "season": {
+              "id": 2018,
+              "display": "18/19",
+              "cyclicalName": "2019",
+              "nonCyclicalName": "18/19"
+            }
+          },
+          "typeDetails": {
+            "type": "RETURNED_FROM_PREVIOUS_LOAN",
+            "name": "End of loan",
+            "feeDescription": "End of loan"
+          },
+          "relativeUrl": "/alessandro-vogliacco/transfers/spieler/330208/transfer_id/2377112"
+        },
+        {
+          "id": "2377111",
+          "transferSource": {
+            "competitionId": "IT3A",
+            "countryId": 75,
+            "clubId": "41101",
+            "coachId": "23945"
+          },
+          "transferDestination": {
+            "competitionId": "IT3B",
+            "countryId": 75,
+            "clubId": "21331",
+            "coachId": "2141"
+          },
+          "details": {
+            "playerId": "330208",
+            "date": "2019-01-21T00:00:00+01:00",
+            "contractUntilDate": "2019-06-30T00:00:00+02:00",
+            "seasonId": 2018,
+            "isPending": false,
+            "marketValue": {
+              "value": 75000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "75.00",
+                "suffix": "K"
+              }
+            },
+            "age": 20,
+            "remainingContractPeriod": {
+              "days": 160,
+              "daysDisplay": "5 Months, 9 Days"
+            },
+            "season": {
+              "id": 2018,
+              "display": "18/19",
+              "cyclicalName": "2019",
+              "nonCyclicalName": "18/19"
+            }
+          },
+          "typeDetails": {
+            "type": "ACTIVE_LOAN_TRANSFER",
+            "name": "loan transfer",
+            "feeDescription": "loan transfer"
+          },
+          "relativeUrl": "/alessandro-vogliacco/transfers/spieler/330208/transfer_id/2377111"
+        },
+        {
+          "id": "2228750",
+          "transferSource": {
+            "competitionId": "IT2",
+            "countryId": 75,
+            "clubId": "3037",
+            "coachId": "2238"
+          },
+          "transferDestination": {
+            "competitionId": "IT3A",
+            "countryId": 75,
+            "clubId": "41101",
+            "coachId": "23945"
+          },
+          "details": {
+            "playerId": "330208",
+            "date": "2019-01-21T00:00:00+01:00",
+            "contractUntilDate": "2021-06-30T00:00:00+02:00",
+            "seasonId": 2018,
+            "isPending": false,
+            "marketValue": {
+              "value": 75000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "75.00",
+                "suffix": "K"
+              }
+            },
+            "age": 20,
+            "remainingContractPeriod": {
+              "days": 160,
+              "daysDisplay": "5 Months, 9 Days"
+            },
+            "season": {
+              "id": 2018,
+              "display": "18/19",
+              "cyclicalName": "2019",
+              "nonCyclicalName": "18/19"
+            }
+          },
+          "typeDetails": {
+            "type": "RETURNED_FROM_PREVIOUS_LOAN",
+            "name": "End of loan",
+            "feeDescription": "End of loan"
+          },
+          "relativeUrl": "/alessandro-vogliacco/transfers/spieler/330208/transfer_id/2228750"
+        },
+        {
+          "id": "2228749",
+          "transferSource": {
+            "competitionId": "IT3A",
+            "countryId": 75,
+            "clubId": "41101",
+            "coachId": "23945"
+          },
+          "transferDestination": {
+            "competitionId": "IT2",
+            "countryId": 75,
+            "clubId": "3037",
+            "coachId": "2238"
+          },
+          "details": {
+            "playerId": "330208",
+            "date": "2018-08-17T00:00:00+02:00",
+            "contractUntilDate": "2019-06-30T00:00:00+02:00",
+            "seasonId": 2018,
+            "isPending": false,
+            "marketValue": {
+              "value": 75000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "75.00",
+                "suffix": "K"
+              }
+            },
+            "age": 19,
+            "remainingContractPeriod": {
+              "days": 1048,
+              "daysDisplay": "2 Years, 10 Months, 13 Days"
+            },
+            "season": {
+              "id": 2018,
+              "display": "18/19",
+              "cyclicalName": "2019",
+              "nonCyclicalName": "18/19"
+            }
+          },
+          "typeDetails": {
+            "type": "ACTIVE_LOAN_TRANSFER",
+            "name": "loan transfer",
+            "feeDescription": "loan transfer"
+          },
+          "relativeUrl": "/alessandro-vogliacco/transfers/spieler/330208/transfer_id/2228749"
+        },
+        {
+          "id": "2204738",
+          "transferSource": {
+            "competitionId": "IJ1",
+            "countryId": 75,
+            "clubId": "11008",
+            "coachId": "0"
+          },
+          "transferDestination": {
+            "competitionId": "IT3A",
+            "countryId": 75,
+            "clubId": "41101",
+            "coachId": "0"
+          },
+          "details": {
+            "playerId": "330208",
+            "date": "2018-07-01T00:00:00+02:00",
+            "contractUntilDate": "2021-06-30T00:00:00+02:00",
+            "seasonId": 2018,
+            "isPending": false,
+            "marketValue": {
+              "value": 75000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "75.00",
+                "suffix": "K"
+              }
+            },
+            "age": 19,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 1095,
+              "daysDisplay": "2 Years, 11 Months, 29 Days"
+            },
+            "season": {
+              "id": 2018,
+              "display": "18/19",
+              "cyclicalName": "2019",
+              "nonCyclicalName": "18/19"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/alessandro-vogliacco/transfers/spieler/330208/transfer_id/2204738"
+        },
+        {
+          "id": "1300156",
+          "transferSource": {
+            "competitionId": "ITJ4",
+            "countryId": 75,
+            "clubId": "49567",
+            "coachId": "19652"
+          },
+          "transferDestination": {
+            "competitionId": "ITJ1",
+            "countryId": 75,
+            "clubId": "11008",
+            "coachId": "34361"
+          },
+          "details": {
+            "playerId": "330208",
+            "date": "2015-07-01T00:00:00+02:00",
+            "contractUntilDate": "2021-06-30T00:00:00+02:00",
+            "seasonId": 2015,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 16,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2015,
+              "display": "15/16",
+              "cyclicalName": "2016",
+              "nonCyclicalName": "15/16"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/alessandro-vogliacco/transfers/spieler/330208/transfer_id/1300156"
+        },
+        {
+          "id": "1105285",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 75,
+            "clubId": "29343",
+            "coachId": "0"
+          },
+          "transferDestination": {
+            "competitionId": "ITJ4",
+            "countryId": 75,
+            "clubId": "49567",
+            "coachId": "19652"
+          },
+          "details": {
+            "playerId": "330208",
+            "date": "2014-08-01T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2014,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 15,
+            "fee": {
+              "value": 200000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "200.00",
+                "suffix": "K"
+              }
+            },
+            "season": {
+              "id": 2014,
+              "display": "14/15",
+              "cyclicalName": "2015",
+              "nonCyclicalName": "14/15"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/alessandro-vogliacco/transfers/spieler/330208/transfer_id/1105285"
+        },
+        {
+          "id": "1195697",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 75,
+            "clubId": "5232",
+            "coachId": "47487"
+          },
+          "transferDestination": {
+            "competitionId": "",
+            "countryId": 75,
+            "clubId": "29343",
+            "coachId": "0"
+          },
+          "details": {
+            "playerId": "330208",
+            "date": "2014-06-30T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2013,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 15,
+            "season": {
+              "id": 2013,
+              "display": "13/14",
+              "cyclicalName": "2014",
+              "nonCyclicalName": "13/14"
+            }
+          },
+          "typeDetails": {
+            "type": "RETURNED_FROM_PREVIOUS_LOAN",
+            "name": "End of loan",
+            "feeDescription": "End of loan"
+          },
+          "relativeUrl": "/alessandro-vogliacco/transfers/spieler/330208/transfer_id/1195697"
+        },
+        {
+          "id": "1195696",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 75,
+            "clubId": "29343",
+            "coachId": "0"
+          },
+          "transferDestination": {
+            "competitionId": "",
+            "countryId": 75,
+            "clubId": "5232",
+            "coachId": "47487"
+          },
+          "details": {
+            "playerId": "330208",
+            "date": "2013-08-01T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2013,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 14,
+            "season": {
+              "id": 2013,
+              "display": "13/14",
+              "cyclicalName": "2014",
+              "nonCyclicalName": "13/14"
+            }
+          },
+          "typeDetails": {
+            "type": "ACTIVE_LOAN_TRANSFER",
+            "name": "loan transfer",
+            "feeDescription": "loan transfer"
+          },
+          "relativeUrl": "/alessandro-vogliacco/transfers/spieler/330208/transfer_id/1195696"
+        }
+      ],
+      "pending": [
+        {
+          "id": "5905970",
+          "transferSource": {
+            "competitionId": "GR1",
+            "countryId": 56,
+            "clubId": "1091",
+            "coachId": "2599"
+          },
+          "transferDestination": {
+            "competitionId": "IT1",
+            "countryId": 75,
+            "clubId": "252",
+            "coachId": "90748"
+          },
+          "details": {
+            "playerId": "330208",
+            "date": "2026-06-30T00:00:00+02:00",
+            "contractUntilDate": "2027-06-30T00:00:00+02:00",
+            "seasonId": 2025,
+            "isPending": true,
+            "marketValue": {
+              "value": 2500000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "2.50",
+                "suffix": "M"
+              }
+            },
+            "age": 27,
+            "remainingContractPeriod": {
+              "days": 0,
+              "daysDisplay": "Unknown"
+            },
+            "season": {
+              "id": 2025,
+              "display": "25/26",
+              "cyclicalName": "2026",
+              "nonCyclicalName": "25/26"
+            }
+          },
+          "typeDetails": {
+            "type": "RETURNED_FROM_PREVIOUS_LOAN",
+            "name": "End of loan",
+            "feeDescription": "End of loan"
+          },
+          "relativeUrl": "/alessandro-vogliacco/transfers/spieler/330208/transfer_id/5905970"
+        }
+      ],
+      "url": "",
+      "feeSum": {
+        "value": 2630000,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "2.63",
+          "suffix": "M"
+        }
+      },
+      "averageAge": 27,
+      "totalMarketValue": {
+        "value": 2500000,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "2.50",
+          "suffix": "M"
+        }
+      }
+    },
+    "clubIds": [
+      "1091",
+      "252",
+      "130",
+      "4171",
+      "21331",
+      "41101",
+      "3037",
+      "11008",
+      "49567",
+      "29343",
+      "5232"
+    ],
+    "coachIds": [
+      "2599",
+      "90748",
+      "20029",
+      "56780",
+      "19635",
+      "54836",
+      "26099",
+      "3793",
+      "45621",
+      "2141",
+      "23945",
+      "2238",
+      "19652",
+      "34361",
+      "47487"
+    ],
+    "competitionIds": [
+      "GR1",
+      "IT1",
+      "IT2",
+      "IT3A",
+      "IT3B",
+      "IJ1",
+      "ITJ4",
+      "ITJ1"
+    ],
+    "mostRecentTransfer": {
+      "id": "5905969",
+      "transferSource": {
+        "competitionId": "IT1",
+        "countryId": 75,
+        "clubId": "252",
+        "coachId": "20029"
+      },
+      "transferDestination": {
+        "competitionId": "GR1",
+        "countryId": 56,
+        "clubId": "1091",
+        "coachId": "2599"
+      },
+      "details": {
+        "playerId": "330208",
+        "date": "2025-08-31T00:00:00+02:00",
+        "contractUntilDate": "2026-06-30T00:00:00+02:00",
+        "seasonId": 2025,
+        "isPending": false,
+        "marketValue": {
+          "value": 2800000,
+          "currency": "EUR",
+          "compact": {
+            "prefix": "€",
+            "content": "2.80",
+            "suffix": "M"
+          }
+        },
+        "age": 26,
+        "remainingContractPeriod": {
+          "days": 668,
+          "daysDisplay": "1 Year, 9 Months, 30 Days"
+        },
+        "season": {
+          "id": 2025,
+          "display": "25/26",
+          "cyclicalName": "2026",
+          "nonCyclicalName": "25/26"
+        }
+      },
+      "typeDetails": {
+        "type": "ACTIVE_LOAN_TRANSFER",
+        "name": "loan transfer",
+        "feeDescription": "loan transfer"
+      },
+      "relativeUrl": "/alessandro-vogliacco/transfers/spieler/330208/transfer_id/5905969"
+    }
+  }
+}

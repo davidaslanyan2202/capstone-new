@@ -1,0 +1,517 @@
+{
+  "success": true,
+  "message": "OK",
+  "data": {
+    "playerId": "806168",
+    "history": {
+      "terminated": [
+        {
+          "id": "5896061",
+          "transferSource": {
+            "competitionId": "FR1",
+            "countryId": 50,
+            "clubId": "290",
+            "coachId": "24802"
+          },
+          "transferDestination": {
+            "competitionId": "L2",
+            "countryId": 40,
+            "clubId": "2",
+            "coachId": "5236"
+          },
+          "details": {
+            "playerId": "806168",
+            "date": "2025-08-26T00:00:00+02:00",
+            "contractUntilDate": "2026-06-30T00:00:00+02:00",
+            "seasonId": 2025,
+            "isPending": false,
+            "marketValue": {
+              "value": 1800000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "1.80",
+                "suffix": "M"
+              }
+            },
+            "age": 25,
+            "remainingContractPeriod": {
+              "days": 673,
+              "daysDisplay": "1 Year, 10 Months, 4 Days"
+            },
+            "season": {
+              "id": 2025,
+              "display": "25/26",
+              "cyclicalName": "2026",
+              "nonCyclicalName": "25/26"
+            }
+          },
+          "typeDetails": {
+            "type": "ACTIVE_LOAN_TRANSFER",
+            "name": "loan transfer",
+            "feeDescription": "loan transfer"
+          },
+          "relativeUrl": "/paul-joly/transfers/spieler/806168/transfer_id/5896061"
+        },
+        {
+          "id": "4226230",
+          "transferSource": {
+            "competitionId": "FR2",
+            "countryId": 50,
+            "clubId": "2969",
+            "coachId": "8872"
+          },
+          "transferDestination": {
+            "competitionId": "FR2",
+            "countryId": 50,
+            "clubId": "290",
+            "coachId": "24802"
+          },
+          "details": {
+            "playerId": "806168",
+            "date": "2023-06-30T00:00:00+02:00",
+            "contractUntilDate": "2027-06-30T00:00:00+02:00",
+            "seasonId": 2022,
+            "isPending": false,
+            "marketValue": {
+              "value": 1200000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "1.20",
+                "suffix": "M"
+              }
+            },
+            "age": 23,
+            "remainingContractPeriod": {
+              "days": 0,
+              "daysDisplay": "Unknown"
+            },
+            "season": {
+              "id": 2022,
+              "display": "22/23",
+              "cyclicalName": "2023",
+              "nonCyclicalName": "22/23"
+            }
+          },
+          "typeDetails": {
+            "type": "RETURNED_FROM_PREVIOUS_LOAN",
+            "name": "End of loan",
+            "feeDescription": "End of loan"
+          },
+          "relativeUrl": "/paul-joly/transfers/spieler/806168/transfer_id/4226230"
+        },
+        {
+          "id": "4226229",
+          "transferSource": {
+            "competitionId": "FR1",
+            "countryId": 50,
+            "clubId": "290",
+            "coachId": "24802"
+          },
+          "transferDestination": {
+            "competitionId": "FR2",
+            "countryId": 50,
+            "clubId": "2969",
+            "coachId": "30421"
+          },
+          "details": {
+            "playerId": "806168",
+            "date": "2023-01-16T00:00:00+01:00",
+            "contractUntilDate": "2023-06-30T00:00:00+02:00",
+            "seasonId": 2022,
+            "isPending": false,
+            "marketValue": {
+              "value": 1500000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "1.50",
+                "suffix": "M"
+              }
+            },
+            "age": 22,
+            "remainingContractPeriod": {
+              "days": 1626,
+              "daysDisplay": "4 Years, 5 Months, 14 Days"
+            },
+            "season": {
+              "id": 2022,
+              "display": "22/23",
+              "cyclicalName": "2023",
+              "nonCyclicalName": "22/23"
+            }
+          },
+          "typeDetails": {
+            "type": "ACTIVE_LOAN_TRANSFER",
+            "name": "loan transfer",
+            "feeDescription": "loan transfer"
+          },
+          "relativeUrl": "/paul-joly/transfers/spieler/806168/transfer_id/4226229"
+        },
+        {
+          "id": "3349709",
+          "transferSource": {
+            "competitionId": "CN2B",
+            "countryId": 50,
+            "clubId": "10820",
+            "coachId": "3884"
+          },
+          "transferDestination": {
+            "competitionId": "FR2",
+            "countryId": 50,
+            "clubId": "290",
+            "coachId": "2680"
+          },
+          "details": {
+            "playerId": "806168",
+            "date": "2021-07-01T00:00:00+02:00",
+            "contractUntilDate": "2027-06-30T00:00:00+02:00",
+            "seasonId": 2021,
+            "isPending": false,
+            "marketValue": {
+              "value": 150000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "150.00",
+                "suffix": "K"
+              }
+            },
+            "age": 21,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 729,
+              "daysDisplay": "1 Year, 11 Months, 29 Days"
+            },
+            "season": {
+              "id": 2021,
+              "display": "21/22",
+              "cyclicalName": "2022",
+              "nonCyclicalName": "21/22"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/paul-joly/transfers/spieler/806168/transfer_id/3349709"
+        },
+        {
+          "id": "3108505",
+          "transferSource": {
+            "competitionId": "C3HF",
+            "countryId": 50,
+            "clubId": "16671",
+            "coachId": "91021"
+          },
+          "transferDestination": {
+            "competitionId": "CN2B",
+            "countryId": 50,
+            "clubId": "10820",
+            "coachId": "3884"
+          },
+          "details": {
+            "playerId": "806168",
+            "date": "2020-07-01T00:00:00+02:00",
+            "contractUntilDate": "2023-06-30T00:00:00+02:00",
+            "seasonId": 2020,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 20,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "Free Transfer",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2020,
+              "display": "20/21",
+              "cyclicalName": "2021",
+              "nonCyclicalName": "20/21"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/paul-joly/transfers/spieler/806168/transfer_id/3108505"
+        },
+        {
+          "id": "3108504",
+          "transferSource": {
+            "competitionId": "F19A",
+            "countryId": 50,
+            "clubId": "12767",
+            "coachId": "89997"
+          },
+          "transferDestination": {
+            "competitionId": "C3HF",
+            "countryId": 50,
+            "clubId": "16671",
+            "coachId": "91021"
+          },
+          "details": {
+            "playerId": "806168",
+            "date": "2019-07-01T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2019,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 19,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2019,
+              "display": "19/20",
+              "cyclicalName": "2020",
+              "nonCyclicalName": "19/20"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/paul-joly/transfers/spieler/806168/transfer_id/3108504"
+        },
+        {
+          "id": "3108503",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 50,
+            "clubId": "11605",
+            "coachId": "0"
+          },
+          "transferDestination": {
+            "competitionId": "F19A",
+            "countryId": 50,
+            "clubId": "12767",
+            "coachId": "91022"
+          },
+          "details": {
+            "playerId": "806168",
+            "date": "2018-07-01T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2018,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 18,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "?",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2018,
+              "display": "18/19",
+              "cyclicalName": "2019",
+              "nonCyclicalName": "18/19"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/paul-joly/transfers/spieler/806168/transfer_id/3108503"
+        }
+      ],
+      "pending": [
+        {
+          "id": "5896065",
+          "transferSource": {
+            "competitionId": "L2",
+            "countryId": 40,
+            "clubId": "2",
+            "coachId": "5236"
+          },
+          "transferDestination": {
+            "competitionId": "FR1",
+            "countryId": 50,
+            "clubId": "290",
+            "coachId": "24802"
+          },
+          "details": {
+            "playerId": "806168",
+            "date": "2026-06-30T00:00:00+02:00",
+            "contractUntilDate": "2027-06-30T00:00:00+02:00",
+            "seasonId": 2025,
+            "isPending": true,
+            "marketValue": {
+              "value": 2500000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "2.50",
+                "suffix": "M"
+              }
+            },
+            "age": 26,
+            "remainingContractPeriod": {
+              "days": 0,
+              "daysDisplay": "Unknown"
+            },
+            "season": {
+              "id": 2025,
+              "display": "25/26",
+              "cyclicalName": "2026",
+              "nonCyclicalName": "25/26"
+            }
+          },
+          "typeDetails": {
+            "type": "RETURNED_FROM_PREVIOUS_LOAN",
+            "name": "End of loan",
+            "feeDescription": "End of loan"
+          },
+          "relativeUrl": "/paul-joly/transfers/spieler/806168/transfer_id/5896065"
+        }
+      ],
+      "url": "",
+      "feeSum": {
+        "value": 0,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "0.00",
+          "suffix": ""
+        }
+      },
+      "averageAge": 25,
+      "totalMarketValue": {
+        "value": 2500000,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "2.50",
+          "suffix": "M"
+        }
+      }
+    },
+    "clubIds": [
+      "2",
+      "290",
+      "2969",
+      "10820",
+      "16671",
+      "12767",
+      "11605"
+    ],
+    "coachIds": [
+      "5236",
+      "24802",
+      "8872",
+      "30421",
+      "3884",
+      "2680",
+      "91021",
+      "89997",
+      "91022"
+    ],
+    "competitionIds": [
+      "L2",
+      "FR1",
+      "FR2",
+      "CN2B",
+      "C3HF",
+      "F19A"
+    ],
+    "mostRecentTransfer": {
+      "id": "5896061",
+      "transferSource": {
+        "competitionId": "FR1",
+        "countryId": 50,
+        "clubId": "290",
+        "coachId": "24802"
+      },
+      "transferDestination": {
+        "competitionId": "L2",
+        "countryId": 40,
+        "clubId": "2",
+        "coachId": "5236"
+      },
+      "details": {
+        "playerId": "806168",
+        "date": "2025-08-26T00:00:00+02:00",
+        "contractUntilDate": "2026-06-30T00:00:00+02:00",
+        "seasonId": 2025,
+        "isPending": false,
+        "marketValue": {
+          "value": 1800000,
+          "currency": "EUR",
+          "compact": {
+            "prefix": "€",
+            "content": "1.80",
+            "suffix": "M"
+          }
+        },
+        "age": 25,
+        "remainingContractPeriod": {
+          "days": 673,
+          "daysDisplay": "1 Year, 10 Months, 4 Days"
+        },
+        "season": {
+          "id": 2025,
+          "display": "25/26",
+          "cyclicalName": "2026",
+          "nonCyclicalName": "25/26"
+        }
+      },
+      "typeDetails": {
+        "type": "ACTIVE_LOAN_TRANSFER",
+        "name": "loan transfer",
+        "feeDescription": "loan transfer"
+      },
+      "relativeUrl": "/paul-joly/transfers/spieler/806168/transfer_id/5896061"
+    }
+  }
+}

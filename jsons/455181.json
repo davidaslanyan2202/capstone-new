@@ -1,0 +1,572 @@
+{
+  "success": true,
+  "message": "OK",
+  "data": {
+    "playerId": "455181",
+    "history": {
+      "terminated": [
+        {
+          "id": "4590632",
+          "transferSource": {
+            "competitionId": "ES2",
+            "countryId": 157,
+            "clubId": "3368",
+            "coachId": "42706"
+          },
+          "transferDestination": {
+            "competitionId": "ES1",
+            "countryId": 157,
+            "clubId": "367",
+            "coachId": "28876"
+          },
+          "details": {
+            "playerId": "455181",
+            "date": "2023-08-17T00:00:00+02:00",
+            "contractUntilDate": "2028-06-30T00:00:00+02:00",
+            "seasonId": 2023,
+            "isPending": false,
+            "marketValue": {
+              "value": 8000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "8.00",
+                "suffix": "M"
+              }
+            },
+            "age": 26,
+            "fee": {
+              "value": 8000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "8.00",
+                "suffix": "M"
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 683,
+              "daysDisplay": "1 Year, 10 Months, 13 Days"
+            },
+            "season": {
+              "id": 2023,
+              "display": "23/24",
+              "cyclicalName": "2024",
+              "nonCyclicalName": "23/24"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/jorge-de-frutos/transfers/spieler/455181/transfer_id/4590632"
+        },
+        {
+          "id": "2992196",
+          "transferSource": {
+            "competitionId": "ES1",
+            "countryId": 157,
+            "clubId": "418",
+            "coachId": "21284"
+          },
+          "transferDestination": {
+            "competitionId": "ES1",
+            "countryId": 157,
+            "clubId": "3368",
+            "coachId": "8115"
+          },
+          "details": {
+            "playerId": "455181",
+            "date": "2020-08-04T00:00:00+02:00",
+            "contractUntilDate": "2025-06-30T00:00:00+02:00",
+            "seasonId": 2020,
+            "isPending": false,
+            "marketValue": {
+              "value": 2000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "2.00",
+                "suffix": "M"
+              }
+            },
+            "age": 23,
+            "fee": {
+              "value": 6000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "6.00",
+                "suffix": "M"
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 330,
+              "daysDisplay": "10 Months, 26 Days"
+            },
+            "season": {
+              "id": 2020,
+              "display": "20/21",
+              "cyclicalName": "2021",
+              "nonCyclicalName": "20/21"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/jorge-de-frutos/transfers/spieler/455181/transfer_id/2992196"
+        },
+        {
+          "id": "2762615",
+          "transferSource": {
+            "competitionId": "ES2",
+            "countryId": 157,
+            "clubId": "367",
+            "coachId": "5174"
+          },
+          "transferDestination": {
+            "competitionId": "ES1",
+            "countryId": 157,
+            "clubId": "418",
+            "coachId": "21284"
+          },
+          "details": {
+            "playerId": "455181",
+            "date": "2020-07-21T00:00:00+02:00",
+            "contractUntilDate": "2021-06-30T00:00:00+02:00",
+            "seasonId": 2019,
+            "isPending": false,
+            "marketValue": {
+              "value": 2000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "2.00",
+                "suffix": "M"
+              }
+            },
+            "age": 23,
+            "season": {
+              "id": 2019,
+              "display": "19/20",
+              "cyclicalName": "2020",
+              "nonCyclicalName": "19/20"
+            }
+          },
+          "typeDetails": {
+            "type": "RETURNED_FROM_PREVIOUS_LOAN",
+            "name": "End of loan",
+            "feeDescription": "End of loan"
+          },
+          "relativeUrl": "/jorge-de-frutos/transfers/spieler/455181/transfer_id/2762615"
+        },
+        {
+          "id": "2762612",
+          "transferSource": {
+            "competitionId": "ES1",
+            "countryId": 157,
+            "clubId": "418",
+            "coachId": "21284"
+          },
+          "transferDestination": {
+            "competitionId": "ES2",
+            "countryId": 157,
+            "clubId": "367",
+            "coachId": "5174"
+          },
+          "details": {
+            "playerId": "455181",
+            "date": "2020-01-17T00:00:00+01:00",
+            "contractUntilDate": "2020-06-30T00:00:00+02:00",
+            "seasonId": 2019,
+            "isPending": false,
+            "marketValue": {
+              "value": 2500000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "2.50",
+                "suffix": "M"
+              }
+            },
+            "age": 22,
+            "season": {
+              "id": 2019,
+              "display": "19/20",
+              "cyclicalName": "2020",
+              "nonCyclicalName": "19/20"
+            }
+          },
+          "typeDetails": {
+            "type": "ACTIVE_LOAN_TRANSFER",
+            "name": "loan transfer",
+            "feeDescription": "loan transfer"
+          },
+          "relativeUrl": "/jorge-de-frutos/transfers/spieler/455181/transfer_id/2762612"
+        },
+        {
+          "id": "2762611",
+          "transferSource": {
+            "competitionId": "ES1",
+            "countryId": 157,
+            "clubId": "366",
+            "coachId": "33241"
+          },
+          "transferDestination": {
+            "competitionId": "ES1",
+            "countryId": 157,
+            "clubId": "418",
+            "coachId": "21284"
+          },
+          "details": {
+            "playerId": "455181",
+            "date": "2020-01-16T00:00:00+01:00",
+            "contractUntilDate": null,
+            "seasonId": 2019,
+            "isPending": false,
+            "marketValue": {
+              "value": 2500000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "2.50",
+                "suffix": "M"
+              }
+            },
+            "age": 22,
+            "remainingContractPeriod": {
+              "days": 166,
+              "daysDisplay": "5 Months, 14 Days"
+            },
+            "season": {
+              "id": 2019,
+              "display": "19/20",
+              "cyclicalName": "2020",
+              "nonCyclicalName": "19/20"
+            }
+          },
+          "typeDetails": {
+            "type": "RETURNED_FROM_PREVIOUS_LOAN",
+            "name": "End of loan",
+            "feeDescription": "End of loan"
+          },
+          "relativeUrl": "/jorge-de-frutos/transfers/spieler/455181/transfer_id/2762611"
+        },
+        {
+          "id": "2522962",
+          "transferSource": {
+            "competitionId": "ES1",
+            "countryId": 157,
+            "clubId": "418",
+            "coachId": "21284"
+          },
+          "transferDestination": {
+            "competitionId": "ES1",
+            "countryId": 157,
+            "clubId": "366",
+            "coachId": "33241"
+          },
+          "details": {
+            "playerId": "455181",
+            "date": "2019-07-02T00:00:00+02:00",
+            "contractUntilDate": "2020-06-30T00:00:00+02:00",
+            "seasonId": 2019,
+            "isPending": false,
+            "marketValue": {
+              "value": 5000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "5.00",
+                "suffix": "M"
+              }
+            },
+            "age": 22,
+            "season": {
+              "id": 2019,
+              "display": "19/20",
+              "cyclicalName": "2020",
+              "nonCyclicalName": "19/20"
+            }
+          },
+          "typeDetails": {
+            "type": "ACTIVE_LOAN_TRANSFER",
+            "name": "loan transfer",
+            "feeDescription": "loan transfer"
+          },
+          "relativeUrl": "/jorge-de-frutos/transfers/spieler/455181/transfer_id/2522962"
+        },
+        {
+          "id": "2522964",
+          "transferSource": {
+            "competitionId": "ES3A",
+            "countryId": 157,
+            "clubId": "6767",
+            "coachId": "59701"
+          },
+          "transferDestination": {
+            "competitionId": "ES1",
+            "countryId": 157,
+            "clubId": "418",
+            "coachId": "21284"
+          },
+          "details": {
+            "playerId": "455181",
+            "date": "2019-07-01T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2019,
+            "isPending": false,
+            "marketValue": {
+              "value": 5000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "5.00",
+                "suffix": "M"
+              }
+            },
+            "age": 22,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 365,
+              "daysDisplay": "11 Months, 29 Days"
+            },
+            "season": {
+              "id": 2019,
+              "display": "19/20",
+              "cyclicalName": "2020",
+              "nonCyclicalName": "19/20"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/jorge-de-frutos/transfers/spieler/455181/transfer_id/2522964"
+        },
+        {
+          "id": "2103277",
+          "transferSource": {
+            "competitionId": "ES2",
+            "countryId": 157,
+            "clubId": "13702",
+            "coachId": "19630"
+          },
+          "transferDestination": {
+            "competitionId": "ES3A",
+            "countryId": 157,
+            "clubId": "6767",
+            "coachId": "30782"
+          },
+          "details": {
+            "playerId": "455181",
+            "date": "2018-07-01T00:00:00+02:00",
+            "contractUntilDate": "2020-06-30T00:00:00+02:00",
+            "seasonId": 2018,
+            "isPending": false,
+            "marketValue": {
+              "value": 300000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "300.00",
+                "suffix": "K"
+              }
+            },
+            "age": 21,
+            "fee": {
+              "value": 100000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "100.00",
+                "suffix": "K"
+              }
+            },
+            "season": {
+              "id": 2018,
+              "display": "18/19",
+              "cyclicalName": "2019",
+              "nonCyclicalName": "18/19"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/jorge-de-frutos/transfers/spieler/455181/transfer_id/2103277"
+        },
+        {
+          "id": "2762698",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 157,
+            "clubId": "70299",
+            "coachId": "0"
+          },
+          "transferDestination": {
+            "competitionId": "ES3B",
+            "countryId": 157,
+            "clubId": "13702",
+            "coachId": "19630"
+          },
+          "details": {
+            "playerId": "455181",
+            "date": "2016-07-01T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2016,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 19,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2016,
+              "display": "16/17",
+              "cyclicalName": "2017",
+              "nonCyclicalName": "16/17"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/jorge-de-frutos/transfers/spieler/455181/transfer_id/2762698"
+        }
+      ],
+      "pending": [],
+      "url": "",
+      "feeSum": {
+        "value": 14100000,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "14.10",
+          "suffix": "M"
+        }
+      },
+      "averageAge": 29,
+      "totalMarketValue": {
+        "value": 12000000,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "12.00",
+          "suffix": "M"
+        }
+      }
+    },
+    "clubIds": [
+      "3368",
+      "367",
+      "418",
+      "366",
+      "6767",
+      "13702",
+      "70299"
+    ],
+    "coachIds": [
+      "42706",
+      "28876",
+      "21284",
+      "8115",
+      "5174",
+      "33241",
+      "59701",
+      "19630",
+      "30782"
+    ],
+    "competitionIds": [
+      "ES2",
+      "ES1",
+      "ES3A",
+      "ES3B"
+    ],
+    "mostRecentTransfer": {
+      "id": "4590632",
+      "transferSource": {
+        "competitionId": "ES2",
+        "countryId": 157,
+        "clubId": "3368",
+        "coachId": "42706"
+      },
+      "transferDestination": {
+        "competitionId": "ES1",
+        "countryId": 157,
+        "clubId": "367",
+        "coachId": "28876"
+      },
+      "details": {
+        "playerId": "455181",
+        "date": "2023-08-17T00:00:00+02:00",
+        "contractUntilDate": "2028-06-30T00:00:00+02:00",
+        "seasonId": 2023,
+        "isPending": false,
+        "marketValue": {
+          "value": 8000000,
+          "currency": "EUR",
+          "compact": {
+            "prefix": "€",
+            "content": "8.00",
+            "suffix": "M"
+          }
+        },
+        "age": 26,
+        "fee": {
+          "value": 8000000,
+          "currency": "EUR",
+          "compact": {
+            "prefix": "€",
+            "content": "8.00",
+            "suffix": "M"
+          }
+        },
+        "remainingContractPeriod": {
+          "days": 683,
+          "daysDisplay": "1 Year, 10 Months, 13 Days"
+        },
+        "season": {
+          "id": 2023,
+          "display": "23/24",
+          "cyclicalName": "2024",
+          "nonCyclicalName": "23/24"
+        }
+      },
+      "typeDetails": {
+        "type": "STANDARD",
+        "name": "",
+        "feeDescription": ""
+      },
+      "relativeUrl": "/jorge-de-frutos/transfers/spieler/455181/transfer_id/4590632"
+    }
+  }
+}

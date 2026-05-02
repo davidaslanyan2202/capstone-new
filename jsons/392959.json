@@ -1,0 +1,656 @@
+{
+  "success": true,
+  "message": "OK",
+  "data": {
+    "playerId": "392959",
+    "history": {
+      "terminated": [
+        {
+          "id": "5148055",
+          "transferSource": {
+            "competitionId": "IT1",
+            "countryId": 75,
+            "clubId": "430",
+            "coachId": "95674"
+          },
+          "transferDestination": {
+            "competitionId": "IT2",
+            "countryId": 75,
+            "clubId": "2919",
+            "coachId": "34187"
+          },
+          "details": {
+            "playerId": "392959",
+            "date": "2025-06-30T00:00:00+02:00",
+            "contractUntilDate": "2028-06-30T00:00:00+02:00",
+            "seasonId": 2024,
+            "isPending": false,
+            "marketValue": {
+              "value": 9500000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "9.50",
+                "suffix": "M"
+              }
+            },
+            "age": 26,
+            "remainingContractPeriod": {
+              "days": 0,
+              "daysDisplay": "Unknown"
+            },
+            "season": {
+              "id": 2024,
+              "display": "24/25",
+              "cyclicalName": "2025",
+              "nonCyclicalName": "24/25"
+            }
+          },
+          "typeDetails": {
+            "type": "RETURNED_FROM_PREVIOUS_LOAN",
+            "name": "End of loan",
+            "feeDescription": "End of loan"
+          },
+          "relativeUrl": "/andrea-colpani/transfers/spieler/392959/transfer_id/5148055"
+        },
+        {
+          "id": "5148054",
+          "transferSource": {
+            "competitionId": "IT1",
+            "countryId": 75,
+            "clubId": "2919",
+            "coachId": "34187"
+          },
+          "transferDestination": {
+            "competitionId": "IT1",
+            "countryId": 75,
+            "clubId": "430",
+            "coachId": "95674"
+          },
+          "details": {
+            "playerId": "392959",
+            "date": "2024-07-26T00:00:00+02:00",
+            "contractUntilDate": "2025-06-30T00:00:00+02:00",
+            "seasonId": 2024,
+            "isPending": false,
+            "marketValue": {
+              "value": 18000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "18.00",
+                "suffix": "M"
+              }
+            },
+            "age": 25,
+            "fee": {
+              "value": 4000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "4.00",
+                "suffix": "M"
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 1435,
+              "daysDisplay": "3 Years, 11 Months, 4 Days"
+            },
+            "season": {
+              "id": 2024,
+              "display": "24/25",
+              "cyclicalName": "2025",
+              "nonCyclicalName": "24/25"
+            }
+          },
+          "typeDetails": {
+            "type": "ACTIVE_LOAN_TRANSFER",
+            "name": "loan transfer",
+            "feeDescription": "Loan fee"
+          },
+          "relativeUrl": "/andrea-colpani/transfers/spieler/392959/transfer_id/5148054"
+        },
+        {
+          "id": "3865819",
+          "transferSource": {
+            "competitionId": "IT1",
+            "countryId": 75,
+            "clubId": "800",
+            "coachId": "3436"
+          },
+          "transferDestination": {
+            "competitionId": "IT1",
+            "countryId": 75,
+            "clubId": "2919",
+            "coachId": "16452"
+          },
+          "details": {
+            "playerId": "392959",
+            "date": "2022-07-01T00:00:00+02:00",
+            "contractUntilDate": "2028-06-30T00:00:00+02:00",
+            "seasonId": 2022,
+            "isPending": false,
+            "marketValue": {
+              "value": 2400000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "2.40",
+                "suffix": "M"
+              }
+            },
+            "age": 23,
+            "fee": {
+              "value": 11000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "11.00",
+                "suffix": "M"
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 730,
+              "daysDisplay": "1 Year, 11 Months, 29 Days"
+            },
+            "season": {
+              "id": 2022,
+              "display": "22/23",
+              "cyclicalName": "2023",
+              "nonCyclicalName": "22/23"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/andrea-colpani/transfers/spieler/392959/transfer_id/3865819"
+        },
+        {
+          "id": "3024847",
+          "transferSource": {
+            "competitionId": "IT2",
+            "countryId": 75,
+            "clubId": "2919",
+            "coachId": "16452"
+          },
+          "transferDestination": {
+            "competitionId": "IT1",
+            "countryId": 75,
+            "clubId": "800",
+            "coachId": "3436"
+          },
+          "details": {
+            "playerId": "392959",
+            "date": "2022-06-30T00:00:00+02:00",
+            "contractUntilDate": "2024-06-30T00:00:00+02:00",
+            "seasonId": 2021,
+            "isPending": false,
+            "marketValue": {
+              "value": 2400000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "2.40",
+                "suffix": "M"
+              }
+            },
+            "age": 23,
+            "remainingContractPeriod": {
+              "days": 0,
+              "daysDisplay": "Unknown"
+            },
+            "season": {
+              "id": 2021,
+              "display": "21/22",
+              "cyclicalName": "2022",
+              "nonCyclicalName": "21/22"
+            }
+          },
+          "typeDetails": {
+            "type": "RETURNED_FROM_PREVIOUS_LOAN",
+            "name": "End of loan",
+            "feeDescription": "End of loan"
+          },
+          "relativeUrl": "/andrea-colpani/transfers/spieler/392959/transfer_id/3024847"
+        },
+        {
+          "id": "3024846",
+          "transferSource": {
+            "competitionId": "IT1",
+            "countryId": 75,
+            "clubId": "800",
+            "coachId": "3436"
+          },
+          "transferDestination": {
+            "competitionId": "IT2",
+            "countryId": 75,
+            "clubId": "2919",
+            "coachId": "35229"
+          },
+          "details": {
+            "playerId": "392959",
+            "date": "2020-09-01T00:00:00+02:00",
+            "contractUntilDate": "2022-06-30T00:00:00+02:00",
+            "seasonId": 2020,
+            "isPending": false,
+            "marketValue": {
+              "value": 800000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "800.00",
+                "suffix": "K"
+              }
+            },
+            "age": 21,
+            "remainingContractPeriod": {
+              "days": 302,
+              "daysDisplay": "9 Months, 29 Days"
+            },
+            "season": {
+              "id": 2020,
+              "display": "20/21",
+              "cyclicalName": "2021",
+              "nonCyclicalName": "20/21"
+            }
+          },
+          "typeDetails": {
+            "type": "ACTIVE_LOAN_TRANSFER",
+            "name": "loan transfer",
+            "feeDescription": "loan transfer"
+          },
+          "relativeUrl": "/andrea-colpani/transfers/spieler/392959/transfer_id/3024846"
+        },
+        {
+          "id": "2563111",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 75,
+            "clubId": "4331",
+            "coachId": "42064"
+          },
+          "transferDestination": {
+            "competitionId": "IT1",
+            "countryId": 75,
+            "clubId": "800",
+            "coachId": "3436"
+          },
+          "details": {
+            "playerId": "392959",
+            "date": "2020-08-31T00:00:00+02:00",
+            "contractUntilDate": "2021-06-30T00:00:00+02:00",
+            "seasonId": 2019,
+            "isPending": false,
+            "marketValue": {
+              "value": 800000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "800.00",
+                "suffix": "K"
+              }
+            },
+            "age": 21,
+            "remainingContractPeriod": {
+              "days": 0,
+              "daysDisplay": "Unknown"
+            },
+            "season": {
+              "id": 2019,
+              "display": "19/20",
+              "cyclicalName": "2020",
+              "nonCyclicalName": "19/20"
+            }
+          },
+          "typeDetails": {
+            "type": "RETURNED_FROM_PREVIOUS_LOAN",
+            "name": "End of loan",
+            "feeDescription": "End of loan"
+          },
+          "relativeUrl": "/andrea-colpani/transfers/spieler/392959/transfer_id/2563111"
+        },
+        {
+          "id": "2563110",
+          "transferSource": {
+            "competitionId": "IJ1",
+            "countryId": 75,
+            "clubId": "11998",
+            "coachId": "42109"
+          },
+          "transferDestination": {
+            "competitionId": "IT2",
+            "countryId": 75,
+            "clubId": "4331",
+            "coachId": "25643"
+          },
+          "details": {
+            "playerId": "392959",
+            "date": "2019-07-17T00:00:00+02:00",
+            "contractUntilDate": "2020-08-31T00:00:00+02:00",
+            "seasonId": 2019,
+            "isPending": false,
+            "marketValue": {
+              "value": 400000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "400.00",
+                "suffix": "K"
+              }
+            },
+            "age": 20,
+            "season": {
+              "id": 2019,
+              "display": "19/20",
+              "cyclicalName": "2020",
+              "nonCyclicalName": "19/20"
+            }
+          },
+          "typeDetails": {
+            "type": "ACTIVE_LOAN_TRANSFER",
+            "name": "loan transfer",
+            "feeDescription": "loan transfer"
+          },
+          "relativeUrl": "/andrea-colpani/transfers/spieler/392959/transfer_id/2563110"
+        },
+        {
+          "id": "1594129",
+          "transferSource": {
+            "competitionId": "ITJ5",
+            "countryId": 75,
+            "clubId": "49568",
+            "coachId": "31385"
+          },
+          "transferDestination": {
+            "competitionId": "ITJ3",
+            "countryId": 75,
+            "clubId": "11998",
+            "coachId": "1292"
+          },
+          "details": {
+            "playerId": "392959",
+            "date": "2016-07-01T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2016,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 17,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2016,
+              "display": "16/17",
+              "cyclicalName": "2017",
+              "nonCyclicalName": "16/17"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/andrea-colpani/transfers/spieler/392959/transfer_id/1594129"
+        },
+        {
+          "id": "6238334",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 75,
+            "clubId": "29344",
+            "coachId": "72845"
+          },
+          "transferDestination": {
+            "competitionId": "ITJ5",
+            "countryId": 75,
+            "clubId": "49568",
+            "coachId": "31385"
+          },
+          "details": {
+            "playerId": "392959",
+            "date": "2015-07-01T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2015,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 16,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2015,
+              "display": "15/16",
+              "cyclicalName": "2016",
+              "nonCyclicalName": "15/16"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/andrea-colpani/transfers/spieler/392959/transfer_id/6238334"
+        },
+        {
+          "id": "6238333",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 75,
+            "clubId": "26785",
+            "coachId": "76739"
+          },
+          "transferDestination": {
+            "competitionId": "",
+            "countryId": 75,
+            "clubId": "29344",
+            "coachId": "72845"
+          },
+          "details": {
+            "playerId": "392959",
+            "date": "2015-06-30T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2014,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 16,
+            "season": {
+              "id": 2014,
+              "display": "14/15",
+              "cyclicalName": "2015",
+              "nonCyclicalName": "14/15"
+            }
+          },
+          "typeDetails": {
+            "type": "RETURNED_FROM_PREVIOUS_LOAN",
+            "name": "End of loan",
+            "feeDescription": "End of loan"
+          },
+          "relativeUrl": "/andrea-colpani/transfers/spieler/392959/transfer_id/6238333"
+        },
+        {
+          "id": "6238332",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 75,
+            "clubId": "29344",
+            "coachId": "72845"
+          },
+          "transferDestination": {
+            "competitionId": "",
+            "countryId": 75,
+            "clubId": "26785",
+            "coachId": "35503"
+          },
+          "details": {
+            "playerId": "392959",
+            "date": "2014-07-01T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2014,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 15,
+            "season": {
+              "id": 2014,
+              "display": "14/15",
+              "cyclicalName": "2015",
+              "nonCyclicalName": "14/15"
+            }
+          },
+          "typeDetails": {
+            "type": "ACTIVE_LOAN_TRANSFER",
+            "name": "loan transfer",
+            "feeDescription": "loan transfer"
+          },
+          "relativeUrl": "/andrea-colpani/transfers/spieler/392959/transfer_id/6238332"
+        }
+      ],
+      "pending": [],
+      "url": "",
+      "feeSum": {
+        "value": 15000000,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "15.00",
+          "suffix": "M"
+        }
+      },
+      "averageAge": 26,
+      "totalMarketValue": {
+        "value": 5000000,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "5.00",
+          "suffix": "M"
+        }
+      }
+    },
+    "clubIds": [
+      "430",
+      "2919",
+      "800",
+      "4331",
+      "11998",
+      "49568",
+      "29344",
+      "26785"
+    ],
+    "coachIds": [
+      "95674",
+      "34187",
+      "3436",
+      "16452",
+      "35229",
+      "42064",
+      "42109",
+      "25643",
+      "31385",
+      "1292",
+      "72845",
+      "76739",
+      "35503"
+    ],
+    "competitionIds": [
+      "IT1",
+      "IT2",
+      "IJ1",
+      "ITJ5",
+      "ITJ3"
+    ],
+    "mostRecentTransfer": {
+      "id": "5148055",
+      "transferSource": {
+        "competitionId": "IT1",
+        "countryId": 75,
+        "clubId": "430",
+        "coachId": "95674"
+      },
+      "transferDestination": {
+        "competitionId": "IT2",
+        "countryId": 75,
+        "clubId": "2919",
+        "coachId": "34187"
+      },
+      "details": {
+        "playerId": "392959",
+        "date": "2025-06-30T00:00:00+02:00",
+        "contractUntilDate": "2028-06-30T00:00:00+02:00",
+        "seasonId": 2024,
+        "isPending": false,
+        "marketValue": {
+          "value": 9500000,
+          "currency": "EUR",
+          "compact": {
+            "prefix": "€",
+            "content": "9.50",
+            "suffix": "M"
+          }
+        },
+        "age": 26,
+        "remainingContractPeriod": {
+          "days": 0,
+          "daysDisplay": "Unknown"
+        },
+        "season": {
+          "id": 2024,
+          "display": "24/25",
+          "cyclicalName": "2025",
+          "nonCyclicalName": "24/25"
+        }
+      },
+      "typeDetails": {
+        "type": "RETURNED_FROM_PREVIOUS_LOAN",
+        "name": "End of loan",
+        "feeDescription": "End of loan"
+      },
+      "relativeUrl": "/andrea-colpani/transfers/spieler/392959/transfer_id/5148055"
+    }
+  }
+}

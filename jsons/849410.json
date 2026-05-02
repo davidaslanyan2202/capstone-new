@@ -1,0 +1,585 @@
+{
+  "success": true,
+  "message": "OK",
+  "data": {
+    "playerId": "849410",
+    "history": {
+      "terminated": [
+        {
+          "id": "5745270",
+          "transferSource": {
+            "competitionId": "GB1",
+            "countryId": 189,
+            "clubId": "1237",
+            "coachId": "48076"
+          },
+          "transferDestination": {
+            "competitionId": "FR1",
+            "countryId": 50,
+            "clubId": "667",
+            "coachId": "62134"
+          },
+          "details": {
+            "playerId": "849410",
+            "date": "2025-07-02T00:00:00+02:00",
+            "contractUntilDate": "2029-06-30T00:00:00+02:00",
+            "seasonId": 2025,
+            "isPending": false,
+            "marketValue": {
+              "value": 12000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "12.00",
+                "suffix": "M"
+              }
+            },
+            "age": 20,
+            "fee": {
+              "value": 10000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "10.00",
+                "suffix": "M"
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 1094,
+              "daysDisplay": "2 Years, 11 Months, 28 Days"
+            },
+            "season": {
+              "id": 2025,
+              "display": "25/26",
+              "cyclicalName": "2026",
+              "nonCyclicalName": "25/26"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/valentin-barco/transfers/spieler/849410/transfer_id/5745270"
+        },
+        {
+          "id": "5496900",
+          "transferSource": {
+            "competitionId": "FR1",
+            "countryId": 50,
+            "clubId": "667",
+            "coachId": "62134"
+          },
+          "transferDestination": {
+            "competitionId": "GB1",
+            "countryId": 189,
+            "clubId": "1237",
+            "coachId": "48076"
+          },
+          "details": {
+            "playerId": "849410",
+            "date": "2025-06-30T00:00:00+02:00",
+            "contractUntilDate": "2028-06-30T00:00:00+02:00",
+            "seasonId": 2024,
+            "isPending": false,
+            "marketValue": {
+              "value": 12000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "12.00",
+                "suffix": "M"
+              }
+            },
+            "age": 20,
+            "remainingContractPeriod": {
+              "days": 0,
+              "daysDisplay": "Unknown"
+            },
+            "season": {
+              "id": 2024,
+              "display": "24/25",
+              "cyclicalName": "2025",
+              "nonCyclicalName": "24/25"
+            }
+          },
+          "typeDetails": {
+            "type": "RETURNED_FROM_PREVIOUS_LOAN",
+            "name": "End of loan",
+            "feeDescription": "End of loan"
+          },
+          "relativeUrl": "/valentin-barco/transfers/spieler/849410/transfer_id/5496900"
+        },
+        {
+          "id": "5496899",
+          "transferSource": {
+            "competitionId": "GB1",
+            "countryId": 189,
+            "clubId": "1237",
+            "coachId": "48076"
+          },
+          "transferDestination": {
+            "competitionId": "FR1",
+            "countryId": 50,
+            "clubId": "667",
+            "coachId": "62134"
+          },
+          "details": {
+            "playerId": "849410",
+            "date": "2025-02-02T00:00:00+01:00",
+            "contractUntilDate": "2025-06-30T00:00:00+02:00",
+            "seasonId": 2024,
+            "isPending": false,
+            "marketValue": {
+              "value": 6000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "6.00",
+                "suffix": "M"
+              }
+            },
+            "age": 20,
+            "remainingContractPeriod": {
+              "days": 1244,
+              "daysDisplay": "3 Years, 4 Months, 28 Days"
+            },
+            "season": {
+              "id": 2024,
+              "display": "24/25",
+              "cyclicalName": "2025",
+              "nonCyclicalName": "24/25"
+            }
+          },
+          "typeDetails": {
+            "type": "ACTIVE_LOAN_TRANSFER",
+            "name": "loan transfer",
+            "feeDescription": "loan transfer"
+          },
+          "relativeUrl": "/valentin-barco/transfers/spieler/849410/transfer_id/5496899"
+        },
+        {
+          "id": "5219025",
+          "transferSource": {
+            "competitionId": "ES1",
+            "countryId": 157,
+            "clubId": "368",
+            "coachId": "23730"
+          },
+          "transferDestination": {
+            "competitionId": "GB1",
+            "countryId": 189,
+            "clubId": "1237",
+            "coachId": "48076"
+          },
+          "details": {
+            "playerId": "849410",
+            "date": "2025-02-01T00:00:00+01:00",
+            "contractUntilDate": "2028-06-30T00:00:00+02:00",
+            "seasonId": 2024,
+            "isPending": false,
+            "marketValue": {
+              "value": 6000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "6.00",
+                "suffix": "M"
+              }
+            },
+            "age": 20,
+            "remainingContractPeriod": {
+              "days": 149,
+              "daysDisplay": "4 Months, 29 Days"
+            },
+            "season": {
+              "id": 2024,
+              "display": "24/25",
+              "cyclicalName": "2025",
+              "nonCyclicalName": "24/25"
+            }
+          },
+          "typeDetails": {
+            "type": "RETURNED_FROM_PREVIOUS_LOAN",
+            "name": "End of loan",
+            "feeDescription": "End of loan"
+          },
+          "relativeUrl": "/valentin-barco/transfers/spieler/849410/transfer_id/5219025"
+        },
+        {
+          "id": "5219024",
+          "transferSource": {
+            "competitionId": "GB1",
+            "countryId": 189,
+            "clubId": "1237",
+            "coachId": "48076"
+          },
+          "transferDestination": {
+            "competitionId": "ES1",
+            "countryId": 157,
+            "clubId": "368",
+            "coachId": "23730"
+          },
+          "details": {
+            "playerId": "849410",
+            "date": "2024-08-23T00:00:00+02:00",
+            "contractUntilDate": "2025-06-30T00:00:00+02:00",
+            "seasonId": 2024,
+            "isPending": false,
+            "marketValue": {
+              "value": 13000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "13.00",
+                "suffix": "M"
+              }
+            },
+            "age": 20,
+            "remainingContractPeriod": {
+              "days": 1407,
+              "daysDisplay": "3 Years, 10 Months, 7 Days"
+            },
+            "season": {
+              "id": 2024,
+              "display": "24/25",
+              "cyclicalName": "2025",
+              "nonCyclicalName": "24/25"
+            }
+          },
+          "typeDetails": {
+            "type": "ACTIVE_LOAN_TRANSFER",
+            "name": "loan transfer",
+            "feeDescription": "loan transfer"
+          },
+          "relativeUrl": "/valentin-barco/transfers/spieler/849410/transfer_id/5219024"
+        },
+        {
+          "id": "4834778",
+          "transferSource": {
+            "competitionId": "AR1N",
+            "countryId": 9,
+            "clubId": "189",
+            "coachId": "70683"
+          },
+          "transferDestination": {
+            "competitionId": "GB1",
+            "countryId": 189,
+            "clubId": "1237",
+            "coachId": "32157"
+          },
+          "details": {
+            "playerId": "849410",
+            "date": "2024-01-20T00:00:00+01:00",
+            "contractUntilDate": "2028-06-30T00:00:00+02:00",
+            "seasonId": 2023,
+            "isPending": false,
+            "marketValue": {
+              "value": 13000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "13.00",
+                "suffix": "M"
+              }
+            },
+            "age": 19,
+            "fee": {
+              "value": 9150000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "9.15",
+                "suffix": "M"
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 346,
+              "daysDisplay": "11 Months, 11 Days"
+            },
+            "season": {
+              "id": 2023,
+              "display": "23/24",
+              "cyclicalName": "2024",
+              "nonCyclicalName": "23/24"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/valentin-barco/transfers/spieler/849410/transfer_id/4834778"
+        },
+        {
+          "id": "4391195",
+          "transferSource": {
+            "competitionId": "CLPF",
+            "countryId": 9,
+            "clubId": "14831",
+            "coachId": "95412"
+          },
+          "transferDestination": {
+            "competitionId": "AR1N",
+            "countryId": 9,
+            "clubId": "189",
+            "coachId": "10227"
+          },
+          "details": {
+            "playerId": "849410",
+            "date": "2023-07-01T00:00:00+02:00",
+            "contractUntilDate": "2024-12-31T00:00:00+01:00",
+            "seasonId": 2023,
+            "isPending": false,
+            "marketValue": {
+              "value": 1500000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "1.50",
+                "suffix": "M"
+              }
+            },
+            "age": 18,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 549,
+              "daysDisplay": "1 Year, 5 Months, 30 Days"
+            },
+            "season": {
+              "id": 2023,
+              "display": "23/24",
+              "cyclicalName": "2024",
+              "nonCyclicalName": "23/24"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/valentin-barco/transfers/spieler/849410/transfer_id/4391195"
+        },
+        {
+          "id": "3416466",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 9,
+            "clubId": "15098",
+            "coachId": "0"
+          },
+          "transferDestination": {
+            "competitionId": "CLPI",
+            "countryId": 9,
+            "clubId": "14831",
+            "coachId": "60365"
+          },
+          "details": {
+            "playerId": "849410",
+            "date": "2021-01-01T00:00:00+01:00",
+            "contractUntilDate": "2024-12-31T00:00:00+01:00",
+            "seasonId": 2020,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 16,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2020,
+              "display": "20/21",
+              "cyclicalName": "2021",
+              "nonCyclicalName": "20/21"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/valentin-barco/transfers/spieler/849410/transfer_id/3416466"
+        },
+        {
+          "id": "5378547",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 9,
+            "clubId": "121692",
+            "coachId": "0"
+          },
+          "transferDestination": {
+            "competitionId": "",
+            "countryId": 9,
+            "clubId": "15098",
+            "coachId": "0"
+          },
+          "details": {
+            "playerId": "849410",
+            "date": "2020-01-01T00:00:00+01:00",
+            "contractUntilDate": null,
+            "seasonId": 2019,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 15,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2019,
+              "display": "19/20",
+              "cyclicalName": "2020",
+              "nonCyclicalName": "19/20"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/valentin-barco/transfers/spieler/849410/transfer_id/5378547"
+        }
+      ],
+      "pending": [],
+      "url": "",
+      "feeSum": {
+        "value": 19150000,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "19.15",
+          "suffix": "M"
+        }
+      },
+      "averageAge": 21,
+      "totalMarketValue": {
+        "value": 35000000,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "35.00",
+          "suffix": "M"
+        }
+      }
+    },
+    "clubIds": [
+      "1237",
+      "667",
+      "368",
+      "189",
+      "14831",
+      "15098",
+      "121692"
+    ],
+    "coachIds": [
+      "48076",
+      "62134",
+      "23730",
+      "70683",
+      "32157",
+      "95412",
+      "10227",
+      "60365"
+    ],
+    "competitionIds": [
+      "GB1",
+      "FR1",
+      "ES1",
+      "AR1N",
+      "CLPF",
+      "CLPI"
+    ],
+    "mostRecentTransfer": {
+      "id": "5745270",
+      "transferSource": {
+        "competitionId": "GB1",
+        "countryId": 189,
+        "clubId": "1237",
+        "coachId": "48076"
+      },
+      "transferDestination": {
+        "competitionId": "FR1",
+        "countryId": 50,
+        "clubId": "667",
+        "coachId": "62134"
+      },
+      "details": {
+        "playerId": "849410",
+        "date": "2025-07-02T00:00:00+02:00",
+        "contractUntilDate": "2029-06-30T00:00:00+02:00",
+        "seasonId": 2025,
+        "isPending": false,
+        "marketValue": {
+          "value": 12000000,
+          "currency": "EUR",
+          "compact": {
+            "prefix": "€",
+            "content": "12.00",
+            "suffix": "M"
+          }
+        },
+        "age": 20,
+        "fee": {
+          "value": 10000000,
+          "currency": "EUR",
+          "compact": {
+            "prefix": "€",
+            "content": "10.00",
+            "suffix": "M"
+          }
+        },
+        "remainingContractPeriod": {
+          "days": 1094,
+          "daysDisplay": "2 Years, 11 Months, 28 Days"
+        },
+        "season": {
+          "id": 2025,
+          "display": "25/26",
+          "cyclicalName": "2026",
+          "nonCyclicalName": "25/26"
+        }
+      },
+      "typeDetails": {
+        "type": "STANDARD",
+        "name": "",
+        "feeDescription": ""
+      },
+      "relativeUrl": "/valentin-barco/transfers/spieler/849410/transfer_id/5745270"
+    }
+  }
+}

@@ -1,0 +1,203 @@
+{
+  "success": true,
+  "message": "OK",
+  "data": {
+    "playerId": "183288",
+    "history": {
+      "terminated": [
+        {
+          "id": "1074796",
+          "transferSource": {
+            "competitionId": "GB1",
+            "countryId": 189,
+            "clubId": "180",
+            "coachId": "439"
+          },
+          "transferDestination": {
+            "competitionId": "GB1",
+            "countryId": 189,
+            "clubId": "985",
+            "coachId": "0"
+          },
+          "details": {
+            "playerId": "183288",
+            "date": "2014-07-01T00:00:00+02:00",
+            "contractUntilDate": "2027-06-30T00:00:00+02:00",
+            "seasonId": 2014,
+            "isPending": false,
+            "marketValue": {
+              "value": 13000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "13.00",
+                "suffix": "M"
+              }
+            },
+            "age": 18,
+            "fee": {
+              "value": 37500000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "37.50",
+                "suffix": "M"
+              }
+            },
+            "season": {
+              "id": 2014,
+              "display": "14/15",
+              "cyclicalName": "2015",
+              "nonCyclicalName": "14/15"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/luke-shaw/transfers/spieler/183288/transfer_id/1074796"
+        },
+        {
+          "id": "808169",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 189,
+            "clubId": "6893",
+            "coachId": "0"
+          },
+          "transferDestination": {
+            "competitionId": "GB1",
+            "countryId": 189,
+            "clubId": "180",
+            "coachId": "4152"
+          },
+          "details": {
+            "playerId": "183288",
+            "date": "2012-11-01T00:00:00+01:00",
+            "contractUntilDate": null,
+            "seasonId": 2012,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 17,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2012,
+              "display": "12/13",
+              "cyclicalName": "2013",
+              "nonCyclicalName": "12/13"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/luke-shaw/transfers/spieler/183288/transfer_id/808169"
+        }
+      ],
+      "pending": [],
+      "url": "",
+      "feeSum": {
+        "value": 37500000,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "37.50",
+          "suffix": "M"
+        }
+      },
+      "averageAge": 30,
+      "totalMarketValue": {
+        "value": 10000000,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "10.00",
+          "suffix": "M"
+        }
+      }
+    },
+    "clubIds": [
+      "180",
+      "985",
+      "6893"
+    ],
+    "coachIds": [
+      "439",
+      "4152"
+    ],
+    "competitionIds": [
+      "GB1"
+    ],
+    "mostRecentTransfer": {
+      "id": "1074796",
+      "transferSource": {
+        "competitionId": "GB1",
+        "countryId": 189,
+        "clubId": "180",
+        "coachId": "439"
+      },
+      "transferDestination": {
+        "competitionId": "GB1",
+        "countryId": 189,
+        "clubId": "985",
+        "coachId": "0"
+      },
+      "details": {
+        "playerId": "183288",
+        "date": "2014-07-01T00:00:00+02:00",
+        "contractUntilDate": "2027-06-30T00:00:00+02:00",
+        "seasonId": 2014,
+        "isPending": false,
+        "marketValue": {
+          "value": 13000000,
+          "currency": "EUR",
+          "compact": {
+            "prefix": "€",
+            "content": "13.00",
+            "suffix": "M"
+          }
+        },
+        "age": 18,
+        "fee": {
+          "value": 37500000,
+          "currency": "EUR",
+          "compact": {
+            "prefix": "€",
+            "content": "37.50",
+            "suffix": "M"
+          }
+        },
+        "season": {
+          "id": 2014,
+          "display": "14/15",
+          "cyclicalName": "2015",
+          "nonCyclicalName": "14/15"
+        }
+      },
+      "typeDetails": {
+        "type": "STANDARD",
+        "name": "",
+        "feeDescription": ""
+      },
+      "relativeUrl": "/luke-shaw/transfers/spieler/183288/transfer_id/1074796"
+    }
+  }
+}

@@ -1,0 +1,482 @@
+{
+  "success": true,
+  "message": "OK",
+  "data": {
+    "playerId": "387626",
+    "history": {
+      "terminated": [
+        {
+          "id": "6134810",
+          "transferSource": {
+            "competitionId": "IT1",
+            "countryId": 75,
+            "clubId": "12",
+            "coachId": "3436"
+          },
+          "transferDestination": {
+            "competitionId": "GB1",
+            "countryId": 189,
+            "clubId": "405",
+            "coachId": "5075"
+          },
+          "details": {
+            "playerId": "387626",
+            "date": "2026-01-21T00:00:00+01:00",
+            "contractUntilDate": "2027-06-30T00:00:00+02:00",
+            "seasonId": 2025,
+            "isPending": false,
+            "marketValue": {
+              "value": 18000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "18.00",
+                "suffix": "M"
+              }
+            },
+            "age": 28,
+            "remainingContractPeriod": {
+              "days": 160,
+              "daysDisplay": "5 Months, 9 Days"
+            },
+            "season": {
+              "id": 2025,
+              "display": "25/26",
+              "cyclicalName": "2026",
+              "nonCyclicalName": "25/26"
+            }
+          },
+          "typeDetails": {
+            "type": "RETURNED_FROM_PREVIOUS_LOAN",
+            "name": "End of loan",
+            "feeDescription": "End of loan"
+          },
+          "relativeUrl": "/leon-bailey/transfers/spieler/387626/transfer_id/6134810"
+        },
+        {
+          "id": "5877568",
+          "transferSource": {
+            "competitionId": "GB1",
+            "countryId": 189,
+            "clubId": "405",
+            "coachId": "5075"
+          },
+          "transferDestination": {
+            "competitionId": "IT1",
+            "countryId": 75,
+            "clubId": "12",
+            "coachId": "3436"
+          },
+          "details": {
+            "playerId": "387626",
+            "date": "2025-08-20T00:00:00+02:00",
+            "contractUntilDate": "2026-06-30T00:00:00+02:00",
+            "seasonId": 2025,
+            "isPending": false,
+            "marketValue": {
+              "value": 28000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "28.00",
+                "suffix": "M"
+              }
+            },
+            "age": 28,
+            "fee": {
+              "value": 3000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "3.00",
+                "suffix": "M"
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 679,
+              "daysDisplay": "1 Year, 10 Months, 10 Days"
+            },
+            "season": {
+              "id": 2025,
+              "display": "25/26",
+              "cyclicalName": "2026",
+              "nonCyclicalName": "25/26"
+            }
+          },
+          "typeDetails": {
+            "type": "ACTIVE_LOAN_TRANSFER",
+            "name": "loan transfer",
+            "feeDescription": "Loan fee"
+          },
+          "relativeUrl": "/leon-bailey/transfers/spieler/387626/transfer_id/5877568"
+        },
+        {
+          "id": "3477204",
+          "transferSource": {
+            "competitionId": "L1",
+            "countryId": 40,
+            "clubId": "15",
+            "coachId": "23817"
+          },
+          "transferDestination": {
+            "competitionId": "GB1",
+            "countryId": 189,
+            "clubId": "405",
+            "coachId": "15315"
+          },
+          "details": {
+            "playerId": "387626",
+            "date": "2021-08-04T00:00:00+02:00",
+            "contractUntilDate": "2027-06-30T00:00:00+02:00",
+            "seasonId": 2021,
+            "isPending": false,
+            "marketValue": {
+              "value": 35000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "35.00",
+                "suffix": "M"
+              }
+            },
+            "age": 23,
+            "fee": {
+              "value": 32000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "32.00",
+                "suffix": "M"
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 695,
+              "daysDisplay": "1 Year, 10 Months, 26 Days"
+            },
+            "season": {
+              "id": 2021,
+              "display": "21/22",
+              "cyclicalName": "2022",
+              "nonCyclicalName": "21/22"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/leon-bailey/transfers/spieler/387626/transfer_id/3477204"
+        },
+        {
+          "id": "1690465",
+          "transferSource": {
+            "competitionId": "BE1",
+            "countryId": 19,
+            "clubId": "1184",
+            "coachId": "4084"
+          },
+          "transferDestination": {
+            "competitionId": "L1",
+            "countryId": 40,
+            "clubId": "15",
+            "coachId": "3865"
+          },
+          "details": {
+            "playerId": "387626",
+            "date": "2017-01-31T00:00:00+01:00",
+            "contractUntilDate": "2023-06-30T00:00:00+02:00",
+            "seasonId": 2016,
+            "isPending": false,
+            "marketValue": {
+              "value": 12500000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "12.00",
+                "suffix": "M"
+              }
+            },
+            "age": 19,
+            "fee": {
+              "value": 16700000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "16.70",
+                "suffix": "M"
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 1246,
+              "daysDisplay": "3 Years, 4 Months, 30 Days"
+            },
+            "season": {
+              "id": 2016,
+              "display": "16/17",
+              "cyclicalName": "2017",
+              "nonCyclicalName": "16/17"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/leon-bailey/transfers/spieler/387626/transfer_id/1690465"
+        },
+        {
+          "id": "1317982",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 154,
+            "clubId": "16181",
+            "coachId": "0"
+          },
+          "transferDestination": {
+            "competitionId": "BE1",
+            "countryId": 19,
+            "clubId": "1184",
+            "coachId": "3249"
+          },
+          "details": {
+            "playerId": "387626",
+            "date": "2015-08-12T00:00:00+02:00",
+            "contractUntilDate": "2020-06-30T00:00:00+02:00",
+            "seasonId": 2015,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 18,
+            "fee": {
+              "value": 1400000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "1.40",
+                "suffix": "M"
+              }
+            },
+            "season": {
+              "id": 2015,
+              "display": "15/16",
+              "cyclicalName": "2016",
+              "nonCyclicalName": "15/16"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/leon-bailey/transfers/spieler/387626/transfer_id/1317982"
+        },
+        {
+          "id": "1619415",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 127,
+            "clubId": "20167",
+            "coachId": "0"
+          },
+          "transferDestination": {
+            "competitionId": "",
+            "countryId": 154,
+            "clubId": "16181",
+            "coachId": "0"
+          },
+          "details": {
+            "playerId": "387626",
+            "date": "2013-07-01T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2013,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 15,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "Free Transfer",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2013,
+              "display": "13/14",
+              "cyclicalName": "2014",
+              "nonCyclicalName": "13/14"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/leon-bailey/transfers/spieler/387626/transfer_id/1619415"
+        },
+        {
+          "id": "1619414",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 76,
+            "clubId": "56374",
+            "coachId": "0"
+          },
+          "transferDestination": {
+            "competitionId": "",
+            "countryId": 127,
+            "clubId": "20167",
+            "coachId": "0"
+          },
+          "details": {
+            "playerId": "387626",
+            "date": "2011-07-01T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2011,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 13,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "Free Transfer",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2011,
+              "display": "11/12",
+              "cyclicalName": "2012",
+              "nonCyclicalName": "11/12"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/leon-bailey/transfers/spieler/387626/transfer_id/1619414"
+        }
+      ],
+      "pending": [],
+      "url": "",
+      "feeSum": {
+        "value": 53100000,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "53.10",
+          "suffix": "M"
+        }
+      },
+      "averageAge": 28,
+      "totalMarketValue": {
+        "value": 16000000,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "16.00",
+          "suffix": "M"
+        }
+      }
+    },
+    "clubIds": [
+      "12",
+      "405",
+      "15",
+      "1184",
+      "16181",
+      "20167",
+      "56374"
+    ],
+    "coachIds": [
+      "3436",
+      "5075",
+      "23817",
+      "15315",
+      "4084",
+      "3865",
+      "3249"
+    ],
+    "competitionIds": [
+      "IT1",
+      "GB1",
+      "L1",
+      "BE1"
+    ],
+    "mostRecentTransfer": {
+      "id": "6134810",
+      "transferSource": {
+        "competitionId": "IT1",
+        "countryId": 75,
+        "clubId": "12",
+        "coachId": "3436"
+      },
+      "transferDestination": {
+        "competitionId": "GB1",
+        "countryId": 189,
+        "clubId": "405",
+        "coachId": "5075"
+      },
+      "details": {
+        "playerId": "387626",
+        "date": "2026-01-21T00:00:00+01:00",
+        "contractUntilDate": "2027-06-30T00:00:00+02:00",
+        "seasonId": 2025,
+        "isPending": false,
+        "marketValue": {
+          "value": 18000000,
+          "currency": "EUR",
+          "compact": {
+            "prefix": "€",
+            "content": "18.00",
+            "suffix": "M"
+          }
+        },
+        "age": 28,
+        "remainingContractPeriod": {
+          "days": 160,
+          "daysDisplay": "5 Months, 9 Days"
+        },
+        "season": {
+          "id": 2025,
+          "display": "25/26",
+          "cyclicalName": "2026",
+          "nonCyclicalName": "25/26"
+        }
+      },
+      "typeDetails": {
+        "type": "RETURNED_FROM_PREVIOUS_LOAN",
+        "name": "End of loan",
+        "feeDescription": "End of loan"
+      },
+      "relativeUrl": "/leon-bailey/transfers/spieler/387626/transfer_id/6134810"
+    }
+  }
+}

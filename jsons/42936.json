@@ -1,0 +1,970 @@
+{
+  "success": true,
+  "message": "OK",
+  "data": {
+    "playerId": "42936",
+    "history": {
+      "terminated": [
+        {
+          "id": "5801278",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 40,
+            "clubId": "27058",
+            "coachId": "0"
+          },
+          "transferDestination": {
+            "competitionId": "",
+            "countryId": 0,
+            "clubId": "123",
+            "coachId": "0"
+          },
+          "details": {
+            "playerId": "42936",
+            "date": "2025-07-01T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2025,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 36,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2025,
+              "display": "25/26",
+              "cyclicalName": "2026",
+              "nonCyclicalName": "25/26"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/nils-petersen/transfers/spieler/42936/transfer_id/5801278"
+        },
+        {
+          "id": "4342362",
+          "transferSource": {
+            "competitionId": "L1",
+            "countryId": 40,
+            "clubId": "60",
+            "coachId": "2989"
+          },
+          "transferDestination": {
+            "competitionId": "",
+            "countryId": 40,
+            "clubId": "27058",
+            "coachId": "128392"
+          },
+          "details": {
+            "playerId": "42936",
+            "date": "2023-08-20T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2023,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 34,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "Free Transfer",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2023,
+              "display": "23/24",
+              "cyclicalName": "2024",
+              "nonCyclicalName": "23/24"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/nils-petersen/transfers/spieler/42936/transfer_id/4342362"
+        },
+        {
+          "id": "1270897",
+          "transferSource": {
+            "competitionId": "L1",
+            "countryId": 40,
+            "clubId": "86",
+            "coachId": "2048"
+          },
+          "transferDestination": {
+            "competitionId": "L2",
+            "countryId": 40,
+            "clubId": "60",
+            "coachId": "2989"
+          },
+          "details": {
+            "playerId": "42936",
+            "date": "2015-07-01T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2015,
+            "isPending": false,
+            "marketValue": {
+              "value": 3000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "3.00",
+                "suffix": "M"
+              }
+            },
+            "age": 26,
+            "fee": {
+              "value": 2800000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "2.80",
+                "suffix": "M"
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 730,
+              "daysDisplay": "1 Year, 11 Months, 29 Days"
+            },
+            "season": {
+              "id": 2015,
+              "display": "15/16",
+              "cyclicalName": "2016",
+              "nonCyclicalName": "15/16"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/nils-petersen/transfers/spieler/42936/transfer_id/1270897"
+        },
+        {
+          "id": "1163551",
+          "transferSource": {
+            "competitionId": "L1",
+            "countryId": 40,
+            "clubId": "60",
+            "coachId": "2989"
+          },
+          "transferDestination": {
+            "competitionId": "L1",
+            "countryId": 40,
+            "clubId": "86",
+            "coachId": "2048"
+          },
+          "details": {
+            "playerId": "42936",
+            "date": "2015-06-30T00:00:00+02:00",
+            "contractUntilDate": "2017-06-30T00:00:00+02:00",
+            "seasonId": 2014,
+            "isPending": false,
+            "marketValue": {
+              "value": 1750000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "1.70",
+                "suffix": "M"
+              }
+            },
+            "age": 26,
+            "remainingContractPeriod": {
+              "days": 0,
+              "daysDisplay": "Unknown"
+            },
+            "season": {
+              "id": 2014,
+              "display": "14/15",
+              "cyclicalName": "2015",
+              "nonCyclicalName": "14/15"
+            }
+          },
+          "typeDetails": {
+            "type": "RETURNED_FROM_PREVIOUS_LOAN",
+            "name": "End of loan",
+            "feeDescription": "End of loan"
+          },
+          "relativeUrl": "/nils-petersen/transfers/spieler/42936/transfer_id/1163551"
+        },
+        {
+          "id": "1163514",
+          "transferSource": {
+            "competitionId": "L1",
+            "countryId": 40,
+            "clubId": "86",
+            "coachId": "2048"
+          },
+          "transferDestination": {
+            "competitionId": "L1",
+            "countryId": 40,
+            "clubId": "60",
+            "coachId": "2989"
+          },
+          "details": {
+            "playerId": "42936",
+            "date": "2015-01-01T00:00:00+01:00",
+            "contractUntilDate": "2015-06-30T00:00:00+02:00",
+            "seasonId": 2014,
+            "isPending": false,
+            "marketValue": {
+              "value": 2500000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "2.50",
+                "suffix": "M"
+              }
+            },
+            "age": 26,
+            "fee": {
+              "value": 200000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "200.00",
+                "suffix": "K"
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 911,
+              "daysDisplay": "2 Years, 5 Months, 29 Days"
+            },
+            "season": {
+              "id": 2014,
+              "display": "14/15",
+              "cyclicalName": "2015",
+              "nonCyclicalName": "14/15"
+            }
+          },
+          "typeDetails": {
+            "type": "ACTIVE_LOAN_TRANSFER",
+            "name": "loan transfer",
+            "feeDescription": "Loan fee"
+          },
+          "relativeUrl": "/nils-petersen/transfers/spieler/42936/transfer_id/1163514"
+        },
+        {
+          "id": "873955",
+          "transferSource": {
+            "competitionId": "L1",
+            "countryId": 40,
+            "clubId": "27",
+            "coachId": "5672"
+          },
+          "transferDestination": {
+            "competitionId": "L1",
+            "countryId": 40,
+            "clubId": "86",
+            "coachId": "1049"
+          },
+          "details": {
+            "playerId": "42936",
+            "date": "2013-07-01T00:00:00+02:00",
+            "contractUntilDate": "2017-06-30T00:00:00+02:00",
+            "seasonId": 2013,
+            "isPending": false,
+            "marketValue": {
+              "value": 5000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "5.00",
+                "suffix": "M"
+              }
+            },
+            "age": 24,
+            "fee": {
+              "value": 3000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "3.00",
+                "suffix": "M"
+              }
+            },
+            "season": {
+              "id": 2013,
+              "display": "13/14",
+              "cyclicalName": "2014",
+              "nonCyclicalName": "13/14"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/nils-petersen/transfers/spieler/42936/transfer_id/873955"
+        },
+        {
+          "id": "738010",
+          "transferSource": {
+            "competitionId": "L1",
+            "countryId": 40,
+            "clubId": "86",
+            "coachId": "2366"
+          },
+          "transferDestination": {
+            "competitionId": "L1",
+            "countryId": 40,
+            "clubId": "27",
+            "coachId": "90"
+          },
+          "details": {
+            "playerId": "42936",
+            "date": "2013-06-30T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2012,
+            "isPending": false,
+            "marketValue": {
+              "value": 5000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "5.00",
+                "suffix": "M"
+              }
+            },
+            "age": 24,
+            "remainingContractPeriod": {
+              "days": 0,
+              "daysDisplay": "Unknown"
+            },
+            "season": {
+              "id": 2012,
+              "display": "12/13",
+              "cyclicalName": "2013",
+              "nonCyclicalName": "12/13"
+            }
+          },
+          "typeDetails": {
+            "type": "RETURNED_FROM_PREVIOUS_LOAN",
+            "name": "End of loan",
+            "feeDescription": "End of loan"
+          },
+          "relativeUrl": "/nils-petersen/transfers/spieler/42936/transfer_id/738010"
+        },
+        {
+          "id": "738009",
+          "transferSource": {
+            "competitionId": "L1",
+            "countryId": 40,
+            "clubId": "27",
+            "coachId": "90"
+          },
+          "transferDestination": {
+            "competitionId": "L1",
+            "countryId": 40,
+            "clubId": "86",
+            "coachId": "224"
+          },
+          "details": {
+            "playerId": "42936",
+            "date": "2012-07-01T00:00:00+02:00",
+            "contractUntilDate": "2013-06-30T00:00:00+02:00",
+            "seasonId": 2012,
+            "isPending": false,
+            "marketValue": {
+              "value": 3000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "3.00",
+                "suffix": "M"
+              }
+            },
+            "age": 23,
+            "fee": {
+              "value": 500000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "500.00",
+                "suffix": "K"
+              }
+            },
+            "season": {
+              "id": 2012,
+              "display": "12/13",
+              "cyclicalName": "2013",
+              "nonCyclicalName": "12/13"
+            }
+          },
+          "typeDetails": {
+            "type": "ACTIVE_LOAN_TRANSFER",
+            "name": "loan transfer",
+            "feeDescription": "Loan fee"
+          },
+          "relativeUrl": "/nils-petersen/transfers/spieler/42936/transfer_id/738009"
+        },
+        {
+          "id": "573316",
+          "transferSource": {
+            "competitionId": "L2",
+            "countryId": 40,
+            "clubId": "25",
+            "coachId": "286"
+          },
+          "transferDestination": {
+            "competitionId": "L1",
+            "countryId": 40,
+            "clubId": "27",
+            "coachId": "90"
+          },
+          "details": {
+            "playerId": "42936",
+            "date": "2011-07-01T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2011,
+            "isPending": false,
+            "marketValue": {
+              "value": 4000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "4.00",
+                "suffix": "M"
+              }
+            },
+            "age": 22,
+            "fee": {
+              "value": 2800000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "2.80",
+                "suffix": "M"
+              }
+            },
+            "season": {
+              "id": 2011,
+              "display": "11/12",
+              "cyclicalName": "2012",
+              "nonCyclicalName": "11/12"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/nils-petersen/transfers/spieler/42936/transfer_id/573316"
+        },
+        {
+          "id": "254046",
+          "transferSource": {
+            "competitionId": "L3",
+            "countryId": 40,
+            "clubId": "113",
+            "coachId": "1263"
+          },
+          "transferDestination": {
+            "competitionId": "L1",
+            "countryId": 40,
+            "clubId": "25",
+            "coachId": "5261"
+          },
+          "details": {
+            "playerId": "42936",
+            "date": "2009-01-06T00:00:00+01:00",
+            "contractUntilDate": null,
+            "seasonId": 2008,
+            "isPending": false,
+            "marketValue": {
+              "value": 250000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "250.00",
+                "suffix": "K"
+              }
+            },
+            "age": 20,
+            "fee": {
+              "value": 300000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "300.00",
+                "suffix": "K"
+              }
+            },
+            "season": {
+              "id": 2008,
+              "display": "08/09",
+              "cyclicalName": "2009",
+              "nonCyclicalName": "08/09"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/nils-petersen/transfers/spieler/42936/transfer_id/254046"
+        },
+        {
+          "id": "130145",
+          "transferSource": {
+            "competitionId": "OL4",
+            "countryId": 40,
+            "clubId": "7081",
+            "coachId": "3693"
+          },
+          "transferDestination": {
+            "competitionId": "L2",
+            "countryId": 40,
+            "clubId": "113",
+            "coachId": "172"
+          },
+          "details": {
+            "playerId": "42936",
+            "date": "2007-07-01T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2007,
+            "isPending": false,
+            "marketValue": {
+              "value": 150000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "150.00",
+                "suffix": "K"
+              }
+            },
+            "age": 18,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2007,
+              "display": "07/08",
+              "cyclicalName": "2008",
+              "nonCyclicalName": "07/08"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/nils-petersen/transfers/spieler/42936/transfer_id/130145"
+        },
+        {
+          "id": "106309",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 40,
+            "clubId": "8663",
+            "coachId": "5338"
+          },
+          "transferDestination": {
+            "competitionId": "OL4",
+            "countryId": 40,
+            "clubId": "7081",
+            "coachId": "3693"
+          },
+          "details": {
+            "playerId": "42936",
+            "date": "2006-07-01T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2006,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 17,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2006,
+              "display": "06/07",
+              "cyclicalName": "2007",
+              "nonCyclicalName": "06/07"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/nils-petersen/transfers/spieler/42936/transfer_id/106309"
+        },
+        {
+          "id": "120256",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 40,
+            "clubId": "9347",
+            "coachId": "0"
+          },
+          "transferDestination": {
+            "competitionId": "AJ1",
+            "countryId": 40,
+            "clubId": "8663",
+            "coachId": "22573"
+          },
+          "details": {
+            "playerId": "42936",
+            "date": "2005-01-01T00:00:00+01:00",
+            "contractUntilDate": null,
+            "seasonId": 2004,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 16,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "Free Transfer",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2004,
+              "display": "04/05",
+              "cyclicalName": "2005",
+              "nonCyclicalName": "04/05"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/nils-petersen/transfers/spieler/42936/transfer_id/120256"
+        },
+        {
+          "id": "1163266",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 40,
+            "clubId": "46491",
+            "coachId": "0"
+          },
+          "transferDestination": {
+            "competitionId": "",
+            "countryId": 40,
+            "clubId": "9347",
+            "coachId": "0"
+          },
+          "details": {
+            "playerId": "42936",
+            "date": "2004-07-01T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2004,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 15,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2004,
+              "display": "04/05",
+              "cyclicalName": "2005",
+              "nonCyclicalName": "04/05"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/nils-petersen/transfers/spieler/42936/transfer_id/1163266"
+        },
+        {
+          "id": "1163258",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 40,
+            "clubId": "46492",
+            "coachId": "0"
+          },
+          "transferDestination": {
+            "competitionId": "",
+            "countryId": 40,
+            "clubId": "46491",
+            "coachId": "0"
+          },
+          "details": {
+            "playerId": "42936",
+            "date": "2002-07-01T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2002,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 13,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2002,
+              "display": "02/03",
+              "cyclicalName": "2003",
+              "nonCyclicalName": "02/03"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/nils-petersen/transfers/spieler/42936/transfer_id/1163258"
+        },
+        {
+          "id": "1163257",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 40,
+            "clubId": "46490",
+            "coachId": "0"
+          },
+          "transferDestination": {
+            "competitionId": "",
+            "countryId": 40,
+            "clubId": "46492",
+            "coachId": "0"
+          },
+          "details": {
+            "playerId": "42936",
+            "date": "2001-07-01T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2001,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 12,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "Free Transfer",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2001,
+              "display": "01/02",
+              "cyclicalName": "2002",
+              "nonCyclicalName": "01/02"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/nils-petersen/transfers/spieler/42936/transfer_id/1163257"
+        }
+      ],
+      "pending": [],
+      "url": "",
+      "feeSum": {
+        "value": 9600000,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "9.60",
+          "suffix": "M"
+        }
+      },
+      "averageAge": 37,
+      "totalMarketValue": {
+        "value": 0,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "0.00",
+          "suffix": ""
+        }
+      }
+    },
+    "clubIds": [
+      "27058",
+      "123",
+      "60",
+      "86",
+      "27",
+      "25",
+      "113",
+      "7081",
+      "8663",
+      "9347",
+      "46491",
+      "46492",
+      "46490"
+    ],
+    "coachIds": [
+      "2989",
+      "128392",
+      "2048",
+      "5672",
+      "1049",
+      "2366",
+      "90",
+      "224",
+      "286",
+      "1263",
+      "5261",
+      "3693",
+      "172",
+      "5338",
+      "22573"
+    ],
+    "competitionIds": [
+      "L1",
+      "L2",
+      "L3",
+      "OL4",
+      "AJ1"
+    ],
+    "mostRecentTransfer": {
+      "id": "5801278",
+      "transferSource": {
+        "competitionId": "",
+        "countryId": 40,
+        "clubId": "27058",
+        "coachId": "0"
+      },
+      "transferDestination": {
+        "competitionId": "",
+        "countryId": 0,
+        "clubId": "123",
+        "coachId": "0"
+      },
+      "details": {
+        "playerId": "42936",
+        "date": "2025-07-01T00:00:00+02:00",
+        "contractUntilDate": null,
+        "seasonId": 2025,
+        "isPending": false,
+        "marketValue": {
+          "value": 0,
+          "currency": "EUR",
+          "compact": {
+            "prefix": "€",
+            "content": "0.00",
+            "suffix": ""
+          }
+        },
+        "age": 36,
+        "fee": {
+          "value": null,
+          "currency": "",
+          "compact": {
+            "prefix": "",
+            "content": "-",
+            "suffix": ""
+          }
+        },
+        "season": {
+          "id": 2025,
+          "display": "25/26",
+          "cyclicalName": "2026",
+          "nonCyclicalName": "25/26"
+        }
+      },
+      "typeDetails": {
+        "type": "STANDARD",
+        "name": "",
+        "feeDescription": ""
+      },
+      "relativeUrl": "/nils-petersen/transfers/spieler/42936/transfer_id/5801278"
+    }
+  }
+}

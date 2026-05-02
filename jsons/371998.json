@@ -1,0 +1,214 @@
+{
+  "success": true,
+  "message": "OK",
+  "data": {
+    "playerId": "371998",
+    "history": {
+      "terminated": [
+        {
+          "id": "1772257",
+          "transferSource": {
+            "competitionId": "BRA1",
+            "countryId": 26,
+            "clubId": "614",
+            "coachId": "58565"
+          },
+          "transferDestination": {
+            "competitionId": "ES1",
+            "countryId": 157,
+            "clubId": "418",
+            "coachId": "6615"
+          },
+          "details": {
+            "playerId": "371998",
+            "date": "2018-07-12T00:00:00+02:00",
+            "contractUntilDate": "2027-06-30T00:00:00+02:00",
+            "seasonId": 2018,
+            "isPending": false,
+            "marketValue": {
+              "value": 35000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "35.00",
+                "suffix": "M"
+              }
+            },
+            "age": 18,
+            "fee": {
+              "value": 45000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "45.00",
+                "suffix": "M"
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 384,
+              "daysDisplay": "1 Year, 19 Days"
+            },
+            "season": {
+              "id": 2018,
+              "display": "18/19",
+              "cyclicalName": "2019",
+              "nonCyclicalName": "18/19"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/vinicius-junior/transfers/spieler/371998/transfer_id/1772257"
+        },
+        {
+          "id": "1765144",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 26,
+            "clubId": "15002",
+            "coachId": "100877"
+          },
+          "transferDestination": {
+            "competitionId": "BRA1",
+            "countryId": 26,
+            "clubId": "614",
+            "coachId": "46981"
+          },
+          "details": {
+            "playerId": "371998",
+            "date": "2017-05-08T00:00:00+02:00",
+            "contractUntilDate": "2019-07-31T00:00:00+02:00",
+            "seasonId": 2016,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 16,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2016,
+              "display": "16/17",
+              "cyclicalName": "2017",
+              "nonCyclicalName": "16/17"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/vinicius-junior/transfers/spieler/371998/transfer_id/1765144"
+        }
+      ],
+      "pending": [],
+      "url": "",
+      "feeSum": {
+        "value": 45000000,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "45.00",
+          "suffix": "M"
+        }
+      },
+      "averageAge": 25,
+      "totalMarketValue": {
+        "value": 150000000,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "150.00",
+          "suffix": "M"
+        }
+      }
+    },
+    "clubIds": [
+      "614",
+      "418",
+      "15002"
+    ],
+    "coachIds": [
+      "58565",
+      "6615",
+      "100877",
+      "46981"
+    ],
+    "competitionIds": [
+      "BRA1",
+      "ES1"
+    ],
+    "mostRecentTransfer": {
+      "id": "1772257",
+      "transferSource": {
+        "competitionId": "BRA1",
+        "countryId": 26,
+        "clubId": "614",
+        "coachId": "58565"
+      },
+      "transferDestination": {
+        "competitionId": "ES1",
+        "countryId": 157,
+        "clubId": "418",
+        "coachId": "6615"
+      },
+      "details": {
+        "playerId": "371998",
+        "date": "2018-07-12T00:00:00+02:00",
+        "contractUntilDate": "2027-06-30T00:00:00+02:00",
+        "seasonId": 2018,
+        "isPending": false,
+        "marketValue": {
+          "value": 35000000,
+          "currency": "EUR",
+          "compact": {
+            "prefix": "€",
+            "content": "35.00",
+            "suffix": "M"
+          }
+        },
+        "age": 18,
+        "fee": {
+          "value": 45000000,
+          "currency": "EUR",
+          "compact": {
+            "prefix": "€",
+            "content": "45.00",
+            "suffix": "M"
+          }
+        },
+        "remainingContractPeriod": {
+          "days": 384,
+          "daysDisplay": "1 Year, 19 Days"
+        },
+        "season": {
+          "id": 2018,
+          "display": "18/19",
+          "cyclicalName": "2019",
+          "nonCyclicalName": "18/19"
+        }
+      },
+      "typeDetails": {
+        "type": "STANDARD",
+        "name": "",
+        "feeDescription": ""
+      },
+      "relativeUrl": "/vinicius-junior/transfers/spieler/371998/transfer_id/1772257"
+    }
+  }
+}

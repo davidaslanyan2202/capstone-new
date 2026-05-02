@@ -1,0 +1,402 @@
+{
+  "success": true,
+  "message": "OK",
+  "data": {
+    "playerId": "764859",
+    "history": {
+      "terminated": [
+        {
+          "id": "3890272",
+          "transferSource": {
+            "competitionId": "SE1",
+            "countryId": 147,
+            "clubId": "1059",
+            "coachId": "34166"
+          },
+          "transferDestination": {
+            "competitionId": "ES1",
+            "countryId": 157,
+            "clubId": "940",
+            "coachId": "38808"
+          },
+          "details": {
+            "playerId": "764859",
+            "date": "2022-07-01T00:00:00+02:00",
+            "contractUntilDate": "2029-06-30T00:00:00+02:00",
+            "seasonId": 2022,
+            "isPending": false,
+            "marketValue": {
+              "value": 5000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "5.00",
+                "suffix": "M"
+              }
+            },
+            "age": 18,
+            "fee": {
+              "value": 5500000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "5.50",
+                "suffix": "M"
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 730,
+              "daysDisplay": "1 Year, 11 Months, 29 Days"
+            },
+            "season": {
+              "id": 2022,
+              "display": "22/23",
+              "cyclicalName": "2023",
+              "nonCyclicalName": "22/23"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/williot-swedberg/transfers/spieler/764859/transfer_id/3890272"
+        },
+        {
+          "id": "3557065",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 147,
+            "clubId": "42077",
+            "coachId": "0"
+          },
+          "transferDestination": {
+            "competitionId": "SE1",
+            "countryId": 147,
+            "clubId": "1059",
+            "coachId": "41893"
+          },
+          "details": {
+            "playerId": "764859",
+            "date": "2021-08-11T00:00:00+02:00",
+            "contractUntilDate": "2024-06-30T00:00:00+02:00",
+            "seasonId": 2021,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 17,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2021,
+              "display": "21/22",
+              "cyclicalName": "2022",
+              "nonCyclicalName": "21/22"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/williot-swedberg/transfers/spieler/764859/transfer_id/3557065"
+        },
+        {
+          "id": "3558266",
+          "transferSource": {
+            "competitionId": "SE3N",
+            "countryId": 147,
+            "clubId": "17938",
+            "coachId": "18348"
+          },
+          "transferDestination": {
+            "competitionId": "",
+            "countryId": 147,
+            "clubId": "42077",
+            "coachId": "0"
+          },
+          "details": {
+            "playerId": "764859",
+            "date": "2021-08-10T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2021,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 17,
+            "remainingContractPeriod": {
+              "days": 112,
+              "daysDisplay": "3 Months, 20 Days"
+            },
+            "season": {
+              "id": 2021,
+              "display": "21/22",
+              "cyclicalName": "2022",
+              "nonCyclicalName": "21/22"
+            }
+          },
+          "typeDetails": {
+            "type": "RETURNED_FROM_PREVIOUS_LOAN",
+            "name": "End of loan",
+            "feeDescription": "End of loan"
+          },
+          "relativeUrl": "/williot-swedberg/transfers/spieler/764859/transfer_id/3558266"
+        },
+        {
+          "id": "3444284",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 147,
+            "clubId": "42077",
+            "coachId": "0"
+          },
+          "transferDestination": {
+            "competitionId": "SE3N",
+            "countryId": 147,
+            "clubId": "17938",
+            "coachId": "13678"
+          },
+          "details": {
+            "playerId": "764859",
+            "date": "2021-01-08T00:00:00+01:00",
+            "contractUntilDate": "2021-11-30T00:00:00+01:00",
+            "seasonId": 2020,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 16,
+            "season": {
+              "id": 2020,
+              "display": "20/21",
+              "cyclicalName": "2021",
+              "nonCyclicalName": "20/21"
+            }
+          },
+          "typeDetails": {
+            "type": "ACTIVE_LOAN_TRANSFER",
+            "name": "loan transfer",
+            "feeDescription": "loan transfer"
+          },
+          "relativeUrl": "/williot-swedberg/transfers/spieler/764859/transfer_id/3444284"
+        },
+        {
+          "id": "3082129",
+          "transferSource": {
+            "competitionId": "SE3N",
+            "countryId": 147,
+            "clubId": "6012",
+            "coachId": "13678"
+          },
+          "transferDestination": {
+            "competitionId": "",
+            "countryId": 147,
+            "clubId": "42077",
+            "coachId": "0"
+          },
+          "details": {
+            "playerId": "764859",
+            "date": "2020-11-30T00:00:00+01:00",
+            "contractUntilDate": null,
+            "seasonId": 2020,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 16,
+            "remainingContractPeriod": {
+              "days": 0,
+              "daysDisplay": "Unknown"
+            },
+            "season": {
+              "id": 2020,
+              "display": "20/21",
+              "cyclicalName": "2021",
+              "nonCyclicalName": "20/21"
+            }
+          },
+          "typeDetails": {
+            "type": "RETURNED_FROM_PREVIOUS_LOAN",
+            "name": "End of loan",
+            "feeDescription": "End of loan"
+          },
+          "relativeUrl": "/williot-swedberg/transfers/spieler/764859/transfer_id/3082129"
+        },
+        {
+          "id": "3082128",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 147,
+            "clubId": "42077",
+            "coachId": "0"
+          },
+          "transferDestination": {
+            "competitionId": "SE3N",
+            "countryId": 147,
+            "clubId": "6012",
+            "coachId": "13678"
+          },
+          "details": {
+            "playerId": "764859",
+            "date": "2020-08-01T00:00:00+02:00",
+            "contractUntilDate": "2020-11-30T00:00:00+01:00",
+            "seasonId": 2020,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 16,
+            "season": {
+              "id": 2020,
+              "display": "20/21",
+              "cyclicalName": "2021",
+              "nonCyclicalName": "20/21"
+            }
+          },
+          "typeDetails": {
+            "type": "ACTIVE_LOAN_TRANSFER",
+            "name": "loan transfer",
+            "feeDescription": "loan transfer"
+          },
+          "relativeUrl": "/williot-swedberg/transfers/spieler/764859/transfer_id/3082128"
+        }
+      ],
+      "pending": [],
+      "url": "",
+      "feeSum": {
+        "value": 5500000,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "5.50",
+          "suffix": "M"
+        }
+      },
+      "averageAge": 22,
+      "totalMarketValue": {
+        "value": 15000000,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "15.00",
+          "suffix": "M"
+        }
+      }
+    },
+    "clubIds": [
+      "1059",
+      "940",
+      "42077",
+      "17938",
+      "6012"
+    ],
+    "coachIds": [
+      "34166",
+      "38808",
+      "41893",
+      "18348",
+      "13678"
+    ],
+    "competitionIds": [
+      "SE1",
+      "ES1",
+      "SE3N"
+    ],
+    "mostRecentTransfer": {
+      "id": "3890272",
+      "transferSource": {
+        "competitionId": "SE1",
+        "countryId": 147,
+        "clubId": "1059",
+        "coachId": "34166"
+      },
+      "transferDestination": {
+        "competitionId": "ES1",
+        "countryId": 157,
+        "clubId": "940",
+        "coachId": "38808"
+      },
+      "details": {
+        "playerId": "764859",
+        "date": "2022-07-01T00:00:00+02:00",
+        "contractUntilDate": "2029-06-30T00:00:00+02:00",
+        "seasonId": 2022,
+        "isPending": false,
+        "marketValue": {
+          "value": 5000000,
+          "currency": "EUR",
+          "compact": {
+            "prefix": "€",
+            "content": "5.00",
+            "suffix": "M"
+          }
+        },
+        "age": 18,
+        "fee": {
+          "value": 5500000,
+          "currency": "EUR",
+          "compact": {
+            "prefix": "€",
+            "content": "5.50",
+            "suffix": "M"
+          }
+        },
+        "remainingContractPeriod": {
+          "days": 730,
+          "daysDisplay": "1 Year, 11 Months, 29 Days"
+        },
+        "season": {
+          "id": 2022,
+          "display": "22/23",
+          "cyclicalName": "2023",
+          "nonCyclicalName": "22/23"
+        }
+      },
+      "typeDetails": {
+        "type": "STANDARD",
+        "name": "",
+        "feeDescription": ""
+      },
+      "relativeUrl": "/williot-swedberg/transfers/spieler/764859/transfer_id/3890272"
+    }
+  }
+}

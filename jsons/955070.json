@@ -1,0 +1,361 @@
+{
+  "success": true,
+  "message": "OK",
+  "data": {
+    "playerId": "955070",
+    "history": {
+      "terminated": [
+        {
+          "id": "5100508",
+          "transferSource": {
+            "competitionId": "BE2",
+            "countryId": 19,
+            "clubId": "54189",
+            "coachId": "24916"
+          },
+          "transferDestination": {
+            "competitionId": "FR1",
+            "countryId": 50,
+            "clubId": "1041",
+            "coachId": "110443"
+          },
+          "details": {
+            "playerId": "955070",
+            "date": "2024-07-07T00:00:00+02:00",
+            "contractUntilDate": "2028-06-30T00:00:00+02:00",
+            "seasonId": 2024,
+            "isPending": false,
+            "marketValue": {
+              "value": 18000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "18.00",
+                "suffix": "M"
+              }
+            },
+            "age": 20,
+            "fee": {
+              "value": 28500000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "28.50",
+                "suffix": "M"
+              }
+            },
+            "season": {
+              "id": 2024,
+              "display": "24/25",
+              "cyclicalName": "2025",
+              "nonCyclicalName": "24/25"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/ernest-nuamah/transfers/spieler/955070/transfer_id/5100508"
+        },
+        {
+          "id": "4617769",
+          "transferSource": {
+            "competitionId": "FR1",
+            "countryId": 50,
+            "clubId": "1041",
+            "coachId": "110443"
+          },
+          "transferDestination": {
+            "competitionId": "BE2",
+            "countryId": 19,
+            "clubId": "54189",
+            "coachId": "24916"
+          },
+          "details": {
+            "playerId": "955070",
+            "date": "2024-06-30T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2023,
+            "isPending": false,
+            "marketValue": {
+              "value": 18000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "18.00",
+                "suffix": "M"
+              }
+            },
+            "age": 20,
+            "remainingContractPeriod": {
+              "days": 0,
+              "daysDisplay": "Unknown"
+            },
+            "season": {
+              "id": 2023,
+              "display": "23/24",
+              "cyclicalName": "2024",
+              "nonCyclicalName": "23/24"
+            }
+          },
+          "typeDetails": {
+            "type": "RETURNED_FROM_PREVIOUS_LOAN",
+            "name": "End of loan",
+            "feeDescription": "End of loan"
+          },
+          "relativeUrl": "/ernest-nuamah/transfers/spieler/955070/transfer_id/4617769"
+        },
+        {
+          "id": "4617768",
+          "transferSource": {
+            "competitionId": "BE1",
+            "countryId": 19,
+            "clubId": "54189",
+            "coachId": "53806"
+          },
+          "transferDestination": {
+            "competitionId": "FR1",
+            "countryId": 50,
+            "clubId": "1041",
+            "coachId": "4589"
+          },
+          "details": {
+            "playerId": "955070",
+            "date": "2023-08-31T00:00:00+02:00",
+            "contractUntilDate": "2024-06-30T00:00:00+02:00",
+            "seasonId": 2023,
+            "isPending": false,
+            "marketValue": {
+              "value": 6000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "6.00",
+                "suffix": "M"
+              }
+            },
+            "age": 19,
+            "season": {
+              "id": 2023,
+              "display": "23/24",
+              "cyclicalName": "2024",
+              "nonCyclicalName": "23/24"
+            }
+          },
+          "typeDetails": {
+            "type": "ACTIVE_LOAN_TRANSFER",
+            "name": "loan transfer",
+            "feeDescription": "loan transfer"
+          },
+          "relativeUrl": "/ernest-nuamah/transfers/spieler/955070/transfer_id/4617768"
+        },
+        {
+          "id": "4617767",
+          "transferSource": {
+            "competitionId": "DK1",
+            "countryId": 39,
+            "clubId": "2778",
+            "coachId": "93571"
+          },
+          "transferDestination": {
+            "competitionId": "BE1",
+            "countryId": 19,
+            "clubId": "54189",
+            "coachId": "53806"
+          },
+          "details": {
+            "playerId": "955070",
+            "date": "2023-08-30T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2023,
+            "isPending": false,
+            "marketValue": {
+              "value": 6000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "6.00",
+                "suffix": "M"
+              }
+            },
+            "age": 19,
+            "fee": {
+              "value": 25000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "25.00",
+                "suffix": "M"
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 1035,
+              "daysDisplay": "2 Years, 10 Months"
+            },
+            "season": {
+              "id": 2023,
+              "display": "23/24",
+              "cyclicalName": "2024",
+              "nonCyclicalName": "23/24"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/ernest-nuamah/transfers/spieler/955070/transfer_id/4617767"
+        },
+        {
+          "id": "3624087",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 54,
+            "clubId": "40902",
+            "coachId": "52509"
+          },
+          "transferDestination": {
+            "competitionId": "DK1",
+            "countryId": 39,
+            "clubId": "2778",
+            "coachId": "19936"
+          },
+          "details": {
+            "playerId": "955070",
+            "date": "2022-01-01T00:00:00+01:00",
+            "contractUntilDate": "2026-06-30T00:00:00+02:00",
+            "seasonId": 2021,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 18,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "?",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2021,
+              "display": "21/22",
+              "cyclicalName": "2022",
+              "nonCyclicalName": "21/22"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/ernest-nuamah/transfers/spieler/955070/transfer_id/3624087"
+        }
+      ],
+      "pending": [],
+      "url": "",
+      "feeSum": {
+        "value": 53500000,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "53.50",
+          "suffix": "M"
+        }
+      },
+      "averageAge": 22,
+      "totalMarketValue": {
+        "value": 12000000,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "12.00",
+          "suffix": "M"
+        }
+      }
+    },
+    "clubIds": [
+      "54189",
+      "1041",
+      "2778",
+      "40902"
+    ],
+    "coachIds": [
+      "24916",
+      "110443",
+      "53806",
+      "4589",
+      "93571",
+      "52509",
+      "19936"
+    ],
+    "competitionIds": [
+      "BE2",
+      "FR1",
+      "BE1",
+      "DK1"
+    ],
+    "mostRecentTransfer": {
+      "id": "5100508",
+      "transferSource": {
+        "competitionId": "BE2",
+        "countryId": 19,
+        "clubId": "54189",
+        "coachId": "24916"
+      },
+      "transferDestination": {
+        "competitionId": "FR1",
+        "countryId": 50,
+        "clubId": "1041",
+        "coachId": "110443"
+      },
+      "details": {
+        "playerId": "955070",
+        "date": "2024-07-07T00:00:00+02:00",
+        "contractUntilDate": "2028-06-30T00:00:00+02:00",
+        "seasonId": 2024,
+        "isPending": false,
+        "marketValue": {
+          "value": 18000000,
+          "currency": "EUR",
+          "compact": {
+            "prefix": "€",
+            "content": "18.00",
+            "suffix": "M"
+          }
+        },
+        "age": 20,
+        "fee": {
+          "value": 28500000,
+          "currency": "EUR",
+          "compact": {
+            "prefix": "€",
+            "content": "28.50",
+            "suffix": "M"
+          }
+        },
+        "season": {
+          "id": 2024,
+          "display": "24/25",
+          "cyclicalName": "2025",
+          "nonCyclicalName": "24/25"
+        }
+      },
+      "typeDetails": {
+        "type": "STANDARD",
+        "name": "",
+        "feeDescription": ""
+      },
+      "relativeUrl": "/ernest-nuamah/transfers/spieler/955070/transfer_id/5100508"
+    }
+  }
+}

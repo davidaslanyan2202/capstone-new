@@ -1,0 +1,214 @@
+{
+  "success": true,
+  "message": "OK",
+  "data": {
+    "playerId": "569140",
+    "history": {
+      "terminated": [
+        {
+          "id": "2668991",
+          "transferSource": {
+            "competitionId": "C3BF",
+            "countryId": 50,
+            "clubId": "10820",
+            "coachId": "3884"
+          },
+          "transferDestination": {
+            "competitionId": "FR2",
+            "countryId": 50,
+            "clubId": "290",
+            "coachId": "2680"
+          },
+          "details": {
+            "playerId": "569140",
+            "date": "2019-07-01T00:00:00+02:00",
+            "contractUntilDate": "2027-06-30T00:00:00+02:00",
+            "seasonId": 2019,
+            "isPending": false,
+            "marketValue": {
+              "value": 150000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "150.00",
+                "suffix": "K"
+              }
+            },
+            "age": 19,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 1095,
+              "daysDisplay": "2 Years, 11 Months, 29 Days"
+            },
+            "season": {
+              "id": 2019,
+              "display": "19/20",
+              "cyclicalName": "2020",
+              "nonCyclicalName": "19/20"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/lassine-sinayoko/transfers/spieler/569140/transfer_id/2668991"
+        },
+        {
+          "id": "2045407",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 50,
+            "clubId": "7817",
+            "coachId": "89998"
+          },
+          "transferDestination": {
+            "competitionId": "C3PL",
+            "countryId": 50,
+            "clubId": "10820",
+            "coachId": "3884"
+          },
+          "details": {
+            "playerId": "569140",
+            "date": "2017-12-01T00:00:00+01:00",
+            "contractUntilDate": "2022-06-30T00:00:00+02:00",
+            "seasonId": 2017,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 17,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2017,
+              "display": "17/18",
+              "cyclicalName": "2018",
+              "nonCyclicalName": "17/18"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/lassine-sinayoko/transfers/spieler/569140/transfer_id/2045407"
+        }
+      ],
+      "pending": [],
+      "url": "",
+      "feeSum": {
+        "value": 0,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "0.00",
+          "suffix": ""
+        }
+      },
+      "averageAge": 26,
+      "totalMarketValue": {
+        "value": 8000000,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "8.00",
+          "suffix": "M"
+        }
+      }
+    },
+    "clubIds": [
+      "10820",
+      "290",
+      "7817"
+    ],
+    "coachIds": [
+      "3884",
+      "2680",
+      "89998"
+    ],
+    "competitionIds": [
+      "C3BF",
+      "FR2",
+      "C3PL"
+    ],
+    "mostRecentTransfer": {
+      "id": "2668991",
+      "transferSource": {
+        "competitionId": "C3BF",
+        "countryId": 50,
+        "clubId": "10820",
+        "coachId": "3884"
+      },
+      "transferDestination": {
+        "competitionId": "FR2",
+        "countryId": 50,
+        "clubId": "290",
+        "coachId": "2680"
+      },
+      "details": {
+        "playerId": "569140",
+        "date": "2019-07-01T00:00:00+02:00",
+        "contractUntilDate": "2027-06-30T00:00:00+02:00",
+        "seasonId": 2019,
+        "isPending": false,
+        "marketValue": {
+          "value": 150000,
+          "currency": "EUR",
+          "compact": {
+            "prefix": "€",
+            "content": "150.00",
+            "suffix": "K"
+          }
+        },
+        "age": 19,
+        "fee": {
+          "value": null,
+          "currency": "",
+          "compact": {
+            "prefix": "",
+            "content": "-",
+            "suffix": ""
+          }
+        },
+        "remainingContractPeriod": {
+          "days": 1095,
+          "daysDisplay": "2 Years, 11 Months, 29 Days"
+        },
+        "season": {
+          "id": 2019,
+          "display": "19/20",
+          "cyclicalName": "2020",
+          "nonCyclicalName": "19/20"
+        }
+      },
+      "typeDetails": {
+        "type": "STANDARD",
+        "name": "",
+        "feeDescription": ""
+      },
+      "relativeUrl": "/lassine-sinayoko/transfers/spieler/569140/transfer_id/2668991"
+    }
+  }
+}

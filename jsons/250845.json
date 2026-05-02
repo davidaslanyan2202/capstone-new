@@ -1,0 +1,205 @@
+{
+  "success": true,
+  "message": "OK",
+  "data": {
+    "playerId": "250845",
+    "history": {
+      "terminated": [
+        {
+          "id": "864688",
+          "transferSource": {
+            "competitionId": "URUC",
+            "countryId": 179,
+            "clubId": "1306",
+            "coachId": "23736"
+          },
+          "transferDestination": {
+            "competitionId": "ES1",
+            "countryId": 157,
+            "clubId": "13",
+            "coachId": "2868"
+          },
+          "details": {
+            "playerId": "250845",
+            "date": "2013-04-25T00:00:00+02:00",
+            "contractUntilDate": "2028-06-30T00:00:00+02:00",
+            "seasonId": 2013,
+            "isPending": false,
+            "marketValue": {
+              "value": 100000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "100.00",
+                "suffix": "K"
+              }
+            },
+            "age": 18,
+            "fee": {
+              "value": 995000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "995.00",
+                "suffix": "K"
+              }
+            },
+            "season": {
+              "id": 2013,
+              "display": "13/14",
+              "cyclicalName": "2014",
+              "nonCyclicalName": "13/14"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/jose-maria-gimenez/transfers/spieler/250845/transfer_id/864688"
+        },
+        {
+          "id": "849736",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 179,
+            "clubId": "20352",
+            "coachId": "0"
+          },
+          "transferDestination": {
+            "competitionId": "URUC",
+            "countryId": 179,
+            "clubId": "1306",
+            "coachId": "7600"
+          },
+          "details": {
+            "playerId": "250845",
+            "date": "2012-11-01T00:00:00+01:00",
+            "contractUntilDate": null,
+            "seasonId": 2012,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 17,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2012,
+              "display": "12/13",
+              "cyclicalName": "2013",
+              "nonCyclicalName": "12/13"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/jose-maria-gimenez/transfers/spieler/250845/transfer_id/849736"
+        }
+      ],
+      "pending": [],
+      "url": "",
+      "feeSum": {
+        "value": 995000,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "995.00",
+          "suffix": "K"
+        }
+      },
+      "averageAge": 31,
+      "totalMarketValue": {
+        "value": 12000000,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "12.00",
+          "suffix": "M"
+        }
+      }
+    },
+    "clubIds": [
+      "1306",
+      "13",
+      "20352"
+    ],
+    "coachIds": [
+      "23736",
+      "2868",
+      "7600"
+    ],
+    "competitionIds": [
+      "URUC",
+      "ES1"
+    ],
+    "mostRecentTransfer": {
+      "id": "864688",
+      "transferSource": {
+        "competitionId": "URUC",
+        "countryId": 179,
+        "clubId": "1306",
+        "coachId": "23736"
+      },
+      "transferDestination": {
+        "competitionId": "ES1",
+        "countryId": 157,
+        "clubId": "13",
+        "coachId": "2868"
+      },
+      "details": {
+        "playerId": "250845",
+        "date": "2013-04-25T00:00:00+02:00",
+        "contractUntilDate": "2028-06-30T00:00:00+02:00",
+        "seasonId": 2013,
+        "isPending": false,
+        "marketValue": {
+          "value": 100000,
+          "currency": "EUR",
+          "compact": {
+            "prefix": "€",
+            "content": "100.00",
+            "suffix": "K"
+          }
+        },
+        "age": 18,
+        "fee": {
+          "value": 995000,
+          "currency": "EUR",
+          "compact": {
+            "prefix": "€",
+            "content": "995.00",
+            "suffix": "K"
+          }
+        },
+        "season": {
+          "id": 2013,
+          "display": "13/14",
+          "cyclicalName": "2014",
+          "nonCyclicalName": "13/14"
+        }
+      },
+      "typeDetails": {
+        "type": "STANDARD",
+        "name": "",
+        "feeDescription": ""
+      },
+      "relativeUrl": "/jose-maria-gimenez/transfers/spieler/250845/transfer_id/864688"
+    }
+  }
+}

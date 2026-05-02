@@ -1,0 +1,307 @@
+{
+  "success": true,
+  "message": "OK",
+  "data": {
+    "playerId": "1086632",
+    "history": {
+      "terminated": [
+        {
+          "id": "6227121",
+          "transferSource": {
+            "competitionId": "BRA2",
+            "countryId": 26,
+            "clubId": "10492",
+            "coachId": "58565"
+          },
+          "transferDestination": {
+            "competitionId": "LET1",
+            "countryId": 92,
+            "clubId": "48325",
+            "coachId": "20066"
+          },
+          "details": {
+            "playerId": "1086632",
+            "date": "2026-03-12T00:00:00+01:00",
+            "contractUntilDate": "2027-06-30T00:00:00+02:00",
+            "seasonId": 2025,
+            "isPending": false,
+            "marketValue": {
+              "value": 1000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "1.00",
+                "suffix": "M"
+              }
+            },
+            "age": 21,
+            "remainingContractPeriod": {
+              "days": 1025,
+              "daysDisplay": "2 Years, 9 Months, 19 Days"
+            },
+            "season": {
+              "id": 2025,
+              "display": "25/26",
+              "cyclicalName": "2026",
+              "nonCyclicalName": "25/26"
+            }
+          },
+          "typeDetails": {
+            "type": "ACTIVE_LOAN_TRANSFER",
+            "name": "loan transfer",
+            "feeDescription": "loan transfer"
+          },
+          "relativeUrl": "/abner/transfers/spieler/1086632/transfer_id/6227121"
+        },
+        {
+          "id": "5541078",
+          "transferSource": {
+            "competitionId": "CB20",
+            "countryId": 26,
+            "clubId": "15069",
+            "coachId": "111903"
+          },
+          "transferDestination": {
+            "competitionId": "BRA1",
+            "countryId": 26,
+            "clubId": "10492",
+            "coachId": "100616"
+          },
+          "details": {
+            "playerId": "1086632",
+            "date": "2025-01-01T00:00:00+01:00",
+            "contractUntilDate": "2028-12-31T00:00:00+01:00",
+            "seasonId": 2024,
+            "isPending": false,
+            "marketValue": {
+              "value": 150000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "150.00",
+                "suffix": "K"
+              }
+            },
+            "age": 20,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 1094,
+              "daysDisplay": "2 Years, 11 Months, 30 Days"
+            },
+            "season": {
+              "id": 2024,
+              "display": "24/25",
+              "cyclicalName": "2025",
+              "nonCyclicalName": "24/25"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/abner/transfers/spieler/1086632/transfer_id/5541078"
+        },
+        {
+          "id": "4173723",
+          "transferSource": {
+            "competitionId": "CB20",
+            "countryId": 26,
+            "clubId": "28052",
+            "coachId": "110587"
+          },
+          "transferDestination": {
+            "competitionId": "",
+            "countryId": 26,
+            "clubId": "15069",
+            "coachId": "101032"
+          },
+          "details": {
+            "playerId": "1086632",
+            "date": "2022-09-01T00:00:00+02:00",
+            "contractUntilDate": "2027-12-31T00:00:00+01:00",
+            "seasonId": 2022,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 18,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "Free Transfer",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2022,
+              "display": "22/23",
+              "cyclicalName": "2023",
+              "nonCyclicalName": "22/23"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/abner/transfers/spieler/1086632/transfer_id/4173723"
+        }
+      ],
+      "pending": [
+        {
+          "id": "6227202",
+          "transferSource": {
+            "competitionId": "LET1",
+            "countryId": 92,
+            "clubId": "48325",
+            "coachId": "20066"
+          },
+          "transferDestination": {
+            "competitionId": "BRA2",
+            "countryId": 26,
+            "clubId": "10492",
+            "coachId": "58565"
+          },
+          "details": {
+            "playerId": "1086632",
+            "date": "2027-06-30T00:00:00+02:00",
+            "contractUntilDate": "2028-12-31T00:00:00+01:00",
+            "seasonId": 2026,
+            "isPending": true,
+            "marketValue": {
+              "value": 1000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "1.00",
+                "suffix": "M"
+              }
+            },
+            "age": 23,
+            "remainingContractPeriod": {
+              "days": 0,
+              "daysDisplay": "Unknown"
+            },
+            "season": {
+              "id": 2026,
+              "display": "26/27",
+              "cyclicalName": "2027",
+              "nonCyclicalName": "26/27"
+            }
+          },
+          "typeDetails": {
+            "type": "RETURNED_FROM_PREVIOUS_LOAN",
+            "name": "End of loan",
+            "feeDescription": "End of loan"
+          },
+          "relativeUrl": "/abner/transfers/spieler/1086632/transfer_id/6227202"
+        }
+      ],
+      "url": "",
+      "feeSum": {
+        "value": 0,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "0.00",
+          "suffix": ""
+        }
+      },
+      "averageAge": 22,
+      "totalMarketValue": {
+        "value": 1000000,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "1.00",
+          "suffix": "M"
+        }
+      }
+    },
+    "clubIds": [
+      "48325",
+      "10492",
+      "15069",
+      "28052"
+    ],
+    "coachIds": [
+      "20066",
+      "58565",
+      "111903",
+      "100616",
+      "110587",
+      "101032"
+    ],
+    "competitionIds": [
+      "LET1",
+      "BRA2",
+      "CB20",
+      "BRA1"
+    ],
+    "mostRecentTransfer": {
+      "id": "6227121",
+      "transferSource": {
+        "competitionId": "BRA2",
+        "countryId": 26,
+        "clubId": "10492",
+        "coachId": "58565"
+      },
+      "transferDestination": {
+        "competitionId": "LET1",
+        "countryId": 92,
+        "clubId": "48325",
+        "coachId": "20066"
+      },
+      "details": {
+        "playerId": "1086632",
+        "date": "2026-03-12T00:00:00+01:00",
+        "contractUntilDate": "2027-06-30T00:00:00+02:00",
+        "seasonId": 2025,
+        "isPending": false,
+        "marketValue": {
+          "value": 1000000,
+          "currency": "EUR",
+          "compact": {
+            "prefix": "€",
+            "content": "1.00",
+            "suffix": "M"
+          }
+        },
+        "age": 21,
+        "remainingContractPeriod": {
+          "days": 1025,
+          "daysDisplay": "2 Years, 9 Months, 19 Days"
+        },
+        "season": {
+          "id": 2025,
+          "display": "25/26",
+          "cyclicalName": "2026",
+          "nonCyclicalName": "25/26"
+        }
+      },
+      "typeDetails": {
+        "type": "ACTIVE_LOAN_TRANSFER",
+        "name": "loan transfer",
+        "feeDescription": "loan transfer"
+      },
+      "relativeUrl": "/abner/transfers/spieler/1086632/transfer_id/6227121"
+    }
+  }
+}

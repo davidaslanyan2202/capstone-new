@@ -1,0 +1,606 @@
+{
+  "success": true,
+  "message": "OK",
+  "data": {
+    "playerId": "261905",
+    "history": {
+      "terminated": [
+        {
+          "id": "5033868",
+          "transferSource": {
+            "competitionId": "L2",
+            "countryId": 40,
+            "clubId": "44",
+            "coachId": "40217"
+          },
+          "transferDestination": {
+            "competitionId": "IT1",
+            "countryId": 75,
+            "clubId": "276",
+            "coachId": "52249"
+          },
+          "details": {
+            "playerId": "261905",
+            "date": "2024-07-01T00:00:00+02:00",
+            "contractUntilDate": "2028-06-30T00:00:00+02:00",
+            "seasonId": 2024,
+            "isPending": false,
+            "marketValue": {
+              "value": 5000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "5.00",
+                "suffix": "M"
+              }
+            },
+            "age": 27,
+            "fee": {
+              "value": 5750000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "5.75",
+                "suffix": "M"
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 729,
+              "daysDisplay": "1 Year, 11 Months, 29 Days"
+            },
+            "season": {
+              "id": 2024,
+              "display": "24/25",
+              "cyclicalName": "2025",
+              "nonCyclicalName": "24/25"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/suat-serdar/transfers/spieler/261905/transfer_id/5033868"
+        },
+        {
+          "id": "4600756",
+          "transferSource": {
+            "competitionId": "IT1",
+            "countryId": 75,
+            "clubId": "276",
+            "coachId": "52249"
+          },
+          "transferDestination": {
+            "competitionId": "L2",
+            "countryId": 40,
+            "clubId": "44",
+            "coachId": "23118"
+          },
+          "details": {
+            "playerId": "261905",
+            "date": "2024-06-30T00:00:00+02:00",
+            "contractUntilDate": "2026-06-30T00:00:00+02:00",
+            "seasonId": 2023,
+            "isPending": false,
+            "marketValue": {
+              "value": 5000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "5.00",
+                "suffix": "M"
+              }
+            },
+            "age": 27,
+            "remainingContractPeriod": {
+              "days": 0,
+              "daysDisplay": "Unknown"
+            },
+            "season": {
+              "id": 2023,
+              "display": "23/24",
+              "cyclicalName": "2024",
+              "nonCyclicalName": "23/24"
+            }
+          },
+          "typeDetails": {
+            "type": "RETURNED_FROM_PREVIOUS_LOAN",
+            "name": "End of loan",
+            "feeDescription": "End of loan"
+          },
+          "relativeUrl": "/suat-serdar/transfers/spieler/261905/transfer_id/4600756"
+        },
+        {
+          "id": "4600755",
+          "transferSource": {
+            "competitionId": "L2",
+            "countryId": 40,
+            "clubId": "44",
+            "coachId": "23118"
+          },
+          "transferDestination": {
+            "competitionId": "IT1",
+            "countryId": 75,
+            "clubId": "276",
+            "coachId": "12015"
+          },
+          "details": {
+            "playerId": "261905",
+            "date": "2023-08-22T00:00:00+02:00",
+            "contractUntilDate": "2024-06-30T00:00:00+02:00",
+            "seasonId": 2023,
+            "isPending": false,
+            "marketValue": {
+              "value": 4500000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "4.50",
+                "suffix": "M"
+              }
+            },
+            "age": 26,
+            "remainingContractPeriod": {
+              "days": 1043,
+              "daysDisplay": "2 Years, 10 Months, 8 Days"
+            },
+            "season": {
+              "id": 2023,
+              "display": "23/24",
+              "cyclicalName": "2024",
+              "nonCyclicalName": "23/24"
+            }
+          },
+          "typeDetails": {
+            "type": "ACTIVE_LOAN_TRANSFER",
+            "name": "loan transfer",
+            "feeDescription": "loan transfer"
+          },
+          "relativeUrl": "/suat-serdar/transfers/spieler/261905/transfer_id/4600755"
+        },
+        {
+          "id": "3394069",
+          "transferSource": {
+            "competitionId": "L2",
+            "countryId": 40,
+            "clubId": "33",
+            "coachId": "33411"
+          },
+          "transferDestination": {
+            "competitionId": "L1",
+            "countryId": 40,
+            "clubId": "44",
+            "coachId": "23118"
+          },
+          "details": {
+            "playerId": "261905",
+            "date": "2021-07-01T00:00:00+02:00",
+            "contractUntilDate": "2026-06-30T00:00:00+02:00",
+            "seasonId": 2021,
+            "isPending": false,
+            "marketValue": {
+              "value": 9000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "9.00",
+                "suffix": "M"
+              }
+            },
+            "age": 24,
+            "fee": {
+              "value": 8000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "8.00",
+                "suffix": "M"
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 364,
+              "daysDisplay": "11 Months, 29 Days"
+            },
+            "season": {
+              "id": 2021,
+              "display": "21/22",
+              "cyclicalName": "2022",
+              "nonCyclicalName": "21/22"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/suat-serdar/transfers/spieler/261905/transfer_id/3394069"
+        },
+        {
+          "id": "2109859",
+          "transferSource": {
+            "competitionId": "L1",
+            "countryId": 40,
+            "clubId": "39",
+            "coachId": "9570"
+          },
+          "transferDestination": {
+            "competitionId": "L1",
+            "countryId": 40,
+            "clubId": "33",
+            "coachId": "30857"
+          },
+          "details": {
+            "playerId": "261905",
+            "date": "2018-07-01T00:00:00+02:00",
+            "contractUntilDate": "2022-06-30T00:00:00+02:00",
+            "seasonId": 2018,
+            "isPending": false,
+            "marketValue": {
+              "value": 7500000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "7.50",
+                "suffix": "M"
+              }
+            },
+            "age": 21,
+            "fee": {
+              "value": 11000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "11.00",
+                "suffix": "M"
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 1095,
+              "daysDisplay": "2 Years, 11 Months, 29 Days"
+            },
+            "season": {
+              "id": 2018,
+              "display": "18/19",
+              "cyclicalName": "2019",
+              "nonCyclicalName": "18/19"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/suat-serdar/transfers/spieler/261905/transfer_id/2109859"
+        },
+        {
+          "id": "1313325",
+          "transferSource": {
+            "competitionId": "AJ3",
+            "countryId": 40,
+            "clubId": "5369",
+            "coachId": "4860"
+          },
+          "transferDestination": {
+            "competitionId": "L1",
+            "countryId": 40,
+            "clubId": "39",
+            "coachId": "15119"
+          },
+          "details": {
+            "playerId": "261905",
+            "date": "2015-08-07T00:00:00+02:00",
+            "contractUntilDate": "2021-06-30T00:00:00+02:00",
+            "seasonId": 2015,
+            "isPending": false,
+            "marketValue": {
+              "value": 50000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "50.00",
+                "suffix": "K"
+              }
+            },
+            "age": 18,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 1058,
+              "daysDisplay": "2 Years, 10 Months, 23 Days"
+            },
+            "season": {
+              "id": 2015,
+              "display": "15/16",
+              "cyclicalName": "2016",
+              "nonCyclicalName": "15/16"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/suat-serdar/transfers/spieler/261905/transfer_id/1313325"
+        },
+        {
+          "id": "1050688",
+          "transferSource": {
+            "competitionId": "BJ3",
+            "countryId": 40,
+            "clubId": "21051",
+            "coachId": "4860"
+          },
+          "transferDestination": {
+            "competitionId": "AJ3",
+            "countryId": 40,
+            "clubId": "5369",
+            "coachId": "9570"
+          },
+          "details": {
+            "playerId": "261905",
+            "date": "2014-07-01T00:00:00+02:00",
+            "contractUntilDate": "2018-06-30T00:00:00+02:00",
+            "seasonId": 2014,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 17,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2014,
+              "display": "14/15",
+              "cyclicalName": "2015",
+              "nonCyclicalName": "14/15"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/suat-serdar/transfers/spieler/261905/transfer_id/1050688"
+        },
+        {
+          "id": "1313327",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 40,
+            "clubId": "17588",
+            "coachId": "9891"
+          },
+          "transferDestination": {
+            "competitionId": "BJ3",
+            "countryId": 40,
+            "clubId": "21051",
+            "coachId": "15779"
+          },
+          "details": {
+            "playerId": "261905",
+            "date": "2012-07-01T00:00:00+02:00",
+            "contractUntilDate": "2013-06-30T00:00:00+02:00",
+            "seasonId": 2012,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 15,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 364,
+              "daysDisplay": "11 Months, 29 Days"
+            },
+            "season": {
+              "id": 2012,
+              "display": "12/13",
+              "cyclicalName": "2013",
+              "nonCyclicalName": "12/13"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/suat-serdar/transfers/spieler/261905/transfer_id/1313327"
+        },
+        {
+          "id": "1313326",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 40,
+            "clubId": "39108",
+            "coachId": "0"
+          },
+          "transferDestination": {
+            "competitionId": "",
+            "countryId": 40,
+            "clubId": "17588",
+            "coachId": "9891"
+          },
+          "details": {
+            "playerId": "261905",
+            "date": "2008-07-01T00:00:00+02:00",
+            "contractUntilDate": "2013-06-30T00:00:00+02:00",
+            "seasonId": 2008,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 11,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "Free Transfer",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2008,
+              "display": "08/09",
+              "cyclicalName": "2009",
+              "nonCyclicalName": "08/09"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/suat-serdar/transfers/spieler/261905/transfer_id/1313326"
+        }
+      ],
+      "pending": [],
+      "url": "",
+      "feeSum": {
+        "value": 24750000,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "24.75",
+          "suffix": "M"
+        }
+      },
+      "averageAge": 29,
+      "totalMarketValue": {
+        "value": 3500000,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "3.50",
+          "suffix": "M"
+        }
+      }
+    },
+    "clubIds": [
+      "44",
+      "276",
+      "33",
+      "39",
+      "5369",
+      "21051",
+      "17588",
+      "39108"
+    ],
+    "coachIds": [
+      "40217",
+      "52249",
+      "23118",
+      "12015",
+      "33411",
+      "9570",
+      "30857",
+      "4860",
+      "15119",
+      "9891",
+      "15779"
+    ],
+    "competitionIds": [
+      "L2",
+      "IT1",
+      "L1",
+      "AJ3",
+      "BJ3"
+    ],
+    "mostRecentTransfer": {
+      "id": "5033868",
+      "transferSource": {
+        "competitionId": "L2",
+        "countryId": 40,
+        "clubId": "44",
+        "coachId": "40217"
+      },
+      "transferDestination": {
+        "competitionId": "IT1",
+        "countryId": 75,
+        "clubId": "276",
+        "coachId": "52249"
+      },
+      "details": {
+        "playerId": "261905",
+        "date": "2024-07-01T00:00:00+02:00",
+        "contractUntilDate": "2028-06-30T00:00:00+02:00",
+        "seasonId": 2024,
+        "isPending": false,
+        "marketValue": {
+          "value": 5000000,
+          "currency": "EUR",
+          "compact": {
+            "prefix": "€",
+            "content": "5.00",
+            "suffix": "M"
+          }
+        },
+        "age": 27,
+        "fee": {
+          "value": 5750000,
+          "currency": "EUR",
+          "compact": {
+            "prefix": "€",
+            "content": "5.75",
+            "suffix": "M"
+          }
+        },
+        "remainingContractPeriod": {
+          "days": 729,
+          "daysDisplay": "1 Year, 11 Months, 29 Days"
+        },
+        "season": {
+          "id": 2024,
+          "display": "24/25",
+          "cyclicalName": "2025",
+          "nonCyclicalName": "24/25"
+        }
+      },
+      "typeDetails": {
+        "type": "STANDARD",
+        "name": "",
+        "feeDescription": ""
+      },
+      "relativeUrl": "/suat-serdar/transfers/spieler/261905/transfer_id/5033868"
+    }
+  }
+}

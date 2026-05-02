@@ -1,0 +1,782 @@
+{
+  "success": true,
+  "message": "OK",
+  "data": {
+    "playerId": "255744",
+    "history": {
+      "terminated": [
+        {
+          "id": "5862537",
+          "transferSource": {
+            "competitionId": "MEXA",
+            "countryId": 110,
+            "clubId": "7055",
+            "coachId": "140158"
+          },
+          "transferDestination": {
+            "competitionId": "SA1",
+            "countryId": 146,
+            "clubId": "32328",
+            "coachId": "54437"
+          },
+          "details": {
+            "playerId": "255744",
+            "date": "2025-08-13T00:00:00+02:00",
+            "contractUntilDate": "2027-06-30T00:00:00+02:00",
+            "seasonId": 2025,
+            "isPending": false,
+            "marketValue": {
+              "value": 1800000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "1.80",
+                "suffix": "M"
+              }
+            },
+            "age": 30,
+            "fee": {
+              "value": 5100000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "5.10",
+                "suffix": "M"
+              }
+            },
+            "season": {
+              "id": 2025,
+              "display": "25/26",
+              "cyclicalName": "2026",
+              "nonCyclicalName": "25/26"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/samir-caetano/transfers/spieler/255744/transfer_id/5862537"
+        },
+        {
+          "id": "5471741",
+          "transferSource": {
+            "competitionId": "MEXA",
+            "countryId": 110,
+            "clubId": "82696",
+            "coachId": "5977"
+          },
+          "transferDestination": {
+            "competitionId": "MEXA",
+            "countryId": 110,
+            "clubId": "7055",
+            "coachId": "140158"
+          },
+          "details": {
+            "playerId": "255744",
+            "date": "2025-08-12T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2025,
+            "isPending": false,
+            "marketValue": {
+              "value": 1800000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "1.80",
+                "suffix": "M"
+              }
+            },
+            "age": 30,
+            "season": {
+              "id": 2025,
+              "display": "25/26",
+              "cyclicalName": "2026",
+              "nonCyclicalName": "25/26"
+            }
+          },
+          "typeDetails": {
+            "type": "RETURNED_FROM_PREVIOUS_LOAN",
+            "name": "End of loan",
+            "feeDescription": "End of loan"
+          },
+          "relativeUrl": "/samir-caetano/transfers/spieler/255744/transfer_id/5471741"
+        },
+        {
+          "id": "5471740",
+          "transferSource": {
+            "competitionId": "MEXA",
+            "countryId": 110,
+            "clubId": "7055",
+            "coachId": "28313"
+          },
+          "transferDestination": {
+            "competitionId": "MEXA",
+            "countryId": 110,
+            "clubId": "82696",
+            "coachId": "5106"
+          },
+          "details": {
+            "playerId": "255744",
+            "date": "2025-01-20T00:00:00+01:00",
+            "contractUntilDate": null,
+            "seasonId": 2024,
+            "isPending": false,
+            "marketValue": {
+              "value": 2000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "2.00",
+                "suffix": "M"
+              }
+            },
+            "age": 30,
+            "remainingContractPeriod": {
+              "days": 526,
+              "daysDisplay": "1 Year, 5 Months, 10 Days"
+            },
+            "season": {
+              "id": 2024,
+              "display": "24/25",
+              "cyclicalName": "2025",
+              "nonCyclicalName": "24/25"
+            }
+          },
+          "typeDetails": {
+            "type": "ACTIVE_LOAN_TRANSFER",
+            "name": "loan transfer",
+            "feeDescription": "loan transfer"
+          },
+          "relativeUrl": "/samir-caetano/transfers/spieler/255744/transfer_id/5471740"
+        },
+        {
+          "id": "4012166",
+          "transferSource": {
+            "competitionId": "GB2",
+            "countryId": 189,
+            "clubId": "1010",
+            "coachId": "49800"
+          },
+          "transferDestination": {
+            "competitionId": "MEXA",
+            "countryId": 110,
+            "clubId": "7055",
+            "coachId": "5957"
+          },
+          "details": {
+            "playerId": "255744",
+            "date": "2022-08-13T00:00:00+02:00",
+            "contractUntilDate": "2026-06-30T00:00:00+02:00",
+            "seasonId": 2022,
+            "isPending": false,
+            "marketValue": {
+              "value": 5000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "5.00",
+                "suffix": "M"
+              }
+            },
+            "age": 27,
+            "fee": {
+              "value": 6500000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "6.50",
+                "suffix": "M"
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 1052,
+              "daysDisplay": "2 Years, 10 Months, 17 Days"
+            },
+            "season": {
+              "id": 2022,
+              "display": "22/23",
+              "cyclicalName": "2023",
+              "nonCyclicalName": "22/23"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/samir-caetano/transfers/spieler/255744/transfer_id/4012166"
+        },
+        {
+          "id": "3683864",
+          "transferSource": {
+            "competitionId": "IT1",
+            "countryId": 75,
+            "clubId": "410",
+            "coachId": "31903"
+          },
+          "transferDestination": {
+            "competitionId": "GB1",
+            "countryId": 189,
+            "clubId": "1010",
+            "coachId": "456"
+          },
+          "details": {
+            "playerId": "255744",
+            "date": "2022-01-06T00:00:00+01:00",
+            "contractUntilDate": "2025-06-30T00:00:00+02:00",
+            "seasonId": 2021,
+            "isPending": false,
+            "marketValue": {
+              "value": 5000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "5.00",
+                "suffix": "M"
+              }
+            },
+            "age": 27,
+            "fee": {
+              "value": 5000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "5.00",
+                "suffix": "M"
+              }
+            },
+            "season": {
+              "id": 2021,
+              "display": "21/22",
+              "cyclicalName": "2022",
+              "nonCyclicalName": "21/22"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/samir-caetano/transfers/spieler/255744/transfer_id/3683864"
+        },
+        {
+          "id": "1412201",
+          "transferSource": {
+            "competitionId": "IT1",
+            "countryId": 75,
+            "clubId": "276",
+            "coachId": "528"
+          },
+          "transferDestination": {
+            "competitionId": "IT1",
+            "countryId": 75,
+            "clubId": "410",
+            "coachId": "2028"
+          },
+          "details": {
+            "playerId": "255744",
+            "date": "2016-06-30T00:00:00+02:00",
+            "contractUntilDate": "2021-06-30T00:00:00+02:00",
+            "seasonId": 2015,
+            "isPending": false,
+            "marketValue": {
+              "value": 4500000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "4.50",
+                "suffix": "M"
+              }
+            },
+            "age": 21,
+            "remainingContractPeriod": {
+              "days": 0,
+              "daysDisplay": "Unknown"
+            },
+            "season": {
+              "id": 2015,
+              "display": "15/16",
+              "cyclicalName": "2016",
+              "nonCyclicalName": "15/16"
+            }
+          },
+          "typeDetails": {
+            "type": "RETURNED_FROM_PREVIOUS_LOAN",
+            "name": "End of loan",
+            "feeDescription": "End of loan"
+          },
+          "relativeUrl": "/samir-caetano/transfers/spieler/255744/transfer_id/1412201"
+        },
+        {
+          "id": "1412200",
+          "transferSource": {
+            "competitionId": "IT1",
+            "countryId": 75,
+            "clubId": "410",
+            "coachId": "2127"
+          },
+          "transferDestination": {
+            "competitionId": "IT1",
+            "countryId": 75,
+            "clubId": "276",
+            "coachId": "528"
+          },
+          "details": {
+            "playerId": "255744",
+            "date": "2016-01-19T00:00:00+01:00",
+            "contractUntilDate": "2016-06-30T00:00:00+02:00",
+            "seasonId": 2015,
+            "isPending": false,
+            "marketValue": {
+              "value": 4500000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "4.50",
+                "suffix": "M"
+              }
+            },
+            "age": 21,
+            "remainingContractPeriod": {
+              "days": 2719,
+              "daysDisplay": "7 Years, 5 Months, 11 Days"
+            },
+            "season": {
+              "id": 2015,
+              "display": "15/16",
+              "cyclicalName": "2016",
+              "nonCyclicalName": "15/16"
+            }
+          },
+          "typeDetails": {
+            "type": "ACTIVE_LOAN_TRANSFER",
+            "name": "loan transfer",
+            "feeDescription": "loan transfer"
+          },
+          "relativeUrl": "/samir-caetano/transfers/spieler/255744/transfer_id/1412200"
+        },
+        {
+          "id": "1488857",
+          "transferSource": {
+            "competitionId": "BRA1",
+            "countryId": 26,
+            "clubId": "614",
+            "coachId": "4729"
+          },
+          "transferDestination": {
+            "competitionId": "IT1",
+            "countryId": 75,
+            "clubId": "410",
+            "coachId": "2127"
+          },
+          "details": {
+            "playerId": "255744",
+            "date": "2016-01-13T00:00:00+01:00",
+            "contractUntilDate": "2023-06-30T00:00:00+02:00",
+            "seasonId": 2015,
+            "isPending": false,
+            "marketValue": {
+              "value": 4500000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "4.50",
+                "suffix": "M"
+              }
+            },
+            "age": 21,
+            "fee": {
+              "value": 4000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "4.00",
+                "suffix": "M"
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 718,
+              "daysDisplay": "1 Year, 11 Months, 18 Days"
+            },
+            "season": {
+              "id": 2015,
+              "display": "15/16",
+              "cyclicalName": "2016",
+              "nonCyclicalName": "15/16"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/samir-caetano/transfers/spieler/255744/transfer_id/1488857"
+        },
+        {
+          "id": "891444",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 26,
+            "clubId": "15002",
+            "coachId": "46981"
+          },
+          "transferDestination": {
+            "competitionId": "BRA1",
+            "countryId": 26,
+            "clubId": "614",
+            "coachId": "1976"
+          },
+          "details": {
+            "playerId": "255744",
+            "date": "2015-01-01T00:00:00+01:00",
+            "contractUntilDate": "2017-12-31T00:00:00+01:00",
+            "seasonId": 2014,
+            "isPending": false,
+            "marketValue": {
+              "value": 2000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "2.00",
+                "suffix": "M"
+              }
+            },
+            "age": 20,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2014,
+              "display": "14/15",
+              "cyclicalName": "2015",
+              "nonCyclicalName": "14/15"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/samir-caetano/transfers/spieler/255744/transfer_id/891444"
+        },
+        {
+          "id": "1368598",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 26,
+            "clubId": "24000",
+            "coachId": "0"
+          },
+          "transferDestination": {
+            "competitionId": "",
+            "countryId": 26,
+            "clubId": "15002",
+            "coachId": "138471"
+          },
+          "details": {
+            "playerId": "255744",
+            "date": "2012-08-08T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2012,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 17,
+            "fee": {
+              "value": 59000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "59.00",
+                "suffix": "K"
+              }
+            },
+            "season": {
+              "id": 2012,
+              "display": "12/13",
+              "cyclicalName": "2013",
+              "nonCyclicalName": "12/13"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/samir-caetano/transfers/spieler/255744/transfer_id/1368598"
+        },
+        {
+          "id": "1368597",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 26,
+            "clubId": "15002",
+            "coachId": "138471"
+          },
+          "transferDestination": {
+            "competitionId": "",
+            "countryId": 26,
+            "clubId": "24000",
+            "coachId": "0"
+          },
+          "details": {
+            "playerId": "255744",
+            "date": "2012-07-31T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2012,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 17,
+            "remainingContractPeriod": {
+              "days": 0,
+              "daysDisplay": "Unknown"
+            },
+            "season": {
+              "id": 2012,
+              "display": "12/13",
+              "cyclicalName": "2013",
+              "nonCyclicalName": "12/13"
+            }
+          },
+          "typeDetails": {
+            "type": "RETURNED_FROM_PREVIOUS_LOAN",
+            "name": "End of loan",
+            "feeDescription": "End of loan"
+          },
+          "relativeUrl": "/samir-caetano/transfers/spieler/255744/transfer_id/1368597"
+        },
+        {
+          "id": "1368596",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 26,
+            "clubId": "24000",
+            "coachId": "0"
+          },
+          "transferDestination": {
+            "competitionId": "",
+            "countryId": 26,
+            "clubId": "15002",
+            "coachId": "0"
+          },
+          "details": {
+            "playerId": "255744",
+            "date": "2011-06-03T00:00:00+02:00",
+            "contractUntilDate": "2012-07-31T00:00:00+02:00",
+            "seasonId": 2010,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 16,
+            "season": {
+              "id": 2010,
+              "display": "10/11",
+              "cyclicalName": "2011",
+              "nonCyclicalName": "10/11"
+            }
+          },
+          "typeDetails": {
+            "type": "ACTIVE_LOAN_TRANSFER",
+            "name": "loan transfer",
+            "feeDescription": "loan transfer"
+          },
+          "relativeUrl": "/samir-caetano/transfers/spieler/255744/transfer_id/1368596"
+        },
+        {
+          "id": "1370039",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 26,
+            "clubId": "15029",
+            "coachId": "0"
+          },
+          "transferDestination": {
+            "competitionId": "",
+            "countryId": 26,
+            "clubId": "24000",
+            "coachId": "138471"
+          },
+          "details": {
+            "playerId": "255744",
+            "date": "2009-01-01T00:00:00+01:00",
+            "contractUntilDate": null,
+            "seasonId": 2008,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 14,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "Free Transfer",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2008,
+              "display": "08/09",
+              "cyclicalName": "2009",
+              "nonCyclicalName": "08/09"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/samir-caetano/transfers/spieler/255744/transfer_id/1370039"
+        }
+      ],
+      "pending": [],
+      "url": "",
+      "feeSum": {
+        "value": 20659000,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "20.66",
+          "suffix": "M"
+        }
+      },
+      "averageAge": 31,
+      "totalMarketValue": {
+        "value": 1800000,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "1.80",
+          "suffix": "M"
+        }
+      }
+    },
+    "clubIds": [
+      "7055",
+      "32328",
+      "82696",
+      "1010",
+      "410",
+      "276",
+      "614",
+      "15002",
+      "24000",
+      "15029"
+    ],
+    "coachIds": [
+      "140158",
+      "54437",
+      "5977",
+      "28313",
+      "5106",
+      "49800",
+      "5957",
+      "31903",
+      "456",
+      "528",
+      "2028",
+      "2127",
+      "4729",
+      "46981",
+      "1976",
+      "138471"
+    ],
+    "competitionIds": [
+      "MEXA",
+      "SA1",
+      "GB2",
+      "IT1",
+      "GB1",
+      "BRA1"
+    ],
+    "mostRecentTransfer": {
+      "id": "5862537",
+      "transferSource": {
+        "competitionId": "MEXA",
+        "countryId": 110,
+        "clubId": "7055",
+        "coachId": "140158"
+      },
+      "transferDestination": {
+        "competitionId": "SA1",
+        "countryId": 146,
+        "clubId": "32328",
+        "coachId": "54437"
+      },
+      "details": {
+        "playerId": "255744",
+        "date": "2025-08-13T00:00:00+02:00",
+        "contractUntilDate": "2027-06-30T00:00:00+02:00",
+        "seasonId": 2025,
+        "isPending": false,
+        "marketValue": {
+          "value": 1800000,
+          "currency": "EUR",
+          "compact": {
+            "prefix": "€",
+            "content": "1.80",
+            "suffix": "M"
+          }
+        },
+        "age": 30,
+        "fee": {
+          "value": 5100000,
+          "currency": "EUR",
+          "compact": {
+            "prefix": "€",
+            "content": "5.10",
+            "suffix": "M"
+          }
+        },
+        "season": {
+          "id": 2025,
+          "display": "25/26",
+          "cyclicalName": "2026",
+          "nonCyclicalName": "25/26"
+        }
+      },
+      "typeDetails": {
+        "type": "STANDARD",
+        "name": "",
+        "feeDescription": ""
+      },
+      "relativeUrl": "/samir-caetano/transfers/spieler/255744/transfer_id/5862537"
+    }
+  }
+}

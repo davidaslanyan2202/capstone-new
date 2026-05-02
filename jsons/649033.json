@@ -1,0 +1,273 @@
+{
+  "success": true,
+  "message": "OK",
+  "data": {
+    "playerId": "649033",
+    "history": {
+      "terminated": [
+        {
+          "id": "4562454",
+          "transferSource": {
+            "competitionId": "FR1",
+            "countryId": 50,
+            "clubId": "1421",
+            "coachId": "53316"
+          },
+          "transferDestination": {
+            "competitionId": "ES1",
+            "countryId": 157,
+            "clubId": "3302",
+            "coachId": "19601"
+          },
+          "details": {
+            "playerId": "649033",
+            "date": "2023-08-05T00:00:00+02:00",
+            "contractUntilDate": "2029-06-30T00:00:00+02:00",
+            "seasonId": 2023,
+            "isPending": false,
+            "marketValue": {
+              "value": 4000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "4.00",
+                "suffix": "M"
+              }
+            },
+            "age": 21,
+            "fee": {
+              "value": 6500000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "6.50",
+                "suffix": "M"
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 1060,
+              "daysDisplay": "2 Years, 10 Months, 25 Days"
+            },
+            "season": {
+              "id": 2023,
+              "display": "23/24",
+              "cyclicalName": "2024",
+              "nonCyclicalName": "23/24"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/dion-lopy/transfers/spieler/649033/transfer_id/4562454"
+        },
+        {
+          "id": "3355297",
+          "transferSource": {
+            "competitionId": "CN2B",
+            "countryId": 50,
+            "clubId": "11204",
+            "coachId": "42680"
+          },
+          "transferDestination": {
+            "competitionId": "FR1",
+            "countryId": 50,
+            "clubId": "1421",
+            "coachId": "16362"
+          },
+          "details": {
+            "playerId": "649033",
+            "date": "2021-07-01T00:00:00+02:00",
+            "contractUntilDate": "2026-06-30T00:00:00+02:00",
+            "seasonId": 2021,
+            "isPending": false,
+            "marketValue": {
+              "value": 800000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "800.00",
+                "suffix": "K"
+              }
+            },
+            "age": 19,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 729,
+              "daysDisplay": "1 Year, 11 Months, 29 Days"
+            },
+            "season": {
+              "id": 2021,
+              "display": "21/22",
+              "cyclicalName": "2022",
+              "nonCyclicalName": "21/22"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/dion-lopy/transfers/spieler/649033/transfer_id/3355297"
+        },
+        {
+          "id": "3089656",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 149,
+            "clubId": "63376",
+            "coachId": "0"
+          },
+          "transferDestination": {
+            "competitionId": "CN2B",
+            "countryId": 50,
+            "clubId": "11204",
+            "coachId": "42680"
+          },
+          "details": {
+            "playerId": "649033",
+            "date": "2020-10-05T00:00:00+02:00",
+            "contractUntilDate": "2023-06-30T00:00:00+02:00",
+            "seasonId": 2020,
+            "isPending": false,
+            "marketValue": {
+              "value": 150000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "150.00",
+                "suffix": "K"
+              }
+            },
+            "age": 18,
+            "fee": {
+              "value": 500000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "500.00",
+                "suffix": "K"
+              }
+            },
+            "season": {
+              "id": 2020,
+              "display": "20/21",
+              "cyclicalName": "2021",
+              "nonCyclicalName": "20/21"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/dion-lopy/transfers/spieler/649033/transfer_id/3089656"
+        }
+      ],
+      "pending": [],
+      "url": "",
+      "feeSum": {
+        "value": 7000000,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "7.00",
+          "suffix": "M"
+        }
+      },
+      "averageAge": 24,
+      "totalMarketValue": {
+        "value": 4000000,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "4.00",
+          "suffix": "M"
+        }
+      }
+    },
+    "clubIds": [
+      "1421",
+      "3302",
+      "11204",
+      "63376"
+    ],
+    "coachIds": [
+      "53316",
+      "19601",
+      "42680",
+      "16362"
+    ],
+    "competitionIds": [
+      "FR1",
+      "ES1",
+      "CN2B"
+    ],
+    "mostRecentTransfer": {
+      "id": "4562454",
+      "transferSource": {
+        "competitionId": "FR1",
+        "countryId": 50,
+        "clubId": "1421",
+        "coachId": "53316"
+      },
+      "transferDestination": {
+        "competitionId": "ES1",
+        "countryId": 157,
+        "clubId": "3302",
+        "coachId": "19601"
+      },
+      "details": {
+        "playerId": "649033",
+        "date": "2023-08-05T00:00:00+02:00",
+        "contractUntilDate": "2029-06-30T00:00:00+02:00",
+        "seasonId": 2023,
+        "isPending": false,
+        "marketValue": {
+          "value": 4000000,
+          "currency": "EUR",
+          "compact": {
+            "prefix": "€",
+            "content": "4.00",
+            "suffix": "M"
+          }
+        },
+        "age": 21,
+        "fee": {
+          "value": 6500000,
+          "currency": "EUR",
+          "compact": {
+            "prefix": "€",
+            "content": "6.50",
+            "suffix": "M"
+          }
+        },
+        "remainingContractPeriod": {
+          "days": 1060,
+          "daysDisplay": "2 Years, 10 Months, 25 Days"
+        },
+        "season": {
+          "id": 2023,
+          "display": "23/24",
+          "cyclicalName": "2024",
+          "nonCyclicalName": "23/24"
+        }
+      },
+      "typeDetails": {
+        "type": "STANDARD",
+        "name": "",
+        "feeDescription": ""
+      },
+      "relativeUrl": "/dion-lopy/transfers/spieler/649033/transfer_id/4562454"
+    }
+  }
+}

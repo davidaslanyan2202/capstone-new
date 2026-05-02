@@ -1,0 +1,459 @@
+{
+  "success": true,
+  "message": "OK",
+  "data": {
+    "playerId": "82350",
+    "history": {
+      "terminated": [
+        {
+          "id": "585744",
+          "transferSource": {
+            "competitionId": "L2",
+            "countryId": 40,
+            "clubId": "24",
+            "coachId": "269"
+          },
+          "transferDestination": {
+            "competitionId": "L1",
+            "countryId": 40,
+            "clubId": "39",
+            "coachId": "7471"
+          },
+          "details": {
+            "playerId": "82350",
+            "date": "2011-12-31T00:00:00+01:00",
+            "contractUntilDate": "2026-06-30T00:00:00+02:00",
+            "seasonId": 2011,
+            "isPending": false,
+            "marketValue": {
+              "value": 1250000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "1.20",
+                "suffix": "M"
+              }
+            },
+            "age": 20,
+            "remainingContractPeriod": {
+              "days": 182,
+              "daysDisplay": "5 Months, 30 Days"
+            },
+            "season": {
+              "id": 2011,
+              "display": "11/12",
+              "cyclicalName": "2012",
+              "nonCyclicalName": "11/12"
+            }
+          },
+          "typeDetails": {
+            "type": "RETURNED_FROM_PREVIOUS_LOAN",
+            "name": "End of loan",
+            "feeDescription": "End of loan"
+          },
+          "relativeUrl": "/stefan-bell/transfers/spieler/82350/transfer_id/585744"
+        },
+        {
+          "id": "585745",
+          "transferSource": {
+            "competitionId": "L1",
+            "countryId": 40,
+            "clubId": "39",
+            "coachId": "7471"
+          },
+          "transferDestination": {
+            "competitionId": "L2",
+            "countryId": 40,
+            "clubId": "24",
+            "coachId": "269"
+          },
+          "details": {
+            "playerId": "82350",
+            "date": "2011-07-01T00:00:00+02:00",
+            "contractUntilDate": "2012-06-30T00:00:00+02:00",
+            "seasonId": 2011,
+            "isPending": false,
+            "marketValue": {
+              "value": 1500000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "1.50",
+                "suffix": "M"
+              }
+            },
+            "age": 19,
+            "fee": {
+              "value": 100000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "100.00",
+                "suffix": "K"
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 730,
+              "daysDisplay": "1 Year, 11 Months, 29 Days"
+            },
+            "season": {
+              "id": 2011,
+              "display": "11/12",
+              "cyclicalName": "2012",
+              "nonCyclicalName": "11/12"
+            }
+          },
+          "typeDetails": {
+            "type": "ACTIVE_LOAN_TRANSFER",
+            "name": "loan transfer",
+            "feeDescription": "Loan fee"
+          },
+          "relativeUrl": "/stefan-bell/transfers/spieler/82350/transfer_id/585745"
+        },
+        {
+          "id": "466974",
+          "transferSource": {
+            "competitionId": "L2",
+            "countryId": 40,
+            "clubId": "72",
+            "coachId": "378"
+          },
+          "transferDestination": {
+            "competitionId": "L1",
+            "countryId": 40,
+            "clubId": "39",
+            "coachId": "7471"
+          },
+          "details": {
+            "playerId": "82350",
+            "date": "2011-06-30T00:00:00+02:00",
+            "contractUntilDate": "2013-06-30T00:00:00+02:00",
+            "seasonId": 2010,
+            "isPending": false,
+            "marketValue": {
+              "value": 1500000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "1.50",
+                "suffix": "M"
+              }
+            },
+            "age": 19,
+            "season": {
+              "id": 2010,
+              "display": "10/11",
+              "cyclicalName": "2011",
+              "nonCyclicalName": "10/11"
+            }
+          },
+          "typeDetails": {
+            "type": "RETURNED_FROM_PREVIOUS_LOAN",
+            "name": "End of loan",
+            "feeDescription": "End of loan"
+          },
+          "relativeUrl": "/stefan-bell/transfers/spieler/82350/transfer_id/466974"
+        },
+        {
+          "id": "466973",
+          "transferSource": {
+            "competitionId": "L1",
+            "countryId": 40,
+            "clubId": "39",
+            "coachId": "7471"
+          },
+          "transferDestination": {
+            "competitionId": "L2",
+            "countryId": 40,
+            "clubId": "72",
+            "coachId": "378"
+          },
+          "details": {
+            "playerId": "82350",
+            "date": "2010-08-14T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2010,
+            "isPending": false,
+            "marketValue": {
+              "value": 1000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "1.00",
+                "suffix": "M"
+              }
+            },
+            "age": 18,
+            "remainingContractPeriod": {
+              "days": 5434,
+              "daysDisplay": "14 Years, 10 Months, 16 Days"
+            },
+            "season": {
+              "id": 2010,
+              "display": "10/11",
+              "cyclicalName": "2011",
+              "nonCyclicalName": "10/11"
+            }
+          },
+          "typeDetails": {
+            "type": "ACTIVE_LOAN_TRANSFER",
+            "name": "loan transfer",
+            "feeDescription": "loan transfer"
+          },
+          "relativeUrl": "/stefan-bell/transfers/spieler/82350/transfer_id/466973"
+        },
+        {
+          "id": "419051",
+          "transferSource": {
+            "competitionId": "AJ3",
+            "countryId": 40,
+            "clubId": "5369",
+            "coachId": "754"
+          },
+          "transferDestination": {
+            "competitionId": "L1",
+            "countryId": 40,
+            "clubId": "39",
+            "coachId": "7471"
+          },
+          "details": {
+            "playerId": "82350",
+            "date": "2010-07-01T00:00:00+02:00",
+            "contractUntilDate": "2025-06-30T00:00:00+02:00",
+            "seasonId": 2010,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 18,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2010,
+              "display": "10/11",
+              "cyclicalName": "2011",
+              "nonCyclicalName": "10/11"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/stefan-bell/transfers/spieler/82350/transfer_id/419051"
+        },
+        {
+          "id": "479285",
+          "transferSource": {
+            "competitionId": "BJ3",
+            "countryId": 40,
+            "clubId": "21051",
+            "coachId": "41558"
+          },
+          "transferDestination": {
+            "competitionId": "AJ3",
+            "countryId": 40,
+            "clubId": "5369",
+            "coachId": "7471"
+          },
+          "details": {
+            "playerId": "82350",
+            "date": "2008-07-01T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2008,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 16,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2008,
+              "display": "08/09",
+              "cyclicalName": "2009",
+              "nonCyclicalName": "08/09"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/stefan-bell/transfers/spieler/82350/transfer_id/479285"
+        },
+        {
+          "id": "479286",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 40,
+            "clubId": "21138",
+            "coachId": "8509"
+          },
+          "transferDestination": {
+            "competitionId": "BJ3",
+            "countryId": 40,
+            "clubId": "21051",
+            "coachId": "4484"
+          },
+          "details": {
+            "playerId": "82350",
+            "date": "2007-07-01T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2007,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 15,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "Free Transfer",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2007,
+              "display": "07/08",
+              "cyclicalName": "2008",
+              "nonCyclicalName": "07/08"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/stefan-bell/transfers/spieler/82350/transfer_id/479286"
+        }
+      ],
+      "pending": [],
+      "url": "",
+      "feeSum": {
+        "value": 100000,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "100.00",
+          "suffix": "K"
+        }
+      },
+      "averageAge": 34,
+      "totalMarketValue": {
+        "value": 600000,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "600.00",
+          "suffix": "K"
+        }
+      }
+    },
+    "clubIds": [
+      "24",
+      "39",
+      "72",
+      "5369",
+      "21051",
+      "21138"
+    ],
+    "coachIds": [
+      "269",
+      "7471",
+      "378",
+      "754",
+      "41558",
+      "8509",
+      "4484"
+    ],
+    "competitionIds": [
+      "L2",
+      "L1",
+      "AJ3",
+      "BJ3"
+    ],
+    "mostRecentTransfer": {
+      "id": "585744",
+      "transferSource": {
+        "competitionId": "L2",
+        "countryId": 40,
+        "clubId": "24",
+        "coachId": "269"
+      },
+      "transferDestination": {
+        "competitionId": "L1",
+        "countryId": 40,
+        "clubId": "39",
+        "coachId": "7471"
+      },
+      "details": {
+        "playerId": "82350",
+        "date": "2011-12-31T00:00:00+01:00",
+        "contractUntilDate": "2026-06-30T00:00:00+02:00",
+        "seasonId": 2011,
+        "isPending": false,
+        "marketValue": {
+          "value": 1250000,
+          "currency": "EUR",
+          "compact": {
+            "prefix": "€",
+            "content": "1.20",
+            "suffix": "M"
+          }
+        },
+        "age": 20,
+        "remainingContractPeriod": {
+          "days": 182,
+          "daysDisplay": "5 Months, 30 Days"
+        },
+        "season": {
+          "id": 2011,
+          "display": "11/12",
+          "cyclicalName": "2012",
+          "nonCyclicalName": "11/12"
+        }
+      },
+      "typeDetails": {
+        "type": "RETURNED_FROM_PREVIOUS_LOAN",
+        "name": "End of loan",
+        "feeDescription": "End of loan"
+      },
+      "relativeUrl": "/stefan-bell/transfers/spieler/82350/transfer_id/585744"
+    }
+  }
+}

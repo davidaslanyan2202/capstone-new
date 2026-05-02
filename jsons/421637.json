@@ -1,0 +1,463 @@
+{
+  "success": true,
+  "message": "OK",
+  "data": {
+    "playerId": "421637",
+    "history": {
+      "terminated": [
+        {
+          "id": "6162968",
+          "transferSource": {
+            "competitionId": "GB1",
+            "countryId": 189,
+            "clubId": "1148",
+            "coachId": "68347"
+          },
+          "transferDestination": {
+            "competitionId": "GB2",
+            "countryId": 189,
+            "clubId": "990",
+            "coachId": "60805"
+          },
+          "details": {
+            "playerId": "421637",
+            "date": "2026-02-02T00:00:00+01:00",
+            "contractUntilDate": "2026-05-31T00:00:00+02:00",
+            "seasonId": 2025,
+            "isPending": false,
+            "marketValue": {
+              "value": 7000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "7.00",
+                "suffix": "M"
+              }
+            },
+            "age": 28,
+            "remainingContractPeriod": {
+              "days": 513,
+              "daysDisplay": "1 Year, 4 Months, 28 Days"
+            },
+            "season": {
+              "id": 2025,
+              "display": "25/26",
+              "cyclicalName": "2026",
+              "nonCyclicalName": "25/26"
+            }
+          },
+          "typeDetails": {
+            "type": "ACTIVE_LOAN_TRANSFER",
+            "name": "loan transfer",
+            "feeDescription": "loan transfer"
+          },
+          "relativeUrl": "/frank-onyeka/transfers/spieler/421637/transfer_id/6162968"
+        },
+        {
+          "id": "5238321",
+          "transferSource": {
+            "competitionId": "L1",
+            "countryId": 40,
+            "clubId": "167",
+            "coachId": "2898"
+          },
+          "transferDestination": {
+            "competitionId": "GB1",
+            "countryId": 189,
+            "clubId": "1148",
+            "coachId": "9002"
+          },
+          "details": {
+            "playerId": "421637",
+            "date": "2025-06-30T00:00:00+02:00",
+            "contractUntilDate": "2027-06-30T00:00:00+02:00",
+            "seasonId": 2024,
+            "isPending": false,
+            "marketValue": {
+              "value": 7000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "7.00",
+                "suffix": "M"
+              }
+            },
+            "age": 27,
+            "remainingContractPeriod": {
+              "days": 0,
+              "daysDisplay": "Unknown"
+            },
+            "season": {
+              "id": 2024,
+              "display": "24/25",
+              "cyclicalName": "2025",
+              "nonCyclicalName": "24/25"
+            }
+          },
+          "typeDetails": {
+            "type": "RETURNED_FROM_PREVIOUS_LOAN",
+            "name": "End of loan",
+            "feeDescription": "End of loan"
+          },
+          "relativeUrl": "/frank-onyeka/transfers/spieler/421637/transfer_id/5238321"
+        },
+        {
+          "id": "5238320",
+          "transferSource": {
+            "competitionId": "GB1",
+            "countryId": 189,
+            "clubId": "1148",
+            "coachId": "9002"
+          },
+          "transferDestination": {
+            "competitionId": "L1",
+            "countryId": 40,
+            "clubId": "167",
+            "coachId": "2898"
+          },
+          "details": {
+            "playerId": "421637",
+            "date": "2024-08-30T00:00:00+02:00",
+            "contractUntilDate": "2025-06-30T00:00:00+02:00",
+            "seasonId": 2024,
+            "isPending": false,
+            "marketValue": {
+              "value": 9000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "9.00",
+                "suffix": "M"
+              }
+            },
+            "age": 26,
+            "remainingContractPeriod": {
+              "days": 1034,
+              "daysDisplay": "2 Years, 10 Months"
+            },
+            "season": {
+              "id": 2024,
+              "display": "24/25",
+              "cyclicalName": "2025",
+              "nonCyclicalName": "24/25"
+            }
+          },
+          "typeDetails": {
+            "type": "ACTIVE_LOAN_TRANSFER",
+            "name": "loan transfer",
+            "feeDescription": "loan transfer"
+          },
+          "relativeUrl": "/frank-onyeka/transfers/spieler/421637/transfer_id/5238320"
+        },
+        {
+          "id": "3450870",
+          "transferSource": {
+            "competitionId": "DK1",
+            "countryId": 39,
+            "clubId": "865",
+            "coachId": "8524"
+          },
+          "transferDestination": {
+            "competitionId": "GB1",
+            "countryId": 189,
+            "clubId": "1148",
+            "coachId": "9002"
+          },
+          "details": {
+            "playerId": "421637",
+            "date": "2021-07-20T00:00:00+02:00",
+            "contractUntilDate": "2027-06-30T00:00:00+02:00",
+            "seasonId": 2021,
+            "isPending": false,
+            "marketValue": {
+              "value": 6000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "6.00",
+                "suffix": "M"
+              }
+            },
+            "age": 23,
+            "fee": {
+              "value": 10000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "10.00",
+                "suffix": "M"
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 1076,
+              "daysDisplay": "2 Years, 11 Months, 10 Days"
+            },
+            "season": {
+              "id": 2021,
+              "display": "21/22",
+              "cyclicalName": "2022",
+              "nonCyclicalName": "21/22"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/frank-onyeka/transfers/spieler/421637/transfer_id/3450870"
+        },
+        {
+          "id": "1807805",
+          "transferSource": {
+            "competitionId": "DKDL",
+            "countryId": 39,
+            "clubId": "9054",
+            "coachId": "8238"
+          },
+          "transferDestination": {
+            "competitionId": "DK1",
+            "countryId": 39,
+            "clubId": "865",
+            "coachId": "2898"
+          },
+          "details": {
+            "playerId": "421637",
+            "date": "2017-07-01T00:00:00+02:00",
+            "contractUntilDate": "2024-06-30T00:00:00+02:00",
+            "seasonId": 2017,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 19,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 2190,
+              "daysDisplay": "5 Years, 11 Months, 29 Days"
+            },
+            "season": {
+              "id": 2017,
+              "display": "17/18",
+              "cyclicalName": "2018",
+              "nonCyclicalName": "17/18"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/frank-onyeka/transfers/spieler/421637/transfer_id/1807805"
+        },
+        {
+          "id": "1443108",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 124,
+            "clubId": "20586",
+            "coachId": "0"
+          },
+          "transferDestination": {
+            "competitionId": "DKDL",
+            "countryId": 39,
+            "clubId": "9054",
+            "coachId": "8238"
+          },
+          "details": {
+            "playerId": "421637",
+            "date": "2016-01-01T00:00:00+01:00",
+            "contractUntilDate": "2023-06-30T00:00:00+02:00",
+            "seasonId": 2015,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 18,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "?",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2015,
+              "display": "15/16",
+              "cyclicalName": "2016",
+              "nonCyclicalName": "15/16"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/frank-onyeka/transfers/spieler/421637/transfer_id/1443108"
+        }
+      ],
+      "pending": [
+        {
+          "id": "6162969",
+          "transferSource": {
+            "competitionId": "GB2",
+            "countryId": 189,
+            "clubId": "990",
+            "coachId": "60805"
+          },
+          "transferDestination": {
+            "competitionId": "GB1",
+            "countryId": 189,
+            "clubId": "1148",
+            "coachId": "68347"
+          },
+          "details": {
+            "playerId": "421637",
+            "date": "2026-05-31T00:00:00+02:00",
+            "contractUntilDate": "2027-06-30T00:00:00+02:00",
+            "seasonId": 2025,
+            "isPending": true,
+            "marketValue": {
+              "value": 7000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "7.00",
+                "suffix": "M"
+              }
+            },
+            "age": 28,
+            "remainingContractPeriod": {
+              "days": 0,
+              "daysDisplay": "Unknown"
+            },
+            "season": {
+              "id": 2025,
+              "display": "25/26",
+              "cyclicalName": "2026",
+              "nonCyclicalName": "25/26"
+            }
+          },
+          "typeDetails": {
+            "type": "RETURNED_FROM_PREVIOUS_LOAN",
+            "name": "End of loan",
+            "feeDescription": "End of loan"
+          },
+          "relativeUrl": "/frank-onyeka/transfers/spieler/421637/transfer_id/6162969"
+        }
+      ],
+      "url": "",
+      "feeSum": {
+        "value": 10000000,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "10.00",
+          "suffix": "M"
+        }
+      },
+      "averageAge": 28,
+      "totalMarketValue": {
+        "value": 7000000,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "7.00",
+          "suffix": "M"
+        }
+      }
+    },
+    "clubIds": [
+      "990",
+      "1148",
+      "167",
+      "865",
+      "9054",
+      "20586"
+    ],
+    "coachIds": [
+      "60805",
+      "68347",
+      "2898",
+      "9002",
+      "8524",
+      "8238"
+    ],
+    "competitionIds": [
+      "GB2",
+      "GB1",
+      "L1",
+      "DK1",
+      "DKDL"
+    ],
+    "mostRecentTransfer": {
+      "id": "6162968",
+      "transferSource": {
+        "competitionId": "GB1",
+        "countryId": 189,
+        "clubId": "1148",
+        "coachId": "68347"
+      },
+      "transferDestination": {
+        "competitionId": "GB2",
+        "countryId": 189,
+        "clubId": "990",
+        "coachId": "60805"
+      },
+      "details": {
+        "playerId": "421637",
+        "date": "2026-02-02T00:00:00+01:00",
+        "contractUntilDate": "2026-05-31T00:00:00+02:00",
+        "seasonId": 2025,
+        "isPending": false,
+        "marketValue": {
+          "value": 7000000,
+          "currency": "EUR",
+          "compact": {
+            "prefix": "€",
+            "content": "7.00",
+            "suffix": "M"
+          }
+        },
+        "age": 28,
+        "remainingContractPeriod": {
+          "days": 513,
+          "daysDisplay": "1 Year, 4 Months, 28 Days"
+        },
+        "season": {
+          "id": 2025,
+          "display": "25/26",
+          "cyclicalName": "2026",
+          "nonCyclicalName": "25/26"
+        }
+      },
+      "typeDetails": {
+        "type": "ACTIVE_LOAN_TRANSFER",
+        "name": "loan transfer",
+        "feeDescription": "loan transfer"
+      },
+      "relativeUrl": "/frank-onyeka/transfers/spieler/421637/transfer_id/6162968"
+    }
+  }
+}

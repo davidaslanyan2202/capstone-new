@@ -1,0 +1,738 @@
+{
+  "success": true,
+  "message": "OK",
+  "data": {
+    "playerId": "545332",
+    "history": {
+      "terminated": [
+        {
+          "id": "5461142",
+          "transferSource": {
+            "competitionId": "L2",
+            "countryId": 40,
+            "clubId": "48",
+            "coachId": "49834"
+          },
+          "transferDestination": {
+            "competitionId": "L1",
+            "countryId": 40,
+            "clubId": "2036",
+            "coachId": "6416"
+          },
+          "details": {
+            "playerId": "545332",
+            "date": "2025-06-30T00:00:00+02:00",
+            "contractUntilDate": "2028-06-30T00:00:00+02:00",
+            "seasonId": 2024,
+            "isPending": false,
+            "marketValue": {
+              "value": 1200000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "1.20",
+                "suffix": "M"
+              }
+            },
+            "age": 24,
+            "remainingContractPeriod": {
+              "days": 0,
+              "daysDisplay": "Unknown"
+            },
+            "season": {
+              "id": 2024,
+              "display": "24/25",
+              "cyclicalName": "2025",
+              "nonCyclicalName": "24/25"
+            }
+          },
+          "typeDetails": {
+            "type": "RETURNED_FROM_PREVIOUS_LOAN",
+            "name": "End of loan",
+            "feeDescription": "End of loan"
+          },
+          "relativeUrl": "/mikkel-kaufmann/transfers/spieler/545332/transfer_id/5461142"
+        },
+        {
+          "id": "5461141",
+          "transferSource": {
+            "competitionId": "L1",
+            "countryId": 40,
+            "clubId": "2036",
+            "coachId": "6416"
+          },
+          "transferDestination": {
+            "competitionId": "L2",
+            "countryId": 40,
+            "clubId": "48",
+            "coachId": "49834"
+          },
+          "details": {
+            "playerId": "545332",
+            "date": "2025-01-17T00:00:00+01:00",
+            "contractUntilDate": "2025-06-30T00:00:00+02:00",
+            "seasonId": 2024,
+            "isPending": false,
+            "marketValue": {
+              "value": 2000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "2.00",
+                "suffix": "M"
+              }
+            },
+            "age": 24,
+            "remainingContractPeriod": {
+              "days": 1260,
+              "daysDisplay": "3 Years, 5 Months, 13 Days"
+            },
+            "season": {
+              "id": 2024,
+              "display": "24/25",
+              "cyclicalName": "2025",
+              "nonCyclicalName": "24/25"
+            }
+          },
+          "typeDetails": {
+            "type": "ACTIVE_LOAN_TRANSFER",
+            "name": "loan transfer",
+            "feeDescription": "loan transfer"
+          },
+          "relativeUrl": "/mikkel-kaufmann/transfers/spieler/545332/transfer_id/5461141"
+        },
+        {
+          "id": "5080130",
+          "transferSource": {
+            "competitionId": "L1",
+            "countryId": 40,
+            "clubId": "89",
+            "coachId": "35997"
+          },
+          "transferDestination": {
+            "competitionId": "L1",
+            "countryId": 40,
+            "clubId": "2036",
+            "coachId": "6416"
+          },
+          "details": {
+            "playerId": "545332",
+            "date": "2024-07-01T00:00:00+02:00",
+            "contractUntilDate": "2028-06-30T00:00:00+02:00",
+            "seasonId": 2024,
+            "isPending": false,
+            "marketValue": {
+              "value": 2700000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "2.70",
+                "suffix": "M"
+              }
+            },
+            "age": 23,
+            "fee": {
+              "value": 1250000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "1.25",
+                "suffix": "M"
+              }
+            },
+            "season": {
+              "id": 2024,
+              "display": "24/25",
+              "cyclicalName": "2025",
+              "nonCyclicalName": "24/25"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/mikkel-kaufmann/transfers/spieler/545332/transfer_id/5080130"
+        },
+        {
+          "id": "4433980",
+          "transferSource": {
+            "competitionId": "DK1",
+            "countryId": 39,
+            "clubId": "190",
+            "coachId": "27714"
+          },
+          "transferDestination": {
+            "competitionId": "L1",
+            "countryId": 40,
+            "clubId": "89",
+            "coachId": "5965"
+          },
+          "details": {
+            "playerId": "545332",
+            "date": "2023-07-01T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2023,
+            "isPending": false,
+            "marketValue": {
+              "value": 2700000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "2.70",
+                "suffix": "M"
+              }
+            },
+            "age": 22,
+            "fee": {
+              "value": 2700000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "2.70",
+                "suffix": "M"
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 549,
+              "daysDisplay": "1 Year, 5 Months, 30 Days"
+            },
+            "season": {
+              "id": 2023,
+              "display": "23/24",
+              "cyclicalName": "2024",
+              "nonCyclicalName": "23/24"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/mikkel-kaufmann/transfers/spieler/545332/transfer_id/4433980"
+        },
+        {
+          "id": "3897895",
+          "transferSource": {
+            "competitionId": "L2",
+            "countryId": 40,
+            "clubId": "48",
+            "coachId": "49834"
+          },
+          "transferDestination": {
+            "competitionId": "DK1",
+            "countryId": 39,
+            "clubId": "190",
+            "coachId": "27714"
+          },
+          "details": {
+            "playerId": "545332",
+            "date": "2023-06-30T00:00:00+02:00",
+            "contractUntilDate": "2024-12-31T00:00:00+01:00",
+            "seasonId": 2022,
+            "isPending": false,
+            "marketValue": {
+              "value": 2700000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "2.70",
+                "suffix": "M"
+              }
+            },
+            "age": 22,
+            "remainingContractPeriod": {
+              "days": 0,
+              "daysDisplay": "Unknown"
+            },
+            "season": {
+              "id": 2022,
+              "display": "22/23",
+              "cyclicalName": "2023",
+              "nonCyclicalName": "22/23"
+            }
+          },
+          "typeDetails": {
+            "type": "RETURNED_FROM_PREVIOUS_LOAN",
+            "name": "End of loan",
+            "feeDescription": "End of loan"
+          },
+          "relativeUrl": "/mikkel-kaufmann/transfers/spieler/545332/transfer_id/3897895"
+        },
+        {
+          "id": "3897888",
+          "transferSource": {
+            "competitionId": "DK1",
+            "countryId": 39,
+            "clubId": "190",
+            "coachId": "2898"
+          },
+          "transferDestination": {
+            "competitionId": "L2",
+            "countryId": 40,
+            "clubId": "48",
+            "coachId": "49834"
+          },
+          "details": {
+            "playerId": "545332",
+            "date": "2022-07-01T00:00:00+02:00",
+            "contractUntilDate": "2023-06-30T00:00:00+02:00",
+            "seasonId": 2022,
+            "isPending": false,
+            "marketValue": {
+              "value": 600000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "600.00",
+                "suffix": "K"
+              }
+            },
+            "age": 21,
+            "fee": {
+              "value": 40000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "40.00",
+                "suffix": "K"
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 914,
+              "daysDisplay": "2 Years, 5 Months, 30 Days"
+            },
+            "season": {
+              "id": 2022,
+              "display": "22/23",
+              "cyclicalName": "2023",
+              "nonCyclicalName": "22/23"
+            }
+          },
+          "typeDetails": {
+            "type": "ACTIVE_LOAN_TRANSFER",
+            "name": "loan transfer",
+            "feeDescription": "Loan fee"
+          },
+          "relativeUrl": "/mikkel-kaufmann/transfers/spieler/545332/transfer_id/3897888"
+        },
+        {
+          "id": "3431158",
+          "transferSource": {
+            "competitionId": "L2",
+            "countryId": 40,
+            "clubId": "41",
+            "coachId": "30352"
+          },
+          "transferDestination": {
+            "competitionId": "DK1",
+            "countryId": 39,
+            "clubId": "190",
+            "coachId": "2898"
+          },
+          "details": {
+            "playerId": "545332",
+            "date": "2022-06-30T00:00:00+02:00",
+            "contractUntilDate": "2024-12-31T00:00:00+01:00",
+            "seasonId": 2021,
+            "isPending": false,
+            "marketValue": {
+              "value": 600000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "600.00",
+                "suffix": "K"
+              }
+            },
+            "age": 21,
+            "remainingContractPeriod": {
+              "days": 0,
+              "daysDisplay": "Unknown"
+            },
+            "season": {
+              "id": 2021,
+              "display": "21/22",
+              "cyclicalName": "2022",
+              "nonCyclicalName": "21/22"
+            }
+          },
+          "typeDetails": {
+            "type": "RETURNED_FROM_PREVIOUS_LOAN",
+            "name": "End of loan",
+            "feeDescription": "End of loan"
+          },
+          "relativeUrl": "/mikkel-kaufmann/transfers/spieler/545332/transfer_id/3431158"
+        },
+        {
+          "id": "3431157",
+          "transferSource": {
+            "competitionId": "DK1",
+            "countryId": 39,
+            "clubId": "190",
+            "coachId": "2898"
+          },
+          "transferDestination": {
+            "competitionId": "L2",
+            "countryId": 40,
+            "clubId": "41",
+            "coachId": "30352"
+          },
+          "details": {
+            "playerId": "545332",
+            "date": "2021-07-09T00:00:00+02:00",
+            "contractUntilDate": "2022-06-30T00:00:00+02:00",
+            "seasonId": 2021,
+            "isPending": false,
+            "marketValue": {
+              "value": 1000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "1.00",
+                "suffix": "M"
+              }
+            },
+            "age": 20,
+            "remainingContractPeriod": {
+              "days": 1271,
+              "daysDisplay": "3 Years, 5 Months, 22 Days"
+            },
+            "season": {
+              "id": 2021,
+              "display": "21/22",
+              "cyclicalName": "2022",
+              "nonCyclicalName": "21/22"
+            }
+          },
+          "typeDetails": {
+            "type": "ACTIVE_LOAN_TRANSFER",
+            "name": "loan transfer",
+            "feeDescription": "loan transfer"
+          },
+          "relativeUrl": "/mikkel-kaufmann/transfers/spieler/545332/transfer_id/3431157"
+        },
+        {
+          "id": "2771420",
+          "transferSource": {
+            "competitionId": "DK1",
+            "countryId": 39,
+            "clubId": "1053",
+            "coachId": "44514"
+          },
+          "transferDestination": {
+            "competitionId": "DK1",
+            "countryId": 39,
+            "clubId": "190",
+            "coachId": "3419"
+          },
+          "details": {
+            "playerId": "545332",
+            "date": "2020-01-31T00:00:00+01:00",
+            "contractUntilDate": "2024-12-31T00:00:00+01:00",
+            "seasonId": 2019,
+            "isPending": false,
+            "marketValue": {
+              "value": 1000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "1.00",
+                "suffix": "M"
+              }
+            },
+            "age": 19,
+            "fee": {
+              "value": 3000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "3.00",
+                "suffix": "M"
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 1246,
+              "daysDisplay": "3 Years, 4 Months, 30 Days"
+            },
+            "season": {
+              "id": 2019,
+              "display": "19/20",
+              "cyclicalName": "2020",
+              "nonCyclicalName": "19/20"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/mikkel-kaufmann/transfers/spieler/545332/transfer_id/2771420"
+        },
+        {
+          "id": "2501098",
+          "transferSource": {
+            "competitionId": "DKDL",
+            "countryId": 39,
+            "clubId": "9113",
+            "coachId": "65763"
+          },
+          "transferDestination": {
+            "competitionId": "DK1",
+            "countryId": 39,
+            "clubId": "1053",
+            "coachId": "44514"
+          },
+          "details": {
+            "playerId": "545332",
+            "date": "2019-07-01T00:00:00+02:00",
+            "contractUntilDate": "2023-06-30T00:00:00+02:00",
+            "seasonId": 2019,
+            "isPending": false,
+            "marketValue": {
+              "value": 75000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "75.00",
+                "suffix": "K"
+              }
+            },
+            "age": 18,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 1460,
+              "daysDisplay": "3 Years, 11 Months, 29 Days"
+            },
+            "season": {
+              "id": 2019,
+              "display": "19/20",
+              "cyclicalName": "2020",
+              "nonCyclicalName": "19/20"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/mikkel-kaufmann/transfers/spieler/545332/transfer_id/2501098"
+        },
+        {
+          "id": "2190310",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 39,
+            "clubId": "19115",
+            "coachId": "65763"
+          },
+          "transferDestination": {
+            "competitionId": "DKDL",
+            "countryId": 39,
+            "clubId": "9113",
+            "coachId": "57334"
+          },
+          "details": {
+            "playerId": "545332",
+            "date": "2018-07-01T00:00:00+02:00",
+            "contractUntilDate": "2023-06-30T00:00:00+02:00",
+            "seasonId": 2018,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 17,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2018,
+              "display": "18/19",
+              "cyclicalName": "2019",
+              "nonCyclicalName": "18/19"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/mikkel-kaufmann/transfers/spieler/545332/transfer_id/2190310"
+        },
+        {
+          "id": "3043175",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 39,
+            "clubId": "46027",
+            "coachId": "0"
+          },
+          "transferDestination": {
+            "competitionId": "",
+            "countryId": 39,
+            "clubId": "19115",
+            "coachId": "114164"
+          },
+          "details": {
+            "playerId": "545332",
+            "date": "2015-07-01T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2015,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 14,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "Free Transfer",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2015,
+              "display": "15/16",
+              "cyclicalName": "2016",
+              "nonCyclicalName": "15/16"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/mikkel-kaufmann/transfers/spieler/545332/transfer_id/3043175"
+        }
+      ],
+      "pending": [],
+      "url": "",
+      "feeSum": {
+        "value": 6990000,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "6.99",
+          "suffix": "M"
+        }
+      },
+      "averageAge": 25,
+      "totalMarketValue": {
+        "value": 1800000,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "1.80",
+          "suffix": "M"
+        }
+      }
+    },
+    "clubIds": [
+      "48",
+      "2036",
+      "89",
+      "190",
+      "41",
+      "1053",
+      "9113",
+      "19115",
+      "46027"
+    ],
+    "coachIds": [
+      "49834",
+      "6416",
+      "35997",
+      "27714",
+      "5965",
+      "2898",
+      "30352",
+      "44514",
+      "3419",
+      "65763",
+      "57334",
+      "114164"
+    ],
+    "competitionIds": [
+      "L2",
+      "L1",
+      "DK1",
+      "DKDL"
+    ],
+    "mostRecentTransfer": {
+      "id": "5461142",
+      "transferSource": {
+        "competitionId": "L2",
+        "countryId": 40,
+        "clubId": "48",
+        "coachId": "49834"
+      },
+      "transferDestination": {
+        "competitionId": "L1",
+        "countryId": 40,
+        "clubId": "2036",
+        "coachId": "6416"
+      },
+      "details": {
+        "playerId": "545332",
+        "date": "2025-06-30T00:00:00+02:00",
+        "contractUntilDate": "2028-06-30T00:00:00+02:00",
+        "seasonId": 2024,
+        "isPending": false,
+        "marketValue": {
+          "value": 1200000,
+          "currency": "EUR",
+          "compact": {
+            "prefix": "€",
+            "content": "1.20",
+            "suffix": "M"
+          }
+        },
+        "age": 24,
+        "remainingContractPeriod": {
+          "days": 0,
+          "daysDisplay": "Unknown"
+        },
+        "season": {
+          "id": 2024,
+          "display": "24/25",
+          "cyclicalName": "2025",
+          "nonCyclicalName": "24/25"
+        }
+      },
+      "typeDetails": {
+        "type": "RETURNED_FROM_PREVIOUS_LOAN",
+        "name": "End of loan",
+        "feeDescription": "End of loan"
+      },
+      "relativeUrl": "/mikkel-kaufmann/transfers/spieler/545332/transfer_id/5461142"
+    }
+  }
+}

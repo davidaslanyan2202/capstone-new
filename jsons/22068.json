@@ -1,0 +1,725 @@
+{
+  "success": true,
+  "message": "OK",
+  "data": {
+    "playerId": "22068",
+    "history": {
+      "terminated": [
+        {
+          "id": "4118477",
+          "transferSource": {
+            "competitionId": "IT1",
+            "countryId": 75,
+            "clubId": "380",
+            "coachId": "14892"
+          },
+          "transferDestination": {
+            "competitionId": "",
+            "countryId": 0,
+            "clubId": "123",
+            "coachId": "0"
+          },
+          "details": {
+            "playerId": "22068",
+            "date": "2022-10-21T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2022,
+            "isPending": false,
+            "marketValue": {
+              "value": 1000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "1.00",
+                "suffix": "M"
+              }
+            },
+            "age": 39,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 252,
+              "daysDisplay": "8 Months, 9 Days"
+            },
+            "season": {
+              "id": 2022,
+              "display": "22/23",
+              "cyclicalName": "2023",
+              "nonCyclicalName": "22/23"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/franck-ribery/transfers/spieler/22068/transfer_id/4118477"
+        },
+        {
+          "id": "3540095",
+          "transferSource": {
+            "competitionId": "IT1",
+            "countryId": 75,
+            "clubId": "430",
+            "coachId": "47288"
+          },
+          "transferDestination": {
+            "competitionId": "IT1",
+            "countryId": 75,
+            "clubId": "380",
+            "coachId": "2126"
+          },
+          "details": {
+            "playerId": "22068",
+            "date": "2021-09-06T00:00:00+02:00",
+            "contractUntilDate": "2023-06-30T00:00:00+02:00",
+            "seasonId": 2021,
+            "isPending": false,
+            "marketValue": {
+              "value": 3000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "3.00",
+                "suffix": "M"
+              }
+            },
+            "age": 38,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "Free Transfer",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2021,
+              "display": "21/22",
+              "cyclicalName": "2022",
+              "nonCyclicalName": "21/22"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/franck-ribery/transfers/spieler/22068/transfer_id/3540095"
+        },
+        {
+          "id": "2616300",
+          "transferSource": {
+            "competitionId": "L1",
+            "countryId": 40,
+            "clubId": "27",
+            "coachId": "10463"
+          },
+          "transferDestination": {
+            "competitionId": "IT1",
+            "countryId": 75,
+            "clubId": "430",
+            "coachId": "11795"
+          },
+          "details": {
+            "playerId": "22068",
+            "date": "2019-08-21T00:00:00+02:00",
+            "contractUntilDate": "2021-06-30T00:00:00+02:00",
+            "seasonId": 2019,
+            "isPending": false,
+            "marketValue": {
+              "value": 4000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "4.00",
+                "suffix": "M"
+              }
+            },
+            "age": 36,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "Free Transfer",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2019,
+              "display": "19/20",
+              "cyclicalName": "2020",
+              "nonCyclicalName": "19/20"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/franck-ribery/transfers/spieler/22068/transfer_id/2616300"
+        },
+        {
+          "id": "125551",
+          "transferSource": {
+            "competitionId": "FR1",
+            "countryId": 50,
+            "clubId": "244",
+            "coachId": "1847"
+          },
+          "transferDestination": {
+            "competitionId": "L1",
+            "countryId": 40,
+            "clubId": "27",
+            "coachId": "92"
+          },
+          "details": {
+            "playerId": "22068",
+            "date": "2007-07-01T00:00:00+02:00",
+            "contractUntilDate": "2019-06-30T00:00:00+02:00",
+            "seasonId": 2007,
+            "isPending": false,
+            "marketValue": {
+              "value": 18000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "18.00",
+                "suffix": "M"
+              }
+            },
+            "age": 24,
+            "fee": {
+              "value": 30000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "30.00",
+                "suffix": "M"
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 1095,
+              "daysDisplay": "2 Years, 11 Months, 29 Days"
+            },
+            "season": {
+              "id": 2007,
+              "display": "07/08",
+              "cyclicalName": "2008",
+              "nonCyclicalName": "07/08"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/franck-ribery/transfers/spieler/22068/transfer_id/125551"
+        },
+        {
+          "id": "60531",
+          "transferSource": {
+            "competitionId": "TR1",
+            "countryId": 174,
+            "clubId": "141",
+            "coachId": "301"
+          },
+          "transferDestination": {
+            "competitionId": "FR1",
+            "countryId": 50,
+            "clubId": "244",
+            "coachId": "1230"
+          },
+          "details": {
+            "playerId": "22068",
+            "date": "2005-07-01T00:00:00+02:00",
+            "contractUntilDate": "2010-06-30T00:00:00+02:00",
+            "seasonId": 2005,
+            "isPending": false,
+            "marketValue": {
+              "value": 5250000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "5.00",
+                "suffix": "M"
+              }
+            },
+            "age": 22,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "Free Transfer",
+                "suffix": ""
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 1825,
+              "daysDisplay": "4 Years, 11 Months, 29 Days"
+            },
+            "season": {
+              "id": 2005,
+              "display": "05/06",
+              "cyclicalName": "2006",
+              "nonCyclicalName": "05/06"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/franck-ribery/transfers/spieler/22068/transfer_id/60531"
+        },
+        {
+          "id": "51881",
+          "transferSource": {
+            "competitionId": "FR1",
+            "countryId": 50,
+            "clubId": "347",
+            "coachId": "1230"
+          },
+          "transferDestination": {
+            "competitionId": "TR1",
+            "countryId": 174,
+            "clubId": "141",
+            "coachId": "85"
+          },
+          "details": {
+            "playerId": "22068",
+            "date": "2005-02-08T00:00:00+01:00",
+            "contractUntilDate": "2010-06-30T00:00:00+02:00",
+            "seasonId": 2004,
+            "isPending": false,
+            "marketValue": {
+              "value": 5250000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "5.00",
+                "suffix": "M"
+              }
+            },
+            "age": 21,
+            "fee": {
+              "value": 5000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "5.00",
+                "suffix": "M"
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 1603,
+              "daysDisplay": "4 Years, 4 Months, 22 Days"
+            },
+            "season": {
+              "id": 2004,
+              "display": "04/05",
+              "cyclicalName": "2005",
+              "nonCyclicalName": "04/05"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/franck-ribery/transfers/spieler/22068/transfer_id/51881"
+        },
+        {
+          "id": "40935",
+          "transferSource": {
+            "competitionId": "FR2",
+            "countryId": 50,
+            "clubId": "3911",
+            "coachId": "1545"
+          },
+          "transferDestination": {
+            "competitionId": "FR1",
+            "countryId": 50,
+            "clubId": "347",
+            "coachId": "1230"
+          },
+          "details": {
+            "playerId": "22068",
+            "date": "2004-07-01T00:00:00+02:00",
+            "contractUntilDate": "2009-06-30T00:00:00+02:00",
+            "seasonId": 2004,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 21,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "Free Transfer",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2004,
+              "display": "04/05",
+              "cyclicalName": "2005",
+              "nonCyclicalName": "04/05"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/franck-ribery/transfers/spieler/22068/transfer_id/40935"
+        },
+        {
+          "id": "134770",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 50,
+            "clubId": "2618",
+            "coachId": "0"
+          },
+          "transferDestination": {
+            "competitionId": "FR3",
+            "countryId": 50,
+            "clubId": "3911",
+            "coachId": "1545"
+          },
+          "details": {
+            "playerId": "22068",
+            "date": "2003-07-01T00:00:00+02:00",
+            "contractUntilDate": "2004-06-30T00:00:00+02:00",
+            "seasonId": 2003,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 20,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "Free Transfer",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2003,
+              "display": "03/04",
+              "cyclicalName": "2004",
+              "nonCyclicalName": "03/04"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/franck-ribery/transfers/spieler/22068/transfer_id/134770"
+        },
+        {
+          "id": "151327",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 50,
+            "clubId": "7042",
+            "coachId": "59397"
+          },
+          "transferDestination": {
+            "competitionId": "FR3",
+            "countryId": 50,
+            "clubId": "2618",
+            "coachId": "14578"
+          },
+          "details": {
+            "playerId": "22068",
+            "date": "2002-07-01T00:00:00+02:00",
+            "contractUntilDate": "2003-06-30T00:00:00+02:00",
+            "seasonId": 2002,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 19,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "Free Transfer",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2002,
+              "display": "02/03",
+              "cyclicalName": "2003",
+              "nonCyclicalName": "02/03"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/franck-ribery/transfers/spieler/22068/transfer_id/151327"
+        },
+        {
+          "id": "151328",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 50,
+            "clubId": "12776",
+            "coachId": "0"
+          },
+          "transferDestination": {
+            "competitionId": "",
+            "countryId": 50,
+            "clubId": "7042",
+            "coachId": "0"
+          },
+          "details": {
+            "playerId": "22068",
+            "date": "2000-07-01T00:00:00+02:00",
+            "contractUntilDate": "2002-06-30T00:00:00+02:00",
+            "seasonId": 2000,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 17,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2000,
+              "display": "00/01",
+              "cyclicalName": "2001",
+              "nonCyclicalName": "00/01"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/franck-ribery/transfers/spieler/22068/transfer_id/151328"
+        },
+        {
+          "id": "2338036",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 50,
+            "clubId": "59856",
+            "coachId": "0"
+          },
+          "transferDestination": {
+            "competitionId": "",
+            "countryId": 50,
+            "clubId": "12776",
+            "coachId": "0"
+          },
+          "details": {
+            "playerId": "22068",
+            "date": "1999-07-01T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 1999,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 16,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "Free Transfer",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 1999,
+              "display": "99/00",
+              "cyclicalName": "2000",
+              "nonCyclicalName": "99/00"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/franck-ribery/transfers/spieler/22068/transfer_id/2338036"
+        }
+      ],
+      "pending": [],
+      "url": "",
+      "feeSum": {
+        "value": 35000000,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "35.00",
+          "suffix": "M"
+        }
+      },
+      "averageAge": 43,
+      "totalMarketValue": {
+        "value": 0,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "0.00",
+          "suffix": ""
+        }
+      }
+    },
+    "clubIds": [
+      "380",
+      "123",
+      "430",
+      "27",
+      "244",
+      "141",
+      "347",
+      "3911",
+      "2618",
+      "7042",
+      "12776",
+      "59856"
+    ],
+    "coachIds": [
+      "14892",
+      "47288",
+      "2126",
+      "10463",
+      "11795",
+      "1847",
+      "92",
+      "301",
+      "1230",
+      "85",
+      "1545",
+      "59397",
+      "14578"
+    ],
+    "competitionIds": [
+      "IT1",
+      "L1",
+      "FR1",
+      "TR1",
+      "FR2",
+      "FR3"
+    ],
+    "mostRecentTransfer": {
+      "id": "4118477",
+      "transferSource": {
+        "competitionId": "IT1",
+        "countryId": 75,
+        "clubId": "380",
+        "coachId": "14892"
+      },
+      "transferDestination": {
+        "competitionId": "",
+        "countryId": 0,
+        "clubId": "123",
+        "coachId": "0"
+      },
+      "details": {
+        "playerId": "22068",
+        "date": "2022-10-21T00:00:00+02:00",
+        "contractUntilDate": null,
+        "seasonId": 2022,
+        "isPending": false,
+        "marketValue": {
+          "value": 1000000,
+          "currency": "EUR",
+          "compact": {
+            "prefix": "€",
+            "content": "1.00",
+            "suffix": "M"
+          }
+        },
+        "age": 39,
+        "fee": {
+          "value": null,
+          "currency": "",
+          "compact": {
+            "prefix": "",
+            "content": "-",
+            "suffix": ""
+          }
+        },
+        "remainingContractPeriod": {
+          "days": 252,
+          "daysDisplay": "8 Months, 9 Days"
+        },
+        "season": {
+          "id": 2022,
+          "display": "22/23",
+          "cyclicalName": "2023",
+          "nonCyclicalName": "22/23"
+        }
+      },
+      "typeDetails": {
+        "type": "STANDARD",
+        "name": "",
+        "feeDescription": ""
+      },
+      "relativeUrl": "/franck-ribery/transfers/spieler/22068/transfer_id/4118477"
+    }
+  }
+}

@@ -1,0 +1,204 @@
+{
+  "success": true,
+  "message": "OK",
+  "data": {
+    "playerId": "1082692",
+    "history": {
+      "terminated": [
+        {
+          "id": "5536837",
+          "transferSource": {
+            "competitionId": "CB20",
+            "countryId": 26,
+            "clubId": "28052",
+            "coachId": "111892"
+          },
+          "transferDestination": {
+            "competitionId": "BRA2",
+            "countryId": 26,
+            "clubId": "2863",
+            "coachId": "110587"
+          },
+          "details": {
+            "playerId": "1082692",
+            "date": "2025-02-01T00:00:00+01:00",
+            "contractUntilDate": "2026-06-30T00:00:00+02:00",
+            "seasonId": 2024,
+            "isPending": false,
+            "marketValue": {
+              "value": 100000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "100.00",
+                "suffix": "K"
+              }
+            },
+            "age": 20,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2024,
+              "display": "24/25",
+              "cyclicalName": "2025",
+              "nonCyclicalName": "24/25"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/paulinho/transfers/spieler/1082692/transfer_id/5536837"
+        },
+        {
+          "id": "4295099",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 26,
+            "clubId": "28053",
+            "coachId": "0"
+          },
+          "transferDestination": {
+            "competitionId": "CB20",
+            "countryId": 26,
+            "clubId": "28052",
+            "coachId": "110587"
+          },
+          "details": {
+            "playerId": "1082692",
+            "date": "2022-01-01T00:00:00+01:00",
+            "contractUntilDate": null,
+            "seasonId": 2021,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 17,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2021,
+              "display": "21/22",
+              "cyclicalName": "2022",
+              "nonCyclicalName": "21/22"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/paulinho/transfers/spieler/1082692/transfer_id/4295099"
+        }
+      ],
+      "pending": [],
+      "url": "",
+      "feeSum": {
+        "value": 0,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "0.00",
+          "suffix": ""
+        }
+      },
+      "averageAge": 21,
+      "totalMarketValue": {
+        "value": 100000,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "100.00",
+          "suffix": "K"
+        }
+      }
+    },
+    "clubIds": [
+      "28052",
+      "2863",
+      "28053"
+    ],
+    "coachIds": [
+      "111892",
+      "110587"
+    ],
+    "competitionIds": [
+      "CB20",
+      "BRA2"
+    ],
+    "mostRecentTransfer": {
+      "id": "5536837",
+      "transferSource": {
+        "competitionId": "CB20",
+        "countryId": 26,
+        "clubId": "28052",
+        "coachId": "111892"
+      },
+      "transferDestination": {
+        "competitionId": "BRA2",
+        "countryId": 26,
+        "clubId": "2863",
+        "coachId": "110587"
+      },
+      "details": {
+        "playerId": "1082692",
+        "date": "2025-02-01T00:00:00+01:00",
+        "contractUntilDate": "2026-06-30T00:00:00+02:00",
+        "seasonId": 2024,
+        "isPending": false,
+        "marketValue": {
+          "value": 100000,
+          "currency": "EUR",
+          "compact": {
+            "prefix": "€",
+            "content": "100.00",
+            "suffix": "K"
+          }
+        },
+        "age": 20,
+        "fee": {
+          "value": null,
+          "currency": "",
+          "compact": {
+            "prefix": "",
+            "content": "-",
+            "suffix": ""
+          }
+        },
+        "season": {
+          "id": 2024,
+          "display": "24/25",
+          "cyclicalName": "2025",
+          "nonCyclicalName": "24/25"
+        }
+      },
+      "typeDetails": {
+        "type": "STANDARD",
+        "name": "",
+        "feeDescription": ""
+      },
+      "relativeUrl": "/paulinho/transfers/spieler/1082692/transfer_id/5536837"
+    }
+  }
+}

@@ -1,0 +1,479 @@
+{
+  "success": true,
+  "message": "OK",
+  "data": {
+    "playerId": "847279",
+    "history": {
+      "terminated": [
+        {
+          "id": "5911432",
+          "transferSource": {
+            "competitionId": "FR2",
+            "countryId": 50,
+            "clubId": "1421",
+            "coachId": "54653"
+          },
+          "transferDestination": {
+            "competitionId": "BE1",
+            "countryId": 19,
+            "clubId": "520",
+            "coachId": "33218"
+          },
+          "details": {
+            "playerId": "847279",
+            "date": "2025-09-01T00:00:00+02:00",
+            "contractUntilDate": "2026-06-30T00:00:00+02:00",
+            "seasonId": 2025,
+            "isPending": false,
+            "marketValue": {
+              "value": 6000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "6.00",
+                "suffix": "M"
+              }
+            },
+            "age": 21,
+            "fee": {
+              "value": 150000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "150.00",
+                "suffix": "K"
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 1033,
+              "daysDisplay": "2 Years, 9 Months, 29 Days"
+            },
+            "season": {
+              "id": 2025,
+              "display": "25/26",
+              "cyclicalName": "2026",
+              "nonCyclicalName": "25/26"
+            }
+          },
+          "typeDetails": {
+            "type": "ACTIVE_LOAN_TRANSFER",
+            "name": "loan transfer",
+            "feeDescription": "Loan fee"
+          },
+          "relativeUrl": "/oumar-diakite/transfers/spieler/847279/transfer_id/5911432"
+        },
+        {
+          "id": "4447597",
+          "transferSource": {
+            "competitionId": "A1",
+            "countryId": 127,
+            "clubId": "409",
+            "coachId": "45555"
+          },
+          "transferDestination": {
+            "competitionId": "FR1",
+            "countryId": 50,
+            "clubId": "1421",
+            "coachId": "53316"
+          },
+          "details": {
+            "playerId": "847279",
+            "date": "2023-07-01T00:00:00+02:00",
+            "contractUntilDate": "2028-06-30T00:00:00+02:00",
+            "seasonId": 2023,
+            "isPending": false,
+            "marketValue": {
+              "value": 1500000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "1.50",
+                "suffix": "M"
+              }
+            },
+            "age": 19,
+            "fee": {
+              "value": 2500000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "2.50",
+                "suffix": "M"
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 1095,
+              "daysDisplay": "2 Years, 11 Months, 29 Days"
+            },
+            "season": {
+              "id": 2023,
+              "display": "23/24",
+              "cyclicalName": "2024",
+              "nonCyclicalName": "23/24"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/oumar-diakite/transfers/spieler/847279/transfer_id/4447597"
+        },
+        {
+          "id": "3691772",
+          "transferSource": {
+            "competitionId": "A2",
+            "countryId": 127,
+            "clubId": "37024",
+            "coachId": "54687"
+          },
+          "transferDestination": {
+            "competitionId": "A1",
+            "countryId": 127,
+            "clubId": "409",
+            "coachId": "45555"
+          },
+          "details": {
+            "playerId": "847279",
+            "date": "2023-06-30T00:00:00+02:00",
+            "contractUntilDate": "2026-06-30T00:00:00+02:00",
+            "seasonId": 2022,
+            "isPending": false,
+            "marketValue": {
+              "value": 1500000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "1.50",
+                "suffix": "M"
+              }
+            },
+            "age": 19,
+            "remainingContractPeriod": {
+              "days": 1096,
+              "daysDisplay": "3 Years"
+            },
+            "season": {
+              "id": 2022,
+              "display": "22/23",
+              "cyclicalName": "2023",
+              "nonCyclicalName": "22/23"
+            }
+          },
+          "typeDetails": {
+            "type": "RETURNED_FROM_PREVIOUS_LOAN",
+            "name": "End of loan",
+            "feeDescription": "End of loan"
+          },
+          "relativeUrl": "/oumar-diakite/transfers/spieler/847279/transfer_id/3691772"
+        },
+        {
+          "id": "3691771",
+          "transferSource": {
+            "competitionId": "A1",
+            "countryId": 127,
+            "clubId": "409",
+            "coachId": "45555"
+          },
+          "transferDestination": {
+            "competitionId": "A2",
+            "countryId": 127,
+            "clubId": "37024",
+            "coachId": "35460"
+          },
+          "details": {
+            "playerId": "847279",
+            "date": "2022-01-13T00:00:00+01:00",
+            "contractUntilDate": "2026-06-30T00:00:00+02:00",
+            "seasonId": 2021,
+            "isPending": false,
+            "marketValue": {
+              "value": 400000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "400.00",
+                "suffix": "K"
+              }
+            },
+            "age": 18,
+            "remainingContractPeriod": {
+              "days": 1629,
+              "daysDisplay": "4 Years, 5 Months, 17 Days"
+            },
+            "season": {
+              "id": 2021,
+              "display": "21/22",
+              "cyclicalName": "2022",
+              "nonCyclicalName": "21/22"
+            }
+          },
+          "typeDetails": {
+            "type": "ACTIVE_LOAN_TRANSFER",
+            "name": "loan transfer",
+            "feeDescription": "loan transfer"
+          },
+          "relativeUrl": "/oumar-diakite/transfers/spieler/847279/transfer_id/3691771"
+        },
+        {
+          "id": "3691770",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 38,
+            "clubId": "3891",
+            "coachId": "87047"
+          },
+          "transferDestination": {
+            "competitionId": "A1",
+            "countryId": 127,
+            "clubId": "409",
+            "coachId": "45555"
+          },
+          "details": {
+            "playerId": "847279",
+            "date": "2022-01-12T00:00:00+01:00",
+            "contractUntilDate": "2026-06-30T00:00:00+02:00",
+            "seasonId": 2021,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 18,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "?",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2021,
+              "display": "21/22",
+              "cyclicalName": "2022",
+              "nonCyclicalName": "21/22"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/oumar-diakite/transfers/spieler/847279/transfer_id/3691770"
+        },
+        {
+          "id": "3254199",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 38,
+            "clubId": "16804",
+            "coachId": "0"
+          },
+          "transferDestination": {
+            "competitionId": "",
+            "countryId": 38,
+            "clubId": "3891",
+            "coachId": "87047"
+          },
+          "details": {
+            "playerId": "847279",
+            "date": "2020-07-01T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2020,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 16,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2020,
+              "display": "20/21",
+              "cyclicalName": "2021",
+              "nonCyclicalName": "20/21"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/oumar-diakite/transfers/spieler/847279/transfer_id/3254199"
+        }
+      ],
+      "pending": [
+        {
+          "id": "5911433",
+          "transferSource": {
+            "competitionId": "BE1",
+            "countryId": 19,
+            "clubId": "520",
+            "coachId": "29945"
+          },
+          "transferDestination": {
+            "competitionId": "FR2",
+            "countryId": 50,
+            "clubId": "1421",
+            "coachId": "54653"
+          },
+          "details": {
+            "playerId": "847279",
+            "date": "2026-06-30T00:00:00+02:00",
+            "contractUntilDate": "2028-06-30T00:00:00+02:00",
+            "seasonId": 2025,
+            "isPending": true,
+            "marketValue": {
+              "value": 5000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "5.00",
+                "suffix": "M"
+              }
+            },
+            "age": 22,
+            "remainingContractPeriod": {
+              "days": 0,
+              "daysDisplay": "Unknown"
+            },
+            "season": {
+              "id": 2025,
+              "display": "25/26",
+              "cyclicalName": "2026",
+              "nonCyclicalName": "25/26"
+            }
+          },
+          "typeDetails": {
+            "type": "RETURNED_FROM_PREVIOUS_LOAN",
+            "name": "End of loan",
+            "feeDescription": "End of loan"
+          },
+          "relativeUrl": "/oumar-diakite/transfers/spieler/847279/transfer_id/5911433"
+        }
+      ],
+      "url": "",
+      "feeSum": {
+        "value": 2650000,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "2.65",
+          "suffix": "M"
+        }
+      },
+      "averageAge": 22,
+      "totalMarketValue": {
+        "value": 5000000,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "5.00",
+          "suffix": "M"
+        }
+      }
+    },
+    "clubIds": [
+      "520",
+      "1421",
+      "409",
+      "37024",
+      "3891",
+      "16804"
+    ],
+    "coachIds": [
+      "29945",
+      "54653",
+      "33218",
+      "45555",
+      "53316",
+      "54687",
+      "35460",
+      "87047"
+    ],
+    "competitionIds": [
+      "BE1",
+      "FR2",
+      "A1",
+      "FR1",
+      "A2"
+    ],
+    "mostRecentTransfer": {
+      "id": "5911432",
+      "transferSource": {
+        "competitionId": "FR2",
+        "countryId": 50,
+        "clubId": "1421",
+        "coachId": "54653"
+      },
+      "transferDestination": {
+        "competitionId": "BE1",
+        "countryId": 19,
+        "clubId": "520",
+        "coachId": "33218"
+      },
+      "details": {
+        "playerId": "847279",
+        "date": "2025-09-01T00:00:00+02:00",
+        "contractUntilDate": "2026-06-30T00:00:00+02:00",
+        "seasonId": 2025,
+        "isPending": false,
+        "marketValue": {
+          "value": 6000000,
+          "currency": "EUR",
+          "compact": {
+            "prefix": "€",
+            "content": "6.00",
+            "suffix": "M"
+          }
+        },
+        "age": 21,
+        "fee": {
+          "value": 150000,
+          "currency": "EUR",
+          "compact": {
+            "prefix": "€",
+            "content": "150.00",
+            "suffix": "K"
+          }
+        },
+        "remainingContractPeriod": {
+          "days": 1033,
+          "daysDisplay": "2 Years, 9 Months, 29 Days"
+        },
+        "season": {
+          "id": 2025,
+          "display": "25/26",
+          "cyclicalName": "2026",
+          "nonCyclicalName": "25/26"
+        }
+      },
+      "typeDetails": {
+        "type": "ACTIVE_LOAN_TRANSFER",
+        "name": "loan transfer",
+        "feeDescription": "Loan fee"
+      },
+      "relativeUrl": "/oumar-diakite/transfers/spieler/847279/transfer_id/5911432"
+    }
+  }
+}

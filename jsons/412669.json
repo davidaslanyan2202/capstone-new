@@ -1,0 +1,925 @@
+{
+  "success": true,
+  "message": "OK",
+  "data": {
+    "playerId": "412669",
+    "history": {
+      "terminated": [
+        {
+          "id": "4267033",
+          "transferSource": {
+            "competitionId": "ES1",
+            "countryId": 157,
+            "clubId": "131",
+            "coachId": "59876"
+          },
+          "transferDestination": {
+            "competitionId": "PO1",
+            "countryId": 136,
+            "clubId": "336",
+            "coachId": "65202"
+          },
+          "details": {
+            "playerId": "412669",
+            "date": "2023-07-01T00:00:00+02:00",
+            "contractUntilDate": "2030-06-30T00:00:00+02:00",
+            "seasonId": 2023,
+            "isPending": false,
+            "marketValue": {
+              "value": 15000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "15.00",
+                "suffix": "M"
+              }
+            },
+            "age": 23,
+            "fee": {
+              "value": 18000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "18.00",
+                "suffix": "M"
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 730,
+              "daysDisplay": "1 Year, 11 Months, 29 Days"
+            },
+            "season": {
+              "id": 2023,
+              "display": "23/24",
+              "cyclicalName": "2024",
+              "nonCyclicalName": "23/24"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/francisco-trincao/transfers/spieler/412669/transfer_id/4267033"
+        },
+        {
+          "id": "3939414",
+          "transferSource": {
+            "competitionId": "PO1",
+            "countryId": 136,
+            "clubId": "336",
+            "coachId": "65202"
+          },
+          "transferDestination": {
+            "competitionId": "ES1",
+            "countryId": 157,
+            "clubId": "131",
+            "coachId": "59876"
+          },
+          "details": {
+            "playerId": "412669",
+            "date": "2023-06-30T00:00:00+02:00",
+            "contractUntilDate": "2025-06-30T00:00:00+02:00",
+            "seasonId": 2022,
+            "isPending": false,
+            "marketValue": {
+              "value": 15000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "15.00",
+                "suffix": "M"
+              }
+            },
+            "age": 23,
+            "remainingContractPeriod": {
+              "days": 0,
+              "daysDisplay": "Unknown"
+            },
+            "season": {
+              "id": 2022,
+              "display": "22/23",
+              "cyclicalName": "2023",
+              "nonCyclicalName": "22/23"
+            }
+          },
+          "typeDetails": {
+            "type": "RETURNED_FROM_PREVIOUS_LOAN",
+            "name": "End of loan",
+            "feeDescription": "End of loan"
+          },
+          "relativeUrl": "/francisco-trincao/transfers/spieler/412669/transfer_id/3939414"
+        },
+        {
+          "id": "3939413",
+          "transferSource": {
+            "competitionId": "ES1",
+            "countryId": 157,
+            "clubId": "131",
+            "coachId": "59876"
+          },
+          "transferDestination": {
+            "competitionId": "PO1",
+            "countryId": 136,
+            "clubId": "336",
+            "coachId": "65202"
+          },
+          "details": {
+            "playerId": "412669",
+            "date": "2022-07-13T00:00:00+02:00",
+            "contractUntilDate": "2023-06-30T00:00:00+02:00",
+            "seasonId": 2022,
+            "isPending": false,
+            "marketValue": {
+              "value": 20000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "20.00",
+                "suffix": "M"
+              }
+            },
+            "age": 22,
+            "fee": {
+              "value": 3000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "3.00",
+                "suffix": "M"
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 1083,
+              "daysDisplay": "2 Years, 11 Months, 17 Days"
+            },
+            "season": {
+              "id": 2022,
+              "display": "22/23",
+              "cyclicalName": "2023",
+              "nonCyclicalName": "22/23"
+            }
+          },
+          "typeDetails": {
+            "type": "ACTIVE_LOAN_TRANSFER",
+            "name": "loan transfer",
+            "feeDescription": "Loan fee"
+          },
+          "relativeUrl": "/francisco-trincao/transfers/spieler/412669/transfer_id/3939413"
+        },
+        {
+          "id": "3421955",
+          "transferSource": {
+            "competitionId": "GB1",
+            "countryId": 189,
+            "clubId": "543",
+            "coachId": "61477"
+          },
+          "transferDestination": {
+            "competitionId": "ES1",
+            "countryId": 157,
+            "clubId": "131",
+            "coachId": "59876"
+          },
+          "details": {
+            "playerId": "412669",
+            "date": "2022-06-30T00:00:00+02:00",
+            "contractUntilDate": "2025-06-30T00:00:00+02:00",
+            "seasonId": 2021,
+            "isPending": false,
+            "marketValue": {
+              "value": 20000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "20.00",
+                "suffix": "M"
+              }
+            },
+            "age": 22,
+            "remainingContractPeriod": {
+              "days": 0,
+              "daysDisplay": "Unknown"
+            },
+            "season": {
+              "id": 2021,
+              "display": "21/22",
+              "cyclicalName": "2022",
+              "nonCyclicalName": "21/22"
+            }
+          },
+          "typeDetails": {
+            "type": "RETURNED_FROM_PREVIOUS_LOAN",
+            "name": "End of loan",
+            "feeDescription": "End of loan"
+          },
+          "relativeUrl": "/francisco-trincao/transfers/spieler/412669/transfer_id/3421955"
+        },
+        {
+          "id": "3421954",
+          "transferSource": {
+            "competitionId": "ES1",
+            "countryId": 157,
+            "clubId": "131",
+            "coachId": "439"
+          },
+          "transferDestination": {
+            "competitionId": "GB1",
+            "countryId": 189,
+            "clubId": "543",
+            "coachId": "61477"
+          },
+          "details": {
+            "playerId": "412669",
+            "date": "2021-07-04T00:00:00+02:00",
+            "contractUntilDate": "2022-06-30T00:00:00+02:00",
+            "seasonId": 2021,
+            "isPending": false,
+            "marketValue": {
+              "value": 22000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "22.00",
+                "suffix": "M"
+              }
+            },
+            "age": 21,
+            "fee": {
+              "value": 6000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "6.00",
+                "suffix": "M"
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 1457,
+              "daysDisplay": "3 Years, 11 Months, 26 Days"
+            },
+            "season": {
+              "id": 2021,
+              "display": "21/22",
+              "cyclicalName": "2022",
+              "nonCyclicalName": "21/22"
+            }
+          },
+          "typeDetails": {
+            "type": "ACTIVE_LOAN_TRANSFER",
+            "name": "loan transfer",
+            "feeDescription": "Loan fee"
+          },
+          "relativeUrl": "/francisco-trincao/transfers/spieler/412669/transfer_id/3421954"
+        },
+        {
+          "id": "2780270",
+          "transferSource": {
+            "competitionId": "PO1",
+            "countryId": 136,
+            "clubId": "1075",
+            "coachId": "1588"
+          },
+          "transferDestination": {
+            "competitionId": "ES1",
+            "countryId": 157,
+            "clubId": "131",
+            "coachId": "12440"
+          },
+          "details": {
+            "playerId": "412669",
+            "date": "2020-08-03T00:00:00+02:00",
+            "contractUntilDate": "2025-06-30T00:00:00+02:00",
+            "seasonId": 2020,
+            "isPending": false,
+            "marketValue": {
+              "value": 16000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "16.00",
+                "suffix": "M"
+              }
+            },
+            "age": 20,
+            "fee": {
+              "value": 30940140,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "30.94",
+                "suffix": "M"
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 1061,
+              "daysDisplay": "2 Years, 10 Months, 27 Days"
+            },
+            "season": {
+              "id": 2020,
+              "display": "20/21",
+              "cyclicalName": "2021",
+              "nonCyclicalName": "20/21"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/francisco-trincao/transfers/spieler/412669/transfer_id/2780270"
+        },
+        {
+          "id": "2202226",
+          "transferSource": {
+            "competitionId": "PO2",
+            "countryId": 136,
+            "clubId": "10789",
+            "coachId": "58719"
+          },
+          "transferDestination": {
+            "competitionId": "PO1",
+            "countryId": 136,
+            "clubId": "1075",
+            "coachId": "23009"
+          },
+          "details": {
+            "playerId": "412669",
+            "date": "2018-07-01T00:00:00+02:00",
+            "contractUntilDate": "2023-06-30T00:00:00+02:00",
+            "seasonId": 2018,
+            "isPending": false,
+            "marketValue": {
+              "value": 1500000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "1.50",
+                "suffix": "M"
+              }
+            },
+            "age": 18,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2018,
+              "display": "18/19",
+              "cyclicalName": "2019",
+              "nonCyclicalName": "18/19"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/francisco-trincao/transfers/spieler/412669/transfer_id/2202226"
+        },
+        {
+          "id": "3220194",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 136,
+            "clubId": "12964",
+            "coachId": "113122"
+          },
+          "transferDestination": {
+            "competitionId": "PO2",
+            "countryId": 136,
+            "clubId": "10789",
+            "coachId": "23009"
+          },
+          "details": {
+            "playerId": "412669",
+            "date": "2016-02-01T00:00:00+01:00",
+            "contractUntilDate": null,
+            "seasonId": 2015,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 16,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2015,
+              "display": "15/16",
+              "cyclicalName": "2016",
+              "nonCyclicalName": "15/16"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/francisco-trincao/transfers/spieler/412669/transfer_id/3220194"
+        },
+        {
+          "id": "3623595",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 136,
+            "clubId": "61507",
+            "coachId": "0"
+          },
+          "transferDestination": {
+            "competitionId": "",
+            "countryId": 136,
+            "clubId": "48758",
+            "coachId": "69458"
+          },
+          "details": {
+            "playerId": "412669",
+            "date": "2015-07-01T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2015,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 15,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2015,
+              "display": "15/16",
+              "cyclicalName": "2016",
+              "nonCyclicalName": "15/16"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/francisco-trincao/transfers/spieler/412669/transfer_id/3623595"
+        },
+        {
+          "id": "1571099",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 136,
+            "clubId": "48758",
+            "coachId": "69458"
+          },
+          "transferDestination": {
+            "competitionId": "",
+            "countryId": 136,
+            "clubId": "12964",
+            "coachId": "113122"
+          },
+          "details": {
+            "playerId": "412669",
+            "date": "2015-07-01T00:00:00+02:00",
+            "contractUntilDate": "2023-06-30T00:00:00+02:00",
+            "seasonId": 2015,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 15,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2015,
+              "display": "15/16",
+              "cyclicalName": "2016",
+              "nonCyclicalName": "15/16"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/francisco-trincao/transfers/spieler/412669/transfer_id/1571099"
+        },
+        {
+          "id": "3623594",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 136,
+            "clubId": "53958",
+            "coachId": "110045"
+          },
+          "transferDestination": {
+            "competitionId": "",
+            "countryId": 136,
+            "clubId": "61507",
+            "coachId": "69458"
+          },
+          "details": {
+            "playerId": "412669",
+            "date": "2014-07-01T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2014,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 14,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2014,
+              "display": "14/15",
+              "cyclicalName": "2015",
+              "nonCyclicalName": "14/15"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/francisco-trincao/transfers/spieler/412669/transfer_id/3623594"
+        },
+        {
+          "id": "1650180",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 136,
+            "clubId": "53959",
+            "coachId": "0"
+          },
+          "transferDestination": {
+            "competitionId": "",
+            "countryId": 136,
+            "clubId": "53958",
+            "coachId": "135713"
+          },
+          "details": {
+            "playerId": "412669",
+            "date": "2012-07-01T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2012,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 12,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2012,
+              "display": "12/13",
+              "cyclicalName": "2013",
+              "nonCyclicalName": "12/13"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/francisco-trincao/transfers/spieler/412669/transfer_id/1650180"
+        },
+        {
+          "id": "3633864",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 136,
+            "clubId": "94728",
+            "coachId": "0"
+          },
+          "transferDestination": {
+            "competitionId": "",
+            "countryId": 136,
+            "clubId": "53959",
+            "coachId": "0"
+          },
+          "details": {
+            "playerId": "412669",
+            "date": "2011-07-01T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2011,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 11,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "?",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2011,
+              "display": "11/12",
+              "cyclicalName": "2012",
+              "nonCyclicalName": "11/12"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/francisco-trincao/transfers/spieler/412669/transfer_id/3633864"
+        },
+        {
+          "id": "3633865",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 136,
+            "clubId": "56766",
+            "coachId": "112366"
+          },
+          "transferDestination": {
+            "competitionId": "",
+            "countryId": 136,
+            "clubId": "94728",
+            "coachId": "0"
+          },
+          "details": {
+            "playerId": "412669",
+            "date": "2010-07-01T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2010,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 10,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "Free Transfer",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2010,
+              "display": "10/11",
+              "cyclicalName": "2011",
+              "nonCyclicalName": "10/11"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/francisco-trincao/transfers/spieler/412669/transfer_id/3633865"
+        },
+        {
+          "id": "3633866",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 136,
+            "clubId": "94728",
+            "coachId": "0"
+          },
+          "transferDestination": {
+            "competitionId": "",
+            "countryId": 136,
+            "clubId": "56766",
+            "coachId": "112366"
+          },
+          "details": {
+            "playerId": "412669",
+            "date": "2009-07-01T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2009,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 9,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "?",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2009,
+              "display": "09/10",
+              "cyclicalName": "2010",
+              "nonCyclicalName": "09/10"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/francisco-trincao/transfers/spieler/412669/transfer_id/3633866"
+        }
+      ],
+      "pending": [],
+      "url": "",
+      "feeSum": {
+        "value": 57940140,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "57.94",
+          "suffix": "M"
+        }
+      },
+      "averageAge": 26,
+      "totalMarketValue": {
+        "value": 35000000,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "35.00",
+          "suffix": "M"
+        }
+      }
+    },
+    "clubIds": [
+      "131",
+      "336",
+      "543",
+      "1075",
+      "10789",
+      "12964",
+      "61507",
+      "48758",
+      "53958",
+      "53959",
+      "94728",
+      "56766"
+    ],
+    "coachIds": [
+      "59876",
+      "65202",
+      "61477",
+      "439",
+      "1588",
+      "12440",
+      "58719",
+      "23009",
+      "113122",
+      "69458",
+      "110045",
+      "135713",
+      "112366"
+    ],
+    "competitionIds": [
+      "ES1",
+      "PO1",
+      "GB1",
+      "PO2"
+    ],
+    "mostRecentTransfer": {
+      "id": "4267033",
+      "transferSource": {
+        "competitionId": "ES1",
+        "countryId": 157,
+        "clubId": "131",
+        "coachId": "59876"
+      },
+      "transferDestination": {
+        "competitionId": "PO1",
+        "countryId": 136,
+        "clubId": "336",
+        "coachId": "65202"
+      },
+      "details": {
+        "playerId": "412669",
+        "date": "2023-07-01T00:00:00+02:00",
+        "contractUntilDate": "2030-06-30T00:00:00+02:00",
+        "seasonId": 2023,
+        "isPending": false,
+        "marketValue": {
+          "value": 15000000,
+          "currency": "EUR",
+          "compact": {
+            "prefix": "€",
+            "content": "15.00",
+            "suffix": "M"
+          }
+        },
+        "age": 23,
+        "fee": {
+          "value": 18000000,
+          "currency": "EUR",
+          "compact": {
+            "prefix": "€",
+            "content": "18.00",
+            "suffix": "M"
+          }
+        },
+        "remainingContractPeriod": {
+          "days": 730,
+          "daysDisplay": "1 Year, 11 Months, 29 Days"
+        },
+        "season": {
+          "id": 2023,
+          "display": "23/24",
+          "cyclicalName": "2024",
+          "nonCyclicalName": "23/24"
+        }
+      },
+      "typeDetails": {
+        "type": "STANDARD",
+        "name": "",
+        "feeDescription": ""
+      },
+      "relativeUrl": "/francisco-trincao/transfers/spieler/412669/transfer_id/4267033"
+    }
+  }
+}

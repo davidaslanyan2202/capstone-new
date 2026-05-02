@@ -1,0 +1,809 @@
+{
+  "success": true,
+  "message": "OK",
+  "data": {
+    "playerId": "102226",
+    "history": {
+      "terminated": [
+        {
+          "id": "4633856",
+          "transferSource": {
+            "competitionId": "L1",
+            "countryId": 40,
+            "clubId": "16",
+            "coachId": "14226"
+          },
+          "transferDestination": {
+            "competitionId": "BE1",
+            "countryId": 19,
+            "clubId": "58",
+            "coachId": "8264"
+          },
+          "details": {
+            "playerId": "102226",
+            "date": "2023-09-06T00:00:00+02:00",
+            "contractUntilDate": "2026-06-30T00:00:00+02:00",
+            "seasonId": 2023,
+            "isPending": false,
+            "marketValue": {
+              "value": 7000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "7.00",
+                "suffix": "M"
+              }
+            },
+            "age": 30,
+            "fee": {
+              "value": 4000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "4.00",
+                "suffix": "M"
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 298,
+              "daysDisplay": "9 Months, 24 Days"
+            },
+            "season": {
+              "id": 2023,
+              "display": "23/24",
+              "cyclicalName": "2024",
+              "nonCyclicalName": "23/24"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/thorgan-hazard/transfers/spieler/102226/transfer_id/4633856"
+        },
+        {
+          "id": "4253208",
+          "transferSource": {
+            "competitionId": "NL1",
+            "countryId": 122,
+            "clubId": "383",
+            "coachId": "1883"
+          },
+          "transferDestination": {
+            "competitionId": "L1",
+            "countryId": 40,
+            "clubId": "16",
+            "coachId": "14226"
+          },
+          "details": {
+            "playerId": "102226",
+            "date": "2023-06-30T00:00:00+02:00",
+            "contractUntilDate": "2024-06-30T00:00:00+02:00",
+            "seasonId": 2022,
+            "isPending": false,
+            "marketValue": {
+              "value": 7000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "7.00",
+                "suffix": "M"
+              }
+            },
+            "age": 30,
+            "season": {
+              "id": 2022,
+              "display": "22/23",
+              "cyclicalName": "2023",
+              "nonCyclicalName": "22/23"
+            }
+          },
+          "typeDetails": {
+            "type": "RETURNED_FROM_PREVIOUS_LOAN",
+            "name": "End of loan",
+            "feeDescription": "End of loan"
+          },
+          "relativeUrl": "/thorgan-hazard/transfers/spieler/102226/transfer_id/4253208"
+        },
+        {
+          "id": "4253204",
+          "transferSource": {
+            "competitionId": "L1",
+            "countryId": 40,
+            "clubId": "16",
+            "coachId": "14226"
+          },
+          "transferDestination": {
+            "competitionId": "NL1",
+            "countryId": 122,
+            "clubId": "383",
+            "coachId": "36058"
+          },
+          "details": {
+            "playerId": "102226",
+            "date": "2023-01-31T00:00:00+01:00",
+            "contractUntilDate": null,
+            "seasonId": 2022,
+            "isPending": false,
+            "marketValue": {
+              "value": 9000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "9.00",
+                "suffix": "M"
+              }
+            },
+            "age": 29,
+            "fee": {
+              "value": 500000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "500.00",
+                "suffix": "K"
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 516,
+              "daysDisplay": "1 Year, 4 Months, 30 Days"
+            },
+            "season": {
+              "id": 2022,
+              "display": "22/23",
+              "cyclicalName": "2023",
+              "nonCyclicalName": "22/23"
+            }
+          },
+          "typeDetails": {
+            "type": "ACTIVE_LOAN_TRANSFER",
+            "name": "loan transfer",
+            "feeDescription": "Loan fee"
+          },
+          "relativeUrl": "/thorgan-hazard/transfers/spieler/102226/transfer_id/4253204"
+        },
+        {
+          "id": "2482498",
+          "transferSource": {
+            "competitionId": "L1",
+            "countryId": 40,
+            "clubId": "18",
+            "coachId": "24197"
+          },
+          "transferDestination": {
+            "competitionId": "L1",
+            "countryId": 40,
+            "clubId": "16",
+            "coachId": "535"
+          },
+          "details": {
+            "playerId": "102226",
+            "date": "2019-07-01T00:00:00+02:00",
+            "contractUntilDate": "2024-06-30T00:00:00+02:00",
+            "seasonId": 2019,
+            "isPending": false,
+            "marketValue": {
+              "value": 38000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "38.00",
+                "suffix": "M"
+              }
+            },
+            "age": 26,
+            "fee": {
+              "value": 25500000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "25.50",
+                "suffix": "M"
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 365,
+              "daysDisplay": "11 Months, 29 Days"
+            },
+            "season": {
+              "id": 2019,
+              "display": "19/20",
+              "cyclicalName": "2020",
+              "nonCyclicalName": "19/20"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/thorgan-hazard/transfers/spieler/102226/transfer_id/2482498"
+        },
+        {
+          "id": "1199474",
+          "transferSource": {
+            "competitionId": "GB1",
+            "countryId": 189,
+            "clubId": "631",
+            "coachId": "781"
+          },
+          "transferDestination": {
+            "competitionId": "L1",
+            "countryId": 40,
+            "clubId": "18",
+            "coachId": "535"
+          },
+          "details": {
+            "playerId": "102226",
+            "date": "2015-07-01T00:00:00+02:00",
+            "contractUntilDate": "2020-06-30T00:00:00+02:00",
+            "seasonId": 2015,
+            "isPending": false,
+            "marketValue": {
+              "value": 10000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "10.00",
+                "suffix": "M"
+              }
+            },
+            "age": 22,
+            "fee": {
+              "value": 8000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "8.00",
+                "suffix": "M"
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 365,
+              "daysDisplay": "11 Months, 29 Days"
+            },
+            "season": {
+              "id": 2015,
+              "display": "15/16",
+              "cyclicalName": "2016",
+              "nonCyclicalName": "15/16"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/thorgan-hazard/transfers/spieler/102226/transfer_id/1199474"
+        },
+        {
+          "id": "1079116",
+          "transferSource": {
+            "competitionId": "L1",
+            "countryId": 40,
+            "clubId": "18",
+            "coachId": "535"
+          },
+          "transferDestination": {
+            "competitionId": "GB1",
+            "countryId": 189,
+            "clubId": "631",
+            "coachId": "781"
+          },
+          "details": {
+            "playerId": "102226",
+            "date": "2015-06-30T00:00:00+02:00",
+            "contractUntilDate": "2016-06-30T00:00:00+02:00",
+            "seasonId": 2014,
+            "isPending": false,
+            "marketValue": {
+              "value": 10000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "10.00",
+                "suffix": "M"
+              }
+            },
+            "age": 22,
+            "season": {
+              "id": 2014,
+              "display": "14/15",
+              "cyclicalName": "2015",
+              "nonCyclicalName": "14/15"
+            }
+          },
+          "typeDetails": {
+            "type": "RETURNED_FROM_PREVIOUS_LOAN",
+            "name": "End of loan",
+            "feeDescription": "End of loan"
+          },
+          "relativeUrl": "/thorgan-hazard/transfers/spieler/102226/transfer_id/1079116"
+        },
+        {
+          "id": "1079115",
+          "transferSource": {
+            "competitionId": "GB1",
+            "countryId": 189,
+            "clubId": "631",
+            "coachId": "781"
+          },
+          "transferDestination": {
+            "competitionId": "L1",
+            "countryId": 40,
+            "clubId": "18",
+            "coachId": "535"
+          },
+          "details": {
+            "playerId": "102226",
+            "date": "2014-07-05T00:00:00+02:00",
+            "contractUntilDate": "2015-06-29T00:00:00+02:00",
+            "seasonId": 2014,
+            "isPending": false,
+            "marketValue": {
+              "value": 10000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "10.00",
+                "suffix": "M"
+              }
+            },
+            "age": 21,
+            "fee": {
+              "value": 1500000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "1.50",
+                "suffix": "M"
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 726,
+              "daysDisplay": "1 Year, 11 Months, 25 Days"
+            },
+            "season": {
+              "id": 2014,
+              "display": "14/15",
+              "cyclicalName": "2015",
+              "nonCyclicalName": "14/15"
+            }
+          },
+          "typeDetails": {
+            "type": "ACTIVE_LOAN_TRANSFER",
+            "name": "loan transfer",
+            "feeDescription": "Loan fee"
+          },
+          "relativeUrl": "/thorgan-hazard/transfers/spieler/102226/transfer_id/1079115"
+        },
+        {
+          "id": "909419",
+          "transferSource": {
+            "competitionId": "BE1",
+            "countryId": 19,
+            "clubId": "3508",
+            "coachId": "1848"
+          },
+          "transferDestination": {
+            "competitionId": "GB1",
+            "countryId": 189,
+            "clubId": "631",
+            "coachId": "781"
+          },
+          "details": {
+            "playerId": "102226",
+            "date": "2014-06-30T00:00:00+02:00",
+            "contractUntilDate": "2016-06-30T00:00:00+02:00",
+            "seasonId": 2013,
+            "isPending": false,
+            "marketValue": {
+              "value": 10000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "10.00",
+                "suffix": "M"
+              }
+            },
+            "age": 21,
+            "season": {
+              "id": 2013,
+              "display": "13/14",
+              "cyclicalName": "2014",
+              "nonCyclicalName": "13/14"
+            }
+          },
+          "typeDetails": {
+            "type": "RETURNED_FROM_PREVIOUS_LOAN",
+            "name": "End of loan",
+            "feeDescription": "End of loan"
+          },
+          "relativeUrl": "/thorgan-hazard/transfers/spieler/102226/transfer_id/909419"
+        },
+        {
+          "id": "777385",
+          "transferSource": {
+            "competitionId": "GB1",
+            "countryId": 189,
+            "clubId": "631",
+            "coachId": "6783"
+          },
+          "transferDestination": {
+            "competitionId": "BE1",
+            "countryId": 19,
+            "clubId": "3508",
+            "coachId": "1848"
+          },
+          "details": {
+            "playerId": "102226",
+            "date": "2012-08-31T00:00:00+02:00",
+            "contractUntilDate": "2014-06-29T00:00:00+02:00",
+            "seasonId": 2012,
+            "isPending": false,
+            "marketValue": {
+              "value": 500000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "500.00",
+                "suffix": "K"
+              }
+            },
+            "age": 19,
+            "remainingContractPeriod": {
+              "days": 1399,
+              "daysDisplay": "3 Years, 9 Months, 30 Days"
+            },
+            "season": {
+              "id": 2012,
+              "display": "12/13",
+              "cyclicalName": "2013",
+              "nonCyclicalName": "12/13"
+            }
+          },
+          "typeDetails": {
+            "type": "ACTIVE_LOAN_TRANSFER",
+            "name": "loan transfer",
+            "feeDescription": "loan transfer"
+          },
+          "relativeUrl": "/thorgan-hazard/transfers/spieler/102226/transfer_id/777385"
+        },
+        {
+          "id": "756102",
+          "transferSource": {
+            "competitionId": "FR2",
+            "countryId": 50,
+            "clubId": "826",
+            "coachId": "5063"
+          },
+          "transferDestination": {
+            "competitionId": "GB1",
+            "countryId": 189,
+            "clubId": "631",
+            "coachId": "6783"
+          },
+          "details": {
+            "playerId": "102226",
+            "date": "2012-07-24T00:00:00+02:00",
+            "contractUntilDate": "2016-06-30T00:00:00+02:00",
+            "seasonId": 2012,
+            "isPending": false,
+            "marketValue": {
+              "value": 500000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "500.00",
+                "suffix": "K"
+              }
+            },
+            "age": 19,
+            "fee": {
+              "value": 500000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "500.00",
+                "suffix": "K"
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 706,
+              "daysDisplay": "1 Year, 11 Months, 6 Days"
+            },
+            "season": {
+              "id": 2012,
+              "display": "12/13",
+              "cyclicalName": "2013",
+              "nonCyclicalName": "12/13"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/thorgan-hazard/transfers/spieler/102226/transfer_id/756102"
+        },
+        {
+          "id": "601817",
+          "transferSource": {
+            "competitionId": "CN2A",
+            "countryId": 50,
+            "clubId": "8152",
+            "coachId": "23727"
+          },
+          "transferDestination": {
+            "competitionId": "FR2",
+            "countryId": 50,
+            "clubId": "826",
+            "coachId": "5063"
+          },
+          "details": {
+            "playerId": "102226",
+            "date": "2011-07-01T00:00:00+02:00",
+            "contractUntilDate": "2014-06-30T00:00:00+02:00",
+            "seasonId": 2011,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 18,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 365,
+              "daysDisplay": "11 Months, 29 Days"
+            },
+            "season": {
+              "id": 2011,
+              "display": "11/12",
+              "cyclicalName": "2012",
+              "nonCyclicalName": "11/12"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/thorgan-hazard/transfers/spieler/102226/transfer_id/601817"
+        },
+        {
+          "id": "429497",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 50,
+            "clubId": "10824",
+            "coachId": "24068"
+          },
+          "transferDestination": {
+            "competitionId": "CN2A",
+            "countryId": 50,
+            "clubId": "8152",
+            "coachId": "3945"
+          },
+          "details": {
+            "playerId": "102226",
+            "date": "2010-07-01T00:00:00+02:00",
+            "contractUntilDate": "2012-06-30T00:00:00+02:00",
+            "seasonId": 2010,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 17,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2010,
+              "display": "10/11",
+              "cyclicalName": "2011",
+              "nonCyclicalName": "10/11"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/thorgan-hazard/transfers/spieler/102226/transfer_id/429497"
+        },
+        {
+          "id": "2171880",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 19,
+            "clubId": "66274",
+            "coachId": "0"
+          },
+          "transferDestination": {
+            "competitionId": "",
+            "countryId": 50,
+            "clubId": "10824",
+            "coachId": "0"
+          },
+          "details": {
+            "playerId": "102226",
+            "date": "2007-07-01T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2007,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 14,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "Free Transfer",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2007,
+              "display": "07/08",
+              "cyclicalName": "2008",
+              "nonCyclicalName": "07/08"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/thorgan-hazard/transfers/spieler/102226/transfer_id/2171880"
+        }
+      ],
+      "pending": [],
+      "url": "",
+      "feeSum": {
+        "value": 40000000,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "40.00",
+          "suffix": "M"
+        }
+      },
+      "averageAge": 33,
+      "totalMarketValue": {
+        "value": 2500000,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "2.50",
+          "suffix": "M"
+        }
+      }
+    },
+    "clubIds": [
+      "16",
+      "58",
+      "383",
+      "18",
+      "631",
+      "3508",
+      "826",
+      "8152",
+      "10824",
+      "66274"
+    ],
+    "coachIds": [
+      "14226",
+      "8264",
+      "1883",
+      "36058",
+      "24197",
+      "535",
+      "781",
+      "1848",
+      "6783",
+      "5063",
+      "23727",
+      "24068",
+      "3945"
+    ],
+    "competitionIds": [
+      "L1",
+      "BE1",
+      "NL1",
+      "GB1",
+      "FR2",
+      "CN2A"
+    ],
+    "mostRecentTransfer": {
+      "id": "4633856",
+      "transferSource": {
+        "competitionId": "L1",
+        "countryId": 40,
+        "clubId": "16",
+        "coachId": "14226"
+      },
+      "transferDestination": {
+        "competitionId": "BE1",
+        "countryId": 19,
+        "clubId": "58",
+        "coachId": "8264"
+      },
+      "details": {
+        "playerId": "102226",
+        "date": "2023-09-06T00:00:00+02:00",
+        "contractUntilDate": "2026-06-30T00:00:00+02:00",
+        "seasonId": 2023,
+        "isPending": false,
+        "marketValue": {
+          "value": 7000000,
+          "currency": "EUR",
+          "compact": {
+            "prefix": "€",
+            "content": "7.00",
+            "suffix": "M"
+          }
+        },
+        "age": 30,
+        "fee": {
+          "value": 4000000,
+          "currency": "EUR",
+          "compact": {
+            "prefix": "€",
+            "content": "4.00",
+            "suffix": "M"
+          }
+        },
+        "remainingContractPeriod": {
+          "days": 298,
+          "daysDisplay": "9 Months, 24 Days"
+        },
+        "season": {
+          "id": 2023,
+          "display": "23/24",
+          "cyclicalName": "2024",
+          "nonCyclicalName": "23/24"
+        }
+      },
+      "typeDetails": {
+        "type": "STANDARD",
+        "name": "",
+        "feeDescription": ""
+      },
+      "relativeUrl": "/thorgan-hazard/transfers/spieler/102226/transfer_id/4633856"
+    }
+  }
+}

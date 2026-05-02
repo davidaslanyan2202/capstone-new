@@ -1,0 +1,273 @@
+{
+  "success": true,
+  "message": "OK",
+  "data": {
+    "playerId": "207014",
+    "history": {
+      "terminated": [
+        {
+          "id": "3522797",
+          "transferSource": {
+            "competitionId": "GB1",
+            "countryId": 189,
+            "clubId": "1010",
+            "coachId": "67577"
+          },
+          "transferDestination": {
+            "competitionId": "GB1",
+            "countryId": 189,
+            "clubId": "873",
+            "coachId": "20029"
+          },
+          "details": {
+            "playerId": "207014",
+            "date": "2021-08-28T00:00:00+02:00",
+            "contractUntilDate": "2027-06-30T00:00:00+02:00",
+            "seasonId": 2021,
+            "isPending": false,
+            "marketValue": {
+              "value": 7000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "7.00",
+                "suffix": "M"
+              }
+            },
+            "age": 26,
+            "fee": {
+              "value": 7000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "7.00",
+                "suffix": "M"
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 306,
+              "daysDisplay": "10 Months, 2 Days"
+            },
+            "season": {
+              "id": 2021,
+              "display": "21/22",
+              "cyclicalName": "2022",
+              "nonCyclicalName": "21/22"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/will-hughes/transfers/spieler/207014/transfer_id/3522797"
+        },
+        {
+          "id": "1806929",
+          "transferSource": {
+            "competitionId": "GB2",
+            "countryId": 189,
+            "clubId": "22",
+            "coachId": "15225"
+          },
+          "transferDestination": {
+            "competitionId": "GB1",
+            "countryId": 189,
+            "clubId": "1010",
+            "coachId": "19631"
+          },
+          "details": {
+            "playerId": "207014",
+            "date": "2017-07-01T00:00:00+02:00",
+            "contractUntilDate": "2022-06-30T00:00:00+02:00",
+            "seasonId": 2017,
+            "isPending": false,
+            "marketValue": {
+              "value": 8000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "8.00",
+                "suffix": "M"
+              }
+            },
+            "age": 22,
+            "fee": {
+              "value": 9100000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "9.10",
+                "suffix": "M"
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 1095,
+              "daysDisplay": "2 Years, 11 Months, 29 Days"
+            },
+            "season": {
+              "id": 2017,
+              "display": "17/18",
+              "cyclicalName": "2018",
+              "nonCyclicalName": "17/18"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/will-hughes/transfers/spieler/207014/transfer_id/1806929"
+        },
+        {
+          "id": "755692",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 189,
+            "clubId": "10002",
+            "coachId": "0"
+          },
+          "transferDestination": {
+            "competitionId": "GB2",
+            "countryId": 189,
+            "clubId": "22",
+            "coachId": "4374"
+          },
+          "details": {
+            "playerId": "207014",
+            "date": "2012-07-01T00:00:00+02:00",
+            "contractUntilDate": "2020-06-30T00:00:00+02:00",
+            "seasonId": 2012,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 17,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2012,
+              "display": "12/13",
+              "cyclicalName": "2013",
+              "nonCyclicalName": "12/13"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/will-hughes/transfers/spieler/207014/transfer_id/755692"
+        }
+      ],
+      "pending": [],
+      "url": "",
+      "feeSum": {
+        "value": 16100000,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "16.10",
+          "suffix": "M"
+        }
+      },
+      "averageAge": 31,
+      "totalMarketValue": {
+        "value": 6000000,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "6.00",
+          "suffix": "M"
+        }
+      }
+    },
+    "clubIds": [
+      "1010",
+      "873",
+      "22",
+      "10002"
+    ],
+    "coachIds": [
+      "67577",
+      "20029",
+      "15225",
+      "19631",
+      "4374"
+    ],
+    "competitionIds": [
+      "GB1",
+      "GB2"
+    ],
+    "mostRecentTransfer": {
+      "id": "3522797",
+      "transferSource": {
+        "competitionId": "GB1",
+        "countryId": 189,
+        "clubId": "1010",
+        "coachId": "67577"
+      },
+      "transferDestination": {
+        "competitionId": "GB1",
+        "countryId": 189,
+        "clubId": "873",
+        "coachId": "20029"
+      },
+      "details": {
+        "playerId": "207014",
+        "date": "2021-08-28T00:00:00+02:00",
+        "contractUntilDate": "2027-06-30T00:00:00+02:00",
+        "seasonId": 2021,
+        "isPending": false,
+        "marketValue": {
+          "value": 7000000,
+          "currency": "EUR",
+          "compact": {
+            "prefix": "€",
+            "content": "7.00",
+            "suffix": "M"
+          }
+        },
+        "age": 26,
+        "fee": {
+          "value": 7000000,
+          "currency": "EUR",
+          "compact": {
+            "prefix": "€",
+            "content": "7.00",
+            "suffix": "M"
+          }
+        },
+        "remainingContractPeriod": {
+          "days": 306,
+          "daysDisplay": "10 Months, 2 Days"
+        },
+        "season": {
+          "id": 2021,
+          "display": "21/22",
+          "cyclicalName": "2022",
+          "nonCyclicalName": "21/22"
+        }
+      },
+      "typeDetails": {
+        "type": "STANDARD",
+        "name": "",
+        "feeDescription": ""
+      },
+      "relativeUrl": "/will-hughes/transfers/spieler/207014/transfer_id/3522797"
+    }
+  }
+}

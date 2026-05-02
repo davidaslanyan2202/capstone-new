@@ -1,0 +1,807 @@
+{
+  "success": true,
+  "message": "OK",
+  "data": {
+    "playerId": "68863",
+    "history": {
+      "terminated": [
+        {
+          "id": "4540157",
+          "transferSource": {
+            "competitionId": "FR1",
+            "countryId": 50,
+            "clubId": "583",
+            "coachId": "6499"
+          },
+          "transferDestination": {
+            "competitionId": "TR1",
+            "countryId": 174,
+            "clubId": "141",
+            "coachId": "23531"
+          },
+          "details": {
+            "playerId": "68863",
+            "date": "2023-07-26T00:00:00+02:00",
+            "contractUntilDate": "2026-06-30T00:00:00+02:00",
+            "seasonId": 2023,
+            "isPending": false,
+            "marketValue": {
+              "value": 19000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "19.00",
+                "suffix": "M"
+              }
+            },
+            "age": 30,
+            "fee": {
+              "value": 10000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "10.00",
+                "suffix": "M"
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 340,
+              "daysDisplay": "11 Months, 4 Days"
+            },
+            "season": {
+              "id": 2023,
+              "display": "23/24",
+              "cyclicalName": "2024",
+              "nonCyclicalName": "23/24"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/mauro-icardi/transfers/spieler/68863/transfer_id/4540157"
+        },
+        {
+          "id": "4062737",
+          "transferSource": {
+            "competitionId": "TR1",
+            "countryId": 174,
+            "clubId": "141",
+            "coachId": "23531"
+          },
+          "transferDestination": {
+            "competitionId": "FR1",
+            "countryId": 50,
+            "clubId": "583",
+            "coachId": "5035"
+          },
+          "details": {
+            "playerId": "68863",
+            "date": "2023-06-30T00:00:00+02:00",
+            "contractUntilDate": "2024-06-30T00:00:00+02:00",
+            "seasonId": 2022,
+            "isPending": false,
+            "marketValue": {
+              "value": 19000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "19.00",
+                "suffix": "M"
+              }
+            },
+            "age": 30,
+            "remainingContractPeriod": {
+              "days": 0,
+              "daysDisplay": "Unknown"
+            },
+            "season": {
+              "id": 2022,
+              "display": "22/23",
+              "cyclicalName": "2023",
+              "nonCyclicalName": "22/23"
+            }
+          },
+          "typeDetails": {
+            "type": "RETURNED_FROM_PREVIOUS_LOAN",
+            "name": "End of loan",
+            "feeDescription": "End of loan"
+          },
+          "relativeUrl": "/mauro-icardi/transfers/spieler/68863/transfer_id/4062737"
+        },
+        {
+          "id": "4062736",
+          "transferSource": {
+            "competitionId": "FR1",
+            "countryId": 50,
+            "clubId": "583",
+            "coachId": "5035"
+          },
+          "transferDestination": {
+            "competitionId": "TR1",
+            "countryId": 174,
+            "clubId": "141",
+            "coachId": "23531"
+          },
+          "details": {
+            "playerId": "68863",
+            "date": "2022-09-08T00:00:00+02:00",
+            "contractUntilDate": "2023-06-30T00:00:00+02:00",
+            "seasonId": 2022,
+            "isPending": false,
+            "marketValue": {
+              "value": 22000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "22.00",
+                "suffix": "M"
+              }
+            },
+            "age": 29,
+            "remainingContractPeriod": {
+              "days": 661,
+              "daysDisplay": "1 Year, 9 Months, 22 Days"
+            },
+            "season": {
+              "id": 2022,
+              "display": "22/23",
+              "cyclicalName": "2023",
+              "nonCyclicalName": "22/23"
+            }
+          },
+          "typeDetails": {
+            "type": "ACTIVE_LOAN_TRANSFER",
+            "name": "loan transfer",
+            "feeDescription": "loan transfer"
+          },
+          "relativeUrl": "/mauro-icardi/transfers/spieler/68863/transfer_id/4062736"
+        },
+        {
+          "id": "2915045",
+          "transferSource": {
+            "competitionId": "IT1",
+            "countryId": 75,
+            "clubId": "46",
+            "coachId": "3517"
+          },
+          "transferDestination": {
+            "competitionId": "FR1",
+            "countryId": 50,
+            "clubId": "583",
+            "coachId": "7471"
+          },
+          "details": {
+            "playerId": "68863",
+            "date": "2020-07-01T00:00:00+02:00",
+            "contractUntilDate": "2024-06-30T00:00:00+02:00",
+            "seasonId": 2020,
+            "isPending": false,
+            "marketValue": {
+              "value": 60000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "60.00",
+                "suffix": "M"
+              }
+            },
+            "age": 27,
+            "fee": {
+              "value": 50000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "50.00",
+                "suffix": "M"
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 729,
+              "daysDisplay": "1 Year, 11 Months, 29 Days"
+            },
+            "season": {
+              "id": 2020,
+              "display": "20/21",
+              "cyclicalName": "2021",
+              "nonCyclicalName": "20/21"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/mauro-icardi/transfers/spieler/68863/transfer_id/2915045"
+        },
+        {
+          "id": "2632251",
+          "transferSource": {
+            "competitionId": "FR1",
+            "countryId": 50,
+            "clubId": "583",
+            "coachId": "7471"
+          },
+          "transferDestination": {
+            "competitionId": "IT1",
+            "countryId": 75,
+            "clubId": "46",
+            "coachId": "3517"
+          },
+          "details": {
+            "playerId": "68863",
+            "date": "2020-06-30T00:00:00+02:00",
+            "contractUntilDate": "2022-06-30T00:00:00+02:00",
+            "seasonId": 2019,
+            "isPending": false,
+            "marketValue": {
+              "value": 60000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "60.00",
+                "suffix": "M"
+              }
+            },
+            "age": 27,
+            "remainingContractPeriod": {
+              "days": 0,
+              "daysDisplay": "Unknown"
+            },
+            "season": {
+              "id": 2019,
+              "display": "19/20",
+              "cyclicalName": "2020",
+              "nonCyclicalName": "19/20"
+            }
+          },
+          "typeDetails": {
+            "type": "RETURNED_FROM_PREVIOUS_LOAN",
+            "name": "End of loan",
+            "feeDescription": "End of loan"
+          },
+          "relativeUrl": "/mauro-icardi/transfers/spieler/68863/transfer_id/2632251"
+        },
+        {
+          "id": "2632250",
+          "transferSource": {
+            "competitionId": "IT1",
+            "countryId": 75,
+            "clubId": "46",
+            "coachId": "3517"
+          },
+          "transferDestination": {
+            "competitionId": "FR1",
+            "countryId": 50,
+            "clubId": "583",
+            "coachId": "7471"
+          },
+          "details": {
+            "playerId": "68863",
+            "date": "2019-09-02T00:00:00+02:00",
+            "contractUntilDate": "2020-06-30T00:00:00+02:00",
+            "seasonId": 2019,
+            "isPending": false,
+            "marketValue": {
+              "value": 80000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "80.00",
+                "suffix": "M"
+              }
+            },
+            "age": 26,
+            "remainingContractPeriod": {
+              "days": 1032,
+              "daysDisplay": "2 Years, 9 Months, 28 Days"
+            },
+            "season": {
+              "id": 2019,
+              "display": "19/20",
+              "cyclicalName": "2020",
+              "nonCyclicalName": "19/20"
+            }
+          },
+          "typeDetails": {
+            "type": "ACTIVE_LOAN_TRANSFER",
+            "name": "loan transfer",
+            "feeDescription": "loan transfer"
+          },
+          "relativeUrl": "/mauro-icardi/transfers/spieler/68863/transfer_id/2632250"
+        },
+        {
+          "id": "892454",
+          "transferSource": {
+            "competitionId": "IT1",
+            "countryId": 75,
+            "clubId": "1038",
+            "coachId": "516"
+          },
+          "transferDestination": {
+            "competitionId": "IT1",
+            "countryId": 75,
+            "clubId": "46",
+            "coachId": "1933"
+          },
+          "details": {
+            "playerId": "68863",
+            "date": "2013-07-09T00:00:00+02:00",
+            "contractUntilDate": "2022-06-30T00:00:00+02:00",
+            "seasonId": 2013,
+            "isPending": false,
+            "marketValue": {
+              "value": 12000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "12.00",
+                "suffix": "M"
+              }
+            },
+            "age": 20,
+            "fee": {
+              "value": 13000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "13.00",
+                "suffix": "M"
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 356,
+              "daysDisplay": "11 Months, 21 Days"
+            },
+            "season": {
+              "id": 2013,
+              "display": "13/14",
+              "cyclicalName": "2014",
+              "nonCyclicalName": "13/14"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/mauro-icardi/transfers/spieler/68863/transfer_id/892454"
+        },
+        {
+          "id": "608223",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 157,
+            "clubId": "2470",
+            "coachId": "16362"
+          },
+          "transferDestination": {
+            "competitionId": "IT2",
+            "countryId": 75,
+            "clubId": "1038",
+            "coachId": "7518"
+          },
+          "details": {
+            "playerId": "68863",
+            "date": "2011-07-16T00:00:00+02:00",
+            "contractUntilDate": "2014-06-30T00:00:00+02:00",
+            "seasonId": 2011,
+            "isPending": false,
+            "marketValue": {
+              "value": 200000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "200.00",
+                "suffix": "K"
+              }
+            },
+            "age": 18,
+            "fee": {
+              "value": 300000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "300.00",
+                "suffix": "K"
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 715,
+              "daysDisplay": "1 Year, 11 Months, 14 Days"
+            },
+            "season": {
+              "id": 2011,
+              "display": "11/12",
+              "cyclicalName": "2012",
+              "nonCyclicalName": "11/12"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/mauro-icardi/transfers/spieler/68863/transfer_id/608223"
+        },
+        {
+          "id": "531865",
+          "transferSource": {
+            "competitionId": "ITJ1",
+            "countryId": 75,
+            "clubId": "12001",
+            "coachId": "19652"
+          },
+          "transferDestination": {
+            "competitionId": "",
+            "countryId": 157,
+            "clubId": "2470",
+            "coachId": "16362"
+          },
+          "details": {
+            "playerId": "68863",
+            "date": "2011-06-30T00:00:00+02:00",
+            "contractUntilDate": "2013-06-30T00:00:00+02:00",
+            "seasonId": 2010,
+            "isPending": false,
+            "marketValue": {
+              "value": 200000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "200.00",
+                "suffix": "K"
+              }
+            },
+            "age": 18,
+            "remainingContractPeriod": {
+              "days": 0,
+              "daysDisplay": "Unknown"
+            },
+            "season": {
+              "id": 2010,
+              "display": "10/11",
+              "cyclicalName": "2011",
+              "nonCyclicalName": "10/11"
+            }
+          },
+          "typeDetails": {
+            "type": "RETURNED_FROM_PREVIOUS_LOAN",
+            "name": "End of loan",
+            "feeDescription": "End of loan"
+          },
+          "relativeUrl": "/mauro-icardi/transfers/spieler/68863/transfer_id/531865"
+        },
+        {
+          "id": "531864",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 157,
+            "clubId": "2470",
+            "coachId": "16362"
+          },
+          "transferDestination": {
+            "competitionId": "ITJ1",
+            "countryId": 75,
+            "clubId": "12001",
+            "coachId": "16522"
+          },
+          "details": {
+            "playerId": "68863",
+            "date": "2011-01-11T00:00:00+01:00",
+            "contractUntilDate": "2011-06-30T00:00:00+02:00",
+            "seasonId": 2010,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 17,
+            "fee": {
+              "value": 25000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "25.00",
+                "suffix": "K"
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 901,
+              "daysDisplay": "2 Years, 5 Months, 19 Days"
+            },
+            "season": {
+              "id": 2010,
+              "display": "10/11",
+              "cyclicalName": "2011",
+              "nonCyclicalName": "10/11"
+            }
+          },
+          "typeDetails": {
+            "type": "ACTIVE_LOAN_TRANSFER",
+            "name": "loan transfer",
+            "feeDescription": "Loan fee"
+          },
+          "relativeUrl": "/mauro-icardi/transfers/spieler/68863/transfer_id/531864"
+        },
+        {
+          "id": "471156",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 157,
+            "clubId": "39813",
+            "coachId": "130344"
+          },
+          "transferDestination": {
+            "competitionId": "",
+            "countryId": 157,
+            "clubId": "2470",
+            "coachId": "16362"
+          },
+          "details": {
+            "playerId": "68863",
+            "date": "2010-07-01T00:00:00+02:00",
+            "contractUntilDate": "2013-06-30T00:00:00+02:00",
+            "seasonId": 2010,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 17,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2010,
+              "display": "10/11",
+              "cyclicalName": "2011",
+              "nonCyclicalName": "10/11"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/mauro-icardi/transfers/spieler/68863/transfer_id/471156"
+        },
+        {
+          "id": "2326551",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 157,
+            "clubId": "14321",
+            "coachId": "45389"
+          },
+          "transferDestination": {
+            "competitionId": "",
+            "countryId": 157,
+            "clubId": "39813",
+            "coachId": "23730"
+          },
+          "details": {
+            "playerId": "68863",
+            "date": "2008-07-01T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2008,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 15,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2008,
+              "display": "08/09",
+              "cyclicalName": "2009",
+              "nonCyclicalName": "08/09"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/mauro-icardi/transfers/spieler/68863/transfer_id/2326551"
+        },
+        {
+          "id": "180179",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 157,
+            "clubId": "20946",
+            "coachId": "0"
+          },
+          "transferDestination": {
+            "competitionId": "",
+            "countryId": 157,
+            "clubId": "14321",
+            "coachId": "23730"
+          },
+          "details": {
+            "playerId": "68863",
+            "date": "2008-02-01T00:00:00+01:00",
+            "contractUntilDate": null,
+            "seasonId": 2007,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 14,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "?",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2007,
+              "display": "07/08",
+              "cyclicalName": "2008",
+              "nonCyclicalName": "07/08"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/mauro-icardi/transfers/spieler/68863/transfer_id/180179"
+        }
+      ],
+      "pending": [],
+      "url": "",
+      "feeSum": {
+        "value": 73325000,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "73.32",
+          "suffix": "M"
+        }
+      },
+      "averageAge": 33,
+      "totalMarketValue": {
+        "value": 5000000,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "5.00",
+          "suffix": "M"
+        }
+      }
+    },
+    "clubIds": [
+      "583",
+      "141",
+      "46",
+      "1038",
+      "2470",
+      "12001",
+      "39813",
+      "14321",
+      "20946"
+    ],
+    "coachIds": [
+      "6499",
+      "23531",
+      "5035",
+      "3517",
+      "7471",
+      "516",
+      "1933",
+      "16362",
+      "7518",
+      "19652",
+      "16522",
+      "130344",
+      "45389",
+      "23730"
+    ],
+    "competitionIds": [
+      "FR1",
+      "TR1",
+      "IT1",
+      "IT2",
+      "ITJ1"
+    ],
+    "mostRecentTransfer": {
+      "id": "4540157",
+      "transferSource": {
+        "competitionId": "FR1",
+        "countryId": 50,
+        "clubId": "583",
+        "coachId": "6499"
+      },
+      "transferDestination": {
+        "competitionId": "TR1",
+        "countryId": 174,
+        "clubId": "141",
+        "coachId": "23531"
+      },
+      "details": {
+        "playerId": "68863",
+        "date": "2023-07-26T00:00:00+02:00",
+        "contractUntilDate": "2026-06-30T00:00:00+02:00",
+        "seasonId": 2023,
+        "isPending": false,
+        "marketValue": {
+          "value": 19000000,
+          "currency": "EUR",
+          "compact": {
+            "prefix": "€",
+            "content": "19.00",
+            "suffix": "M"
+          }
+        },
+        "age": 30,
+        "fee": {
+          "value": 10000000,
+          "currency": "EUR",
+          "compact": {
+            "prefix": "€",
+            "content": "10.00",
+            "suffix": "M"
+          }
+        },
+        "remainingContractPeriod": {
+          "days": 340,
+          "daysDisplay": "11 Months, 4 Days"
+        },
+        "season": {
+          "id": 2023,
+          "display": "23/24",
+          "cyclicalName": "2024",
+          "nonCyclicalName": "23/24"
+        }
+      },
+      "typeDetails": {
+        "type": "STANDARD",
+        "name": "",
+        "feeDescription": ""
+      },
+      "relativeUrl": "/mauro-icardi/transfers/spieler/68863/transfer_id/4540157"
+    }
+  }
+}

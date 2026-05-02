@@ -1,0 +1,474 @@
+{
+  "success": true,
+  "message": "OK",
+  "data": {
+    "playerId": "567129",
+    "history": {
+      "terminated": [
+        {
+          "id": "4834484",
+          "transferSource": {
+            "competitionId": "IT1",
+            "countryId": 75,
+            "clubId": "276",
+            "coachId": "12015"
+          },
+          "transferDestination": {
+            "competitionId": "IT1",
+            "countryId": 75,
+            "clubId": "6574",
+            "coachId": "36126"
+          },
+          "details": {
+            "playerId": "567129",
+            "date": "2024-01-20T00:00:00+01:00",
+            "contractUntilDate": "2028-06-30T00:00:00+02:00",
+            "seasonId": 2023,
+            "isPending": false,
+            "marketValue": {
+              "value": 7000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "7.00",
+                "suffix": "M"
+              }
+            },
+            "age": 21,
+            "fee": {
+              "value": 6750000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "6.75",
+                "suffix": "M"
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 892,
+              "daysDisplay": "2 Years, 5 Months, 10 Days"
+            },
+            "season": {
+              "id": 2023,
+              "display": "23/24",
+              "cyclicalName": "2024",
+              "nonCyclicalName": "23/24"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/josh-doig/transfers/spieler/567129/transfer_id/4834484"
+        },
+        {
+          "id": "3938996",
+          "transferSource": {
+            "competitionId": "SC1",
+            "countryId": 190,
+            "clubId": "903",
+            "coachId": "28097"
+          },
+          "transferDestination": {
+            "competitionId": "IT1",
+            "countryId": 75,
+            "clubId": "276",
+            "coachId": "31903"
+          },
+          "details": {
+            "playerId": "567129",
+            "date": "2022-07-13T00:00:00+02:00",
+            "contractUntilDate": "2026-06-30T00:00:00+02:00",
+            "seasonId": 2022,
+            "isPending": false,
+            "marketValue": {
+              "value": 3000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "3.00",
+                "suffix": "M"
+              }
+            },
+            "age": 20,
+            "fee": {
+              "value": 3400000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "3.40",
+                "suffix": "M"
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 1053,
+              "daysDisplay": "2 Years, 10 Months, 18 Days"
+            },
+            "season": {
+              "id": 2022,
+              "display": "22/23",
+              "cyclicalName": "2023",
+              "nonCyclicalName": "22/23"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/josh-doig/transfers/spieler/567129/transfer_id/3938996"
+        },
+        {
+          "id": "3013315",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 190,
+            "clubId": "12580",
+            "coachId": "0"
+          },
+          "transferDestination": {
+            "competitionId": "SC1",
+            "countryId": 190,
+            "clubId": "903",
+            "coachId": "21269"
+          },
+          "details": {
+            "playerId": "567129",
+            "date": "2020-07-01T00:00:00+02:00",
+            "contractUntilDate": "2025-05-31T00:00:00+02:00",
+            "seasonId": 2020,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 18,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2020,
+              "display": "20/21",
+              "cyclicalName": "2021",
+              "nonCyclicalName": "20/21"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/josh-doig/transfers/spieler/567129/transfer_id/3013315"
+        },
+        {
+          "id": "2788298",
+          "transferSource": {
+            "competitionId": "SC4",
+            "countryId": 190,
+            "clubId": "3031",
+            "coachId": "26307"
+          },
+          "transferDestination": {
+            "competitionId": "",
+            "countryId": 190,
+            "clubId": "12580",
+            "coachId": "0"
+          },
+          "details": {
+            "playerId": "567129",
+            "date": "2020-05-31T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2019,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 18,
+            "season": {
+              "id": 2019,
+              "display": "19/20",
+              "cyclicalName": "2020",
+              "nonCyclicalName": "19/20"
+            }
+          },
+          "typeDetails": {
+            "type": "RETURNED_FROM_PREVIOUS_LOAN",
+            "name": "End of loan",
+            "feeDescription": "End of loan"
+          },
+          "relativeUrl": "/josh-doig/transfers/spieler/567129/transfer_id/2788298"
+        },
+        {
+          "id": "2788299",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 190,
+            "clubId": "12580",
+            "coachId": "0"
+          },
+          "transferDestination": {
+            "competitionId": "SC4",
+            "countryId": 190,
+            "clubId": "3031",
+            "coachId": "26307"
+          },
+          "details": {
+            "playerId": "567129",
+            "date": "2020-01-31T00:00:00+01:00",
+            "contractUntilDate": null,
+            "seasonId": 2019,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 17,
+            "season": {
+              "id": 2019,
+              "display": "19/20",
+              "cyclicalName": "2020",
+              "nonCyclicalName": "19/20"
+            }
+          },
+          "typeDetails": {
+            "type": "ACTIVE_LOAN_TRANSFER",
+            "name": "loan transfer",
+            "feeDescription": "loan transfer"
+          },
+          "relativeUrl": "/josh-doig/transfers/spieler/567129/transfer_id/2788299"
+        },
+        {
+          "id": "2529602",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 190,
+            "clubId": "67276",
+            "coachId": "52699"
+          },
+          "transferDestination": {
+            "competitionId": "",
+            "countryId": 190,
+            "clubId": "12580",
+            "coachId": "0"
+          },
+          "details": {
+            "playerId": "567129",
+            "date": "2019-07-01T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2019,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 17,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "?",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2019,
+              "display": "19/20",
+              "cyclicalName": "2020",
+              "nonCyclicalName": "19/20"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/josh-doig/transfers/spieler/567129/transfer_id/2529602"
+        },
+        {
+          "id": "2407399",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 190,
+            "clubId": "64634",
+            "coachId": "149741"
+          },
+          "transferDestination": {
+            "competitionId": "",
+            "countryId": 190,
+            "clubId": "67276",
+            "coachId": "52699"
+          },
+          "details": {
+            "playerId": "567129",
+            "date": "2018-07-01T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2018,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 16,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2018,
+              "display": "18/19",
+              "cyclicalName": "2019",
+              "nonCyclicalName": "18/19"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/josh-doig/transfers/spieler/567129/transfer_id/2407399"
+        }
+      ],
+      "pending": [],
+      "url": "",
+      "feeSum": {
+        "value": 10150000,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "10.15",
+          "suffix": "M"
+        }
+      },
+      "averageAge": 23,
+      "totalMarketValue": {
+        "value": 5000000,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "5.00",
+          "suffix": "M"
+        }
+      }
+    },
+    "clubIds": [
+      "276",
+      "6574",
+      "903",
+      "12580",
+      "3031",
+      "67276",
+      "64634"
+    ],
+    "coachIds": [
+      "12015",
+      "36126",
+      "28097",
+      "31903",
+      "21269",
+      "26307",
+      "52699",
+      "149741"
+    ],
+    "competitionIds": [
+      "IT1",
+      "SC1",
+      "SC4"
+    ],
+    "mostRecentTransfer": {
+      "id": "4834484",
+      "transferSource": {
+        "competitionId": "IT1",
+        "countryId": 75,
+        "clubId": "276",
+        "coachId": "12015"
+      },
+      "transferDestination": {
+        "competitionId": "IT1",
+        "countryId": 75,
+        "clubId": "6574",
+        "coachId": "36126"
+      },
+      "details": {
+        "playerId": "567129",
+        "date": "2024-01-20T00:00:00+01:00",
+        "contractUntilDate": "2028-06-30T00:00:00+02:00",
+        "seasonId": 2023,
+        "isPending": false,
+        "marketValue": {
+          "value": 7000000,
+          "currency": "EUR",
+          "compact": {
+            "prefix": "€",
+            "content": "7.00",
+            "suffix": "M"
+          }
+        },
+        "age": 21,
+        "fee": {
+          "value": 6750000,
+          "currency": "EUR",
+          "compact": {
+            "prefix": "€",
+            "content": "6.75",
+            "suffix": "M"
+          }
+        },
+        "remainingContractPeriod": {
+          "days": 892,
+          "daysDisplay": "2 Years, 5 Months, 10 Days"
+        },
+        "season": {
+          "id": 2023,
+          "display": "23/24",
+          "cyclicalName": "2024",
+          "nonCyclicalName": "23/24"
+        }
+      },
+      "typeDetails": {
+        "type": "STANDARD",
+        "name": "",
+        "feeDescription": ""
+      },
+      "relativeUrl": "/josh-doig/transfers/spieler/567129/transfer_id/4834484"
+    }
+  }
+}

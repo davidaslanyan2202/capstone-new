@@ -1,0 +1,458 @@
+{
+  "success": true,
+  "message": "OK",
+  "data": {
+    "playerId": "181579",
+    "history": {
+      "terminated": [
+        {
+          "id": "6148575",
+          "transferSource": {
+            "competitionId": "GB1",
+            "countryId": 189,
+            "clubId": "379",
+            "coachId": "16520"
+          },
+          "transferDestination": {
+            "competitionId": "GB1",
+            "countryId": 189,
+            "clubId": "1132",
+            "coachId": "54455"
+          },
+          "details": {
+            "playerId": "181579",
+            "date": "2026-01-28T00:00:00+01:00",
+            "contractUntilDate": "2026-06-30T00:00:00+02:00",
+            "seasonId": 2025,
+            "isPending": false,
+            "marketValue": {
+              "value": 6000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "6.00",
+                "suffix": "M"
+              }
+            },
+            "age": 31,
+            "remainingContractPeriod": {
+              "days": 518,
+              "daysDisplay": "1 Year, 5 Months, 2 Days"
+            },
+            "season": {
+              "id": 2025,
+              "display": "25/26",
+              "cyclicalName": "2026",
+              "nonCyclicalName": "25/26"
+            }
+          },
+          "typeDetails": {
+            "type": "ACTIVE_LOAN_TRANSFER",
+            "name": "loan transfer",
+            "feeDescription": "loan transfer"
+          },
+          "relativeUrl": "/james-ward-prowse/transfers/spieler/181579/transfer_id/6148575"
+        },
+        {
+          "id": "5238876",
+          "transferSource": {
+            "competitionId": "GB1",
+            "countryId": 189,
+            "clubId": "703",
+            "coachId": "16520"
+          },
+          "transferDestination": {
+            "competitionId": "GB1",
+            "countryId": 189,
+            "clubId": "379",
+            "coachId": "23954"
+          },
+          "details": {
+            "playerId": "181579",
+            "date": "2025-02-03T00:00:00+01:00",
+            "contractUntilDate": "2027-06-30T00:00:00+02:00",
+            "seasonId": 2024,
+            "isPending": false,
+            "marketValue": {
+              "value": 16000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "16.00",
+                "suffix": "M"
+              }
+            },
+            "age": 30,
+            "remainingContractPeriod": {
+              "days": 147,
+              "daysDisplay": "4 Months, 27 Days"
+            },
+            "season": {
+              "id": 2024,
+              "display": "24/25",
+              "cyclicalName": "2025",
+              "nonCyclicalName": "24/25"
+            }
+          },
+          "typeDetails": {
+            "type": "RETURNED_FROM_PREVIOUS_LOAN",
+            "name": "End of loan",
+            "feeDescription": "End of loan"
+          },
+          "relativeUrl": "/james-ward-prowse/transfers/spieler/181579/transfer_id/5238876"
+        },
+        {
+          "id": "5238875",
+          "transferSource": {
+            "competitionId": "GB1",
+            "countryId": 189,
+            "clubId": "379",
+            "coachId": "6615"
+          },
+          "transferDestination": {
+            "competitionId": "GB1",
+            "countryId": 189,
+            "clubId": "703",
+            "coachId": "16520"
+          },
+          "details": {
+            "playerId": "181579",
+            "date": "2024-08-30T00:00:00+02:00",
+            "contractUntilDate": "2025-06-30T00:00:00+02:00",
+            "seasonId": 2024,
+            "isPending": false,
+            "marketValue": {
+              "value": 30000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "30.00",
+                "suffix": "M"
+              }
+            },
+            "age": 29,
+            "remainingContractPeriod": {
+              "days": 1034,
+              "daysDisplay": "2 Years, 10 Months"
+            },
+            "season": {
+              "id": 2024,
+              "display": "24/25",
+              "cyclicalName": "2025",
+              "nonCyclicalName": "24/25"
+            }
+          },
+          "typeDetails": {
+            "type": "ACTIVE_LOAN_TRANSFER",
+            "name": "loan transfer",
+            "feeDescription": "loan transfer"
+          },
+          "relativeUrl": "/james-ward-prowse/transfers/spieler/181579/transfer_id/5238875"
+        },
+        {
+          "id": "4582480",
+          "transferSource": {
+            "competitionId": "GB2",
+            "countryId": 189,
+            "clubId": "180",
+            "coachId": "74204"
+          },
+          "transferDestination": {
+            "competitionId": "GB1",
+            "countryId": 189,
+            "clubId": "379",
+            "coachId": "450"
+          },
+          "details": {
+            "playerId": "181579",
+            "date": "2023-08-14T00:00:00+02:00",
+            "contractUntilDate": "2027-06-30T00:00:00+02:00",
+            "seasonId": 2023,
+            "isPending": false,
+            "marketValue": {
+              "value": 38000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "38.00",
+                "suffix": "M"
+              }
+            },
+            "age": 28,
+            "fee": {
+              "value": 34800000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "34.80",
+                "suffix": "M"
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 1051,
+              "daysDisplay": "2 Years, 10 Months, 16 Days"
+            },
+            "season": {
+              "id": 2023,
+              "display": "23/24",
+              "cyclicalName": "2024",
+              "nonCyclicalName": "23/24"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/james-ward-prowse/transfers/spieler/181579/transfer_id/4582480"
+        },
+        {
+          "id": "782699",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 189,
+            "clubId": "6893",
+            "coachId": "0"
+          },
+          "transferDestination": {
+            "competitionId": "GB1",
+            "countryId": 189,
+            "clubId": "180",
+            "coachId": "4152"
+          },
+          "details": {
+            "playerId": "181579",
+            "date": "2012-07-01T00:00:00+02:00",
+            "contractUntilDate": "2026-06-30T00:00:00+02:00",
+            "seasonId": 2012,
+            "isPending": false,
+            "marketValue": {
+              "value": 50000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "50.00",
+                "suffix": "K"
+              }
+            },
+            "age": 17,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2012,
+              "display": "12/13",
+              "cyclicalName": "2013",
+              "nonCyclicalName": "12/13"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/james-ward-prowse/transfers/spieler/181579/transfer_id/782699"
+        },
+        {
+          "id": "1440557",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 189,
+            "clubId": "50780",
+            "coachId": "0"
+          },
+          "transferDestination": {
+            "competitionId": "",
+            "countryId": 189,
+            "clubId": "6893",
+            "coachId": "0"
+          },
+          "details": {
+            "playerId": "181579",
+            "date": "2010-07-01T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2010,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 15,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2010,
+              "display": "10/11",
+              "cyclicalName": "2011",
+              "nonCyclicalName": "10/11"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/james-ward-prowse/transfers/spieler/181579/transfer_id/1440557"
+        }
+      ],
+      "pending": [
+        {
+          "id": "6148576",
+          "transferSource": {
+            "competitionId": "GB1",
+            "countryId": 189,
+            "clubId": "1132",
+            "coachId": "15210"
+          },
+          "transferDestination": {
+            "competitionId": "GB1",
+            "countryId": 189,
+            "clubId": "379",
+            "coachId": "16520"
+          },
+          "details": {
+            "playerId": "181579",
+            "date": "2026-06-30T00:00:00+02:00",
+            "contractUntilDate": "2027-06-30T00:00:00+02:00",
+            "seasonId": 2025,
+            "isPending": true,
+            "marketValue": {
+              "value": 6000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "6.00",
+                "suffix": "M"
+              }
+            },
+            "age": 31,
+            "remainingContractPeriod": {
+              "days": 0,
+              "daysDisplay": "Unknown"
+            },
+            "season": {
+              "id": 2025,
+              "display": "25/26",
+              "cyclicalName": "2026",
+              "nonCyclicalName": "25/26"
+            }
+          },
+          "typeDetails": {
+            "type": "RETURNED_FROM_PREVIOUS_LOAN",
+            "name": "End of loan",
+            "feeDescription": "End of loan"
+          },
+          "relativeUrl": "/james-ward-prowse/transfers/spieler/181579/transfer_id/6148576"
+        }
+      ],
+      "url": "",
+      "feeSum": {
+        "value": 34800000,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "34.80",
+          "suffix": "M"
+        }
+      },
+      "averageAge": 31,
+      "totalMarketValue": {
+        "value": 6000000,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "6.00",
+          "suffix": "M"
+        }
+      }
+    },
+    "clubIds": [
+      "1132",
+      "379",
+      "703",
+      "180",
+      "6893",
+      "50780"
+    ],
+    "coachIds": [
+      "15210",
+      "16520",
+      "54455",
+      "23954",
+      "6615",
+      "74204",
+      "450",
+      "4152"
+    ],
+    "competitionIds": [
+      "GB1",
+      "GB2"
+    ],
+    "mostRecentTransfer": {
+      "id": "6148575",
+      "transferSource": {
+        "competitionId": "GB1",
+        "countryId": 189,
+        "clubId": "379",
+        "coachId": "16520"
+      },
+      "transferDestination": {
+        "competitionId": "GB1",
+        "countryId": 189,
+        "clubId": "1132",
+        "coachId": "54455"
+      },
+      "details": {
+        "playerId": "181579",
+        "date": "2026-01-28T00:00:00+01:00",
+        "contractUntilDate": "2026-06-30T00:00:00+02:00",
+        "seasonId": 2025,
+        "isPending": false,
+        "marketValue": {
+          "value": 6000000,
+          "currency": "EUR",
+          "compact": {
+            "prefix": "€",
+            "content": "6.00",
+            "suffix": "M"
+          }
+        },
+        "age": 31,
+        "remainingContractPeriod": {
+          "days": 518,
+          "daysDisplay": "1 Year, 5 Months, 2 Days"
+        },
+        "season": {
+          "id": 2025,
+          "display": "25/26",
+          "cyclicalName": "2026",
+          "nonCyclicalName": "25/26"
+        }
+      },
+      "typeDetails": {
+        "type": "ACTIVE_LOAN_TRANSFER",
+        "name": "loan transfer",
+        "feeDescription": "loan transfer"
+      },
+      "relativeUrl": "/james-ward-prowse/transfers/spieler/181579/transfer_id/6148575"
+    }
+  }
+}

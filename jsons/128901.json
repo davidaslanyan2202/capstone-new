@@ -1,0 +1,674 @@
+{
+  "success": true,
+  "message": "OK",
+  "data": {
+    "playerId": "128901",
+    "history": {
+      "terminated": [
+        {
+          "id": "6150096",
+          "transferSource": {
+            "competitionId": "GB2",
+            "countryId": 189,
+            "clubId": "1112",
+            "coachId": "3540"
+          },
+          "transferDestination": {
+            "competitionId": "GB2",
+            "countryId": 189,
+            "clubId": "358",
+            "coachId": "15622"
+          },
+          "details": {
+            "playerId": "128901",
+            "date": "2026-01-29T00:00:00+01:00",
+            "contractUntilDate": "2026-06-30T00:00:00+02:00",
+            "seasonId": 2025,
+            "isPending": false,
+            "marketValue": {
+              "value": 1500000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "1.50",
+                "suffix": "M"
+              }
+            },
+            "age": 32,
+            "remainingContractPeriod": {
+              "days": 517,
+              "daysDisplay": "1 Year, 5 Months, 1 Day"
+            },
+            "season": {
+              "id": 2025,
+              "display": "25/26",
+              "cyclicalName": "2026",
+              "nonCyclicalName": "25/26"
+            }
+          },
+          "typeDetails": {
+            "type": "ACTIVE_LOAN_TRANSFER",
+            "name": "loan transfer",
+            "feeDescription": "loan transfer"
+          },
+          "relativeUrl": "/conor-coady/transfers/spieler/128901/transfer_id/6150096"
+        },
+        {
+          "id": "5827995",
+          "transferSource": {
+            "competitionId": "GB2",
+            "countryId": 189,
+            "clubId": "1003",
+            "coachId": "34166"
+          },
+          "transferDestination": {
+            "competitionId": "GB2",
+            "countryId": 189,
+            "clubId": "1112",
+            "coachId": "3540"
+          },
+          "details": {
+            "playerId": "128901",
+            "date": "2025-08-01T00:00:00+02:00",
+            "contractUntilDate": "2027-06-30T00:00:00+02:00",
+            "seasonId": 2025,
+            "isPending": false,
+            "marketValue": {
+              "value": 2200000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "2.20",
+                "suffix": "M"
+              }
+            },
+            "age": 32,
+            "fee": {
+              "value": 2300000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "2.30",
+                "suffix": "M"
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 333,
+              "daysDisplay": "10 Months, 29 Days"
+            },
+            "season": {
+              "id": 2025,
+              "display": "25/26",
+              "cyclicalName": "2026",
+              "nonCyclicalName": "25/26"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/conor-coady/transfers/spieler/128901/transfer_id/5827995"
+        },
+        {
+          "id": "4468181",
+          "transferSource": {
+            "competitionId": "GB1",
+            "countryId": 189,
+            "clubId": "543",
+            "coachId": "6615"
+          },
+          "transferDestination": {
+            "competitionId": "GB2",
+            "countryId": 189,
+            "clubId": "1003",
+            "coachId": "53749"
+          },
+          "details": {
+            "playerId": "128901",
+            "date": "2023-07-01T00:00:00+02:00",
+            "contractUntilDate": "2026-06-30T00:00:00+02:00",
+            "seasonId": 2023,
+            "isPending": false,
+            "marketValue": {
+              "value": 12000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "12.00",
+                "suffix": "M"
+              }
+            },
+            "age": 30,
+            "fee": {
+              "value": 8700000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "8.70",
+                "suffix": "M"
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 730,
+              "daysDisplay": "1 Year, 11 Months, 29 Days"
+            },
+            "season": {
+              "id": 2023,
+              "display": "23/24",
+              "cyclicalName": "2024",
+              "nonCyclicalName": "23/24"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/conor-coady/transfers/spieler/128901/transfer_id/4468181"
+        },
+        {
+          "id": "4000862",
+          "transferSource": {
+            "competitionId": "GB1",
+            "countryId": 189,
+            "clubId": "29",
+            "coachId": "15856"
+          },
+          "transferDestination": {
+            "competitionId": "GB1",
+            "countryId": 189,
+            "clubId": "543",
+            "coachId": "6615"
+          },
+          "details": {
+            "playerId": "128901",
+            "date": "2023-06-30T00:00:00+02:00",
+            "contractUntilDate": "2025-06-30T00:00:00+02:00",
+            "seasonId": 2022,
+            "isPending": false,
+            "marketValue": {
+              "value": 12000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "12.00",
+                "suffix": "M"
+              }
+            },
+            "age": 30,
+            "remainingContractPeriod": {
+              "days": 0,
+              "daysDisplay": "Unknown"
+            },
+            "season": {
+              "id": 2022,
+              "display": "22/23",
+              "cyclicalName": "2023",
+              "nonCyclicalName": "22/23"
+            }
+          },
+          "typeDetails": {
+            "type": "RETURNED_FROM_PREVIOUS_LOAN",
+            "name": "End of loan",
+            "feeDescription": "End of loan"
+          },
+          "relativeUrl": "/conor-coady/transfers/spieler/128901/transfer_id/4000862"
+        },
+        {
+          "id": "4000861",
+          "transferSource": {
+            "competitionId": "GB1",
+            "countryId": 189,
+            "clubId": "543",
+            "coachId": "61477"
+          },
+          "transferDestination": {
+            "competitionId": "GB1",
+            "countryId": 189,
+            "clubId": "29",
+            "coachId": "60805"
+          },
+          "details": {
+            "playerId": "128901",
+            "date": "2022-08-08T00:00:00+02:00",
+            "contractUntilDate": "2023-06-30T00:00:00+02:00",
+            "seasonId": 2022,
+            "isPending": false,
+            "marketValue": {
+              "value": 25000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "25.00",
+                "suffix": "M"
+              }
+            },
+            "age": 29,
+            "remainingContractPeriod": {
+              "days": 1057,
+              "daysDisplay": "2 Years, 10 Months, 22 Days"
+            },
+            "season": {
+              "id": 2022,
+              "display": "22/23",
+              "cyclicalName": "2023",
+              "nonCyclicalName": "22/23"
+            }
+          },
+          "typeDetails": {
+            "type": "ACTIVE_LOAN_TRANSFER",
+            "name": "loan transfer",
+            "feeDescription": "loan transfer"
+          },
+          "relativeUrl": "/conor-coady/transfers/spieler/128901/transfer_id/4000861"
+        },
+        {
+          "id": "1276485",
+          "transferSource": {
+            "competitionId": "GB2",
+            "countryId": 189,
+            "clubId": "1110",
+            "coachId": "15701"
+          },
+          "transferDestination": {
+            "competitionId": "GB2",
+            "countryId": 189,
+            "clubId": "543",
+            "coachId": "4155"
+          },
+          "details": {
+            "playerId": "128901",
+            "date": "2015-07-03T00:00:00+02:00",
+            "contractUntilDate": "2025-06-30T00:00:00+02:00",
+            "seasonId": 2015,
+            "isPending": false,
+            "marketValue": {
+              "value": 750000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "750.00",
+                "suffix": "K"
+              }
+            },
+            "age": 22,
+            "fee": {
+              "value": 2800000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "2.80",
+                "suffix": "M"
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 728,
+              "daysDisplay": "1 Year, 11 Months, 27 Days"
+            },
+            "season": {
+              "id": 2015,
+              "display": "15/16",
+              "cyclicalName": "2016",
+              "nonCyclicalName": "15/16"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/conor-coady/transfers/spieler/128901/transfer_id/1276485"
+        },
+        {
+          "id": "1104485",
+          "transferSource": {
+            "competitionId": "GB21",
+            "countryId": 189,
+            "clubId": "9252",
+            "coachId": "36468"
+          },
+          "transferDestination": {
+            "competitionId": "GB2",
+            "countryId": 189,
+            "clubId": "1110",
+            "coachId": "1569"
+          },
+          "details": {
+            "playerId": "128901",
+            "date": "2014-08-06T00:00:00+02:00",
+            "contractUntilDate": "2017-06-30T00:00:00+02:00",
+            "seasonId": 2014,
+            "isPending": false,
+            "marketValue": {
+              "value": 300000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "300.00",
+                "suffix": "K"
+              }
+            },
+            "age": 21,
+            "fee": {
+              "value": 470000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "470.00",
+                "suffix": "K"
+              }
+            },
+            "season": {
+              "id": 2014,
+              "display": "14/15",
+              "cyclicalName": "2015",
+              "nonCyclicalName": "14/15"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/conor-coady/transfers/spieler/128901/transfer_id/1104485"
+        },
+        {
+          "id": "915340",
+          "transferSource": {
+            "competitionId": "GB3",
+            "countryId": 189,
+            "clubId": "350",
+            "coachId": "4374"
+          },
+          "transferDestination": {
+            "competitionId": "GB21",
+            "countryId": 189,
+            "clubId": "9252",
+            "coachId": "7287"
+          },
+          "details": {
+            "playerId": "128901",
+            "date": "2014-05-31T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2013,
+            "isPending": false,
+            "marketValue": {
+              "value": 300000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "300.00",
+                "suffix": "K"
+              }
+            },
+            "age": 21,
+            "season": {
+              "id": 2013,
+              "display": "13/14",
+              "cyclicalName": "2014",
+              "nonCyclicalName": "13/14"
+            }
+          },
+          "typeDetails": {
+            "type": "RETURNED_FROM_PREVIOUS_LOAN",
+            "name": "End of loan",
+            "feeDescription": "End of loan"
+          },
+          "relativeUrl": "/conor-coady/transfers/spieler/128901/transfer_id/915340"
+        },
+        {
+          "id": "915339",
+          "transferSource": {
+            "competitionId": "GB21",
+            "countryId": 189,
+            "clubId": "9252",
+            "coachId": "7287"
+          },
+          "transferDestination": {
+            "competitionId": "GB3",
+            "countryId": 189,
+            "clubId": "350",
+            "coachId": "23105"
+          },
+          "details": {
+            "playerId": "128901",
+            "date": "2013-07-22T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2013,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 20,
+            "season": {
+              "id": 2013,
+              "display": "13/14",
+              "cyclicalName": "2014",
+              "nonCyclicalName": "13/14"
+            }
+          },
+          "typeDetails": {
+            "type": "ACTIVE_LOAN_TRANSFER",
+            "name": "loan transfer",
+            "feeDescription": "loan transfer"
+          },
+          "relativeUrl": "/conor-coady/transfers/spieler/128901/transfer_id/915339"
+        },
+        {
+          "id": "602520",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 189,
+            "clubId": "6922",
+            "coachId": "0"
+          },
+          "transferDestination": {
+            "competitionId": "GBR",
+            "countryId": 189,
+            "clubId": "9252",
+            "coachId": "20853"
+          },
+          "details": {
+            "playerId": "128901",
+            "date": "2011-07-01T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2011,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 18,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2011,
+              "display": "11/12",
+              "cyclicalName": "2012",
+              "nonCyclicalName": "11/12"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/conor-coady/transfers/spieler/128901/transfer_id/602520"
+        }
+      ],
+      "pending": [
+        {
+          "id": "6150097",
+          "transferSource": {
+            "competitionId": "GB2",
+            "countryId": 189,
+            "clubId": "358",
+            "coachId": "15622"
+          },
+          "transferDestination": {
+            "competitionId": "GB2",
+            "countryId": 189,
+            "clubId": "1112",
+            "coachId": "3540"
+          },
+          "details": {
+            "playerId": "128901",
+            "date": "2026-06-30T00:00:00+02:00",
+            "contractUntilDate": "2027-06-30T00:00:00+02:00",
+            "seasonId": 2025,
+            "isPending": true,
+            "marketValue": {
+              "value": 1500000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "1.50",
+                "suffix": "M"
+              }
+            },
+            "age": 33,
+            "remainingContractPeriod": {
+              "days": 0,
+              "daysDisplay": "Unknown"
+            },
+            "season": {
+              "id": 2025,
+              "display": "25/26",
+              "cyclicalName": "2026",
+              "nonCyclicalName": "25/26"
+            }
+          },
+          "typeDetails": {
+            "type": "RETURNED_FROM_PREVIOUS_LOAN",
+            "name": "End of loan",
+            "feeDescription": "End of loan"
+          },
+          "relativeUrl": "/conor-coady/transfers/spieler/128901/transfer_id/6150097"
+        }
+      ],
+      "url": "",
+      "feeSum": {
+        "value": 14270000,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "14.27",
+          "suffix": "M"
+        }
+      },
+      "averageAge": 33,
+      "totalMarketValue": {
+        "value": 1500000,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "1.50",
+          "suffix": "M"
+        }
+      }
+    },
+    "clubIds": [
+      "358",
+      "1112",
+      "1003",
+      "543",
+      "29",
+      "1110",
+      "9252",
+      "350",
+      "6922"
+    ],
+    "coachIds": [
+      "15622",
+      "3540",
+      "34166",
+      "6615",
+      "53749",
+      "15856",
+      "61477",
+      "60805",
+      "15701",
+      "4155",
+      "36468",
+      "1569",
+      "4374",
+      "7287",
+      "23105",
+      "20853"
+    ],
+    "competitionIds": [
+      "GB2",
+      "GB1",
+      "GB21",
+      "GB3",
+      "GBR"
+    ],
+    "mostRecentTransfer": {
+      "id": "6150096",
+      "transferSource": {
+        "competitionId": "GB2",
+        "countryId": 189,
+        "clubId": "1112",
+        "coachId": "3540"
+      },
+      "transferDestination": {
+        "competitionId": "GB2",
+        "countryId": 189,
+        "clubId": "358",
+        "coachId": "15622"
+      },
+      "details": {
+        "playerId": "128901",
+        "date": "2026-01-29T00:00:00+01:00",
+        "contractUntilDate": "2026-06-30T00:00:00+02:00",
+        "seasonId": 2025,
+        "isPending": false,
+        "marketValue": {
+          "value": 1500000,
+          "currency": "EUR",
+          "compact": {
+            "prefix": "€",
+            "content": "1.50",
+            "suffix": "M"
+          }
+        },
+        "age": 32,
+        "remainingContractPeriod": {
+          "days": 517,
+          "daysDisplay": "1 Year, 5 Months, 1 Day"
+        },
+        "season": {
+          "id": 2025,
+          "display": "25/26",
+          "cyclicalName": "2026",
+          "nonCyclicalName": "25/26"
+        }
+      },
+      "typeDetails": {
+        "type": "ACTIVE_LOAN_TRANSFER",
+        "name": "loan transfer",
+        "feeDescription": "loan transfer"
+      },
+      "relativeUrl": "/conor-coady/transfers/spieler/128901/transfer_id/6150096"
+    }
+  }
+}

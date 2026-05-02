@@ -1,0 +1,640 @@
+{
+  "success": true,
+  "message": "OK",
+  "data": {
+    "playerId": "189475",
+    "history": {
+      "terminated": [
+        {
+          "id": "6073331",
+          "transferSource": {
+            "competitionId": "EC1N",
+            "countryId": 44,
+            "clubId": "9855",
+            "coachId": "58610"
+          },
+          "transferDestination": {
+            "competitionId": "MEXA",
+            "countryId": 110,
+            "clubId": "1403",
+            "coachId": "28876"
+          },
+          "details": {
+            "playerId": "189475",
+            "date": "2026-01-01T00:00:00+01:00",
+            "contractUntilDate": null,
+            "seasonId": 2025,
+            "isPending": false,
+            "marketValue": {
+              "value": 1500000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "1.50",
+                "suffix": "M"
+              }
+            },
+            "age": 30,
+            "season": {
+              "id": 2025,
+              "display": "25/26",
+              "cyclicalName": "2026",
+              "nonCyclicalName": "25/26"
+            }
+          },
+          "typeDetails": {
+            "type": "RETURNED_FROM_PREVIOUS_LOAN",
+            "name": "End of loan",
+            "feeDescription": "End of loan"
+          },
+          "relativeUrl": "/carlos-gruezo/transfers/spieler/189475/transfer_id/6073331"
+        },
+        {
+          "id": "5480822",
+          "transferSource": {
+            "competitionId": "MLS1",
+            "countryId": 184,
+            "clubId": "218",
+            "coachId": "2544"
+          },
+          "transferDestination": {
+            "competitionId": "EC1N",
+            "countryId": 44,
+            "clubId": "9855",
+            "coachId": "6729"
+          },
+          "details": {
+            "playerId": "189475",
+            "date": "2025-01-25T00:00:00+01:00",
+            "contractUntilDate": "2025-12-31T00:00:00+01:00",
+            "seasonId": 2024,
+            "isPending": false,
+            "marketValue": {
+              "value": 1800000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "1.80",
+                "suffix": "M"
+              }
+            },
+            "age": 29,
+            "remainingContractPeriod": {
+              "days": 340,
+              "daysDisplay": "11 Months, 6 Days"
+            },
+            "season": {
+              "id": 2024,
+              "display": "24/25",
+              "cyclicalName": "2025",
+              "nonCyclicalName": "24/25"
+            }
+          },
+          "typeDetails": {
+            "type": "ACTIVE_LOAN_TRANSFER",
+            "name": "loan transfer",
+            "feeDescription": "loan transfer"
+          },
+          "relativeUrl": "/carlos-gruezo/transfers/spieler/189475/transfer_id/5480822"
+        },
+        {
+          "id": "4253754",
+          "transferSource": {
+            "competitionId": "L1",
+            "countryId": 40,
+            "clubId": "167",
+            "coachId": "35442"
+          },
+          "transferDestination": {
+            "competitionId": "MLS1",
+            "countryId": 184,
+            "clubId": "218",
+            "coachId": "26244"
+          },
+          "details": {
+            "playerId": "189475",
+            "date": "2023-01-31T00:00:00+01:00",
+            "contractUntilDate": "2025-12-31T00:00:00+01:00",
+            "seasonId": 2022,
+            "isPending": false,
+            "marketValue": {
+              "value": 4000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "4.00",
+                "suffix": "M"
+              }
+            },
+            "age": 27,
+            "fee": {
+              "value": 2700000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "2.70",
+                "suffix": "M"
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 516,
+              "daysDisplay": "1 Year, 4 Months, 30 Days"
+            },
+            "season": {
+              "id": 2022,
+              "display": "22/23",
+              "cyclicalName": "2023",
+              "nonCyclicalName": "22/23"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/carlos-gruezo/transfers/spieler/189475/transfer_id/4253754"
+        },
+        {
+          "id": "2533797",
+          "transferSource": {
+            "competitionId": "MLS1",
+            "countryId": 184,
+            "clubId": "8816",
+            "coachId": "26244"
+          },
+          "transferDestination": {
+            "competitionId": "L1",
+            "countryId": 40,
+            "clubId": "167",
+            "coachId": "15119"
+          },
+          "details": {
+            "playerId": "189475",
+            "date": "2019-07-02T00:00:00+02:00",
+            "contractUntilDate": "2024-06-30T00:00:00+02:00",
+            "seasonId": 2019,
+            "isPending": false,
+            "marketValue": {
+              "value": 2000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "2.00",
+                "suffix": "M"
+              }
+            },
+            "age": 24,
+            "fee": {
+              "value": 5500000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "5.50",
+                "suffix": "M"
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 182,
+              "daysDisplay": "5 Months, 29 Days"
+            },
+            "season": {
+              "id": 2019,
+              "display": "19/20",
+              "cyclicalName": "2020",
+              "nonCyclicalName": "19/20"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/carlos-gruezo/transfers/spieler/189475/transfer_id/2533797"
+        },
+        {
+          "id": "1416975",
+          "transferSource": {
+            "competitionId": "L1",
+            "countryId": 40,
+            "clubId": "79",
+            "coachId": "6089"
+          },
+          "transferDestination": {
+            "competitionId": "MLS1",
+            "countryId": 184,
+            "clubId": "8816",
+            "coachId": "22583"
+          },
+          "details": {
+            "playerId": "189475",
+            "date": "2016-01-23T00:00:00+01:00",
+            "contractUntilDate": "2019-12-31T00:00:00+01:00",
+            "seasonId": 2015,
+            "isPending": false,
+            "marketValue": {
+              "value": 2000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "2.00",
+                "suffix": "M"
+              }
+            },
+            "age": 20,
+            "fee": {
+              "value": 1500000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "1.50",
+                "suffix": "M"
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 889,
+              "daysDisplay": "2 Years, 5 Months, 7 Days"
+            },
+            "season": {
+              "id": 2015,
+              "display": "15/16",
+              "cyclicalName": "2016",
+              "nonCyclicalName": "15/16"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/carlos-gruezo/transfers/spieler/189475/transfer_id/1416975"
+        },
+        {
+          "id": "1010385",
+          "transferSource": {
+            "competitionId": "ECSE",
+            "countryId": 44,
+            "clubId": "3523",
+            "coachId": "4879"
+          },
+          "transferDestination": {
+            "competitionId": "L1",
+            "countryId": 40,
+            "clubId": "79",
+            "coachId": "19475"
+          },
+          "details": {
+            "playerId": "189475",
+            "date": "2014-01-30T00:00:00+01:00",
+            "contractUntilDate": "2018-06-30T00:00:00+02:00",
+            "seasonId": 2013,
+            "isPending": false,
+            "marketValue": {
+              "value": 1000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "1.00",
+                "suffix": "M"
+              }
+            },
+            "age": 18,
+            "fee": {
+              "value": 1000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "1.00",
+                "suffix": "M"
+              }
+            },
+            "season": {
+              "id": 2013,
+              "display": "13/14",
+              "cyclicalName": "2014",
+              "nonCyclicalName": "13/14"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/carlos-gruezo/transfers/spieler/189475/transfer_id/1010385"
+        },
+        {
+          "id": "705059",
+          "transferSource": {
+            "competitionId": "ECSE",
+            "countryId": 44,
+            "clubId": "19309",
+            "coachId": "7632"
+          },
+          "transferDestination": {
+            "competitionId": "ECSE",
+            "countryId": 44,
+            "clubId": "3523",
+            "coachId": "6890"
+          },
+          "details": {
+            "playerId": "189475",
+            "date": "2012-01-31T00:00:00+01:00",
+            "contractUntilDate": null,
+            "seasonId": 2011,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 16,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "?",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2011,
+              "display": "11/12",
+              "cyclicalName": "2012",
+              "nonCyclicalName": "11/12"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/carlos-gruezo/transfers/spieler/189475/transfer_id/705059"
+        },
+        {
+          "id": "985386",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 44,
+            "clubId": "39950",
+            "coachId": "32737"
+          },
+          "transferDestination": {
+            "competitionId": "ECSE",
+            "countryId": 44,
+            "clubId": "19309",
+            "coachId": "7632"
+          },
+          "details": {
+            "playerId": "189475",
+            "date": "2011-07-01T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2011,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 16,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2011,
+              "display": "11/12",
+              "cyclicalName": "2012",
+              "nonCyclicalName": "11/12"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/carlos-gruezo/transfers/spieler/189475/transfer_id/985386"
+        },
+        {
+          "id": "985387",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 44,
+            "clubId": "39908",
+            "coachId": "0"
+          },
+          "transferDestination": {
+            "competitionId": "",
+            "countryId": 44,
+            "clubId": "39950",
+            "coachId": "32737"
+          },
+          "details": {
+            "playerId": "189475",
+            "date": "2011-01-01T00:00:00+01:00",
+            "contractUntilDate": null,
+            "seasonId": 2010,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 15,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2010,
+              "display": "10/11",
+              "cyclicalName": "2011",
+              "nonCyclicalName": "10/11"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/carlos-gruezo/transfers/spieler/189475/transfer_id/985387"
+        },
+        {
+          "id": "705060",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 44,
+            "clubId": "21812",
+            "coachId": "0"
+          },
+          "transferDestination": {
+            "competitionId": "",
+            "countryId": 44,
+            "clubId": "39908",
+            "coachId": "0"
+          },
+          "details": {
+            "playerId": "189475",
+            "date": "2010-03-09T00:00:00+01:00",
+            "contractUntilDate": null,
+            "seasonId": 2009,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 14,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "?",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2009,
+              "display": "09/10",
+              "cyclicalName": "2010",
+              "nonCyclicalName": "09/10"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/carlos-gruezo/transfers/spieler/189475/transfer_id/705060"
+        }
+      ],
+      "pending": [],
+      "url": "",
+      "feeSum": {
+        "value": 10700000,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "10.70",
+          "suffix": "M"
+        }
+      },
+      "averageAge": 31,
+      "totalMarketValue": {
+        "value": 1200000,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "1.20",
+          "suffix": "M"
+        }
+      }
+    },
+    "clubIds": [
+      "9855",
+      "1403",
+      "218",
+      "167",
+      "8816",
+      "79",
+      "3523",
+      "19309",
+      "39950",
+      "39908",
+      "21812"
+    ],
+    "coachIds": [
+      "58610",
+      "28876",
+      "2544",
+      "6729",
+      "35442",
+      "26244",
+      "15119",
+      "6089",
+      "22583",
+      "4879",
+      "19475",
+      "7632",
+      "6890",
+      "32737"
+    ],
+    "competitionIds": [
+      "EC1N",
+      "MEXA",
+      "MLS1",
+      "L1",
+      "ECSE"
+    ],
+    "mostRecentTransfer": {
+      "id": "6073331",
+      "transferSource": {
+        "competitionId": "EC1N",
+        "countryId": 44,
+        "clubId": "9855",
+        "coachId": "58610"
+      },
+      "transferDestination": {
+        "competitionId": "MEXA",
+        "countryId": 110,
+        "clubId": "1403",
+        "coachId": "28876"
+      },
+      "details": {
+        "playerId": "189475",
+        "date": "2026-01-01T00:00:00+01:00",
+        "contractUntilDate": null,
+        "seasonId": 2025,
+        "isPending": false,
+        "marketValue": {
+          "value": 1500000,
+          "currency": "EUR",
+          "compact": {
+            "prefix": "€",
+            "content": "1.50",
+            "suffix": "M"
+          }
+        },
+        "age": 30,
+        "season": {
+          "id": 2025,
+          "display": "25/26",
+          "cyclicalName": "2026",
+          "nonCyclicalName": "25/26"
+        }
+      },
+      "typeDetails": {
+        "type": "RETURNED_FROM_PREVIOUS_LOAN",
+        "name": "End of loan",
+        "feeDescription": "End of loan"
+      },
+      "relativeUrl": "/carlos-gruezo/transfers/spieler/189475/transfer_id/6073331"
+    }
+  }
+}

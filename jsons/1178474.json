@@ -1,0 +1,271 @@
+{
+  "success": true,
+  "message": "OK",
+  "data": {
+    "playerId": "1178474",
+    "history": {
+      "terminated": [
+        {
+          "id": "5739246",
+          "transferSource": {
+            "competitionId": "FR2",
+            "countryId": 50,
+            "clubId": "1421",
+            "coachId": "54653"
+          },
+          "transferDestination": {
+            "competitionId": "SA1",
+            "countryId": 146,
+            "clubId": "34911",
+            "coachId": "7580"
+          },
+          "details": {
+            "playerId": "1178474",
+            "date": "2025-07-03T00:00:00+02:00",
+            "contractUntilDate": "2029-06-30T00:00:00+02:00",
+            "seasonId": 2025,
+            "isPending": false,
+            "marketValue": {
+              "value": 4000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "4.00",
+                "suffix": "M"
+              }
+            },
+            "age": 20,
+            "fee": {
+              "value": 13325000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "13.32",
+                "suffix": "M"
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 1093,
+              "daysDisplay": "2 Years, 11 Months, 27 Days"
+            },
+            "season": {
+              "id": 2025,
+              "display": "25/26",
+              "cyclicalName": "2026",
+              "nonCyclicalName": "25/26"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/amadou-kone/transfers/spieler/1178474/transfer_id/5739246"
+        },
+        {
+          "id": "5201306",
+          "transferSource": {
+            "competitionId": "C3BR",
+            "countryId": 50,
+            "clubId": "11204",
+            "coachId": "42680"
+          },
+          "transferDestination": {
+            "competitionId": "FR1",
+            "countryId": 50,
+            "clubId": "1421",
+            "coachId": "23576"
+          },
+          "details": {
+            "playerId": "1178474",
+            "date": "2024-07-01T00:00:00+02:00",
+            "contractUntilDate": "2028-06-30T00:00:00+02:00",
+            "seasonId": 2024,
+            "isPending": false,
+            "marketValue": {
+              "value": 500000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "500.00",
+                "suffix": "K"
+              }
+            },
+            "age": 19,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2024,
+              "display": "24/25",
+              "cyclicalName": "2025",
+              "nonCyclicalName": "24/25"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/amadou-kone/transfers/spieler/1178474/transfer_id/5201306"
+        },
+        {
+          "id": "4628114",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 105,
+            "clubId": "72310",
+            "coachId": "0"
+          },
+          "transferDestination": {
+            "competitionId": "C3GE",
+            "countryId": 50,
+            "clubId": "11204",
+            "coachId": "42680"
+          },
+          "details": {
+            "playerId": "1178474",
+            "date": "2023-07-26T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2023,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 18,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "?",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2023,
+              "display": "23/24",
+              "cyclicalName": "2024",
+              "nonCyclicalName": "23/24"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/amadou-kone/transfers/spieler/1178474/transfer_id/4628114"
+        }
+      ],
+      "pending": [],
+      "url": "",
+      "feeSum": {
+        "value": 13325000,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "13.32",
+          "suffix": "M"
+        }
+      },
+      "averageAge": 20,
+      "totalMarketValue": {
+        "value": 6000000,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "6.00",
+          "suffix": "M"
+        }
+      }
+    },
+    "clubIds": [
+      "1421",
+      "34911",
+      "11204",
+      "72310"
+    ],
+    "coachIds": [
+      "54653",
+      "7580",
+      "42680",
+      "23576"
+    ],
+    "competitionIds": [
+      "FR2",
+      "SA1",
+      "C3BR",
+      "FR1",
+      "C3GE"
+    ],
+    "mostRecentTransfer": {
+      "id": "5739246",
+      "transferSource": {
+        "competitionId": "FR2",
+        "countryId": 50,
+        "clubId": "1421",
+        "coachId": "54653"
+      },
+      "transferDestination": {
+        "competitionId": "SA1",
+        "countryId": 146,
+        "clubId": "34911",
+        "coachId": "7580"
+      },
+      "details": {
+        "playerId": "1178474",
+        "date": "2025-07-03T00:00:00+02:00",
+        "contractUntilDate": "2029-06-30T00:00:00+02:00",
+        "seasonId": 2025,
+        "isPending": false,
+        "marketValue": {
+          "value": 4000000,
+          "currency": "EUR",
+          "compact": {
+            "prefix": "€",
+            "content": "4.00",
+            "suffix": "M"
+          }
+        },
+        "age": 20,
+        "fee": {
+          "value": 13325000,
+          "currency": "EUR",
+          "compact": {
+            "prefix": "€",
+            "content": "13.32",
+            "suffix": "M"
+          }
+        },
+        "remainingContractPeriod": {
+          "days": 1093,
+          "daysDisplay": "2 Years, 11 Months, 27 Days"
+        },
+        "season": {
+          "id": 2025,
+          "display": "25/26",
+          "cyclicalName": "2026",
+          "nonCyclicalName": "25/26"
+        }
+      },
+      "typeDetails": {
+        "type": "STANDARD",
+        "name": "",
+        "feeDescription": ""
+      },
+      "relativeUrl": "/amadou-kone/transfers/spieler/1178474/transfer_id/5739246"
+    }
+  }
+}

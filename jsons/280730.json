@@ -1,0 +1,527 @@
+{
+  "success": true,
+  "message": "OK",
+  "data": {
+    "playerId": "280730",
+    "history": {
+      "terminated": [
+        {
+          "id": "4624729",
+          "transferSource": {
+            "competitionId": "ES1",
+            "countryId": 157,
+            "clubId": "418",
+            "coachId": "523"
+          },
+          "transferDestination": {
+            "competitionId": "ES1",
+            "countryId": 157,
+            "clubId": "681",
+            "coachId": "33333"
+          },
+          "details": {
+            "playerId": "280730",
+            "date": "2023-09-01T00:00:00+02:00",
+            "contractUntilDate": "2029-06-30T00:00:00+02:00",
+            "seasonId": 2023,
+            "isPending": false,
+            "marketValue": {
+              "value": 5000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "5.00",
+                "suffix": "M"
+              }
+            },
+            "age": 27,
+            "fee": {
+              "value": 3000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "3.00",
+                "suffix": "M"
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 303,
+              "daysDisplay": "9 Months, 29 Days"
+            },
+            "season": {
+              "id": 2023,
+              "display": "23/24",
+              "cyclicalName": "2024",
+              "nonCyclicalName": "23/24"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/alvaro-odriozola/transfers/spieler/280730/transfer_id/4624729"
+        },
+        {
+          "id": "3523175",
+          "transferSource": {
+            "competitionId": "IT1",
+            "countryId": 75,
+            "clubId": "430",
+            "coachId": "47288"
+          },
+          "transferDestination": {
+            "competitionId": "ES1",
+            "countryId": 157,
+            "clubId": "418",
+            "coachId": "523"
+          },
+          "details": {
+            "playerId": "280730",
+            "date": "2022-06-30T00:00:00+02:00",
+            "contractUntilDate": "2024-06-30T00:00:00+02:00",
+            "seasonId": 2021,
+            "isPending": false,
+            "marketValue": {
+              "value": 12000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "12.00",
+                "suffix": "M"
+              }
+            },
+            "age": 26,
+            "remainingContractPeriod": {
+              "days": 0,
+              "daysDisplay": "Unknown"
+            },
+            "season": {
+              "id": 2021,
+              "display": "21/22",
+              "cyclicalName": "2022",
+              "nonCyclicalName": "21/22"
+            }
+          },
+          "typeDetails": {
+            "type": "RETURNED_FROM_PREVIOUS_LOAN",
+            "name": "End of loan",
+            "feeDescription": "End of loan"
+          },
+          "relativeUrl": "/alvaro-odriozola/transfers/spieler/280730/transfer_id/3523175"
+        },
+        {
+          "id": "3523174",
+          "transferSource": {
+            "competitionId": "ES1",
+            "countryId": 157,
+            "clubId": "418",
+            "coachId": "523"
+          },
+          "transferDestination": {
+            "competitionId": "IT1",
+            "countryId": 75,
+            "clubId": "430",
+            "coachId": "47288"
+          },
+          "details": {
+            "playerId": "280730",
+            "date": "2021-08-28T00:00:00+02:00",
+            "contractUntilDate": "2022-06-30T00:00:00+02:00",
+            "seasonId": 2021,
+            "isPending": false,
+            "marketValue": {
+              "value": 10000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "10.00",
+                "suffix": "M"
+              }
+            },
+            "age": 25,
+            "remainingContractPeriod": {
+              "days": 1037,
+              "daysDisplay": "2 Years, 10 Months, 2 Days"
+            },
+            "season": {
+              "id": 2021,
+              "display": "21/22",
+              "cyclicalName": "2022",
+              "nonCyclicalName": "21/22"
+            }
+          },
+          "typeDetails": {
+            "type": "ACTIVE_LOAN_TRANSFER",
+            "name": "loan transfer",
+            "feeDescription": "loan transfer"
+          },
+          "relativeUrl": "/alvaro-odriozola/transfers/spieler/280730/transfer_id/3523174"
+        },
+        {
+          "id": "2768187",
+          "transferSource": {
+            "competitionId": "L1",
+            "countryId": 40,
+            "clubId": "27",
+            "coachId": "67"
+          },
+          "transferDestination": {
+            "competitionId": "ES1",
+            "countryId": 157,
+            "clubId": "418",
+            "coachId": "21284"
+          },
+          "details": {
+            "playerId": "280730",
+            "date": "2020-08-24T00:00:00+02:00",
+            "contractUntilDate": "2024-06-30T00:00:00+02:00",
+            "seasonId": 2019,
+            "isPending": false,
+            "marketValue": {
+              "value": 16000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "16.00",
+                "suffix": "M"
+              }
+            },
+            "age": 24,
+            "remainingContractPeriod": {
+              "days": 7,
+              "daysDisplay": "7 Days"
+            },
+            "season": {
+              "id": 2019,
+              "display": "19/20",
+              "cyclicalName": "2020",
+              "nonCyclicalName": "19/20"
+            }
+          },
+          "typeDetails": {
+            "type": "RETURNED_FROM_PREVIOUS_LOAN",
+            "name": "End of loan",
+            "feeDescription": "End of loan"
+          },
+          "relativeUrl": "/alvaro-odriozola/transfers/spieler/280730/transfer_id/2768187"
+        },
+        {
+          "id": "2768186",
+          "transferSource": {
+            "competitionId": "ES1",
+            "countryId": 157,
+            "clubId": "418",
+            "coachId": "21284"
+          },
+          "transferDestination": {
+            "competitionId": "L1",
+            "countryId": 40,
+            "clubId": "27",
+            "coachId": "67"
+          },
+          "details": {
+            "playerId": "280730",
+            "date": "2020-01-22T00:00:00+01:00",
+            "contractUntilDate": "2020-08-31T00:00:00+02:00",
+            "seasonId": 2019,
+            "isPending": false,
+            "marketValue": {
+              "value": 20000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "20.00",
+                "suffix": "M"
+              }
+            },
+            "age": 24,
+            "remainingContractPeriod": {
+              "days": 1621,
+              "daysDisplay": "4 Years, 5 Months, 8 Days"
+            },
+            "season": {
+              "id": 2019,
+              "display": "19/20",
+              "cyclicalName": "2020",
+              "nonCyclicalName": "19/20"
+            }
+          },
+          "typeDetails": {
+            "type": "ACTIVE_LOAN_TRANSFER",
+            "name": "loan transfer",
+            "feeDescription": "loan transfer"
+          },
+          "relativeUrl": "/alvaro-odriozola/transfers/spieler/280730/transfer_id/2768186"
+        },
+        {
+          "id": "2161851",
+          "transferSource": {
+            "competitionId": "ES1",
+            "countryId": 157,
+            "clubId": "681",
+            "coachId": "7921"
+          },
+          "transferDestination": {
+            "competitionId": "ES1",
+            "countryId": 157,
+            "clubId": "418",
+            "coachId": "6615"
+          },
+          "details": {
+            "playerId": "280730",
+            "date": "2018-07-05T00:00:00+02:00",
+            "contractUntilDate": "2024-06-30T00:00:00+02:00",
+            "seasonId": 2018,
+            "isPending": false,
+            "marketValue": {
+              "value": 25000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "25.00",
+                "suffix": "M"
+              }
+            },
+            "age": 22,
+            "fee": {
+              "value": 32000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "32.00",
+                "suffix": "M"
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 1456,
+              "daysDisplay": "3 Years, 11 Months, 25 Days"
+            },
+            "season": {
+              "id": 2018,
+              "display": "18/19",
+              "cyclicalName": "2019",
+              "nonCyclicalName": "18/19"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/alvaro-odriozola/transfers/spieler/280730/transfer_id/2161851"
+        },
+        {
+          "id": "1733221",
+          "transferSource": {
+            "competitionId": "ES3B",
+            "countryId": 157,
+            "clubId": "9899",
+            "coachId": "33333"
+          },
+          "transferDestination": {
+            "competitionId": "ES1",
+            "countryId": 157,
+            "clubId": "681",
+            "coachId": "818"
+          },
+          "details": {
+            "playerId": "280730",
+            "date": "2017-01-09T00:00:00+01:00",
+            "contractUntilDate": "2022-06-30T00:00:00+02:00",
+            "seasonId": 2016,
+            "isPending": false,
+            "marketValue": {
+              "value": 300000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "300.00",
+                "suffix": "K"
+              }
+            },
+            "age": 21,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2016,
+              "display": "16/17",
+              "cyclicalName": "2017",
+              "nonCyclicalName": "16/17"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/alvaro-odriozola/transfers/spieler/280730/transfer_id/1733221"
+        },
+        {
+          "id": "948635",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 157,
+            "clubId": "9900",
+            "coachId": "31045"
+          },
+          "transferDestination": {
+            "competitionId": "ES3B",
+            "countryId": 157,
+            "clubId": "9899",
+            "coachId": "29320"
+          },
+          "details": {
+            "playerId": "280730",
+            "date": "2014-07-01T00:00:00+02:00",
+            "contractUntilDate": "2016-06-30T00:00:00+02:00",
+            "seasonId": 2014,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 18,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2014,
+              "display": "14/15",
+              "cyclicalName": "2015",
+              "nonCyclicalName": "14/15"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/alvaro-odriozola/transfers/spieler/280730/transfer_id/948635"
+        }
+      ],
+      "pending": [],
+      "url": "",
+      "feeSum": {
+        "value": 35000000,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "35.00",
+          "suffix": "M"
+        }
+      },
+      "averageAge": 30,
+      "totalMarketValue": {
+        "value": 800000,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "800.00",
+          "suffix": "K"
+        }
+      }
+    },
+    "clubIds": [
+      "418",
+      "681",
+      "430",
+      "27",
+      "9899",
+      "9900"
+    ],
+    "coachIds": [
+      "523",
+      "33333",
+      "47288",
+      "67",
+      "21284",
+      "7921",
+      "6615",
+      "818",
+      "31045",
+      "29320"
+    ],
+    "competitionIds": [
+      "ES1",
+      "IT1",
+      "L1",
+      "ES3B"
+    ],
+    "mostRecentTransfer": {
+      "id": "4624729",
+      "transferSource": {
+        "competitionId": "ES1",
+        "countryId": 157,
+        "clubId": "418",
+        "coachId": "523"
+      },
+      "transferDestination": {
+        "competitionId": "ES1",
+        "countryId": 157,
+        "clubId": "681",
+        "coachId": "33333"
+      },
+      "details": {
+        "playerId": "280730",
+        "date": "2023-09-01T00:00:00+02:00",
+        "contractUntilDate": "2029-06-30T00:00:00+02:00",
+        "seasonId": 2023,
+        "isPending": false,
+        "marketValue": {
+          "value": 5000000,
+          "currency": "EUR",
+          "compact": {
+            "prefix": "€",
+            "content": "5.00",
+            "suffix": "M"
+          }
+        },
+        "age": 27,
+        "fee": {
+          "value": 3000000,
+          "currency": "EUR",
+          "compact": {
+            "prefix": "€",
+            "content": "3.00",
+            "suffix": "M"
+          }
+        },
+        "remainingContractPeriod": {
+          "days": 303,
+          "daysDisplay": "9 Months, 29 Days"
+        },
+        "season": {
+          "id": 2023,
+          "display": "23/24",
+          "cyclicalName": "2024",
+          "nonCyclicalName": "23/24"
+        }
+      },
+      "typeDetails": {
+        "type": "STANDARD",
+        "name": "",
+        "feeDescription": ""
+      },
+      "relativeUrl": "/alvaro-odriozola/transfers/spieler/280730/transfer_id/4624729"
+    }
+  }
+}

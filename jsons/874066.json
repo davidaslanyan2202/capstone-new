@@ -1,0 +1,394 @@
+{
+  "success": true,
+  "message": "OK",
+  "data": {
+    "playerId": "874066",
+    "history": {
+      "terminated": [
+        {
+          "id": "4511790",
+          "transferSource": {
+            "competitionId": "GB3",
+            "countryId": 189,
+            "clubId": "1211",
+            "coachId": "6303"
+          },
+          "transferDestination": {
+            "competitionId": "GB1",
+            "countryId": 189,
+            "clubId": "350",
+            "coachId": "15289"
+          },
+          "details": {
+            "playerId": "874066",
+            "date": "2023-12-29T00:00:00+01:00",
+            "contractUntilDate": null,
+            "seasonId": 2023,
+            "isPending": false,
+            "marketValue": {
+              "value": 450000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "450.00",
+                "suffix": "K"
+              }
+            },
+            "age": 19,
+            "remainingContractPeriod": {
+              "days": 154,
+              "daysDisplay": "5 Months, 2 Days"
+            },
+            "season": {
+              "id": 2023,
+              "display": "23/24",
+              "cyclicalName": "2024",
+              "nonCyclicalName": "23/24"
+            }
+          },
+          "typeDetails": {
+            "type": "RETURNED_FROM_PREVIOUS_LOAN",
+            "name": "End of loan",
+            "feeDescription": "End of loan"
+          },
+          "relativeUrl": "/oliver-arblaster/transfers/spieler/874066/transfer_id/4511790"
+        },
+        {
+          "id": "4511789",
+          "transferSource": {
+            "competitionId": "GB1",
+            "countryId": 189,
+            "clubId": "350",
+            "coachId": "45358"
+          },
+          "transferDestination": {
+            "competitionId": "GB3",
+            "countryId": 189,
+            "clubId": "1211",
+            "coachId": "6303"
+          },
+          "details": {
+            "playerId": "874066",
+            "date": "2023-07-17T00:00:00+02:00",
+            "contractUntilDate": "2024-05-31T00:00:00+02:00",
+            "seasonId": 2023,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 19,
+            "remainingContractPeriod": {
+              "days": 1810,
+              "daysDisplay": "4 Years, 11 Months, 13 Days"
+            },
+            "season": {
+              "id": 2023,
+              "display": "23/24",
+              "cyclicalName": "2024",
+              "nonCyclicalName": "23/24"
+            }
+          },
+          "typeDetails": {
+            "type": "ACTIVE_LOAN_TRANSFER",
+            "name": "loan transfer",
+            "feeDescription": "loan transfer"
+          },
+          "relativeUrl": "/oliver-arblaster/transfers/spieler/874066/transfer_id/4511789"
+        },
+        {
+          "id": "4995711",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 189,
+            "clubId": "8824",
+            "coachId": "61184"
+          },
+          "transferDestination": {
+            "competitionId": "GB1",
+            "countryId": 189,
+            "clubId": "350",
+            "coachId": "45358"
+          },
+          "details": {
+            "playerId": "874066",
+            "date": "2023-07-01T00:00:00+02:00",
+            "contractUntilDate": "2028-06-30T00:00:00+02:00",
+            "seasonId": 2023,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 19,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2023,
+              "display": "23/24",
+              "cyclicalName": "2024",
+              "nonCyclicalName": "23/24"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/oliver-arblaster/transfers/spieler/874066/transfer_id/4995711"
+        },
+        {
+          "id": "3992837",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 189,
+            "clubId": "12806",
+            "coachId": "0"
+          },
+          "transferDestination": {
+            "competitionId": "",
+            "countryId": 189,
+            "clubId": "8824",
+            "coachId": "61184"
+          },
+          "details": {
+            "playerId": "874066",
+            "date": "2022-07-01T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2022,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 18,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2022,
+              "display": "22/23",
+              "cyclicalName": "2023",
+              "nonCyclicalName": "22/23"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/oliver-arblaster/transfers/spieler/874066/transfer_id/3992837"
+        },
+        {
+          "id": "3617379",
+          "transferSource": {
+            "competitionId": "NLN6",
+            "countryId": 189,
+            "clubId": "7048",
+            "coachId": "41387"
+          },
+          "transferDestination": {
+            "competitionId": "",
+            "countryId": 189,
+            "clubId": "12806",
+            "coachId": "77177"
+          },
+          "details": {
+            "playerId": "874066",
+            "date": "2022-01-03T00:00:00+01:00",
+            "contractUntilDate": null,
+            "seasonId": 2021,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 17,
+            "remainingContractPeriod": {
+              "days": 0,
+              "daysDisplay": "Unknown"
+            },
+            "season": {
+              "id": 2021,
+              "display": "21/22",
+              "cyclicalName": "2022",
+              "nonCyclicalName": "21/22"
+            }
+          },
+          "typeDetails": {
+            "type": "RETURNED_FROM_PREVIOUS_LOAN",
+            "name": "End of loan",
+            "feeDescription": "End of loan"
+          },
+          "relativeUrl": "/oliver-arblaster/transfers/spieler/874066/transfer_id/3617379"
+        },
+        {
+          "id": "3617378",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 189,
+            "clubId": "12806",
+            "coachId": "77177"
+          },
+          "transferDestination": {
+            "competitionId": "NLN6",
+            "countryId": 189,
+            "clubId": "7048",
+            "coachId": "41387"
+          },
+          "details": {
+            "playerId": "874066",
+            "date": "2021-10-22T00:00:00+02:00",
+            "contractUntilDate": "2022-01-03T00:00:00+01:00",
+            "seasonId": 2021,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 17,
+            "season": {
+              "id": 2021,
+              "display": "21/22",
+              "cyclicalName": "2022",
+              "nonCyclicalName": "21/22"
+            }
+          },
+          "typeDetails": {
+            "type": "ACTIVE_LOAN_TRANSFER",
+            "name": "loan transfer",
+            "feeDescription": "loan transfer"
+          },
+          "relativeUrl": "/oliver-arblaster/transfers/spieler/874066/transfer_id/3617378"
+        }
+      ],
+      "pending": [],
+      "url": "",
+      "feeSum": {
+        "value": 0,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "0.00",
+          "suffix": ""
+        }
+      },
+      "averageAge": 22,
+      "totalMarketValue": {
+        "value": 1400000,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "1.40",
+          "suffix": "M"
+        }
+      }
+    },
+    "clubIds": [
+      "1211",
+      "350",
+      "8824",
+      "12806",
+      "7048"
+    ],
+    "coachIds": [
+      "6303",
+      "15289",
+      "45358",
+      "61184",
+      "41387",
+      "77177"
+    ],
+    "competitionIds": [
+      "GB3",
+      "GB1",
+      "NLN6"
+    ],
+    "mostRecentTransfer": {
+      "id": "4511790",
+      "transferSource": {
+        "competitionId": "GB3",
+        "countryId": 189,
+        "clubId": "1211",
+        "coachId": "6303"
+      },
+      "transferDestination": {
+        "competitionId": "GB1",
+        "countryId": 189,
+        "clubId": "350",
+        "coachId": "15289"
+      },
+      "details": {
+        "playerId": "874066",
+        "date": "2023-12-29T00:00:00+01:00",
+        "contractUntilDate": null,
+        "seasonId": 2023,
+        "isPending": false,
+        "marketValue": {
+          "value": 450000,
+          "currency": "EUR",
+          "compact": {
+            "prefix": "€",
+            "content": "450.00",
+            "suffix": "K"
+          }
+        },
+        "age": 19,
+        "remainingContractPeriod": {
+          "days": 154,
+          "daysDisplay": "5 Months, 2 Days"
+        },
+        "season": {
+          "id": 2023,
+          "display": "23/24",
+          "cyclicalName": "2024",
+          "nonCyclicalName": "23/24"
+        }
+      },
+      "typeDetails": {
+        "type": "RETURNED_FROM_PREVIOUS_LOAN",
+        "name": "End of loan",
+        "feeDescription": "End of loan"
+      },
+      "relativeUrl": "/oliver-arblaster/transfers/spieler/874066/transfer_id/4511790"
+    }
+  }
+}

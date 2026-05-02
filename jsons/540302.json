@@ -1,0 +1,857 @@
+{
+  "success": true,
+  "message": "OK",
+  "data": {
+    "playerId": "540302",
+    "history": {
+      "terminated": [
+        {
+          "id": "6115639",
+          "transferSource": {
+            "competitionId": "MEXA",
+            "countryId": 110,
+            "clubId": "40188",
+            "coachId": "53943"
+          },
+          "transferDestination": {
+            "competitionId": "PR1A",
+            "countryId": 132,
+            "clubId": "1214",
+            "coachId": "93501"
+          },
+          "details": {
+            "playerId": "540302",
+            "date": "2026-01-12T00:00:00+01:00",
+            "contractUntilDate": "2027-12-31T00:00:00+01:00",
+            "seasonId": 2025,
+            "isPending": false,
+            "marketValue": {
+              "value": 2200000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "2.20",
+                "suffix": "M"
+              }
+            },
+            "age": 25,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "Free Transfer",
+                "suffix": ""
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 169,
+              "daysDisplay": "5 Months, 18 Days"
+            },
+            "season": {
+              "id": 2025,
+              "display": "25/26",
+              "cyclicalName": "2026",
+              "nonCyclicalName": "25/26"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/mateo-klimowicz/transfers/spieler/540302/transfer_id/6115639"
+        },
+        {
+          "id": "4779030",
+          "transferSource": {
+            "competitionId": "L1",
+            "countryId": 40,
+            "clubId": "79",
+            "coachId": "20940"
+          },
+          "transferDestination": {
+            "competitionId": "MEXA",
+            "countryId": 110,
+            "clubId": "40188",
+            "coachId": "59552"
+          },
+          "details": {
+            "playerId": "540302",
+            "date": "2024-01-01T00:00:00+01:00",
+            "contractUntilDate": "2026-06-30T00:00:00+02:00",
+            "seasonId": 2023,
+            "isPending": false,
+            "marketValue": {
+              "value": 2000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "2.00",
+                "suffix": "M"
+              }
+            },
+            "age": 23,
+            "fee": {
+              "value": 750000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "750.00",
+                "suffix": "K"
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 546,
+              "daysDisplay": "1 Year, 5 Months, 29 Days"
+            },
+            "season": {
+              "id": 2023,
+              "display": "23/24",
+              "cyclicalName": "2024",
+              "nonCyclicalName": "23/24"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/mateo-klimowicz/transfers/spieler/540302/transfer_id/4779030"
+        },
+        {
+          "id": "4194518",
+          "transferSource": {
+            "competitionId": "MEXA",
+            "countryId": 110,
+            "clubId": "40188",
+            "coachId": "59552"
+          },
+          "transferDestination": {
+            "competitionId": "L1",
+            "countryId": 40,
+            "clubId": "79",
+            "coachId": "20940"
+          },
+          "details": {
+            "playerId": "540302",
+            "date": "2023-12-31T00:00:00+01:00",
+            "contractUntilDate": "2025-06-30T00:00:00+02:00",
+            "seasonId": 2023,
+            "isPending": false,
+            "marketValue": {
+              "value": 2000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "2.00",
+                "suffix": "M"
+              }
+            },
+            "age": 23,
+            "remainingContractPeriod": {
+              "days": 0,
+              "daysDisplay": "Unknown"
+            },
+            "season": {
+              "id": 2023,
+              "display": "23/24",
+              "cyclicalName": "2024",
+              "nonCyclicalName": "23/24"
+            }
+          },
+          "typeDetails": {
+            "type": "RETURNED_FROM_PREVIOUS_LOAN",
+            "name": "End of loan",
+            "feeDescription": "End of loan"
+          },
+          "relativeUrl": "/mateo-klimowicz/transfers/spieler/540302/transfer_id/4194518"
+        },
+        {
+          "id": "4194517",
+          "transferSource": {
+            "competitionId": "L1",
+            "countryId": 40,
+            "clubId": "79",
+            "coachId": "588"
+          },
+          "transferDestination": {
+            "competitionId": "MEXA",
+            "countryId": 110,
+            "clubId": "40188",
+            "coachId": "48597"
+          },
+          "details": {
+            "playerId": "540302",
+            "date": "2023-01-01T00:00:00+01:00",
+            "contractUntilDate": "2023-12-31T00:00:00+01:00",
+            "seasonId": 2022,
+            "isPending": false,
+            "marketValue": {
+              "value": 1000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "1.00",
+                "suffix": "M"
+              }
+            },
+            "age": 22,
+            "remainingContractPeriod": {
+              "days": 911,
+              "daysDisplay": "2 Years, 5 Months, 29 Days"
+            },
+            "season": {
+              "id": 2022,
+              "display": "22/23",
+              "cyclicalName": "2023",
+              "nonCyclicalName": "22/23"
+            }
+          },
+          "typeDetails": {
+            "type": "ACTIVE_LOAN_TRANSFER",
+            "name": "loan transfer",
+            "feeDescription": "loan transfer"
+          },
+          "relativeUrl": "/mateo-klimowicz/transfers/spieler/540302/transfer_id/4194517"
+        },
+        {
+          "id": "4051291",
+          "transferSource": {
+            "competitionId": "L2",
+            "countryId": 40,
+            "clubId": "10",
+            "coachId": "13103"
+          },
+          "transferDestination": {
+            "competitionId": "L1",
+            "countryId": 40,
+            "clubId": "79",
+            "coachId": "588"
+          },
+          "details": {
+            "playerId": "540302",
+            "date": "2022-12-31T00:00:00+01:00",
+            "contractUntilDate": "2025-06-30T00:00:00+02:00",
+            "seasonId": 2022,
+            "isPending": false,
+            "marketValue": {
+              "value": 1000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "1.00",
+                "suffix": "M"
+              }
+            },
+            "age": 22,
+            "remainingContractPeriod": {
+              "days": 181,
+              "daysDisplay": "5 Months, 30 Days"
+            },
+            "season": {
+              "id": 2022,
+              "display": "22/23",
+              "cyclicalName": "2023",
+              "nonCyclicalName": "22/23"
+            }
+          },
+          "typeDetails": {
+            "type": "RETURNED_FROM_PREVIOUS_LOAN",
+            "name": "End of loan",
+            "feeDescription": "End of loan"
+          },
+          "relativeUrl": "/mateo-klimowicz/transfers/spieler/540302/transfer_id/4051291"
+        },
+        {
+          "id": "4051294",
+          "transferSource": {
+            "competitionId": "L1",
+            "countryId": 40,
+            "clubId": "79",
+            "coachId": "10906"
+          },
+          "transferDestination": {
+            "competitionId": "L2",
+            "countryId": 40,
+            "clubId": "10",
+            "coachId": "13103"
+          },
+          "details": {
+            "playerId": "540302",
+            "date": "2022-09-01T00:00:00+02:00",
+            "contractUntilDate": "2023-06-30T00:00:00+02:00",
+            "seasonId": 2022,
+            "isPending": false,
+            "marketValue": {
+              "value": 2000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "2.00",
+                "suffix": "M"
+              }
+            },
+            "age": 22,
+            "remainingContractPeriod": {
+              "days": 1033,
+              "daysDisplay": "2 Years, 9 Months, 29 Days"
+            },
+            "season": {
+              "id": 2022,
+              "display": "22/23",
+              "cyclicalName": "2023",
+              "nonCyclicalName": "22/23"
+            }
+          },
+          "typeDetails": {
+            "type": "ACTIVE_LOAN_TRANSFER",
+            "name": "loan transfer",
+            "feeDescription": "loan transfer"
+          },
+          "relativeUrl": "/mateo-klimowicz/transfers/spieler/540302/transfer_id/4051294"
+        },
+        {
+          "id": "2471308",
+          "transferSource": {
+            "competitionId": "ARG2",
+            "countryId": 9,
+            "clubId": "1829",
+            "coachId": "69300"
+          },
+          "transferDestination": {
+            "competitionId": "L2",
+            "countryId": 40,
+            "clubId": "79",
+            "coachId": "30352"
+          },
+          "details": {
+            "playerId": "540302",
+            "date": "2019-07-01T00:00:00+02:00",
+            "contractUntilDate": "2025-06-30T00:00:00+02:00",
+            "seasonId": 2019,
+            "isPending": false,
+            "marketValue": {
+              "value": 1000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "1.00",
+                "suffix": "M"
+              }
+            },
+            "age": 18,
+            "fee": {
+              "value": 1800000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "1.80",
+                "suffix": "M"
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 730,
+              "daysDisplay": "1 Year, 11 Months, 29 Days"
+            },
+            "season": {
+              "id": 2019,
+              "display": "19/20",
+              "cyclicalName": "2020",
+              "nonCyclicalName": "19/20"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/mateo-klimowicz/transfers/spieler/540302/transfer_id/2471308"
+        },
+        {
+          "id": "1963067",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 9,
+            "clubId": "19965",
+            "coachId": "0"
+          },
+          "transferDestination": {
+            "competitionId": "ARG2",
+            "countryId": 9,
+            "clubId": "1829",
+            "coachId": "0"
+          },
+          "details": {
+            "playerId": "540302",
+            "date": "2017-07-01T00:00:00+02:00",
+            "contractUntilDate": "2021-06-30T00:00:00+02:00",
+            "seasonId": 2017,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 16,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2017,
+              "display": "17/18",
+              "cyclicalName": "2018",
+              "nonCyclicalName": "17/18"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/mateo-klimowicz/transfers/spieler/540302/transfer_id/1963067"
+        },
+        {
+          "id": "4194021",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 9,
+            "clubId": "105152",
+            "coachId": "0"
+          },
+          "transferDestination": {
+            "competitionId": "",
+            "countryId": 9,
+            "clubId": "19965",
+            "coachId": "0"
+          },
+          "details": {
+            "playerId": "540302",
+            "date": "2016-07-01T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2016,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 15,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2016,
+              "display": "16/17",
+              "cyclicalName": "2017",
+              "nonCyclicalName": "16/17"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/mateo-klimowicz/transfers/spieler/540302/transfer_id/4194021"
+        },
+        {
+          "id": "4194020",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 9,
+            "clubId": "105153",
+            "coachId": "0"
+          },
+          "transferDestination": {
+            "competitionId": "",
+            "countryId": 9,
+            "clubId": "105152",
+            "coachId": "0"
+          },
+          "details": {
+            "playerId": "540302",
+            "date": "2015-07-01T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2015,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 14,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2015,
+              "display": "15/16",
+              "cyclicalName": "2016",
+              "nonCyclicalName": "15/16"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/mateo-klimowicz/transfers/spieler/540302/transfer_id/4194020"
+        },
+        {
+          "id": "4194019",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 40,
+            "clubId": "105149",
+            "coachId": "0"
+          },
+          "transferDestination": {
+            "competitionId": "",
+            "countryId": 9,
+            "clubId": "105153",
+            "coachId": "0"
+          },
+          "details": {
+            "playerId": "540302",
+            "date": "2011-01-01T00:00:00+01:00",
+            "contractUntilDate": null,
+            "seasonId": 2010,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 10,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "Free Transfer",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2010,
+              "display": "10/11",
+              "cyclicalName": "2011",
+              "nonCyclicalName": "10/11"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/mateo-klimowicz/transfers/spieler/540302/transfer_id/4194019"
+        },
+        {
+          "id": "4194018",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 40,
+            "clubId": "105151",
+            "coachId": "0"
+          },
+          "transferDestination": {
+            "competitionId": "",
+            "countryId": 40,
+            "clubId": "105149",
+            "coachId": "0"
+          },
+          "details": {
+            "playerId": "540302",
+            "date": "2009-07-01T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2009,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 8,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "Free Transfer",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2009,
+              "display": "09/10",
+              "cyclicalName": "2010",
+              "nonCyclicalName": "09/10"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/mateo-klimowicz/transfers/spieler/540302/transfer_id/4194018"
+        },
+        {
+          "id": "4194017",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 40,
+            "clubId": "11896",
+            "coachId": "19853"
+          },
+          "transferDestination": {
+            "competitionId": "",
+            "countryId": 40,
+            "clubId": "105151",
+            "coachId": "0"
+          },
+          "details": {
+            "playerId": "540302",
+            "date": "2008-07-01T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2008,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 7,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "Free Transfer",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2008,
+              "display": "08/09",
+              "cyclicalName": "2009",
+              "nonCyclicalName": "08/09"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/mateo-klimowicz/transfers/spieler/540302/transfer_id/4194017"
+        },
+        {
+          "id": "4194016",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 40,
+            "clubId": "105154",
+            "coachId": "0"
+          },
+          "transferDestination": {
+            "competitionId": "",
+            "countryId": 40,
+            "clubId": "11896",
+            "coachId": "19853"
+          },
+          "details": {
+            "playerId": "540302",
+            "date": "2007-07-01T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2007,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 6,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "Free Transfer",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2007,
+              "display": "07/08",
+              "cyclicalName": "2008",
+              "nonCyclicalName": "07/08"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/mateo-klimowicz/transfers/spieler/540302/transfer_id/4194016"
+        }
+      ],
+      "pending": [],
+      "url": "",
+      "feeSum": {
+        "value": 2550000,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "2.55",
+          "suffix": "M"
+        }
+      },
+      "averageAge": 25,
+      "totalMarketValue": {
+        "value": 1800000,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "1.80",
+          "suffix": "M"
+        }
+      }
+    },
+    "clubIds": [
+      "40188",
+      "1214",
+      "79",
+      "10",
+      "1829",
+      "19965",
+      "105152",
+      "105153",
+      "105149",
+      "105151",
+      "11896",
+      "105154"
+    ],
+    "coachIds": [
+      "53943",
+      "93501",
+      "20940",
+      "59552",
+      "588",
+      "48597",
+      "13103",
+      "10906",
+      "69300",
+      "30352",
+      "19853"
+    ],
+    "competitionIds": [
+      "MEXA",
+      "PR1A",
+      "L1",
+      "L2",
+      "ARG2"
+    ],
+    "mostRecentTransfer": {
+      "id": "6115639",
+      "transferSource": {
+        "competitionId": "MEXA",
+        "countryId": 110,
+        "clubId": "40188",
+        "coachId": "53943"
+      },
+      "transferDestination": {
+        "competitionId": "PR1A",
+        "countryId": 132,
+        "clubId": "1214",
+        "coachId": "93501"
+      },
+      "details": {
+        "playerId": "540302",
+        "date": "2026-01-12T00:00:00+01:00",
+        "contractUntilDate": "2027-12-31T00:00:00+01:00",
+        "seasonId": 2025,
+        "isPending": false,
+        "marketValue": {
+          "value": 2200000,
+          "currency": "EUR",
+          "compact": {
+            "prefix": "€",
+            "content": "2.20",
+            "suffix": "M"
+          }
+        },
+        "age": 25,
+        "fee": {
+          "value": null,
+          "currency": "",
+          "compact": {
+            "prefix": "",
+            "content": "Free Transfer",
+            "suffix": ""
+          }
+        },
+        "remainingContractPeriod": {
+          "days": 169,
+          "daysDisplay": "5 Months, 18 Days"
+        },
+        "season": {
+          "id": 2025,
+          "display": "25/26",
+          "cyclicalName": "2026",
+          "nonCyclicalName": "25/26"
+        }
+      },
+      "typeDetails": {
+        "type": "STANDARD",
+        "name": "",
+        "feeDescription": ""
+      },
+      "relativeUrl": "/mateo-klimowicz/transfers/spieler/540302/transfer_id/6115639"
+    }
+  }
+}

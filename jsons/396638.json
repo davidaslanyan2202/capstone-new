@@ -1,0 +1,663 @@
+{
+  "success": true,
+  "message": "OK",
+  "data": {
+    "playerId": "396638",
+    "history": {
+      "terminated": [
+        {
+          "id": "6090981",
+          "transferSource": {
+            "competitionId": "GB1",
+            "countryId": 189,
+            "clubId": "148",
+            "coachId": "9002"
+          },
+          "transferDestination": {
+            "competitionId": "IT1",
+            "countryId": 75,
+            "clubId": "430",
+            "coachId": "31876"
+          },
+          "details": {
+            "playerId": "396638",
+            "date": "2026-01-02T00:00:00+01:00",
+            "contractUntilDate": "2026-06-30T00:00:00+02:00",
+            "seasonId": 2025,
+            "isPending": false,
+            "marketValue": {
+              "value": 9000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "9.00",
+                "suffix": "M"
+              }
+            },
+            "age": 26,
+            "remainingContractPeriod": {
+              "days": 910,
+              "daysDisplay": "2 Years, 5 Months, 28 Days"
+            },
+            "season": {
+              "id": 2025,
+              "display": "25/26",
+              "cyclicalName": "2026",
+              "nonCyclicalName": "25/26"
+            }
+          },
+          "typeDetails": {
+            "type": "ACTIVE_LOAN_TRANSFER",
+            "name": "loan transfer",
+            "feeDescription": "loan transfer"
+          },
+          "relativeUrl": "/manor-solomon/transfers/spieler/396638/transfer_id/6090981"
+        },
+        {
+          "id": "5912255",
+          "transferSource": {
+            "competitionId": "ES1",
+            "countryId": 157,
+            "clubId": "1050",
+            "coachId": "5095"
+          },
+          "transferDestination": {
+            "competitionId": "GB1",
+            "countryId": 189,
+            "clubId": "148",
+            "coachId": "9002"
+          },
+          "details": {
+            "playerId": "396638",
+            "date": "2026-01-01T00:00:00+01:00",
+            "contractUntilDate": "2028-06-30T00:00:00+02:00",
+            "seasonId": 2025,
+            "isPending": false,
+            "marketValue": {
+              "value": 9000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "9.00",
+                "suffix": "M"
+              }
+            },
+            "age": 26,
+            "remainingContractPeriod": {
+              "days": 180,
+              "daysDisplay": "5 Months, 29 Days"
+            },
+            "season": {
+              "id": 2025,
+              "display": "25/26",
+              "cyclicalName": "2026",
+              "nonCyclicalName": "25/26"
+            }
+          },
+          "typeDetails": {
+            "type": "RETURNED_FROM_PREVIOUS_LOAN",
+            "name": "End of loan",
+            "feeDescription": "End of loan"
+          },
+          "relativeUrl": "/manor-solomon/transfers/spieler/396638/transfer_id/5912255"
+        },
+        {
+          "id": "5912254",
+          "transferSource": {
+            "competitionId": "GB1",
+            "countryId": 189,
+            "clubId": "148",
+            "coachId": "9002"
+          },
+          "transferDestination": {
+            "competitionId": "ES1",
+            "countryId": 157,
+            "clubId": "1050",
+            "coachId": "5095"
+          },
+          "details": {
+            "playerId": "396638",
+            "date": "2025-09-01T00:00:00+02:00",
+            "contractUntilDate": "2026-06-30T00:00:00+02:00",
+            "seasonId": 2025,
+            "isPending": false,
+            "marketValue": {
+              "value": 14000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "14.00",
+                "suffix": "M"
+              }
+            },
+            "age": 26,
+            "remainingContractPeriod": {
+              "days": 1033,
+              "daysDisplay": "2 Years, 9 Months, 29 Days"
+            },
+            "season": {
+              "id": 2025,
+              "display": "25/26",
+              "cyclicalName": "2026",
+              "nonCyclicalName": "25/26"
+            }
+          },
+          "typeDetails": {
+            "type": "ACTIVE_LOAN_TRANSFER",
+            "name": "loan transfer",
+            "feeDescription": "loan transfer"
+          },
+          "relativeUrl": "/manor-solomon/transfers/spieler/396638/transfer_id/5912254"
+        },
+        {
+          "id": "5229983",
+          "transferSource": {
+            "competitionId": "GB2",
+            "countryId": 189,
+            "clubId": "399",
+            "coachId": "10939"
+          },
+          "transferDestination": {
+            "competitionId": "GB1",
+            "countryId": 189,
+            "clubId": "148",
+            "coachId": "11929"
+          },
+          "details": {
+            "playerId": "396638",
+            "date": "2025-06-30T00:00:00+02:00",
+            "contractUntilDate": "2028-06-30T00:00:00+02:00",
+            "seasonId": 2024,
+            "isPending": false,
+            "marketValue": {
+              "value": 14000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "14.00",
+                "suffix": "M"
+              }
+            },
+            "age": 25,
+            "remainingContractPeriod": {
+              "days": 0,
+              "daysDisplay": "Unknown"
+            },
+            "season": {
+              "id": 2024,
+              "display": "24/25",
+              "cyclicalName": "2025",
+              "nonCyclicalName": "24/25"
+            }
+          },
+          "typeDetails": {
+            "type": "RETURNED_FROM_PREVIOUS_LOAN",
+            "name": "End of loan",
+            "feeDescription": "End of loan"
+          },
+          "relativeUrl": "/manor-solomon/transfers/spieler/396638/transfer_id/5229983"
+        },
+        {
+          "id": "5229982",
+          "transferSource": {
+            "competitionId": "GB1",
+            "countryId": 189,
+            "clubId": "148",
+            "coachId": "11929"
+          },
+          "transferDestination": {
+            "competitionId": "GB2",
+            "countryId": 189,
+            "clubId": "399",
+            "coachId": "10939"
+          },
+          "details": {
+            "playerId": "396638",
+            "date": "2024-08-27T00:00:00+02:00",
+            "contractUntilDate": "2025-06-30T00:00:00+02:00",
+            "seasonId": 2024,
+            "isPending": false,
+            "marketValue": {
+              "value": 13000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "13.00",
+                "suffix": "M"
+              }
+            },
+            "age": 25,
+            "remainingContractPeriod": {
+              "days": 1403,
+              "daysDisplay": "3 Years, 10 Months, 3 Days"
+            },
+            "season": {
+              "id": 2024,
+              "display": "24/25",
+              "cyclicalName": "2025",
+              "nonCyclicalName": "24/25"
+            }
+          },
+          "typeDetails": {
+            "type": "ACTIVE_LOAN_TRANSFER",
+            "name": "loan transfer",
+            "feeDescription": "loan transfer"
+          },
+          "relativeUrl": "/manor-solomon/transfers/spieler/396638/transfer_id/5229982"
+        },
+        {
+          "id": "4495375",
+          "transferSource": {
+            "competitionId": "UKR1",
+            "countryId": 177,
+            "clubId": "660",
+            "coachId": "10027"
+          },
+          "transferDestination": {
+            "competitionId": "GB1",
+            "countryId": 189,
+            "clubId": "148",
+            "coachId": "11929"
+          },
+          "details": {
+            "playerId": "396638",
+            "date": "2023-07-11T00:00:00+02:00",
+            "contractUntilDate": "2028-06-30T00:00:00+02:00",
+            "seasonId": 2023,
+            "isPending": false,
+            "marketValue": {
+              "value": 18000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "18.00",
+                "suffix": "M"
+              }
+            },
+            "age": 23,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "Free Transfer",
+                "suffix": ""
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 173,
+              "daysDisplay": "5 Months, 20 Days"
+            },
+            "season": {
+              "id": 2023,
+              "display": "23/24",
+              "cyclicalName": "2024",
+              "nonCyclicalName": "23/24"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/manor-solomon/transfers/spieler/396638/transfer_id/4495375"
+        },
+        {
+          "id": "3968929",
+          "transferSource": {
+            "competitionId": "GB1",
+            "countryId": 189,
+            "clubId": "931",
+            "coachId": "19631"
+          },
+          "transferDestination": {
+            "competitionId": "UKR1",
+            "countryId": 177,
+            "clubId": "660",
+            "coachId": "35373"
+          },
+          "details": {
+            "playerId": "396638",
+            "date": "2023-06-30T00:00:00+02:00",
+            "contractUntilDate": "2023-12-31T00:00:00+01:00",
+            "seasonId": 2022,
+            "isPending": false,
+            "marketValue": {
+              "value": 18000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "18.00",
+                "suffix": "M"
+              }
+            },
+            "age": 23,
+            "remainingContractPeriod": {
+              "days": 0,
+              "daysDisplay": "Unknown"
+            },
+            "season": {
+              "id": 2022,
+              "display": "22/23",
+              "cyclicalName": "2023",
+              "nonCyclicalName": "22/23"
+            }
+          },
+          "typeDetails": {
+            "type": "RETURNED_FROM_PREVIOUS_LOAN",
+            "name": "End of loan",
+            "feeDescription": "End of loan"
+          },
+          "relativeUrl": "/manor-solomon/transfers/spieler/396638/transfer_id/3968929"
+        },
+        {
+          "id": "3968928",
+          "transferSource": {
+            "competitionId": "UKR1",
+            "countryId": 177,
+            "clubId": "660",
+            "coachId": "35373"
+          },
+          "transferDestination": {
+            "competitionId": "GB1",
+            "countryId": 189,
+            "clubId": "931",
+            "coachId": "19631"
+          },
+          "details": {
+            "playerId": "396638",
+            "date": "2022-07-25T00:00:00+02:00",
+            "contractUntilDate": "2023-06-30T00:00:00+02:00",
+            "seasonId": 2022,
+            "isPending": false,
+            "marketValue": {
+              "value": 18000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "18.00",
+                "suffix": "M"
+              }
+            },
+            "age": 23,
+            "remainingContractPeriod": {
+              "days": 524,
+              "daysDisplay": "1 Year, 5 Months, 6 Days"
+            },
+            "season": {
+              "id": 2022,
+              "display": "22/23",
+              "cyclicalName": "2023",
+              "nonCyclicalName": "22/23"
+            }
+          },
+          "typeDetails": {
+            "type": "ACTIVE_LOAN_TRANSFER",
+            "name": "loan transfer",
+            "feeDescription": "loan transfer"
+          },
+          "relativeUrl": "/manor-solomon/transfers/spieler/396638/transfer_id/3968928"
+        },
+        {
+          "id": "2364720",
+          "transferSource": {
+            "competitionId": "ISR1",
+            "countryId": 74,
+            "clubId": "3785",
+            "coachId": "0"
+          },
+          "transferDestination": {
+            "competitionId": "UKR1",
+            "countryId": 177,
+            "clubId": "660",
+            "coachId": "19944"
+          },
+          "details": {
+            "playerId": "396638",
+            "date": "2019-01-11T00:00:00+01:00",
+            "contractUntilDate": "2023-12-31T00:00:00+01:00",
+            "seasonId": 2018,
+            "isPending": false,
+            "marketValue": {
+              "value": 1500000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "1.50",
+                "suffix": "M"
+              }
+            },
+            "age": 19,
+            "fee": {
+              "value": 6500000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "6.50",
+                "suffix": "M"
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 1266,
+              "daysDisplay": "3 Years, 5 Months, 19 Days"
+            },
+            "season": {
+              "id": 2018,
+              "display": "18/19",
+              "cyclicalName": "2019",
+              "nonCyclicalName": "18/19"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/manor-solomon/transfers/spieler/396638/transfer_id/2364720"
+        },
+        {
+          "id": "1886352",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 74,
+            "clubId": "26920",
+            "coachId": "0"
+          },
+          "transferDestination": {
+            "competitionId": "ISR1",
+            "countryId": 74,
+            "clubId": "3785",
+            "coachId": "33756"
+          },
+          "details": {
+            "playerId": "396638",
+            "date": "2016-07-01T00:00:00+02:00",
+            "contractUntilDate": "2022-06-30T00:00:00+02:00",
+            "seasonId": 2016,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 16,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2016,
+              "display": "16/17",
+              "cyclicalName": "2017",
+              "nonCyclicalName": "16/17"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/manor-solomon/transfers/spieler/396638/transfer_id/1886352"
+        }
+      ],
+      "pending": [
+        {
+          "id": "6090982",
+          "transferSource": {
+            "competitionId": "IT1",
+            "countryId": 75,
+            "clubId": "430",
+            "coachId": "31876"
+          },
+          "transferDestination": {
+            "competitionId": "GB1",
+            "countryId": 189,
+            "clubId": "148",
+            "coachId": "32157"
+          },
+          "details": {
+            "playerId": "396638",
+            "date": "2026-06-30T00:00:00+02:00",
+            "contractUntilDate": "2028-06-30T00:00:00+02:00",
+            "seasonId": 2025,
+            "isPending": true,
+            "marketValue": {
+              "value": 9000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "9.00",
+                "suffix": "M"
+              }
+            },
+            "age": 26,
+            "remainingContractPeriod": {
+              "days": 0,
+              "daysDisplay": "Unknown"
+            },
+            "season": {
+              "id": 2025,
+              "display": "25/26",
+              "cyclicalName": "2026",
+              "nonCyclicalName": "25/26"
+            }
+          },
+          "typeDetails": {
+            "type": "RETURNED_FROM_PREVIOUS_LOAN",
+            "name": "End of loan",
+            "feeDescription": "End of loan"
+          },
+          "relativeUrl": "/manor-solomon/transfers/spieler/396638/transfer_id/6090982"
+        }
+      ],
+      "url": "",
+      "feeSum": {
+        "value": 6500000,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "6.50",
+          "suffix": "M"
+        }
+      },
+      "averageAge": 26,
+      "totalMarketValue": {
+        "value": 9000000,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "9.00",
+          "suffix": "M"
+        }
+      }
+    },
+    "clubIds": [
+      "430",
+      "148",
+      "1050",
+      "399",
+      "660",
+      "931",
+      "3785",
+      "26920"
+    ],
+    "coachIds": [
+      "31876",
+      "32157",
+      "9002",
+      "5095",
+      "10939",
+      "11929",
+      "10027",
+      "19631",
+      "35373",
+      "19944",
+      "33756"
+    ],
+    "competitionIds": [
+      "IT1",
+      "GB1",
+      "ES1",
+      "GB2",
+      "UKR1",
+      "ISR1"
+    ],
+    "mostRecentTransfer": {
+      "id": "6090981",
+      "transferSource": {
+        "competitionId": "GB1",
+        "countryId": 189,
+        "clubId": "148",
+        "coachId": "9002"
+      },
+      "transferDestination": {
+        "competitionId": "IT1",
+        "countryId": 75,
+        "clubId": "430",
+        "coachId": "31876"
+      },
+      "details": {
+        "playerId": "396638",
+        "date": "2026-01-02T00:00:00+01:00",
+        "contractUntilDate": "2026-06-30T00:00:00+02:00",
+        "seasonId": 2025,
+        "isPending": false,
+        "marketValue": {
+          "value": 9000000,
+          "currency": "EUR",
+          "compact": {
+            "prefix": "€",
+            "content": "9.00",
+            "suffix": "M"
+          }
+        },
+        "age": 26,
+        "remainingContractPeriod": {
+          "days": 910,
+          "daysDisplay": "2 Years, 5 Months, 28 Days"
+        },
+        "season": {
+          "id": 2025,
+          "display": "25/26",
+          "cyclicalName": "2026",
+          "nonCyclicalName": "25/26"
+        }
+      },
+      "typeDetails": {
+        "type": "ACTIVE_LOAN_TRANSFER",
+        "name": "loan transfer",
+        "feeDescription": "loan transfer"
+      },
+      "relativeUrl": "/manor-solomon/transfers/spieler/396638/transfer_id/6090981"
+    }
+  }
+}

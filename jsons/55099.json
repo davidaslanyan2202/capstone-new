@@ -1,0 +1,453 @@
+{
+  "success": true,
+  "message": "OK",
+  "data": {
+    "playerId": "55099",
+    "history": {
+      "terminated": [
+        {
+          "id": "580224",
+          "transferSource": {
+            "competitionId": "L2",
+            "countryId": 40,
+            "clubId": "94",
+            "coachId": "78"
+          },
+          "transferDestination": {
+            "competitionId": "L1",
+            "countryId": 40,
+            "clubId": "60",
+            "coachId": "2989"
+          },
+          "details": {
+            "playerId": "55099",
+            "date": "2013-06-30T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2012,
+            "isPending": false,
+            "marketValue": {
+              "value": 800000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "800.00",
+                "suffix": "K"
+              }
+            },
+            "age": 23,
+            "season": {
+              "id": 2012,
+              "display": "12/13",
+              "cyclicalName": "2013",
+              "nonCyclicalName": "12/13"
+            }
+          },
+          "typeDetails": {
+            "type": "RETURNED_FROM_PREVIOUS_LOAN",
+            "name": "End of loan",
+            "feeDescription": "End of loan"
+          },
+          "relativeUrl": "/nicolas-hoefler/transfers/spieler/55099/transfer_id/580224"
+        },
+        {
+          "id": "580223",
+          "transferSource": {
+            "competitionId": "L1",
+            "countryId": 40,
+            "clubId": "60",
+            "coachId": "334"
+          },
+          "transferDestination": {
+            "competitionId": "L2",
+            "countryId": 40,
+            "clubId": "94",
+            "coachId": "5408"
+          },
+          "details": {
+            "playerId": "55099",
+            "date": "2011-07-01T00:00:00+02:00",
+            "contractUntilDate": "2011-06-30T00:00:00+02:00",
+            "seasonId": 2011,
+            "isPending": false,
+            "marketValue": {
+              "value": 150000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "150.00",
+                "suffix": "K"
+              }
+            },
+            "age": 21,
+            "season": {
+              "id": 2011,
+              "display": "11/12",
+              "cyclicalName": "2012",
+              "nonCyclicalName": "11/12"
+            }
+          },
+          "typeDetails": {
+            "type": "ACTIVE_LOAN_TRANSFER",
+            "name": "loan transfer",
+            "feeDescription": "loan transfer"
+          },
+          "relativeUrl": "/nicolas-hoefler/transfers/spieler/55099/transfer_id/580223"
+        },
+        {
+          "id": "438380",
+          "transferSource": {
+            "competitionId": "RL2",
+            "countryId": 40,
+            "clubId": "245",
+            "coachId": "334"
+          },
+          "transferDestination": {
+            "competitionId": "L1",
+            "countryId": 40,
+            "clubId": "60",
+            "coachId": "1049"
+          },
+          "details": {
+            "playerId": "55099",
+            "date": "2010-07-01T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2010,
+            "isPending": false,
+            "marketValue": {
+              "value": 150000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "150.00",
+                "suffix": "K"
+              }
+            },
+            "age": 20,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2010,
+              "display": "10/11",
+              "cyclicalName": "2011",
+              "nonCyclicalName": "10/11"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/nicolas-hoefler/transfers/spieler/55099/transfer_id/438380"
+        },
+        {
+          "id": "298959",
+          "transferSource": {
+            "competitionId": "AJ3",
+            "countryId": 40,
+            "clubId": "4042",
+            "coachId": "2989"
+          },
+          "transferDestination": {
+            "competitionId": "RL2",
+            "countryId": 40,
+            "clubId": "245",
+            "coachId": "334"
+          },
+          "details": {
+            "playerId": "55099",
+            "date": "2009-07-01T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2009,
+            "isPending": false,
+            "marketValue": {
+              "value": 100000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "100.00",
+                "suffix": "K"
+              }
+            },
+            "age": 19,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2009,
+              "display": "09/10",
+              "cyclicalName": "2010",
+              "nonCyclicalName": "09/10"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/nicolas-hoefler/transfers/spieler/55099/transfer_id/298959"
+        },
+        {
+          "id": "438902",
+          "transferSource": {
+            "competitionId": "BJ3",
+            "countryId": 40,
+            "clubId": "21075",
+            "coachId": "6629"
+          },
+          "transferDestination": {
+            "competitionId": "AJ3",
+            "countryId": 40,
+            "clubId": "4042",
+            "coachId": "2989"
+          },
+          "details": {
+            "playerId": "55099",
+            "date": "2007-07-01T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2007,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 17,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2007,
+              "display": "07/08",
+              "cyclicalName": "2008",
+              "nonCyclicalName": "07/08"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/nicolas-hoefler/transfers/spieler/55099/transfer_id/438902"
+        },
+        {
+          "id": "438901",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 40,
+            "clubId": "20942",
+            "coachId": "0"
+          },
+          "transferDestination": {
+            "competitionId": "",
+            "countryId": 40,
+            "clubId": "21075",
+            "coachId": "0"
+          },
+          "details": {
+            "playerId": "55099",
+            "date": "2005-07-01T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2005,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 15,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "Free Transfer",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2005,
+              "display": "05/06",
+              "cyclicalName": "2006",
+              "nonCyclicalName": "05/06"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/nicolas-hoefler/transfers/spieler/55099/transfer_id/438901"
+        },
+        {
+          "id": "896651",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 40,
+            "clubId": "40486",
+            "coachId": "0"
+          },
+          "transferDestination": {
+            "competitionId": "",
+            "countryId": 40,
+            "clubId": "20942",
+            "coachId": "0"
+          },
+          "details": {
+            "playerId": "55099",
+            "date": "2001-07-01T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2001,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 11,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "Free Transfer",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2001,
+              "display": "01/02",
+              "cyclicalName": "2002",
+              "nonCyclicalName": "01/02"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/nicolas-hoefler/transfers/spieler/55099/transfer_id/896651"
+        }
+      ],
+      "pending": [],
+      "url": "",
+      "feeSum": {
+        "value": 0,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "0.00",
+          "suffix": ""
+        }
+      },
+      "averageAge": 36,
+      "totalMarketValue": {
+        "value": 500000,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "500.00",
+          "suffix": "K"
+        }
+      }
+    },
+    "clubIds": [
+      "94",
+      "60",
+      "245",
+      "4042",
+      "21075",
+      "20942",
+      "40486"
+    ],
+    "coachIds": [
+      "78",
+      "2989",
+      "334",
+      "5408",
+      "1049",
+      "6629"
+    ],
+    "competitionIds": [
+      "L2",
+      "L1",
+      "RL2",
+      "AJ3",
+      "BJ3"
+    ],
+    "mostRecentTransfer": {
+      "id": "580224",
+      "transferSource": {
+        "competitionId": "L2",
+        "countryId": 40,
+        "clubId": "94",
+        "coachId": "78"
+      },
+      "transferDestination": {
+        "competitionId": "L1",
+        "countryId": 40,
+        "clubId": "60",
+        "coachId": "2989"
+      },
+      "details": {
+        "playerId": "55099",
+        "date": "2013-06-30T00:00:00+02:00",
+        "contractUntilDate": null,
+        "seasonId": 2012,
+        "isPending": false,
+        "marketValue": {
+          "value": 800000,
+          "currency": "EUR",
+          "compact": {
+            "prefix": "€",
+            "content": "800.00",
+            "suffix": "K"
+          }
+        },
+        "age": 23,
+        "season": {
+          "id": 2012,
+          "display": "12/13",
+          "cyclicalName": "2013",
+          "nonCyclicalName": "12/13"
+        }
+      },
+      "typeDetails": {
+        "type": "RETURNED_FROM_PREVIOUS_LOAN",
+        "name": "End of loan",
+        "feeDescription": "End of loan"
+      },
+      "relativeUrl": "/nicolas-hoefler/transfers/spieler/55099/transfer_id/580224"
+    }
+  }
+}

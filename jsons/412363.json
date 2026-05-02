@@ -1,0 +1,213 @@
+{
+  "success": true,
+  "message": "OK",
+  "data": {
+    "playerId": "412363",
+    "history": {
+      "terminated": [
+        {
+          "id": "2134412",
+          "transferSource": {
+            "competitionId": "BRA1",
+            "countryId": 26,
+            "clubId": "221",
+            "coachId": "10819"
+          },
+          "transferDestination": {
+            "competitionId": "ES1",
+            "countryId": 157,
+            "clubId": "418",
+            "coachId": "21284"
+          },
+          "details": {
+            "playerId": "412363",
+            "date": "2019-07-01T00:00:00+02:00",
+            "contractUntilDate": "2028-06-30T00:00:00+02:00",
+            "seasonId": 2019,
+            "isPending": false,
+            "marketValue": {
+              "value": 40000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "40.00",
+                "suffix": "M"
+              }
+            },
+            "age": 18,
+            "fee": {
+              "value": 45000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "45.00",
+                "suffix": "M"
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 1279,
+              "daysDisplay": "3 Years, 5 Months, 30 Days"
+            },
+            "season": {
+              "id": 2019,
+              "display": "19/20",
+              "cyclicalName": "2020",
+              "nonCyclicalName": "19/20"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/rodrygo/transfers/spieler/412363/transfer_id/2134412"
+        },
+        {
+          "id": "1945444",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 26,
+            "clubId": "9540",
+            "coachId": "0"
+          },
+          "transferDestination": {
+            "competitionId": "BRA1",
+            "countryId": 26,
+            "clubId": "221",
+            "coachId": "7592"
+          },
+          "details": {
+            "playerId": "412363",
+            "date": "2017-07-21T00:00:00+02:00",
+            "contractUntilDate": "2022-12-31T00:00:00+01:00",
+            "seasonId": 2017,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 16,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2017,
+              "display": "17/18",
+              "cyclicalName": "2018",
+              "nonCyclicalName": "17/18"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/rodrygo/transfers/spieler/412363/transfer_id/1945444"
+        }
+      ],
+      "pending": [],
+      "url": "",
+      "feeSum": {
+        "value": 45000000,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "45.00",
+          "suffix": "M"
+        }
+      },
+      "averageAge": 25,
+      "totalMarketValue": {
+        "value": 50000000,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "50.00",
+          "suffix": "M"
+        }
+      }
+    },
+    "clubIds": [
+      "221",
+      "418",
+      "9540"
+    ],
+    "coachIds": [
+      "10819",
+      "21284",
+      "7592"
+    ],
+    "competitionIds": [
+      "BRA1",
+      "ES1"
+    ],
+    "mostRecentTransfer": {
+      "id": "2134412",
+      "transferSource": {
+        "competitionId": "BRA1",
+        "countryId": 26,
+        "clubId": "221",
+        "coachId": "10819"
+      },
+      "transferDestination": {
+        "competitionId": "ES1",
+        "countryId": 157,
+        "clubId": "418",
+        "coachId": "21284"
+      },
+      "details": {
+        "playerId": "412363",
+        "date": "2019-07-01T00:00:00+02:00",
+        "contractUntilDate": "2028-06-30T00:00:00+02:00",
+        "seasonId": 2019,
+        "isPending": false,
+        "marketValue": {
+          "value": 40000000,
+          "currency": "EUR",
+          "compact": {
+            "prefix": "€",
+            "content": "40.00",
+            "suffix": "M"
+          }
+        },
+        "age": 18,
+        "fee": {
+          "value": 45000000,
+          "currency": "EUR",
+          "compact": {
+            "prefix": "€",
+            "content": "45.00",
+            "suffix": "M"
+          }
+        },
+        "remainingContractPeriod": {
+          "days": 1279,
+          "daysDisplay": "3 Years, 5 Months, 30 Days"
+        },
+        "season": {
+          "id": 2019,
+          "display": "19/20",
+          "cyclicalName": "2020",
+          "nonCyclicalName": "19/20"
+        }
+      },
+      "typeDetails": {
+        "type": "STANDARD",
+        "name": "",
+        "feeDescription": ""
+      },
+      "relativeUrl": "/rodrygo/transfers/spieler/412363/transfer_id/2134412"
+    }
+  }
+}

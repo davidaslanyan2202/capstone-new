@@ -1,0 +1,810 @@
+{
+  "success": true,
+  "message": "OK",
+  "data": {
+    "playerId": "148252",
+    "history": {
+      "terminated": [
+        {
+          "id": "4880041",
+          "transferSource": {
+            "competitionId": "GB1",
+            "countryId": 189,
+            "clubId": "703",
+            "coachId": "16520"
+          },
+          "transferDestination": {
+            "competitionId": "IT1",
+            "countryId": 75,
+            "clubId": "1025",
+            "coachId": "47288"
+          },
+          "details": {
+            "playerId": "148252",
+            "date": "2024-07-01T00:00:00+02:00",
+            "contractUntilDate": "2026-06-30T00:00:00+02:00",
+            "seasonId": 2024,
+            "isPending": false,
+            "marketValue": {
+              "value": 6500000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "6.50",
+                "suffix": "M"
+              }
+            },
+            "age": 32,
+            "fee": {
+              "value": 1900000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "1.90",
+                "suffix": "M"
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 364,
+              "daysDisplay": "11 Months, 29 Days"
+            },
+            "season": {
+              "id": 2024,
+              "display": "24/25",
+              "cyclicalName": "2025",
+              "nonCyclicalName": "24/25"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/remo-freuler/transfers/spieler/148252/transfer_id/4880041"
+        },
+        {
+          "id": "4623176",
+          "transferSource": {
+            "competitionId": "IT1",
+            "countryId": 75,
+            "clubId": "1025",
+            "coachId": "47288"
+          },
+          "transferDestination": {
+            "competitionId": "GB1",
+            "countryId": 189,
+            "clubId": "703",
+            "coachId": "16520"
+          },
+          "details": {
+            "playerId": "148252",
+            "date": "2024-06-30T00:00:00+02:00",
+            "contractUntilDate": "2025-06-30T00:00:00+02:00",
+            "seasonId": 2023,
+            "isPending": false,
+            "marketValue": {
+              "value": 6500000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "6.50",
+                "suffix": "M"
+              }
+            },
+            "age": 32,
+            "remainingContractPeriod": {
+              "days": 730,
+              "daysDisplay": "2 Years"
+            },
+            "season": {
+              "id": 2023,
+              "display": "23/24",
+              "cyclicalName": "2024",
+              "nonCyclicalName": "23/24"
+            }
+          },
+          "typeDetails": {
+            "type": "RETURNED_FROM_PREVIOUS_LOAN",
+            "name": "End of loan",
+            "feeDescription": "End of loan"
+          },
+          "relativeUrl": "/remo-freuler/transfers/spieler/148252/transfer_id/4623176"
+        },
+        {
+          "id": "4623175",
+          "transferSource": {
+            "competitionId": "GB1",
+            "countryId": 189,
+            "clubId": "703",
+            "coachId": "37574"
+          },
+          "transferDestination": {
+            "competitionId": "IT1",
+            "countryId": 75,
+            "clubId": "1025",
+            "coachId": "61868"
+          },
+          "details": {
+            "playerId": "148252",
+            "date": "2023-09-01T00:00:00+02:00",
+            "contractUntilDate": "2026-06-30T00:00:00+02:00",
+            "seasonId": 2023,
+            "isPending": false,
+            "marketValue": {
+              "value": 8000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "8.00",
+                "suffix": "M"
+              }
+            },
+            "age": 31,
+            "remainingContractPeriod": {
+              "days": 668,
+              "daysDisplay": "1 Year, 9 Months, 29 Days"
+            },
+            "season": {
+              "id": 2023,
+              "display": "23/24",
+              "cyclicalName": "2024",
+              "nonCyclicalName": "23/24"
+            }
+          },
+          "typeDetails": {
+            "type": "ACTIVE_LOAN_TRANSFER",
+            "name": "loan transfer",
+            "feeDescription": "loan transfer"
+          },
+          "relativeUrl": "/remo-freuler/transfers/spieler/148252/transfer_id/4623175"
+        },
+        {
+          "id": "4014002",
+          "transferSource": {
+            "competitionId": "IT1",
+            "countryId": 75,
+            "clubId": "800",
+            "coachId": "3436"
+          },
+          "transferDestination": {
+            "competitionId": "GB1",
+            "countryId": 189,
+            "clubId": "703",
+            "coachId": "37574"
+          },
+          "details": {
+            "playerId": "148252",
+            "date": "2022-08-14T00:00:00+02:00",
+            "contractUntilDate": "2025-06-30T00:00:00+02:00",
+            "seasonId": 2022,
+            "isPending": false,
+            "marketValue": {
+              "value": 20000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "20.00",
+                "suffix": "M"
+              }
+            },
+            "age": 30,
+            "fee": {
+              "value": 8300000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "8.30",
+                "suffix": "M"
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 1051,
+              "daysDisplay": "2 Years, 10 Months, 16 Days"
+            },
+            "season": {
+              "id": 2022,
+              "display": "22/23",
+              "cyclicalName": "2023",
+              "nonCyclicalName": "22/23"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/remo-freuler/transfers/spieler/148252/transfer_id/4014002"
+        },
+        {
+          "id": "1411932",
+          "transferSource": {
+            "competitionId": "C1",
+            "countryId": 148,
+            "clubId": "434",
+            "coachId": "4487"
+          },
+          "transferDestination": {
+            "competitionId": "IT1",
+            "countryId": 75,
+            "clubId": "800",
+            "coachId": "3158"
+          },
+          "details": {
+            "playerId": "148252",
+            "date": "2016-01-19T00:00:00+01:00",
+            "contractUntilDate": "2025-06-30T00:00:00+02:00",
+            "seasonId": 2015,
+            "isPending": false,
+            "marketValue": {
+              "value": 2000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "2.00",
+                "suffix": "M"
+              }
+            },
+            "age": 23,
+            "fee": {
+              "value": 3450000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "3.45",
+                "suffix": "M"
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 528,
+              "daysDisplay": "1 Year, 5 Months, 11 Days"
+            },
+            "season": {
+              "id": 2015,
+              "display": "15/16",
+              "cyclicalName": "2016",
+              "nonCyclicalName": "15/16"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/remo-freuler/transfers/spieler/148252/transfer_id/1411932"
+        },
+        {
+          "id": "1022067",
+          "transferSource": {
+            "competitionId": "C2",
+            "countryId": 148,
+            "clubId": "242",
+            "coachId": "10644"
+          },
+          "transferDestination": {
+            "competitionId": "C1",
+            "countryId": 148,
+            "clubId": "434",
+            "coachId": "1612"
+          },
+          "details": {
+            "playerId": "148252",
+            "date": "2014-02-18T00:00:00+01:00",
+            "contractUntilDate": "2017-06-30T00:00:00+02:00",
+            "seasonId": 2013,
+            "isPending": false,
+            "marketValue": {
+              "value": 450000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "450.00",
+                "suffix": "K"
+              }
+            },
+            "age": 21,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "?",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2013,
+              "display": "13/14",
+              "cyclicalName": "2014",
+              "nonCyclicalName": "13/14"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/remo-freuler/transfers/spieler/148252/transfer_id/1022067"
+        },
+        {
+          "id": "891247",
+          "transferSource": {
+            "competitionId": "C1",
+            "countryId": 148,
+            "clubId": "504",
+            "coachId": "681"
+          },
+          "transferDestination": {
+            "competitionId": "C2",
+            "countryId": 148,
+            "clubId": "242",
+            "coachId": "10644"
+          },
+          "details": {
+            "playerId": "148252",
+            "date": "2013-07-01T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2013,
+            "isPending": false,
+            "marketValue": {
+              "value": 250000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "250.00",
+                "suffix": "K"
+              }
+            },
+            "age": 21,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "?",
+                "suffix": ""
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 364,
+              "daysDisplay": "11 Months, 29 Days"
+            },
+            "season": {
+              "id": 2013,
+              "display": "13/14",
+              "cyclicalName": "2014",
+              "nonCyclicalName": "13/14"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/remo-freuler/transfers/spieler/148252/transfer_id/891247"
+        },
+        {
+          "id": "688555",
+          "transferSource": {
+            "competitionId": "C2",
+            "countryId": 148,
+            "clubId": "242",
+            "coachId": "10644"
+          },
+          "transferDestination": {
+            "competitionId": "C1",
+            "countryId": 148,
+            "clubId": "504",
+            "coachId": "5374"
+          },
+          "details": {
+            "playerId": "148252",
+            "date": "2013-06-30T00:00:00+02:00",
+            "contractUntilDate": "2014-06-30T00:00:00+02:00",
+            "seasonId": 2012,
+            "isPending": false,
+            "marketValue": {
+              "value": 250000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "250.00",
+                "suffix": "K"
+              }
+            },
+            "age": 21,
+            "season": {
+              "id": 2012,
+              "display": "12/13",
+              "cyclicalName": "2013",
+              "nonCyclicalName": "12/13"
+            }
+          },
+          "typeDetails": {
+            "type": "RETURNED_FROM_PREVIOUS_LOAN",
+            "name": "End of loan",
+            "feeDescription": "End of loan"
+          },
+          "relativeUrl": "/remo-freuler/transfers/spieler/148252/transfer_id/688555"
+        },
+        {
+          "id": "688554",
+          "transferSource": {
+            "competitionId": "C1",
+            "countryId": 148,
+            "clubId": "504",
+            "coachId": "3630"
+          },
+          "transferDestination": {
+            "competitionId": "C2",
+            "countryId": 148,
+            "clubId": "242",
+            "coachId": "10644"
+          },
+          "details": {
+            "playerId": "148252",
+            "date": "2012-02-01T00:00:00+01:00",
+            "contractUntilDate": null,
+            "seasonId": 2011,
+            "isPending": false,
+            "marketValue": {
+              "value": 50000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "50.00",
+                "suffix": "K"
+              }
+            },
+            "age": 19,
+            "remainingContractPeriod": {
+              "days": 880,
+              "daysDisplay": "2 Years, 4 Months, 29 Days"
+            },
+            "season": {
+              "id": 2011,
+              "display": "11/12",
+              "cyclicalName": "2012",
+              "nonCyclicalName": "11/12"
+            }
+          },
+          "typeDetails": {
+            "type": "ACTIVE_LOAN_TRANSFER",
+            "name": "loan transfer",
+            "feeDescription": "loan transfer"
+          },
+          "relativeUrl": "/remo-freuler/transfers/spieler/148252/transfer_id/688554"
+        },
+        {
+          "id": "641979",
+          "transferSource": {
+            "competitionId": "CR2",
+            "countryId": 148,
+            "clubId": "5502",
+            "coachId": "9660"
+          },
+          "transferDestination": {
+            "competitionId": "C1",
+            "countryId": 148,
+            "clubId": "504",
+            "coachId": "3630"
+          },
+          "details": {
+            "playerId": "148252",
+            "date": "2011-07-01T00:00:00+02:00",
+            "contractUntilDate": "2014-06-30T00:00:00+02:00",
+            "seasonId": 2011,
+            "isPending": false,
+            "marketValue": {
+              "value": 50000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "50.00",
+                "suffix": "K"
+              }
+            },
+            "age": 19,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2011,
+              "display": "11/12",
+              "cyclicalName": "2012",
+              "nonCyclicalName": "11/12"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/remo-freuler/transfers/spieler/148252/transfer_id/641979"
+        },
+        {
+          "id": "443490",
+          "transferSource": {
+            "competitionId": "CR3",
+            "countryId": 148,
+            "clubId": "14156",
+            "coachId": "5901"
+          },
+          "transferDestination": {
+            "competitionId": "CR2",
+            "countryId": 148,
+            "clubId": "5502",
+            "coachId": "1324"
+          },
+          "details": {
+            "playerId": "148252",
+            "date": "2010-07-01T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2010,
+            "isPending": false,
+            "marketValue": {
+              "value": 50000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "50.00",
+                "suffix": "K"
+              }
+            },
+            "age": 18,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "?",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2010,
+              "display": "10/11",
+              "cyclicalName": "2011",
+              "nonCyclicalName": "10/11"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/remo-freuler/transfers/spieler/148252/transfer_id/443490"
+        },
+        {
+          "id": "488677",
+          "transferSource": {
+            "competitionId": "CH18",
+            "countryId": 148,
+            "clubId": "14536",
+            "coachId": "18749"
+          },
+          "transferDestination": {
+            "competitionId": "CR2",
+            "countryId": 148,
+            "clubId": "14156",
+            "coachId": "5901"
+          },
+          "details": {
+            "playerId": "148252",
+            "date": "2009-07-01T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2009,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 17,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2009,
+              "display": "09/10",
+              "cyclicalName": "2010",
+              "nonCyclicalName": "09/10"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/remo-freuler/transfers/spieler/148252/transfer_id/488677"
+        },
+        {
+          "id": "488678",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 148,
+            "clubId": "20939",
+            "coachId": "65702"
+          },
+          "transferDestination": {
+            "competitionId": "CH18",
+            "countryId": 148,
+            "clubId": "14536",
+            "coachId": "18749"
+          },
+          "details": {
+            "playerId": "148252",
+            "date": "2007-07-01T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2007,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 15,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2007,
+              "display": "07/08",
+              "cyclicalName": "2008",
+              "nonCyclicalName": "07/08"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/remo-freuler/transfers/spieler/148252/transfer_id/488678"
+        }
+      ],
+      "pending": [],
+      "url": "",
+      "feeSum": {
+        "value": 13650000,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "13.65",
+          "suffix": "M"
+        }
+      },
+      "averageAge": 34,
+      "totalMarketValue": {
+        "value": 4000000,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "4.00",
+          "suffix": "M"
+        }
+      }
+    },
+    "clubIds": [
+      "703",
+      "1025",
+      "800",
+      "434",
+      "242",
+      "504",
+      "5502",
+      "14156",
+      "14536",
+      "20939"
+    ],
+    "coachIds": [
+      "16520",
+      "47288",
+      "37574",
+      "61868",
+      "3436",
+      "4487",
+      "3158",
+      "10644",
+      "1612",
+      "681",
+      "5374",
+      "3630",
+      "9660",
+      "5901",
+      "1324",
+      "18749",
+      "65702"
+    ],
+    "competitionIds": [
+      "GB1",
+      "IT1",
+      "C1",
+      "C2",
+      "CR2",
+      "CR3",
+      "CH18"
+    ],
+    "mostRecentTransfer": {
+      "id": "4880041",
+      "transferSource": {
+        "competitionId": "GB1",
+        "countryId": 189,
+        "clubId": "703",
+        "coachId": "16520"
+      },
+      "transferDestination": {
+        "competitionId": "IT1",
+        "countryId": 75,
+        "clubId": "1025",
+        "coachId": "47288"
+      },
+      "details": {
+        "playerId": "148252",
+        "date": "2024-07-01T00:00:00+02:00",
+        "contractUntilDate": "2026-06-30T00:00:00+02:00",
+        "seasonId": 2024,
+        "isPending": false,
+        "marketValue": {
+          "value": 6500000,
+          "currency": "EUR",
+          "compact": {
+            "prefix": "€",
+            "content": "6.50",
+            "suffix": "M"
+          }
+        },
+        "age": 32,
+        "fee": {
+          "value": 1900000,
+          "currency": "EUR",
+          "compact": {
+            "prefix": "€",
+            "content": "1.90",
+            "suffix": "M"
+          }
+        },
+        "remainingContractPeriod": {
+          "days": 364,
+          "daysDisplay": "11 Months, 29 Days"
+        },
+        "season": {
+          "id": 2024,
+          "display": "24/25",
+          "cyclicalName": "2025",
+          "nonCyclicalName": "24/25"
+        }
+      },
+      "typeDetails": {
+        "type": "STANDARD",
+        "name": "",
+        "feeDescription": ""
+      },
+      "relativeUrl": "/remo-freuler/transfers/spieler/148252/transfer_id/4880041"
+    }
+  }
+}

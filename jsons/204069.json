@@ -1,0 +1,627 @@
+{
+  "success": true,
+  "message": "OK",
+  "data": {
+    "playerId": "204069",
+    "history": {
+      "terminated": [
+        {
+          "id": "5823469",
+          "transferSource": {
+            "competitionId": "FR1",
+            "countryId": 50,
+            "clubId": "583",
+            "coachId": "6499"
+          },
+          "transferDestination": {
+            "competitionId": "TR1",
+            "countryId": 174,
+            "clubId": "36",
+            "coachId": "781"
+          },
+          "details": {
+            "playerId": "204069",
+            "date": "2025-07-30T00:00:00+02:00",
+            "contractUntilDate": "2029-06-30T00:00:00+02:00",
+            "seasonId": 2025,
+            "isPending": false,
+            "marketValue": {
+              "value": 15000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "15.00",
+                "suffix": "M"
+              }
+            },
+            "age": 30,
+            "fee": {
+              "value": 6000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "6.00",
+                "suffix": "M"
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 1066,
+              "daysDisplay": "2 Years, 11 Months"
+            },
+            "season": {
+              "id": 2025,
+              "display": "25/26",
+              "cyclicalName": "2026",
+              "nonCyclicalName": "25/26"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/milan-skriniar/transfers/spieler/204069/transfer_id/5823469"
+        },
+        {
+          "id": "5490611",
+          "transferSource": {
+            "competitionId": "TR1",
+            "countryId": 174,
+            "clubId": "36",
+            "coachId": "781"
+          },
+          "transferDestination": {
+            "competitionId": "FR1",
+            "countryId": 50,
+            "clubId": "583",
+            "coachId": "6499"
+          },
+          "details": {
+            "playerId": "204069",
+            "date": "2025-06-30T00:00:00+02:00",
+            "contractUntilDate": "2028-06-30T00:00:00+02:00",
+            "seasonId": 2024,
+            "isPending": false,
+            "marketValue": {
+              "value": 15000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "15.00",
+                "suffix": "M"
+              }
+            },
+            "age": 30,
+            "remainingContractPeriod": {
+              "days": 0,
+              "daysDisplay": "Unknown"
+            },
+            "season": {
+              "id": 2024,
+              "display": "24/25",
+              "cyclicalName": "2025",
+              "nonCyclicalName": "24/25"
+            }
+          },
+          "typeDetails": {
+            "type": "RETURNED_FROM_PREVIOUS_LOAN",
+            "name": "End of loan",
+            "feeDescription": "End of loan"
+          },
+          "relativeUrl": "/milan-skriniar/transfers/spieler/204069/transfer_id/5490611"
+        },
+        {
+          "id": "5490612",
+          "transferSource": {
+            "competitionId": "FR1",
+            "countryId": 50,
+            "clubId": "583",
+            "coachId": "6499"
+          },
+          "transferDestination": {
+            "competitionId": "TR1",
+            "countryId": 174,
+            "clubId": "36",
+            "coachId": "781"
+          },
+          "details": {
+            "playerId": "204069",
+            "date": "2025-01-30T00:00:00+01:00",
+            "contractUntilDate": "2025-06-30T00:00:00+02:00",
+            "seasonId": 2024,
+            "isPending": false,
+            "marketValue": {
+              "value": 15000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "15.00",
+                "suffix": "M"
+              }
+            },
+            "age": 29,
+            "remainingContractPeriod": {
+              "days": 1247,
+              "daysDisplay": "3 Years, 5 Months"
+            },
+            "season": {
+              "id": 2024,
+              "display": "24/25",
+              "cyclicalName": "2025",
+              "nonCyclicalName": "24/25"
+            }
+          },
+          "typeDetails": {
+            "type": "ACTIVE_LOAN_TRANSFER",
+            "name": "loan transfer",
+            "feeDescription": "loan transfer"
+          },
+          "relativeUrl": "/milan-skriniar/transfers/spieler/204069/transfer_id/5490612"
+        },
+        {
+          "id": "4482459",
+          "transferSource": {
+            "competitionId": "IT1",
+            "countryId": 75,
+            "clubId": "46",
+            "coachId": "21624"
+          },
+          "transferDestination": {
+            "competitionId": "FR1",
+            "countryId": 50,
+            "clubId": "583",
+            "coachId": "6499"
+          },
+          "details": {
+            "playerId": "204069",
+            "date": "2023-07-06T00:00:00+02:00",
+            "contractUntilDate": "2028-06-30T00:00:00+02:00",
+            "seasonId": 2023,
+            "isPending": false,
+            "marketValue": {
+              "value": 50000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "50.00",
+                "suffix": "M"
+              }
+            },
+            "age": 28,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "Free Transfer",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2023,
+              "display": "23/24",
+              "cyclicalName": "2024",
+              "nonCyclicalName": "23/24"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/milan-skriniar/transfers/spieler/204069/transfer_id/4482459"
+        },
+        {
+          "id": "1825105",
+          "transferSource": {
+            "competitionId": "IT1",
+            "countryId": 75,
+            "clubId": "1038",
+            "coachId": "3257"
+          },
+          "transferDestination": {
+            "competitionId": "IT1",
+            "countryId": 75,
+            "clubId": "46",
+            "coachId": "517"
+          },
+          "details": {
+            "playerId": "204069",
+            "date": "2017-07-07T00:00:00+02:00",
+            "contractUntilDate": "2023-06-30T00:00:00+02:00",
+            "seasonId": 2017,
+            "isPending": false,
+            "marketValue": {
+              "value": 7000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "7.00",
+                "suffix": "M"
+              }
+            },
+            "age": 22,
+            "fee": {
+              "value": 34000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "34.00",
+                "suffix": "M"
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 1089,
+              "daysDisplay": "2 Years, 11 Months, 23 Days"
+            },
+            "season": {
+              "id": 2017,
+              "display": "17/18",
+              "cyclicalName": "2018",
+              "nonCyclicalName": "17/18"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/milan-skriniar/transfers/spieler/204069/transfer_id/1825105"
+        },
+        {
+          "id": "1421465",
+          "transferSource": {
+            "competitionId": "SLO1",
+            "countryId": 154,
+            "clubId": "1443",
+            "coachId": "20066"
+          },
+          "transferDestination": {
+            "competitionId": "IT1",
+            "countryId": 75,
+            "clubId": "1038",
+            "coachId": "11795"
+          },
+          "details": {
+            "playerId": "204069",
+            "date": "2016-01-29T00:00:00+01:00",
+            "contractUntilDate": "2020-06-30T00:00:00+02:00",
+            "seasonId": 2015,
+            "isPending": false,
+            "marketValue": {
+              "value": 600000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "600.00",
+                "suffix": "K"
+              }
+            },
+            "age": 20,
+            "fee": {
+              "value": 5200000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "5.20",
+                "suffix": "M"
+              }
+            },
+            "season": {
+              "id": 2015,
+              "display": "15/16",
+              "cyclicalName": "2016",
+              "nonCyclicalName": "15/16"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/milan-skriniar/transfers/spieler/204069/transfer_id/1421465"
+        },
+        {
+          "id": "866904",
+          "transferSource": {
+            "competitionId": "SLO1",
+            "countryId": 154,
+            "clubId": "12005",
+            "coachId": "14867"
+          },
+          "transferDestination": {
+            "competitionId": "SLO1",
+            "countryId": 154,
+            "clubId": "1443",
+            "coachId": "16220"
+          },
+          "details": {
+            "playerId": "204069",
+            "date": "2013-06-30T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2012,
+            "isPending": false,
+            "marketValue": {
+              "value": 100000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "100.00",
+                "suffix": "K"
+              }
+            },
+            "age": 18,
+            "season": {
+              "id": 2012,
+              "display": "12/13",
+              "cyclicalName": "2013",
+              "nonCyclicalName": "12/13"
+            }
+          },
+          "typeDetails": {
+            "type": "RETURNED_FROM_PREVIOUS_LOAN",
+            "name": "End of loan",
+            "feeDescription": "End of loan"
+          },
+          "relativeUrl": "/milan-skriniar/transfers/spieler/204069/transfer_id/866904"
+        },
+        {
+          "id": "848293",
+          "transferSource": {
+            "competitionId": "SLO1",
+            "countryId": 154,
+            "clubId": "1443",
+            "coachId": "16220"
+          },
+          "transferDestination": {
+            "competitionId": "SLO1",
+            "countryId": 154,
+            "clubId": "12005",
+            "coachId": "14867"
+          },
+          "details": {
+            "playerId": "204069",
+            "date": "2013-02-27T00:00:00+01:00",
+            "contractUntilDate": null,
+            "seasonId": 2012,
+            "isPending": false,
+            "marketValue": {
+              "value": 100000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "100.00",
+                "suffix": "K"
+              }
+            },
+            "age": 18,
+            "season": {
+              "id": 2012,
+              "display": "12/13",
+              "cyclicalName": "2013",
+              "nonCyclicalName": "12/13"
+            }
+          },
+          "typeDetails": {
+            "type": "ACTIVE_LOAN_TRANSFER",
+            "name": "loan transfer",
+            "feeDescription": "loan transfer"
+          },
+          "relativeUrl": "/milan-skriniar/transfers/spieler/204069/transfer_id/848293"
+        },
+        {
+          "id": "694449",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 154,
+            "clubId": "18751",
+            "coachId": "0"
+          },
+          "transferDestination": {
+            "competitionId": "SLO1",
+            "countryId": 154,
+            "clubId": "1443",
+            "coachId": "9477"
+          },
+          "details": {
+            "playerId": "204069",
+            "date": "2012-01-01T00:00:00+01:00",
+            "contractUntilDate": null,
+            "seasonId": 2011,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 16,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2011,
+              "display": "11/12",
+              "cyclicalName": "2012",
+              "nonCyclicalName": "11/12"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/milan-skriniar/transfers/spieler/204069/transfer_id/694449"
+        },
+        {
+          "id": "4248027",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 154,
+            "clubId": "45733",
+            "coachId": "0"
+          },
+          "transferDestination": {
+            "competitionId": "",
+            "countryId": 154,
+            "clubId": "18751",
+            "coachId": "0"
+          },
+          "details": {
+            "playerId": "204069",
+            "date": "2010-07-01T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2010,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 15,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2010,
+              "display": "10/11",
+              "cyclicalName": "2011",
+              "nonCyclicalName": "10/11"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/milan-skriniar/transfers/spieler/204069/transfer_id/4248027"
+        }
+      ],
+      "pending": [],
+      "url": "",
+      "feeSum": {
+        "value": 45200000,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "45.20",
+          "suffix": "M"
+        }
+      },
+      "averageAge": 31,
+      "totalMarketValue": {
+        "value": 11000000,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "11.00",
+          "suffix": "M"
+        }
+      }
+    },
+    "clubIds": [
+      "583",
+      "36",
+      "46",
+      "1038",
+      "1443",
+      "12005",
+      "18751",
+      "45733"
+    ],
+    "coachIds": [
+      "6499",
+      "781",
+      "21624",
+      "3257",
+      "517",
+      "20066",
+      "11795",
+      "14867",
+      "16220",
+      "9477"
+    ],
+    "competitionIds": [
+      "FR1",
+      "TR1",
+      "IT1",
+      "SLO1"
+    ],
+    "mostRecentTransfer": {
+      "id": "5823469",
+      "transferSource": {
+        "competitionId": "FR1",
+        "countryId": 50,
+        "clubId": "583",
+        "coachId": "6499"
+      },
+      "transferDestination": {
+        "competitionId": "TR1",
+        "countryId": 174,
+        "clubId": "36",
+        "coachId": "781"
+      },
+      "details": {
+        "playerId": "204069",
+        "date": "2025-07-30T00:00:00+02:00",
+        "contractUntilDate": "2029-06-30T00:00:00+02:00",
+        "seasonId": 2025,
+        "isPending": false,
+        "marketValue": {
+          "value": 15000000,
+          "currency": "EUR",
+          "compact": {
+            "prefix": "€",
+            "content": "15.00",
+            "suffix": "M"
+          }
+        },
+        "age": 30,
+        "fee": {
+          "value": 6000000,
+          "currency": "EUR",
+          "compact": {
+            "prefix": "€",
+            "content": "6.00",
+            "suffix": "M"
+          }
+        },
+        "remainingContractPeriod": {
+          "days": 1066,
+          "daysDisplay": "2 Years, 11 Months"
+        },
+        "season": {
+          "id": 2025,
+          "display": "25/26",
+          "cyclicalName": "2026",
+          "nonCyclicalName": "25/26"
+        }
+      },
+      "typeDetails": {
+        "type": "STANDARD",
+        "name": "",
+        "feeDescription": ""
+      },
+      "relativeUrl": "/milan-skriniar/transfers/spieler/204069/transfer_id/5823469"
+    }
+  }
+}

@@ -1,0 +1,531 @@
+{
+  "success": true,
+  "message": "OK",
+  "data": {
+    "playerId": "823486",
+    "history": {
+      "terminated": [
+        {
+          "id": "5676452",
+          "transferSource": {
+            "competitionId": "IT1",
+            "countryId": 75,
+            "clubId": "430",
+            "coachId": "95674"
+          },
+          "transferDestination": {
+            "competitionId": "GB1",
+            "countryId": 189,
+            "clubId": "1148",
+            "coachId": "68347"
+          },
+          "details": {
+            "playerId": "823486",
+            "date": "2025-07-01T00:00:00+02:00",
+            "contractUntilDate": "2030-06-30T00:00:00+02:00",
+            "seasonId": 2025,
+            "isPending": false,
+            "marketValue": {
+              "value": 18000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "18.00",
+                "suffix": "M"
+              }
+            },
+            "age": 20,
+            "fee": {
+              "value": 17500000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "17.50",
+                "suffix": "M"
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 1095,
+              "daysDisplay": "2 Years, 11 Months, 29 Days"
+            },
+            "season": {
+              "id": 2025,
+              "display": "25/26",
+              "cyclicalName": "2026",
+              "nonCyclicalName": "25/26"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/michael-kayode/transfers/spieler/823486/transfer_id/5676452"
+        },
+        {
+          "id": "5477997",
+          "transferSource": {
+            "competitionId": "GB1",
+            "countryId": 189,
+            "clubId": "1148",
+            "coachId": "9002"
+          },
+          "transferDestination": {
+            "competitionId": "IT1",
+            "countryId": 75,
+            "clubId": "430",
+            "coachId": "95674"
+          },
+          "details": {
+            "playerId": "823486",
+            "date": "2025-06-30T00:00:00+02:00",
+            "contractUntilDate": "2028-06-30T00:00:00+02:00",
+            "seasonId": 2024,
+            "isPending": false,
+            "marketValue": {
+              "value": 18000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "18.00",
+                "suffix": "M"
+              }
+            },
+            "age": 20,
+            "remainingContractPeriod": {
+              "days": 0,
+              "daysDisplay": "Unknown"
+            },
+            "season": {
+              "id": 2024,
+              "display": "24/25",
+              "cyclicalName": "2025",
+              "nonCyclicalName": "24/25"
+            }
+          },
+          "typeDetails": {
+            "type": "RETURNED_FROM_PREVIOUS_LOAN",
+            "name": "End of loan",
+            "feeDescription": "End of loan"
+          },
+          "relativeUrl": "/michael-kayode/transfers/spieler/823486/transfer_id/5477997"
+        },
+        {
+          "id": "5477996",
+          "transferSource": {
+            "competitionId": "IT1",
+            "countryId": 75,
+            "clubId": "430",
+            "coachId": "95674"
+          },
+          "transferDestination": {
+            "competitionId": "GB1",
+            "countryId": 189,
+            "clubId": "1148",
+            "coachId": "9002"
+          },
+          "details": {
+            "playerId": "823486",
+            "date": "2025-01-24T00:00:00+01:00",
+            "contractUntilDate": "2025-06-30T00:00:00+02:00",
+            "seasonId": 2024,
+            "isPending": false,
+            "marketValue": {
+              "value": 18000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "18.00",
+                "suffix": "M"
+              }
+            },
+            "age": 20,
+            "fee": {
+              "value": 500000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "500.00",
+                "suffix": "K"
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 1253,
+              "daysDisplay": "3 Years, 5 Months, 6 Days"
+            },
+            "season": {
+              "id": 2024,
+              "display": "24/25",
+              "cyclicalName": "2025",
+              "nonCyclicalName": "24/25"
+            }
+          },
+          "typeDetails": {
+            "type": "ACTIVE_LOAN_TRANSFER",
+            "name": "loan transfer",
+            "feeDescription": "Loan fee"
+          },
+          "relativeUrl": "/michael-kayode/transfers/spieler/823486/transfer_id/5477996"
+        },
+        {
+          "id": "4596607",
+          "transferSource": {
+            "competitionId": "IJ1",
+            "countryId": 75,
+            "clubId": "8505",
+            "coachId": "0"
+          },
+          "transferDestination": {
+            "competitionId": "IT1",
+            "countryId": 75,
+            "clubId": "430",
+            "coachId": "47288"
+          },
+          "details": {
+            "playerId": "823486",
+            "date": "2023-07-01T00:00:00+02:00",
+            "contractUntilDate": "2028-06-30T00:00:00+02:00",
+            "seasonId": 2023,
+            "isPending": false,
+            "marketValue": {
+              "value": 800000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "800.00",
+                "suffix": "K"
+              }
+            },
+            "age": 18,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 730,
+              "daysDisplay": "1 Year, 11 Months, 29 Days"
+            },
+            "season": {
+              "id": 2023,
+              "display": "23/24",
+              "cyclicalName": "2024",
+              "nonCyclicalName": "23/24"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/michael-kayode/transfers/spieler/823486/transfer_id/4596607"
+        },
+        {
+          "id": "3456841",
+          "transferSource": {
+            "competitionId": "IT4A",
+            "countryId": 75,
+            "clubId": "13484",
+            "coachId": "0"
+          },
+          "transferDestination": {
+            "competitionId": "IJ1",
+            "countryId": 75,
+            "clubId": "8505",
+            "coachId": "72911"
+          },
+          "details": {
+            "playerId": "823486",
+            "date": "2021-07-23T00:00:00+02:00",
+            "contractUntilDate": "2025-06-30T00:00:00+02:00",
+            "seasonId": 2021,
+            "isPending": false,
+            "marketValue": {
+              "value": 125000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "125.00",
+                "suffix": "K"
+              }
+            },
+            "age": 17,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "?",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2021,
+              "display": "21/22",
+              "cyclicalName": "2022",
+              "nonCyclicalName": "21/22"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/michael-kayode/transfers/spieler/823486/transfer_id/3456841"
+        },
+        {
+          "id": "3505078",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 75,
+            "clubId": "5232",
+            "coachId": "48672"
+          },
+          "transferDestination": {
+            "competitionId": "IT4A",
+            "countryId": 75,
+            "clubId": "13484",
+            "coachId": "5418"
+          },
+          "details": {
+            "playerId": "823486",
+            "date": "2020-07-01T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2020,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 15,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "?",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2020,
+              "display": "20/21",
+              "cyclicalName": "2021",
+              "nonCyclicalName": "20/21"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/michael-kayode/transfers/spieler/823486/transfer_id/3505078"
+        },
+        {
+          "id": "3505080",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 75,
+            "clubId": "53785",
+            "coachId": "97288"
+          },
+          "transferDestination": {
+            "competitionId": "",
+            "countryId": 75,
+            "clubId": "5232",
+            "coachId": "48672"
+          },
+          "details": {
+            "playerId": "823486",
+            "date": "2020-06-30T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2019,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 15,
+            "remainingContractPeriod": {
+              "days": 0,
+              "daysDisplay": "Unknown"
+            },
+            "season": {
+              "id": 2019,
+              "display": "19/20",
+              "cyclicalName": "2020",
+              "nonCyclicalName": "19/20"
+            }
+          },
+          "typeDetails": {
+            "type": "RETURNED_FROM_PREVIOUS_LOAN",
+            "name": "End of loan",
+            "feeDescription": "End of loan"
+          },
+          "relativeUrl": "/michael-kayode/transfers/spieler/823486/transfer_id/3505080"
+        },
+        {
+          "id": "3505079",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 75,
+            "clubId": "5232",
+            "coachId": "133024"
+          },
+          "transferDestination": {
+            "competitionId": "",
+            "countryId": 75,
+            "clubId": "53785",
+            "coachId": "97288"
+          },
+          "details": {
+            "playerId": "823486",
+            "date": "2018-07-01T00:00:00+02:00",
+            "contractUntilDate": "2020-06-30T00:00:00+02:00",
+            "seasonId": 2018,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 13,
+            "season": {
+              "id": 2018,
+              "display": "18/19",
+              "cyclicalName": "2019",
+              "nonCyclicalName": "18/19"
+            }
+          },
+          "typeDetails": {
+            "type": "ACTIVE_LOAN_TRANSFER",
+            "name": "loan transfer",
+            "feeDescription": "loan transfer"
+          },
+          "relativeUrl": "/michael-kayode/transfers/spieler/823486/transfer_id/3505079"
+        }
+      ],
+      "pending": [],
+      "url": "",
+      "feeSum": {
+        "value": 18000000,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "18.00",
+          "suffix": "M"
+        }
+      },
+      "averageAge": 21,
+      "totalMarketValue": {
+        "value": 35000000,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "35.00",
+          "suffix": "M"
+        }
+      }
+    },
+    "clubIds": [
+      "430",
+      "1148",
+      "8505",
+      "13484",
+      "5232",
+      "53785"
+    ],
+    "coachIds": [
+      "95674",
+      "68347",
+      "9002",
+      "47288",
+      "72911",
+      "48672",
+      "5418",
+      "97288",
+      "133024"
+    ],
+    "competitionIds": [
+      "IT1",
+      "GB1",
+      "IJ1",
+      "IT4A"
+    ],
+    "mostRecentTransfer": {
+      "id": "5676452",
+      "transferSource": {
+        "competitionId": "IT1",
+        "countryId": 75,
+        "clubId": "430",
+        "coachId": "95674"
+      },
+      "transferDestination": {
+        "competitionId": "GB1",
+        "countryId": 189,
+        "clubId": "1148",
+        "coachId": "68347"
+      },
+      "details": {
+        "playerId": "823486",
+        "date": "2025-07-01T00:00:00+02:00",
+        "contractUntilDate": "2030-06-30T00:00:00+02:00",
+        "seasonId": 2025,
+        "isPending": false,
+        "marketValue": {
+          "value": 18000000,
+          "currency": "EUR",
+          "compact": {
+            "prefix": "€",
+            "content": "18.00",
+            "suffix": "M"
+          }
+        },
+        "age": 20,
+        "fee": {
+          "value": 17500000,
+          "currency": "EUR",
+          "compact": {
+            "prefix": "€",
+            "content": "17.50",
+            "suffix": "M"
+          }
+        },
+        "remainingContractPeriod": {
+          "days": 1095,
+          "daysDisplay": "2 Years, 11 Months, 29 Days"
+        },
+        "season": {
+          "id": 2025,
+          "display": "25/26",
+          "cyclicalName": "2026",
+          "nonCyclicalName": "25/26"
+        }
+      },
+      "typeDetails": {
+        "type": "STANDARD",
+        "name": "",
+        "feeDescription": ""
+      },
+      "relativeUrl": "/michael-kayode/transfers/spieler/823486/transfer_id/5676452"
+    }
+  }
+}

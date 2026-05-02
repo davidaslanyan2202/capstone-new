@@ -1,0 +1,638 @@
+{
+  "success": true,
+  "message": "OK",
+  "data": {
+    "playerId": "232418",
+    "history": {
+      "terminated": [
+        {
+          "id": "5786050",
+          "transferSource": {
+            "competitionId": "IT1",
+            "countryId": 75,
+            "clubId": "276",
+            "coachId": "52249"
+          },
+          "transferDestination": {
+            "competitionId": "SA1",
+            "countryId": 146,
+            "clubId": "7732",
+            "coachId": "53571"
+          },
+          "details": {
+            "playerId": "232418",
+            "date": "2025-07-16T00:00:00+02:00",
+            "contractUntilDate": "2027-06-30T00:00:00+02:00",
+            "seasonId": 2025,
+            "isPending": false,
+            "marketValue": {
+              "value": 3500000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "3.50",
+                "suffix": "M"
+              }
+            },
+            "age": 30,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "Free Transfer",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2025,
+              "display": "25/26",
+              "cyclicalName": "2026",
+              "nonCyclicalName": "25/26"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/ondrej-duda/transfers/spieler/232418/transfer_id/5786050"
+        },
+        {
+          "id": "4433385",
+          "transferSource": {
+            "competitionId": "L1",
+            "countryId": 40,
+            "clubId": "3",
+            "coachId": "9622"
+          },
+          "transferDestination": {
+            "competitionId": "IT1",
+            "countryId": 75,
+            "clubId": "276",
+            "coachId": "12015"
+          },
+          "details": {
+            "playerId": "232418",
+            "date": "2023-07-01T00:00:00+02:00",
+            "contractUntilDate": "2025-06-30T00:00:00+02:00",
+            "seasonId": 2023,
+            "isPending": false,
+            "marketValue": {
+              "value": 3400000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "3.40",
+                "suffix": "M"
+              }
+            },
+            "age": 28,
+            "fee": {
+              "value": 3100000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "3.10",
+                "suffix": "M"
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 365,
+              "daysDisplay": "11 Months, 29 Days"
+            },
+            "season": {
+              "id": 2023,
+              "display": "23/24",
+              "cyclicalName": "2024",
+              "nonCyclicalName": "23/24"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/ondrej-duda/transfers/spieler/232418/transfer_id/4433385"
+        },
+        {
+          "id": "4248456",
+          "transferSource": {
+            "competitionId": "IT1",
+            "countryId": 75,
+            "clubId": "276",
+            "coachId": "42459"
+          },
+          "transferDestination": {
+            "competitionId": "L1",
+            "countryId": 40,
+            "clubId": "3",
+            "coachId": "9622"
+          },
+          "details": {
+            "playerId": "232418",
+            "date": "2023-06-30T00:00:00+02:00",
+            "contractUntilDate": "2024-06-30T00:00:00+02:00",
+            "seasonId": 2022,
+            "isPending": false,
+            "marketValue": {
+              "value": 3400000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "3.40",
+                "suffix": "M"
+              }
+            },
+            "age": 28,
+            "remainingContractPeriod": {
+              "days": 0,
+              "daysDisplay": "Unknown"
+            },
+            "season": {
+              "id": 2022,
+              "display": "22/23",
+              "cyclicalName": "2023",
+              "nonCyclicalName": "22/23"
+            }
+          },
+          "typeDetails": {
+            "type": "RETURNED_FROM_PREVIOUS_LOAN",
+            "name": "End of loan",
+            "feeDescription": "End of loan"
+          },
+          "relativeUrl": "/ondrej-duda/transfers/spieler/232418/transfer_id/4248456"
+        },
+        {
+          "id": "4248455",
+          "transferSource": {
+            "competitionId": "L1",
+            "countryId": 40,
+            "clubId": "3",
+            "coachId": "9622"
+          },
+          "transferDestination": {
+            "competitionId": "IT1",
+            "countryId": 75,
+            "clubId": "276",
+            "coachId": "42459"
+          },
+          "details": {
+            "playerId": "232418",
+            "date": "2023-01-29T00:00:00+01:00",
+            "contractUntilDate": "2023-06-30T00:00:00+02:00",
+            "seasonId": 2022,
+            "isPending": false,
+            "marketValue": {
+              "value": 4000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "4.00",
+                "suffix": "M"
+              }
+            },
+            "age": 28,
+            "remainingContractPeriod": {
+              "days": 518,
+              "daysDisplay": "1 Year, 5 Months, 1 Day"
+            },
+            "season": {
+              "id": 2022,
+              "display": "22/23",
+              "cyclicalName": "2023",
+              "nonCyclicalName": "22/23"
+            }
+          },
+          "typeDetails": {
+            "type": "ACTIVE_LOAN_TRANSFER",
+            "name": "loan transfer",
+            "feeDescription": "loan transfer"
+          },
+          "relativeUrl": "/ondrej-duda/transfers/spieler/232418/transfer_id/4248455"
+        },
+        {
+          "id": "3063239",
+          "transferSource": {
+            "competitionId": "L1",
+            "countryId": 40,
+            "clubId": "44",
+            "coachId": "588"
+          },
+          "transferDestination": {
+            "competitionId": "L1",
+            "countryId": 40,
+            "clubId": "3",
+            "coachId": "4849"
+          },
+          "details": {
+            "playerId": "232418",
+            "date": "2020-09-16T00:00:00+02:00",
+            "contractUntilDate": "2024-06-30T00:00:00+02:00",
+            "seasonId": 2020,
+            "isPending": false,
+            "marketValue": {
+              "value": 7000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "7.00",
+                "suffix": "M"
+              }
+            },
+            "age": 25,
+            "fee": {
+              "value": 7000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "7.00",
+                "suffix": "M"
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 1017,
+              "daysDisplay": "2 Years, 9 Months, 14 Days"
+            },
+            "season": {
+              "id": 2020,
+              "display": "20/21",
+              "cyclicalName": "2021",
+              "nonCyclicalName": "20/21"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/ondrej-duda/transfers/spieler/232418/transfer_id/3063239"
+        },
+        {
+          "id": "2755387",
+          "transferSource": {
+            "competitionId": "GB2",
+            "countryId": 189,
+            "clubId": "1123",
+            "coachId": "10939"
+          },
+          "transferDestination": {
+            "competitionId": "L1",
+            "countryId": 40,
+            "clubId": "44",
+            "coachId": "588"
+          },
+          "details": {
+            "playerId": "232418",
+            "date": "2020-07-11T00:00:00+02:00",
+            "contractUntilDate": "2023-06-30T00:00:00+02:00",
+            "seasonId": 2019,
+            "isPending": false,
+            "marketValue": {
+              "value": 10500000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "10.00",
+                "suffix": "M"
+              }
+            },
+            "age": 25,
+            "remainingContractPeriod": {
+              "days": 20,
+              "daysDisplay": "20 Days"
+            },
+            "season": {
+              "id": 2019,
+              "display": "19/20",
+              "cyclicalName": "2020",
+              "nonCyclicalName": "19/20"
+            }
+          },
+          "typeDetails": {
+            "type": "RETURNED_FROM_PREVIOUS_LOAN",
+            "name": "End of loan",
+            "feeDescription": "End of loan"
+          },
+          "relativeUrl": "/ondrej-duda/transfers/spieler/232418/transfer_id/2755387"
+        },
+        {
+          "id": "2755386",
+          "transferSource": {
+            "competitionId": "L1",
+            "countryId": 40,
+            "clubId": "44",
+            "coachId": "1427"
+          },
+          "transferDestination": {
+            "competitionId": "GB1",
+            "countryId": 189,
+            "clubId": "1123",
+            "coachId": "10939"
+          },
+          "details": {
+            "playerId": "232418",
+            "date": "2020-01-12T00:00:00+01:00",
+            "contractUntilDate": "2020-07-31T00:00:00+02:00",
+            "seasonId": 2019,
+            "isPending": false,
+            "marketValue": {
+              "value": 13000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "13.00",
+                "suffix": "M"
+              }
+            },
+            "age": 25,
+            "season": {
+              "id": 2019,
+              "display": "19/20",
+              "cyclicalName": "2020",
+              "nonCyclicalName": "19/20"
+            }
+          },
+          "typeDetails": {
+            "type": "ACTIVE_LOAN_TRANSFER",
+            "name": "loan transfer",
+            "feeDescription": "loan transfer"
+          },
+          "relativeUrl": "/ondrej-duda/transfers/spieler/232418/transfer_id/2755386"
+        },
+        {
+          "id": "1544640",
+          "transferSource": {
+            "competitionId": "PL1",
+            "countryId": 135,
+            "clubId": "255",
+            "coachId": "6408"
+          },
+          "transferDestination": {
+            "competitionId": "L1",
+            "countryId": 40,
+            "clubId": "44",
+            "coachId": "23118"
+          },
+          "details": {
+            "playerId": "232418",
+            "date": "2016-07-20T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2016,
+            "isPending": false,
+            "marketValue": {
+              "value": 3200000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "3.20",
+                "suffix": "M"
+              }
+            },
+            "age": 21,
+            "fee": {
+              "value": 4200000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "4.20",
+                "suffix": "M"
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 1075,
+              "daysDisplay": "2 Years, 11 Months, 10 Days"
+            },
+            "season": {
+              "id": 2016,
+              "display": "16/17",
+              "cyclicalName": "2017",
+              "nonCyclicalName": "16/17"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/ondrej-duda/transfers/spieler/232418/transfer_id/1544640"
+        },
+        {
+          "id": "1029027",
+          "transferSource": {
+            "competitionId": "SLO1",
+            "countryId": 154,
+            "clubId": "779",
+            "coachId": "8131"
+          },
+          "transferDestination": {
+            "competitionId": "PL1",
+            "countryId": 135,
+            "clubId": "255",
+            "coachId": "4431"
+          },
+          "details": {
+            "playerId": "232418",
+            "date": "2014-02-28T00:00:00+01:00",
+            "contractUntilDate": "2019-06-30T00:00:00+02:00",
+            "seasonId": 2013,
+            "isPending": false,
+            "marketValue": {
+              "value": 200000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "200.00",
+                "suffix": "K"
+              }
+            },
+            "age": 19,
+            "fee": {
+              "value": 300000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "300.00",
+                "suffix": "K"
+              }
+            },
+            "season": {
+              "id": 2013,
+              "display": "13/14",
+              "cyclicalName": "2014",
+              "nonCyclicalName": "13/14"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/ondrej-duda/transfers/spieler/232418/transfer_id/1029027"
+        },
+        {
+          "id": "748944",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 154,
+            "clubId": "18763",
+            "coachId": "0"
+          },
+          "transferDestination": {
+            "competitionId": "SLO1",
+            "countryId": 154,
+            "clubId": "779",
+            "coachId": "9865"
+          },
+          "details": {
+            "playerId": "232418",
+            "date": "2012-07-01T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2012,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 17,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2012,
+              "display": "12/13",
+              "cyclicalName": "2013",
+              "nonCyclicalName": "12/13"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/ondrej-duda/transfers/spieler/232418/transfer_id/748944"
+        }
+      ],
+      "pending": [],
+      "url": "",
+      "feeSum": {
+        "value": 14600000,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "14.60",
+          "suffix": "M"
+        }
+      },
+      "averageAge": 31,
+      "totalMarketValue": {
+        "value": 3200000,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "3.20",
+          "suffix": "M"
+        }
+      }
+    },
+    "clubIds": [
+      "276",
+      "7732",
+      "3",
+      "44",
+      "1123",
+      "255",
+      "779",
+      "18763"
+    ],
+    "coachIds": [
+      "52249",
+      "53571",
+      "9622",
+      "12015",
+      "42459",
+      "588",
+      "4849",
+      "10939",
+      "1427",
+      "6408",
+      "23118",
+      "8131",
+      "4431",
+      "9865"
+    ],
+    "competitionIds": [
+      "IT1",
+      "SA1",
+      "L1",
+      "GB2",
+      "GB1",
+      "PL1",
+      "SLO1"
+    ],
+    "mostRecentTransfer": {
+      "id": "5786050",
+      "transferSource": {
+        "competitionId": "IT1",
+        "countryId": 75,
+        "clubId": "276",
+        "coachId": "52249"
+      },
+      "transferDestination": {
+        "competitionId": "SA1",
+        "countryId": 146,
+        "clubId": "7732",
+        "coachId": "53571"
+      },
+      "details": {
+        "playerId": "232418",
+        "date": "2025-07-16T00:00:00+02:00",
+        "contractUntilDate": "2027-06-30T00:00:00+02:00",
+        "seasonId": 2025,
+        "isPending": false,
+        "marketValue": {
+          "value": 3500000,
+          "currency": "EUR",
+          "compact": {
+            "prefix": "€",
+            "content": "3.50",
+            "suffix": "M"
+          }
+        },
+        "age": 30,
+        "fee": {
+          "value": null,
+          "currency": "",
+          "compact": {
+            "prefix": "",
+            "content": "Free Transfer",
+            "suffix": ""
+          }
+        },
+        "season": {
+          "id": 2025,
+          "display": "25/26",
+          "cyclicalName": "2026",
+          "nonCyclicalName": "25/26"
+        }
+      },
+      "typeDetails": {
+        "type": "STANDARD",
+        "name": "",
+        "feeDescription": ""
+      },
+      "relativeUrl": "/ondrej-duda/transfers/spieler/232418/transfer_id/5786050"
+    }
+  }
+}

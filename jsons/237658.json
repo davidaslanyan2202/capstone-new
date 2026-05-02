@@ -1,0 +1,633 @@
+{
+  "success": true,
+  "message": "OK",
+  "data": {
+    "playerId": "237658",
+    "history": {
+      "terminated": [
+        {
+          "id": "5833034",
+          "transferSource": {
+            "competitionId": "IT1",
+            "countryId": 75,
+            "clubId": "1025",
+            "coachId": "47288"
+          },
+          "transferDestination": {
+            "competitionId": "IT1",
+            "countryId": 75,
+            "clubId": "4172",
+            "coachId": "64045"
+          },
+          "details": {
+            "playerId": "237658",
+            "date": "2025-08-03T00:00:00+02:00",
+            "contractUntilDate": "2026-06-30T00:00:00+02:00",
+            "seasonId": 2025,
+            "isPending": false,
+            "marketValue": {
+              "value": 7500000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "7.50",
+                "suffix": "M"
+              }
+            },
+            "age": 28,
+            "remainingContractPeriod": {
+              "days": 696,
+              "daysDisplay": "1 Year, 10 Months, 27 Days"
+            },
+            "season": {
+              "id": 2025,
+              "display": "25/26",
+              "cyclicalName": "2026",
+              "nonCyclicalName": "25/26"
+            }
+          },
+          "typeDetails": {
+            "type": "ACTIVE_LOAN_TRANSFER",
+            "name": "loan transfer",
+            "feeDescription": "loan transfer"
+          },
+          "relativeUrl": "/michel-aebischer/transfers/spieler/237658/transfer_id/5833034"
+        },
+        {
+          "id": "3859814",
+          "transferSource": {
+            "competitionId": "C1",
+            "countryId": 148,
+            "clubId": "452",
+            "coachId": "23140"
+          },
+          "transferDestination": {
+            "competitionId": "IT1",
+            "countryId": 75,
+            "clubId": "1025",
+            "coachId": "3896"
+          },
+          "details": {
+            "playerId": "237658",
+            "date": "2022-07-01T00:00:00+02:00",
+            "contractUntilDate": "2027-06-30T00:00:00+02:00",
+            "seasonId": 2022,
+            "isPending": false,
+            "marketValue": {
+              "value": 3500000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "3.50",
+                "suffix": "M"
+              }
+            },
+            "age": 25,
+            "fee": {
+              "value": 3000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "3.00",
+                "suffix": "M"
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 364,
+              "daysDisplay": "11 Months, 29 Days"
+            },
+            "season": {
+              "id": 2022,
+              "display": "22/23",
+              "cyclicalName": "2023",
+              "nonCyclicalName": "22/23"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/michel-aebischer/transfers/spieler/237658/transfer_id/3859814"
+        },
+        {
+          "id": "3712023",
+          "transferSource": {
+            "competitionId": "IT1",
+            "countryId": 75,
+            "clubId": "1025",
+            "coachId": "3896"
+          },
+          "transferDestination": {
+            "competitionId": "C1",
+            "countryId": 148,
+            "clubId": "452",
+            "coachId": "25055"
+          },
+          "details": {
+            "playerId": "237658",
+            "date": "2022-06-30T00:00:00+02:00",
+            "contractUntilDate": "2023-06-30T00:00:00+02:00",
+            "seasonId": 2021,
+            "isPending": false,
+            "marketValue": {
+              "value": 3500000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "3.50",
+                "suffix": "M"
+              }
+            },
+            "age": 25,
+            "remainingContractPeriod": {
+              "days": 0,
+              "daysDisplay": "Unknown"
+            },
+            "season": {
+              "id": 2021,
+              "display": "21/22",
+              "cyclicalName": "2022",
+              "nonCyclicalName": "21/22"
+            }
+          },
+          "typeDetails": {
+            "type": "RETURNED_FROM_PREVIOUS_LOAN",
+            "name": "End of loan",
+            "feeDescription": "End of loan"
+          },
+          "relativeUrl": "/michel-aebischer/transfers/spieler/237658/transfer_id/3712023"
+        },
+        {
+          "id": "3712022",
+          "transferSource": {
+            "competitionId": "C1",
+            "countryId": 148,
+            "clubId": "452",
+            "coachId": "6092"
+          },
+          "transferDestination": {
+            "competitionId": "IT1",
+            "countryId": 75,
+            "clubId": "1025",
+            "coachId": "3896"
+          },
+          "details": {
+            "playerId": "237658",
+            "date": "2022-01-25T00:00:00+01:00",
+            "contractUntilDate": "2022-06-30T00:00:00+02:00",
+            "seasonId": 2021,
+            "isPending": false,
+            "marketValue": {
+              "value": 3500000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "3.50",
+                "suffix": "M"
+              }
+            },
+            "age": 25,
+            "remainingContractPeriod": {
+              "days": 521,
+              "daysDisplay": "1 Year, 5 Months, 5 Days"
+            },
+            "season": {
+              "id": 2021,
+              "display": "21/22",
+              "cyclicalName": "2022",
+              "nonCyclicalName": "21/22"
+            }
+          },
+          "typeDetails": {
+            "type": "ACTIVE_LOAN_TRANSFER",
+            "name": "loan transfer",
+            "feeDescription": "loan transfer"
+          },
+          "relativeUrl": "/michel-aebischer/transfers/spieler/237658/transfer_id/3712022"
+        },
+        {
+          "id": "1707314",
+          "transferSource": {
+            "competitionId": "CHC1",
+            "countryId": 148,
+            "clubId": "5508",
+            "coachId": "5847"
+          },
+          "transferDestination": {
+            "competitionId": "C1",
+            "countryId": 148,
+            "clubId": "452",
+            "coachId": "5018"
+          },
+          "details": {
+            "playerId": "237658",
+            "date": "2017-02-17T00:00:00+01:00",
+            "contractUntilDate": "2023-06-30T00:00:00+02:00",
+            "seasonId": 2016,
+            "isPending": false,
+            "marketValue": {
+              "value": 100000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "100.00",
+                "suffix": "K"
+              }
+            },
+            "age": 20,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 133,
+              "daysDisplay": "4 Months, 13 Days"
+            },
+            "season": {
+              "id": 2016,
+              "display": "16/17",
+              "cyclicalName": "2017",
+              "nonCyclicalName": "16/17"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/michel-aebischer/transfers/spieler/237658/transfer_id/1707314"
+        },
+        {
+          "id": "1306908",
+          "transferSource": {
+            "competitionId": "CH18",
+            "countryId": 148,
+            "clubId": "14438",
+            "coachId": "834"
+          },
+          "transferDestination": {
+            "competitionId": "CHC2",
+            "countryId": 148,
+            "clubId": "5508",
+            "coachId": "5847"
+          },
+          "details": {
+            "playerId": "237658",
+            "date": "2015-07-01T00:00:00+02:00",
+            "contractUntilDate": "2017-06-30T00:00:00+02:00",
+            "seasonId": 2015,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 18,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2015,
+              "display": "15/16",
+              "cyclicalName": "2016",
+              "nonCyclicalName": "15/16"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/michel-aebischer/transfers/spieler/237658/transfer_id/1306908"
+        },
+        {
+          "id": "1118290",
+          "transferSource": {
+            "competitionId": "CH17",
+            "countryId": 148,
+            "clubId": "32283",
+            "coachId": "5853"
+          },
+          "transferDestination": {
+            "competitionId": "CH18",
+            "countryId": 148,
+            "clubId": "14438",
+            "coachId": "834"
+          },
+          "details": {
+            "playerId": "237658",
+            "date": "2014-07-01T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2014,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 17,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2014,
+              "display": "14/15",
+              "cyclicalName": "2015",
+              "nonCyclicalName": "14/15"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/michel-aebischer/transfers/spieler/237658/transfer_id/1118290"
+        },
+        {
+          "id": "935998",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 148,
+            "clubId": "28009",
+            "coachId": "0"
+          },
+          "transferDestination": {
+            "competitionId": "CH17",
+            "countryId": 148,
+            "clubId": "32283",
+            "coachId": "5853"
+          },
+          "details": {
+            "playerId": "237658",
+            "date": "2013-07-01T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2013,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 16,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "?",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2013,
+              "display": "13/14",
+              "cyclicalName": "2014",
+              "nonCyclicalName": "13/14"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/michel-aebischer/transfers/spieler/237658/transfer_id/935998"
+        }
+      ],
+      "pending": [
+        {
+          "id": "6190164",
+          "transferSource": {
+            "competitionId": "IT1",
+            "countryId": 75,
+            "clubId": "1025",
+            "coachId": "47288"
+          },
+          "transferDestination": {
+            "competitionId": "IT1",
+            "countryId": 75,
+            "clubId": "4172",
+            "coachId": "93316"
+          },
+          "details": {
+            "playerId": "237658",
+            "date": "2026-07-01T00:00:00+02:00",
+            "contractUntilDate": "2029-06-30T00:00:00+02:00",
+            "seasonId": 2026,
+            "isPending": true,
+            "marketValue": {
+              "value": 4500000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "4.50",
+                "suffix": "M"
+              }
+            },
+            "age": 29,
+            "fee": {
+              "value": 4500000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "4.50",
+                "suffix": "M"
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 364,
+              "daysDisplay": "11 Months, 29 Days"
+            },
+            "season": {
+              "id": 2026,
+              "display": "26/27",
+              "cyclicalName": "2027",
+              "nonCyclicalName": "26/27"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/michel-aebischer/transfers/spieler/237658/transfer_id/6190164"
+        },
+        {
+          "id": "5833035",
+          "transferSource": {
+            "competitionId": "IT1",
+            "countryId": 75,
+            "clubId": "4172",
+            "coachId": "93316"
+          },
+          "transferDestination": {
+            "competitionId": "IT1",
+            "countryId": 75,
+            "clubId": "1025",
+            "coachId": "47288"
+          },
+          "details": {
+            "playerId": "237658",
+            "date": "2026-06-30T00:00:00+02:00",
+            "contractUntilDate": "2027-06-30T00:00:00+02:00",
+            "seasonId": 2025,
+            "isPending": true,
+            "marketValue": {
+              "value": 4500000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "4.50",
+                "suffix": "M"
+              }
+            },
+            "age": 29,
+            "remainingContractPeriod": {
+              "days": 0,
+              "daysDisplay": "Unknown"
+            },
+            "season": {
+              "id": 2025,
+              "display": "25/26",
+              "cyclicalName": "2026",
+              "nonCyclicalName": "25/26"
+            }
+          },
+          "typeDetails": {
+            "type": "RETURNED_FROM_PREVIOUS_LOAN",
+            "name": "End of loan",
+            "feeDescription": "End of loan"
+          },
+          "relativeUrl": "/michel-aebischer/transfers/spieler/237658/transfer_id/5833035"
+        }
+      ],
+      "url": "",
+      "feeSum": {
+        "value": 7500000,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "7.50",
+          "suffix": "M"
+        }
+      },
+      "averageAge": 29,
+      "totalMarketValue": {
+        "value": 4500000,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "4.50",
+          "suffix": "M"
+        }
+      }
+    },
+    "clubIds": [
+      "1025",
+      "4172",
+      "452",
+      "5508",
+      "14438",
+      "32283",
+      "28009"
+    ],
+    "coachIds": [
+      "47288",
+      "93316",
+      "64045",
+      "23140",
+      "3896",
+      "25055",
+      "6092",
+      "5847",
+      "5018",
+      "834",
+      "5853"
+    ],
+    "competitionIds": [
+      "IT1",
+      "C1",
+      "CHC1",
+      "CH18",
+      "CHC2",
+      "CH17"
+    ],
+    "mostRecentTransfer": {
+      "id": "5833034",
+      "transferSource": {
+        "competitionId": "IT1",
+        "countryId": 75,
+        "clubId": "1025",
+        "coachId": "47288"
+      },
+      "transferDestination": {
+        "competitionId": "IT1",
+        "countryId": 75,
+        "clubId": "4172",
+        "coachId": "64045"
+      },
+      "details": {
+        "playerId": "237658",
+        "date": "2025-08-03T00:00:00+02:00",
+        "contractUntilDate": "2026-06-30T00:00:00+02:00",
+        "seasonId": 2025,
+        "isPending": false,
+        "marketValue": {
+          "value": 7500000,
+          "currency": "EUR",
+          "compact": {
+            "prefix": "€",
+            "content": "7.50",
+            "suffix": "M"
+          }
+        },
+        "age": 28,
+        "remainingContractPeriod": {
+          "days": 696,
+          "daysDisplay": "1 Year, 10 Months, 27 Days"
+        },
+        "season": {
+          "id": 2025,
+          "display": "25/26",
+          "cyclicalName": "2026",
+          "nonCyclicalName": "25/26"
+        }
+      },
+      "typeDetails": {
+        "type": "ACTIVE_LOAN_TRANSFER",
+        "name": "loan transfer",
+        "feeDescription": "loan transfer"
+      },
+      "relativeUrl": "/michel-aebischer/transfers/spieler/237658/transfer_id/5833034"
+    }
+  }
+}

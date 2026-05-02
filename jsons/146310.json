@@ -1,0 +1,490 @@
+{
+  "success": true,
+  "message": "OK",
+  "data": {
+    "playerId": "146310",
+    "history": {
+      "terminated": [
+        {
+          "id": "4592144",
+          "transferSource": {
+            "competitionId": "L1",
+            "countryId": 40,
+            "clubId": "79",
+            "coachId": "20940"
+          },
+          "transferDestination": {
+            "competitionId": "GB1",
+            "countryId": 189,
+            "clubId": "31",
+            "coachId": "118"
+          },
+          "details": {
+            "playerId": "146310",
+            "date": "2023-08-18T00:00:00+02:00",
+            "contractUntilDate": "2027-06-30T00:00:00+02:00",
+            "seasonId": 2023,
+            "isPending": false,
+            "marketValue": {
+              "value": 6500000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "6.50",
+                "suffix": "M"
+              }
+            },
+            "age": 30,
+            "fee": {
+              "value": 20000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "20.00",
+                "suffix": "M"
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 317,
+              "daysDisplay": "10 Months, 12 Days"
+            },
+            "season": {
+              "id": 2023,
+              "display": "23/24",
+              "cyclicalName": "2024",
+              "nonCyclicalName": "23/24"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/wataru-endo/transfers/spieler/146310/transfer_id/4592144"
+        },
+        {
+          "id": "2858011",
+          "transferSource": {
+            "competitionId": "BE1",
+            "countryId": 19,
+            "clubId": "475",
+            "coachId": "8154"
+          },
+          "transferDestination": {
+            "competitionId": "L1",
+            "countryId": 40,
+            "clubId": "79",
+            "coachId": "10906"
+          },
+          "details": {
+            "playerId": "146310",
+            "date": "2020-07-01T00:00:00+02:00",
+            "contractUntilDate": "2024-06-30T00:00:00+02:00",
+            "seasonId": 2020,
+            "isPending": false,
+            "marketValue": {
+              "value": 1600000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "1.60",
+                "suffix": "M"
+              }
+            },
+            "age": 27,
+            "fee": {
+              "value": 1700000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "1.70",
+                "suffix": "M"
+              }
+            },
+            "season": {
+              "id": 2020,
+              "display": "20/21",
+              "cyclicalName": "2021",
+              "nonCyclicalName": "20/21"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/wataru-endo/transfers/spieler/146310/transfer_id/2858011"
+        },
+        {
+          "id": "2604258",
+          "transferSource": {
+            "competitionId": "L2",
+            "countryId": 40,
+            "clubId": "79",
+            "coachId": "10906"
+          },
+          "transferDestination": {
+            "competitionId": "BE1",
+            "countryId": 19,
+            "clubId": "475",
+            "coachId": "8624"
+          },
+          "details": {
+            "playerId": "146310",
+            "date": "2020-06-30T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2019,
+            "isPending": false,
+            "marketValue": {
+              "value": 1600000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "1.60",
+                "suffix": "M"
+              }
+            },
+            "age": 27,
+            "remainingContractPeriod": {
+              "days": 0,
+              "daysDisplay": "Unknown"
+            },
+            "season": {
+              "id": 2019,
+              "display": "19/20",
+              "cyclicalName": "2020",
+              "nonCyclicalName": "19/20"
+            }
+          },
+          "typeDetails": {
+            "type": "RETURNED_FROM_PREVIOUS_LOAN",
+            "name": "End of loan",
+            "feeDescription": "End of loan"
+          },
+          "relativeUrl": "/wataru-endo/transfers/spieler/146310/transfer_id/2604258"
+        },
+        {
+          "id": "2604257",
+          "transferSource": {
+            "competitionId": "BE1",
+            "countryId": 19,
+            "clubId": "475",
+            "coachId": "1010"
+          },
+          "transferDestination": {
+            "competitionId": "L2",
+            "countryId": 40,
+            "clubId": "79",
+            "coachId": "30352"
+          },
+          "details": {
+            "playerId": "146310",
+            "date": "2019-08-13T00:00:00+02:00",
+            "contractUntilDate": "2020-06-30T00:00:00+02:00",
+            "seasonId": 2019,
+            "isPending": false,
+            "marketValue": {
+              "value": 2000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "2.00",
+                "suffix": "M"
+              }
+            },
+            "age": 26,
+            "fee": {
+              "value": 300000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "300.00",
+                "suffix": "K"
+              }
+            },
+            "season": {
+              "id": 2019,
+              "display": "19/20",
+              "cyclicalName": "2020",
+              "nonCyclicalName": "19/20"
+            }
+          },
+          "typeDetails": {
+            "type": "ACTIVE_LOAN_TRANSFER",
+            "name": "loan transfer",
+            "feeDescription": "Loan fee"
+          },
+          "relativeUrl": "/wataru-endo/transfers/spieler/146310/transfer_id/2604257"
+        },
+        {
+          "id": "2187631",
+          "transferSource": {
+            "competitionId": "JAP1",
+            "countryId": 77,
+            "clubId": "828",
+            "coachId": "7573"
+          },
+          "transferDestination": {
+            "competitionId": "BE1",
+            "countryId": 19,
+            "clubId": "475",
+            "coachId": "1010"
+          },
+          "details": {
+            "playerId": "146310",
+            "date": "2018-07-21T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2018,
+            "isPending": false,
+            "marketValue": {
+              "value": 1450000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "1.40",
+                "suffix": "M"
+              }
+            },
+            "age": 25,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "?",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2018,
+              "display": "18/19",
+              "cyclicalName": "2019",
+              "nonCyclicalName": "18/19"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/wataru-endo/transfers/spieler/146310/transfer_id/2187631"
+        },
+        {
+          "id": "1389012",
+          "transferSource": {
+            "competitionId": "JL11",
+            "countryId": 77,
+            "clubId": "8457",
+            "coachId": "22608"
+          },
+          "transferDestination": {
+            "competitionId": "JL11",
+            "countryId": 77,
+            "clubId": "828",
+            "coachId": "913"
+          },
+          "details": {
+            "playerId": "146310",
+            "date": "2016-01-06T00:00:00+01:00",
+            "contractUntilDate": null,
+            "seasonId": 2015,
+            "isPending": false,
+            "marketValue": {
+              "value": 850000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "850.00",
+                "suffix": "K"
+              }
+            },
+            "age": 22,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "?",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2015,
+              "display": "15/16",
+              "cyclicalName": "2016",
+              "nonCyclicalName": "15/16"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/wataru-endo/transfers/spieler/146310/transfer_id/1389012"
+        },
+        {
+          "id": "1709298",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 77,
+            "clubId": "26018",
+            "coachId": "60475"
+          },
+          "transferDestination": {
+            "competitionId": "JAP2",
+            "countryId": 77,
+            "clubId": "8457",
+            "coachId": "5148"
+          },
+          "details": {
+            "playerId": "146310",
+            "date": "2011-02-01T00:00:00+01:00",
+            "contractUntilDate": null,
+            "seasonId": 2010,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 17,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2010,
+              "display": "10/11",
+              "cyclicalName": "2011",
+              "nonCyclicalName": "10/11"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/wataru-endo/transfers/spieler/146310/transfer_id/1709298"
+        }
+      ],
+      "pending": [],
+      "url": "",
+      "feeSum": {
+        "value": 22000000,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "22.00",
+          "suffix": "M"
+        }
+      },
+      "averageAge": 33,
+      "totalMarketValue": {
+        "value": 5000000,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "5.00",
+          "suffix": "M"
+        }
+      }
+    },
+    "clubIds": [
+      "79",
+      "31",
+      "475",
+      "828",
+      "8457",
+      "26018"
+    ],
+    "coachIds": [
+      "20940",
+      "118",
+      "8154",
+      "10906",
+      "8624",
+      "1010",
+      "30352",
+      "7573",
+      "22608",
+      "913",
+      "60475",
+      "5148"
+    ],
+    "competitionIds": [
+      "L1",
+      "GB1",
+      "BE1",
+      "L2",
+      "JAP1",
+      "JL11",
+      "JAP2"
+    ],
+    "mostRecentTransfer": {
+      "id": "4592144",
+      "transferSource": {
+        "competitionId": "L1",
+        "countryId": 40,
+        "clubId": "79",
+        "coachId": "20940"
+      },
+      "transferDestination": {
+        "competitionId": "GB1",
+        "countryId": 189,
+        "clubId": "31",
+        "coachId": "118"
+      },
+      "details": {
+        "playerId": "146310",
+        "date": "2023-08-18T00:00:00+02:00",
+        "contractUntilDate": "2027-06-30T00:00:00+02:00",
+        "seasonId": 2023,
+        "isPending": false,
+        "marketValue": {
+          "value": 6500000,
+          "currency": "EUR",
+          "compact": {
+            "prefix": "€",
+            "content": "6.50",
+            "suffix": "M"
+          }
+        },
+        "age": 30,
+        "fee": {
+          "value": 20000000,
+          "currency": "EUR",
+          "compact": {
+            "prefix": "€",
+            "content": "20.00",
+            "suffix": "M"
+          }
+        },
+        "remainingContractPeriod": {
+          "days": 317,
+          "daysDisplay": "10 Months, 12 Days"
+        },
+        "season": {
+          "id": 2023,
+          "display": "23/24",
+          "cyclicalName": "2024",
+          "nonCyclicalName": "23/24"
+        }
+      },
+      "typeDetails": {
+        "type": "STANDARD",
+        "name": "",
+        "feeDescription": ""
+      },
+      "relativeUrl": "/wataru-endo/transfers/spieler/146310/transfer_id/4592144"
+    }
+  }
+}

@@ -1,0 +1,949 @@
+{
+  "success": true,
+  "message": "OK",
+  "data": {
+    "playerId": "12563",
+    "history": {
+      "terminated": [
+        {
+          "id": "3751601",
+          "transferSource": {
+            "competitionId": "IT2",
+            "countryId": 75,
+            "clubId": "130",
+            "coachId": "19635"
+          },
+          "transferDestination": {
+            "competitionId": "",
+            "countryId": 0,
+            "clubId": "123",
+            "coachId": "0"
+          },
+          "details": {
+            "playerId": "12563",
+            "date": "2022-07-01T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2022,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 38,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2022,
+              "display": "22/23",
+              "cyclicalName": "2023",
+              "nonCyclicalName": "22/23"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/goran-pandev/transfers/spieler/12563/transfer_id/3751601"
+        },
+        {
+          "id": "3722887",
+          "transferSource": {
+            "competitionId": "IT1",
+            "countryId": 75,
+            "clubId": "252",
+            "coachId": "26099"
+          },
+          "transferDestination": {
+            "competitionId": "IT2",
+            "countryId": 75,
+            "clubId": "130",
+            "coachId": "2132"
+          },
+          "details": {
+            "playerId": "12563",
+            "date": "2022-01-31T00:00:00+01:00",
+            "contractUntilDate": "2022-06-30T00:00:00+02:00",
+            "seasonId": 2021,
+            "isPending": false,
+            "marketValue": {
+              "value": 500000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "500.00",
+                "suffix": "K"
+              }
+            },
+            "age": 38,
+            "fee": {
+              "value": 130000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "130.00",
+                "suffix": "K"
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 150,
+              "daysDisplay": "4 Months, 30 Days"
+            },
+            "season": {
+              "id": 2021,
+              "display": "21/22",
+              "cyclicalName": "2022",
+              "nonCyclicalName": "21/22"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/goran-pandev/transfers/spieler/12563/transfer_id/3722887"
+        },
+        {
+          "id": "1280303",
+          "transferSource": {
+            "competitionId": "TR1",
+            "countryId": 174,
+            "clubId": "141",
+            "coachId": "8536"
+          },
+          "transferDestination": {
+            "competitionId": "IT1",
+            "countryId": 75,
+            "clubId": "252",
+            "coachId": "3436"
+          },
+          "details": {
+            "playerId": "12563",
+            "date": "2015-07-07T00:00:00+02:00",
+            "contractUntilDate": "2022-06-30T00:00:00+02:00",
+            "seasonId": 2015,
+            "isPending": false,
+            "marketValue": {
+              "value": 2000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "2.00",
+                "suffix": "M"
+              }
+            },
+            "age": 31,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "Free Transfer",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2015,
+              "display": "15/16",
+              "cyclicalName": "2016",
+              "nonCyclicalName": "15/16"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/goran-pandev/transfers/spieler/12563/transfer_id/1280303"
+        },
+        {
+          "id": "1122202",
+          "transferSource": {
+            "competitionId": "IT1",
+            "countryId": 75,
+            "clubId": "6195",
+            "coachId": "1522"
+          },
+          "transferDestination": {
+            "competitionId": "TR1",
+            "countryId": 174,
+            "clubId": "141",
+            "coachId": "521"
+          },
+          "details": {
+            "playerId": "12563",
+            "date": "2014-09-01T00:00:00+02:00",
+            "contractUntilDate": "2015-06-30T00:00:00+02:00",
+            "seasonId": 2014,
+            "isPending": false,
+            "marketValue": {
+              "value": 8500000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "8.50",
+                "suffix": "M"
+              }
+            },
+            "age": 31,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "Free Transfer",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2014,
+              "display": "14/15",
+              "cyclicalName": "2015",
+              "nonCyclicalName": "14/15"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/goran-pandev/transfers/spieler/12563/transfer_id/1122202"
+        },
+        {
+          "id": "725808",
+          "transferSource": {
+            "competitionId": "IT1",
+            "countryId": 75,
+            "clubId": "46",
+            "coachId": "19857"
+          },
+          "transferDestination": {
+            "competitionId": "IT1",
+            "countryId": 75,
+            "clubId": "6195",
+            "coachId": "1933"
+          },
+          "details": {
+            "playerId": "12563",
+            "date": "2012-07-02T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2012,
+            "isPending": false,
+            "marketValue": {
+              "value": 11000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "11.00",
+                "suffix": "M"
+              }
+            },
+            "age": 28,
+            "fee": {
+              "value": 7500000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "7.50",
+                "suffix": "M"
+              }
+            },
+            "season": {
+              "id": 2012,
+              "display": "12/13",
+              "cyclicalName": "2013",
+              "nonCyclicalName": "12/13"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/goran-pandev/transfers/spieler/12563/transfer_id/725808"
+        },
+        {
+          "id": "627649",
+          "transferSource": {
+            "competitionId": "IT1",
+            "countryId": 75,
+            "clubId": "6195",
+            "coachId": "1933"
+          },
+          "transferDestination": {
+            "competitionId": "IT1",
+            "countryId": 75,
+            "clubId": "46",
+            "coachId": "19857"
+          },
+          "details": {
+            "playerId": "12563",
+            "date": "2012-06-30T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2011,
+            "isPending": false,
+            "marketValue": {
+              "value": 11000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "11.00",
+                "suffix": "M"
+              }
+            },
+            "age": 28,
+            "remainingContractPeriod": {
+              "days": 0,
+              "daysDisplay": "Unknown"
+            },
+            "season": {
+              "id": 2011,
+              "display": "11/12",
+              "cyclicalName": "2012",
+              "nonCyclicalName": "11/12"
+            }
+          },
+          "typeDetails": {
+            "type": "RETURNED_FROM_PREVIOUS_LOAN",
+            "name": "End of loan",
+            "feeDescription": "End of loan"
+          },
+          "relativeUrl": "/goran-pandev/transfers/spieler/12563/transfer_id/627649"
+        },
+        {
+          "id": "627648",
+          "transferSource": {
+            "competitionId": "IT1",
+            "countryId": 75,
+            "clubId": "46",
+            "coachId": "3436"
+          },
+          "transferDestination": {
+            "competitionId": "IT1",
+            "countryId": 75,
+            "clubId": "6195",
+            "coachId": "1933"
+          },
+          "details": {
+            "playerId": "12563",
+            "date": "2011-08-26T00:00:00+02:00",
+            "contractUntilDate": "2012-06-30T00:00:00+02:00",
+            "seasonId": 2011,
+            "isPending": false,
+            "marketValue": {
+              "value": 12500000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "12.00",
+                "suffix": "M"
+              }
+            },
+            "age": 28,
+            "fee": {
+              "value": 1500000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "1.50",
+                "suffix": "M"
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 309,
+              "daysDisplay": "10 Months, 4 Days"
+            },
+            "season": {
+              "id": 2011,
+              "display": "11/12",
+              "cyclicalName": "2012",
+              "nonCyclicalName": "11/12"
+            }
+          },
+          "typeDetails": {
+            "type": "ACTIVE_LOAN_TRANSFER",
+            "name": "loan transfer",
+            "feeDescription": "Loan fee"
+          },
+          "relativeUrl": "/goran-pandev/transfers/spieler/12563/transfer_id/627648"
+        },
+        {
+          "id": "369522",
+          "transferSource": {
+            "competitionId": "IT1",
+            "countryId": 75,
+            "clubId": "398",
+            "coachId": "3793"
+          },
+          "transferDestination": {
+            "competitionId": "IT1",
+            "countryId": 75,
+            "clubId": "46",
+            "coachId": "781"
+          },
+          "details": {
+            "playerId": "12563",
+            "date": "2010-01-04T00:00:00+01:00",
+            "contractUntilDate": "2012-06-30T00:00:00+02:00",
+            "seasonId": 2009,
+            "isPending": false,
+            "marketValue": {
+              "value": 16000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "16.00",
+                "suffix": "M"
+              }
+            },
+            "age": 26,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "Free Transfer",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2009,
+              "display": "09/10",
+              "cyclicalName": "2010",
+              "nonCyclicalName": "09/10"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/goran-pandev/transfers/spieler/12563/transfer_id/369522"
+        },
+        {
+          "id": "346571",
+          "transferSource": {
+            "competitionId": "IT1",
+            "countryId": 75,
+            "clubId": "46",
+            "coachId": "0"
+          },
+          "transferDestination": {
+            "competitionId": "IT1",
+            "countryId": 75,
+            "clubId": "398",
+            "coachId": "1488"
+          },
+          "details": {
+            "playerId": "12563",
+            "date": "2004-07-01T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2004,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 20,
+            "fee": {
+              "value": 8000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "8.00",
+                "suffix": "M"
+              }
+            },
+            "season": {
+              "id": 2004,
+              "display": "04/05",
+              "cyclicalName": "2005",
+              "nonCyclicalName": "04/05"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/goran-pandev/transfers/spieler/12563/transfer_id/346571"
+        },
+        {
+          "id": "346570",
+          "transferSource": {
+            "competitionId": "IT1",
+            "countryId": 75,
+            "clubId": "1388",
+            "coachId": "3064"
+          },
+          "transferDestination": {
+            "competitionId": "IT1",
+            "countryId": 75,
+            "clubId": "46",
+            "coachId": "628"
+          },
+          "details": {
+            "playerId": "12563",
+            "date": "2004-06-30T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2003,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 20,
+            "remainingContractPeriod": {
+              "days": 0,
+              "daysDisplay": "Unknown"
+            },
+            "season": {
+              "id": 2003,
+              "display": "03/04",
+              "cyclicalName": "2004",
+              "nonCyclicalName": "03/04"
+            }
+          },
+          "typeDetails": {
+            "type": "RETURNED_FROM_PREVIOUS_LOAN",
+            "name": "End of loan",
+            "feeDescription": "End of loan"
+          },
+          "relativeUrl": "/goran-pandev/transfers/spieler/12563/transfer_id/346570"
+        },
+        {
+          "id": "346569",
+          "transferSource": {
+            "competitionId": "IT1",
+            "countryId": 75,
+            "clubId": "46",
+            "coachId": "526"
+          },
+          "transferDestination": {
+            "competitionId": "IT1",
+            "countryId": 75,
+            "clubId": "1388",
+            "coachId": "513"
+          },
+          "details": {
+            "playerId": "12563",
+            "date": "2003-07-01T00:00:00+02:00",
+            "contractUntilDate": "2004-06-30T00:00:00+02:00",
+            "seasonId": 2003,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 19,
+            "season": {
+              "id": 2003,
+              "display": "03/04",
+              "cyclicalName": "2004",
+              "nonCyclicalName": "03/04"
+            }
+          },
+          "typeDetails": {
+            "type": "ACTIVE_LOAN_TRANSFER",
+            "name": "loan transfer",
+            "feeDescription": "loan transfer"
+          },
+          "relativeUrl": "/goran-pandev/transfers/spieler/12563/transfer_id/346569"
+        },
+        {
+          "id": "346568",
+          "transferSource": {
+            "competitionId": "IT3A",
+            "countryId": 75,
+            "clubId": "3522",
+            "coachId": "46651"
+          },
+          "transferDestination": {
+            "competitionId": "IT1",
+            "countryId": 75,
+            "clubId": "46",
+            "coachId": "526"
+          },
+          "details": {
+            "playerId": "12563",
+            "date": "2003-06-30T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2002,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 19,
+            "remainingContractPeriod": {
+              "days": 0,
+              "daysDisplay": "Unknown"
+            },
+            "season": {
+              "id": 2002,
+              "display": "02/03",
+              "cyclicalName": "2003",
+              "nonCyclicalName": "02/03"
+            }
+          },
+          "typeDetails": {
+            "type": "RETURNED_FROM_PREVIOUS_LOAN",
+            "name": "End of loan",
+            "feeDescription": "End of loan"
+          },
+          "relativeUrl": "/goran-pandev/transfers/spieler/12563/transfer_id/346568"
+        },
+        {
+          "id": "346567",
+          "transferSource": {
+            "competitionId": "IT1",
+            "countryId": 75,
+            "clubId": "46",
+            "coachId": "526"
+          },
+          "transferDestination": {
+            "competitionId": "IT3A",
+            "countryId": 75,
+            "clubId": "3522",
+            "coachId": "2124"
+          },
+          "details": {
+            "playerId": "12563",
+            "date": "2002-08-01T00:00:00+02:00",
+            "contractUntilDate": "2003-06-30T00:00:00+02:00",
+            "seasonId": 2002,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 19,
+            "season": {
+              "id": 2002,
+              "display": "02/03",
+              "cyclicalName": "2003",
+              "nonCyclicalName": "02/03"
+            }
+          },
+          "typeDetails": {
+            "type": "ACTIVE_LOAN_TRANSFER",
+            "name": "loan transfer",
+            "feeDescription": "loan transfer"
+          },
+          "relativeUrl": "/goran-pandev/transfers/spieler/12563/transfer_id/346567"
+        },
+        {
+          "id": "2103194",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 75,
+            "clubId": "5380",
+            "coachId": "8678"
+          },
+          "transferDestination": {
+            "competitionId": "IT1",
+            "countryId": 75,
+            "clubId": "46",
+            "coachId": "526"
+          },
+          "details": {
+            "playerId": "12563",
+            "date": "2002-07-01T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2002,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 18,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2002,
+              "display": "02/03",
+              "cyclicalName": "2003",
+              "nonCyclicalName": "02/03"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/goran-pandev/transfers/spieler/12563/transfer_id/2103194"
+        },
+        {
+          "id": "346566",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 100,
+            "clubId": "20110",
+            "coachId": "0"
+          },
+          "transferDestination": {
+            "competitionId": "",
+            "countryId": 75,
+            "clubId": "5380",
+            "coachId": "0"
+          },
+          "details": {
+            "playerId": "12563",
+            "date": "2001-07-01T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2001,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 17,
+            "fee": {
+              "value": 25000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "25.00",
+                "suffix": "K"
+              }
+            },
+            "season": {
+              "id": 2001,
+              "display": "01/02",
+              "cyclicalName": "2002",
+              "nonCyclicalName": "01/02"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/goran-pandev/transfers/spieler/12563/transfer_id/346566"
+        },
+        {
+          "id": "346565",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 100,
+            "clubId": "35246",
+            "coachId": "0"
+          },
+          "transferDestination": {
+            "competitionId": "",
+            "countryId": 100,
+            "clubId": "20110",
+            "coachId": "0"
+          },
+          "details": {
+            "playerId": "12563",
+            "date": "2000-07-01T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2000,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 16,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2000,
+              "display": "00/01",
+              "cyclicalName": "2001",
+              "nonCyclicalName": "00/01"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/goran-pandev/transfers/spieler/12563/transfer_id/346565"
+        }
+      ],
+      "pending": [],
+      "url": "",
+      "feeSum": {
+        "value": 17155000,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "17.16",
+          "suffix": "M"
+        }
+      },
+      "averageAge": 42,
+      "totalMarketValue": {
+        "value": 0,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "0.00",
+          "suffix": ""
+        }
+      }
+    },
+    "clubIds": [
+      "130",
+      "123",
+      "252",
+      "141",
+      "6195",
+      "46",
+      "398",
+      "1388",
+      "3522",
+      "5380",
+      "20110",
+      "35246"
+    ],
+    "coachIds": [
+      "19635",
+      "26099",
+      "2132",
+      "8536",
+      "3436",
+      "1522",
+      "521",
+      "19857",
+      "1933",
+      "3793",
+      "781",
+      "1488",
+      "3064",
+      "628",
+      "526",
+      "513",
+      "46651",
+      "2124",
+      "8678"
+    ],
+    "competitionIds": [
+      "IT2",
+      "IT1",
+      "TR1",
+      "IT3A"
+    ],
+    "mostRecentTransfer": {
+      "id": "3751601",
+      "transferSource": {
+        "competitionId": "IT2",
+        "countryId": 75,
+        "clubId": "130",
+        "coachId": "19635"
+      },
+      "transferDestination": {
+        "competitionId": "",
+        "countryId": 0,
+        "clubId": "123",
+        "coachId": "0"
+      },
+      "details": {
+        "playerId": "12563",
+        "date": "2022-07-01T00:00:00+02:00",
+        "contractUntilDate": null,
+        "seasonId": 2022,
+        "isPending": false,
+        "marketValue": {
+          "value": 0,
+          "currency": "EUR",
+          "compact": {
+            "prefix": "€",
+            "content": "0.00",
+            "suffix": ""
+          }
+        },
+        "age": 38,
+        "fee": {
+          "value": null,
+          "currency": "",
+          "compact": {
+            "prefix": "",
+            "content": "-",
+            "suffix": ""
+          }
+        },
+        "season": {
+          "id": 2022,
+          "display": "22/23",
+          "cyclicalName": "2023",
+          "nonCyclicalName": "22/23"
+        }
+      },
+      "typeDetails": {
+        "type": "STANDARD",
+        "name": "",
+        "feeDescription": ""
+      },
+      "relativeUrl": "/goran-pandev/transfers/spieler/12563/transfer_id/3751601"
+    }
+  }
+}

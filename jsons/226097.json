@@ -1,0 +1,797 @@
+{
+  "success": true,
+  "message": "OK",
+  "data": {
+    "playerId": "226097",
+    "history": {
+      "terminated": [
+        {
+          "id": "5163420",
+          "transferSource": {
+            "competitionId": "GB3",
+            "countryId": 189,
+            "clubId": "337",
+            "coachId": "46951"
+          },
+          "transferDestination": {
+            "competitionId": "ZYP1",
+            "countryId": 188,
+            "clubId": "45457",
+            "coachId": "5145"
+          },
+          "details": {
+            "playerId": "226097",
+            "date": "2024-08-01T00:00:00+02:00",
+            "contractUntilDate": "2027-05-31T00:00:00+02:00",
+            "seasonId": 2024,
+            "isPending": false,
+            "marketValue": {
+              "value": 1500000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "1.50",
+                "suffix": "M"
+              }
+            },
+            "age": 27,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "Free Transfer",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2024,
+              "display": "24/25",
+              "cyclicalName": "2025",
+              "nonCyclicalName": "24/25"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/ivan-sunjic/transfers/spieler/226097/transfer_id/5163420"
+        },
+        {
+          "id": "3923082",
+          "transferSource": {
+            "competitionId": "L1",
+            "countryId": 40,
+            "clubId": "44",
+            "coachId": "23118"
+          },
+          "transferDestination": {
+            "competitionId": "GB2",
+            "countryId": 189,
+            "clubId": "337",
+            "coachId": "57225"
+          },
+          "details": {
+            "playerId": "226097",
+            "date": "2023-06-30T00:00:00+02:00",
+            "contractUntilDate": "2024-06-30T00:00:00+02:00",
+            "seasonId": 2022,
+            "isPending": false,
+            "marketValue": {
+              "value": 1500000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "1.50",
+                "suffix": "M"
+              }
+            },
+            "age": 26,
+            "remainingContractPeriod": {
+              "days": 0,
+              "daysDisplay": "Unknown"
+            },
+            "season": {
+              "id": 2022,
+              "display": "22/23",
+              "cyclicalName": "2023",
+              "nonCyclicalName": "22/23"
+            }
+          },
+          "typeDetails": {
+            "type": "RETURNED_FROM_PREVIOUS_LOAN",
+            "name": "End of loan",
+            "feeDescription": "End of loan"
+          },
+          "relativeUrl": "/ivan-sunjic/transfers/spieler/226097/transfer_id/3923082"
+        },
+        {
+          "id": "3923062",
+          "transferSource": {
+            "competitionId": "GB2",
+            "countryId": 189,
+            "clubId": "337",
+            "coachId": "57225"
+          },
+          "transferDestination": {
+            "competitionId": "L1",
+            "countryId": 40,
+            "clubId": "44",
+            "coachId": "9570"
+          },
+          "details": {
+            "playerId": "226097",
+            "date": "2022-07-05T00:00:00+02:00",
+            "contractUntilDate": "2023-06-30T00:00:00+02:00",
+            "seasonId": 2022,
+            "isPending": false,
+            "marketValue": {
+              "value": 4000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "4.00",
+                "suffix": "M"
+              }
+            },
+            "age": 25,
+            "remainingContractPeriod": {
+              "days": 726,
+              "daysDisplay": "1 Year, 11 Months, 25 Days"
+            },
+            "season": {
+              "id": 2022,
+              "display": "22/23",
+              "cyclicalName": "2023",
+              "nonCyclicalName": "22/23"
+            }
+          },
+          "typeDetails": {
+            "type": "ACTIVE_LOAN_TRANSFER",
+            "name": "loan transfer",
+            "feeDescription": "loan transfer"
+          },
+          "relativeUrl": "/ivan-sunjic/transfers/spieler/226097/transfer_id/3923062"
+        },
+        {
+          "id": "2576616",
+          "transferSource": {
+            "competitionId": "KR1",
+            "countryId": 37,
+            "clubId": "419",
+            "coachId": "5197"
+          },
+          "transferDestination": {
+            "competitionId": "GB2",
+            "countryId": 189,
+            "clubId": "337",
+            "coachId": "17530"
+          },
+          "details": {
+            "playerId": "226097",
+            "date": "2019-07-26T00:00:00+02:00",
+            "contractUntilDate": "2024-06-30T00:00:00+02:00",
+            "seasonId": 2019,
+            "isPending": false,
+            "marketValue": {
+              "value": 3000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "3.00",
+                "suffix": "M"
+              }
+            },
+            "age": 22,
+            "fee": {
+              "value": 8000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "8.00",
+                "suffix": "M"
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 1801,
+              "daysDisplay": "4 Years, 11 Months, 4 Days"
+            },
+            "season": {
+              "id": 2019,
+              "display": "19/20",
+              "cyclicalName": "2020",
+              "nonCyclicalName": "19/20"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/ivan-sunjic/transfers/spieler/226097/transfer_id/2576616"
+        },
+        {
+          "id": "2032868",
+          "transferSource": {
+            "competitionId": "KR1",
+            "countryId": 37,
+            "clubId": "11194",
+            "coachId": "20830"
+          },
+          "transferDestination": {
+            "competitionId": "KR1",
+            "countryId": 37,
+            "clubId": "419",
+            "coachId": "5197"
+          },
+          "details": {
+            "playerId": "226097",
+            "date": "2018-06-30T00:00:00+02:00",
+            "contractUntilDate": "2024-06-30T00:00:00+02:00",
+            "seasonId": 2017,
+            "isPending": false,
+            "marketValue": {
+              "value": 1350000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "1.30",
+                "suffix": "M"
+              }
+            },
+            "age": 21,
+            "season": {
+              "id": 2017,
+              "display": "17/18",
+              "cyclicalName": "2018",
+              "nonCyclicalName": "17/18"
+            }
+          },
+          "typeDetails": {
+            "type": "RETURNED_FROM_PREVIOUS_LOAN",
+            "name": "End of loan",
+            "feeDescription": "End of loan"
+          },
+          "relativeUrl": "/ivan-sunjic/transfers/spieler/226097/transfer_id/2032868"
+        },
+        {
+          "id": "2032870",
+          "transferSource": {
+            "competitionId": "KR1",
+            "countryId": 37,
+            "clubId": "419",
+            "coachId": "27422"
+          },
+          "transferDestination": {
+            "competitionId": "KR1",
+            "countryId": 37,
+            "clubId": "11194",
+            "coachId": "20830"
+          },
+          "details": {
+            "playerId": "226097",
+            "date": "2018-02-12T00:00:00+01:00",
+            "contractUntilDate": "2018-06-15T00:00:00+02:00",
+            "seasonId": 2017,
+            "isPending": false,
+            "marketValue": {
+              "value": 850000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "850.00",
+                "suffix": "K"
+              }
+            },
+            "age": 21,
+            "remainingContractPeriod": {
+              "days": 1949,
+              "daysDisplay": "5 Years, 4 Months, 3 Days"
+            },
+            "season": {
+              "id": 2017,
+              "display": "17/18",
+              "cyclicalName": "2018",
+              "nonCyclicalName": "17/18"
+            }
+          },
+          "typeDetails": {
+            "type": "ACTIVE_LOAN_TRANSFER",
+            "name": "loan transfer",
+            "feeDescription": "loan transfer"
+          },
+          "relativeUrl": "/ivan-sunjic/transfers/spieler/226097/transfer_id/2032870"
+        },
+        {
+          "id": "2032869",
+          "transferSource": {
+            "competitionId": "KR1",
+            "countryId": 37,
+            "clubId": "11194",
+            "coachId": "20830"
+          },
+          "transferDestination": {
+            "competitionId": "KR1",
+            "countryId": 37,
+            "clubId": "419",
+            "coachId": "27422"
+          },
+          "details": {
+            "playerId": "226097",
+            "date": "2018-02-11T00:00:00+01:00",
+            "contractUntilDate": "2023-06-15T00:00:00+02:00",
+            "seasonId": 2017,
+            "isPending": false,
+            "marketValue": {
+              "value": 850000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "850.00",
+                "suffix": "K"
+              }
+            },
+            "age": 21,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "?",
+                "suffix": ""
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 855,
+              "daysDisplay": "2 Years, 4 Months, 4 Days"
+            },
+            "season": {
+              "id": 2017,
+              "display": "17/18",
+              "cyclicalName": "2018",
+              "nonCyclicalName": "17/18"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/ivan-sunjic/transfers/spieler/226097/transfer_id/2032869"
+        },
+        {
+          "id": "1433288",
+          "transferSource": {
+            "competitionId": "KR2",
+            "countryId": 37,
+            "clubId": "44796",
+            "coachId": "36250"
+          },
+          "transferDestination": {
+            "competitionId": "KR1",
+            "countryId": 37,
+            "clubId": "11194",
+            "coachId": "14788"
+          },
+          "details": {
+            "playerId": "226097",
+            "date": "2016-02-05T00:00:00+01:00",
+            "contractUntilDate": "2020-06-15T00:00:00+02:00",
+            "seasonId": 2015,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 19,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "?",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2015,
+              "display": "15/16",
+              "cyclicalName": "2016",
+              "nonCyclicalName": "15/16"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/ivan-sunjic/transfers/spieler/226097/transfer_id/1433288"
+        },
+        {
+          "id": "1135318",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 37,
+            "clubId": "9641",
+            "coachId": "0"
+          },
+          "transferDestination": {
+            "competitionId": "",
+            "countryId": 37,
+            "clubId": "44796",
+            "coachId": "14788"
+          },
+          "details": {
+            "playerId": "226097",
+            "date": "2014-07-15T00:00:00+02:00",
+            "contractUntilDate": "2015-06-15T00:00:00+02:00",
+            "seasonId": 2014,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 17,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 335,
+              "daysDisplay": "11 Months"
+            },
+            "season": {
+              "id": 2014,
+              "display": "14/15",
+              "cyclicalName": "2015",
+              "nonCyclicalName": "14/15"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/ivan-sunjic/transfers/spieler/226097/transfer_id/1135318"
+        },
+        {
+          "id": "903341",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 37,
+            "clubId": "36342",
+            "coachId": "0"
+          },
+          "transferDestination": {
+            "competitionId": "",
+            "countryId": 37,
+            "clubId": "9641",
+            "coachId": "0"
+          },
+          "details": {
+            "playerId": "226097",
+            "date": "2013-07-01T00:00:00+02:00",
+            "contractUntilDate": "2015-06-15T00:00:00+02:00",
+            "seasonId": 2013,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 16,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2013,
+              "display": "13/14",
+              "cyclicalName": "2014",
+              "nonCyclicalName": "13/14"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/ivan-sunjic/transfers/spieler/226097/transfer_id/903341"
+        },
+        {
+          "id": "762760",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 37,
+            "clubId": "36357",
+            "coachId": "0"
+          },
+          "transferDestination": {
+            "competitionId": "",
+            "countryId": 37,
+            "clubId": "36342",
+            "coachId": "0"
+          },
+          "details": {
+            "playerId": "226097",
+            "date": "2012-07-27T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2012,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 15,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "?",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2012,
+              "display": "12/13",
+              "cyclicalName": "2013",
+              "nonCyclicalName": "12/13"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/ivan-sunjic/transfers/spieler/226097/transfer_id/762760"
+        },
+        {
+          "id": "716747",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 37,
+            "clubId": "36356",
+            "coachId": "0"
+          },
+          "transferDestination": {
+            "competitionId": "",
+            "countryId": 37,
+            "clubId": "36357",
+            "coachId": "0"
+          },
+          "details": {
+            "playerId": "226097",
+            "date": "2011-07-01T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2011,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 14,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2011,
+              "display": "11/12",
+              "cyclicalName": "2012",
+              "nonCyclicalName": "11/12"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/ivan-sunjic/transfers/spieler/226097/transfer_id/716747"
+        },
+        {
+          "id": "903342",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 37,
+            "clubId": "2811",
+            "coachId": "122916"
+          },
+          "transferDestination": {
+            "competitionId": "",
+            "countryId": 37,
+            "clubId": "36356",
+            "coachId": "0"
+          },
+          "details": {
+            "playerId": "226097",
+            "date": "2009-08-29T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2008,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 12,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "?",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2008,
+              "display": "08/09",
+              "cyclicalName": "2009",
+              "nonCyclicalName": "08/09"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/ivan-sunjic/transfers/spieler/226097/transfer_id/903342"
+        }
+      ],
+      "pending": [],
+      "url": "",
+      "feeSum": {
+        "value": 8000000,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "8.00",
+          "suffix": "M"
+        }
+      },
+      "averageAge": 29,
+      "totalMarketValue": {
+        "value": 1800000,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "1.80",
+          "suffix": "M"
+        }
+      }
+    },
+    "clubIds": [
+      "337",
+      "45457",
+      "44",
+      "419",
+      "11194",
+      "44796",
+      "9641",
+      "36342",
+      "36357",
+      "36356",
+      "2811"
+    ],
+    "coachIds": [
+      "46951",
+      "5145",
+      "23118",
+      "57225",
+      "9570",
+      "5197",
+      "17530",
+      "20830",
+      "27422",
+      "36250",
+      "14788",
+      "122916"
+    ],
+    "competitionIds": [
+      "GB3",
+      "ZYP1",
+      "L1",
+      "GB2",
+      "KR1",
+      "KR2"
+    ],
+    "mostRecentTransfer": {
+      "id": "5163420",
+      "transferSource": {
+        "competitionId": "GB3",
+        "countryId": 189,
+        "clubId": "337",
+        "coachId": "46951"
+      },
+      "transferDestination": {
+        "competitionId": "ZYP1",
+        "countryId": 188,
+        "clubId": "45457",
+        "coachId": "5145"
+      },
+      "details": {
+        "playerId": "226097",
+        "date": "2024-08-01T00:00:00+02:00",
+        "contractUntilDate": "2027-05-31T00:00:00+02:00",
+        "seasonId": 2024,
+        "isPending": false,
+        "marketValue": {
+          "value": 1500000,
+          "currency": "EUR",
+          "compact": {
+            "prefix": "€",
+            "content": "1.50",
+            "suffix": "M"
+          }
+        },
+        "age": 27,
+        "fee": {
+          "value": null,
+          "currency": "",
+          "compact": {
+            "prefix": "",
+            "content": "Free Transfer",
+            "suffix": ""
+          }
+        },
+        "season": {
+          "id": 2024,
+          "display": "24/25",
+          "cyclicalName": "2025",
+          "nonCyclicalName": "24/25"
+        }
+      },
+      "typeDetails": {
+        "type": "STANDARD",
+        "name": "",
+        "feeDescription": ""
+      },
+      "relativeUrl": "/ivan-sunjic/transfers/spieler/226097/transfer_id/5163420"
+    }
+  }
+}

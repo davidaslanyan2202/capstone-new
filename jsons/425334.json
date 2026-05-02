@@ -1,0 +1,309 @@
+{
+  "success": true,
+  "message": "OK",
+  "data": {
+    "playerId": "425334",
+    "history": {
+      "terminated": [
+        {
+          "id": "3042733",
+          "transferSource": {
+            "competitionId": "GB2",
+            "countryId": 189,
+            "clubId": "703",
+            "coachId": "24207"
+          },
+          "transferDestination": {
+            "competitionId": "GB1",
+            "countryId": 189,
+            "clubId": "405",
+            "coachId": "15315"
+          },
+          "details": {
+            "playerId": "425334",
+            "date": "2020-09-03T00:00:00+02:00",
+            "contractUntilDate": "2029-06-30T00:00:00+02:00",
+            "seasonId": 2020,
+            "isPending": false,
+            "marketValue": {
+              "value": 4800000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "4.80",
+                "suffix": "M"
+              }
+            },
+            "age": 23,
+            "fee": {
+              "value": 15750000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "15.75",
+                "suffix": "M"
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 1030,
+              "daysDisplay": "2 Years, 9 Months, 27 Days"
+            },
+            "season": {
+              "id": 2020,
+              "display": "20/21",
+              "cyclicalName": "2021",
+              "nonCyclicalName": "20/21"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/matty-cash/transfers/spieler/425334/transfer_id/3042733"
+        },
+        {
+          "id": "1450628",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 189,
+            "clubId": "12799",
+            "coachId": "15228"
+          },
+          "transferDestination": {
+            "competitionId": "GB2",
+            "countryId": 189,
+            "clubId": "703",
+            "coachId": "5065"
+          },
+          "details": {
+            "playerId": "425334",
+            "date": "2016-07-01T00:00:00+02:00",
+            "contractUntilDate": "2023-06-30T00:00:00+02:00",
+            "seasonId": 2016,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 18,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2016,
+              "display": "16/17",
+              "cyclicalName": "2017",
+              "nonCyclicalName": "16/17"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/matty-cash/transfers/spieler/425334/transfer_id/1450628"
+        },
+        {
+          "id": "1450626",
+          "transferSource": {
+            "competitionId": "GB4",
+            "countryId": 189,
+            "clubId": "3696",
+            "coachId": "5897"
+          },
+          "transferDestination": {
+            "competitionId": "",
+            "countryId": 189,
+            "clubId": "12799",
+            "coachId": "15228"
+          },
+          "details": {
+            "playerId": "425334",
+            "date": "2016-05-31T00:00:00+02:00",
+            "contractUntilDate": "2016-06-30T00:00:00+02:00",
+            "seasonId": 2015,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 18,
+            "remainingContractPeriod": {
+              "days": 0,
+              "daysDisplay": "Unknown"
+            },
+            "season": {
+              "id": 2015,
+              "display": "15/16",
+              "cyclicalName": "2016",
+              "nonCyclicalName": "15/16"
+            }
+          },
+          "typeDetails": {
+            "type": "RETURNED_FROM_PREVIOUS_LOAN",
+            "name": "End of loan",
+            "feeDescription": "End of loan"
+          },
+          "relativeUrl": "/matty-cash/transfers/spieler/425334/transfer_id/1450626"
+        },
+        {
+          "id": "1450627",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 189,
+            "clubId": "12799",
+            "coachId": "15228"
+          },
+          "transferDestination": {
+            "competitionId": "GB4",
+            "countryId": 189,
+            "clubId": "3696",
+            "coachId": "5897"
+          },
+          "details": {
+            "playerId": "425334",
+            "date": "2016-03-04T00:00:00+01:00",
+            "contractUntilDate": "2016-05-31T00:00:00+02:00",
+            "seasonId": 2015,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 18,
+            "season": {
+              "id": 2015,
+              "display": "15/16",
+              "cyclicalName": "2016",
+              "nonCyclicalName": "15/16"
+            }
+          },
+          "typeDetails": {
+            "type": "ACTIVE_LOAN_TRANSFER",
+            "name": "loan transfer",
+            "feeDescription": "loan transfer"
+          },
+          "relativeUrl": "/matty-cash/transfers/spieler/425334/transfer_id/1450627"
+        }
+      ],
+      "pending": [],
+      "url": "",
+      "feeSum": {
+        "value": 15750000,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "15.75",
+          "suffix": "M"
+        }
+      },
+      "averageAge": 28,
+      "totalMarketValue": {
+        "value": 22000000,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "22.00",
+          "suffix": "M"
+        }
+      }
+    },
+    "clubIds": [
+      "703",
+      "405",
+      "12799",
+      "3696"
+    ],
+    "coachIds": [
+      "24207",
+      "15315",
+      "15228",
+      "5065",
+      "5897"
+    ],
+    "competitionIds": [
+      "GB2",
+      "GB1",
+      "GB4"
+    ],
+    "mostRecentTransfer": {
+      "id": "3042733",
+      "transferSource": {
+        "competitionId": "GB2",
+        "countryId": 189,
+        "clubId": "703",
+        "coachId": "24207"
+      },
+      "transferDestination": {
+        "competitionId": "GB1",
+        "countryId": 189,
+        "clubId": "405",
+        "coachId": "15315"
+      },
+      "details": {
+        "playerId": "425334",
+        "date": "2020-09-03T00:00:00+02:00",
+        "contractUntilDate": "2029-06-30T00:00:00+02:00",
+        "seasonId": 2020,
+        "isPending": false,
+        "marketValue": {
+          "value": 4800000,
+          "currency": "EUR",
+          "compact": {
+            "prefix": "€",
+            "content": "4.80",
+            "suffix": "M"
+          }
+        },
+        "age": 23,
+        "fee": {
+          "value": 15750000,
+          "currency": "EUR",
+          "compact": {
+            "prefix": "€",
+            "content": "15.75",
+            "suffix": "M"
+          }
+        },
+        "remainingContractPeriod": {
+          "days": 1030,
+          "daysDisplay": "2 Years, 9 Months, 27 Days"
+        },
+        "season": {
+          "id": 2020,
+          "display": "20/21",
+          "cyclicalName": "2021",
+          "nonCyclicalName": "20/21"
+        }
+      },
+      "typeDetails": {
+        "type": "STANDARD",
+        "name": "",
+        "feeDescription": ""
+      },
+      "relativeUrl": "/matty-cash/transfers/spieler/425334/transfer_id/3042733"
+    }
+  }
+}

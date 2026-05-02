@@ -1,0 +1,271 @@
+{
+  "success": true,
+  "message": "OK",
+  "data": {
+    "playerId": "872171",
+    "history": {
+      "terminated": [
+        {
+          "id": "4793946",
+          "transferSource": {
+            "competitionId": "BRA1",
+            "countryId": 26,
+            "clubId": "585",
+            "coachId": "4724"
+          },
+          "transferDestination": {
+            "competitionId": "FR1",
+            "countryId": 50,
+            "clubId": "583",
+            "coachId": "6499"
+          },
+          "details": {
+            "playerId": "872171",
+            "date": "2024-01-01T00:00:00+01:00",
+            "contractUntilDate": "2028-06-30T00:00:00+02:00",
+            "seasonId": 2023,
+            "isPending": false,
+            "marketValue": {
+              "value": 15000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "15.00",
+                "suffix": "M"
+              }
+            },
+            "age": 20,
+            "fee": {
+              "value": 20000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "20.00",
+                "suffix": "M"
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 1826,
+              "daysDisplay": "4 Years, 11 Months, 30 Days"
+            },
+            "season": {
+              "id": 2023,
+              "display": "23/24",
+              "cyclicalName": "2024",
+              "nonCyclicalName": "23/24"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/lucas-beraldo/transfers/spieler/872171/transfer_id/4793946"
+        },
+        {
+          "id": "3928451",
+          "transferSource": {
+            "competitionId": "CB20",
+            "countryId": 26,
+            "clubId": "14708",
+            "coachId": "91297"
+          },
+          "transferDestination": {
+            "competitionId": "BRA1",
+            "countryId": 26,
+            "clubId": "585",
+            "coachId": "50290"
+          },
+          "details": {
+            "playerId": "872171",
+            "date": "2022-07-01T00:00:00+02:00",
+            "contractUntilDate": "2028-12-31T00:00:00+01:00",
+            "seasonId": 2022,
+            "isPending": false,
+            "marketValue": {
+              "value": 1500000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "1.50",
+                "suffix": "M"
+              }
+            },
+            "age": 18,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2022,
+              "display": "22/23",
+              "cyclicalName": "2023",
+              "nonCyclicalName": "22/23"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/lucas-beraldo/transfers/spieler/872171/transfer_id/3928451"
+        },
+        {
+          "id": "4211869",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 26,
+            "clubId": "96178",
+            "coachId": "124885"
+          },
+          "transferDestination": {
+            "competitionId": "CB20",
+            "countryId": 26,
+            "clubId": "14708",
+            "coachId": "108199"
+          },
+          "details": {
+            "playerId": "872171",
+            "date": "2020-01-01T00:00:00+01:00",
+            "contractUntilDate": null,
+            "seasonId": 2019,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 16,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "?",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2019,
+              "display": "19/20",
+              "cyclicalName": "2020",
+              "nonCyclicalName": "19/20"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/lucas-beraldo/transfers/spieler/872171/transfer_id/4211869"
+        }
+      ],
+      "pending": [],
+      "url": "",
+      "feeSum": {
+        "value": 20000000,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "20.00",
+          "suffix": "M"
+        }
+      },
+      "averageAge": 22,
+      "totalMarketValue": {
+        "value": 20000000,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "20.00",
+          "suffix": "M"
+        }
+      }
+    },
+    "clubIds": [
+      "585",
+      "583",
+      "14708",
+      "96178"
+    ],
+    "coachIds": [
+      "4724",
+      "6499",
+      "91297",
+      "50290",
+      "124885",
+      "108199"
+    ],
+    "competitionIds": [
+      "BRA1",
+      "FR1",
+      "CB20"
+    ],
+    "mostRecentTransfer": {
+      "id": "4793946",
+      "transferSource": {
+        "competitionId": "BRA1",
+        "countryId": 26,
+        "clubId": "585",
+        "coachId": "4724"
+      },
+      "transferDestination": {
+        "competitionId": "FR1",
+        "countryId": 50,
+        "clubId": "583",
+        "coachId": "6499"
+      },
+      "details": {
+        "playerId": "872171",
+        "date": "2024-01-01T00:00:00+01:00",
+        "contractUntilDate": "2028-06-30T00:00:00+02:00",
+        "seasonId": 2023,
+        "isPending": false,
+        "marketValue": {
+          "value": 15000000,
+          "currency": "EUR",
+          "compact": {
+            "prefix": "€",
+            "content": "15.00",
+            "suffix": "M"
+          }
+        },
+        "age": 20,
+        "fee": {
+          "value": 20000000,
+          "currency": "EUR",
+          "compact": {
+            "prefix": "€",
+            "content": "20.00",
+            "suffix": "M"
+          }
+        },
+        "remainingContractPeriod": {
+          "days": 1826,
+          "daysDisplay": "4 Years, 11 Months, 30 Days"
+        },
+        "season": {
+          "id": 2023,
+          "display": "23/24",
+          "cyclicalName": "2024",
+          "nonCyclicalName": "23/24"
+        }
+      },
+      "typeDetails": {
+        "type": "STANDARD",
+        "name": "",
+        "feeDescription": ""
+      },
+      "relativeUrl": "/lucas-beraldo/transfers/spieler/872171/transfer_id/4793946"
+    }
+  }
+}

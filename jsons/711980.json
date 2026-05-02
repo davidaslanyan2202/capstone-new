@@ -1,0 +1,275 @@
+{
+  "success": true,
+  "message": "OK",
+  "data": {
+    "playerId": "711980",
+    "history": {
+      "terminated": [
+        {
+          "id": "5147981",
+          "transferSource": {
+            "competitionId": "FR1",
+            "countryId": 50,
+            "clubId": "273",
+            "coachId": "61003"
+          },
+          "transferDestination": {
+            "competitionId": "FR1",
+            "countryId": 50,
+            "clubId": "667",
+            "coachId": "62134"
+          },
+          "details": {
+            "playerId": "711980",
+            "date": "2024-07-26T00:00:00+02:00",
+            "contractUntilDate": "2029-06-30T00:00:00+02:00",
+            "seasonId": 2024,
+            "isPending": false,
+            "marketValue": {
+              "value": 7000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "7.00",
+                "suffix": "M"
+              }
+            },
+            "age": 21,
+            "fee": {
+              "value": 6000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "6.00",
+                "suffix": "M"
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 339,
+              "daysDisplay": "11 Months, 4 Days"
+            },
+            "season": {
+              "id": 2024,
+              "display": "24/25",
+              "cyclicalName": "2025",
+              "nonCyclicalName": "24/25"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/guela-doue/transfers/spieler/711980/transfer_id/5147981"
+        },
+        {
+          "id": "3996803",
+          "transferSource": {
+            "competitionId": "CN2A",
+            "countryId": 50,
+            "clubId": "8154",
+            "coachId": "72257"
+          },
+          "transferDestination": {
+            "competitionId": "FR1",
+            "countryId": 50,
+            "clubId": "273",
+            "coachId": "5036"
+          },
+          "details": {
+            "playerId": "711980",
+            "date": "2022-07-01T00:00:00+02:00",
+            "contractUntilDate": "2025-06-30T00:00:00+02:00",
+            "seasonId": 2022,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 19,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 364,
+              "daysDisplay": "11 Months, 29 Days"
+            },
+            "season": {
+              "id": 2022,
+              "display": "22/23",
+              "cyclicalName": "2023",
+              "nonCyclicalName": "22/23"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/guela-doue/transfers/spieler/711980/transfer_id/3996803"
+        },
+        {
+          "id": "3632751",
+          "transferSource": {
+            "competitionId": "F19C",
+            "countryId": 50,
+            "clubId": "7874",
+            "coachId": "72257"
+          },
+          "transferDestination": {
+            "competitionId": "C3BR",
+            "countryId": 50,
+            "clubId": "8154",
+            "coachId": "65811"
+          },
+          "details": {
+            "playerId": "711980",
+            "date": "2020-07-01T00:00:00+02:00",
+            "contractUntilDate": "2023-06-30T00:00:00+02:00",
+            "seasonId": 2020,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 17,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2020,
+              "display": "20/21",
+              "cyclicalName": "2021",
+              "nonCyclicalName": "20/21"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/guela-doue/transfers/spieler/711980/transfer_id/3632751"
+        }
+      ],
+      "pending": [],
+      "url": "",
+      "feeSum": {
+        "value": 6000000,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "6.00",
+          "suffix": "M"
+        }
+      },
+      "averageAge": 23,
+      "totalMarketValue": {
+        "value": 18000000,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "18.00",
+          "suffix": "M"
+        }
+      }
+    },
+    "clubIds": [
+      "273",
+      "667",
+      "8154",
+      "7874"
+    ],
+    "coachIds": [
+      "61003",
+      "62134",
+      "72257",
+      "5036",
+      "65811"
+    ],
+    "competitionIds": [
+      "FR1",
+      "CN2A",
+      "F19C",
+      "C3BR"
+    ],
+    "mostRecentTransfer": {
+      "id": "5147981",
+      "transferSource": {
+        "competitionId": "FR1",
+        "countryId": 50,
+        "clubId": "273",
+        "coachId": "61003"
+      },
+      "transferDestination": {
+        "competitionId": "FR1",
+        "countryId": 50,
+        "clubId": "667",
+        "coachId": "62134"
+      },
+      "details": {
+        "playerId": "711980",
+        "date": "2024-07-26T00:00:00+02:00",
+        "contractUntilDate": "2029-06-30T00:00:00+02:00",
+        "seasonId": 2024,
+        "isPending": false,
+        "marketValue": {
+          "value": 7000000,
+          "currency": "EUR",
+          "compact": {
+            "prefix": "€",
+            "content": "7.00",
+            "suffix": "M"
+          }
+        },
+        "age": 21,
+        "fee": {
+          "value": 6000000,
+          "currency": "EUR",
+          "compact": {
+            "prefix": "€",
+            "content": "6.00",
+            "suffix": "M"
+          }
+        },
+        "remainingContractPeriod": {
+          "days": 339,
+          "daysDisplay": "11 Months, 4 Days"
+        },
+        "season": {
+          "id": 2024,
+          "display": "24/25",
+          "cyclicalName": "2025",
+          "nonCyclicalName": "24/25"
+        }
+      },
+      "typeDetails": {
+        "type": "STANDARD",
+        "name": "",
+        "feeDescription": ""
+      },
+      "relativeUrl": "/guela-doue/transfers/spieler/711980/transfer_id/5147981"
+    }
+  }
+}

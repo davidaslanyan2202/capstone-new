@@ -1,0 +1,431 @@
+{
+  "success": true,
+  "message": "OK",
+  "data": {
+    "playerId": "667965",
+    "history": {
+      "terminated": [
+        {
+          "id": "5505766",
+          "transferSource": {
+            "competitionId": "FR1",
+            "countryId": 50,
+            "clubId": "738",
+            "coachId": "92937"
+          },
+          "transferDestination": {
+            "competitionId": "NL1",
+            "countryId": 122,
+            "clubId": "234",
+            "coachId": "19874"
+          },
+          "details": {
+            "playerId": "667965",
+            "date": "2025-02-04T00:00:00+01:00",
+            "contractUntilDate": "2028-06-30T00:00:00+02:00",
+            "seasonId": 2024,
+            "isPending": false,
+            "marketValue": {
+              "value": 3000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "3.00",
+                "suffix": "M"
+              }
+            },
+            "age": 22,
+            "fee": {
+              "value": 450000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "450.00",
+                "suffix": "K"
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 146,
+              "daysDisplay": "4 Months, 26 Days"
+            },
+            "season": {
+              "id": 2024,
+              "display": "24/25",
+              "cyclicalName": "2025",
+              "nonCyclicalName": "24/25"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/oussama-targhalline/transfers/spieler/667965/transfer_id/5505766"
+        },
+        {
+          "id": "4208198",
+          "transferSource": {
+            "competitionId": "FR1",
+            "countryId": 50,
+            "clubId": "244",
+            "coachId": "28632"
+          },
+          "transferDestination": {
+            "competitionId": "FR2",
+            "countryId": 50,
+            "clubId": "738",
+            "coachId": "23576"
+          },
+          "details": {
+            "playerId": "667965",
+            "date": "2023-01-06T00:00:00+01:00",
+            "contractUntilDate": "2025-06-30T00:00:00+02:00",
+            "seasonId": 2022,
+            "isPending": false,
+            "marketValue": {
+              "value": 400000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "400.00",
+                "suffix": "K"
+              }
+            },
+            "age": 20,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "Free Transfer",
+                "suffix": ""
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 906,
+              "daysDisplay": "2 Years, 5 Months, 24 Days"
+            },
+            "season": {
+              "id": 2022,
+              "display": "22/23",
+              "cyclicalName": "2023",
+              "nonCyclicalName": "22/23"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/oussama-targhalline/transfers/spieler/667965/transfer_id/4208198"
+        },
+        {
+          "id": "3984957",
+          "transferSource": {
+            "competitionId": "TR1",
+            "countryId": 174,
+            "clubId": "11282",
+            "coachId": "73923"
+          },
+          "transferDestination": {
+            "competitionId": "FR1",
+            "countryId": 50,
+            "clubId": "244",
+            "coachId": "28632"
+          },
+          "details": {
+            "playerId": "667965",
+            "date": "2022-12-15T00:00:00+01:00",
+            "contractUntilDate": "2025-06-30T00:00:00+02:00",
+            "seasonId": 2022,
+            "isPending": false,
+            "marketValue": {
+              "value": 400000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "400.00",
+                "suffix": "K"
+              }
+            },
+            "age": 20,
+            "remainingContractPeriod": {
+              "days": 197,
+              "daysDisplay": "6 Months, 15 Days"
+            },
+            "season": {
+              "id": 2022,
+              "display": "22/23",
+              "cyclicalName": "2023",
+              "nonCyclicalName": "22/23"
+            }
+          },
+          "typeDetails": {
+            "type": "RETURNED_FROM_PREVIOUS_LOAN",
+            "name": "End of loan",
+            "feeDescription": "End of loan"
+          },
+          "relativeUrl": "/oussama-targhalline/transfers/spieler/667965/transfer_id/3984957"
+        },
+        {
+          "id": "3984956",
+          "transferSource": {
+            "competitionId": "FR1",
+            "countryId": 50,
+            "clubId": "244",
+            "coachId": "28632"
+          },
+          "transferDestination": {
+            "competitionId": "TR1",
+            "countryId": 174,
+            "clubId": "11282",
+            "coachId": "73923"
+          },
+          "details": {
+            "playerId": "667965",
+            "date": "2022-08-01T00:00:00+02:00",
+            "contractUntilDate": "2023-06-30T00:00:00+02:00",
+            "seasonId": 2022,
+            "isPending": false,
+            "marketValue": {
+              "value": 200000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "200.00",
+                "suffix": "K"
+              }
+            },
+            "age": 20,
+            "remainingContractPeriod": {
+              "days": 699,
+              "daysDisplay": "1 Year, 10 Months, 29 Days"
+            },
+            "season": {
+              "id": 2022,
+              "display": "22/23",
+              "cyclicalName": "2023",
+              "nonCyclicalName": "22/23"
+            }
+          },
+          "typeDetails": {
+            "type": "ACTIVE_LOAN_TRANSFER",
+            "name": "loan transfer",
+            "feeDescription": "loan transfer"
+          },
+          "relativeUrl": "/oussama-targhalline/transfers/spieler/667965/transfer_id/3984956"
+        },
+        {
+          "id": "3488578",
+          "transferSource": {
+            "competitionId": "CN2C",
+            "countryId": 50,
+            "clubId": "8524",
+            "coachId": "31368"
+          },
+          "transferDestination": {
+            "competitionId": "FR1",
+            "countryId": 50,
+            "clubId": "244",
+            "coachId": "10819"
+          },
+          "details": {
+            "playerId": "667965",
+            "date": "2021-07-01T00:00:00+02:00",
+            "contractUntilDate": "2024-06-30T00:00:00+02:00",
+            "seasonId": 2021,
+            "isPending": false,
+            "marketValue": {
+              "value": 200000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "200.00",
+                "suffix": "K"
+              }
+            },
+            "age": 19,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2021,
+              "display": "21/22",
+              "cyclicalName": "2022",
+              "nonCyclicalName": "21/22"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/oussama-targhalline/transfers/spieler/667965/transfer_id/3488578"
+        },
+        {
+          "id": "3086346",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 107,
+            "clubId": "37546",
+            "coachId": "116810"
+          },
+          "transferDestination": {
+            "competitionId": "CN2C",
+            "countryId": 50,
+            "clubId": "8524",
+            "coachId": "7256"
+          },
+          "details": {
+            "playerId": "667965",
+            "date": "2020-10-02T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2020,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 18,
+            "fee": {
+              "value": 500000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "500.00",
+                "suffix": "K"
+              }
+            },
+            "season": {
+              "id": 2020,
+              "display": "20/21",
+              "cyclicalName": "2021",
+              "nonCyclicalName": "20/21"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/oussama-targhalline/transfers/spieler/667965/transfer_id/3086346"
+        }
+      ],
+      "pending": [],
+      "url": "",
+      "feeSum": {
+        "value": 950000,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "950.00",
+          "suffix": "K"
+        }
+      },
+      "averageAge": 23,
+      "totalMarketValue": {
+        "value": 12000000,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "12.00",
+          "suffix": "M"
+        }
+      }
+    },
+    "clubIds": [
+      "738",
+      "234",
+      "244",
+      "11282",
+      "8524",
+      "37546"
+    ],
+    "coachIds": [
+      "92937",
+      "19874",
+      "28632",
+      "23576",
+      "73923",
+      "31368",
+      "10819",
+      "116810",
+      "7256"
+    ],
+    "competitionIds": [
+      "FR1",
+      "NL1",
+      "FR2",
+      "TR1",
+      "CN2C"
+    ],
+    "mostRecentTransfer": {
+      "id": "5505766",
+      "transferSource": {
+        "competitionId": "FR1",
+        "countryId": 50,
+        "clubId": "738",
+        "coachId": "92937"
+      },
+      "transferDestination": {
+        "competitionId": "NL1",
+        "countryId": 122,
+        "clubId": "234",
+        "coachId": "19874"
+      },
+      "details": {
+        "playerId": "667965",
+        "date": "2025-02-04T00:00:00+01:00",
+        "contractUntilDate": "2028-06-30T00:00:00+02:00",
+        "seasonId": 2024,
+        "isPending": false,
+        "marketValue": {
+          "value": 3000000,
+          "currency": "EUR",
+          "compact": {
+            "prefix": "€",
+            "content": "3.00",
+            "suffix": "M"
+          }
+        },
+        "age": 22,
+        "fee": {
+          "value": 450000,
+          "currency": "EUR",
+          "compact": {
+            "prefix": "€",
+            "content": "450.00",
+            "suffix": "K"
+          }
+        },
+        "remainingContractPeriod": {
+          "days": 146,
+          "daysDisplay": "4 Months, 26 Days"
+        },
+        "season": {
+          "id": 2024,
+          "display": "24/25",
+          "cyclicalName": "2025",
+          "nonCyclicalName": "24/25"
+        }
+      },
+      "typeDetails": {
+        "type": "STANDARD",
+        "name": "",
+        "feeDescription": ""
+      },
+      "relativeUrl": "/oussama-targhalline/transfers/spieler/667965/transfer_id/5505766"
+    }
+  }
+}

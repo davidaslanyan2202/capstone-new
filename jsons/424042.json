@@ -1,0 +1,461 @@
+{
+  "success": true,
+  "message": "OK",
+  "data": {
+    "playerId": "424042",
+    "history": {
+      "terminated": [
+        {
+          "id": "3975511",
+          "transferSource": {
+            "competitionId": "IT1",
+            "countryId": 75,
+            "clubId": "410",
+            "coachId": "19718"
+          },
+          "transferDestination": {
+            "competitionId": "ES1",
+            "countryId": 157,
+            "clubId": "13",
+            "coachId": "2868"
+          },
+          "details": {
+            "playerId": "424042",
+            "date": "2022-07-28T00:00:00+02:00",
+            "contractUntilDate": "2027-06-30T00:00:00+02:00",
+            "seasonId": 2022,
+            "isPending": false,
+            "marketValue": {
+              "value": 20000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "20.00",
+                "suffix": "M"
+              }
+            },
+            "age": 24,
+            "fee": {
+              "value": 20000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "20.00",
+                "suffix": "M"
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 1433,
+              "daysDisplay": "3 Years, 11 Months, 2 Days"
+            },
+            "season": {
+              "id": 2022,
+              "display": "22/23",
+              "cyclicalName": "2023",
+              "nonCyclicalName": "22/23"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/nahuel-molina/transfers/spieler/424042/transfer_id/3975511"
+        },
+        {
+          "id": "2951581",
+          "transferSource": {
+            "competitionId": "CLPI",
+            "countryId": 9,
+            "clubId": "14831",
+            "coachId": "60365"
+          },
+          "transferDestination": {
+            "competitionId": "IT1",
+            "countryId": 75,
+            "clubId": "410",
+            "coachId": "7521"
+          },
+          "details": {
+            "playerId": "424042",
+            "date": "2020-09-15T00:00:00+02:00",
+            "contractUntilDate": "2026-06-30T00:00:00+02:00",
+            "seasonId": 2020,
+            "isPending": false,
+            "marketValue": {
+              "value": 2000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "2.00",
+                "suffix": "M"
+              }
+            },
+            "age": 22,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "Free Transfer",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2020,
+              "display": "20/21",
+              "cyclicalName": "2021",
+              "nonCyclicalName": "20/21"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/nahuel-molina/transfers/spieler/424042/transfer_id/2951581"
+        },
+        {
+          "id": "2383960",
+          "transferSource": {
+            "competitionId": "AR1N",
+            "countryId": 9,
+            "clubId": "1418",
+            "coachId": "9585"
+          },
+          "transferDestination": {
+            "competitionId": "CLPI",
+            "countryId": 9,
+            "clubId": "14831",
+            "coachId": "32077"
+          },
+          "details": {
+            "playerId": "424042",
+            "date": "2019-12-31T00:00:00+01:00",
+            "contractUntilDate": "2020-06-30T00:00:00+02:00",
+            "seasonId": 2019,
+            "isPending": false,
+            "marketValue": {
+              "value": 2500000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "2.50",
+                "suffix": "M"
+              }
+            },
+            "age": 21,
+            "remainingContractPeriod": {
+              "days": 0,
+              "daysDisplay": "Unknown"
+            },
+            "season": {
+              "id": 2019,
+              "display": "19/20",
+              "cyclicalName": "2020",
+              "nonCyclicalName": "19/20"
+            }
+          },
+          "typeDetails": {
+            "type": "RETURNED_FROM_PREVIOUS_LOAN",
+            "name": "End of loan",
+            "feeDescription": "End of loan"
+          },
+          "relativeUrl": "/nahuel-molina/transfers/spieler/424042/transfer_id/2383960"
+        },
+        {
+          "id": "2383959",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 9,
+            "clubId": "14831",
+            "coachId": "32077"
+          },
+          "transferDestination": {
+            "competitionId": "AR1N",
+            "countryId": 9,
+            "clubId": "1418",
+            "coachId": "7625"
+          },
+          "details": {
+            "playerId": "424042",
+            "date": "2019-01-25T00:00:00+01:00",
+            "contractUntilDate": "2019-12-31T00:00:00+01:00",
+            "seasonId": 2018,
+            "isPending": false,
+            "marketValue": {
+              "value": 750000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "750.00",
+                "suffix": "K"
+              }
+            },
+            "age": 20,
+            "season": {
+              "id": 2018,
+              "display": "18/19",
+              "cyclicalName": "2019",
+              "nonCyclicalName": "18/19"
+            }
+          },
+          "typeDetails": {
+            "type": "ACTIVE_LOAN_TRANSFER",
+            "name": "loan transfer",
+            "feeDescription": "loan transfer"
+          },
+          "relativeUrl": "/nahuel-molina/transfers/spieler/424042/transfer_id/2383959"
+        },
+        {
+          "id": "1999266",
+          "transferSource": {
+            "competitionId": "AR1N",
+            "countryId": 9,
+            "clubId": "2402",
+            "coachId": "34076"
+          },
+          "transferDestination": {
+            "competitionId": "",
+            "countryId": 9,
+            "clubId": "14831",
+            "coachId": "32077"
+          },
+          "details": {
+            "playerId": "424042",
+            "date": "2018-12-31T00:00:00+01:00",
+            "contractUntilDate": null,
+            "seasonId": 2018,
+            "isPending": false,
+            "marketValue": {
+              "value": 750000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "750.00",
+                "suffix": "K"
+              }
+            },
+            "age": 20,
+            "remainingContractPeriod": {
+              "days": 0,
+              "daysDisplay": "Unknown"
+            },
+            "season": {
+              "id": 2018,
+              "display": "18/19",
+              "cyclicalName": "2019",
+              "nonCyclicalName": "18/19"
+            }
+          },
+          "typeDetails": {
+            "type": "RETURNED_FROM_PREVIOUS_LOAN",
+            "name": "End of loan",
+            "feeDescription": "End of loan"
+          },
+          "relativeUrl": "/nahuel-molina/transfers/spieler/424042/transfer_id/1999266"
+        },
+        {
+          "id": "1999265",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 9,
+            "clubId": "14831",
+            "coachId": "32077"
+          },
+          "transferDestination": {
+            "competitionId": "AR1N",
+            "countryId": 9,
+            "clubId": "2402",
+            "coachId": "45679"
+          },
+          "details": {
+            "playerId": "424042",
+            "date": "2018-01-10T00:00:00+01:00",
+            "contractUntilDate": "2018-12-31T00:00:00+01:00",
+            "seasonId": 2017,
+            "isPending": false,
+            "marketValue": {
+              "value": 300000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "300.00",
+                "suffix": "K"
+              }
+            },
+            "age": 19,
+            "season": {
+              "id": 2017,
+              "display": "17/18",
+              "cyclicalName": "2018",
+              "nonCyclicalName": "17/18"
+            }
+          },
+          "typeDetails": {
+            "type": "ACTIVE_LOAN_TRANSFER",
+            "name": "loan transfer",
+            "feeDescription": "loan transfer"
+          },
+          "relativeUrl": "/nahuel-molina/transfers/spieler/424042/transfer_id/1999265"
+        },
+        {
+          "id": "1446718",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 9,
+            "clubId": "15098",
+            "coachId": "0"
+          },
+          "transferDestination": {
+            "competitionId": "",
+            "countryId": 9,
+            "clubId": "14831",
+            "coachId": "32077"
+          },
+          "details": {
+            "playerId": "424042",
+            "date": "2015-07-01T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2015,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 17,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2015,
+              "display": "15/16",
+              "cyclicalName": "2016",
+              "nonCyclicalName": "15/16"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/nahuel-molina/transfers/spieler/424042/transfer_id/1446718"
+        }
+      ],
+      "pending": [],
+      "url": "",
+      "feeSum": {
+        "value": 20000000,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "20.00",
+          "suffix": "M"
+        }
+      },
+      "averageAge": 28,
+      "totalMarketValue": {
+        "value": 15000000,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "15.00",
+          "suffix": "M"
+        }
+      }
+    },
+    "clubIds": [
+      "410",
+      "13",
+      "14831",
+      "1418",
+      "2402",
+      "15098"
+    ],
+    "coachIds": [
+      "19718",
+      "2868",
+      "60365",
+      "7521",
+      "9585",
+      "32077",
+      "7625",
+      "34076",
+      "45679"
+    ],
+    "competitionIds": [
+      "IT1",
+      "ES1",
+      "CLPI",
+      "AR1N"
+    ],
+    "mostRecentTransfer": {
+      "id": "3975511",
+      "transferSource": {
+        "competitionId": "IT1",
+        "countryId": 75,
+        "clubId": "410",
+        "coachId": "19718"
+      },
+      "transferDestination": {
+        "competitionId": "ES1",
+        "countryId": 157,
+        "clubId": "13",
+        "coachId": "2868"
+      },
+      "details": {
+        "playerId": "424042",
+        "date": "2022-07-28T00:00:00+02:00",
+        "contractUntilDate": "2027-06-30T00:00:00+02:00",
+        "seasonId": 2022,
+        "isPending": false,
+        "marketValue": {
+          "value": 20000000,
+          "currency": "EUR",
+          "compact": {
+            "prefix": "€",
+            "content": "20.00",
+            "suffix": "M"
+          }
+        },
+        "age": 24,
+        "fee": {
+          "value": 20000000,
+          "currency": "EUR",
+          "compact": {
+            "prefix": "€",
+            "content": "20.00",
+            "suffix": "M"
+          }
+        },
+        "remainingContractPeriod": {
+          "days": 1433,
+          "daysDisplay": "3 Years, 11 Months, 2 Days"
+        },
+        "season": {
+          "id": 2022,
+          "display": "22/23",
+          "cyclicalName": "2023",
+          "nonCyclicalName": "22/23"
+        }
+      },
+      "typeDetails": {
+        "type": "STANDARD",
+        "name": "",
+        "feeDescription": ""
+      },
+      "relativeUrl": "/nahuel-molina/transfers/spieler/424042/transfer_id/3975511"
+    }
+  }
+}

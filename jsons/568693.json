@@ -1,0 +1,304 @@
+{
+  "success": true,
+  "message": "OK",
+  "data": {
+    "playerId": "568693",
+    "history": {
+      "terminated": [
+        {
+          "id": "3521653",
+          "transferSource": {
+            "competitionId": "FR1",
+            "countryId": 50,
+            "clubId": "347",
+            "coachId": "1227"
+          },
+          "transferDestination": {
+            "competitionId": "GB1",
+            "countryId": 189,
+            "clubId": "148",
+            "coachId": "3517"
+          },
+          "details": {
+            "playerId": "568693",
+            "date": "2022-06-30T00:00:00+02:00",
+            "contractUntilDate": "2030-06-30T00:00:00+02:00",
+            "seasonId": 2021,
+            "isPending": false,
+            "marketValue": {
+              "value": 15000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "15.00",
+                "suffix": "M"
+              }
+            },
+            "age": 19,
+            "remainingContractPeriod": {
+              "days": 0,
+              "daysDisplay": "Unknown"
+            },
+            "season": {
+              "id": 2021,
+              "display": "21/22",
+              "cyclicalName": "2022",
+              "nonCyclicalName": "21/22"
+            }
+          },
+          "typeDetails": {
+            "type": "RETURNED_FROM_PREVIOUS_LOAN",
+            "name": "End of loan",
+            "feeDescription": "End of loan"
+          },
+          "relativeUrl": "/pape-matar-sarr/transfers/spieler/568693/transfer_id/3521653"
+        },
+        {
+          "id": "3521652",
+          "transferSource": {
+            "competitionId": "GB1",
+            "countryId": 189,
+            "clubId": "148",
+            "coachId": "16520"
+          },
+          "transferDestination": {
+            "competitionId": "FR1",
+            "countryId": 50,
+            "clubId": "347",
+            "coachId": "2302"
+          },
+          "details": {
+            "playerId": "568693",
+            "date": "2021-08-28T00:00:00+02:00",
+            "contractUntilDate": "2022-06-30T00:00:00+02:00",
+            "seasonId": 2021,
+            "isPending": false,
+            "marketValue": {
+              "value": 10000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "10.00",
+                "suffix": "M"
+              }
+            },
+            "age": 18,
+            "remainingContractPeriod": {
+              "days": 3228,
+              "daysDisplay": "8 Years, 10 Months, 2 Days"
+            },
+            "season": {
+              "id": 2021,
+              "display": "21/22",
+              "cyclicalName": "2022",
+              "nonCyclicalName": "21/22"
+            }
+          },
+          "typeDetails": {
+            "type": "ACTIVE_LOAN_TRANSFER",
+            "name": "loan transfer",
+            "feeDescription": "loan transfer"
+          },
+          "relativeUrl": "/pape-matar-sarr/transfers/spieler/568693/transfer_id/3521652"
+        },
+        {
+          "id": "3521651",
+          "transferSource": {
+            "competitionId": "FR1",
+            "countryId": 50,
+            "clubId": "347",
+            "coachId": "2302"
+          },
+          "transferDestination": {
+            "competitionId": "GB1",
+            "countryId": 189,
+            "clubId": "148",
+            "coachId": "16520"
+          },
+          "details": {
+            "playerId": "568693",
+            "date": "2021-08-27T00:00:00+02:00",
+            "contractUntilDate": "2030-06-30T00:00:00+02:00",
+            "seasonId": 2021,
+            "isPending": false,
+            "marketValue": {
+              "value": 10000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "10.00",
+                "suffix": "M"
+              }
+            },
+            "age": 18,
+            "fee": {
+              "value": 16900000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "16.90",
+                "suffix": "M"
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 1403,
+              "daysDisplay": "3 Years, 10 Months, 3 Days"
+            },
+            "season": {
+              "id": 2021,
+              "display": "21/22",
+              "cyclicalName": "2022",
+              "nonCyclicalName": "21/22"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/pape-matar-sarr/transfers/spieler/568693/transfer_id/3521651"
+        },
+        {
+          "id": "3062179",
+          "transferSource": {
+            "competitionId": "SEN1",
+            "countryId": 149,
+            "clubId": "30031",
+            "coachId": "72810"
+          },
+          "transferDestination": {
+            "competitionId": "FR1",
+            "countryId": 50,
+            "clubId": "347",
+            "coachId": "27454"
+          },
+          "details": {
+            "playerId": "568693",
+            "date": "2020-09-15T00:00:00+02:00",
+            "contractUntilDate": "2025-06-30T00:00:00+02:00",
+            "seasonId": 2020,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 18,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "?",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2020,
+              "display": "20/21",
+              "cyclicalName": "2021",
+              "nonCyclicalName": "20/21"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/pape-matar-sarr/transfers/spieler/568693/transfer_id/3062179"
+        }
+      ],
+      "pending": [],
+      "url": "",
+      "feeSum": {
+        "value": 16900000,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "16.90",
+          "suffix": "M"
+        }
+      },
+      "averageAge": 23,
+      "totalMarketValue": {
+        "value": 32000000,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "32.00",
+          "suffix": "M"
+        }
+      }
+    },
+    "clubIds": [
+      "347",
+      "148",
+      "30031"
+    ],
+    "coachIds": [
+      "1227",
+      "3517",
+      "16520",
+      "2302",
+      "72810",
+      "27454"
+    ],
+    "competitionIds": [
+      "FR1",
+      "GB1",
+      "SEN1"
+    ],
+    "mostRecentTransfer": {
+      "id": "3521653",
+      "transferSource": {
+        "competitionId": "FR1",
+        "countryId": 50,
+        "clubId": "347",
+        "coachId": "1227"
+      },
+      "transferDestination": {
+        "competitionId": "GB1",
+        "countryId": 189,
+        "clubId": "148",
+        "coachId": "3517"
+      },
+      "details": {
+        "playerId": "568693",
+        "date": "2022-06-30T00:00:00+02:00",
+        "contractUntilDate": "2030-06-30T00:00:00+02:00",
+        "seasonId": 2021,
+        "isPending": false,
+        "marketValue": {
+          "value": 15000000,
+          "currency": "EUR",
+          "compact": {
+            "prefix": "€",
+            "content": "15.00",
+            "suffix": "M"
+          }
+        },
+        "age": 19,
+        "remainingContractPeriod": {
+          "days": 0,
+          "daysDisplay": "Unknown"
+        },
+        "season": {
+          "id": 2021,
+          "display": "21/22",
+          "cyclicalName": "2022",
+          "nonCyclicalName": "21/22"
+        }
+      },
+      "typeDetails": {
+        "type": "RETURNED_FROM_PREVIOUS_LOAN",
+        "name": "End of loan",
+        "feeDescription": "End of loan"
+      },
+      "relativeUrl": "/pape-matar-sarr/transfers/spieler/568693/transfer_id/3521653"
+    }
+  }
+}

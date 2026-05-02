@@ -1,0 +1,467 @@
+{
+  "success": true,
+  "message": "OK",
+  "data": {
+    "playerId": "429014",
+    "history": {
+      "terminated": [
+        {
+          "id": "4024198",
+          "transferSource": {
+            "competitionId": "GB1",
+            "countryId": 189,
+            "clubId": "543",
+            "coachId": "61477"
+          },
+          "transferDestination": {
+            "competitionId": "GB1",
+            "countryId": 189,
+            "clubId": "703",
+            "coachId": "37574"
+          },
+          "details": {
+            "playerId": "429014",
+            "date": "2022-08-19T00:00:00+02:00",
+            "contractUntilDate": "2028-06-30T00:00:00+02:00",
+            "seasonId": 2022,
+            "isPending": false,
+            "marketValue": {
+              "value": 11000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "11.00",
+                "suffix": "M"
+              }
+            },
+            "age": 22,
+            "fee": {
+              "value": 29500000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "29.50",
+                "suffix": "M"
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 681,
+              "daysDisplay": "1 Year, 10 Months, 11 Days"
+            },
+            "season": {
+              "id": 2022,
+              "display": "22/23",
+              "cyclicalName": "2023",
+              "nonCyclicalName": "22/23"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/morgan-gibbs-white/transfers/spieler/429014/transfer_id/4024198"
+        },
+        {
+          "id": "3530503",
+          "transferSource": {
+            "competitionId": "GB2",
+            "countryId": 189,
+            "clubId": "350",
+            "coachId": "45358"
+          },
+          "transferDestination": {
+            "competitionId": "GB1",
+            "countryId": 189,
+            "clubId": "543",
+            "coachId": "61477"
+          },
+          "details": {
+            "playerId": "429014",
+            "date": "2022-05-31T00:00:00+02:00",
+            "contractUntilDate": "2024-06-30T00:00:00+02:00",
+            "seasonId": 2021,
+            "isPending": false,
+            "marketValue": {
+              "value": 11000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "11.00",
+                "suffix": "M"
+              }
+            },
+            "age": 22,
+            "remainingContractPeriod": {
+              "days": 0,
+              "daysDisplay": "Unknown"
+            },
+            "season": {
+              "id": 2021,
+              "display": "21/22",
+              "cyclicalName": "2022",
+              "nonCyclicalName": "21/22"
+            }
+          },
+          "typeDetails": {
+            "type": "RETURNED_FROM_PREVIOUS_LOAN",
+            "name": "End of loan",
+            "feeDescription": "End of loan"
+          },
+          "relativeUrl": "/morgan-gibbs-white/transfers/spieler/429014/transfer_id/3530503"
+        },
+        {
+          "id": "3530502",
+          "transferSource": {
+            "competitionId": "GB1",
+            "countryId": 189,
+            "clubId": "543",
+            "coachId": "61477"
+          },
+          "transferDestination": {
+            "competitionId": "GB2",
+            "countryId": 189,
+            "clubId": "350",
+            "coachId": "5627"
+          },
+          "details": {
+            "playerId": "429014",
+            "date": "2021-08-31T00:00:00+02:00",
+            "contractUntilDate": "2022-05-31T00:00:00+02:00",
+            "seasonId": 2021,
+            "isPending": false,
+            "marketValue": {
+              "value": 7000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "7.00",
+                "suffix": "M"
+              }
+            },
+            "age": 21,
+            "remainingContractPeriod": {
+              "days": 668,
+              "daysDisplay": "1 Year, 9 Months, 30 Days"
+            },
+            "season": {
+              "id": 2021,
+              "display": "21/22",
+              "cyclicalName": "2022",
+              "nonCyclicalName": "21/22"
+            }
+          },
+          "typeDetails": {
+            "type": "ACTIVE_LOAN_TRANSFER",
+            "name": "loan transfer",
+            "feeDescription": "loan transfer"
+          },
+          "relativeUrl": "/morgan-gibbs-white/transfers/spieler/429014/transfer_id/3530502"
+        },
+        {
+          "id": "3028341",
+          "transferSource": {
+            "competitionId": "GB2",
+            "countryId": 189,
+            "clubId": "2288",
+            "coachId": "37574"
+          },
+          "transferDestination": {
+            "competitionId": "GB1",
+            "countryId": 189,
+            "clubId": "543",
+            "coachId": "16520"
+          },
+          "details": {
+            "playerId": "429014",
+            "date": "2021-01-06T00:00:00+01:00",
+            "contractUntilDate": "2023-06-30T00:00:00+02:00",
+            "seasonId": 2020,
+            "isPending": false,
+            "marketValue": {
+              "value": 6000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "6.00",
+                "suffix": "M"
+              }
+            },
+            "age": 20,
+            "remainingContractPeriod": {
+              "days": 145,
+              "daysDisplay": "4 Months, 25 Days"
+            },
+            "season": {
+              "id": 2020,
+              "display": "20/21",
+              "cyclicalName": "2021",
+              "nonCyclicalName": "20/21"
+            }
+          },
+          "typeDetails": {
+            "type": "RETURNED_FROM_PREVIOUS_LOAN",
+            "name": "End of loan",
+            "feeDescription": "End of loan"
+          },
+          "relativeUrl": "/morgan-gibbs-white/transfers/spieler/429014/transfer_id/3028341"
+        },
+        {
+          "id": "3028340",
+          "transferSource": {
+            "competitionId": "GB1",
+            "countryId": 189,
+            "clubId": "543",
+            "coachId": "16520"
+          },
+          "transferDestination": {
+            "competitionId": "GB2",
+            "countryId": 189,
+            "clubId": "2288",
+            "coachId": "37574"
+          },
+          "details": {
+            "playerId": "429014",
+            "date": "2020-08-25T00:00:00+02:00",
+            "contractUntilDate": "2021-05-31T00:00:00+02:00",
+            "seasonId": 2020,
+            "isPending": false,
+            "marketValue": {
+              "value": 7200000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "7.00",
+                "suffix": "M"
+              }
+            },
+            "age": 20,
+            "remainingContractPeriod": {
+              "days": 1405,
+              "daysDisplay": "3 Years, 10 Months, 5 Days"
+            },
+            "season": {
+              "id": 2020,
+              "display": "20/21",
+              "cyclicalName": "2021",
+              "nonCyclicalName": "20/21"
+            }
+          },
+          "typeDetails": {
+            "type": "ACTIVE_LOAN_TRANSFER",
+            "name": "loan transfer",
+            "feeDescription": "loan transfer"
+          },
+          "relativeUrl": "/morgan-gibbs-white/transfers/spieler/429014/transfer_id/3028340"
+        },
+        {
+          "id": "2056659",
+          "transferSource": {
+            "competitionId": "18GB",
+            "countryId": 189,
+            "clubId": "12801",
+            "coachId": "34710"
+          },
+          "transferDestination": {
+            "competitionId": "GB2",
+            "countryId": 189,
+            "clubId": "543",
+            "coachId": "2460"
+          },
+          "details": {
+            "playerId": "429014",
+            "date": "2017-01-01T00:00:00+01:00",
+            "contractUntilDate": "2024-06-30T00:00:00+02:00",
+            "seasonId": 2016,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 16,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2016,
+              "display": "16/17",
+              "cyclicalName": "2017",
+              "nonCyclicalName": "16/17"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/morgan-gibbs-white/transfers/spieler/429014/transfer_id/2056659"
+        },
+        {
+          "id": "2097249",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 189,
+            "clubId": "54097",
+            "coachId": "134278"
+          },
+          "transferDestination": {
+            "competitionId": "18GB",
+            "countryId": 189,
+            "clubId": "12801",
+            "coachId": "34710"
+          },
+          "details": {
+            "playerId": "429014",
+            "date": "2016-07-01T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2016,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 16,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2016,
+              "display": "16/17",
+              "cyclicalName": "2017",
+              "nonCyclicalName": "16/17"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/morgan-gibbs-white/transfers/spieler/429014/transfer_id/2097249"
+        }
+      ],
+      "pending": [],
+      "url": "",
+      "feeSum": {
+        "value": 29500000,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "29.50",
+          "suffix": "M"
+        }
+      },
+      "averageAge": 26,
+      "totalMarketValue": {
+        "value": 60000000,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "60.00",
+          "suffix": "M"
+        }
+      }
+    },
+    "clubIds": [
+      "543",
+      "703",
+      "350",
+      "2288",
+      "12801",
+      "54097"
+    ],
+    "coachIds": [
+      "61477",
+      "37574",
+      "45358",
+      "5627",
+      "16520",
+      "34710",
+      "2460",
+      "134278"
+    ],
+    "competitionIds": [
+      "GB1",
+      "GB2",
+      "18GB"
+    ],
+    "mostRecentTransfer": {
+      "id": "4024198",
+      "transferSource": {
+        "competitionId": "GB1",
+        "countryId": 189,
+        "clubId": "543",
+        "coachId": "61477"
+      },
+      "transferDestination": {
+        "competitionId": "GB1",
+        "countryId": 189,
+        "clubId": "703",
+        "coachId": "37574"
+      },
+      "details": {
+        "playerId": "429014",
+        "date": "2022-08-19T00:00:00+02:00",
+        "contractUntilDate": "2028-06-30T00:00:00+02:00",
+        "seasonId": 2022,
+        "isPending": false,
+        "marketValue": {
+          "value": 11000000,
+          "currency": "EUR",
+          "compact": {
+            "prefix": "€",
+            "content": "11.00",
+            "suffix": "M"
+          }
+        },
+        "age": 22,
+        "fee": {
+          "value": 29500000,
+          "currency": "EUR",
+          "compact": {
+            "prefix": "€",
+            "content": "29.50",
+            "suffix": "M"
+          }
+        },
+        "remainingContractPeriod": {
+          "days": 681,
+          "daysDisplay": "1 Year, 10 Months, 11 Days"
+        },
+        "season": {
+          "id": 2022,
+          "display": "22/23",
+          "cyclicalName": "2023",
+          "nonCyclicalName": "22/23"
+        }
+      },
+      "typeDetails": {
+        "type": "STANDARD",
+        "name": "",
+        "feeDescription": ""
+      },
+      "relativeUrl": "/morgan-gibbs-white/transfers/spieler/429014/transfer_id/4024198"
+    }
+  }
+}

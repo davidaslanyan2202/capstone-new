@@ -1,0 +1,204 @@
+{
+  "success": true,
+  "message": "OK",
+  "data": {
+    "playerId": "209212",
+    "history": {
+      "terminated": [
+        {
+          "id": "911803",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 189,
+            "clubId": "9606",
+            "coachId": "38908"
+          },
+          "transferDestination": {
+            "competitionId": "GB2",
+            "countryId": 189,
+            "clubId": "1237",
+            "coachId": "16362"
+          },
+          "details": {
+            "playerId": "209212",
+            "date": "2013-07-01T00:00:00+02:00",
+            "contractUntilDate": "2026-06-30T00:00:00+02:00",
+            "seasonId": 2013,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 18,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2013,
+              "display": "13/14",
+              "cyclicalName": "2014",
+              "nonCyclicalName": "13/14"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/solly-march/transfers/spieler/209212/transfer_id/911803"
+        },
+        {
+          "id": "657310",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 189,
+            "clubId": "22550",
+            "coachId": "20724"
+          },
+          "transferDestination": {
+            "competitionId": "",
+            "countryId": 189,
+            "clubId": "9606",
+            "coachId": "0"
+          },
+          "details": {
+            "playerId": "209212",
+            "date": "2011-11-01T00:00:00+01:00",
+            "contractUntilDate": "2013-06-30T00:00:00+02:00",
+            "seasonId": 2011,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 17,
+            "fee": {
+              "value": 5000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2011,
+              "display": "11/12",
+              "cyclicalName": "2012",
+              "nonCyclicalName": "11/12"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/solly-march/transfers/spieler/209212/transfer_id/657310"
+        }
+      ],
+      "pending": [],
+      "url": "",
+      "feeSum": {
+        "value": 5000,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "0.00",
+          "suffix": ""
+        }
+      },
+      "averageAge": 31,
+      "totalMarketValue": {
+        "value": 2000000,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "2.00",
+          "suffix": "M"
+        }
+      }
+    },
+    "clubIds": [
+      "9606",
+      "1237",
+      "22550"
+    ],
+    "coachIds": [
+      "38908",
+      "16362",
+      "20724"
+    ],
+    "competitionIds": [
+      "GB2"
+    ],
+    "mostRecentTransfer": {
+      "id": "911803",
+      "transferSource": {
+        "competitionId": "",
+        "countryId": 189,
+        "clubId": "9606",
+        "coachId": "38908"
+      },
+      "transferDestination": {
+        "competitionId": "GB2",
+        "countryId": 189,
+        "clubId": "1237",
+        "coachId": "16362"
+      },
+      "details": {
+        "playerId": "209212",
+        "date": "2013-07-01T00:00:00+02:00",
+        "contractUntilDate": "2026-06-30T00:00:00+02:00",
+        "seasonId": 2013,
+        "isPending": false,
+        "marketValue": {
+          "value": 0,
+          "currency": "EUR",
+          "compact": {
+            "prefix": "€",
+            "content": "0.00",
+            "suffix": ""
+          }
+        },
+        "age": 18,
+        "fee": {
+          "value": null,
+          "currency": "",
+          "compact": {
+            "prefix": "",
+            "content": "-",
+            "suffix": ""
+          }
+        },
+        "season": {
+          "id": 2013,
+          "display": "13/14",
+          "cyclicalName": "2014",
+          "nonCyclicalName": "13/14"
+        }
+      },
+      "typeDetails": {
+        "type": "STANDARD",
+        "name": "",
+        "feeDescription": ""
+      },
+      "relativeUrl": "/solly-march/transfers/spieler/209212/transfer_id/911803"
+    }
+  }
+}

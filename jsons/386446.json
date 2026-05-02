@@ -1,0 +1,529 @@
+{
+  "success": true,
+  "message": "OK",
+  "data": {
+    "playerId": "386446",
+    "history": {
+      "terminated": [
+        {
+          "id": "5115930",
+          "transferSource": {
+            "competitionId": "IT1",
+            "countryId": 75,
+            "clubId": "416",
+            "coachId": "31876"
+          },
+          "transferDestination": {
+            "competitionId": "IT1",
+            "countryId": 75,
+            "clubId": "6195",
+            "coachId": "3517"
+          },
+          "details": {
+            "playerId": "386446",
+            "date": "2024-07-13T00:00:00+02:00",
+            "contractUntilDate": "2029-06-30T00:00:00+02:00",
+            "seasonId": 2024,
+            "isPending": false,
+            "marketValue": {
+              "value": 35000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "35.00",
+                "suffix": "M"
+              }
+            },
+            "age": 25,
+            "fee": {
+              "value": 36500000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "36.50",
+                "suffix": "M"
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 1448,
+              "daysDisplay": "3 Years, 11 Months, 17 Days"
+            },
+            "season": {
+              "id": 2024,
+              "display": "24/25",
+              "cyclicalName": "2025",
+              "nonCyclicalName": "24/25"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/alessandro-buongiorno/transfers/spieler/386446/transfer_id/5115930"
+        },
+        {
+          "id": "2754137",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 75,
+            "clubId": "4331",
+            "coachId": "42064"
+          },
+          "transferDestination": {
+            "competitionId": "IT1",
+            "countryId": 75,
+            "clubId": "416",
+            "coachId": "3257"
+          },
+          "details": {
+            "playerId": "386446",
+            "date": "2020-08-31T00:00:00+02:00",
+            "contractUntilDate": "2028-06-30T00:00:00+02:00",
+            "seasonId": 2019,
+            "isPending": false,
+            "marketValue": {
+              "value": 600000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "600.00",
+                "suffix": "K"
+              }
+            },
+            "age": 21,
+            "remainingContractPeriod": {
+              "days": 0,
+              "daysDisplay": "Unknown"
+            },
+            "season": {
+              "id": 2019,
+              "display": "19/20",
+              "cyclicalName": "2020",
+              "nonCyclicalName": "19/20"
+            }
+          },
+          "typeDetails": {
+            "type": "RETURNED_FROM_PREVIOUS_LOAN",
+            "name": "End of loan",
+            "feeDescription": "End of loan"
+          },
+          "relativeUrl": "/alessandro-buongiorno/transfers/spieler/386446/transfer_id/2754137"
+        },
+        {
+          "id": "2754136",
+          "transferSource": {
+            "competitionId": "IT1",
+            "countryId": 75,
+            "clubId": "416",
+            "coachId": "1933"
+          },
+          "transferDestination": {
+            "competitionId": "IT2",
+            "countryId": 75,
+            "clubId": "4331",
+            "coachId": "2126"
+          },
+          "details": {
+            "playerId": "386446",
+            "date": "2020-01-11T00:00:00+01:00",
+            "contractUntilDate": "2020-08-31T00:00:00+02:00",
+            "seasonId": 2019,
+            "isPending": false,
+            "marketValue": {
+              "value": 500000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "500.00",
+                "suffix": "K"
+              }
+            },
+            "age": 20,
+            "remainingContractPeriod": {
+              "days": 901,
+              "daysDisplay": "2 Years, 5 Months, 19 Days"
+            },
+            "season": {
+              "id": 2019,
+              "display": "19/20",
+              "cyclicalName": "2020",
+              "nonCyclicalName": "19/20"
+            }
+          },
+          "typeDetails": {
+            "type": "ACTIVE_LOAN_TRANSFER",
+            "name": "loan transfer",
+            "feeDescription": "loan transfer"
+          },
+          "relativeUrl": "/alessandro-buongiorno/transfers/spieler/386446/transfer_id/2754136"
+        },
+        {
+          "id": "2219167",
+          "transferSource": {
+            "competitionId": "IT2",
+            "countryId": 75,
+            "clubId": "4102",
+            "coachId": "2126"
+          },
+          "transferDestination": {
+            "competitionId": "IT1",
+            "countryId": 75,
+            "clubId": "416",
+            "coachId": "1933"
+          },
+          "details": {
+            "playerId": "386446",
+            "date": "2019-06-30T00:00:00+02:00",
+            "contractUntilDate": "2022-06-30T00:00:00+02:00",
+            "seasonId": 2018,
+            "isPending": false,
+            "marketValue": {
+              "value": 500000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "500.00",
+                "suffix": "K"
+              }
+            },
+            "age": 20,
+            "remainingContractPeriod": {
+              "days": 0,
+              "daysDisplay": "Unknown"
+            },
+            "season": {
+              "id": 2018,
+              "display": "18/19",
+              "cyclicalName": "2019",
+              "nonCyclicalName": "18/19"
+            }
+          },
+          "typeDetails": {
+            "type": "RETURNED_FROM_PREVIOUS_LOAN",
+            "name": "End of loan",
+            "feeDescription": "End of loan"
+          },
+          "relativeUrl": "/alessandro-buongiorno/transfers/spieler/386446/transfer_id/2219167"
+        },
+        {
+          "id": "2219166",
+          "transferSource": {
+            "competitionId": "IT1",
+            "countryId": 75,
+            "clubId": "416",
+            "coachId": "1933"
+          },
+          "transferDestination": {
+            "competitionId": "IT2",
+            "countryId": 75,
+            "clubId": "4102",
+            "coachId": "42318"
+          },
+          "details": {
+            "playerId": "386446",
+            "date": "2018-08-10T00:00:00+02:00",
+            "contractUntilDate": "2019-06-30T00:00:00+02:00",
+            "seasonId": 2018,
+            "isPending": false,
+            "marketValue": {
+              "value": 125000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "125.00",
+                "suffix": "K"
+              }
+            },
+            "age": 19,
+            "remainingContractPeriod": {
+              "days": 3612,
+              "daysDisplay": "9 Years, 10 Months, 20 Days"
+            },
+            "season": {
+              "id": 2018,
+              "display": "18/19",
+              "cyclicalName": "2019",
+              "nonCyclicalName": "18/19"
+            }
+          },
+          "typeDetails": {
+            "type": "ACTIVE_LOAN_TRANSFER",
+            "name": "loan transfer",
+            "feeDescription": "loan transfer"
+          },
+          "relativeUrl": "/alessandro-buongiorno/transfers/spieler/386446/transfer_id/2219166"
+        },
+        {
+          "id": "3137599",
+          "transferSource": {
+            "competitionId": "IJ1",
+            "countryId": 75,
+            "clubId": "12130",
+            "coachId": "41838"
+          },
+          "transferDestination": {
+            "competitionId": "IT1",
+            "countryId": 75,
+            "clubId": "416",
+            "coachId": "1933"
+          },
+          "details": {
+            "playerId": "386446",
+            "date": "2018-07-01T00:00:00+02:00",
+            "contractUntilDate": "2028-06-30T00:00:00+02:00",
+            "seasonId": 2018,
+            "isPending": false,
+            "marketValue": {
+              "value": 125000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "125.00",
+                "suffix": "K"
+              }
+            },
+            "age": 19,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 1460,
+              "daysDisplay": "3 Years, 11 Months, 29 Days"
+            },
+            "season": {
+              "id": 2018,
+              "display": "18/19",
+              "cyclicalName": "2019",
+              "nonCyclicalName": "18/19"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/alessandro-buongiorno/transfers/spieler/386446/transfer_id/3137599"
+        },
+        {
+          "id": "1578795",
+          "transferSource": {
+            "competitionId": "ITJ4",
+            "countryId": 75,
+            "clubId": "49746",
+            "coachId": "27235"
+          },
+          "transferDestination": {
+            "competitionId": "ITJ2",
+            "countryId": 75,
+            "clubId": "12130",
+            "coachId": "41838"
+          },
+          "details": {
+            "playerId": "386446",
+            "date": "2016-07-01T00:00:00+02:00",
+            "contractUntilDate": "2022-06-30T00:00:00+02:00",
+            "seasonId": 2016,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 17,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2016,
+              "display": "16/17",
+              "cyclicalName": "2017",
+              "nonCyclicalName": "16/17"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/alessandro-buongiorno/transfers/spieler/386446/transfer_id/1578795"
+        },
+        {
+          "id": "2765454",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 75,
+            "clubId": "29351",
+            "coachId": "105874"
+          },
+          "transferDestination": {
+            "competitionId": "ITJ4",
+            "countryId": 75,
+            "clubId": "49746",
+            "coachId": "0"
+          },
+          "details": {
+            "playerId": "386446",
+            "date": "2015-07-01T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2015,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 16,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2015,
+              "display": "15/16",
+              "cyclicalName": "2016",
+              "nonCyclicalName": "15/16"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/alessandro-buongiorno/transfers/spieler/386446/transfer_id/2765454"
+        }
+      ],
+      "pending": [],
+      "url": "",
+      "feeSum": {
+        "value": 36500000,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "36.50",
+          "suffix": "M"
+        }
+      },
+      "averageAge": 26,
+      "totalMarketValue": {
+        "value": 35000000,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "35.00",
+          "suffix": "M"
+        }
+      }
+    },
+    "clubIds": [
+      "416",
+      "6195",
+      "4331",
+      "4102",
+      "12130",
+      "49746",
+      "29351"
+    ],
+    "coachIds": [
+      "31876",
+      "3517",
+      "42064",
+      "3257",
+      "1933",
+      "2126",
+      "42318",
+      "41838",
+      "27235",
+      "105874"
+    ],
+    "competitionIds": [
+      "IT1",
+      "IT2",
+      "IJ1",
+      "ITJ4",
+      "ITJ2"
+    ],
+    "mostRecentTransfer": {
+      "id": "5115930",
+      "transferSource": {
+        "competitionId": "IT1",
+        "countryId": 75,
+        "clubId": "416",
+        "coachId": "31876"
+      },
+      "transferDestination": {
+        "competitionId": "IT1",
+        "countryId": 75,
+        "clubId": "6195",
+        "coachId": "3517"
+      },
+      "details": {
+        "playerId": "386446",
+        "date": "2024-07-13T00:00:00+02:00",
+        "contractUntilDate": "2029-06-30T00:00:00+02:00",
+        "seasonId": 2024,
+        "isPending": false,
+        "marketValue": {
+          "value": 35000000,
+          "currency": "EUR",
+          "compact": {
+            "prefix": "€",
+            "content": "35.00",
+            "suffix": "M"
+          }
+        },
+        "age": 25,
+        "fee": {
+          "value": 36500000,
+          "currency": "EUR",
+          "compact": {
+            "prefix": "€",
+            "content": "36.50",
+            "suffix": "M"
+          }
+        },
+        "remainingContractPeriod": {
+          "days": 1448,
+          "daysDisplay": "3 Years, 11 Months, 17 Days"
+        },
+        "season": {
+          "id": 2024,
+          "display": "24/25",
+          "cyclicalName": "2025",
+          "nonCyclicalName": "24/25"
+        }
+      },
+      "typeDetails": {
+        "type": "STANDARD",
+        "name": "",
+        "feeDescription": ""
+      },
+      "relativeUrl": "/alessandro-buongiorno/transfers/spieler/386446/transfer_id/5115930"
+    }
+  }
+}

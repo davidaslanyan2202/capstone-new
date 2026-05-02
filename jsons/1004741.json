@@ -1,0 +1,215 @@
+{
+  "success": true,
+  "message": "OK",
+  "data": {
+    "playerId": "1004741",
+    "history": {
+      "terminated": [
+        {
+          "id": "4463638",
+          "transferSource": {
+            "competitionId": "BRA1",
+            "countryId": 26,
+            "clubId": "199",
+            "coachId": "4734"
+          },
+          "transferDestination": {
+            "competitionId": "RU1",
+            "countryId": 141,
+            "clubId": "964",
+            "coachId": "34354"
+          },
+          "details": {
+            "playerId": "1004741",
+            "date": "2024-02-05T00:00:00+01:00",
+            "contractUntilDate": "2030-06-30T00:00:00+02:00",
+            "seasonId": 2023,
+            "isPending": false,
+            "marketValue": {
+              "value": 7000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "7.00",
+                "suffix": "M"
+              }
+            },
+            "age": 18,
+            "fee": {
+              "value": 9000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "9.00",
+                "suffix": "M"
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 785,
+              "daysDisplay": "2 Years, 1 Month, 26 Days"
+            },
+            "season": {
+              "id": 2023,
+              "display": "23/24",
+              "cyclicalName": "2024",
+              "nonCyclicalName": "23/24"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/pedro/transfers/spieler/1004741/transfer_id/4463638"
+        },
+        {
+          "id": "4307385",
+          "transferSource": {
+            "competitionId": "CB20",
+            "countryId": 26,
+            "clubId": "14876",
+            "coachId": "88566"
+          },
+          "transferDestination": {
+            "competitionId": "BRA1",
+            "countryId": 26,
+            "clubId": "199",
+            "coachId": "92611"
+          },
+          "details": {
+            "playerId": "1004741",
+            "date": "2023-02-01T00:00:00+01:00",
+            "contractUntilDate": "2026-03-31T00:00:00+02:00",
+            "seasonId": 2022,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 16,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2022,
+              "display": "22/23",
+              "cyclicalName": "2023",
+              "nonCyclicalName": "22/23"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/pedro/transfers/spieler/1004741/transfer_id/4307385"
+        }
+      ],
+      "pending": [],
+      "url": "",
+      "feeSum": {
+        "value": 9000000,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "9.00",
+          "suffix": "M"
+        }
+      },
+      "averageAge": 20,
+      "totalMarketValue": {
+        "value": 17000000,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "17.00",
+          "suffix": "M"
+        }
+      }
+    },
+    "clubIds": [
+      "199",
+      "964",
+      "14876"
+    ],
+    "coachIds": [
+      "4734",
+      "34354",
+      "88566",
+      "92611"
+    ],
+    "competitionIds": [
+      "BRA1",
+      "RU1",
+      "CB20"
+    ],
+    "mostRecentTransfer": {
+      "id": "4463638",
+      "transferSource": {
+        "competitionId": "BRA1",
+        "countryId": 26,
+        "clubId": "199",
+        "coachId": "4734"
+      },
+      "transferDestination": {
+        "competitionId": "RU1",
+        "countryId": 141,
+        "clubId": "964",
+        "coachId": "34354"
+      },
+      "details": {
+        "playerId": "1004741",
+        "date": "2024-02-05T00:00:00+01:00",
+        "contractUntilDate": "2030-06-30T00:00:00+02:00",
+        "seasonId": 2023,
+        "isPending": false,
+        "marketValue": {
+          "value": 7000000,
+          "currency": "EUR",
+          "compact": {
+            "prefix": "€",
+            "content": "7.00",
+            "suffix": "M"
+          }
+        },
+        "age": 18,
+        "fee": {
+          "value": 9000000,
+          "currency": "EUR",
+          "compact": {
+            "prefix": "€",
+            "content": "9.00",
+            "suffix": "M"
+          }
+        },
+        "remainingContractPeriod": {
+          "days": 785,
+          "daysDisplay": "2 Years, 1 Month, 26 Days"
+        },
+        "season": {
+          "id": 2023,
+          "display": "23/24",
+          "cyclicalName": "2024",
+          "nonCyclicalName": "23/24"
+        }
+      },
+      "typeDetails": {
+        "type": "STANDARD",
+        "name": "",
+        "feeDescription": ""
+      },
+      "relativeUrl": "/pedro/transfers/spieler/1004741/transfer_id/4463638"
+    }
+  }
+}

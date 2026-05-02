@@ -1,0 +1,403 @@
+{
+  "success": true,
+  "message": "OK",
+  "data": {
+    "playerId": "44420",
+    "history": {
+      "terminated": [
+        {
+          "id": "4412864",
+          "transferSource": {
+            "competitionId": "IT1",
+            "countryId": 75,
+            "clubId": "398",
+            "coachId": "10073"
+          },
+          "transferDestination": {
+            "competitionId": "",
+            "countryId": 0,
+            "clubId": "123",
+            "coachId": "0"
+          },
+          "details": {
+            "playerId": "44420",
+            "date": "2023-07-01T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2023,
+            "isPending": false,
+            "marketValue": {
+              "value": 300000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "300.00",
+                "suffix": "K"
+              }
+            },
+            "age": 36,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2023,
+              "display": "23/24",
+              "cyclicalName": "2024",
+              "nonCyclicalName": "23/24"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/stefan-radu/transfers/spieler/44420/transfer_id/4412864"
+        },
+        {
+          "id": "203272",
+          "transferSource": {
+            "competitionId": "RO1",
+            "countryId": 140,
+            "clubId": "312",
+            "coachId": "4796"
+          },
+          "transferDestination": {
+            "competitionId": "IT1",
+            "countryId": 75,
+            "clubId": "398",
+            "coachId": "516"
+          },
+          "details": {
+            "playerId": "44420",
+            "date": "2008-07-01T00:00:00+02:00",
+            "contractUntilDate": "2022-06-30T00:00:00+02:00",
+            "seasonId": 2008,
+            "isPending": false,
+            "marketValue": {
+              "value": 1400000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "1.40",
+                "suffix": "M"
+              }
+            },
+            "age": 21,
+            "fee": {
+              "value": 4750000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "4.75",
+                "suffix": "M"
+              }
+            },
+            "season": {
+              "id": 2008,
+              "display": "08/09",
+              "cyclicalName": "2009",
+              "nonCyclicalName": "08/09"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/stefan-radu/transfers/spieler/44420/transfer_id/203272"
+        },
+        {
+          "id": "173096",
+          "transferSource": {
+            "competitionId": "IT1",
+            "countryId": 75,
+            "clubId": "398",
+            "coachId": "516"
+          },
+          "transferDestination": {
+            "competitionId": "RO1",
+            "countryId": 140,
+            "clubId": "312",
+            "coachId": "5588"
+          },
+          "details": {
+            "playerId": "44420",
+            "date": "2008-06-30T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2007,
+            "isPending": false,
+            "marketValue": {
+              "value": 1400000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "1.40",
+                "suffix": "M"
+              }
+            },
+            "age": 21,
+            "season": {
+              "id": 2007,
+              "display": "07/08",
+              "cyclicalName": "2008",
+              "nonCyclicalName": "07/08"
+            }
+          },
+          "typeDetails": {
+            "type": "RETURNED_FROM_PREVIOUS_LOAN",
+            "name": "End of loan",
+            "feeDescription": "End of loan"
+          },
+          "relativeUrl": "/stefan-radu/transfers/spieler/44420/transfer_id/173096"
+        },
+        {
+          "id": "173097",
+          "transferSource": {
+            "competitionId": "RO1",
+            "countryId": 140,
+            "clubId": "312",
+            "coachId": "5588"
+          },
+          "transferDestination": {
+            "competitionId": "IT1",
+            "countryId": 75,
+            "clubId": "398",
+            "coachId": "516"
+          },
+          "details": {
+            "playerId": "44420",
+            "date": "2008-01-01T00:00:00+01:00",
+            "contractUntilDate": null,
+            "seasonId": 2007,
+            "isPending": false,
+            "marketValue": {
+              "value": 1400000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "1.40",
+                "suffix": "M"
+              }
+            },
+            "age": 21,
+            "season": {
+              "id": 2007,
+              "display": "07/08",
+              "cyclicalName": "2008",
+              "nonCyclicalName": "07/08"
+            }
+          },
+          "typeDetails": {
+            "type": "ACTIVE_LOAN_TRANSFER",
+            "name": "loan transfer",
+            "feeDescription": "loan transfer"
+          },
+          "relativeUrl": "/stefan-radu/transfers/spieler/44420/transfer_id/173097"
+        },
+        {
+          "id": "107073",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 140,
+            "clubId": "15947",
+            "coachId": "50021"
+          },
+          "transferDestination": {
+            "competitionId": "RO1",
+            "countryId": 140,
+            "clubId": "312",
+            "coachId": "4796"
+          },
+          "details": {
+            "playerId": "44420",
+            "date": "2006-07-01T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2006,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 19,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2006,
+              "display": "06/07",
+              "cyclicalName": "2007",
+              "nonCyclicalName": "06/07"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/stefan-radu/transfers/spieler/44420/transfer_id/107073"
+        },
+        {
+          "id": "488105",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 140,
+            "clubId": "14279",
+            "coachId": "0"
+          },
+          "transferDestination": {
+            "competitionId": "",
+            "countryId": 140,
+            "clubId": "15947",
+            "coachId": "0"
+          },
+          "details": {
+            "playerId": "44420",
+            "date": "2004-07-01T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2004,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 17,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2004,
+              "display": "04/05",
+              "cyclicalName": "2005",
+              "nonCyclicalName": "04/05"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/stefan-radu/transfers/spieler/44420/transfer_id/488105"
+        }
+      ],
+      "pending": [],
+      "url": "",
+      "feeSum": {
+        "value": 4750000,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "4.75",
+          "suffix": "M"
+        }
+      },
+      "averageAge": 39,
+      "totalMarketValue": {
+        "value": 0,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "0.00",
+          "suffix": ""
+        }
+      }
+    },
+    "clubIds": [
+      "398",
+      "123",
+      "312",
+      "15947",
+      "14279"
+    ],
+    "coachIds": [
+      "10073",
+      "4796",
+      "516",
+      "5588",
+      "50021"
+    ],
+    "competitionIds": [
+      "IT1",
+      "RO1"
+    ],
+    "mostRecentTransfer": {
+      "id": "4412864",
+      "transferSource": {
+        "competitionId": "IT1",
+        "countryId": 75,
+        "clubId": "398",
+        "coachId": "10073"
+      },
+      "transferDestination": {
+        "competitionId": "",
+        "countryId": 0,
+        "clubId": "123",
+        "coachId": "0"
+      },
+      "details": {
+        "playerId": "44420",
+        "date": "2023-07-01T00:00:00+02:00",
+        "contractUntilDate": null,
+        "seasonId": 2023,
+        "isPending": false,
+        "marketValue": {
+          "value": 300000,
+          "currency": "EUR",
+          "compact": {
+            "prefix": "€",
+            "content": "300.00",
+            "suffix": "K"
+          }
+        },
+        "age": 36,
+        "fee": {
+          "value": null,
+          "currency": "",
+          "compact": {
+            "prefix": "",
+            "content": "-",
+            "suffix": ""
+          }
+        },
+        "season": {
+          "id": 2023,
+          "display": "23/24",
+          "cyclicalName": "2024",
+          "nonCyclicalName": "23/24"
+        }
+      },
+      "typeDetails": {
+        "type": "STANDARD",
+        "name": "",
+        "feeDescription": ""
+      },
+      "relativeUrl": "/stefan-radu/transfers/spieler/44420/transfer_id/4412864"
+    }
+  }
+}

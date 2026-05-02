@@ -1,0 +1,274 @@
+{
+  "success": true,
+  "message": "OK",
+  "data": {
+    "playerId": "413403",
+    "history": {
+      "terminated": [
+        {
+          "id": "2549610",
+          "transferSource": {
+            "competitionId": "GB2",
+            "countryId": 189,
+            "clubId": "1148",
+            "coachId": "9002"
+          },
+          "transferDestination": {
+            "competitionId": "GB1",
+            "countryId": 189,
+            "clubId": "405",
+            "coachId": "15315"
+          },
+          "details": {
+            "playerId": "413403",
+            "date": "2019-07-11T00:00:00+02:00",
+            "contractUntilDate": "2028-06-30T00:00:00+02:00",
+            "seasonId": 2019,
+            "isPending": false,
+            "marketValue": {
+              "value": 3500000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "3.50",
+                "suffix": "M"
+              }
+            },
+            "age": 21,
+            "fee": {
+              "value": 13300000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "13.30",
+                "suffix": "M"
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 720,
+              "daysDisplay": "1 Year, 11 Months, 19 Days"
+            },
+            "season": {
+              "id": 2019,
+              "display": "19/20",
+              "cyclicalName": "2020",
+              "nonCyclicalName": "19/20"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/ezri-konsa/transfers/spieler/413403/transfer_id/2549610"
+        },
+        {
+          "id": "2133320",
+          "transferSource": {
+            "competitionId": "GB3",
+            "countryId": 189,
+            "clubId": "358",
+            "coachId": "54482"
+          },
+          "transferDestination": {
+            "competitionId": "GB2",
+            "countryId": 189,
+            "clubId": "1148",
+            "coachId": "15315"
+          },
+          "details": {
+            "playerId": "413403",
+            "date": "2018-07-01T00:00:00+02:00",
+            "contractUntilDate": "2021-06-30T00:00:00+02:00",
+            "seasonId": 2018,
+            "isPending": false,
+            "marketValue": {
+              "value": 500000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "500.00",
+                "suffix": "K"
+              }
+            },
+            "age": 20,
+            "fee": {
+              "value": 2850000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "2.85",
+                "suffix": "M"
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 730,
+              "daysDisplay": "1 Year, 11 Months, 29 Days"
+            },
+            "season": {
+              "id": 2018,
+              "display": "18/19",
+              "cyclicalName": "2019",
+              "nonCyclicalName": "18/19"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/ezri-konsa/transfers/spieler/413403/transfer_id/2133320"
+        },
+        {
+          "id": "1571229",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 189,
+            "clubId": "6932",
+            "coachId": "19280"
+          },
+          "transferDestination": {
+            "competitionId": "GB3",
+            "countryId": 189,
+            "clubId": "358",
+            "coachId": "3299"
+          },
+          "details": {
+            "playerId": "413403",
+            "date": "2016-07-01T00:00:00+02:00",
+            "contractUntilDate": "2020-06-30T00:00:00+02:00",
+            "seasonId": 2016,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 18,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2016,
+              "display": "16/17",
+              "cyclicalName": "2017",
+              "nonCyclicalName": "16/17"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/ezri-konsa/transfers/spieler/413403/transfer_id/1571229"
+        }
+      ],
+      "pending": [],
+      "url": "",
+      "feeSum": {
+        "value": 16150000,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "16.15",
+          "suffix": "M"
+        }
+      },
+      "averageAge": 28,
+      "totalMarketValue": {
+        "value": 40000000,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "40.00",
+          "suffix": "M"
+        }
+      }
+    },
+    "clubIds": [
+      "1148",
+      "405",
+      "358",
+      "6932"
+    ],
+    "coachIds": [
+      "9002",
+      "15315",
+      "54482",
+      "19280",
+      "3299"
+    ],
+    "competitionIds": [
+      "GB2",
+      "GB1",
+      "GB3"
+    ],
+    "mostRecentTransfer": {
+      "id": "2549610",
+      "transferSource": {
+        "competitionId": "GB2",
+        "countryId": 189,
+        "clubId": "1148",
+        "coachId": "9002"
+      },
+      "transferDestination": {
+        "competitionId": "GB1",
+        "countryId": 189,
+        "clubId": "405",
+        "coachId": "15315"
+      },
+      "details": {
+        "playerId": "413403",
+        "date": "2019-07-11T00:00:00+02:00",
+        "contractUntilDate": "2028-06-30T00:00:00+02:00",
+        "seasonId": 2019,
+        "isPending": false,
+        "marketValue": {
+          "value": 3500000,
+          "currency": "EUR",
+          "compact": {
+            "prefix": "€",
+            "content": "3.50",
+            "suffix": "M"
+          }
+        },
+        "age": 21,
+        "fee": {
+          "value": 13300000,
+          "currency": "EUR",
+          "compact": {
+            "prefix": "€",
+            "content": "13.30",
+            "suffix": "M"
+          }
+        },
+        "remainingContractPeriod": {
+          "days": 720,
+          "daysDisplay": "1 Year, 11 Months, 19 Days"
+        },
+        "season": {
+          "id": 2019,
+          "display": "19/20",
+          "cyclicalName": "2020",
+          "nonCyclicalName": "19/20"
+        }
+      },
+      "typeDetails": {
+        "type": "STANDARD",
+        "name": "",
+        "feeDescription": ""
+      },
+      "relativeUrl": "/ezri-konsa/transfers/spieler/413403/transfer_id/2549610"
+    }
+  }
+}

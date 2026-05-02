@@ -1,0 +1,925 @@
+{
+  "success": true,
+  "message": "OK",
+  "data": {
+    "playerId": "500054",
+    "history": {
+      "terminated": [
+        {
+          "id": "6114914",
+          "transferSource": {
+            "competitionId": "PO1",
+            "countryId": 136,
+            "clubId": "294",
+            "coachId": "781"
+          },
+          "transferDestination": {
+            "competitionId": "TS1",
+            "countryId": 172,
+            "clubId": "62",
+            "coachId": "29521"
+          },
+          "details": {
+            "playerId": "500054",
+            "date": "2026-01-16T00:00:00+01:00",
+            "contractUntilDate": "2029-06-30T00:00:00+02:00",
+            "seasonId": 2025,
+            "isPending": false,
+            "marketValue": {
+              "value": 4500000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "4.50",
+                "suffix": "M"
+              }
+            },
+            "age": 25,
+            "fee": {
+              "value": 3000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "3.00",
+                "suffix": "M"
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 896,
+              "daysDisplay": "2 Years, 5 Months, 14 Days"
+            },
+            "season": {
+              "id": 2025,
+              "display": "25/26",
+              "cyclicalName": "2026",
+              "nonCyclicalName": "25/26"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/david-jurasek/transfers/spieler/500054/transfer_id/6114914"
+        },
+        {
+          "id": "5737224",
+          "transferSource": {
+            "competitionId": "TR1",
+            "countryId": 174,
+            "clubId": "114",
+            "coachId": "32128"
+          },
+          "transferDestination": {
+            "competitionId": "PO1",
+            "countryId": 136,
+            "clubId": "294",
+            "coachId": "781"
+          },
+          "details": {
+            "playerId": "500054",
+            "date": "2026-01-11T00:00:00+01:00",
+            "contractUntilDate": "2028-06-30T00:00:00+02:00",
+            "seasonId": 2025,
+            "isPending": false,
+            "marketValue": {
+              "value": 4500000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "4.50",
+                "suffix": "M"
+              }
+            },
+            "age": 25,
+            "remainingContractPeriod": {
+              "days": 170,
+              "daysDisplay": "5 Months, 19 Days"
+            },
+            "season": {
+              "id": 2025,
+              "display": "25/26",
+              "cyclicalName": "2026",
+              "nonCyclicalName": "25/26"
+            }
+          },
+          "typeDetails": {
+            "type": "RETURNED_FROM_PREVIOUS_LOAN",
+            "name": "End of loan",
+            "feeDescription": "End of loan"
+          },
+          "relativeUrl": "/david-jurasek/transfers/spieler/500054/transfer_id/5737224"
+        },
+        {
+          "id": "5737223",
+          "transferSource": {
+            "competitionId": "PO1",
+            "countryId": 136,
+            "clubId": "294",
+            "coachId": "61477"
+          },
+          "transferDestination": {
+            "competitionId": "TR1",
+            "countryId": 174,
+            "clubId": "114",
+            "coachId": "7286"
+          },
+          "details": {
+            "playerId": "500054",
+            "date": "2025-07-01T00:00:00+02:00",
+            "contractUntilDate": "2026-06-30T00:00:00+02:00",
+            "seasonId": 2025,
+            "isPending": false,
+            "marketValue": {
+              "value": 5000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "5.00",
+                "suffix": "M"
+              }
+            },
+            "age": 24,
+            "remainingContractPeriod": {
+              "days": 1095,
+              "daysDisplay": "2 Years, 11 Months, 29 Days"
+            },
+            "season": {
+              "id": 2025,
+              "display": "25/26",
+              "cyclicalName": "2026",
+              "nonCyclicalName": "25/26"
+            }
+          },
+          "typeDetails": {
+            "type": "ACTIVE_LOAN_TRANSFER",
+            "name": "loan transfer",
+            "feeDescription": "loan transfer"
+          },
+          "relativeUrl": "/david-jurasek/transfers/spieler/500054/transfer_id/5737223"
+        },
+        {
+          "id": "4838088",
+          "transferSource": {
+            "competitionId": "L1",
+            "countryId": 40,
+            "clubId": "533",
+            "coachId": "4855"
+          },
+          "transferDestination": {
+            "competitionId": "PO1",
+            "countryId": 136,
+            "clubId": "294",
+            "coachId": "61477"
+          },
+          "details": {
+            "playerId": "500054",
+            "date": "2025-06-30T00:00:00+02:00",
+            "contractUntilDate": "2028-06-30T00:00:00+02:00",
+            "seasonId": 2024,
+            "isPending": false,
+            "marketValue": {
+              "value": 5000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "5.00",
+                "suffix": "M"
+              }
+            },
+            "age": 24,
+            "remainingContractPeriod": {
+              "days": 0,
+              "daysDisplay": "Unknown"
+            },
+            "season": {
+              "id": 2024,
+              "display": "24/25",
+              "cyclicalName": "2025",
+              "nonCyclicalName": "24/25"
+            }
+          },
+          "typeDetails": {
+            "type": "RETURNED_FROM_PREVIOUS_LOAN",
+            "name": "End of loan",
+            "feeDescription": "End of loan"
+          },
+          "relativeUrl": "/david-jurasek/transfers/spieler/500054/transfer_id/4838088"
+        },
+        {
+          "id": "4838087",
+          "transferSource": {
+            "competitionId": "PO1",
+            "countryId": 136,
+            "clubId": "294",
+            "coachId": "3865"
+          },
+          "transferDestination": {
+            "competitionId": "L1",
+            "countryId": 40,
+            "clubId": "533",
+            "coachId": "10906"
+          },
+          "details": {
+            "playerId": "500054",
+            "date": "2024-01-22T00:00:00+01:00",
+            "contractUntilDate": "2025-06-30T00:00:00+02:00",
+            "seasonId": 2023,
+            "isPending": false,
+            "marketValue": {
+              "value": 8000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "8.00",
+                "suffix": "M"
+              }
+            },
+            "age": 23,
+            "fee": {
+              "value": 500000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "500.00",
+                "suffix": "K"
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 1621,
+              "daysDisplay": "4 Years, 5 Months, 8 Days"
+            },
+            "season": {
+              "id": 2023,
+              "display": "23/24",
+              "cyclicalName": "2024",
+              "nonCyclicalName": "23/24"
+            }
+          },
+          "typeDetails": {
+            "type": "ACTIVE_LOAN_TRANSFER",
+            "name": "loan transfer",
+            "feeDescription": "Loan fee"
+          },
+          "relativeUrl": "/david-jurasek/transfers/spieler/500054/transfer_id/4838087"
+        },
+        {
+          "id": "4493542",
+          "transferSource": {
+            "competitionId": "TS1",
+            "countryId": 172,
+            "clubId": "62",
+            "coachId": "29521"
+          },
+          "transferDestination": {
+            "competitionId": "PO1",
+            "countryId": 136,
+            "clubId": "294",
+            "coachId": "3865"
+          },
+          "details": {
+            "playerId": "500054",
+            "date": "2023-07-10T00:00:00+02:00",
+            "contractUntilDate": "2028-06-30T00:00:00+02:00",
+            "seasonId": 2023,
+            "isPending": false,
+            "marketValue": {
+              "value": 5000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "5.00",
+                "suffix": "M"
+              }
+            },
+            "age": 22,
+            "fee": {
+              "value": 14000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "14.00",
+                "suffix": "M"
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 1086,
+              "daysDisplay": "2 Years, 11 Months, 20 Days"
+            },
+            "season": {
+              "id": 2023,
+              "display": "23/24",
+              "cyclicalName": "2024",
+              "nonCyclicalName": "23/24"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/david-jurasek/transfers/spieler/500054/transfer_id/4493542"
+        },
+        {
+          "id": "3738339",
+          "transferSource": {
+            "competitionId": "TS1",
+            "countryId": 172,
+            "clubId": "5546",
+            "coachId": "2867"
+          },
+          "transferDestination": {
+            "competitionId": "TS1",
+            "countryId": 172,
+            "clubId": "62",
+            "coachId": "29521"
+          },
+          "details": {
+            "playerId": "500054",
+            "date": "2022-02-10T00:00:00+01:00",
+            "contractUntilDate": "2026-06-30T00:00:00+02:00",
+            "seasonId": 2021,
+            "isPending": false,
+            "marketValue": {
+              "value": 400000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "400.00",
+                "suffix": "K"
+              }
+            },
+            "age": 21,
+            "fee": {
+              "value": 1000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "1.00",
+                "suffix": "M"
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 1236,
+              "daysDisplay": "3 Years, 4 Months, 20 Days"
+            },
+            "season": {
+              "id": 2021,
+              "display": "21/22",
+              "cyclicalName": "2022",
+              "nonCyclicalName": "21/22"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/david-jurasek/transfers/spieler/500054/transfer_id/3738339"
+        },
+        {
+          "id": "3444665",
+          "transferSource": {
+            "competitionId": "TS2",
+            "countryId": 172,
+            "clubId": "13718",
+            "coachId": "58095"
+          },
+          "transferDestination": {
+            "competitionId": "TS1",
+            "countryId": 172,
+            "clubId": "5546",
+            "coachId": "2867"
+          },
+          "details": {
+            "playerId": "500054",
+            "date": "2021-07-16T00:00:00+02:00",
+            "contractUntilDate": "2025-06-30T00:00:00+02:00",
+            "seasonId": 2021,
+            "isPending": false,
+            "marketValue": {
+              "value": 200000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "200.00",
+                "suffix": "K"
+              }
+            },
+            "age": 20,
+            "fee": {
+              "value": 60000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "60.00",
+                "suffix": "K"
+              }
+            },
+            "season": {
+              "id": 2021,
+              "display": "21/22",
+              "cyclicalName": "2022",
+              "nonCyclicalName": "21/22"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/david-jurasek/transfers/spieler/500054/transfer_id/3444665"
+        },
+        {
+          "id": "3027757",
+          "transferSource": {
+            "competitionId": "TS1",
+            "countryId": 172,
+            "clubId": "5225",
+            "coachId": "63999"
+          },
+          "transferDestination": {
+            "competitionId": "TS2",
+            "countryId": 172,
+            "clubId": "13718",
+            "coachId": "63130"
+          },
+          "details": {
+            "playerId": "500054",
+            "date": "2020-08-21T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2020,
+            "isPending": false,
+            "marketValue": {
+              "value": 75000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "75.00",
+                "suffix": "K"
+              }
+            },
+            "age": 20,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "Free Transfer",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2020,
+              "display": "20/21",
+              "cyclicalName": "2021",
+              "nonCyclicalName": "20/21"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/david-jurasek/transfers/spieler/500054/transfer_id/3027757"
+        },
+        {
+          "id": "2958048",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 172,
+            "clubId": "8890",
+            "coachId": "29474"
+          },
+          "transferDestination": {
+            "competitionId": "TS2",
+            "countryId": 172,
+            "clubId": "5225",
+            "coachId": "63999"
+          },
+          "details": {
+            "playerId": "500054",
+            "date": "2020-06-01T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2019,
+            "isPending": false,
+            "marketValue": {
+              "value": 25000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "25.00",
+                "suffix": "K"
+              }
+            },
+            "age": 19,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2019,
+              "display": "19/20",
+              "cyclicalName": "2020",
+              "nonCyclicalName": "19/20"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/david-jurasek/transfers/spieler/500054/transfer_id/2958048"
+        },
+        {
+          "id": "2562709",
+          "transferSource": {
+            "competitionId": "CZ19",
+            "countryId": 172,
+            "clubId": "13937",
+            "coachId": "64135"
+          },
+          "transferDestination": {
+            "competitionId": "",
+            "countryId": 172,
+            "clubId": "8890",
+            "coachId": "29474"
+          },
+          "details": {
+            "playerId": "500054",
+            "date": "2019-07-01T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2019,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 18,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2019,
+              "display": "19/20",
+              "cyclicalName": "2020",
+              "nonCyclicalName": "19/20"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/david-jurasek/transfers/spieler/500054/transfer_id/2562709"
+        },
+        {
+          "id": "1965212",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 172,
+            "clubId": "32684",
+            "coachId": "93043"
+          },
+          "transferDestination": {
+            "competitionId": "CZ19",
+            "countryId": 172,
+            "clubId": "13937",
+            "coachId": "63130"
+          },
+          "details": {
+            "playerId": "500054",
+            "date": "2017-07-01T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2017,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 16,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2017,
+              "display": "17/18",
+              "cyclicalName": "2018",
+              "nonCyclicalName": "17/18"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/david-jurasek/transfers/spieler/500054/transfer_id/1965212"
+        },
+        {
+          "id": "5737739",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 172,
+            "clubId": "131511",
+            "coachId": "0"
+          },
+          "transferDestination": {
+            "competitionId": "",
+            "countryId": 172,
+            "clubId": "32684",
+            "coachId": "130391"
+          },
+          "details": {
+            "playerId": "500054",
+            "date": "2016-02-03T00:00:00+01:00",
+            "contractUntilDate": null,
+            "seasonId": 2015,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 15,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "?",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2015,
+              "display": "15/16",
+              "cyclicalName": "2016",
+              "nonCyclicalName": "15/16"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/david-jurasek/transfers/spieler/500054/transfer_id/5737739"
+        },
+        {
+          "id": "5737740",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 172,
+            "clubId": "124756",
+            "coachId": "0"
+          },
+          "transferDestination": {
+            "competitionId": "",
+            "countryId": 172,
+            "clubId": "131511",
+            "coachId": "0"
+          },
+          "details": {
+            "playerId": "500054",
+            "date": "2015-07-14T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2015,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 14,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "?",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2015,
+              "display": "15/16",
+              "cyclicalName": "2016",
+              "nonCyclicalName": "15/16"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/david-jurasek/transfers/spieler/500054/transfer_id/5737740"
+        },
+        {
+          "id": "5737741",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 172,
+            "clubId": "131511",
+            "coachId": "0"
+          },
+          "transferDestination": {
+            "competitionId": "",
+            "countryId": 172,
+            "clubId": "124756",
+            "coachId": "0"
+          },
+          "details": {
+            "playerId": "500054",
+            "date": "2009-04-07T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2008,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 8,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "?",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2008,
+              "display": "08/09",
+              "cyclicalName": "2009",
+              "nonCyclicalName": "08/09"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/david-jurasek/transfers/spieler/500054/transfer_id/5737741"
+        }
+      ],
+      "pending": [],
+      "url": "",
+      "feeSum": {
+        "value": 18560000,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "18.56",
+          "suffix": "M"
+        }
+      },
+      "averageAge": 25,
+      "totalMarketValue": {
+        "value": 5000000,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "5.00",
+          "suffix": "M"
+        }
+      }
+    },
+    "clubIds": [
+      "294",
+      "62",
+      "114",
+      "533",
+      "5546",
+      "13718",
+      "5225",
+      "8890",
+      "13937",
+      "32684",
+      "131511",
+      "124756"
+    ],
+    "coachIds": [
+      "781",
+      "29521",
+      "32128",
+      "61477",
+      "7286",
+      "4855",
+      "3865",
+      "10906",
+      "2867",
+      "58095",
+      "63999",
+      "63130",
+      "29474",
+      "64135",
+      "93043",
+      "130391"
+    ],
+    "competitionIds": [
+      "PO1",
+      "TS1",
+      "TR1",
+      "L1",
+      "TS2",
+      "CZ19"
+    ],
+    "mostRecentTransfer": {
+      "id": "6114914",
+      "transferSource": {
+        "competitionId": "PO1",
+        "countryId": 136,
+        "clubId": "294",
+        "coachId": "781"
+      },
+      "transferDestination": {
+        "competitionId": "TS1",
+        "countryId": 172,
+        "clubId": "62",
+        "coachId": "29521"
+      },
+      "details": {
+        "playerId": "500054",
+        "date": "2026-01-16T00:00:00+01:00",
+        "contractUntilDate": "2029-06-30T00:00:00+02:00",
+        "seasonId": 2025,
+        "isPending": false,
+        "marketValue": {
+          "value": 4500000,
+          "currency": "EUR",
+          "compact": {
+            "prefix": "€",
+            "content": "4.50",
+            "suffix": "M"
+          }
+        },
+        "age": 25,
+        "fee": {
+          "value": 3000000,
+          "currency": "EUR",
+          "compact": {
+            "prefix": "€",
+            "content": "3.00",
+            "suffix": "M"
+          }
+        },
+        "remainingContractPeriod": {
+          "days": 896,
+          "daysDisplay": "2 Years, 5 Months, 14 Days"
+        },
+        "season": {
+          "id": 2025,
+          "display": "25/26",
+          "cyclicalName": "2026",
+          "nonCyclicalName": "25/26"
+        }
+      },
+      "typeDetails": {
+        "type": "STANDARD",
+        "name": "",
+        "feeDescription": ""
+      },
+      "relativeUrl": "/david-jurasek/transfers/spieler/500054/transfer_id/6114914"
+    }
+  }
+}

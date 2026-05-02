@@ -1,0 +1,366 @@
+{
+  "success": true,
+  "message": "OK",
+  "data": {
+    "playerId": "650993",
+    "history": {
+      "terminated": [
+        {
+          "id": "5901006",
+          "transferSource": {
+            "competitionId": "IT1",
+            "countryId": 75,
+            "clubId": "6574",
+            "coachId": "34361"
+          },
+          "transferDestination": {
+            "competitionId": "IT2",
+            "countryId": 75,
+            "clubId": "2331",
+            "coachId": "96966"
+          },
+          "details": {
+            "playerId": "650993",
+            "date": "2025-08-29T00:00:00+02:00",
+            "contractUntilDate": "2026-06-30T00:00:00+02:00",
+            "seasonId": 2025,
+            "isPending": false,
+            "marketValue": {
+              "value": 1300000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "1.30",
+                "suffix": "M"
+              }
+            },
+            "age": 21,
+            "remainingContractPeriod": {
+              "days": 1036,
+              "daysDisplay": "2 Years, 10 Months, 1 Day"
+            },
+            "season": {
+              "id": 2025,
+              "display": "25/26",
+              "cyclicalName": "2026",
+              "nonCyclicalName": "25/26"
+            }
+          },
+          "typeDetails": {
+            "type": "ACTIVE_LOAN_TRANSFER",
+            "name": "loan transfer",
+            "feeDescription": "loan transfer"
+          },
+          "relativeUrl": "/filippo-missori/transfers/spieler/650993/transfer_id/5901006"
+        },
+        {
+          "id": "4463673",
+          "transferSource": {
+            "competitionId": "IT1",
+            "countryId": 75,
+            "clubId": "12",
+            "coachId": "781"
+          },
+          "transferDestination": {
+            "competitionId": "IT1",
+            "countryId": 75,
+            "clubId": "6574",
+            "coachId": "36126"
+          },
+          "details": {
+            "playerId": "650993",
+            "date": "2023-07-01T00:00:00+02:00",
+            "contractUntilDate": "2028-06-30T00:00:00+02:00",
+            "seasonId": 2023,
+            "isPending": false,
+            "marketValue": {
+              "value": 800000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "800.00",
+                "suffix": "K"
+              }
+            },
+            "age": 19,
+            "fee": {
+              "value": 2500000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "2.50",
+                "suffix": "M"
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 1095,
+              "daysDisplay": "2 Years, 11 Months, 29 Days"
+            },
+            "season": {
+              "id": 2023,
+              "display": "23/24",
+              "cyclicalName": "2024",
+              "nonCyclicalName": "23/24"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/filippo-missori/transfers/spieler/650993/transfer_id/4463673"
+        },
+        {
+          "id": "3476184",
+          "transferSource": {
+            "competitionId": "ITJ6",
+            "countryId": 75,
+            "clubId": "49576",
+            "coachId": "94464"
+          },
+          "transferDestination": {
+            "competitionId": "IJ1",
+            "countryId": 75,
+            "clubId": "11997",
+            "coachId": "4862"
+          },
+          "details": {
+            "playerId": "650993",
+            "date": "2021-07-01T00:00:00+02:00",
+            "contractUntilDate": "2026-06-30T00:00:00+02:00",
+            "seasonId": 2021,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 17,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2021,
+              "display": "21/22",
+              "cyclicalName": "2022",
+              "nonCyclicalName": "21/22"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/filippo-missori/transfers/spieler/650993/transfer_id/3476184"
+        },
+        {
+          "id": "3037942",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 75,
+            "clubId": "25545",
+            "coachId": "94625"
+          },
+          "transferDestination": {
+            "competitionId": "ITJ8",
+            "countryId": 75,
+            "clubId": "49576",
+            "coachId": "13639"
+          },
+          "details": {
+            "playerId": "650993",
+            "date": "2020-09-01T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2020,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 16,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2020,
+              "display": "20/21",
+              "cyclicalName": "2021",
+              "nonCyclicalName": "20/21"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/filippo-missori/transfers/spieler/650993/transfer_id/3037942"
+        }
+      ],
+      "pending": [
+        {
+          "id": "5901007",
+          "transferSource": {
+            "competitionId": "IT2",
+            "countryId": 75,
+            "clubId": "2331",
+            "coachId": "3793"
+          },
+          "transferDestination": {
+            "competitionId": "IT1",
+            "countryId": 75,
+            "clubId": "6574",
+            "coachId": "34361"
+          },
+          "details": {
+            "playerId": "650993",
+            "date": "2026-06-30T00:00:00+02:00",
+            "contractUntilDate": "2028-06-30T00:00:00+02:00",
+            "seasonId": 2025,
+            "isPending": true,
+            "marketValue": {
+              "value": 1700000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "1.70",
+                "suffix": "M"
+              }
+            },
+            "age": 22,
+            "remainingContractPeriod": {
+              "days": 0,
+              "daysDisplay": "Unknown"
+            },
+            "season": {
+              "id": 2025,
+              "display": "25/26",
+              "cyclicalName": "2026",
+              "nonCyclicalName": "25/26"
+            }
+          },
+          "typeDetails": {
+            "type": "RETURNED_FROM_PREVIOUS_LOAN",
+            "name": "End of loan",
+            "feeDescription": "End of loan"
+          },
+          "relativeUrl": "/filippo-missori/transfers/spieler/650993/transfer_id/5901007"
+        }
+      ],
+      "url": "",
+      "feeSum": {
+        "value": 2500000,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "2.50",
+          "suffix": "M"
+        }
+      },
+      "averageAge": 22,
+      "totalMarketValue": {
+        "value": 1700000,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "1.70",
+          "suffix": "M"
+        }
+      }
+    },
+    "clubIds": [
+      "2331",
+      "6574",
+      "12",
+      "49576",
+      "11997",
+      "25545"
+    ],
+    "coachIds": [
+      "3793",
+      "34361",
+      "96966",
+      "781",
+      "36126",
+      "94464",
+      "4862",
+      "94625",
+      "13639"
+    ],
+    "competitionIds": [
+      "IT2",
+      "IT1",
+      "ITJ6",
+      "IJ1",
+      "ITJ8"
+    ],
+    "mostRecentTransfer": {
+      "id": "5901006",
+      "transferSource": {
+        "competitionId": "IT1",
+        "countryId": 75,
+        "clubId": "6574",
+        "coachId": "34361"
+      },
+      "transferDestination": {
+        "competitionId": "IT2",
+        "countryId": 75,
+        "clubId": "2331",
+        "coachId": "96966"
+      },
+      "details": {
+        "playerId": "650993",
+        "date": "2025-08-29T00:00:00+02:00",
+        "contractUntilDate": "2026-06-30T00:00:00+02:00",
+        "seasonId": 2025,
+        "isPending": false,
+        "marketValue": {
+          "value": 1300000,
+          "currency": "EUR",
+          "compact": {
+            "prefix": "€",
+            "content": "1.30",
+            "suffix": "M"
+          }
+        },
+        "age": 21,
+        "remainingContractPeriod": {
+          "days": 1036,
+          "daysDisplay": "2 Years, 10 Months, 1 Day"
+        },
+        "season": {
+          "id": 2025,
+          "display": "25/26",
+          "cyclicalName": "2026",
+          "nonCyclicalName": "25/26"
+        }
+      },
+      "typeDetails": {
+        "type": "ACTIVE_LOAN_TRANSFER",
+        "name": "loan transfer",
+        "feeDescription": "loan transfer"
+      },
+      "relativeUrl": "/filippo-missori/transfers/spieler/650993/transfer_id/5901006"
+    }
+  }
+}

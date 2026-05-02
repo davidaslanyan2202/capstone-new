@@ -1,0 +1,404 @@
+{
+  "success": true,
+  "message": "OK",
+  "data": {
+    "playerId": "624920",
+    "history": {
+      "terminated": [
+        {
+          "id": "5929972",
+          "transferSource": {
+            "competitionId": "UKR1",
+            "countryId": 177,
+            "clubId": "53646",
+            "coachId": "63932"
+          },
+          "transferDestination": {
+            "competitionId": "TS1",
+            "countryId": 172,
+            "clubId": "1322",
+            "coachId": "14309"
+          },
+          "details": {
+            "playerId": "624920",
+            "date": "2025-09-08T00:00:00+02:00",
+            "contractUntilDate": "2026-06-30T00:00:00+02:00",
+            "seasonId": 2025,
+            "isPending": false,
+            "marketValue": {
+              "value": 500000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "500.00",
+                "suffix": "K"
+              }
+            },
+            "age": 22,
+            "remainingContractPeriod": {
+              "days": 1026,
+              "daysDisplay": "2 Years, 9 Months, 22 Days"
+            },
+            "season": {
+              "id": 2025,
+              "display": "25/26",
+              "cyclicalName": "2026",
+              "nonCyclicalName": "25/26"
+            }
+          },
+          "typeDetails": {
+            "type": "ACTIVE_LOAN_TRANSFER",
+            "name": "loan transfer",
+            "feeDescription": "loan transfer"
+          },
+          "relativeUrl": "/beni-makouana/transfers/spieler/624920/transfer_id/5929972"
+        },
+        {
+          "id": "5560589",
+          "transferSource": {
+            "competitionId": "UKR1",
+            "countryId": 177,
+            "clubId": "63007",
+            "coachId": "108283"
+          },
+          "transferDestination": {
+            "competitionId": "UKR1",
+            "countryId": 177,
+            "clubId": "53646",
+            "coachId": "63932"
+          },
+          "details": {
+            "playerId": "624920",
+            "date": "2025-06-30T00:00:00+02:00",
+            "contractUntilDate": "2028-06-30T00:00:00+02:00",
+            "seasonId": 2024,
+            "isPending": false,
+            "marketValue": {
+              "value": 500000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "500.00",
+                "suffix": "K"
+              }
+            },
+            "age": 22,
+            "remainingContractPeriod": {
+              "days": 184,
+              "daysDisplay": "6 Months, 1 Day"
+            },
+            "season": {
+              "id": 2024,
+              "display": "24/25",
+              "cyclicalName": "2025",
+              "nonCyclicalName": "24/25"
+            }
+          },
+          "typeDetails": {
+            "type": "RETURNED_FROM_PREVIOUS_LOAN",
+            "name": "End of loan",
+            "feeDescription": "End of loan"
+          },
+          "relativeUrl": "/beni-makouana/transfers/spieler/624920/transfer_id/5560589"
+        },
+        {
+          "id": "5560588",
+          "transferSource": {
+            "competitionId": "UKR1",
+            "countryId": 177,
+            "clubId": "53646",
+            "coachId": "122357"
+          },
+          "transferDestination": {
+            "competitionId": "UKR1",
+            "countryId": 177,
+            "clubId": "63007",
+            "coachId": "1006"
+          },
+          "details": {
+            "playerId": "624920",
+            "date": "2025-03-08T00:00:00+01:00",
+            "contractUntilDate": "2025-12-31T00:00:00+01:00",
+            "seasonId": 2024,
+            "isPending": false,
+            "marketValue": {
+              "value": 800000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "800.00",
+                "suffix": "K"
+              }
+            },
+            "age": 22,
+            "remainingContractPeriod": {
+              "days": 1210,
+              "daysDisplay": "3 Years, 3 Months, 22 Days"
+            },
+            "season": {
+              "id": 2024,
+              "display": "24/25",
+              "cyclicalName": "2025",
+              "nonCyclicalName": "24/25"
+            }
+          },
+          "typeDetails": {
+            "type": "ACTIVE_LOAN_TRANSFER",
+            "name": "loan transfer",
+            "feeDescription": "loan transfer"
+          },
+          "relativeUrl": "/beni-makouana/transfers/spieler/624920/transfer_id/5560588"
+        },
+        {
+          "id": "4490397",
+          "transferSource": {
+            "competitionId": "FR1",
+            "countryId": 50,
+            "clubId": "969",
+            "coachId": "4002"
+          },
+          "transferDestination": {
+            "competitionId": "UKR1",
+            "countryId": 177,
+            "clubId": "53646",
+            "coachId": "6648"
+          },
+          "details": {
+            "playerId": "624920",
+            "date": "2023-07-09T00:00:00+02:00",
+            "contractUntilDate": "2028-06-30T00:00:00+02:00",
+            "seasonId": 2023,
+            "isPending": false,
+            "marketValue": {
+              "value": 600000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "600.00",
+                "suffix": "K"
+              }
+            },
+            "age": 20,
+            "fee": {
+              "value": 250000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "250.00",
+                "suffix": "K"
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 722,
+              "daysDisplay": "1 Year, 11 Months, 21 Days"
+            },
+            "season": {
+              "id": 2023,
+              "display": "23/24",
+              "cyclicalName": "2024",
+              "nonCyclicalName": "23/24"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/beni-makouana/transfers/spieler/624920/transfer_id/4490397"
+        },
+        {
+          "id": "3108706",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 85,
+            "clubId": "10745",
+            "coachId": "0"
+          },
+          "transferDestination": {
+            "competitionId": "FR1",
+            "countryId": 50,
+            "clubId": "969",
+            "coachId": "4002"
+          },
+          "details": {
+            "playerId": "624920",
+            "date": "2020-10-19T00:00:00+02:00",
+            "contractUntilDate": "2025-06-30T00:00:00+02:00",
+            "seasonId": 2020,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 18,
+            "fee": {
+              "value": 800000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "800.00",
+                "suffix": "K"
+              }
+            },
+            "season": {
+              "id": 2020,
+              "display": "20/21",
+              "cyclicalName": "2021",
+              "nonCyclicalName": "20/21"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/beni-makouana/transfers/spieler/624920/transfer_id/3108706"
+        }
+      ],
+      "pending": [
+        {
+          "id": "5929973",
+          "transferSource": {
+            "competitionId": "TS1",
+            "countryId": 172,
+            "clubId": "1322",
+            "coachId": "14309"
+          },
+          "transferDestination": {
+            "competitionId": "UKR1",
+            "countryId": 177,
+            "clubId": "53646",
+            "coachId": "63932"
+          },
+          "details": {
+            "playerId": "624920",
+            "date": "2026-06-30T00:00:00+02:00",
+            "contractUntilDate": "2028-06-30T00:00:00+02:00",
+            "seasonId": 2025,
+            "isPending": true,
+            "marketValue": {
+              "value": 300000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "300.00",
+                "suffix": "K"
+              }
+            },
+            "age": 23,
+            "remainingContractPeriod": {
+              "days": 0,
+              "daysDisplay": "Unknown"
+            },
+            "season": {
+              "id": 2025,
+              "display": "25/26",
+              "cyclicalName": "2026",
+              "nonCyclicalName": "25/26"
+            }
+          },
+          "typeDetails": {
+            "type": "RETURNED_FROM_PREVIOUS_LOAN",
+            "name": "End of loan",
+            "feeDescription": "End of loan"
+          },
+          "relativeUrl": "/beni-makouana/transfers/spieler/624920/transfer_id/5929973"
+        }
+      ],
+      "url": "",
+      "feeSum": {
+        "value": 1050000,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "1.05",
+          "suffix": "M"
+        }
+      },
+      "averageAge": 23,
+      "totalMarketValue": {
+        "value": 300000,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "300.00",
+          "suffix": "K"
+        }
+      }
+    },
+    "clubIds": [
+      "1322",
+      "53646",
+      "63007",
+      "969",
+      "10745"
+    ],
+    "coachIds": [
+      "14309",
+      "63932",
+      "108283",
+      "122357",
+      "1006",
+      "4002",
+      "6648"
+    ],
+    "competitionIds": [
+      "TS1",
+      "UKR1",
+      "FR1"
+    ],
+    "mostRecentTransfer": {
+      "id": "5929972",
+      "transferSource": {
+        "competitionId": "UKR1",
+        "countryId": 177,
+        "clubId": "53646",
+        "coachId": "63932"
+      },
+      "transferDestination": {
+        "competitionId": "TS1",
+        "countryId": 172,
+        "clubId": "1322",
+        "coachId": "14309"
+      },
+      "details": {
+        "playerId": "624920",
+        "date": "2025-09-08T00:00:00+02:00",
+        "contractUntilDate": "2026-06-30T00:00:00+02:00",
+        "seasonId": 2025,
+        "isPending": false,
+        "marketValue": {
+          "value": 500000,
+          "currency": "EUR",
+          "compact": {
+            "prefix": "€",
+            "content": "500.00",
+            "suffix": "K"
+          }
+        },
+        "age": 22,
+        "remainingContractPeriod": {
+          "days": 1026,
+          "daysDisplay": "2 Years, 9 Months, 22 Days"
+        },
+        "season": {
+          "id": 2025,
+          "display": "25/26",
+          "cyclicalName": "2026",
+          "nonCyclicalName": "25/26"
+        }
+      },
+      "typeDetails": {
+        "type": "ACTIVE_LOAN_TRANSFER",
+        "name": "loan transfer",
+        "feeDescription": "loan transfer"
+      },
+      "relativeUrl": "/beni-makouana/transfers/spieler/624920/transfer_id/5929972"
+    }
+  }
+}

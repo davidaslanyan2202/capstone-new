@@ -1,0 +1,273 @@
+{
+  "success": true,
+  "message": "OK",
+  "data": {
+    "playerId": "702441",
+    "history": {
+      "terminated": [
+        {
+          "id": "5238720",
+          "transferSource": {
+            "competitionId": "FR1",
+            "countryId": 50,
+            "clubId": "1041",
+            "coachId": "110443"
+          },
+          "transferDestination": {
+            "competitionId": "FR1",
+            "countryId": 50,
+            "clubId": "290",
+            "coachId": "24802"
+          },
+          "details": {
+            "playerId": "702441",
+            "date": "2024-08-30T00:00:00+02:00",
+            "contractUntilDate": "2027-06-30T00:00:00+02:00",
+            "seasonId": 2024,
+            "isPending": false,
+            "marketValue": {
+              "value": 4000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "4.00",
+                "suffix": "M"
+              }
+            },
+            "age": 23,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "Free Transfer",
+                "suffix": ""
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 304,
+              "daysDisplay": "10 Months"
+            },
+            "season": {
+              "id": 2024,
+              "display": "24/25",
+              "cyclicalName": "2025",
+              "nonCyclicalName": "24/25"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/sinaly-diomande/transfers/spieler/702441/transfer_id/5238720"
+        },
+        {
+          "id": "3034024",
+          "transferSource": {
+            "competitionId": "CN2C",
+            "countryId": 50,
+            "clubId": "12764",
+            "coachId": "61491"
+          },
+          "transferDestination": {
+            "competitionId": "FR1",
+            "countryId": 50,
+            "clubId": "1041",
+            "coachId": "1537"
+          },
+          "details": {
+            "playerId": "702441",
+            "date": "2020-07-01T00:00:00+02:00",
+            "contractUntilDate": "2025-06-30T00:00:00+02:00",
+            "seasonId": 2020,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 19,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 1094,
+              "daysDisplay": "2 Years, 11 Months, 29 Days"
+            },
+            "season": {
+              "id": 2020,
+              "display": "20/21",
+              "cyclicalName": "2021",
+              "nonCyclicalName": "20/21"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/sinaly-diomande/transfers/spieler/702441/transfer_id/3034024"
+        },
+        {
+          "id": "2634155",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 105,
+            "clubId": "51064",
+            "coachId": "0"
+          },
+          "transferDestination": {
+            "competitionId": "CN2D",
+            "countryId": 50,
+            "clubId": "12764",
+            "coachId": "61491"
+          },
+          "details": {
+            "playerId": "702441",
+            "date": "2019-09-02T00:00:00+02:00",
+            "contractUntilDate": "2023-06-30T00:00:00+02:00",
+            "seasonId": 2019,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 18,
+            "fee": {
+              "value": 550000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "550.00",
+                "suffix": "K"
+              }
+            },
+            "season": {
+              "id": 2019,
+              "display": "19/20",
+              "cyclicalName": "2020",
+              "nonCyclicalName": "19/20"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/sinaly-diomande/transfers/spieler/702441/transfer_id/2634155"
+        }
+      ],
+      "pending": [],
+      "url": "",
+      "feeSum": {
+        "value": 550000,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "550.00",
+          "suffix": "K"
+        }
+      },
+      "averageAge": 25,
+      "totalMarketValue": {
+        "value": 5000000,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "5.00",
+          "suffix": "M"
+        }
+      }
+    },
+    "clubIds": [
+      "1041",
+      "290",
+      "12764",
+      "51064"
+    ],
+    "coachIds": [
+      "110443",
+      "24802",
+      "61491",
+      "1537"
+    ],
+    "competitionIds": [
+      "FR1",
+      "CN2C",
+      "CN2D"
+    ],
+    "mostRecentTransfer": {
+      "id": "5238720",
+      "transferSource": {
+        "competitionId": "FR1",
+        "countryId": 50,
+        "clubId": "1041",
+        "coachId": "110443"
+      },
+      "transferDestination": {
+        "competitionId": "FR1",
+        "countryId": 50,
+        "clubId": "290",
+        "coachId": "24802"
+      },
+      "details": {
+        "playerId": "702441",
+        "date": "2024-08-30T00:00:00+02:00",
+        "contractUntilDate": "2027-06-30T00:00:00+02:00",
+        "seasonId": 2024,
+        "isPending": false,
+        "marketValue": {
+          "value": 4000000,
+          "currency": "EUR",
+          "compact": {
+            "prefix": "€",
+            "content": "4.00",
+            "suffix": "M"
+          }
+        },
+        "age": 23,
+        "fee": {
+          "value": null,
+          "currency": "",
+          "compact": {
+            "prefix": "",
+            "content": "Free Transfer",
+            "suffix": ""
+          }
+        },
+        "remainingContractPeriod": {
+          "days": 304,
+          "daysDisplay": "10 Months"
+        },
+        "season": {
+          "id": 2024,
+          "display": "24/25",
+          "cyclicalName": "2025",
+          "nonCyclicalName": "24/25"
+        }
+      },
+      "typeDetails": {
+        "type": "STANDARD",
+        "name": "",
+        "feeDescription": ""
+      },
+      "relativeUrl": "/sinaly-diomande/transfers/spieler/702441/transfer_id/5238720"
+    }
+  }
+}

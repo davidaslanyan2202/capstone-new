@@ -1,0 +1,433 @@
+{
+  "success": true,
+  "message": "OK",
+  "data": {
+    "playerId": "341092",
+    "history": {
+      "terminated": [
+        {
+          "id": "5234136",
+          "transferSource": {
+            "competitionId": "IT1",
+            "countryId": 75,
+            "clubId": "506",
+            "coachId": "61868"
+          },
+          "transferDestination": {
+            "competitionId": "GB1",
+            "countryId": 189,
+            "clubId": "31",
+            "coachId": "34822"
+          },
+          "details": {
+            "playerId": "341092",
+            "date": "2024-08-29T00:00:00+02:00",
+            "contractUntilDate": "2028-06-30T00:00:00+02:00",
+            "seasonId": 2024,
+            "isPending": false,
+            "marketValue": {
+              "value": 35000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "35.00",
+                "suffix": "M"
+              }
+            },
+            "age": 26,
+            "fee": {
+              "value": 12000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "12.00",
+                "suffix": "M"
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 305,
+              "daysDisplay": "10 Months, 1 Day"
+            },
+            "season": {
+              "id": 2024,
+              "display": "24/25",
+              "cyclicalName": "2025",
+              "nonCyclicalName": "24/25"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/federico-chiesa/transfers/spieler/341092/transfer_id/5234136"
+        },
+        {
+          "id": "3836709",
+          "transferSource": {
+            "competitionId": "IT1",
+            "countryId": 75,
+            "clubId": "430",
+            "coachId": "47288"
+          },
+          "transferDestination": {
+            "competitionId": "IT1",
+            "countryId": 75,
+            "clubId": "506",
+            "coachId": "7671"
+          },
+          "details": {
+            "playerId": "341092",
+            "date": "2022-07-01T00:00:00+02:00",
+            "contractUntilDate": "2025-06-30T00:00:00+02:00",
+            "seasonId": 2022,
+            "isPending": false,
+            "marketValue": {
+              "value": 65000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "65.00",
+                "suffix": "M"
+              }
+            },
+            "age": 24,
+            "fee": {
+              "value": 44600000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "44.60",
+                "suffix": "M"
+              }
+            },
+            "season": {
+              "id": 2022,
+              "display": "22/23",
+              "cyclicalName": "2023",
+              "nonCyclicalName": "22/23"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/federico-chiesa/transfers/spieler/341092/transfer_id/3836709"
+        },
+        {
+          "id": "3088694",
+          "transferSource": {
+            "competitionId": "IT1",
+            "countryId": 75,
+            "clubId": "506",
+            "coachId": "7671"
+          },
+          "transferDestination": {
+            "competitionId": "IT1",
+            "countryId": 75,
+            "clubId": "430",
+            "coachId": "47288"
+          },
+          "details": {
+            "playerId": "341092",
+            "date": "2022-06-30T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2021,
+            "isPending": false,
+            "marketValue": {
+              "value": 65000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "65.00",
+                "suffix": "M"
+              }
+            },
+            "age": 24,
+            "remainingContractPeriod": {
+              "days": 0,
+              "daysDisplay": "Unknown"
+            },
+            "season": {
+              "id": 2021,
+              "display": "21/22",
+              "cyclicalName": "2022",
+              "nonCyclicalName": "21/22"
+            }
+          },
+          "typeDetails": {
+            "type": "RETURNED_FROM_PREVIOUS_LOAN",
+            "name": "End of loan",
+            "feeDescription": "End of loan"
+          },
+          "relativeUrl": "/federico-chiesa/transfers/spieler/341092/transfer_id/3088694"
+        },
+        {
+          "id": "3088693",
+          "transferSource": {
+            "competitionId": "IT1",
+            "countryId": 75,
+            "clubId": "430",
+            "coachId": "2132"
+          },
+          "transferDestination": {
+            "competitionId": "IT1",
+            "countryId": 75,
+            "clubId": "506",
+            "coachId": "62049"
+          },
+          "details": {
+            "playerId": "341092",
+            "date": "2020-10-05T00:00:00+02:00",
+            "contractUntilDate": "2022-06-30T00:00:00+02:00",
+            "seasonId": 2020,
+            "isPending": false,
+            "marketValue": {
+              "value": 48000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "48.00",
+                "suffix": "M"
+              }
+            },
+            "age": 22,
+            "fee": {
+              "value": 12600000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "12.60",
+                "suffix": "M"
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 633,
+              "daysDisplay": "1 Year, 8 Months, 25 Days"
+            },
+            "season": {
+              "id": 2020,
+              "display": "20/21",
+              "cyclicalName": "2021",
+              "nonCyclicalName": "20/21"
+            }
+          },
+          "typeDetails": {
+            "type": "ACTIVE_LOAN_TRANSFER",
+            "name": "loan transfer",
+            "feeDescription": "Loan fee"
+          },
+          "relativeUrl": "/federico-chiesa/transfers/spieler/341092/transfer_id/3088693"
+        },
+        {
+          "id": "1568068",
+          "transferSource": {
+            "competitionId": "ITJ1",
+            "countryId": 75,
+            "clubId": "8505",
+            "coachId": "27200"
+          },
+          "transferDestination": {
+            "competitionId": "IT1",
+            "countryId": 75,
+            "clubId": "430",
+            "coachId": "8369"
+          },
+          "details": {
+            "playerId": "341092",
+            "date": "2016-07-01T00:00:00+02:00",
+            "contractUntilDate": "2022-06-30T00:00:00+02:00",
+            "seasonId": 2016,
+            "isPending": false,
+            "marketValue": {
+              "value": 100000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "100.00",
+                "suffix": "K"
+              }
+            },
+            "age": 18,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2016,
+              "display": "16/17",
+              "cyclicalName": "2017",
+              "nonCyclicalName": "16/17"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/federico-chiesa/transfers/spieler/341092/transfer_id/1568068"
+        },
+        {
+          "id": "1134609",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 75,
+            "clubId": "12812",
+            "coachId": "43150"
+          },
+          "transferDestination": {
+            "competitionId": "ITJ1",
+            "countryId": 75,
+            "clubId": "8505",
+            "coachId": "0"
+          },
+          "details": {
+            "playerId": "341092",
+            "date": "2014-07-01T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2014,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 16,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2014,
+              "display": "14/15",
+              "cyclicalName": "2015",
+              "nonCyclicalName": "14/15"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/federico-chiesa/transfers/spieler/341092/transfer_id/1134609"
+        }
+      ],
+      "pending": [],
+      "url": "",
+      "feeSum": {
+        "value": 69200000,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "69.20",
+          "suffix": "M"
+        }
+      },
+      "averageAge": 28,
+      "totalMarketValue": {
+        "value": 15000000,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "15.00",
+          "suffix": "M"
+        }
+      }
+    },
+    "clubIds": [
+      "506",
+      "31",
+      "430",
+      "8505",
+      "12812"
+    ],
+    "coachIds": [
+      "61868",
+      "34822",
+      "47288",
+      "7671",
+      "2132",
+      "62049",
+      "27200",
+      "8369",
+      "43150"
+    ],
+    "competitionIds": [
+      "IT1",
+      "GB1",
+      "ITJ1"
+    ],
+    "mostRecentTransfer": {
+      "id": "5234136",
+      "transferSource": {
+        "competitionId": "IT1",
+        "countryId": 75,
+        "clubId": "506",
+        "coachId": "61868"
+      },
+      "transferDestination": {
+        "competitionId": "GB1",
+        "countryId": 189,
+        "clubId": "31",
+        "coachId": "34822"
+      },
+      "details": {
+        "playerId": "341092",
+        "date": "2024-08-29T00:00:00+02:00",
+        "contractUntilDate": "2028-06-30T00:00:00+02:00",
+        "seasonId": 2024,
+        "isPending": false,
+        "marketValue": {
+          "value": 35000000,
+          "currency": "EUR",
+          "compact": {
+            "prefix": "€",
+            "content": "35.00",
+            "suffix": "M"
+          }
+        },
+        "age": 26,
+        "fee": {
+          "value": 12000000,
+          "currency": "EUR",
+          "compact": {
+            "prefix": "€",
+            "content": "12.00",
+            "suffix": "M"
+          }
+        },
+        "remainingContractPeriod": {
+          "days": 305,
+          "daysDisplay": "10 Months, 1 Day"
+        },
+        "season": {
+          "id": 2024,
+          "display": "24/25",
+          "cyclicalName": "2025",
+          "nonCyclicalName": "24/25"
+        }
+      },
+      "typeDetails": {
+        "type": "STANDARD",
+        "name": "",
+        "feeDescription": ""
+      },
+      "relativeUrl": "/federico-chiesa/transfers/spieler/341092/transfer_id/5234136"
+    }
+  }
+}

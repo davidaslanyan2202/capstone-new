@@ -1,0 +1,440 @@
+{
+  "success": true,
+  "message": "OK",
+  "data": {
+    "playerId": "22415",
+    "history": {
+      "terminated": [
+        {
+          "id": "3703773",
+          "transferSource": {
+            "competitionId": "BRA2",
+            "countryId": 26,
+            "clubId": "609",
+            "coachId": "50425"
+          },
+          "transferDestination": {
+            "competitionId": "BRA1",
+            "countryId": 26,
+            "clubId": "2462",
+            "coachId": "5016"
+          },
+          "details": {
+            "playerId": "22415",
+            "date": "2022-01-19T00:00:00+01:00",
+            "contractUntilDate": "2027-12-31T00:00:00+01:00",
+            "seasonId": 2021,
+            "isPending": false,
+            "marketValue": {
+              "value": 450000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "450.00",
+                "suffix": "K"
+              }
+            },
+            "age": 41,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "Free Transfer",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2021,
+              "display": "21/22",
+              "cyclicalName": "2022",
+              "nonCyclicalName": "21/22"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/fabio/transfers/spieler/22415/transfer_id/3703773"
+        },
+        {
+          "id": "560280",
+          "transferSource": {
+            "competitionId": "BRA1",
+            "countryId": 26,
+            "clubId": "978",
+            "coachId": "5013"
+          },
+          "transferDestination": {
+            "competitionId": "BRA1",
+            "countryId": 26,
+            "clubId": "609",
+            "coachId": "7592"
+          },
+          "details": {
+            "playerId": "22415",
+            "date": "2005-01-01T00:00:00+01:00",
+            "contractUntilDate": "2021-12-31T00:00:00+01:00",
+            "seasonId": 2004,
+            "isPending": false,
+            "marketValue": {
+              "value": 1000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "1.00",
+                "suffix": "M"
+              }
+            },
+            "age": 24,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "Free Transfer",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2004,
+              "display": "04/05",
+              "cyclicalName": "2005",
+              "nonCyclicalName": "04/05"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/fabio/transfers/spieler/22415/transfer_id/560280"
+        },
+        {
+          "id": "560281",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 26,
+            "clubId": "11960",
+            "coachId": "0"
+          },
+          "transferDestination": {
+            "competitionId": "BRA1",
+            "countryId": 26,
+            "clubId": "978",
+            "coachId": "7276"
+          },
+          "details": {
+            "playerId": "22415",
+            "date": "2000-07-01T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2000,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 19,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "?",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2000,
+              "display": "00/01",
+              "cyclicalName": "2001",
+              "nonCyclicalName": "00/01"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/fabio/transfers/spieler/22415/transfer_id/560281"
+        },
+        {
+          "id": "560282",
+          "transferSource": {
+            "competitionId": "BRA1",
+            "countryId": 26,
+            "clubId": "609",
+            "coachId": "9627"
+          },
+          "transferDestination": {
+            "competitionId": "",
+            "countryId": 26,
+            "clubId": "11960",
+            "coachId": "0"
+          },
+          "details": {
+            "playerId": "22415",
+            "date": "2000-05-01T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 1999,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 19,
+            "season": {
+              "id": 1999,
+              "display": "99/00",
+              "cyclicalName": "2000",
+              "nonCyclicalName": "99/00"
+            }
+          },
+          "typeDetails": {
+            "type": "RETURNED_FROM_PREVIOUS_LOAN",
+            "name": "End of loan",
+            "feeDescription": "End of loan"
+          },
+          "relativeUrl": "/fabio/transfers/spieler/22415/transfer_id/560282"
+        },
+        {
+          "id": "560283",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 26,
+            "clubId": "11960",
+            "coachId": "0"
+          },
+          "transferDestination": {
+            "competitionId": "BRA1",
+            "countryId": 26,
+            "clubId": "609",
+            "coachId": "2699"
+          },
+          "details": {
+            "playerId": "22415",
+            "date": "2000-01-01T00:00:00+01:00",
+            "contractUntilDate": null,
+            "seasonId": 1999,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 19,
+            "season": {
+              "id": 1999,
+              "display": "99/00",
+              "cyclicalName": "2000",
+              "nonCyclicalName": "99/00"
+            }
+          },
+          "typeDetails": {
+            "type": "ACTIVE_LOAN_TRANSFER",
+            "name": "loan transfer",
+            "feeDescription": "loan transfer"
+          },
+          "relativeUrl": "/fabio/transfers/spieler/22415/transfer_id/560283"
+        },
+        {
+          "id": "560284",
+          "transferSource": {
+            "competitionId": "BRA1",
+            "countryId": 26,
+            "clubId": "679",
+            "coachId": "0"
+          },
+          "transferDestination": {
+            "competitionId": "",
+            "countryId": 26,
+            "clubId": "11960",
+            "coachId": "0"
+          },
+          "details": {
+            "playerId": "22415",
+            "date": "1999-12-01T00:00:00+01:00",
+            "contractUntilDate": null,
+            "seasonId": 1999,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 19,
+            "season": {
+              "id": 1999,
+              "display": "99/00",
+              "cyclicalName": "2000",
+              "nonCyclicalName": "99/00"
+            }
+          },
+          "typeDetails": {
+            "type": "RETURNED_FROM_PREVIOUS_LOAN",
+            "name": "End of loan",
+            "feeDescription": "End of loan"
+          },
+          "relativeUrl": "/fabio/transfers/spieler/22415/transfer_id/560284"
+        },
+        {
+          "id": "560285",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 26,
+            "clubId": "11960",
+            "coachId": "0"
+          },
+          "transferDestination": {
+            "competitionId": "BRA1",
+            "countryId": 26,
+            "clubId": "679",
+            "coachId": "5016"
+          },
+          "details": {
+            "playerId": "22415",
+            "date": "1998-01-01T00:00:00+01:00",
+            "contractUntilDate": null,
+            "seasonId": 1997,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 17,
+            "season": {
+              "id": 1997,
+              "display": "97/98",
+              "cyclicalName": "1998",
+              "nonCyclicalName": "97/98"
+            }
+          },
+          "typeDetails": {
+            "type": "ACTIVE_LOAN_TRANSFER",
+            "name": "loan transfer",
+            "feeDescription": "loan transfer"
+          },
+          "relativeUrl": "/fabio/transfers/spieler/22415/transfer_id/560285"
+        }
+      ],
+      "pending": [],
+      "url": "",
+      "feeSum": {
+        "value": 0,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "0.00",
+          "suffix": ""
+        }
+      },
+      "averageAge": 45,
+      "totalMarketValue": {
+        "value": 75000,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "75.00",
+          "suffix": "K"
+        }
+      }
+    },
+    "clubIds": [
+      "609",
+      "2462",
+      "978",
+      "11960",
+      "679"
+    ],
+    "coachIds": [
+      "50425",
+      "5016",
+      "5013",
+      "7592",
+      "7276",
+      "9627",
+      "2699"
+    ],
+    "competitionIds": [
+      "BRA2",
+      "BRA1"
+    ],
+    "mostRecentTransfer": {
+      "id": "3703773",
+      "transferSource": {
+        "competitionId": "BRA2",
+        "countryId": 26,
+        "clubId": "609",
+        "coachId": "50425"
+      },
+      "transferDestination": {
+        "competitionId": "BRA1",
+        "countryId": 26,
+        "clubId": "2462",
+        "coachId": "5016"
+      },
+      "details": {
+        "playerId": "22415",
+        "date": "2022-01-19T00:00:00+01:00",
+        "contractUntilDate": "2027-12-31T00:00:00+01:00",
+        "seasonId": 2021,
+        "isPending": false,
+        "marketValue": {
+          "value": 450000,
+          "currency": "EUR",
+          "compact": {
+            "prefix": "€",
+            "content": "450.00",
+            "suffix": "K"
+          }
+        },
+        "age": 41,
+        "fee": {
+          "value": null,
+          "currency": "",
+          "compact": {
+            "prefix": "",
+            "content": "Free Transfer",
+            "suffix": ""
+          }
+        },
+        "season": {
+          "id": 2021,
+          "display": "21/22",
+          "cyclicalName": "2022",
+          "nonCyclicalName": "21/22"
+        }
+      },
+      "typeDetails": {
+        "type": "STANDARD",
+        "name": "",
+        "feeDescription": ""
+      },
+      "relativeUrl": "/fabio/transfers/spieler/22415/transfer_id/3703773"
+    }
+  }
+}

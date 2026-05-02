@@ -1,0 +1,214 @@
+{
+  "success": true,
+  "message": "OK",
+  "data": {
+    "playerId": "256178",
+    "history": {
+      "terminated": [
+        {
+          "id": "1264171",
+          "transferSource": {
+            "competitionId": "GB2",
+            "countryId": 189,
+            "clubId": "358",
+            "coachId": "10912"
+          },
+          "transferDestination": {
+            "competitionId": "GB1",
+            "countryId": 189,
+            "clubId": "31",
+            "coachId": "1366"
+          },
+          "details": {
+            "playerId": "256178",
+            "date": "2015-07-01T00:00:00+02:00",
+            "contractUntilDate": "2027-06-30T00:00:00+02:00",
+            "seasonId": 2015,
+            "isPending": false,
+            "marketValue": {
+              "value": 2500000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "2.50",
+                "suffix": "M"
+              }
+            },
+            "age": 18,
+            "fee": {
+              "value": 4900000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "4.90",
+                "suffix": "M"
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 730,
+              "daysDisplay": "1 Year, 11 Months, 29 Days"
+            },
+            "season": {
+              "id": 2015,
+              "display": "15/16",
+              "cyclicalName": "2016",
+              "nonCyclicalName": "15/16"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/joe-gomez/transfers/spieler/256178/transfer_id/1264171"
+        },
+        {
+          "id": "1102786",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 189,
+            "clubId": "6932",
+            "coachId": "19280"
+          },
+          "transferDestination": {
+            "competitionId": "GB2",
+            "countryId": 189,
+            "clubId": "358",
+            "coachId": "14119"
+          },
+          "details": {
+            "playerId": "256178",
+            "date": "2014-07-01T00:00:00+02:00",
+            "contractUntilDate": "2017-06-30T00:00:00+02:00",
+            "seasonId": 2014,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 17,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2014,
+              "display": "14/15",
+              "cyclicalName": "2015",
+              "nonCyclicalName": "14/15"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/joe-gomez/transfers/spieler/256178/transfer_id/1102786"
+        }
+      ],
+      "pending": [],
+      "url": "",
+      "feeSum": {
+        "value": 4900000,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "4.90",
+          "suffix": "M"
+        }
+      },
+      "averageAge": 28,
+      "totalMarketValue": {
+        "value": 15000000,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "15.00",
+          "suffix": "M"
+        }
+      }
+    },
+    "clubIds": [
+      "358",
+      "31",
+      "6932"
+    ],
+    "coachIds": [
+      "10912",
+      "1366",
+      "19280",
+      "14119"
+    ],
+    "competitionIds": [
+      "GB2",
+      "GB1"
+    ],
+    "mostRecentTransfer": {
+      "id": "1264171",
+      "transferSource": {
+        "competitionId": "GB2",
+        "countryId": 189,
+        "clubId": "358",
+        "coachId": "10912"
+      },
+      "transferDestination": {
+        "competitionId": "GB1",
+        "countryId": 189,
+        "clubId": "31",
+        "coachId": "1366"
+      },
+      "details": {
+        "playerId": "256178",
+        "date": "2015-07-01T00:00:00+02:00",
+        "contractUntilDate": "2027-06-30T00:00:00+02:00",
+        "seasonId": 2015,
+        "isPending": false,
+        "marketValue": {
+          "value": 2500000,
+          "currency": "EUR",
+          "compact": {
+            "prefix": "€",
+            "content": "2.50",
+            "suffix": "M"
+          }
+        },
+        "age": 18,
+        "fee": {
+          "value": 4900000,
+          "currency": "EUR",
+          "compact": {
+            "prefix": "€",
+            "content": "4.90",
+            "suffix": "M"
+          }
+        },
+        "remainingContractPeriod": {
+          "days": 730,
+          "daysDisplay": "1 Year, 11 Months, 29 Days"
+        },
+        "season": {
+          "id": 2015,
+          "display": "15/16",
+          "cyclicalName": "2016",
+          "nonCyclicalName": "15/16"
+        }
+      },
+      "typeDetails": {
+        "type": "STANDARD",
+        "name": "",
+        "feeDescription": ""
+      },
+      "relativeUrl": "/joe-gomez/transfers/spieler/256178/transfer_id/1264171"
+    }
+  }
+}

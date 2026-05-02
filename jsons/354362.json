@@ -1,0 +1,273 @@
+{
+  "success": true,
+  "message": "OK",
+  "data": {
+    "playerId": "354362",
+    "history": {
+      "terminated": [
+        {
+          "id": "3722343",
+          "transferSource": {
+            "competitionId": "IT1",
+            "countryId": 75,
+            "clubId": "506",
+            "coachId": "7671"
+          },
+          "transferDestination": {
+            "competitionId": "GB1",
+            "countryId": 189,
+            "clubId": "148",
+            "coachId": "3517"
+          },
+          "details": {
+            "playerId": "354362",
+            "date": "2022-01-31T00:00:00+01:00",
+            "contractUntilDate": null,
+            "seasonId": 2021,
+            "isPending": false,
+            "marketValue": {
+              "value": 25000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "25.00",
+                "suffix": "M"
+              }
+            },
+            "age": 24,
+            "fee": {
+              "value": 19000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "19.00",
+                "suffix": "M"
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 881,
+              "daysDisplay": "2 Years, 4 Months, 30 Days"
+            },
+            "season": {
+              "id": 2021,
+              "display": "21/22",
+              "cyclicalName": "2022",
+              "nonCyclicalName": "21/22"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/rodrigo-bentancur/transfers/spieler/354362/transfer_id/3722343"
+        },
+        {
+          "id": "1752053",
+          "transferSource": {
+            "competitionId": "AR1N",
+            "countryId": 9,
+            "clubId": "189",
+            "coachId": "24556"
+          },
+          "transferDestination": {
+            "competitionId": "IT1",
+            "countryId": 75,
+            "clubId": "506",
+            "coachId": "7671"
+          },
+          "details": {
+            "playerId": "354362",
+            "date": "2017-07-01T00:00:00+02:00",
+            "contractUntilDate": "2024-06-30T00:00:00+02:00",
+            "seasonId": 2017,
+            "isPending": false,
+            "marketValue": {
+              "value": 6000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "6.00",
+                "suffix": "M"
+              }
+            },
+            "age": 20,
+            "fee": {
+              "value": 23500000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "23.50",
+                "suffix": "M"
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 548,
+              "daysDisplay": "1 Year, 5 Months, 30 Days"
+            },
+            "season": {
+              "id": 2017,
+              "display": "17/18",
+              "cyclicalName": "2018",
+              "nonCyclicalName": "17/18"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/rodrigo-bentancur/transfers/spieler/354362/transfer_id/1752053"
+        },
+        {
+          "id": "1182578",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 9,
+            "clubId": "15098",
+            "coachId": "0"
+          },
+          "transferDestination": {
+            "competitionId": "AR1N",
+            "countryId": 9,
+            "clubId": "189",
+            "coachId": "17428"
+          },
+          "details": {
+            "playerId": "354362",
+            "date": "2015-01-03T00:00:00+01:00",
+            "contractUntilDate": "2018-12-31T00:00:00+01:00",
+            "seasonId": 2014,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 17,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2014,
+              "display": "14/15",
+              "cyclicalName": "2015",
+              "nonCyclicalName": "14/15"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/rodrigo-bentancur/transfers/spieler/354362/transfer_id/1182578"
+        }
+      ],
+      "pending": [],
+      "url": "",
+      "feeSum": {
+        "value": 42500000,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "42.50",
+          "suffix": "M"
+        }
+      },
+      "averageAge": 28,
+      "totalMarketValue": {
+        "value": 22000000,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "22.00",
+          "suffix": "M"
+        }
+      }
+    },
+    "clubIds": [
+      "506",
+      "148",
+      "189",
+      "15098"
+    ],
+    "coachIds": [
+      "7671",
+      "3517",
+      "24556",
+      "17428"
+    ],
+    "competitionIds": [
+      "IT1",
+      "GB1",
+      "AR1N"
+    ],
+    "mostRecentTransfer": {
+      "id": "3722343",
+      "transferSource": {
+        "competitionId": "IT1",
+        "countryId": 75,
+        "clubId": "506",
+        "coachId": "7671"
+      },
+      "transferDestination": {
+        "competitionId": "GB1",
+        "countryId": 189,
+        "clubId": "148",
+        "coachId": "3517"
+      },
+      "details": {
+        "playerId": "354362",
+        "date": "2022-01-31T00:00:00+01:00",
+        "contractUntilDate": null,
+        "seasonId": 2021,
+        "isPending": false,
+        "marketValue": {
+          "value": 25000000,
+          "currency": "EUR",
+          "compact": {
+            "prefix": "€",
+            "content": "25.00",
+            "suffix": "M"
+          }
+        },
+        "age": 24,
+        "fee": {
+          "value": 19000000,
+          "currency": "EUR",
+          "compact": {
+            "prefix": "€",
+            "content": "19.00",
+            "suffix": "M"
+          }
+        },
+        "remainingContractPeriod": {
+          "days": 881,
+          "daysDisplay": "2 Years, 4 Months, 30 Days"
+        },
+        "season": {
+          "id": 2021,
+          "display": "21/22",
+          "cyclicalName": "2022",
+          "nonCyclicalName": "21/22"
+        }
+      },
+      "typeDetails": {
+        "type": "STANDARD",
+        "name": "",
+        "feeDescription": ""
+      },
+      "relativeUrl": "/rodrigo-bentancur/transfers/spieler/354362/transfer_id/3722343"
+    }
+  }
+}

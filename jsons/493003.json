@@ -1,0 +1,271 @@
+{
+  "success": true,
+  "message": "OK",
+  "data": {
+    "playerId": "493003",
+    "history": {
+      "terminated": [
+        {
+          "id": "4856486",
+          "transferSource": {
+            "competitionId": "BE1",
+            "countryId": 19,
+            "clubId": "1184",
+            "coachId": "49546"
+          },
+          "transferDestination": {
+            "competitionId": "GB1",
+            "countryId": 189,
+            "clubId": "873",
+            "coachId": "1775"
+          },
+          "details": {
+            "playerId": "493003",
+            "date": "2024-01-30T00:00:00+01:00",
+            "contractUntilDate": "2028-06-30T00:00:00+02:00",
+            "seasonId": 2023,
+            "isPending": false,
+            "marketValue": {
+              "value": 10000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "10.00",
+                "suffix": "M"
+              }
+            },
+            "age": 27,
+            "fee": {
+              "value": 8000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "8.00",
+                "suffix": "M"
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 152,
+              "daysDisplay": "5 Months"
+            },
+            "season": {
+              "id": 2023,
+              "display": "23/24",
+              "cyclicalName": "2024",
+              "nonCyclicalName": "23/24"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/daniel-munoz/transfers/spieler/493003/transfer_id/4856486"
+        },
+        {
+          "id": "2912656",
+          "transferSource": {
+            "competitionId": "COLP",
+            "countryId": 83,
+            "clubId": "8172",
+            "coachId": "6359"
+          },
+          "transferDestination": {
+            "competitionId": "BE1",
+            "countryId": 19,
+            "clubId": "1184",
+            "coachId": "16320"
+          },
+          "details": {
+            "playerId": "493003",
+            "date": "2020-07-01T00:00:00+02:00",
+            "contractUntilDate": "2024-06-30T00:00:00+02:00",
+            "seasonId": 2020,
+            "isPending": false,
+            "marketValue": {
+              "value": 1400000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "1.40",
+                "suffix": "M"
+              }
+            },
+            "age": 24,
+            "fee": {
+              "value": 4500000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "4.50",
+                "suffix": "M"
+              }
+            },
+            "season": {
+              "id": 2020,
+              "display": "20/21",
+              "cyclicalName": "2021",
+              "nonCyclicalName": "20/21"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/daniel-munoz/transfers/spieler/493003/transfer_id/2912656"
+        },
+        {
+          "id": "2526430",
+          "transferSource": {
+            "competitionId": "COL1",
+            "countryId": 83,
+            "clubId": "20590",
+            "coachId": "23644"
+          },
+          "transferDestination": {
+            "competitionId": "COL1",
+            "countryId": 83,
+            "clubId": "8172",
+            "coachId": "6359"
+          },
+          "details": {
+            "playerId": "493003",
+            "date": "2019-07-01T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2019,
+            "isPending": false,
+            "marketValue": {
+              "value": 950000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "950.00",
+                "suffix": "K"
+              }
+            },
+            "age": 23,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "?",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2019,
+              "display": "19/20",
+              "cyclicalName": "2020",
+              "nonCyclicalName": "19/20"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/daniel-munoz/transfers/spieler/493003/transfer_id/2526430"
+        }
+      ],
+      "pending": [],
+      "url": "",
+      "feeSum": {
+        "value": 12500000,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "12.50",
+          "suffix": "M"
+        }
+      },
+      "averageAge": 29,
+      "totalMarketValue": {
+        "value": 27000000,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "27.00",
+          "suffix": "M"
+        }
+      }
+    },
+    "clubIds": [
+      "1184",
+      "873",
+      "8172",
+      "20590"
+    ],
+    "coachIds": [
+      "49546",
+      "1775",
+      "6359",
+      "16320",
+      "23644"
+    ],
+    "competitionIds": [
+      "BE1",
+      "GB1",
+      "COLP",
+      "COL1"
+    ],
+    "mostRecentTransfer": {
+      "id": "4856486",
+      "transferSource": {
+        "competitionId": "BE1",
+        "countryId": 19,
+        "clubId": "1184",
+        "coachId": "49546"
+      },
+      "transferDestination": {
+        "competitionId": "GB1",
+        "countryId": 189,
+        "clubId": "873",
+        "coachId": "1775"
+      },
+      "details": {
+        "playerId": "493003",
+        "date": "2024-01-30T00:00:00+01:00",
+        "contractUntilDate": "2028-06-30T00:00:00+02:00",
+        "seasonId": 2023,
+        "isPending": false,
+        "marketValue": {
+          "value": 10000000,
+          "currency": "EUR",
+          "compact": {
+            "prefix": "€",
+            "content": "10.00",
+            "suffix": "M"
+          }
+        },
+        "age": 27,
+        "fee": {
+          "value": 8000000,
+          "currency": "EUR",
+          "compact": {
+            "prefix": "€",
+            "content": "8.00",
+            "suffix": "M"
+          }
+        },
+        "remainingContractPeriod": {
+          "days": 152,
+          "daysDisplay": "5 Months"
+        },
+        "season": {
+          "id": 2023,
+          "display": "23/24",
+          "cyclicalName": "2024",
+          "nonCyclicalName": "23/24"
+        }
+      },
+      "typeDetails": {
+        "type": "STANDARD",
+        "name": "",
+        "feeDescription": ""
+      },
+      "relativeUrl": "/daniel-munoz/transfers/spieler/493003/transfer_id/4856486"
+    }
+  }
+}

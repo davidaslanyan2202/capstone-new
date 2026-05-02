@@ -1,0 +1,274 @@
+{
+  "success": true,
+  "message": "OK",
+  "data": {
+    "playerId": "763079",
+    "history": {
+      "terminated": [
+        {
+          "id": "5468101",
+          "transferSource": {
+            "competitionId": "FR1",
+            "countryId": 50,
+            "clubId": "826",
+            "coachId": "53316"
+          },
+          "transferDestination": {
+            "competitionId": "GB1",
+            "countryId": 189,
+            "clubId": "281",
+            "coachId": "5672"
+          },
+          "details": {
+            "playerId": "763079",
+            "date": "2025-01-20T00:00:00+01:00",
+            "contractUntilDate": "2029-06-30T00:00:00+02:00",
+            "seasonId": 2024,
+            "isPending": false,
+            "marketValue": {
+              "value": 12000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "12.00",
+                "suffix": "M"
+              }
+            },
+            "age": 20,
+            "fee": {
+              "value": 40000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "40.00",
+                "suffix": "M"
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 891,
+              "daysDisplay": "2 Years, 5 Months, 10 Days"
+            },
+            "season": {
+              "id": 2024,
+              "display": "24/25",
+              "cyclicalName": "2025",
+              "nonCyclicalName": "24/25"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/abdukodir-khusanov/transfers/spieler/763079/transfer_id/5468101"
+        },
+        {
+          "id": "4529024",
+          "transferSource": {
+            "competitionId": "WER1",
+            "countryId": 18,
+            "clubId": "27204",
+            "coachId": "26737"
+          },
+          "transferDestination": {
+            "competitionId": "FR1",
+            "countryId": 50,
+            "clubId": "826",
+            "coachId": "27176"
+          },
+          "details": {
+            "playerId": "763079",
+            "date": "2023-07-24T00:00:00+02:00",
+            "contractUntilDate": "2027-06-30T00:00:00+02:00",
+            "seasonId": 2023,
+            "isPending": false,
+            "marketValue": {
+              "value": 400000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "400.00",
+                "suffix": "K"
+              }
+            },
+            "age": 19,
+            "fee": {
+              "value": 450000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "450.00",
+                "suffix": "K"
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 160,
+              "daysDisplay": "5 Months, 7 Days"
+            },
+            "season": {
+              "id": 2023,
+              "display": "23/24",
+              "cyclicalName": "2024",
+              "nonCyclicalName": "23/24"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/abdukodir-khusanov/transfers/spieler/763079/transfer_id/4529024"
+        },
+        {
+          "id": "3786406",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 180,
+            "clubId": "85976",
+            "coachId": "0"
+          },
+          "transferDestination": {
+            "competitionId": "WER1",
+            "countryId": 18,
+            "clubId": "27204",
+            "coachId": "27199"
+          },
+          "details": {
+            "playerId": "763079",
+            "date": "2022-03-17T00:00:00+01:00",
+            "contractUntilDate": "2023-12-31T00:00:00+01:00",
+            "seasonId": 2021,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 18,
+            "fee": {
+              "value": 800000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "800.00",
+                "suffix": "K"
+              }
+            },
+            "season": {
+              "id": 2021,
+              "display": "21/22",
+              "cyclicalName": "2022",
+              "nonCyclicalName": "21/22"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/abdukodir-khusanov/transfers/spieler/763079/transfer_id/3786406"
+        }
+      ],
+      "pending": [],
+      "url": "",
+      "feeSum": {
+        "value": 41250000,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "41.25",
+          "suffix": "M"
+        }
+      },
+      "averageAge": 22,
+      "totalMarketValue": {
+        "value": 35000000,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "35.00",
+          "suffix": "M"
+        }
+      }
+    },
+    "clubIds": [
+      "826",
+      "281",
+      "27204",
+      "85976"
+    ],
+    "coachIds": [
+      "53316",
+      "5672",
+      "26737",
+      "27176",
+      "27199"
+    ],
+    "competitionIds": [
+      "FR1",
+      "GB1",
+      "WER1"
+    ],
+    "mostRecentTransfer": {
+      "id": "5468101",
+      "transferSource": {
+        "competitionId": "FR1",
+        "countryId": 50,
+        "clubId": "826",
+        "coachId": "53316"
+      },
+      "transferDestination": {
+        "competitionId": "GB1",
+        "countryId": 189,
+        "clubId": "281",
+        "coachId": "5672"
+      },
+      "details": {
+        "playerId": "763079",
+        "date": "2025-01-20T00:00:00+01:00",
+        "contractUntilDate": "2029-06-30T00:00:00+02:00",
+        "seasonId": 2024,
+        "isPending": false,
+        "marketValue": {
+          "value": 12000000,
+          "currency": "EUR",
+          "compact": {
+            "prefix": "€",
+            "content": "12.00",
+            "suffix": "M"
+          }
+        },
+        "age": 20,
+        "fee": {
+          "value": 40000000,
+          "currency": "EUR",
+          "compact": {
+            "prefix": "€",
+            "content": "40.00",
+            "suffix": "M"
+          }
+        },
+        "remainingContractPeriod": {
+          "days": 891,
+          "daysDisplay": "2 Years, 5 Months, 10 Days"
+        },
+        "season": {
+          "id": 2024,
+          "display": "24/25",
+          "cyclicalName": "2025",
+          "nonCyclicalName": "24/25"
+        }
+      },
+      "typeDetails": {
+        "type": "STANDARD",
+        "name": "",
+        "feeDescription": ""
+      },
+      "relativeUrl": "/abdukodir-khusanov/transfers/spieler/763079/transfer_id/5468101"
+    }
+  }
+}

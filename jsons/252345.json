@@ -1,0 +1,579 @@
+{
+  "success": true,
+  "message": "OK",
+  "data": {
+    "playerId": "252345",
+    "history": {
+      "terminated": [
+        {
+          "id": "5492652",
+          "transferSource": {
+            "competitionId": "GB2",
+            "countryId": 189,
+            "clubId": "1010",
+            "coachId": "123832"
+          },
+          "transferDestination": {
+            "competitionId": "ZYP1",
+            "countryId": 188,
+            "clubId": "45457",
+            "coachId": "5145"
+          },
+          "details": {
+            "playerId": "252345",
+            "date": "2025-01-31T00:00:00+01:00",
+            "contractUntilDate": "2027-05-31T00:00:00+02:00",
+            "seasonId": 2024,
+            "isPending": false,
+            "marketValue": {
+              "value": 1500000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "1.50",
+                "suffix": "M"
+              }
+            },
+            "age": 31,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "Free Transfer",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2024,
+              "display": "24/25",
+              "cyclicalName": "2025",
+              "nonCyclicalName": "24/25"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/ken-sema/transfers/spieler/252345/transfer_id/5492652"
+        },
+        {
+          "id": "2617665",
+          "transferSource": {
+            "competitionId": "IT1",
+            "countryId": 75,
+            "clubId": "410",
+            "coachId": "7521"
+          },
+          "transferDestination": {
+            "competitionId": "GB2",
+            "countryId": 189,
+            "clubId": "1010",
+            "coachId": "35944"
+          },
+          "details": {
+            "playerId": "252345",
+            "date": "2020-08-31T00:00:00+02:00",
+            "contractUntilDate": "2023-06-30T00:00:00+02:00",
+            "seasonId": 2019,
+            "isPending": false,
+            "marketValue": {
+              "value": 4800000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "4.80",
+                "suffix": "M"
+              }
+            },
+            "age": 26,
+            "remainingContractPeriod": {
+              "days": 0,
+              "daysDisplay": "Unknown"
+            },
+            "season": {
+              "id": 2019,
+              "display": "19/20",
+              "cyclicalName": "2020",
+              "nonCyclicalName": "19/20"
+            }
+          },
+          "typeDetails": {
+            "type": "RETURNED_FROM_PREVIOUS_LOAN",
+            "name": "End of loan",
+            "feeDescription": "End of loan"
+          },
+          "relativeUrl": "/ken-sema/transfers/spieler/252345/transfer_id/2617665"
+        },
+        {
+          "id": "2617664",
+          "transferSource": {
+            "competitionId": "GB1",
+            "countryId": 189,
+            "clubId": "1010",
+            "coachId": "10254"
+          },
+          "transferDestination": {
+            "competitionId": "IT1",
+            "countryId": 75,
+            "clubId": "410",
+            "coachId": "28632"
+          },
+          "details": {
+            "playerId": "252345",
+            "date": "2019-08-22T00:00:00+02:00",
+            "contractUntilDate": "2020-08-31T00:00:00+02:00",
+            "seasonId": 2019,
+            "isPending": false,
+            "marketValue": {
+              "value": 3500000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "3.50",
+                "suffix": "M"
+              }
+            },
+            "age": 25,
+            "remainingContractPeriod": {
+              "days": 2139,
+              "daysDisplay": "5 Years, 10 Months, 8 Days"
+            },
+            "season": {
+              "id": 2019,
+              "display": "19/20",
+              "cyclicalName": "2020",
+              "nonCyclicalName": "19/20"
+            }
+          },
+          "typeDetails": {
+            "type": "ACTIVE_LOAN_TRANSFER",
+            "name": "loan transfer",
+            "feeDescription": "loan transfer"
+          },
+          "relativeUrl": "/ken-sema/transfers/spieler/252345/transfer_id/2617664"
+        },
+        {
+          "id": "2159887",
+          "transferSource": {
+            "competitionId": "SE1",
+            "countryId": 147,
+            "clubId": "9614",
+            "coachId": "50075"
+          },
+          "transferDestination": {
+            "competitionId": "GB1",
+            "countryId": 189,
+            "clubId": "1010",
+            "coachId": "10254"
+          },
+          "details": {
+            "playerId": "252345",
+            "date": "2018-07-05T00:00:00+02:00",
+            "contractUntilDate": "2025-06-30T00:00:00+02:00",
+            "seasonId": 2018,
+            "isPending": false,
+            "marketValue": {
+              "value": 1000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "1.00",
+                "suffix": "M"
+              }
+            },
+            "age": 24,
+            "fee": {
+              "value": 2250000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "2.25",
+                "suffix": "M"
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 179,
+              "daysDisplay": "5 Months, 26 Days"
+            },
+            "season": {
+              "id": 2018,
+              "display": "18/19",
+              "cyclicalName": "2019",
+              "nonCyclicalName": "18/19"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/ken-sema/transfers/spieler/252345/transfer_id/2159887"
+        },
+        {
+          "id": "1397118",
+          "transferSource": {
+            "competitionId": "SE2",
+            "countryId": 147,
+            "clubId": "8882",
+            "coachId": "4402"
+          },
+          "transferDestination": {
+            "competitionId": "SE1",
+            "countryId": 147,
+            "clubId": "9614",
+            "coachId": "23954"
+          },
+          "details": {
+            "playerId": "252345",
+            "date": "2016-01-05T00:00:00+01:00",
+            "contractUntilDate": "2018-12-31T00:00:00+01:00",
+            "seasonId": 2015,
+            "isPending": false,
+            "marketValue": {
+              "value": 200000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "200.00",
+                "suffix": "K"
+              }
+            },
+            "age": 22,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "?",
+                "suffix": ""
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 361,
+              "daysDisplay": "11 Months, 26 Days"
+            },
+            "season": {
+              "id": 2015,
+              "display": "15/16",
+              "cyclicalName": "2016",
+              "nonCyclicalName": "15/16"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/ken-sema/transfers/spieler/252345/transfer_id/1397118"
+        },
+        {
+          "id": "1023760",
+          "transferSource": {
+            "competitionId": "S21N",
+            "countryId": 147,
+            "clubId": "23271",
+            "coachId": "9951"
+          },
+          "transferDestination": {
+            "competitionId": "SE2",
+            "countryId": 147,
+            "clubId": "8882",
+            "coachId": "21339"
+          },
+          "details": {
+            "playerId": "252345",
+            "date": "2014-02-13T00:00:00+01:00",
+            "contractUntilDate": "2016-12-31T00:00:00+01:00",
+            "seasonId": 2013,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 20,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "Free Transfer",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2013,
+              "display": "13/14",
+              "cyclicalName": "2014",
+              "nonCyclicalName": "13/14"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/ken-sema/transfers/spieler/252345/transfer_id/1023760"
+        },
+        {
+          "id": "1023759",
+          "transferSource": {
+            "competitionId": "SE3S",
+            "countryId": 147,
+            "clubId": "8985",
+            "coachId": "9595"
+          },
+          "transferDestination": {
+            "competitionId": "S21N",
+            "countryId": 147,
+            "clubId": "23271",
+            "coachId": "9951"
+          },
+          "details": {
+            "playerId": "252345",
+            "date": "2013-12-31T00:00:00+01:00",
+            "contractUntilDate": null,
+            "seasonId": 2013,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 20,
+            "season": {
+              "id": 2013,
+              "display": "13/14",
+              "cyclicalName": "2014",
+              "nonCyclicalName": "13/14"
+            }
+          },
+          "typeDetails": {
+            "type": "RETURNED_FROM_PREVIOUS_LOAN",
+            "name": "End of loan",
+            "feeDescription": "End of loan"
+          },
+          "relativeUrl": "/ken-sema/transfers/spieler/252345/transfer_id/1023759"
+        },
+        {
+          "id": "861995",
+          "transferSource": {
+            "competitionId": "S21N",
+            "countryId": 147,
+            "clubId": "23271",
+            "coachId": "9951"
+          },
+          "transferDestination": {
+            "competitionId": "SE3S",
+            "countryId": 147,
+            "clubId": "8985",
+            "coachId": "26987"
+          },
+          "details": {
+            "playerId": "252345",
+            "date": "2013-03-21T00:00:00+01:00",
+            "contractUntilDate": null,
+            "seasonId": 2012,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 19,
+            "season": {
+              "id": 2012,
+              "display": "12/13",
+              "cyclicalName": "2013",
+              "nonCyclicalName": "12/13"
+            }
+          },
+          "typeDetails": {
+            "type": "ACTIVE_LOAN_TRANSFER",
+            "name": "loan transfer",
+            "feeDescription": "loan transfer"
+          },
+          "relativeUrl": "/ken-sema/transfers/spieler/252345/transfer_id/861995"
+        },
+        {
+          "id": "1397119",
+          "transferSource": {
+            "competitionId": "JUNO",
+            "countryId": 147,
+            "clubId": "15621",
+            "coachId": "26991"
+          },
+          "transferDestination": {
+            "competitionId": "S21N",
+            "countryId": 147,
+            "clubId": "23271",
+            "coachId": "9951"
+          },
+          "details": {
+            "playerId": "252345",
+            "date": "2013-01-01T00:00:00+01:00",
+            "contractUntilDate": null,
+            "seasonId": 2012,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 19,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2012,
+              "display": "12/13",
+              "cyclicalName": "2013",
+              "nonCyclicalName": "12/13"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/ken-sema/transfers/spieler/252345/transfer_id/1397119"
+        }
+      ],
+      "pending": [],
+      "url": "",
+      "feeSum": {
+        "value": 2250000,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "2.25",
+          "suffix": "M"
+        }
+      },
+      "averageAge": 32,
+      "totalMarketValue": {
+        "value": 1000000,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "1.00",
+          "suffix": "M"
+        }
+      }
+    },
+    "clubIds": [
+      "1010",
+      "45457",
+      "410",
+      "9614",
+      "8882",
+      "23271",
+      "8985",
+      "15621"
+    ],
+    "coachIds": [
+      "123832",
+      "5145",
+      "7521",
+      "35944",
+      "10254",
+      "28632",
+      "50075",
+      "4402",
+      "23954",
+      "9951",
+      "21339",
+      "9595",
+      "26987",
+      "26991"
+    ],
+    "competitionIds": [
+      "GB2",
+      "ZYP1",
+      "IT1",
+      "GB1",
+      "SE1",
+      "SE2",
+      "S21N",
+      "SE3S",
+      "JUNO"
+    ],
+    "mostRecentTransfer": {
+      "id": "5492652",
+      "transferSource": {
+        "competitionId": "GB2",
+        "countryId": 189,
+        "clubId": "1010",
+        "coachId": "123832"
+      },
+      "transferDestination": {
+        "competitionId": "ZYP1",
+        "countryId": 188,
+        "clubId": "45457",
+        "coachId": "5145"
+      },
+      "details": {
+        "playerId": "252345",
+        "date": "2025-01-31T00:00:00+01:00",
+        "contractUntilDate": "2027-05-31T00:00:00+02:00",
+        "seasonId": 2024,
+        "isPending": false,
+        "marketValue": {
+          "value": 1500000,
+          "currency": "EUR",
+          "compact": {
+            "prefix": "€",
+            "content": "1.50",
+            "suffix": "M"
+          }
+        },
+        "age": 31,
+        "fee": {
+          "value": null,
+          "currency": "",
+          "compact": {
+            "prefix": "",
+            "content": "Free Transfer",
+            "suffix": ""
+          }
+        },
+        "season": {
+          "id": 2024,
+          "display": "24/25",
+          "cyclicalName": "2025",
+          "nonCyclicalName": "24/25"
+        }
+      },
+      "typeDetails": {
+        "type": "STANDARD",
+        "name": "",
+        "feeDescription": ""
+      },
+      "relativeUrl": "/ken-sema/transfers/spieler/252345/transfer_id/5492652"
+    }
+  }
+}

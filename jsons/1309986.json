@@ -1,0 +1,213 @@
+{
+  "success": true,
+  "message": "OK",
+  "data": {
+    "playerId": "1309986",
+    "history": {
+      "terminated": [
+        {
+          "id": "5943553",
+          "transferSource": {
+            "competitionId": "E3G2",
+            "countryId": 157,
+            "clubId": "19301",
+            "coachId": "31991"
+          },
+          "transferDestination": {
+            "competitionId": "",
+            "countryId": 157,
+            "clubId": "55357",
+            "coachId": "0"
+          },
+          "details": {
+            "playerId": "1309986",
+            "date": "2025-07-01T00:00:00+02:00",
+            "contractUntilDate": "2026-06-30T00:00:00+02:00",
+            "seasonId": 2025,
+            "isPending": false,
+            "marketValue": {
+              "value": 25000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "25.00",
+                "suffix": "K"
+              }
+            },
+            "age": 20,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "Free Transfer",
+                "suffix": ""
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 364,
+              "daysDisplay": "11 Months, 29 Days"
+            },
+            "season": {
+              "id": 2025,
+              "display": "25/26",
+              "cyclicalName": "2026",
+              "nonCyclicalName": "25/26"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/lucas-beltran/transfers/spieler/1309986/transfer_id/5943553"
+        },
+        {
+          "id": "5241519",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 157,
+            "clubId": "23880",
+            "coachId": "132242"
+          },
+          "transferDestination": {
+            "competitionId": "E4G2",
+            "countryId": 157,
+            "clubId": "19301",
+            "coachId": "95132"
+          },
+          "details": {
+            "playerId": "1309986",
+            "date": "2024-08-01T00:00:00+02:00",
+            "contractUntilDate": "2026-06-30T00:00:00+02:00",
+            "seasonId": 2024,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 19,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "Free Transfer",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2024,
+              "display": "24/25",
+              "cyclicalName": "2025",
+              "nonCyclicalName": "24/25"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/lucas-beltran/transfers/spieler/1309986/transfer_id/5241519"
+        }
+      ],
+      "pending": [],
+      "url": "",
+      "feeSum": {
+        "value": 0,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "0.00",
+          "suffix": ""
+        }
+      },
+      "averageAge": 21,
+      "totalMarketValue": {
+        "value": 0,
+        "currency": "EUR",
+        "compact": {
+          "prefix": "€",
+          "content": "0.00",
+          "suffix": ""
+        }
+      }
+    },
+    "clubIds": [
+      "19301",
+      "55357",
+      "23880"
+    ],
+    "coachIds": [
+      "31991",
+      "132242",
+      "95132"
+    ],
+    "competitionIds": [
+      "E3G2",
+      "E4G2"
+    ],
+    "mostRecentTransfer": {
+      "id": "5943553",
+      "transferSource": {
+        "competitionId": "E3G2",
+        "countryId": 157,
+        "clubId": "19301",
+        "coachId": "31991"
+      },
+      "transferDestination": {
+        "competitionId": "",
+        "countryId": 157,
+        "clubId": "55357",
+        "coachId": "0"
+      },
+      "details": {
+        "playerId": "1309986",
+        "date": "2025-07-01T00:00:00+02:00",
+        "contractUntilDate": "2026-06-30T00:00:00+02:00",
+        "seasonId": 2025,
+        "isPending": false,
+        "marketValue": {
+          "value": 25000,
+          "currency": "EUR",
+          "compact": {
+            "prefix": "€",
+            "content": "25.00",
+            "suffix": "K"
+          }
+        },
+        "age": 20,
+        "fee": {
+          "value": null,
+          "currency": "",
+          "compact": {
+            "prefix": "",
+            "content": "Free Transfer",
+            "suffix": ""
+          }
+        },
+        "remainingContractPeriod": {
+          "days": 364,
+          "daysDisplay": "11 Months, 29 Days"
+        },
+        "season": {
+          "id": 2025,
+          "display": "25/26",
+          "cyclicalName": "2026",
+          "nonCyclicalName": "25/26"
+        }
+      },
+      "typeDetails": {
+        "type": "STANDARD",
+        "name": "",
+        "feeDescription": ""
+      },
+      "relativeUrl": "/lucas-beltran/transfers/spieler/1309986/transfer_id/5943553"
+    }
+  }
+}
