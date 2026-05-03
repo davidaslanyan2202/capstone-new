@@ -33,7 +33,8 @@
 - The 300+ minute filter keeps broad coverage while excluding very small playing-time samples.
 - The nonlinear hist-gradient boosting model performs best on the 2023/24 holdout season.
 - Age, minutes, contract years remaining, league, and position are consistent valuation signals.
-- Position-specific models are useful diagnostics, but the global model remains the clearest comparison baseline.
+- Specialized position/league models improve hist-gradient RMSE in 0 of 8 tested segments.
+- Global models remain the main benchmark; specialized models are diagnostics for segment-specific valuation patterns.
 - Top permutation-importance features for the best model: Age, contract_years_remaining, cleaned_comp, contract_missing, transfer_count_before_valuation, crosses_per90.
 
 ## Generated Files
@@ -43,10 +44,13 @@
 - `reports/tables/model_metrics.csv`
 - `reports/tables/error_by_group.csv`
 - `reports/tables/feature_importance.csv`
+- `reports/tables/specialized_model_comparison.csv`
 - `reports/tables/model_predictions.csv`
 - `reports/figures/model_comparison_test_rmse.png`
 - `reports/figures/predicted_vs_actual_best_model.png`
 - `reports/figures/residuals_by_league_position.png`
 - `reports/figures/position_model_comparison.png`
+- `reports/figures/league_model_comparison.png`
+- `reports/figures/specialized_vs_global_rmse.png`
 - `paper/main.tex`
 - `paper/references.bib`

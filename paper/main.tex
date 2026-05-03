@@ -47,7 +47,7 @@ The final analytics table is \texttt{data/processed/player\_season\_analytics.cs
 
 Players with fewer than 300 minutes are excluded. This threshold increases coverage compared with a 900-minute regular-starter filter while still removing very small playing-time samples. The train/test split is chronological: 2021/22 and 2022/23 are used for training, and 2023/24 is held out for testing.
 
-The global model comparison includes a mean baseline, ordinary least squares regression, ridge regression, and hist-gradient boosting. Position-specific ridge and hist-gradient boosting models are also trained for defenders, midfielders, and forwards. Performance is evaluated with RMSE, MAE, and \(R^2\) on the log target, with additional error summaries in EUR after inverse transformation.
+The global model comparison includes a mean baseline, ordinary least squares regression, ridge regression, and hist-gradient boosting. Position-specific models are trained for defenders, midfielders, and forwards. League-specific models are trained for each top-five league. Specialized models are compared with the global model on the same subgroup to test whether segmentation improves prediction or whether the global model benefits from its larger training sample. Performance is evaluated with RMSE, MAE, and \(R^2\) on the log target, with additional error summaries in EUR after inverse transformation.
 
 \section{Results}
 The generated results are stored in \texttt{reports/tables/model\_metrics.csv}. In the final run, the hist-gradient boosting model is expected to be the strongest global model, with test RMSE log around 0.89 and test \(R^2\) around 0.61. The linear and ridge models remain useful interpretable baselines and substantially outperform the mean predictor.
@@ -64,8 +64,14 @@ The generated results are stored in \texttt{reports/tables/model\_metrics.csv}. 
 \label{fig:predicted_actual}
 \end{figure}
 
+\begin{figure}[htbp]
+\centerline{\includegraphics[width=\linewidth]{figures/specialized_vs_global_rmse.png}}
+\caption{Segment-specific hist-gradient boosting models compared with the global model on the same subgroup. Negative values favor specialized models.}
+\label{fig:specialized_global}
+\end{figure}
+
 \section{Analysis and Validation}
-The chronological holdout split validates whether the model generalizes to the next season rather than only fitting random rows from the same time period. The nonlinear model's advantage suggests interactions among age, minutes, league, position, and contract status. Position-specific models provide additional diagnostic insight, but they use smaller samples and should be interpreted as supporting analysis rather than replacements for the global comparison.
+The chronological holdout split validates whether the model generalizes to the next season rather than only fitting random rows from the same time period. The nonlinear model's advantage suggests interactions among age, minutes, league, position, and contract status. Position-specific and league-specific models provide diagnostic insight, but they use smaller samples and should be interpreted as supporting analysis rather than replacements for the global comparison.
 
 Feature importance outputs in \texttt{reports/tables/feature\_importance.csv} show that age, minutes, league, position, and contract-related variables are important valuation signals. Contract years remaining is positively associated with value in exploratory analysis, consistent with the idea that longer contracts strengthen the selling club's bargaining position. These findings are descriptive rather than causal because unobserved factors such as reputation, injuries, wage level, and club demand are not fully captured.
 

@@ -20,7 +20,7 @@ The analysis uses `data/processed/player_season_analytics.csv` as the final tabl
 
 Players with fewer than 300 minutes are excluded. This threshold keeps substantially more observations than the earlier 900-minute filter while still removing the smallest samples. The final modeling rows by position are DF=1,614, MF=2,443, and FW=1,601. Models are trained on 2021/22 and 2022/23 and evaluated only on 2023/24.
 
-The global model comparison includes a mean baseline, ordinary least squares linear regression, ridge regression, and hist-gradient boosting. Position-specific ridge and hist-gradient boosting models are trained separately for defenders, midfielders, and forwards.
+The global model comparison includes a mean baseline, ordinary least squares linear regression, ridge regression, and hist-gradient boosting. Separate position-specific and league-specific models are also trained. These specialized models are compared against the global model evaluated on the same subgroup, which shows whether segmentation actually improves predictive accuracy.
 
 ## Results
 
@@ -47,6 +47,38 @@ The best model improves test RMSE log by 38.0% relative to the mean baseline. Th
 | MF | ridge_alpha_1 | 804 | 0.9999 | 0.7353 | 0.5019 |
 
 The position-specific results are useful for diagnosing how model behavior changes by role. They should be interpreted cautiously because each position model has fewer training examples than the global model.
+
+### League-Specific Models
+
+| cleaned_comp | model | rows | rmse_log | mae_log | r2 |
+| --- | --- | --- | --- | --- | --- |
+| Bundesliga | ridge_alpha_1 | 326 | 0.9064 | 0.7045 | 0.5226 |
+| Bundesliga | hist_gradient_boosting | 326 | 0.9226 | 0.7172 | 0.5055 |
+| La Liga | hist_gradient_boosting | 389 | 1.0391 | 0.7627 | 0.4766 |
+| La Liga | ridge_alpha_1 | 389 | 1.0539 | 0.7718 | 0.4616 |
+| Ligue 1 | hist_gradient_boosting | 341 | 0.9229 | 0.7066 | 0.5009 |
+| Ligue 1 | ridge_alpha_1 | 341 | 0.9607 | 0.7394 | 0.4592 |
+| Premier League | hist_gradient_boosting | 393 | 0.9830 | 0.7056 | 0.5301 |
+| Premier League | ridge_alpha_1 | 393 | 1.0134 | 0.7073 | 0.5005 |
+| Serie A | hist_gradient_boosting | 391 | 0.8597 | 0.6500 | 0.5836 |
+| Serie A | ridge_alpha_1 | 391 | 0.9241 | 0.6697 | 0.5189 |
+
+League-specific models test whether each league has enough distinct valuation structure to justify a separate estimator. These models are especially useful because league context is one of the strongest valuation signals.
+
+### Global Vs Specialized Models
+
+| group_column | group_value | rows | global_rmse_log | specialized_rmse_log | rmse_log_delta_specialized_minus_global | result |
+| --- | --- | --- | --- | --- | --- | --- |
+| cleaned_comp | Serie A | 391 | 0.8256 | 0.8597 | 0.0340 | global better |
+| cleaned_comp | Bundesliga | 326 | 0.8687 | 0.9226 | 0.0539 | global better |
+| cleaned_comp | Ligue 1 | 341 | 0.8677 | 0.9229 | 0.0552 | global better |
+| cleaned_comp | La Liga | 389 | 0.9824 | 1.0391 | 0.0568 | global better |
+| cleaned_comp | Premier League | 393 | 0.8815 | 0.9830 | 0.1016 | global better |
+| position_group | MF | 804 | 0.8938 | 0.9360 | 0.0422 | global better |
+| position_group | FW | 507 | 0.8022 | 0.8695 | 0.0673 | global better |
+| position_group | DF | 529 | 0.9539 | 1.0218 | 0.0679 | global better |
+
+Negative deltas mean the specialized model has lower RMSE than the global model on the same subgroup. Positive deltas mean the global model generalizes better, usually because it benefits from a larger training sample.
 
 ### Feature Importance
 
@@ -83,13 +115,15 @@ Residual diagnostics show where the model is more or less reliable across league
 
 ## Analysis and Validation
 
-The project meets the predictive objective because all learned models outperform the mean baseline on the held-out 2023/24 season. The best model explains a meaningful share of variance while maintaining evaluation on a future season, which is stricter than a random row split. The expanded 300-minute threshold increases coverage from 4,228 rows under the earlier 900-minute setup to 5,658 rows, but it also introduces noisier low-minute observations. This tradeoff is acceptable for the final project because the goal is broad player valuation coverage rather than only regular starters.
+The project meets the predictive objective because all learned global models outperform the mean baseline on the held-out 2023/24 season. The best model explains a meaningful share of variance while maintaining evaluation on a future season, which is stricter than a random row split. The expanded 300-minute threshold increases coverage from 4,228 rows under the earlier 900-minute setup to 5,658 rows, but it also introduces noisier low-minute observations. This tradeoff is acceptable for the final project because the goal is broad player valuation coverage rather than only regular starters.
+
+The segmented modeling results show that specialization is not automatically better. Some simpler ridge models improve in selected league or position segments, but the specialized hist-gradient boosting models perform worse than the global hist-gradient model on every tested subgroup. This makes the global hist-gradient boosting model the best headline model, with segment-specific models used for interpretation and robustness checks.
 
 Contract years remaining has a positive relationship with market value in the EDA and appears among useful model features. Age is negatively correlated with log value in the aggregate, reflecting that younger players often carry resale potential. Minutes and starts capture player importance and reliability. League and position encode market context and role-based valuation differences.
 
 ## Discussion and Conclusion
 
-The final analysis shows that football player market value can be estimated from public performance, contract, and context features with moderate accuracy. The nonlinear model gives the strongest predictive performance, while linear models remain useful for interpretation. The main contribution is a reproducible workflow that connects raw football and Transfermarkt-derived data into a player-season modeling dataset, EDA outputs, model comparisons, position-specific diagnostics, and report-ready figures.
+The final analysis shows that football player market value can be estimated from public performance, contract, and context features with moderate accuracy. The nonlinear model gives the strongest predictive performance, while linear models remain useful for interpretation. The main contribution is a reproducible workflow that connects raw football and Transfermarkt-derived data into a player-season modeling dataset, EDA outputs, global models, position-specific models, league-specific models, and report-ready figures.
 
 Important limitations remain. Transfermarkt market value is a proxy rather than an actual sale price, the dataset does not include injuries or detailed team strength, and the contract feature is approximated from transfer-history events. Future work should add richer event data, club financial context, exact contract records, and external validation against actual transfer fees.
 
@@ -98,7 +132,7 @@ Important limitations remain. Transfermarkt market value is a proxy rather than 
 Run the main results with:
 
 ```powershell
-python analysis/eda_and_baseline.py --min-minutes 300 --include-position-models
+python analysis/eda_and_baseline.py --min-minutes 300 --include-position-models --include-league-models
 ```
 
 All report figures and tables are generated programmatically from the project data.

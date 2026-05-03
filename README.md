@@ -34,7 +34,7 @@ python -m pip install -r requirements.txt
 Run the final analysis, reports, figures, and paper source generation with one command:
 
 ```powershell
-python analysis/eda_and_baseline.py --min-minutes 300 --include-position-models
+python analysis/eda_and_baseline.py --min-minutes 300 --include-position-models --include-league-models
 ```
 
 The command regenerates:
@@ -45,6 +45,7 @@ The command regenerates:
 - `reports/tables/model_metrics.csv`
 - `reports/tables/error_by_group.csv`
 - `reports/tables/feature_importance.csv`
+- `reports/tables/specialized_model_comparison.csv`
 - `reports/figures/*.png`
 - `paper/main.tex`
 - `paper/references.bib`

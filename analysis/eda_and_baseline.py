@@ -341,6 +341,7 @@ def evaluate_predictions(
     split: str,
     scope: str,
     position_group: str,
+    cleaned_comp: str,
     y_log: pd.Series,
     y_raw: pd.Series,
     pred_log: np.ndarray,
@@ -350,6 +351,7 @@ def evaluate_predictions(
     return {
         "scope": scope,
         "position_group": position_group,
+        "cleaned_comp": cleaned_comp,
         "model": model_name,
         "split": split,
         "rows": len(y_log),
@@ -398,6 +400,7 @@ def fit_model_set(
     *,
     scope: str,
     position_group: str,
+    cleaned_comp: str = "ALL",
 ) -> tuple[pd.DataFrame, pd.DataFrame, dict[str, Pipeline]]:
     train_df, test_df, X_train, X_test = split_xy(model_df)
     y_train = train_df[TARGET]
@@ -422,6 +425,7 @@ def fit_model_set(
                     split=split,
                     scope=scope,
                     position_group=position_group,
+                    cleaned_comp=cleaned_comp,
                     y_log=y_part,
                     y_raw=df_part[RAW_TARGET],
                     pred_log=predictions,
@@ -444,6 +448,7 @@ def run_models(
     model_df: pd.DataFrame,
     *,
     include_position_models: bool,
+    include_league_models: bool,
 ) -> tuple[pd.DataFrame, pd.DataFrame, dict[str, Pipeline]]:
     global_metrics, global_predictions, fitted_models = fit_model_set(
         model_df,
@@ -465,6 +470,24 @@ def run_models(
                 position_df,
                 scope="position_specific",
                 position_group=position_group,
+            )
+            metric_parts.append(metrics)
+            prediction_parts.append(predictions)
+
+    if include_league_models:
+        league_groups = sorted(model_df["cleaned_comp"].dropna().unique())
+        for league in league_groups:
+            league_df = model_df[model_df["cleaned_comp"] == league].copy()
+            train_rows = league_df["season"].isin(TRAIN_SEASONS).sum()
+            test_rows = league_df["season"].isin(TEST_SEASONS).sum()
+            if train_rows == 0 or test_rows == 0:
+                raise ValueError(f"League {league} has empty train or test rows.")
+
+            metrics, predictions, _ = fit_model_set(
+                league_df,
+                scope="league_specific",
+                position_group="ALL",
+                cleaned_comp=league,
             )
             metric_parts.append(metrics)
             prediction_parts.append(predictions)
@@ -566,6 +589,69 @@ def save_error_by_group(predictions: pd.DataFrame, best_model_name: str) -> pd.D
     return error_by_group
 
 
+def summarize_prediction_errors(prediction_rows: pd.DataFrame) -> dict[str, float | int]:
+    return {
+        "rows": len(prediction_rows),
+        "mae_log": prediction_rows["abs_error_log"].mean(),
+        "rmse_log": math.sqrt(np.mean(np.square(prediction_rows["residual_log"]))),
+        "mae_eur": prediction_rows["abs_error_eur"].mean(),
+    }
+
+
+def save_specialized_model_comparison(predictions: pd.DataFrame) -> pd.DataFrame:
+    rows: list[dict[str, object]] = []
+    comparisons = [
+        ("position_group", "position_specific", POSITION_GROUPS),
+        ("cleaned_comp", "league_specific", sorted(predictions["cleaned_comp"].dropna().unique())),
+    ]
+    model_names = ["ridge_alpha_1", "hist_gradient_boosting"]
+
+    for group_column, local_scope, group_values in comparisons:
+        for group_value in group_values:
+            for model_name in model_names:
+                global_rows = predictions[
+                    (predictions["scope"] == "global")
+                    & (predictions["model"] == model_name)
+                    & (predictions["split"] == "test")
+                    & (predictions[group_column] == group_value)
+                ]
+                local_rows = predictions[
+                    (predictions["scope"] == local_scope)
+                    & (predictions["model"] == model_name)
+                    & (predictions["split"] == "test")
+                    & (predictions[group_column] == group_value)
+                ]
+                if global_rows.empty or local_rows.empty:
+                    continue
+
+                global_metrics = summarize_prediction_errors(global_rows)
+                local_metrics = summarize_prediction_errors(local_rows)
+                rows.append(
+                    {
+                        "group_column": group_column,
+                        "group_value": group_value,
+                        "model": model_name,
+                        "rows": local_metrics["rows"],
+                        "global_rmse_log": global_metrics["rmse_log"],
+                        "specialized_rmse_log": local_metrics["rmse_log"],
+                        "rmse_log_delta_specialized_minus_global": (
+                            local_metrics["rmse_log"] - global_metrics["rmse_log"]
+                        ),
+                        "global_mae_log": global_metrics["mae_log"],
+                        "specialized_mae_log": local_metrics["mae_log"],
+                        "mae_log_delta_specialized_minus_global": (
+                            local_metrics["mae_log"] - global_metrics["mae_log"]
+                        ),
+                        "global_mae_eur": global_metrics["mae_eur"],
+                        "specialized_mae_eur": local_metrics["mae_eur"],
+                    }
+                )
+
+    comparison = pd.DataFrame(rows).sort_values(["group_column", "group_value", "model"])
+    comparison.to_csv(TABLES_DIR / "specialized_model_comparison.csv", index=False)
+    return comparison
+
+
 def plot_model_diagnostics(metrics: pd.DataFrame, predictions: pd.DataFrame, best_model_name: str) -> None:
     test_metrics = metrics[(metrics["scope"] == "global") & (metrics["split"] == "test")].copy()
     test_metrics = test_metrics.sort_values("rmse_log")
@@ -631,6 +717,45 @@ def plot_model_diagnostics(metrics: pd.DataFrame, predictions: pd.DataFrame, bes
         plt.ylabel("Test RMSE log")
         save_plot(FIGURES_DIR / "position_model_comparison.png")
 
+    league_metrics = metrics[(metrics["scope"] == "league_specific") & (metrics["split"] == "test")].copy()
+    if not league_metrics.empty:
+        league_metrics = league_metrics[league_metrics["model"].isin(["ridge_alpha_1", "hist_gradient_boosting"])]
+        plt.figure(figsize=(11, 5))
+        sns.barplot(
+            data=league_metrics,
+            x="cleaned_comp",
+            y="rmse_log",
+            hue="model",
+            order=sorted(league_metrics["cleaned_comp"].unique()),
+        )
+        plt.title("League-Specific Model Comparison")
+        plt.xlabel("League")
+        plt.ylabel("Test RMSE log")
+        plt.xticks(rotation=25, ha="right")
+        save_plot(FIGURES_DIR / "league_model_comparison.png")
+
+
+def plot_specialized_vs_global(specialized_comparison: pd.DataFrame) -> None:
+    if specialized_comparison.empty:
+        return
+
+    plot_df = specialized_comparison[
+        specialized_comparison["model"] == "hist_gradient_boosting"
+    ].copy()
+    plot_df["comparison_label"] = plot_df["group_column"].map(
+        {"position_group": "Position", "cleaned_comp": "League"}
+    ) + ": " + plot_df["group_value"].astype(str)
+    plot_df = plot_df.sort_values("rmse_log_delta_specialized_minus_global")
+
+    plt.figure(figsize=(11, 6))
+    colors = np.where(plot_df["rmse_log_delta_specialized_minus_global"] <= 0, "#2E7D32", "#B23B3B")
+    plt.barh(plot_df["comparison_label"], plot_df["rmse_log_delta_specialized_minus_global"], color=colors)
+    plt.axvline(0, color="#333333", linewidth=1)
+    plt.title("Specialized Vs Global Hist-Gradient Boosting")
+    plt.xlabel("Specialized RMSE log minus global RMSE log")
+    plt.ylabel("Segment")
+    save_plot(FIGURES_DIR / "specialized_vs_global_rmse.png")
+
 
 def format_eur(value: float) -> str:
     return f"{value:,.0f}"
@@ -663,6 +788,7 @@ def write_summary(
     model_df: pd.DataFrame,
     metrics: pd.DataFrame,
     feature_importance: pd.DataFrame,
+    specialized_comparison: pd.DataFrame,
     min_minutes: int,
 ) -> None:
     global_test = metrics[(metrics["scope"] == "global") & (metrics["split"] == "test")]
@@ -676,6 +802,15 @@ def write_summary(
         & (feature_importance["importance_type"] == "permutation_rmse_drop")
     ].copy()
     top_hgb_features = hgb_importance.head(6)["feature"].tolist()
+    if specialized_comparison.empty:
+        improved_segments = 0
+        total_segments = 0
+    else:
+        hgb_specialized = specialized_comparison[
+            specialized_comparison["model"] == "hist_gradient_boosting"
+        ].copy()
+        improved_segments = int((hgb_specialized["rmse_log_delta_specialized_minus_global"] < 0).sum())
+        total_segments = len(hgb_specialized)
 
     lines = [
         "# EDA And Model Comparison Summary",
@@ -713,7 +848,8 @@ def write_summary(
         f"- The {min_minutes}+ minute filter keeps broad coverage while excluding very small playing-time samples.",
         "- The nonlinear hist-gradient boosting model performs best on the 2023/24 holdout season.",
         "- Age, minutes, contract years remaining, league, and position are consistent valuation signals.",
-        "- Position-specific models are useful diagnostics, but the global model remains the clearest comparison baseline.",
+        f"- Specialized position/league models improve hist-gradient RMSE in {improved_segments} of {total_segments} tested segments.",
+        "- Global models remain the main benchmark; specialized models are diagnostics for segment-specific valuation patterns.",
         f"- Top permutation-importance features for the best model: {', '.join(top_hgb_features)}.",
         "",
         "## Generated Files",
@@ -723,11 +859,14 @@ def write_summary(
         "- `reports/tables/model_metrics.csv`",
         "- `reports/tables/error_by_group.csv`",
         "- `reports/tables/feature_importance.csv`",
+        "- `reports/tables/specialized_model_comparison.csv`",
         "- `reports/tables/model_predictions.csv`",
         "- `reports/figures/model_comparison_test_rmse.png`",
         "- `reports/figures/predicted_vs_actual_best_model.png`",
         "- `reports/figures/residuals_by_league_position.png`",
         "- `reports/figures/position_model_comparison.png`",
+        "- `reports/figures/league_model_comparison.png`",
+        "- `reports/figures/specialized_vs_global_rmse.png`",
         "- `paper/main.tex`",
         "- `paper/references.bib`",
     ]
@@ -740,6 +879,7 @@ def write_final_report(
     metrics: pd.DataFrame,
     error_by_group: pd.DataFrame,
     feature_importance: pd.DataFrame,
+    specialized_comparison: pd.DataFrame,
     min_minutes: int,
 ) -> None:
     global_test = metrics[(metrics["scope"] == "global") & (metrics["split"] == "test")].sort_values("rmse_log")
@@ -762,6 +902,39 @@ def write_final_report(
         position_test[["position_group", "model", "rows", "rmse_log", "mae_log", "r2"]].sort_values(
             ["position_group", "rmse_log"]
         )
+    )
+
+    league_test = metrics[
+        (metrics["scope"] == "league_specific")
+        & (metrics["split"] == "test")
+        & (metrics["model"].isin(["ridge_alpha_1", "hist_gradient_boosting"]))
+    ].copy()
+    league_md = dataframe_to_markdown(
+        league_test[["cleaned_comp", "model", "rows", "rmse_log", "mae_log", "r2"]].sort_values(
+            ["cleaned_comp", "rmse_log"]
+        )
+    )
+
+    specialized_hgb = specialized_comparison[
+        specialized_comparison["model"] == "hist_gradient_boosting"
+    ].copy()
+    specialized_hgb["result"] = np.where(
+        specialized_hgb["rmse_log_delta_specialized_minus_global"] < 0,
+        "specialized better",
+        "global better",
+    )
+    specialized_md = dataframe_to_markdown(
+        specialized_hgb[
+            [
+                "group_column",
+                "group_value",
+                "rows",
+                "global_rmse_log",
+                "specialized_rmse_log",
+                "rmse_log_delta_specialized_minus_global",
+                "result",
+            ]
+        ].sort_values(["group_column", "rmse_log_delta_specialized_minus_global"])
     )
 
     top_features = feature_importance[
@@ -800,7 +973,7 @@ def write_final_report(
         "",
         f"Players with fewer than {min_minutes} minutes are excluded. This threshold keeps substantially more observations than the earlier 900-minute filter while still removing the smallest samples. The final modeling rows by position are DF={position_counts['DF']:,}, MF={position_counts['MF']:,}, and FW={position_counts['FW']:,}. Models are trained on 2021/22 and 2022/23 and evaluated only on 2023/24.",
         "",
-        "The global model comparison includes a mean baseline, ordinary least squares linear regression, ridge regression, and hist-gradient boosting. Position-specific ridge and hist-gradient boosting models are trained separately for defenders, midfielders, and forwards.",
+        "The global model comparison includes a mean baseline, ordinary least squares linear regression, ridge regression, and hist-gradient boosting. Separate position-specific and league-specific models are also trained. These specialized models are compared against the global model evaluated on the same subgroup, which shows whether segmentation actually improves predictive accuracy.",
         "",
         "## Results",
         "",
@@ -816,6 +989,18 @@ def write_final_report(
         "",
         "The position-specific results are useful for diagnosing how model behavior changes by role. They should be interpreted cautiously because each position model has fewer training examples than the global model.",
         "",
+        "### League-Specific Models",
+        "",
+        league_md,
+        "",
+        "League-specific models test whether each league has enough distinct valuation structure to justify a separate estimator. These models are especially useful because league context is one of the strongest valuation signals.",
+        "",
+        "### Global Vs Specialized Models",
+        "",
+        specialized_md,
+        "",
+        "Negative deltas mean the specialized model has lower RMSE than the global model on the same subgroup. Positive deltas mean the global model generalizes better, usually because it benefits from a larger training sample.",
+        "",
         "### Feature Importance",
         "",
         top_features_md,
@@ -830,13 +1015,15 @@ def write_final_report(
         "",
         "## Analysis and Validation",
         "",
-        "The project meets the predictive objective because all learned models outperform the mean baseline on the held-out 2023/24 season. The best model explains a meaningful share of variance while maintaining evaluation on a future season, which is stricter than a random row split. The expanded 300-minute threshold increases coverage from 4,228 rows under the earlier 900-minute setup to 5,658 rows, but it also introduces noisier low-minute observations. This tradeoff is acceptable for the final project because the goal is broad player valuation coverage rather than only regular starters.",
+        "The project meets the predictive objective because all learned global models outperform the mean baseline on the held-out 2023/24 season. The best model explains a meaningful share of variance while maintaining evaluation on a future season, which is stricter than a random row split. The expanded 300-minute threshold increases coverage from 4,228 rows under the earlier 900-minute setup to 5,658 rows, but it also introduces noisier low-minute observations. This tradeoff is acceptable for the final project because the goal is broad player valuation coverage rather than only regular starters.",
+        "",
+        "The segmented modeling results show that specialization is not automatically better. Some simpler ridge models improve in selected league or position segments, but the specialized hist-gradient boosting models perform worse than the global hist-gradient model on every tested subgroup. This makes the global hist-gradient boosting model the best headline model, with segment-specific models used for interpretation and robustness checks.",
         "",
         "Contract years remaining has a positive relationship with market value in the EDA and appears among useful model features. Age is negatively correlated with log value in the aggregate, reflecting that younger players often carry resale potential. Minutes and starts capture player importance and reliability. League and position encode market context and role-based valuation differences.",
         "",
         "## Discussion and Conclusion",
         "",
-        "The final analysis shows that football player market value can be estimated from public performance, contract, and context features with moderate accuracy. The nonlinear model gives the strongest predictive performance, while linear models remain useful for interpretation. The main contribution is a reproducible workflow that connects raw football and Transfermarkt-derived data into a player-season modeling dataset, EDA outputs, model comparisons, position-specific diagnostics, and report-ready figures.",
+        "The final analysis shows that football player market value can be estimated from public performance, contract, and context features with moderate accuracy. The nonlinear model gives the strongest predictive performance, while linear models remain useful for interpretation. The main contribution is a reproducible workflow that connects raw football and Transfermarkt-derived data into a player-season modeling dataset, EDA outputs, global models, position-specific models, league-specific models, and report-ready figures.",
         "",
         "Important limitations remain. Transfermarkt market value is a proxy rather than an actual sale price, the dataset does not include injuries or detailed team strength, and the contract feature is approximated from transfer-history events. Future work should add richer event data, club financial context, exact contract records, and external validation against actual transfer fees.",
         "",
@@ -845,7 +1032,7 @@ def write_final_report(
         "Run the main results with:",
         "",
         "```powershell",
-        "python analysis/eda_and_baseline.py --min-minutes 300 --include-position-models",
+        "python analysis/eda_and_baseline.py --min-minutes 300 --include-position-models --include-league-models",
         "```",
         "",
         "All report figures and tables are generated programmatically from the project data.",
@@ -859,6 +1046,8 @@ def write_paper_sources(min_minutes: int) -> None:
         "predicted_vs_actual_best_model.png",
         "residuals_by_league_position.png",
         "position_model_comparison.png",
+        "league_model_comparison.png",
+        "specialized_vs_global_rmse.png",
     ]
     for figure_name in paper_figure_names:
         source = FIGURES_DIR / figure_name
@@ -914,7 +1103,7 @@ The final analytics table is \texttt{data/processed/player\_season\_analytics.cs
 
 Players with fewer than """ + str(min_minutes) + r""" minutes are excluded. This threshold increases coverage compared with a 900-minute regular-starter filter while still removing very small playing-time samples. The train/test split is chronological: 2021/22 and 2022/23 are used for training, and 2023/24 is held out for testing.
 
-The global model comparison includes a mean baseline, ordinary least squares regression, ridge regression, and hist-gradient boosting. Position-specific ridge and hist-gradient boosting models are also trained for defenders, midfielders, and forwards. Performance is evaluated with RMSE, MAE, and \(R^2\) on the log target, with additional error summaries in EUR after inverse transformation.
+The global model comparison includes a mean baseline, ordinary least squares regression, ridge regression, and hist-gradient boosting. Position-specific models are trained for defenders, midfielders, and forwards. League-specific models are trained for each top-five league. Specialized models are compared with the global model on the same subgroup to test whether segmentation improves prediction or whether the global model benefits from its larger training sample. Performance is evaluated with RMSE, MAE, and \(R^2\) on the log target, with additional error summaries in EUR after inverse transformation.
 
 \section{Results}
 The generated results are stored in \texttt{reports/tables/model\_metrics.csv}. In the final run, the hist-gradient boosting model is expected to be the strongest global model, with test RMSE log around 0.89 and test \(R^2\) around 0.61. The linear and ridge models remain useful interpretable baselines and substantially outperform the mean predictor.
@@ -931,8 +1120,14 @@ The generated results are stored in \texttt{reports/tables/model\_metrics.csv}. 
 \label{fig:predicted_actual}
 \end{figure}
 
+\begin{figure}[htbp]
+\centerline{\includegraphics[width=\linewidth]{figures/specialized_vs_global_rmse.png}}
+\caption{Segment-specific hist-gradient boosting models compared with the global model on the same subgroup. Negative values favor specialized models.}
+\label{fig:specialized_global}
+\end{figure}
+
 \section{Analysis and Validation}
-The chronological holdout split validates whether the model generalizes to the next season rather than only fitting random rows from the same time period. The nonlinear model's advantage suggests interactions among age, minutes, league, position, and contract status. Position-specific models provide additional diagnostic insight, but they use smaller samples and should be interpreted as supporting analysis rather than replacements for the global comparison.
+The chronological holdout split validates whether the model generalizes to the next season rather than only fitting random rows from the same time period. The nonlinear model's advantage suggests interactions among age, minutes, league, position, and contract status. Position-specific and league-specific models provide diagnostic insight, but they use smaller samples and should be interpreted as supporting analysis rather than replacements for the global comparison.
 
 Feature importance outputs in \texttt{reports/tables/feature\_importance.csv} show that age, minutes, league, position, and contract-related variables are important valuation signals. Contract years remaining is positively associated with value in exploratory analysis, consistent with the idea that longer contracts strengthen the selling club's bargaining position. These findings are descriptive rather than causal because unobserved factors such as reputation, injuries, wage level, and club demand are not fully captured.
 
@@ -1012,6 +1207,7 @@ def main() -> int:
     parser.add_argument("--input", type=Path, default=DEFAULT_INPUT)
     parser.add_argument("--min-minutes", type=int, default=DEFAULT_MIN_MINUTES)
     parser.add_argument("--include-position-models", action="store_true")
+    parser.add_argument("--include-league-models", action="store_true")
     args = parser.parse_args()
 
     ensure_dirs()
@@ -1021,6 +1217,7 @@ def main() -> int:
     metrics, predictions, fitted_models = run_models(
         model_df,
         include_position_models=args.include_position_models,
+        include_league_models=args.include_league_models,
     )
     feature_importance = save_feature_importance(fitted_models, model_df)
     best_global_model = (
@@ -1029,14 +1226,24 @@ def main() -> int:
         .iloc[0]["model"]
     )
     error_by_group = save_error_by_group(predictions, best_global_model)
+    specialized_comparison = save_specialized_model_comparison(predictions)
     plot_model_diagnostics(metrics, predictions, best_global_model)
-    write_summary(eda_stats, model_df, metrics, feature_importance, min_minutes=args.min_minutes)
+    plot_specialized_vs_global(specialized_comparison)
+    write_summary(
+        eda_stats,
+        model_df,
+        metrics,
+        feature_importance,
+        specialized_comparison,
+        min_minutes=args.min_minutes,
+    )
     write_final_report(
         eda_stats,
         model_df,
         metrics,
         error_by_group,
         feature_importance,
+        specialized_comparison,
         min_minutes=args.min_minutes,
     )
     write_paper_sources(min_minutes=args.min_minutes)
@@ -1050,6 +1257,10 @@ def main() -> int:
         position_rows = metrics[(metrics["scope"] == "position_specific") & (metrics["split"] == "test")]
         print("Position-specific test metrics:")
         print(position_rows.sort_values(["position_group", "rmse_log"]).to_string(index=False))
+    if args.include_league_models:
+        league_rows = metrics[(metrics["scope"] == "league_specific") & (metrics["split"] == "test")]
+        print("League-specific test metrics:")
+        print(league_rows.sort_values(["cleaned_comp", "rmse_log"]).to_string(index=False))
     print(f"Wrote summary: {REPORTS_DIR / 'eda_summary.md'}")
     print(f"Wrote final report: {REPORTS_DIR / 'final_report.md'}")
     print(f"Wrote paper source: {PAPER_DIR / 'main.tex'}")
