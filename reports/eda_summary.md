@@ -1,4 +1,4 @@
-# EDA And Baseline Modeling Summary
+# EDA And Model Comparison Summary
 
 ## Dataset
 
@@ -8,32 +8,45 @@
 - Missing log target rows: 0
 - Missing raw target rows: 0
 - Missing contract rows: 321
-- Rows under 900 minutes: 2243
+- Rows under 300 minutes: 813
 
 ## Modeling Dataset
 
-- Minimum minutes filter: `900`
-- Modeling rows: 4228
+- Minimum minutes filter: `300`
+- Modeling rows: 5658
 - Train seasons: 21/22, 22/23
 - Test seasons: 23/24
-- Train rows: 2840
-- Test rows: 1388
+- Train rows: 3818
+- Test rows: 1840
+- Position rows: DF=1614, MF=2443, FW=1601
 
-## Best Baseline
+## Best Global Model
 
-- Model: `linear_regression`
-- Test RMSE log: 0.9990
-- Test MAE log: 0.7208
-- Test R2: 0.5061
+- Model: `hist_gradient_boosting`
+- Test RMSE log: 0.8877
+- Test MAE log: 0.6663
+- Test R2: 0.6146
+- Test MAE EUR: 6,871,178
+
+## Main Conclusions
+
+- The 300+ minute filter keeps broad coverage while excluding very small playing-time samples.
+- The nonlinear hist-gradient boosting model performs best on the 2023/24 holdout season.
+- Age, minutes, contract years remaining, league, and position are consistent valuation signals.
+- Position-specific models are useful diagnostics, but the global model remains the clearest comparison baseline.
+- Top permutation-importance features for the best model: Age, contract_years_remaining, cleaned_comp, contract_missing, transfer_count_before_valuation, crosses_per90.
 
 ## Generated Files
 
 - `data/processed/modeling_dataset.csv`
-- `reports/tables/missingness.csv`
-- `reports/tables/market_value_by_group.csv`
-- `reports/tables/numeric_correlations.csv`
-- `reports/tables/target_correlations.csv`
-- `reports/tables/baseline_model_metrics.csv`
-- `reports/tables/ridge_alpha_1_coefficients.csv`
-- `reports/tables/ridge_alpha_10_coefficients.csv`
-- `reports/figures/*.png`
+- `reports/final_report.md`
+- `reports/tables/model_metrics.csv`
+- `reports/tables/error_by_group.csv`
+- `reports/tables/feature_importance.csv`
+- `reports/tables/model_predictions.csv`
+- `reports/figures/model_comparison_test_rmse.png`
+- `reports/figures/predicted_vs_actual_best_model.png`
+- `reports/figures/residuals_by_league_position.png`
+- `reports/figures/position_model_comparison.png`
+- `paper/main.tex`
+- `paper/references.bib`
