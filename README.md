@@ -4,17 +4,24 @@ This project builds a reproducible player-season analytics workflow for predicti
 
 ## Objective
 
-The main objective is to estimate `log_market_value_eur` from public football and contract signals, compare baseline and nonlinear regression models, and summarize valuation drivers by league and position.
+Estimate `log_market_value_eur` from public football and contract signals, compare baseline and nonlinear regression models, and summarize valuation drivers by league and position.
 
 ## Project Structure
 
-- `data/processed/player_season_analytics.csv` - final analytics table used for EDA and modeling.
-- `analysis/eda_and_baseline.py` - one-command EDA, model comparison, diagnostics, and report generator.
-- `analysis/eda_and_baseline.ipynb` - notebook version of the final analysis.
-- `reports/figures/` - programmatically generated figures.
-- `reports/tables/` - programmatically generated tables and model outputs.
-- `reports/final_report.md` - Markdown report draft.
-- `paper/main.tex` and `paper/references.bib` - IEEE/Overleaf-ready paper source files.
+- `code/preprocessing/` - data preparation scripts that build interim and processed datasets.
+- `code/analysis/` - EDA, model comparison, diagnostics, and generated report/paper draft logic.
+- `code/scraping/` - optional Transfermarkt history scraper; the tracked JSON files are already included.
+- `code/validation/` - lightweight data validation checks.
+- `data/raw/` - original CSV inputs.
+- `data/scraped/transfermarkt/history_json/` - tracked scraped Transfermarkt transfer-history JSON.
+- `data/interim/` - inferred/intermediate CSVs used to assemble the final dataset.
+- `data/processed/` - final analytics and modeling datasets.
+- `reports/generated/` - programmatically generated tables, figures, and analysis reports.
+- `reports/authored/` - hand/AI-written presentation and poster materials.
+- `paper/generated/` - script-generated IEEE/Overleaf draft source.
+- `paper/final/` - canonical hand-editable IEEE paper source and figures.
+- `docs/` - project notes, guidelines, and file classification manifest.
+- `meta/graphify/` - graphify graph, HTML, report, cache, and query memory artifacts.
 
 ## Environment
 
@@ -31,31 +38,46 @@ python -m pip install -r requirements.txt
 
 ## Reproduce Main Results
 
-Run the final analysis, reports, figures, and paper source generation with one command:
+Run the full non-network reproduction workflow with one command:
 
 ```powershell
-python analysis/eda_and_baseline.py --min-minutes 300 --include-position-models --include-league-models
+python code/reproduce.py
 ```
 
-The command regenerates:
+The command rebuilds or refreshes:
 
+- `data/interim/metrics.csv`
+- `data/interim/metrics_with_valuation_dates.csv`
+- `data/interim/transfer_history_events.csv`
+- `data/interim/player_season_market_values.csv`
+- `data/interim/player_season_contract_features.csv`
+- `data/processed/player_season_analytics.csv`
 - `data/processed/modeling_dataset.csv`
-- `reports/eda_summary.md`
-- `reports/final_report.md`
-- `reports/tables/model_metrics.csv`
-- `reports/tables/error_by_group.csv`
-- `reports/tables/feature_importance.csv`
-- `reports/tables/specialized_model_comparison.csv`
-- `reports/figures/*.png`
-- `paper/main.tex`
-- `paper/references.bib`
+- `reports/generated/analysis_summary.md`
+- `reports/generated/final_report.md`
+- `reports/generated/tables/*.csv`
+- `reports/generated/figures/*.png`
+- `paper/generated/main.tex`
+- `paper/generated/references.bib`
+- `paper/generated/figures/*.png`
+- `paper/final/figures/*.png`
+
+The final paper text in `paper/final/main.tex` is intentionally not overwritten by the reproduction command.
+
+## Optional Scraping
+
+The tracked scraped JSON files are sufficient for reproduction. To refresh them from the network, run:
+
+```powershell
+python code/scraping/scrape_transfer_history.py
+```
 
 ## Notebook Execution
 
 To execute the notebook from a clean kernel:
 
 ```powershell
-jupyter nbconvert --to notebook --execute analysis/eda_and_baseline.ipynb --output eda_and_baseline.executed.ipynb --output-dir analysis
+jupyter nbconvert --to notebook --execute code\analysis\eda_and_baseline.ipynb --output eda_and_baseline.executed.ipynb --output-dir code\analysis
 ```
 
 ## Data Notes

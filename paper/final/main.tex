@@ -1,0 +1,89 @@
+\documentclass[conference]{IEEEtran}
+\IEEEoverridecommandlockouts
+
+\usepackage{cite}
+\usepackage{amsmath,amssymb,amsfonts}
+\usepackage{graphicx}
+\usepackage{textcomp}
+\usepackage{xcolor}
+\usepackage{booktabs}
+\usepackage{url}
+
+\begin{document}
+
+\title{A Data-Driven Analysis of Football Players' Transfer Value Based on Performance and Contract Characteristics}
+
+\author{
+\IEEEauthorblockN{[Student Full Name]}
+\IEEEauthorblockA{\textit{American University of Armenia}\\
+Yerevan, Armenia\\
+[student.email@example.com]}
+\and
+\IEEEauthorblockN{Supervisor: [Supervisor Name]}
+\IEEEauthorblockA{\textit{American University of Armenia}\\
+Yerevan, Armenia}
+}
+
+\maketitle
+
+\begin{abstract}
+This project predicts and explains football player market value using season-level performance, league, position, age, transfer-history, and contract features. The dataset covers player-season observations from the top five European leagues across the 2021/22, 2022/23, and 2023/24 seasons. The modeling target is the log-transformed Transfermarkt market value, which addresses the strong skew in football valuations. Models are trained on 2021/22 and 2022/23 and evaluated on the held-out 2023/24 season. With a 300-minute playing-time threshold, the best global model is hist-gradient boosting, which outperforms linear and ridge baselines. The results show that market value is meaningfully associated with age, minutes, league, position, contract years remaining, and transfer-history signals, while also leaving residual error likely related to reputation, injuries, club strategy, and other unobserved market factors.
+\end{abstract}
+
+\begin{IEEEkeywords}
+football analytics, market value prediction, Transfermarkt, machine learning, regression, contract analysis
+\end{IEEEkeywords}
+
+\section{Introduction}
+Transfer values play a central role in professional football because they influence recruitment, squad planning, and contract negotiation. Although goals and assists are often emphasized in public discussion, market valuation also reflects age, position, playing time, contract situation, league context, and market expectations. This project examines whether public season-level data can predict player market value and which feature groups are most informative.
+
+The research questions are: (1) how well can football players' market values be predicted from season-level performance and contract data; (2) which variables are most associated with valuation; (3) whether the relationship differs by position; and (4) how contract expiry relates to value after controlling for other signals.
+
+\section{Literature Review}
+Transfermarkt has been widely used in football economics and analytics as a proxy for player market value. Herm et al. studied the accuracy and attributes of crowd-generated Transfermarkt valuations \cite{herm2014crowd}. Muller et al. proposed data-driven player valuation methods beyond crowd judgment \cite{muller2017beyond}. More recent machine-learning studies compare regression and ensemble approaches for predicting European football player values \cite{aydemir2022ensemble,tamim2025football}. Contract duration and transfer-market economics are also important because remaining contract length changes bargaining power and expected transfer fees \cite{poli2022contract}. This project builds on these directions with a reproducible player-season pipeline and explicit holdout-season validation.
+
+\section{Methodology}
+The final analytics table is \texttt{data/processed/player\_season\_analytics.csv}. Each row is a player-season/team observation. Features include age, squared age, minutes, starts, 90s, per-90 performance rates, league, season, position group, contract years remaining, missing-contract indicators, and transfer-history counts. The target is \texttt{log\_market\_value\_eur}, defined as \(\log(1 + \text{market value in EUR})\).
+
+Players with fewer than 300 minutes are excluded. This threshold increases coverage compared with a 900-minute regular-starter filter while still removing very small playing-time samples. The train/test split is chronological: 2021/22 and 2022/23 are used for training, and 2023/24 is held out for testing.
+
+The global model comparison includes a mean baseline, ordinary least squares regression, ridge regression, and hist-gradient boosting. Position-specific models are trained for defenders, midfielders, and forwards. League-specific models are trained for each top-five league. Specialized models are compared with the global model on the same subgroup to test whether segmentation improves prediction or whether the global model benefits from its larger training sample. Performance is evaluated with RMSE, MAE, and \(R^2\) on the log target, with additional error summaries in EUR after inverse transformation.
+
+\section{Results}
+The generated results are stored in \texttt{reports/generated/tables/model\_metrics.csv}. In the final run, the hist-gradient boosting model is expected to be the strongest global model, with test RMSE log around 0.89 and test \(R^2\) around 0.61. The linear and ridge models remain useful interpretable baselines and substantially outperform the mean predictor.
+
+\begin{figure}[htbp]
+\centerline{\includegraphics[width=\linewidth]{figures/model_comparison_test_rmse.png}}
+\caption{Global model comparison on the 2023/24 test season.}
+\label{fig:model_comparison}
+\end{figure}
+
+\begin{figure}[htbp]
+\centerline{\includegraphics[width=\linewidth]{figures/predicted_vs_actual_best_model.png}}
+\caption{Predicted versus actual log market value for the best global model.}
+\label{fig:predicted_actual}
+\end{figure}
+
+\begin{figure}[htbp]
+\centerline{\includegraphics[width=\linewidth]{figures/specialized_vs_global_rmse.png}}
+\caption{Segment-specific hist-gradient boosting models compared with the global model on the same subgroup. Negative values favor specialized models.}
+\label{fig:specialized_global}
+\end{figure}
+
+\section{Analysis and Validation}
+The chronological holdout split validates whether the model generalizes to the next season rather than only fitting random rows from the same time period. The nonlinear model's advantage suggests interactions among age, minutes, league, position, and contract status. Position-specific and league-specific models provide diagnostic insight, but they use smaller samples and should be interpreted as supporting analysis rather than replacements for the global comparison.
+
+Feature importance outputs in \texttt{reports/generated/tables/feature\_importance.csv} show that age, minutes, league, position, and contract-related variables are important valuation signals. Contract years remaining is positively associated with value in exploratory analysis, consistent with the idea that longer contracts strengthen the selling club's bargaining position. These findings are descriptive rather than causal because unobserved factors such as reputation, injuries, wage level, and club demand are not fully captured.
+
+\section{Discussion and Conclusion}
+The project demonstrates that football player market values can be estimated from public performance, contract, and context data with moderate accuracy. The best nonlinear model improves meaningfully over the mean baseline and over linear models on the held-out 2023/24 season. The main contribution is a reproducible pipeline that connects processed player-season data to EDA, model comparison, position-specific validation, and report-ready figures.
+
+Limitations include the use of Transfermarkt market value as a proxy for realized transfer price, approximate contract features derived from transfer-history events, and missing information on injuries, wages, team strength, reputation, and actual transfer demand. Future work should add richer event-level football data, exact contract records, club financial variables, and validation against actual transfer fees.
+
+\section*{Acknowledgment}
+The student thanks [Supervisor Name] and the American University of Armenia for guidance and support.
+
+\bibliographystyle{IEEEtran}
+\bibliography{references}
+
+\end{document}
