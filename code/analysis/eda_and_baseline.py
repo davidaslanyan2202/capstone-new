@@ -10,8 +10,6 @@ Outputs:
     reports/generated/final_report.md
     reports/generated/tables/*.csv
     reports/generated/figures/*.png
-    paper/generated/main.tex
-    paper/generated/references.bib
     paper/final/figures/*.png
 """
 
@@ -45,8 +43,6 @@ FIGURES_DIR = REPORTS_DIR / "figures"
 TABLES_DIR = REPORTS_DIR / "tables"
 SUMMARY_PATH = REPORTS_DIR / "analysis_summary.md"
 GENERATED_REPORT_PATH = REPORTS_DIR / "final_report.md"
-PAPER_GENERATED_DIR = REPO_ROOT / "paper" / "generated"
-PAPER_GENERATED_FIGURES_DIR = PAPER_GENERATED_DIR / "figures"
 PAPER_FINAL_FIGURES_DIR = REPO_ROOT / "paper" / "final" / "figures"
 
 TARGET = "log_market_value_eur"
@@ -55,6 +51,7 @@ TRAIN_SEASONS = ["21/22", "22/23"]
 TEST_SEASONS = ["23/24"]
 POSITION_GROUPS = ["DF", "MF", "FW"]
 DEFAULT_MIN_MINUTES = 300
+MAX_MARKET_VALUE_DAYS_FROM_VALUATION = 120
 
 NUMERIC_FEATURES = [
     "Age",
@@ -72,6 +69,7 @@ NUMERIC_FEATURES = [
     "fouls_per90",
     "fouled_per90",
     "contract_years_remaining",
+    "contract_expired",
     "contract_missing",
     "days_since_last_transfer",
     "transfer_count_before_valuation",
@@ -98,16 +96,26 @@ EDA_NUMERIC_COLUMNS = [
     "interceptions_per90",
     "tackles_won_per90",
     "contract_years_remaining",
+    "contract_expired",
+    "market_value_days_from_valuation",
+    "market_value_stale",
     "days_since_last_transfer",
     "transfer_count_before_valuation",
+]
+
+CONTRACT_AND_TRANSFER_FEATURES = [
+    "contract_years_remaining",
+    "contract_expired",
+    "contract_missing",
+    "days_since_last_transfer",
+    "transfer_count_before_valuation",
+    "loan_count_before_valuation",
 ]
 
 
 def ensure_dirs() -> None:
     FIGURES_DIR.mkdir(parents=True, exist_ok=True)
     TABLES_DIR.mkdir(parents=True, exist_ok=True)
-    PAPER_GENERATED_DIR.mkdir(parents=True, exist_ok=True)
-    PAPER_GENERATED_FIGURES_DIR.mkdir(parents=True, exist_ok=True)
     PAPER_FINAL_FIGURES_DIR.mkdir(parents=True, exist_ok=True)
     DEFAULT_MODELING_DATASET.parent.mkdir(parents=True, exist_ok=True)
 
@@ -139,7 +147,12 @@ def encoder() -> OneHotEncoder:
         return OneHotEncoder(handle_unknown="ignore", sparse=False)
 
 
-def make_linear_preprocessor() -> ColumnTransformer:
+def make_linear_preprocessor(
+    numeric_features: list[str] | None = None,
+    categorical_features: list[str] | None = None,
+) -> ColumnTransformer:
+    numeric_features = numeric_features or NUMERIC_FEATURES
+    categorical_features = categorical_features or CATEGORICAL_FEATURES
     numeric_pipeline = Pipeline(
         steps=[
             ("imputer", SimpleImputer(strategy="median")),
@@ -155,14 +168,19 @@ def make_linear_preprocessor() -> ColumnTransformer:
 
     return ColumnTransformer(
         transformers=[
-            ("num", numeric_pipeline, NUMERIC_FEATURES),
-            ("cat", categorical_pipeline, CATEGORICAL_FEATURES),
+            ("num", numeric_pipeline, numeric_features),
+            ("cat", categorical_pipeline, categorical_features),
         ],
         remainder="drop",
     )
 
 
-def make_tree_preprocessor() -> ColumnTransformer:
+def make_tree_preprocessor(
+    numeric_features: list[str] | None = None,
+    categorical_features: list[str] | None = None,
+) -> ColumnTransformer:
+    numeric_features = numeric_features or NUMERIC_FEATURES
+    categorical_features = categorical_features or CATEGORICAL_FEATURES
     categorical_pipeline = Pipeline(
         steps=[
             ("imputer", SimpleImputer(strategy="most_frequent")),
@@ -172,29 +190,44 @@ def make_tree_preprocessor() -> ColumnTransformer:
 
     return ColumnTransformer(
         transformers=[
-            ("num", SimpleImputer(strategy="median"), NUMERIC_FEATURES),
-            ("cat", categorical_pipeline, CATEGORICAL_FEATURES),
+            ("num", SimpleImputer(strategy="median"), numeric_features),
+            ("cat", categorical_pipeline, categorical_features),
         ],
         remainder="drop",
     )
 
 
-def model_specs() -> list[tuple[str, Pipeline]]:
+def model_specs(
+    numeric_features: list[str] | None = None,
+    categorical_features: list[str] | None = None,
+) -> list[tuple[str, Pipeline]]:
+    numeric_features = numeric_features or NUMERIC_FEATURES
+    categorical_features = categorical_features or CATEGORICAL_FEATURES
     return [
         ("mean_baseline", Pipeline(steps=[("model", DummyRegressor(strategy="mean"))])),
         (
             "linear_regression",
-            Pipeline(steps=[("preprocess", make_linear_preprocessor()), ("model", LinearRegression())]),
+            Pipeline(
+                steps=[
+                    ("preprocess", make_linear_preprocessor(numeric_features, categorical_features)),
+                    ("model", LinearRegression()),
+                ]
+            ),
         ),
         (
             "ridge_alpha_1",
-            Pipeline(steps=[("preprocess", make_linear_preprocessor()), ("model", Ridge(alpha=1.0))]),
+            Pipeline(
+                steps=[
+                    ("preprocess", make_linear_preprocessor(numeric_features, categorical_features)),
+                    ("model", Ridge(alpha=1.0)),
+                ]
+            ),
         ),
         (
             "hist_gradient_boosting",
             Pipeline(
                 steps=[
-                    ("preprocess", make_tree_preprocessor()),
+                    ("preprocess", make_tree_preprocessor(numeric_features, categorical_features)),
                     (
                         "model",
                         HistGradientBoostingRegressor(
@@ -210,13 +243,28 @@ def model_specs() -> list[tuple[str, Pipeline]]:
     ]
 
 
-def make_modeling_dataset(df: pd.DataFrame, min_minutes: int) -> pd.DataFrame:
+def make_modeling_dataset(
+    df: pd.DataFrame,
+    min_minutes: int,
+    *,
+    output_path: Path | None = DEFAULT_MODELING_DATASET,
+    in_window_only: bool = False,
+) -> pd.DataFrame:
     required = [TARGET, RAW_TARGET, "season", *NUMERIC_FEATURES, *CATEGORICAL_FEATURES]
     missing_columns = [column for column in required if column not in df.columns]
     if missing_columns:
         raise ValueError(f"Missing required modeling columns: {missing_columns}")
 
     model_df = df.copy()
+    if "market_value_stale" in model_df.columns:
+        model_df = model_df[model_df["market_value_stale"].fillna(0) == 0]
+    if "market_value_days_from_valuation" in model_df.columns:
+        model_df = model_df[
+            model_df["market_value_days_from_valuation"].isna()
+            | (model_df["market_value_days_from_valuation"] <= MAX_MARKET_VALUE_DAYS_FROM_VALUATION)
+        ]
+    if in_window_only and "market_value_in_window" in model_df.columns:
+        model_df = model_df[model_df["market_value_in_window"].fillna(0) == 1]
     model_df = model_df[model_df[TARGET].notna() & model_df[RAW_TARGET].notna()]
     model_df = model_df[model_df["season"].isin(TRAIN_SEASONS + TEST_SEASONS)]
     model_df = model_df[model_df["Min"].fillna(0) >= min_minutes]
@@ -224,7 +272,8 @@ def make_modeling_dataset(df: pd.DataFrame, min_minutes: int) -> pd.DataFrame:
     for column in CATEGORICAL_FEATURES:
         model_df[column] = model_df[column].fillna("Unknown").astype(str)
 
-    model_df.to_csv(DEFAULT_MODELING_DATASET, index=False)
+    if output_path is not None:
+        model_df.to_csv(output_path, index=False)
     return model_df
 
 
@@ -327,18 +376,30 @@ def run_eda(df: pd.DataFrame, min_minutes: int) -> dict[str, object]:
     }
 
 
-def split_xy(model_df: pd.DataFrame) -> tuple[pd.DataFrame, pd.DataFrame, pd.DataFrame, pd.DataFrame]:
+def feature_columns(
+    numeric_features: list[str] | None = None,
+    categorical_features: list[str] | None = None,
+) -> list[str]:
+    return (numeric_features or NUMERIC_FEATURES) + (categorical_features or CATEGORICAL_FEATURES)
+
+
+def split_xy(
+    model_df: pd.DataFrame,
+    numeric_features: list[str] | None = None,
+    categorical_features: list[str] | None = None,
+) -> tuple[pd.DataFrame, pd.DataFrame, pd.DataFrame, pd.DataFrame]:
     train_df = model_df[model_df["season"].isin(TRAIN_SEASONS)].copy()
     test_df = model_df[model_df["season"].isin(TEST_SEASONS)].copy()
 
     if train_df.empty or test_df.empty:
         raise ValueError("Train/test split produced an empty train or test set.")
 
+    columns = feature_columns(numeric_features, categorical_features)
     return (
         train_df,
         test_df,
-        train_df[NUMERIC_FEATURES + CATEGORICAL_FEATURES],
-        test_df[NUMERIC_FEATURES + CATEGORICAL_FEATURES],
+        train_df[columns],
+        test_df[columns],
     )
 
 
@@ -408,8 +469,35 @@ def fit_model_set(
     scope: str,
     position_group: str,
     cleaned_comp: str = "ALL",
+    numeric_features: list[str] | None = None,
+    categorical_features: list[str] | None = None,
 ) -> tuple[pd.DataFrame, pd.DataFrame, dict[str, Pipeline]]:
-    train_df, test_df, X_train, X_test = split_xy(model_df)
+    train_df, test_df, X_train, X_test = split_xy(model_df, numeric_features, categorical_features)
+    return fit_model_set_on_frames(
+        train_df,
+        test_df,
+        X_train,
+        X_test,
+        scope=scope,
+        position_group=position_group,
+        cleaned_comp=cleaned_comp,
+        numeric_features=numeric_features,
+        categorical_features=categorical_features,
+    )
+
+
+def fit_model_set_on_frames(
+    train_df: pd.DataFrame,
+    test_df: pd.DataFrame,
+    X_train: pd.DataFrame,
+    X_test: pd.DataFrame,
+    *,
+    scope: str,
+    position_group: str,
+    cleaned_comp: str = "ALL",
+    numeric_features: list[str] | None = None,
+    categorical_features: list[str] | None = None,
+) -> tuple[pd.DataFrame, pd.DataFrame, dict[str, Pipeline]]:
     y_train = train_df[TARGET]
     y_test = test_df[TARGET]
 
@@ -417,7 +505,7 @@ def fit_model_set(
     prediction_parts: list[pd.DataFrame] = []
     fitted_models: dict[str, Pipeline] = {}
 
-    for name, model in model_specs():
+    for name, model in model_specs(numeric_features, categorical_features):
         model.fit(X_train, y_train)
         fitted_models[name] = model
 
@@ -659,6 +747,150 @@ def save_specialized_model_comparison(predictions: pd.DataFrame) -> pd.DataFrame
     return comparison
 
 
+def save_bootstrap_intervals(
+    predictions: pd.DataFrame,
+    best_model_name: str,
+    *,
+    n_bootstrap: int = 500,
+) -> pd.DataFrame:
+    best_predictions = predictions[
+        (predictions["scope"] == "global")
+        & (predictions["model"] == best_model_name)
+        & (predictions["split"] == "test")
+    ].copy()
+    if best_predictions.empty:
+        intervals = pd.DataFrame()
+        intervals.to_csv(TABLES_DIR / "bootstrap_intervals.csv", index=False)
+        return intervals
+
+    rng = np.random.default_rng(42)
+    rows: list[dict[str, object]] = []
+    indices = np.arange(len(best_predictions))
+    residuals = best_predictions["residual_log"].to_numpy()
+    abs_errors = best_predictions["abs_error_log"].to_numpy()
+
+    bootstrap_rmse = []
+    bootstrap_mae = []
+    for _ in range(n_bootstrap):
+        sample_indices = rng.choice(indices, size=len(indices), replace=True)
+        bootstrap_rmse.append(math.sqrt(np.mean(np.square(residuals[sample_indices]))))
+        bootstrap_mae.append(np.mean(abs_errors[sample_indices]))
+
+    for metric, values in [("rmse_log", bootstrap_rmse), ("mae_log", bootstrap_mae)]:
+        rows.append(
+            {
+                "model": best_model_name,
+                "metric": metric,
+                "estimate": (
+                    math.sqrt(np.mean(np.square(residuals)))
+                    if metric == "rmse_log"
+                    else np.mean(abs_errors)
+                ),
+                "ci_lower_95": np.quantile(values, 0.025),
+                "ci_upper_95": np.quantile(values, 0.975),
+                "bootstrap_samples": n_bootstrap,
+            }
+        )
+
+    intervals = pd.DataFrame(rows)
+    intervals.to_csv(TABLES_DIR / "bootstrap_intervals.csv", index=False)
+    return intervals
+
+
+def save_rolling_season_validation(model_df: pd.DataFrame) -> pd.DataFrame:
+    rows: list[pd.DataFrame] = []
+    seasons = sorted(model_df["season"].dropna().unique())
+    columns = feature_columns()
+
+    for index in range(1, len(seasons)):
+        train_seasons = seasons[:index]
+        test_season = seasons[index]
+        train_df = model_df[model_df["season"].isin(train_seasons)].copy()
+        test_df = model_df[model_df["season"] == test_season].copy()
+        if train_df.empty or test_df.empty:
+            continue
+
+        metrics, _, _ = fit_model_set_on_frames(
+            train_df,
+            test_df,
+            train_df[columns],
+            test_df[columns],
+            scope="rolling_season",
+            position_group="ALL",
+        )
+        test_metrics = metrics[metrics["split"] == "test"].copy()
+        test_metrics["train_seasons"] = ",".join(train_seasons)
+        test_metrics["test_season"] = test_season
+        rows.append(test_metrics)
+
+    rolling = pd.concat(rows, ignore_index=True) if rows else pd.DataFrame()
+    rolling.to_csv(TABLES_DIR / "rolling_season_validation.csv", index=False)
+    return rolling
+
+
+def save_model_sensitivity(source_df: pd.DataFrame, base_min_minutes: int) -> pd.DataFrame:
+    variants = [
+        {
+            "variant": f"all_features_min_{base_min_minutes}",
+            "min_minutes": base_min_minutes,
+            "in_window_only": False,
+            "numeric_features": NUMERIC_FEATURES,
+            "feature_set": "all_features",
+        },
+        {
+            "variant": f"no_contract_transfer_features_min_{base_min_minutes}",
+            "min_minutes": base_min_minutes,
+            "in_window_only": False,
+            "numeric_features": [
+                feature for feature in NUMERIC_FEATURES if feature not in CONTRACT_AND_TRANSFER_FEATURES
+            ],
+            "feature_set": "no_contract_transfer_features",
+        },
+        {
+            "variant": f"in_window_targets_min_{base_min_minutes}",
+            "min_minutes": base_min_minutes,
+            "in_window_only": True,
+            "numeric_features": NUMERIC_FEATURES,
+            "feature_set": "all_features",
+        },
+        {
+            "variant": "all_features_min_900",
+            "min_minutes": 900,
+            "in_window_only": False,
+            "numeric_features": NUMERIC_FEATURES,
+            "feature_set": "all_features",
+        },
+    ]
+
+    rows: list[pd.DataFrame] = []
+    for variant in variants:
+        model_df = make_modeling_dataset(
+            source_df,
+            int(variant["min_minutes"]),
+            output_path=None,
+            in_window_only=bool(variant["in_window_only"]),
+        )
+        if model_df.empty:
+            continue
+
+        metrics, _, _ = fit_model_set(
+            model_df,
+            scope="sensitivity",
+            position_group="ALL",
+            numeric_features=list(variant["numeric_features"]),
+        )
+        test_metrics = metrics[metrics["split"] == "test"].copy()
+        test_metrics["variant"] = variant["variant"]
+        test_metrics["min_minutes"] = variant["min_minutes"]
+        test_metrics["target_filter"] = "in_window_only" if variant["in_window_only"] else "max_120_days"
+        test_metrics["feature_set"] = variant["feature_set"]
+        rows.append(test_metrics)
+
+    sensitivity = pd.concat(rows, ignore_index=True) if rows else pd.DataFrame()
+    sensitivity.to_csv(TABLES_DIR / "model_sensitivity.csv", index=False)
+    return sensitivity
+
+
 def plot_model_diagnostics(metrics: pd.DataFrame, predictions: pd.DataFrame, best_model_name: str) -> None:
     test_metrics = metrics[(metrics["scope"] == "global") & (metrics["split"] == "test")].copy()
     test_metrics = test_metrics.sort_values("rmse_log")
@@ -796,6 +1028,8 @@ def write_summary(
     metrics: pd.DataFrame,
     feature_importance: pd.DataFrame,
     specialized_comparison: pd.DataFrame,
+    sensitivity: pd.DataFrame,
+    bootstrap_intervals: pd.DataFrame,
     min_minutes: int,
 ) -> None:
     global_test = metrics[(metrics["scope"] == "global") & (metrics["split"] == "test")]
@@ -858,6 +1092,8 @@ def write_summary(
         f"- Specialized position/league models improve hist-gradient RMSE in {improved_segments} of {total_segments} tested segments.",
         "- Global models remain the main benchmark; specialized models are diagnostics for segment-specific valuation patterns.",
         f"- Top permutation-importance features for the best model: {', '.join(top_hgb_features)}.",
+        f"- Sensitivity scenarios tested: {sensitivity['variant'].nunique() if not sensitivity.empty else 0}.",
+        f"- Bootstrap uncertainty rows: {len(bootstrap_intervals)}.",
         "",
         "## Generated Files",
         "",
@@ -867,6 +1103,9 @@ def write_summary(
         "- `reports/generated/tables/error_by_group.csv`",
         "- `reports/generated/tables/feature_importance.csv`",
         "- `reports/generated/tables/specialized_model_comparison.csv`",
+        "- `reports/generated/tables/model_sensitivity.csv`",
+        "- `reports/generated/tables/bootstrap_intervals.csv`",
+        "- `reports/generated/tables/rolling_season_validation.csv`",
         "- `reports/generated/tables/model_predictions.csv`",
         "- `reports/generated/figures/model_comparison_test_rmse.png`",
         "- `reports/generated/figures/predicted_vs_actual_best_model.png`",
@@ -874,8 +1113,6 @@ def write_summary(
         "- `reports/generated/figures/position_model_comparison.png`",
         "- `reports/generated/figures/league_model_comparison.png`",
         "- `reports/generated/figures/specialized_vs_global_rmse.png`",
-        "- `paper/generated/main.tex`",
-        "- `paper/generated/references.bib`",
         "- `paper/final/figures/*.png`",
     ]
     SUMMARY_PATH.write_text("\n".join(lines) + "\n", encoding="utf-8")
@@ -888,6 +1125,9 @@ def write_final_report(
     error_by_group: pd.DataFrame,
     feature_importance: pd.DataFrame,
     specialized_comparison: pd.DataFrame,
+    sensitivity: pd.DataFrame,
+    bootstrap_intervals: pd.DataFrame,
+    rolling_validation: pd.DataFrame,
     min_minutes: int,
 ) -> None:
     global_test = metrics[(metrics["scope"] == "global") & (metrics["split"] == "test")].sort_values("rmse_log")
@@ -956,6 +1196,30 @@ def write_final_report(
             ["group_column", "group_value", "rows", "mae_log", "rmse_log", "mae_eur"]
         ]
     )
+    sensitivity_md = dataframe_to_markdown(
+        sensitivity[
+            [
+                "variant",
+                "model",
+                "rows",
+                "rmse_log",
+                "mae_log",
+                "r2",
+                "target_filter",
+                "feature_set",
+            ]
+        ].sort_values(["variant", "rmse_log"])
+        if not sensitivity.empty
+        else sensitivity
+    )
+    bootstrap_md = dataframe_to_markdown(bootstrap_intervals) if not bootstrap_intervals.empty else "_No rows._"
+    rolling_md = dataframe_to_markdown(
+        rolling_validation[
+            ["train_seasons", "test_season", "model", "rows", "rmse_log", "mae_log", "r2"]
+        ].sort_values(["test_season", "rmse_log"])
+        if not rolling_validation.empty
+        else rolling_validation
+    )
 
     lines = [
         "# A Data-Driven Analysis of Football Players' Transfer Value",
@@ -1021,13 +1285,31 @@ def write_final_report(
         "",
         "Residual diagnostics show where the model is more or less reliable across leagues and positions. Large errors remain expected for players whose valuation is affected by reputation, transfer demand, injuries, academy status, or unusual contract situations not captured in the data.",
         "",
+        "### Robustness And Sensitivity",
+        "",
+        sensitivity_md,
+        "",
+        "The sensitivity table compares the headline setup against variants that remove contract/transfer-history features, require in-window market-value targets, and use a stricter 900-minute playing-time threshold.",
+        "",
+        "### Bootstrap Uncertainty",
+        "",
+        bootstrap_md,
+        "",
+        "Bootstrap intervals resample the 2023/24 test residuals for the best global model and give a simple uncertainty range around headline error metrics.",
+        "",
+        "### Rolling Season Validation",
+        "",
+        rolling_md,
+        "",
+        "Rolling validation is limited by the three available seasons, but it checks whether conclusions are stable when testing 2022/23 after training on 2021/22 and when testing 2023/24 after training on the first two seasons.",
+        "",
         "## Analysis and Validation",
         "",
-        "The project meets the predictive objective because all learned global models outperform the mean baseline on the held-out 2023/24 season. The best model explains a meaningful share of variance while maintaining evaluation on a future season, which is stricter than a random row split. The expanded 300-minute threshold increases coverage from 4,228 rows under the earlier 900-minute setup to 5,658 rows, but it also introduces noisier low-minute observations. This tradeoff is acceptable for the final project because the goal is broad player valuation coverage rather than only regular starters.",
+        f"The project meets the predictive objective because all learned global models outperform the mean baseline on the held-out 2023/24 season. The best model explains a meaningful share of variance while maintaining evaluation on a future season, which is stricter than a random row split. The expanded {min_minutes}-minute threshold increases coverage relative to a 900-minute regular-starter filter, but it also introduces noisier low-minute observations. This tradeoff is acceptable for the final project because the goal is broad player valuation coverage rather than only regular starters.",
         "",
         "The segmented modeling results show that specialization is not automatically better. Some simpler ridge models improve in selected league or position segments, but the specialized hist-gradient boosting models perform worse than the global hist-gradient model on every tested subgroup. This makes the global hist-gradient boosting model the best headline model, with segment-specific models used for interpretation and robustness checks.",
         "",
-        "Contract years remaining has a positive relationship with market value in the EDA and appears among useful model features. Age is negatively correlated with log value in the aggregate, reflecting that younger players often carry resale potential. Minutes and starts capture player importance and reliability. League and position encode market context and role-based valuation differences.",
+        "Contract years remaining has a positive relationship with market value in the EDA and appears among useful model features, but expired contracts are now modeled as a separate flag and negative remaining years are capped at zero. Age is negatively correlated with log value in the aggregate, reflecting that younger players often carry resale potential. Minutes and starts capture player importance and reliability. League and position encode market context and role-based valuation differences.",
         "",
         "## Discussion and Conclusion",
         "",
@@ -1048,7 +1330,11 @@ def write_final_report(
     GENERATED_REPORT_PATH.write_text("\n".join(lines) + "\n", encoding="utf-8")
 
 
-def write_paper_sources(min_minutes: int) -> None:
+def write_paper_sources(min_minutes: int, model_df: pd.DataFrame, metrics: pd.DataFrame) -> None:
+    global_test = metrics[(metrics["scope"] == "global") & (metrics["split"] == "test")].sort_values("rmse_log")
+    best_test = global_test.iloc[0]
+    best_model_label = str(best_test["model"]).replace("_", "-")
+
     paper_figure_names = [
         "model_comparison_test_rmse.png",
         "predicted_vs_actual_best_model.png",
@@ -1060,7 +1346,6 @@ def write_paper_sources(min_minutes: int) -> None:
     for figure_name in paper_figure_names:
         source = FIGURES_DIR / figure_name
         if source.exists():
-            copy2(source, PAPER_GENERATED_FIGURES_DIR / figure_name)
             copy2(source, PAPER_FINAL_FIGURES_DIR / figure_name)
 
     main_tex = r"""\documentclass[conference]{IEEEtran}
@@ -1079,12 +1364,12 @@ def write_paper_sources(min_minutes: int) -> None:
 \title{A Data-Driven Analysis of Football Players' Transfer Value Based on Performance and Contract Characteristics}
 
 \author{
-\IEEEauthorblockN{[Student Full Name]}
+\IEEEauthorblockN{David Aslanyan}
 \IEEEauthorblockA{\textit{American University of Armenia}\\
 Yerevan, Armenia\\
-[student.email@example.com]}
+david\_aslanyan@edu.auau.am}
 \and
-\IEEEauthorblockN{Supervisor: [Supervisor Name]}
+\IEEEauthorblockN{Supervisor: Arman Asryan}
 \IEEEauthorblockA{\textit{American University of Armenia}\\
 Yerevan, Armenia}
 }
@@ -1092,7 +1377,7 @@ Yerevan, Armenia}
 \maketitle
 
 \begin{abstract}
-This project predicts and explains football player market value using season-level performance, league, position, age, transfer-history, and contract features. The dataset covers player-season observations from the top five European leagues across the 2021/22, 2022/23, and 2023/24 seasons. The modeling target is the log-transformed Transfermarkt market value, which addresses the strong skew in football valuations. Models are trained on 2021/22 and 2022/23 and evaluated on the held-out 2023/24 season. With a 300-minute playing-time threshold, the best global model is hist-gradient boosting, which outperforms linear and ridge baselines. The results show that market value is meaningfully associated with age, minutes, league, position, contract years remaining, and transfer-history signals, while also leaving residual error likely related to reputation, injuries, club strategy, and other unobserved market factors.
+This project predicts and explains football player market value using season-level performance, league, position, age, transfer-history, and contract features. The dataset covers player-season observations from the top five European leagues across the 2021/22, 2022/23, and 2023/24 seasons. The modeling target is the log-transformed Transfermarkt market value, which addresses the strong skew in football valuations. Models are trained on 2021/22 and 2022/23 and evaluated on the held-out 2023/24 season. With a """ + str(min_minutes) + r"""-minute playing-time threshold, the modeling dataset contains """ + f"{len(model_df):,}" + r""" rows. The best global model is """ + best_model_label + r""", with test RMSE log """ + f"{best_test['rmse_log']:.2f}" + r""" and test \(R^2\) """ + f"{best_test['r2']:.2f}" + r""". The results show that market value is meaningfully associated with age, minutes, league, position, contract years remaining, and transfer-history signals, while also leaving residual error likely related to reputation, injuries, club strategy, and other unobserved market factors.
 \end{abstract}
 
 \begin{IEEEkeywords}
@@ -1115,7 +1400,7 @@ Players with fewer than """ + str(min_minutes) + r""" minutes are excluded. This
 The global model comparison includes a mean baseline, ordinary least squares regression, ridge regression, and hist-gradient boosting. Position-specific models are trained for defenders, midfielders, and forwards. League-specific models are trained for each top-five league. Specialized models are compared with the global model on the same subgroup to test whether segmentation improves prediction or whether the global model benefits from its larger training sample. Performance is evaluated with RMSE, MAE, and \(R^2\) on the log target, with additional error summaries in EUR after inverse transformation.
 
 \section{Results}
-The generated results are stored in \texttt{reports/generated/tables/model\_metrics.csv}. In the final run, the hist-gradient boosting model is expected to be the strongest global model, with test RMSE log around 0.89 and test \(R^2\) around 0.61. The linear and ridge models remain useful interpretable baselines and substantially outperform the mean predictor.
+The generated results are stored in \texttt{reports/generated/tables/model\_metrics.csv}. In the final run, the strongest global model is """ + best_model_label + r""", with test RMSE log """ + f"{best_test['rmse_log']:.2f}" + r""" and test \(R^2\) """ + f"{best_test['r2']:.2f}" + r""". The linear and ridge models remain useful interpretable baselines and substantially outperform the mean predictor.
 
 \begin{figure}[htbp]
 \centerline{\includegraphics[width=\linewidth]{figures/model_comparison_test_rmse.png}}
@@ -1146,7 +1431,7 @@ The project demonstrates that football player market values can be estimated fro
 Limitations include the use of Transfermarkt market value as a proxy for realized transfer price, approximate contract features derived from transfer-history events, and missing information on injuries, wages, team strength, reputation, and actual transfer demand. Future work should add richer event-level football data, exact contract records, club financial variables, and validation against actual transfer fees.
 
 \section*{Acknowledgment}
-The student thanks [Supervisor Name] and the American University of Armenia for guidance and support.
+The student thanks Arman Asryan and the American University of Armenia for guidance and support.
 
 \bibliographystyle{IEEEtran}
 \bibliography{references}
@@ -1207,8 +1492,8 @@ The student thanks [Supervisor Name] and the American University of Armenia for 
   doi = {10.1016/j.jcmds.2025.100118}
 }
 """
-    (PAPER_GENERATED_DIR / "main.tex").write_text(main_tex, encoding="utf-8")
-    (PAPER_GENERATED_DIR / "references.bib").write_text(references_bib, encoding="utf-8")
+    # The final paper text is hand-edited in paper/final/main.tex.
+    # Reproduction refreshes only the figure copies used by that source.
 
 
 def main() -> int:
@@ -1236,6 +1521,9 @@ def main() -> int:
     )
     error_by_group = save_error_by_group(predictions, best_global_model)
     specialized_comparison = save_specialized_model_comparison(predictions)
+    bootstrap_intervals = save_bootstrap_intervals(predictions, best_global_model)
+    rolling_validation = save_rolling_season_validation(model_df)
+    sensitivity = save_model_sensitivity(df, args.min_minutes)
     plot_model_diagnostics(metrics, predictions, best_global_model)
     plot_specialized_vs_global(specialized_comparison)
     write_summary(
@@ -1244,6 +1532,8 @@ def main() -> int:
         metrics,
         feature_importance,
         specialized_comparison,
+        sensitivity,
+        bootstrap_intervals,
         min_minutes=args.min_minutes,
     )
     write_final_report(
@@ -1253,9 +1543,12 @@ def main() -> int:
         error_by_group,
         feature_importance,
         specialized_comparison,
+        sensitivity,
+        bootstrap_intervals,
+        rolling_validation,
         min_minutes=args.min_minutes,
     )
-    write_paper_sources(min_minutes=args.min_minutes)
+    write_paper_sources(min_minutes=args.min_minutes, model_df=model_df, metrics=metrics)
 
     global_metrics = metrics[(metrics["scope"] == "global") & (metrics["split"] == "test")]
     print(f"Source rows: {len(df)}")
@@ -1272,7 +1565,6 @@ def main() -> int:
         print(league_rows.sort_values(["cleaned_comp", "rmse_log"]).to_string(index=False))
     print(f"Wrote summary: {SUMMARY_PATH}")
     print(f"Wrote final report: {GENERATED_REPORT_PATH}")
-    print(f"Wrote generated paper source: {PAPER_GENERATED_DIR / 'main.tex'}")
     print(f"Refreshed final paper figures: {PAPER_FINAL_FIGURES_DIR}")
     return 0
 

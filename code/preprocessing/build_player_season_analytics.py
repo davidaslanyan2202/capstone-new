@@ -33,6 +33,7 @@ SEASON_VALUATION_DATES = {
     "22/23": date(2023, 6, 30),
     "23/24": date(2024, 6, 30),
 }
+MAX_MARKET_VALUE_DAYS_FROM_VALUATION = 120
 
 METRICS_WITH_DATES = "metrics_with_valuation_dates.csv"
 TRANSFER_EVENTS = "transfer_history_events.csv"
@@ -307,15 +308,17 @@ def market_window(valuation_date: date) -> tuple[date, date]:
 def choose_market_value(
     player_values: list[tuple[date, int]],
     valuation_date: date,
-) -> tuple[date | None, int | None, bool]:
+) -> tuple[date | None, int | None, bool, bool]:
     if not player_values:
-        return None, None, False
+        return None, None, False, False
 
     start, end = market_window(valuation_date)
     in_window = [item for item in player_values if start <= item[0] <= end]
     candidates = in_window if in_window else player_values
     chosen_date, chosen_value = min(candidates, key=lambda item: abs((item[0] - valuation_date).days))
-    return chosen_date, chosen_value, bool(in_window)
+    days_from_valuation = abs((chosen_date - valuation_date).days)
+    is_stale = days_from_valuation > MAX_MARKET_VALUE_DAYS_FROM_VALUATION
+    return chosen_date, chosen_value, bool(in_window), is_stale
 
 
 def build_market_value_rows(
@@ -341,13 +344,14 @@ def build_market_value_rows(
                     "market_value_days_from_valuation": "",
                     "log_market_value_eur": "",
                     "market_value_in_window": "0",
+                    "market_value_stale": "0",
                     "market_value_missing": "1",
                 }
             )
             continue
 
-        value_date, market_value, in_window = choose_market_value(values_by_player.get(player_id, []), valuation_date)
-        missing = market_value is None or value_date is None
+        value_date, market_value, in_window, stale = choose_market_value(values_by_player.get(player_id, []), valuation_date)
+        missing = market_value is None or value_date is None or stale
         rows.append(
             {
                 "row_id": row["row_id"],
@@ -356,11 +360,12 @@ def build_market_value_rows(
                 "Squad": row.get("Squad", ""),
                 "Comp": row.get("Comp", ""),
                 "valuation_date": row.get("valuation_date", ""),
-                "market_value_eur": market_value or "",
+                "market_value_eur": "" if missing else market_value,
                 "market_value_date": value_date.isoformat() if value_date else "",
                 "market_value_days_from_valuation": abs((value_date - valuation_date).days) if value_date else "",
-                "log_market_value_eur": round(math.log1p(market_value), 8) if market_value else "",
+                "log_market_value_eur": round(math.log1p(market_value), 8) if market_value and not missing else "",
                 "market_value_in_window": "1" if in_window else "0",
+                "market_value_stale": "1" if stale else "0",
                 "market_value_missing": "1" if missing else "0",
             }
         )
@@ -419,13 +424,17 @@ def build_contract_feature_rows(
 
         if valuation_date and contract_until:
             contract_days_remaining: int | str = (contract_until - valuation_date).days
-            contract_years_remaining: float | str = round(contract_days_remaining / 365.25, 4)
-            expiring_1y = "1" if contract_days_remaining <= 365 else "0"
-            expiring_2y = "1" if contract_days_remaining <= 730 else "0"
+            contract_years_remaining_raw: float | str = round(contract_days_remaining / 365.25, 4)
+            contract_years_remaining: float | str = max(contract_years_remaining_raw, 0)
+            contract_expired = "1" if contract_days_remaining < 0 else "0"
+            expiring_1y = "1" if 0 <= contract_days_remaining <= 365 else "0"
+            expiring_2y = "1" if 0 <= contract_days_remaining <= 730 else "0"
             contract_missing = "0"
         else:
             contract_days_remaining = ""
+            contract_years_remaining_raw = ""
             contract_years_remaining = ""
+            contract_expired = ""
             expiring_1y = ""
             expiring_2y = ""
             contract_missing = "1"
@@ -452,7 +461,9 @@ def build_contract_feature_rows(
                 "latest_transfer_type_before_valuation": latest.get("transfer_type", "") if latest else "",
                 "contract_until_date": contract_until.isoformat() if contract_until else "",
                 "contract_days_remaining": contract_days_remaining,
+                "contract_years_remaining_raw": contract_years_remaining_raw,
                 "contract_years_remaining": contract_years_remaining,
+                "contract_expired": contract_expired,
                 "contract_expiring_within_1y": expiring_1y,
                 "contract_expiring_within_2y": expiring_2y,
                 "contract_missing": contract_missing,
@@ -509,13 +520,16 @@ def ordered_analytics_fieldnames(rows: list[dict[str, Any]], metrics_fieldnames:
         "market_value_days_from_valuation",
         "log_market_value_eur",
         "market_value_in_window",
+        "market_value_stale",
         "market_value_missing",
         "latest_transfer_id_before_valuation",
         "latest_transfer_date_before_valuation",
         "latest_transfer_type_before_valuation",
         "contract_until_date",
         "contract_days_remaining",
+        "contract_years_remaining_raw",
         "contract_years_remaining",
+        "contract_expired",
         "contract_expiring_within_1y",
         "contract_expiring_within_2y",
         "contract_missing",
@@ -637,6 +651,7 @@ def main() -> int:
         "market_value_days_from_valuation",
         "log_market_value_eur",
         "market_value_in_window",
+        "market_value_stale",
         "market_value_missing",
     ]
     write_csv(args.interim_dir / MARKET_VALUES, market_rows, market_fields)
@@ -657,7 +672,9 @@ def main() -> int:
         "latest_transfer_type_before_valuation",
         "contract_until_date",
         "contract_days_remaining",
+        "contract_years_remaining_raw",
         "contract_years_remaining",
+        "contract_expired",
         "contract_expiring_within_1y",
         "contract_expiring_within_2y",
         "contract_missing",

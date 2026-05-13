@@ -2,7 +2,7 @@
 
 ## Abstract
 
-This project predicts and explains football player market value using season-level performance, league, position, age, transfer-history, and contract features. The final analytics table contains player-season observations from the top five European leagues across 2021/22, 2022/23, and 2023/24. The target is the natural log transform `log1p(market_value_eur)`, which reduces the extreme skew in player valuation. With a minimum playing-time filter of 300 minutes, the modeling dataset contains 5,658 rows, including 3,818 training rows and 1,840 test rows. The best global model is `hist_gradient_boosting`, with test RMSE log 0.888, MAE log 0.666, and R2 0.615. The results show that market value is predictable from observable football and contract signals, but valuation remains partly driven by unobserved reputation, club strategy, and market context.
+This project predicts and explains football player market value using season-level performance, league, position, age, transfer-history, and contract features. The final analytics table contains player-season observations from the top five European leagues across 2021/22, 2022/23, and 2023/24. The target is the natural log transform `log1p(market_value_eur)`, which reduces the extreme skew in player valuation. With a minimum playing-time filter of 300 minutes, the modeling dataset contains 5,271 rows, including 3,548 training rows and 1,723 test rows. The best global model is `hist_gradient_boosting`, with test RMSE log 0.759, MAE log 0.598, and R2 0.622. The results show that market value is predictable from observable football and contract signals, but valuation remains partly driven by unobserved reputation, club strategy, and market context.
 
 ## Introduction
 
@@ -18,7 +18,7 @@ Prior work supports the use of Transfermarkt values as a structured proxy for ma
 
 The analysis uses `data/processed/player_season_analytics.csv` as the final table. Each row represents a player-season/team record. The feature set includes age, minutes, starts, per-90 performance rates, league, season, position group, contract years remaining, missing-contract indicators, and transfer-history counts. The target is `log_market_value_eur`.
 
-Players with fewer than 300 minutes are excluded. This threshold keeps substantially more observations than the earlier 900-minute filter while still removing the smallest samples. The final modeling rows by position are DF=1,614, MF=2,443, and FW=1,601. Models are trained on 2021/22 and 2022/23 and evaluated only on 2023/24.
+Players with fewer than 300 minutes are excluded. This threshold keeps substantially more observations than the earlier 900-minute filter while still removing the smallest samples. The final modeling rows by position are DF=1,488, MF=2,279, and FW=1,504. Models are trained on 2021/22 and 2022/23 and evaluated only on 2023/24.
 
 The global model comparison includes a mean baseline, ordinary least squares linear regression, ridge regression, and hist-gradient boosting. Separate position-specific and league-specific models are also trained. These specialized models are compared against the global model evaluated on the same subgroup, which shows whether segmentation actually improves predictive accuracy.
 
@@ -28,23 +28,23 @@ The global model comparison includes a mean baseline, ordinary least squares lin
 
 | model | rows | rmse_log | mae_log | r2 | mae_eur |
 | --- | --- | --- | --- | --- | --- |
-| hist_gradient_boosting | 1840 | 0.8877 | 0.6663 | 0.6146 | 6871178.1624 |
-| ridge_alpha_1 | 1840 | 0.9925 | 0.7341 | 0.5183 | 7665130.2120 |
-| linear_regression | 1840 | 0.9925 | 0.7341 | 0.5183 | 7668460.5645 |
-| mean_baseline | 1840 | 1.4320 | 1.1333 | -0.0027 | 11046357.1685 |
+| hist_gradient_boosting | 1723 | 0.7591 | 0.5976 | 0.6220 | 6857254.5747 |
+| linear_regression | 1723 | 0.7898 | 0.6309 | 0.5909 | 7475934.5469 |
+| ridge_alpha_1 | 1723 | 0.7900 | 0.6312 | 0.5907 | 7470605.8308 |
+| mean_baseline | 1723 | 1.2380 | 1.0237 | -0.0052 | 10993746.6806 |
 
-The best model improves test RMSE log by 38.0% relative to the mean baseline. The nonlinear hist-gradient boosting model performs best, indicating that football valuation is not purely linear in the available features.
+The best model improves test RMSE log by 38.7% relative to the mean baseline. The nonlinear hist-gradient boosting model performs best, indicating that football valuation is not purely linear in the available features.
 
 ### Position-Specific Models
 
 | position_group | model | rows | rmse_log | mae_log | r2 |
 | --- | --- | --- | --- | --- | --- |
-| DF | hist_gradient_boosting | 529 | 1.0218 | 0.7499 | 0.4826 |
-| DF | ridge_alpha_1 | 529 | 1.0279 | 0.7672 | 0.4765 |
-| FW | hist_gradient_boosting | 507 | 0.8695 | 0.6652 | 0.6352 |
-| FW | ridge_alpha_1 | 507 | 0.9350 | 0.6867 | 0.5782 |
-| MF | hist_gradient_boosting | 804 | 0.9360 | 0.7041 | 0.5636 |
-| MF | ridge_alpha_1 | 804 | 0.9999 | 0.7353 | 0.5019 |
+| DF | ridge_alpha_1 | 488 | 0.7941 | 0.6420 | 0.5704 |
+| DF | hist_gradient_boosting | 488 | 0.8367 | 0.6560 | 0.5230 |
+| FW | ridge_alpha_1 | 481 | 0.7540 | 0.5989 | 0.6546 |
+| FW | hist_gradient_boosting | 481 | 0.7606 | 0.6039 | 0.6486 |
+| MF | hist_gradient_boosting | 754 | 0.7925 | 0.6263 | 0.5696 |
+| MF | ridge_alpha_1 | 754 | 0.7992 | 0.6329 | 0.5623 |
 
 The position-specific results are useful for diagnosing how model behavior changes by role. They should be interpreted cautiously because each position model has fewer training examples than the global model.
 
@@ -52,16 +52,16 @@ The position-specific results are useful for diagnosing how model behavior chang
 
 | cleaned_comp | model | rows | rmse_log | mae_log | r2 |
 | --- | --- | --- | --- | --- | --- |
-| Bundesliga | ridge_alpha_1 | 326 | 0.9064 | 0.7045 | 0.5226 |
-| Bundesliga | hist_gradient_boosting | 326 | 0.9226 | 0.7172 | 0.5055 |
-| La Liga | hist_gradient_boosting | 389 | 1.0391 | 0.7627 | 0.4766 |
-| La Liga | ridge_alpha_1 | 389 | 1.0539 | 0.7718 | 0.4616 |
-| Ligue 1 | hist_gradient_boosting | 341 | 0.9229 | 0.7066 | 0.5009 |
-| Ligue 1 | ridge_alpha_1 | 341 | 0.9607 | 0.7394 | 0.4592 |
-| Premier League | hist_gradient_boosting | 393 | 0.9830 | 0.7056 | 0.5301 |
-| Premier League | ridge_alpha_1 | 393 | 1.0134 | 0.7073 | 0.5005 |
-| Serie A | hist_gradient_boosting | 391 | 0.8597 | 0.6500 | 0.5836 |
-| Serie A | ridge_alpha_1 | 391 | 0.9241 | 0.6697 | 0.5189 |
+| Bundesliga | ridge_alpha_1 | 319 | 0.7927 | 0.6420 | 0.5890 |
+| Bundesliga | hist_gradient_boosting | 319 | 0.8190 | 0.6492 | 0.5612 |
+| La Liga | ridge_alpha_1 | 345 | 0.8279 | 0.6648 | 0.5300 |
+| La Liga | hist_gradient_boosting | 345 | 0.8631 | 0.6812 | 0.4891 |
+| Ligue 1 | hist_gradient_boosting | 325 | 0.8498 | 0.6781 | 0.4214 |
+| Ligue 1 | ridge_alpha_1 | 325 | 0.8504 | 0.6770 | 0.4206 |
+| Premier League | hist_gradient_boosting | 362 | 0.7410 | 0.5664 | 0.5983 |
+| Premier League | ridge_alpha_1 | 362 | 0.7809 | 0.5936 | 0.5539 |
+| Serie A | ridge_alpha_1 | 372 | 0.7125 | 0.5817 | 0.5811 |
+| Serie A | hist_gradient_boosting | 372 | 0.7689 | 0.6115 | 0.5122 |
 
 League-specific models test whether each league has enough distinct valuation structure to justify a separate estimator. These models are especially useful because league context is one of the strongest valuation signals.
 
@@ -69,14 +69,14 @@ League-specific models test whether each league has enough distinct valuation st
 
 | group_column | group_value | rows | global_rmse_log | specialized_rmse_log | rmse_log_delta_specialized_minus_global | result |
 | --- | --- | --- | --- | --- | --- | --- |
-| cleaned_comp | Serie A | 391 | 0.8256 | 0.8597 | 0.0340 | global better |
-| cleaned_comp | Bundesliga | 326 | 0.8687 | 0.9226 | 0.0539 | global better |
-| cleaned_comp | Ligue 1 | 341 | 0.8677 | 0.9229 | 0.0552 | global better |
-| cleaned_comp | La Liga | 389 | 0.9824 | 1.0391 | 0.0568 | global better |
-| cleaned_comp | Premier League | 393 | 0.8815 | 0.9830 | 0.1016 | global better |
-| position_group | MF | 804 | 0.8938 | 0.9360 | 0.0422 | global better |
-| position_group | FW | 507 | 0.8022 | 0.8695 | 0.0673 | global better |
-| position_group | DF | 529 | 0.9539 | 1.0218 | 0.0679 | global better |
+| cleaned_comp | Bundesliga | 319 | 0.7948 | 0.8190 | 0.0243 | global better |
+| cleaned_comp | Premier League | 362 | 0.7063 | 0.7410 | 0.0347 | global better |
+| cleaned_comp | Serie A | 372 | 0.7248 | 0.7689 | 0.0441 | global better |
+| cleaned_comp | Ligue 1 | 325 | 0.7947 | 0.8498 | 0.0551 | global better |
+| cleaned_comp | La Liga | 345 | 0.7804 | 0.8631 | 0.0827 | global better |
+| position_group | MF | 754 | 0.7669 | 0.7925 | 0.0256 | global better |
+| position_group | FW | 481 | 0.7344 | 0.7606 | 0.0261 | global better |
+| position_group | DF | 488 | 0.7709 | 0.8367 | 0.0658 | global better |
 
 Negative deltas mean the specialized model has lower RMSE than the global model on the same subgroup. Positive deltas mean the global model generalizes better, usually because it benefits from a larger training sample.
 
@@ -84,16 +84,16 @@ Negative deltas mean the specialized model has lower RMSE than the global model 
 
 | feature | importance | importance_std |
 | --- | --- | --- |
-| Age | 0.1845 | 0.0141 |
-| contract_years_remaining | 0.1497 | 0.0167 |
-| cleaned_comp | 0.1464 | 0.0075 |
-| contract_missing | 0.1301 | 0.0117 |
-| transfer_count_before_valuation | 0.1123 | 0.0090 |
-| crosses_per90 | 0.0435 | 0.0063 |
-| days_since_last_transfer | 0.0383 | 0.0057 |
-| goals_per90 | 0.0379 | 0.0039 |
-| 90s | 0.0378 | 0.0079 |
-| assists_per90 | 0.0335 | 0.0058 |
+| Age | 0.2851 | 0.0135 |
+| cleaned_comp | 0.1608 | 0.0071 |
+| contract_years_remaining | 0.0738 | 0.0041 |
+| 90s | 0.0527 | 0.0055 |
+| goals_per90 | 0.0459 | 0.0031 |
+| Min | 0.0417 | 0.0045 |
+| assists_per90 | 0.0359 | 0.0047 |
+| shots_per90 | 0.0317 | 0.0078 |
+| days_since_last_transfer | 0.0282 | 0.0085 |
+| crosses_per90 | 0.0241 | 0.0052 |
 
 Permutation importance for the best nonlinear model highlights context and availability variables such as league, position, age, minutes, and contract status. Ridge coefficients provide a complementary linear view, but neither method should be interpreted as causal evidence.
 
@@ -101,25 +101,72 @@ Permutation importance for the best nonlinear model highlights context and avail
 
 | group_column | group_value | rows | mae_log | rmse_log | mae_eur |
 | --- | --- | --- | --- | --- | --- |
-| cleaned_comp | Premier League | 393 | 0.6186 | 0.8815 | 10498859.8927 |
-| cleaned_comp | Serie A | 391 | 0.6325 | 0.8256 | 5350644.1297 |
-| cleaned_comp | Ligue 1 | 341 | 0.6821 | 0.8677 | 5086252.7112 |
-| cleaned_comp | Bundesliga | 326 | 0.6889 | 0.8687 | 6427194.5320 |
-| cleaned_comp | La Liga | 389 | 0.7156 | 0.9824 | 6671301.8879 |
-| position_group | FW | 507 | 0.6271 | 0.8022 | 8081882.9584 |
-| position_group | MF | 804 | 0.6692 | 0.8938 | 6607319.0532 |
-| position_group | DF | 529 | 0.6994 | 0.9539 | 6111849.9814 |
-| season | 23/24 | 1840 | 0.6663 | 0.8877 | 6871178.1624 |
+| cleaned_comp | Premier League | 362 | 0.5386 | 0.7063 | 10392688.3176 |
+| cleaned_comp | Serie A | 372 | 0.5765 | 0.7248 | 5437541.9386 |
+| cleaned_comp | La Liga | 345 | 0.6147 | 0.7804 | 6763659.4121 |
+| cleaned_comp | Ligue 1 | 325 | 0.6287 | 0.7947 | 5041915.9483 |
+| cleaned_comp | Bundesliga | 319 | 0.6387 | 0.7948 | 6451553.8547 |
+| position_group | FW | 481 | 0.5842 | 0.7344 | 8121330.2677 |
+| position_group | MF | 754 | 0.6007 | 0.7669 | 6523069.4707 |
+| position_group | DF | 488 | 0.6057 | 0.7709 | 6127654.4928 |
+| season | 23/24 | 1723 | 0.5976 | 0.7591 | 6857254.5747 |
 
 Residual diagnostics show where the model is more or less reliable across leagues and positions. Large errors remain expected for players whose valuation is affected by reputation, transfer demand, injuries, academy status, or unusual contract situations not captured in the data.
 
+### Robustness And Sensitivity
+
+| variant | model | rows | rmse_log | mae_log | r2 | target_filter | feature_set |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| all_features_min_300 | hist_gradient_boosting | 1723 | 0.7591 | 0.5976 | 0.6220 | max_120_days | all_features |
+| all_features_min_300 | linear_regression | 1723 | 0.7898 | 0.6309 | 0.5909 | max_120_days | all_features |
+| all_features_min_300 | ridge_alpha_1 | 1723 | 0.7900 | 0.6312 | 0.5907 | max_120_days | all_features |
+| all_features_min_300 | mean_baseline | 1723 | 1.2380 | 1.0237 | -0.0052 | max_120_days | all_features |
+| all_features_min_900 | hist_gradient_boosting | 1303 | 0.7347 | 0.5788 | 0.6201 | max_120_days | all_features |
+| all_features_min_900 | linear_regression | 1303 | 0.7635 | 0.6055 | 0.5897 | max_120_days | all_features |
+| all_features_min_900 | ridge_alpha_1 | 1303 | 0.7638 | 0.6060 | 0.5894 | max_120_days | all_features |
+| all_features_min_900 | mean_baseline | 1303 | 1.1943 | 0.9789 | -0.0039 | max_120_days | all_features |
+| in_window_targets_min_300 | hist_gradient_boosting | 1722 | 0.7605 | 0.5988 | 0.6200 | in_window_only | all_features |
+| in_window_targets_min_300 | linear_regression | 1722 | 0.7891 | 0.6304 | 0.5909 | in_window_only | all_features |
+| in_window_targets_min_300 | ridge_alpha_1 | 1722 | 0.7894 | 0.6306 | 0.5906 | in_window_only | all_features |
+| in_window_targets_min_300 | mean_baseline | 1722 | 1.2368 | 1.0228 | -0.0049 | in_window_only | all_features |
+| no_contract_transfer_features_min_300 | hist_gradient_boosting | 1723 | 0.8150 | 0.6453 | 0.5643 | max_120_days | no_contract_transfer_features |
+| no_contract_transfer_features_min_300 | linear_regression | 1723 | 0.8306 | 0.6641 | 0.5475 | max_120_days | no_contract_transfer_features |
+| no_contract_transfer_features_min_300 | ridge_alpha_1 | 1723 | 0.8308 | 0.6640 | 0.5473 | max_120_days | no_contract_transfer_features |
+| no_contract_transfer_features_min_300 | mean_baseline | 1723 | 1.2380 | 1.0237 | -0.0052 | max_120_days | no_contract_transfer_features |
+
+The sensitivity table compares the headline setup against variants that remove contract/transfer-history features, require in-window market-value targets, and use a stricter 900-minute playing-time threshold.
+
+### Bootstrap Uncertainty
+
+| model | metric | estimate | ci_lower_95 | ci_upper_95 | bootstrap_samples |
+| --- | --- | --- | --- | --- | --- |
+| hist_gradient_boosting | rmse_log | 0.7591 | 0.7317 | 0.7868 | 500 |
+| hist_gradient_boosting | mae_log | 0.5976 | 0.5775 | 0.6203 | 500 |
+
+Bootstrap intervals resample the 2023/24 test residuals for the best global model and give a simple uncertainty range around headline error metrics.
+
+### Rolling Season Validation
+
+| train_seasons | test_season | model | rows | rmse_log | mae_log | r2 |
+| --- | --- | --- | --- | --- | --- | --- |
+| 21/22 | 22/23 | hist_gradient_boosting | 1764 | 0.7594 | 0.6072 | 0.6111 |
+| 21/22 | 22/23 | ridge_alpha_1 | 1764 | 0.7808 | 0.6255 | 0.5889 |
+| 21/22 | 22/23 | linear_regression | 1764 | 0.7823 | 0.6261 | 0.5873 |
+| 21/22 | 22/23 | mean_baseline | 1764 | 1.2218 | 1.0094 | -0.0067 |
+| 21/22,22/23 | 23/24 | hist_gradient_boosting | 1723 | 0.7591 | 0.5976 | 0.6220 |
+| 21/22,22/23 | 23/24 | linear_regression | 1723 | 0.7898 | 0.6309 | 0.5909 |
+| 21/22,22/23 | 23/24 | ridge_alpha_1 | 1723 | 0.7900 | 0.6312 | 0.5907 |
+| 21/22,22/23 | 23/24 | mean_baseline | 1723 | 1.2380 | 1.0237 | -0.0052 |
+
+Rolling validation is limited by the three available seasons, but it checks whether conclusions are stable when testing 2022/23 after training on 2021/22 and when testing 2023/24 after training on the first two seasons.
+
 ## Analysis and Validation
 
-The project meets the predictive objective because all learned global models outperform the mean baseline on the held-out 2023/24 season. The best model explains a meaningful share of variance while maintaining evaluation on a future season, which is stricter than a random row split. The expanded 300-minute threshold increases coverage from 4,228 rows under the earlier 900-minute setup to 5,658 rows, but it also introduces noisier low-minute observations. This tradeoff is acceptable for the final project because the goal is broad player valuation coverage rather than only regular starters.
+The project meets the predictive objective because all learned global models outperform the mean baseline on the held-out 2023/24 season. The best model explains a meaningful share of variance while maintaining evaluation on a future season, which is stricter than a random row split. The expanded 300-minute threshold increases coverage relative to a 900-minute regular-starter filter, but it also introduces noisier low-minute observations. This tradeoff is acceptable for the final project because the goal is broad player valuation coverage rather than only regular starters.
 
 The segmented modeling results show that specialization is not automatically better. Some simpler ridge models improve in selected league or position segments, but the specialized hist-gradient boosting models perform worse than the global hist-gradient model on every tested subgroup. This makes the global hist-gradient boosting model the best headline model, with segment-specific models used for interpretation and robustness checks.
 
-Contract years remaining has a positive relationship with market value in the EDA and appears among useful model features. Age is negatively correlated with log value in the aggregate, reflecting that younger players often carry resale potential. Minutes and starts capture player importance and reliability. League and position encode market context and role-based valuation differences.
+Contract years remaining has a positive relationship with market value in the EDA and appears among useful model features, but expired contracts are now modeled as a separate flag and negative remaining years are capped at zero. Age is negatively correlated with log value in the aggregate, reflecting that younger players often carry resale potential. Minutes and starts capture player importance and reliability. League and position encode market context and role-based valuation differences.
 
 ## Discussion and Conclusion
 

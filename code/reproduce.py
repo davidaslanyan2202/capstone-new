@@ -19,7 +19,9 @@ def run_step(args: list[str | Path]) -> None:
 
 def main() -> int:
     run_step([Path("code") / "preprocessing" / "add_transfermarkt_ids.py"])
+    run_step([Path("code") / "validation" / "check_transfermarkt_ids.py"])
     run_step([Path("code") / "preprocessing" / "build_player_season_analytics.py"])
+    run_step([Path("code") / "validation" / "check_data_quality.py"])
     run_step(
         [
             Path("code") / "analysis" / "eda_and_baseline.py",
