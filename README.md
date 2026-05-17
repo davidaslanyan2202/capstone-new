@@ -6,6 +6,57 @@ This project builds a reproducible player-season analytics workflow for predicti
 
 Estimate `log_market_value_eur` from public football and contract signals, compare baseline and nonlinear regression models, and summarize valuation drivers by league and position.
 
+## Supervisor Review Quick Start
+
+Use these steps when reviewing the submission from a fresh checkout or downloaded ZIP.
+
+1. Open a terminal in the repository root, the folder that contains this `README.md`.
+2. Create and activate a Python virtual environment.
+
+   Windows PowerShell:
+
+   ```powershell
+   python -m venv .venv
+   .\.venv\Scripts\Activate.ps1
+   ```
+
+   macOS/Linux:
+
+   ```bash
+   python3 -m venv .venv
+   source .venv/bin/activate
+   ```
+
+3. Install dependencies.
+
+   Windows PowerShell:
+
+   ```powershell
+   python -m pip install --upgrade pip
+   python -m pip install -r requirements.txt
+   ```
+
+   macOS/Linux:
+
+   ```bash
+   python -m pip install --upgrade pip
+   python -m pip install -r requirements.txt
+   ```
+
+4. Reproduce the project outputs without network access.
+
+   ```powershell
+   python code/reproduce.py
+   ```
+
+5. Run the automated checks.
+
+   ```powershell
+   python -m unittest discover -s tests -v
+   ```
+
+After these commands complete, review the generated analysis in `reports/generated/final_report.md`, the summary in `reports/generated/analysis_summary.md`, and the final paper PDF in `paper/final/main.pdf`.
+
 ## Project Structure
 
 - `code/preprocessing/` - data preparation scripts that build interim and processed datasets.
@@ -23,26 +74,37 @@ Estimate `log_market_value_eur` from public football and contract signals, compa
 
 ## Environment
 
-Recommended environment:
+Recommended runtime:
 
 - Python 3.10 or newer
 - Packages listed in `requirements.txt`
 
-Install dependencies:
+The reproduction workflow is designed to run offline because the required raw CSV files and scraped Transfermarkt JSON files are tracked in the repository. Network access is only needed for the optional scraping refresh.
+
+If PowerShell blocks virtual-environment activation on Windows, run:
 
 ```powershell
-python -m pip install -r requirements.txt
+Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+.\.venv\Scripts\Activate.ps1
 ```
 
 ## Reproduce Main Results
 
-Run the full non-network reproduction workflow with one command:
+Run the full non-network reproduction workflow from the repository root:
 
 ```powershell
 python code/reproduce.py
 ```
 
-The command rebuilds or refreshes:
+This command runs, in order:
+
+1. `code/preprocessing/add_transfermarkt_ids.py`
+2. `code/validation/check_transfermarkt_ids.py`
+3. `code/preprocessing/build_player_season_analytics.py`
+4. `code/validation/check_data_quality.py`
+5. `code/analysis/eda_and_baseline.py --min-minutes 300 --include-position-models --include-league-models`
+
+It rebuilds or refreshes:
 
 - `data/interim/metrics.csv`
 - `data/interim/unmatched_transfermarkt_id_rows.csv`
@@ -65,19 +127,23 @@ The reproduction workflow also runs validation gates for Transfermarkt IDs, stal
 
 ## Tests
 
-Run the unit tests with:
+Run the unit tests from the repository root with:
 
 ```powershell
 python -m unittest discover -s tests -v
 ```
 
+The tests cover the preprocessing and validation rules that are easiest to regress: Transfermarkt ID ambiguity handling, valuation-date selection, stale-label handling, and contract-feature leakage prevention.
+
 ## Optional Scraping
 
-The tracked scraped JSON files are sufficient for reproduction. To refresh them from the network, run:
+The tracked scraped JSON files are sufficient for supervisor review and reproduction. To refresh them from the network, run:
 
 ```powershell
 python code/scraping/scrape_transfer_history.py
 ```
+
+This optional command contacts Transfermarkt-derived endpoints and can take longer than the offline reproduction workflow. It is not required to grade or verify the submitted results.
 
 ## Notebook Execution
 
@@ -86,6 +152,18 @@ To execute the notebook from a clean kernel:
 ```powershell
 jupyter nbconvert --to notebook --execute code\analysis\eda_and_baseline.ipynb --output eda_and_baseline.executed.ipynb --output-dir code\analysis
 ```
+
+The notebook is optional. The canonical reproducible path is `python code/reproduce.py`.
+
+## Review Checklist
+
+For a standard supervisor review, verify these items:
+
+- `python code/reproduce.py` completes successfully.
+- `python -m unittest discover -s tests -v` passes.
+- `reports/generated/final_report.md` and `reports/generated/analysis_summary.md` are present after reproduction.
+- `data/processed/modeling_dataset.csv` exists and reflects the modeling filter described below.
+- `paper/final/main.pdf` is available for reading the final report; the reproduction command refreshes the paper figures but does not rewrite `paper/final/main.tex`.
 
 ## Data Notes
 
