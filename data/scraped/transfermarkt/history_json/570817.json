@@ -365,7 +365,61 @@
           "relativeUrl": "/maxime-busi/transfers/spieler/570817/transfer_id/2105077"
         }
       ],
-      "pending": [],
+      "pending": [
+        {
+          "id": "6313172",
+          "transferSource": {
+            "competitionId": "FR2",
+            "countryId": 50,
+            "clubId": "1421",
+            "coachId": "0"
+          },
+          "transferDestination": {
+            "competitionId": "",
+            "countryId": 0,
+            "clubId": "515",
+            "coachId": "0"
+          },
+          "details": {
+            "playerId": "570817",
+            "date": "2026-07-01T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2026,
+            "isPending": true,
+            "marketValue": {
+              "value": 1000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "1.00",
+                "suffix": "M"
+              }
+            },
+            "age": 26,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2026,
+              "display": "26/27",
+              "cyclicalName": "2027",
+              "nonCyclicalName": "26/27"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/maxime-busi/transfers/spieler/570817/transfer_id/6313172"
+        }
+      ],
       "url": "",
       "feeSum": {
         "value": 8900000,
@@ -388,8 +442,9 @@
       }
     },
     "clubIds": [
-      "132",
       "1421",
+      "515",
+      "132",
       "130",
       "172",
       "54525"
@@ -406,8 +461,8 @@
       "7843"
     ],
     "competitionIds": [
-      "NL1",
       "FR2",
+      "NL1",
       "FR1",
       "IT2",
       "BE1",

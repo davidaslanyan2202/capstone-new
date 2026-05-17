@@ -181,8 +181,8 @@
           "transferSource": {
             "competitionId": "",
             "countryId": 50,
-            "clubId": "69570",
-            "coachId": "0"
+            "clubId": "106295",
+            "coachId": "120162"
           },
           "transferDestination": {
             "competitionId": "F19B",
@@ -228,6 +228,59 @@
             "feeDescription": ""
           },
           "relativeUrl": "/castello-lukeba/transfers/spieler/618472/transfer_id/2797313"
+        },
+        {
+          "id": "6309552",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 50,
+            "clubId": "69570",
+            "coachId": "0"
+          },
+          "transferDestination": {
+            "competitionId": "",
+            "countryId": 50,
+            "clubId": "106295",
+            "coachId": "141854"
+          },
+          "details": {
+            "playerId": "618472",
+            "date": "2017-07-01T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2017,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 14,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2017,
+              "display": "17/18",
+              "cyclicalName": "2018",
+              "nonCyclicalName": "17/18"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/castello-lukeba/transfers/spieler/618472/transfer_id/6309552"
         }
       ],
       "pending": [],
@@ -257,6 +310,7 @@
       "23826",
       "12764",
       "7813",
+      "106295",
       "69570"
     ],
     "coachIds": [
@@ -264,7 +318,9 @@
       "24197",
       "61491",
       "1269",
-      "23296"
+      "23296",
+      "120162",
+      "141854"
     ],
     "competitionIds": [
       "FR1",

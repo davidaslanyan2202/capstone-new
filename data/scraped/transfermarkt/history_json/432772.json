@@ -744,7 +744,61 @@
           "relativeUrl": "/samuel-grandsir/transfers/spieler/432772/transfer_id/6093864"
         }
       ],
-      "pending": [],
+      "pending": [
+        {
+          "id": "6310261",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 0,
+            "clubId": "515",
+            "coachId": "0"
+          },
+          "transferDestination": {
+            "competitionId": "CYP2",
+            "countryId": 188,
+            "clubId": "18945",
+            "coachId": "38235"
+          },
+          "details": {
+            "playerId": "432772",
+            "date": "2026-07-01T00:00:00+02:00",
+            "contractUntilDate": "2027-05-31T00:00:00+02:00",
+            "seasonId": 2026,
+            "isPending": true,
+            "marketValue": {
+              "value": 500000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "500.00",
+                "suffix": "K"
+              }
+            },
+            "age": 29,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2026,
+              "display": "26/27",
+              "cyclicalName": "2027",
+              "nonCyclicalName": "26/27"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/samuel-grandsir/transfers/spieler/432772/transfer_id/6310261"
+        }
+      ],
       "url": "",
       "feeSum": {
         "value": 3000000,
@@ -767,8 +821,9 @@
       }
     },
     "clubIds": [
-      "1162",
       "515",
+      "18945",
+      "1162",
       "738",
       "1061",
       "162",
@@ -782,6 +837,7 @@
       "83013"
     ],
     "coachIds": [
+      "38235",
       "58283",
       "92937",
       "31342",
@@ -800,6 +856,7 @@
       "64194"
     ],
     "competitionIds": [
+      "CYP2",
       "FR3",
       "FR1",
       "FR2",

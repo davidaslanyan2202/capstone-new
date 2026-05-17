@@ -619,7 +619,61 @@
           "relativeUrl": "/lorenzo-venuti/transfers/spieler/240219/transfer_id/796310"
         }
       ],
-      "pending": [],
+      "pending": [
+        {
+          "id": "6302975",
+          "transferSource": {
+            "competitionId": "IT2",
+            "countryId": 75,
+            "clubId": "1038",
+            "coachId": "6317"
+          },
+          "transferDestination": {
+            "competitionId": "",
+            "countryId": 0,
+            "clubId": "515",
+            "coachId": "0"
+          },
+          "details": {
+            "playerId": "240219",
+            "date": "2026-07-01T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2026,
+            "isPending": true,
+            "marketValue": {
+              "value": 400000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "400.00",
+                "suffix": "K"
+              }
+            },
+            "age": 31,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2026,
+              "display": "26/27",
+              "cyclicalName": "2027",
+              "nonCyclicalName": "26/27"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/lorenzo-venuti/transfers/spieler/240219/transfer_id/6302975"
+        }
+      ],
       "url": "",
       "feeSum": {
         "value": 80000,
@@ -642,8 +696,9 @@
       }
     },
     "clubIds": [
-      "1005",
       "1038",
+      "515",
+      "1005",
       "430",
       "4171",
       "19",
@@ -652,6 +707,7 @@
       "12812"
     ],
     "coachIds": [
+      "6317",
       "7521",
       "62049",
       "47288",
@@ -668,8 +724,8 @@
       "14546"
     ],
     "competitionIds": [
-      "IT1",
       "IT2",
+      "IT1",
       "ITJ1"
     ],
     "mostRecentTransfer": {

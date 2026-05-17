@@ -338,6 +338,63 @@
       ],
       "pending": [
         {
+          "id": "6296046",
+          "transferSource": {
+            "competitionId": "GB1",
+            "countryId": 189,
+            "clubId": "281",
+            "coachId": "5672"
+          },
+          "transferDestination": {
+            "competitionId": "IT1",
+            "countryId": 75,
+            "clubId": "46",
+            "coachId": "56780"
+          },
+          "details": {
+            "playerId": "284730",
+            "date": "2026-07-01T00:00:00+02:00",
+            "contractUntilDate": "2028-06-30T00:00:00+02:00",
+            "seasonId": 2026,
+            "isPending": true,
+            "marketValue": {
+              "value": 18000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "18.00",
+                "suffix": "M"
+              }
+            },
+            "age": 30,
+            "fee": {
+              "value": 15000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "15.00",
+                "suffix": "M"
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 364,
+              "daysDisplay": "11 Months, 29 Days"
+            },
+            "season": {
+              "id": 2026,
+              "display": "26/27",
+              "cyclicalName": "2027",
+              "nonCyclicalName": "26/27"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/manuel-akanji/transfers/spieler/284730/transfer_id/6296046"
+        },
+        {
           "id": "5910950",
           "transferSource": {
             "competitionId": "IT1",
@@ -388,11 +445,11 @@
       ],
       "url": "",
       "feeSum": {
-        "value": 43200000,
+        "value": 58200000,
         "currency": "EUR",
         "compact": {
           "prefix": "€",
-          "content": "43.20",
+          "content": "58.20",
           "suffix": "M"
         }
       },
@@ -408,8 +465,8 @@
       }
     },
     "clubIds": [
-      "46",
       "281",
+      "46",
       "16",
       "26",
       "242",
@@ -417,8 +474,8 @@
       "14536"
     ],
     "coachIds": [
-      "56780",
       "5672",
+      "56780",
       "14226",
       "23140",
       "1648",
@@ -430,8 +487,8 @@
       "20846"
     ],
     "competitionIds": [
-      "IT1",
       "GB1",
+      "IT1",
       "L1",
       "C1",
       "C2",

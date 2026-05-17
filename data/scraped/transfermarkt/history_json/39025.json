@@ -654,7 +654,61 @@
           "relativeUrl": "/danny-latza/transfers/spieler/39025/transfer_id/864007"
         }
       ],
-      "pending": [],
+      "pending": [
+        {
+          "id": "6315274",
+          "transferSource": {
+            "competitionId": "RLW3",
+            "countryId": 40,
+            "clubId": "4690",
+            "coachId": "54886"
+          },
+          "transferDestination": {
+            "competitionId": "",
+            "countryId": 0,
+            "clubId": "123",
+            "coachId": "0"
+          },
+          "details": {
+            "playerId": "39025",
+            "date": "2026-07-01T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2026,
+            "isPending": true,
+            "marketValue": {
+              "value": 125000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "125.00",
+                "suffix": "K"
+              }
+            },
+            "age": 36,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2026,
+              "display": "26/27",
+              "cyclicalName": "2027",
+              "nonCyclicalName": "26/27"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/danny-latza/transfers/spieler/39025/transfer_id/6315274"
+        }
+      ],
       "url": "",
       "feeSum": {
         "value": 0,
@@ -677,8 +731,9 @@
       }
     },
     "clubIds": [
-      "515",
       "4690",
+      "123",
+      "515",
       "33",
       "39",
       "80",

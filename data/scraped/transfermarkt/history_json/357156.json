@@ -647,7 +647,61 @@
           "relativeUrl": "/diogo-leite/transfers/spieler/357156/transfer_id/1732147"
         }
       ],
-      "pending": [],
+      "pending": [
+        {
+          "id": "6309975",
+          "transferSource": {
+            "competitionId": "L1",
+            "countryId": 40,
+            "clubId": "89",
+            "coachId": "0"
+          },
+          "transferDestination": {
+            "competitionId": "",
+            "countryId": 0,
+            "clubId": "515",
+            "coachId": "0"
+          },
+          "details": {
+            "playerId": "357156",
+            "date": "2026-07-01T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2026,
+            "isPending": true,
+            "marketValue": {
+              "value": 12000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "12.00",
+                "suffix": "M"
+              }
+            },
+            "age": 27,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2026,
+              "display": "26/27",
+              "cyclicalName": "2027",
+              "nonCyclicalName": "26/27"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/diogo-leite/transfers/spieler/357156/transfer_id/6309975"
+        }
+      ],
       "url": "",
       "feeSum": {
         "value": 7500000,
@@ -670,8 +724,9 @@
       }
     },
     "clubIds": [
-      "720",
       "89",
+      "515",
+      "720",
       "1075",
       "10331",
       "9844",
@@ -696,8 +751,8 @@
       "16448"
     ],
     "competitionIds": [
-      "PO1",
       "L1",
+      "PO1",
       "PO2"
     ],
     "mostRecentTransfer": {

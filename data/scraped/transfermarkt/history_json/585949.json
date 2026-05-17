@@ -282,8 +282,8 @@
           "transferSource": {
             "competitionId": "",
             "countryId": 50,
-            "clubId": "69570",
-            "coachId": "0"
+            "clubId": "106295",
+            "coachId": "141854"
           },
           "transferDestination": {
             "competitionId": "",
@@ -331,6 +331,59 @@
           "relativeUrl": "/pierre-kalulu/transfers/spieler/585949/transfer_id/2690481"
         },
         {
+          "id": "6302976",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 50,
+            "clubId": "69570",
+            "coachId": "122473"
+          },
+          "transferDestination": {
+            "competitionId": "",
+            "countryId": 50,
+            "clubId": "106295",
+            "coachId": "0"
+          },
+          "details": {
+            "playerId": "585949",
+            "date": "2015-07-01T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2015,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 15,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2015,
+              "display": "15/16",
+              "cyclicalName": "2016",
+              "nonCyclicalName": "15/16"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/pierre-kalulu/transfers/spieler/585949/transfer_id/6302976"
+        },
+        {
           "id": "6177674",
           "transferSource": {
             "competitionId": "",
@@ -346,9 +399,9 @@
           },
           "details": {
             "playerId": "585949",
-            "date": "2010-07-01T00:00:00+02:00",
+            "date": "2008-07-01T00:00:00+02:00",
             "contractUntilDate": null,
-            "seasonId": 2010,
+            "seasonId": 2008,
             "isPending": false,
             "marketValue": {
               "value": 0,
@@ -359,7 +412,7 @@
                 "suffix": ""
               }
             },
-            "age": 10,
+            "age": 8,
             "fee": {
               "value": null,
               "currency": "",
@@ -370,10 +423,10 @@
               }
             },
             "season": {
-              "id": 2010,
-              "display": "10/11",
-              "cyclicalName": "2011",
-              "nonCyclicalName": "10/11"
+              "id": 2008,
+              "display": "08/09",
+              "cyclicalName": "2009",
+              "nonCyclicalName": "08/09"
             }
           },
           "typeDetails": {
@@ -411,6 +464,7 @@
       "506",
       "12764",
       "7813",
+      "106295",
       "69570",
       "108371"
     ],
@@ -423,7 +477,9 @@
       "61491",
       "2135",
       "23698",
-      "61490"
+      "61490",
+      "141854",
+      "122473"
     ],
     "competitionIds": [
       "IT1",

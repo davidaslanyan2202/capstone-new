@@ -368,6 +368,63 @@
       ],
       "pending": [
         {
+          "id": "6302520",
+          "transferSource": {
+            "competitionId": "GB3",
+            "countryId": 189,
+            "clubId": "1031",
+            "coachId": "105721"
+          },
+          "transferDestination": {
+            "competitionId": "",
+            "countryId": 0,
+            "clubId": "515",
+            "coachId": "0"
+          },
+          "details": {
+            "playerId": "469958",
+            "date": "2026-07-01T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2026,
+            "isPending": true,
+            "marketValue": {
+              "value": 1500000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "1.50",
+                "suffix": "M"
+              }
+            },
+            "age": 28,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 364,
+              "daysDisplay": "11 Months, 29 Days"
+            },
+            "season": {
+              "id": 2026,
+              "display": "26/27",
+              "cyclicalName": "2027",
+              "nonCyclicalName": "26/27"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/jacob-brown/transfers/spieler/469958/transfer_id/6302520"
+        },
+        {
           "id": "6163344",
           "transferSource": {
             "competitionId": "GB2",
@@ -438,8 +495,9 @@
       }
     },
     "clubIds": [
-      "1020",
       "1031",
+      "515",
+      "1020",
       "512",
       "349",
       "1219",
@@ -447,8 +505,8 @@
       "23076"
     ],
     "coachIds": [
-      "112345",
       "105721",
+      "112345",
       "24018",
       "49800",
       "5801",
@@ -458,8 +516,8 @@
       "45736"
     ],
     "competitionIds": [
-      "GB2",
       "GB3",
+      "GB2",
       "GB1",
       "GB4"
     ],

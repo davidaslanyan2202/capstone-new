@@ -359,7 +359,61 @@
           "relativeUrl": "/nicolas-hoefler/transfers/spieler/55099/transfer_id/896651"
         }
       ],
-      "pending": [],
+      "pending": [
+        {
+          "id": "6308478",
+          "transferSource": {
+            "competitionId": "L1",
+            "countryId": 40,
+            "clubId": "60",
+            "coachId": "61575"
+          },
+          "transferDestination": {
+            "competitionId": "",
+            "countryId": 0,
+            "clubId": "123",
+            "coachId": "0"
+          },
+          "details": {
+            "playerId": "55099",
+            "date": "2026-07-01T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2026,
+            "isPending": true,
+            "marketValue": {
+              "value": 500000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "500.00",
+                "suffix": "K"
+              }
+            },
+            "age": 36,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2026,
+              "display": "26/27",
+              "cyclicalName": "2027",
+              "nonCyclicalName": "26/27"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/nicolas-hoefler/transfers/spieler/55099/transfer_id/6308478"
+        }
+      ],
       "url": "",
       "feeSum": {
         "value": 0,
@@ -382,8 +436,9 @@
       }
     },
     "clubIds": [
-      "94",
       "60",
+      "123",
+      "94",
       "245",
       "4042",
       "21075",
@@ -391,6 +446,7 @@
       "40486"
     ],
     "coachIds": [
+      "61575",
       "78",
       "2989",
       "334",
@@ -399,8 +455,8 @@
       "6629"
     ],
     "competitionIds": [
-      "L2",
       "L1",
+      "L2",
       "RL2",
       "AJ3",
       "BJ3"

@@ -547,7 +547,61 @@
           "relativeUrl": "/dominique-heintz/transfers/spieler/110036/transfer_id/2052128"
         }
       ],
-      "pending": [],
+      "pending": [
+        {
+          "id": "6302223",
+          "transferSource": {
+            "competitionId": "L1",
+            "countryId": 40,
+            "clubId": "3",
+            "coachId": "73659"
+          },
+          "transferDestination": {
+            "competitionId": "",
+            "countryId": 0,
+            "clubId": "515",
+            "coachId": "0"
+          },
+          "details": {
+            "playerId": "110036",
+            "date": "2026-07-01T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2026,
+            "isPending": true,
+            "marketValue": {
+              "value": 700000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "700.00",
+                "suffix": "K"
+              }
+            },
+            "age": 32,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2026,
+              "display": "26/27",
+              "cyclicalName": "2027",
+              "nonCyclicalName": "26/27"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/dominique-heintz/transfers/spieler/110036/transfer_id/6302223"
+        }
+      ],
       "url": "",
       "feeSum": {
         "value": 5250000,
@@ -570,8 +624,9 @@
       }
     },
     "clubIds": [
-      "89",
       "3",
+      "515",
+      "89",
       "80",
       "60",
       "2",
@@ -581,6 +636,7 @@
       "65397"
     ],
     "coachIds": [
+      "73659",
       "5965",
       "9622",
       "335",

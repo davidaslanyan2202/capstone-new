@@ -824,7 +824,61 @@
           "relativeUrl": "/robert-tesche/transfers/spieler/41458/transfer_id/1467947"
         }
       ],
-      "pending": [],
+      "pending": [
+        {
+          "id": "6302611",
+          "transferSource": {
+            "competitionId": "L3",
+            "countryId": 40,
+            "clubId": "81",
+            "coachId": "20161"
+          },
+          "transferDestination": {
+            "competitionId": "",
+            "countryId": 0,
+            "clubId": "123",
+            "coachId": "0"
+          },
+          "details": {
+            "playerId": "41458",
+            "date": "2026-07-01T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2026,
+            "isPending": true,
+            "marketValue": {
+              "value": 125000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "125.00",
+                "suffix": "K"
+              }
+            },
+            "age": 39,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2026,
+              "display": "26/27",
+              "cyclicalName": "2027",
+              "nonCyclicalName": "26/27"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/robert-tesche/transfers/spieler/41458/transfer_id/6302611"
+        }
+      ],
       "url": "",
       "feeSum": {
         "value": 1000000,
@@ -847,8 +901,9 @@
       }
     },
     "clubIds": [
-      "80",
       "81",
+      "123",
+      "80",
       "337",
       "703",
       "41",
@@ -861,6 +916,7 @@
       "53502"
     ],
     "coachIds": [
+      "20161",
       "19735",
       "13103",
       "33665",
@@ -886,8 +942,8 @@
       "24581"
     ],
     "competitionIds": [
-      "L1",
       "L3",
+      "L1",
       "GB2",
       "L2",
       "OL6",

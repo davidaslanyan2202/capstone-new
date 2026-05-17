@@ -101,6 +101,10 @@
                 "suffix": ""
               }
             },
+            "remainingContractPeriod": {
+              "days": 730,
+              "daysDisplay": "1 Year, 11 Months, 29 Days"
+            },
             "season": {
               "id": 2022,
               "display": "22/23",
@@ -118,9 +122,9 @@
         {
           "id": "5568228",
           "transferSource": {
-            "competitionId": "F19C",
+            "competitionId": "",
             "countryId": 50,
-            "clubId": "7874",
+            "clubId": "107721",
             "coachId": "25144"
           },
           "transferDestination": {
@@ -128,59 +132,6 @@
             "countryId": 50,
             "clubId": "8154",
             "coachId": "72257"
-          },
-          "details": {
-            "playerId": "914562",
-            "date": "2021-07-01T00:00:00+02:00",
-            "contractUntilDate": null,
-            "seasonId": 2021,
-            "isPending": false,
-            "marketValue": {
-              "value": 0,
-              "currency": "EUR",
-              "compact": {
-                "prefix": "€",
-                "content": "0.00",
-                "suffix": ""
-              }
-            },
-            "age": 16,
-            "fee": {
-              "value": null,
-              "currency": "",
-              "compact": {
-                "prefix": "",
-                "content": "-",
-                "suffix": ""
-              }
-            },
-            "season": {
-              "id": 2021,
-              "display": "21/22",
-              "cyclicalName": "2022",
-              "nonCyclicalName": "21/22"
-            }
-          },
-          "typeDetails": {
-            "type": "STANDARD",
-            "name": "",
-            "feeDescription": ""
-          },
-          "relativeUrl": "/desire-doue/transfers/spieler/914562/transfer_id/5568228"
-        },
-        {
-          "id": "3858880",
-          "transferSource": {
-            "competitionId": "",
-            "countryId": 50,
-            "clubId": "99634",
-            "coachId": "0"
-          },
-          "transferDestination": {
-            "competitionId": "F19C",
-            "countryId": 50,
-            "clubId": "7874",
-            "coachId": "25144"
           },
           "details": {
             "playerId": "914562",
@@ -207,11 +158,68 @@
                 "suffix": ""
               }
             },
+            "remainingContractPeriod": {
+              "days": 1095,
+              "daysDisplay": "2 Years, 11 Months, 29 Days"
+            },
             "season": {
               "id": 2021,
               "display": "21/22",
               "cyclicalName": "2022",
               "nonCyclicalName": "21/22"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/desire-doue/transfers/spieler/914562/transfer_id/5568228"
+        },
+        {
+          "id": "3858880",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 50,
+            "clubId": "99634",
+            "coachId": "0"
+          },
+          "transferDestination": {
+            "competitionId": "",
+            "countryId": 50,
+            "clubId": "107721",
+            "coachId": "25144"
+          },
+          "details": {
+            "playerId": "914562",
+            "date": "2020-07-01T00:00:00+02:00",
+            "contractUntilDate": "2024-06-30T00:00:00+02:00",
+            "seasonId": 2020,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 15,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2020,
+              "display": "20/21",
+              "cyclicalName": "2021",
+              "nonCyclicalName": "20/21"
             }
           },
           "typeDetails": {
@@ -248,7 +256,7 @@
       "273",
       "583",
       "8154",
-      "7874",
+      "107721",
       "99634"
     ],
     "coachIds": [
@@ -261,7 +269,6 @@
     "competitionIds": [
       "FR1",
       "CN2A",
-      "F19C",
       "C3BR"
     ],
     "mostRecentTransfer": {

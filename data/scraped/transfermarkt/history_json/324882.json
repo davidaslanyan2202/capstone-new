@@ -489,7 +489,61 @@
           "relativeUrl": "/marvelous-nakamba/transfers/spieler/324882/transfer_id/1799664"
         }
       ],
-      "pending": [],
+      "pending": [
+        {
+          "id": "6314780",
+          "transferSource": {
+            "competitionId": "GB2",
+            "countryId": 189,
+            "clubId": "1035",
+            "coachId": "8194"
+          },
+          "transferDestination": {
+            "competitionId": "",
+            "countryId": 0,
+            "clubId": "515",
+            "coachId": "0"
+          },
+          "details": {
+            "playerId": "324882",
+            "date": "2026-07-01T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2026,
+            "isPending": true,
+            "marketValue": {
+              "value": 1000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "1.00",
+                "suffix": "M"
+              }
+            },
+            "age": 32,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2026,
+              "display": "26/27",
+              "cyclicalName": "2027",
+              "nonCyclicalName": "26/27"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/marvelous-nakamba/transfers/spieler/324882/transfer_id/6314780"
+        }
+      ],
       "url": "",
       "feeSum": {
         "value": 18850000,
@@ -512,8 +566,9 @@
       }
     },
     "clubIds": [
-      "1031",
       "1035",
+      "515",
+      "1031",
       "405",
       "2282",
       "499",
@@ -522,8 +577,8 @@
       "22889"
     ],
     "coachIds": [
-      "105721",
       "8194",
+      "105721",
       "5075",
       "49800",
       "26691",
@@ -535,8 +590,8 @@
       "153053"
     ],
     "competitionIds": [
-      "GB3",
       "GB2",
+      "GB3",
       "GB1",
       "BE1",
       "NL1",

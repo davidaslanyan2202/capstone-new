@@ -652,7 +652,61 @@
           "relativeUrl": "/ajdin-hrustic/transfers/spieler/265625/transfer_id/3859918"
         }
       ],
-      "pending": [],
+      "pending": [
+        {
+          "id": "6296509",
+          "transferSource": {
+            "competitionId": "NL1",
+            "countryId": 122,
+            "clubId": "1304",
+            "coachId": "2289"
+          },
+          "transferDestination": {
+            "competitionId": "",
+            "countryId": 0,
+            "clubId": "515",
+            "coachId": "0"
+          },
+          "details": {
+            "playerId": "265625",
+            "date": "2026-07-01T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2026,
+            "isPending": true,
+            "marketValue": {
+              "value": 700000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "700.00",
+                "suffix": "K"
+              }
+            },
+            "age": 29,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2026,
+              "display": "26/27",
+              "cyclicalName": "2027",
+              "nonCyclicalName": "26/27"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/ajdin-hrustic/transfers/spieler/265625/transfer_id/6296509"
+        }
+      ],
       "url": "",
       "feeSum": {
         "value": 1500000,
@@ -675,8 +729,9 @@
       }
     },
     "clubIds": [
-      "380",
       "1304",
+      "515",
+      "380",
       "276",
       "24",
       "202",
@@ -688,6 +743,7 @@
       "53108"
     ],
     "coachIds": [
+      "2289",
       "47260",
       "55941",
       "52249",
@@ -699,7 +755,6 @@
       "37630",
       "5018",
       "2226",
-      "2289",
       "36507",
       "299",
       "22694",
@@ -708,8 +763,8 @@
       "134094"
     ],
     "competitionIds": [
-      "IT3C",
       "NL1",
+      "IT3C",
       "IT1",
       "IT2",
       "L1",

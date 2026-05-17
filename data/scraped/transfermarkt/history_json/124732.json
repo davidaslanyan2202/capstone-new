@@ -597,7 +597,61 @@
           "relativeUrl": "/john-brooks/transfers/spieler/124732/transfer_id/2633535"
         }
       ],
-      "pending": [],
+      "pending": [
+        {
+          "id": "6302918",
+          "transferSource": {
+            "competitionId": "L2",
+            "countryId": 40,
+            "clubId": "44",
+            "coachId": "28936"
+          },
+          "transferDestination": {
+            "competitionId": "",
+            "countryId": 0,
+            "clubId": "515",
+            "coachId": "0"
+          },
+          "details": {
+            "playerId": "124732",
+            "date": "2026-07-01T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2026,
+            "isPending": true,
+            "marketValue": {
+              "value": 300000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "300.00",
+                "suffix": "K"
+              }
+            },
+            "age": 33,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2026,
+              "display": "26/27",
+              "cyclicalName": "2027",
+              "nonCyclicalName": "26/27"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/john-brooks/transfers/spieler/124732/transfer_id/6302918"
+        }
+      ],
       "url": "",
       "feeSum": {
         "value": 17300000,
@@ -620,8 +674,9 @@
       }
     },
     "clubIds": [
-      "533",
       "44",
+      "515",
+      "533",
       "294",
       "82",
       "45",
@@ -633,6 +688,7 @@
       "69779"
     ],
     "coachIds": [
+      "28936",
       "10906",
       "40217",
       "3865",
@@ -651,8 +707,8 @@
       "7429"
     ],
     "competitionIds": [
-      "L1",
       "L2",
+      "L1",
       "PO1",
       "RL1",
       "AJ1",

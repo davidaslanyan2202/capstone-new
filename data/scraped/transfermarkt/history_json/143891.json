@@ -869,7 +869,61 @@
           "relativeUrl": "/maximilian-philipp/transfers/spieler/143891/transfer_id/1076851"
         }
       ],
-      "pending": [],
+      "pending": [
+        {
+          "id": "6312375",
+          "transferSource": {
+            "competitionId": "L1",
+            "countryId": 40,
+            "clubId": "60",
+            "coachId": "61575"
+          },
+          "transferDestination": {
+            "competitionId": "",
+            "countryId": 0,
+            "clubId": "515",
+            "coachId": "0"
+          },
+          "details": {
+            "playerId": "143891",
+            "date": "2026-07-01T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2026,
+            "isPending": true,
+            "marketValue": {
+              "value": 600000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "600.00",
+                "suffix": "K"
+              }
+            },
+            "age": 32,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2026,
+              "display": "26/27",
+              "cyclicalName": "2027",
+              "nonCyclicalName": "26/27"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/maximilian-philipp/transfers/spieler/143891/transfer_id/6312375"
+        }
+      ],
       "url": "",
       "feeSum": {
         "value": 50500000,
@@ -892,8 +946,9 @@
       }
     },
     "clubIds": [
-      "82",
       "60",
+      "515",
+      "82",
       "86",
       "121",
       "16",
@@ -905,8 +960,8 @@
       "11844"
     ],
     "coachIds": [
-      "2300",
       "61575",
+      "2300",
       "2989",
       "10463",
       "34514",

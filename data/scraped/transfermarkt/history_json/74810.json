@@ -447,7 +447,61 @@
           "relativeUrl": "/ben-mee/transfers/spieler/74810/transfer_id/359221"
         }
       ],
-      "pending": [],
+      "pending": [
+        {
+          "id": "6299628",
+          "transferSource": {
+            "competitionId": "GB2",
+            "countryId": 189,
+            "clubId": "350",
+            "coachId": "15289"
+          },
+          "transferDestination": {
+            "competitionId": "",
+            "countryId": 0,
+            "clubId": "123",
+            "coachId": "0"
+          },
+          "details": {
+            "playerId": "74810",
+            "date": "2026-07-01T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2026,
+            "isPending": true,
+            "marketValue": {
+              "value": 500000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "500.00",
+                "suffix": "K"
+              }
+            },
+            "age": 36,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2026,
+              "display": "26/27",
+              "cyclicalName": "2027",
+              "nonCyclicalName": "26/27"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/ben-mee/transfers/spieler/74810/transfer_id/6299628"
+        }
+      ],
       "url": "",
       "feeSum": {
         "value": 0,
@@ -470,8 +524,9 @@
       }
     },
     "clubIds": [
-      "1148",
       "350",
+      "123",
+      "1148",
       "1132",
       "281",
       "1003",
@@ -479,6 +534,7 @@
       "6930"
     ],
     "coachIds": [
+      "15289",
       "68347",
       "58333",
       "69681",
@@ -490,8 +546,8 @@
       "19634"
     ],
     "competitionIds": [
-      "GB1",
       "GB2",
+      "GB1",
       "GBR"
     ],
     "mostRecentTransfer": {

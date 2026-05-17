@@ -1234,7 +1234,61 @@
           "relativeUrl": "/danny-blum/transfers/spieler/41541/transfer_id/3655834"
         }
       ],
-      "pending": [],
+      "pending": [
+        {
+          "id": "6308212",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 183,
+            "clubId": "124227",
+            "coachId": "0"
+          },
+          "transferDestination": {
+            "competitionId": "",
+            "countryId": 0,
+            "clubId": "123",
+            "coachId": "0"
+          },
+          "details": {
+            "playerId": "41541",
+            "date": "2026-07-01T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2026,
+            "isPending": true,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 35,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2026,
+              "display": "26/27",
+              "cyclicalName": "2027",
+              "nonCyclicalName": "26/27"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/danny-blum/transfers/spieler/41541/transfer_id/6308212"
+        }
+      ],
       "url": "",
       "feeSum": {
         "value": 350000,
@@ -1257,8 +1311,9 @@
       }
     },
     "clubIds": [
-      "111564",
       "124227",
+      "123",
+      "111564",
       "61060",
       "515",
       "345",

@@ -377,6 +377,112 @@
             "feeDescription": ""
           },
           "relativeUrl": "/skelly-alvero/transfers/spieler/855134/transfer_id/3610813"
+        },
+        {
+          "id": "6307676",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 50,
+            "clubId": "107780",
+            "coachId": "0"
+          },
+          "transferDestination": {
+            "competitionId": "F19B",
+            "countryId": 50,
+            "clubId": "10826",
+            "coachId": "53855"
+          },
+          "details": {
+            "playerId": "855134",
+            "date": "2019-07-01T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2019,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 17,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2019,
+              "display": "19/20",
+              "cyclicalName": "2020",
+              "nonCyclicalName": "19/20"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/skelly-alvero/transfers/spieler/855134/transfer_id/6307676"
+        },
+        {
+          "id": "6307677",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 50,
+            "clubId": "107947",
+            "coachId": "0"
+          },
+          "transferDestination": {
+            "competitionId": "",
+            "countryId": 50,
+            "clubId": "107780",
+            "coachId": "0"
+          },
+          "details": {
+            "playerId": "855134",
+            "date": "2017-07-01T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2017,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 15,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "Free Transfer",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2017,
+              "display": "17/18",
+              "cyclicalName": "2018",
+              "nonCyclicalName": "17/18"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/skelly-alvero/transfers/spieler/855134/transfer_id/6307677"
         }
       ],
       "pending": [
@@ -439,7 +545,7 @@
           "suffix": "M"
         }
       },
-      "averageAge": 23,
+      "averageAge": 24,
       "totalMarketValue": {
         "value": 2500000,
         "currency": "EUR",
@@ -456,7 +562,9 @@
       "1041",
       "750",
       "10825",
-      "10826"
+      "10826",
+      "107780",
+      "107947"
     ],
     "coachIds": [
       "49495",

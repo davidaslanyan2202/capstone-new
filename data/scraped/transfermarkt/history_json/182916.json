@@ -528,7 +528,61 @@
           "relativeUrl": "/wesley-said/transfers/spieler/182916/transfer_id/3863958"
         }
       ],
-      "pending": [],
+      "pending": [
+        {
+          "id": "6309637",
+          "transferSource": {
+            "competitionId": "FR1",
+            "countryId": 50,
+            "clubId": "826",
+            "coachId": "110443"
+          },
+          "transferDestination": {
+            "competitionId": "",
+            "countryId": 0,
+            "clubId": "515",
+            "coachId": "0"
+          },
+          "details": {
+            "playerId": "182916",
+            "date": "2026-07-01T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2026,
+            "isPending": true,
+            "marketValue": {
+              "value": 6000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "6.00",
+                "suffix": "M"
+              }
+            },
+            "age": 31,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2026,
+              "display": "26/27",
+              "cyclicalName": "2027",
+              "nonCyclicalName": "26/27"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/wesley-said/transfers/spieler/182916/transfer_id/6309637"
+        }
+      ],
       "url": "",
       "feeSum": {
         "value": 9500000,
@@ -551,8 +605,9 @@
       }
     },
     "clubIds": [
-      "415",
       "826",
+      "515",
+      "415",
       "2969",
       "273",
       "1080",
@@ -561,6 +616,7 @@
       "99634"
     ],
     "coachIds": [
+      "110443",
       "5065",
       "27176",
       "24298",
@@ -574,8 +630,8 @@
       "18944"
     ],
     "competitionIds": [
-      "FR2",
       "FR1",
+      "FR2",
       "C3IF"
     ],
     "mostRecentTransfer": {

@@ -583,10 +583,63 @@
             "coachId": "19290"
           },
           "transferDestination": {
-            "competitionId": "CN2C",
+            "competitionId": "CN2D",
             "countryId": 50,
             "clubId": "10872",
             "coachId": "18797"
+          },
+          "details": {
+            "playerId": "181378",
+            "date": "2012-07-01T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2012,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 18,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2012,
+              "display": "12/13",
+              "cyclicalName": "2013",
+              "nonCyclicalName": "12/13"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/gaetan-laborde/transfers/spieler/181378/transfer_id/631371"
+        },
+        {
+          "id": "6311639",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 50,
+            "clubId": "62344",
+            "coachId": "0"
+          },
+          "transferDestination": {
+            "competitionId": "",
+            "countryId": 50,
+            "clubId": "10873",
+            "coachId": "19290"
           },
           "details": {
             "playerId": "181378",
@@ -625,7 +678,60 @@
             "name": "",
             "feeDescription": ""
           },
-          "relativeUrl": "/gaetan-laborde/transfers/spieler/181378/transfer_id/631371"
+          "relativeUrl": "/gaetan-laborde/transfers/spieler/181378/transfer_id/6311639"
+        },
+        {
+          "id": "6311638",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 50,
+            "clubId": "62343",
+            "coachId": "0"
+          },
+          "transferDestination": {
+            "competitionId": "",
+            "countryId": 50,
+            "clubId": "62344",
+            "coachId": "0"
+          },
+          "details": {
+            "playerId": "181378",
+            "date": "2009-07-01T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2009,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 15,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2009,
+              "display": "09/10",
+              "cyclicalName": "2010",
+              "nonCyclicalName": "09/10"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/gaetan-laborde/transfers/spieler/181378/transfer_id/6311638"
         }
       ],
       "pending": [],
@@ -639,7 +745,7 @@
           "suffix": "M"
         }
       },
-      "averageAge": 31,
+      "averageAge": 32,
       "totalMarketValue": {
         "value": 3500000,
         "currency": "EUR",
@@ -660,7 +766,9 @@
       "3911",
       "10872",
       "1154",
-      "10873"
+      "10873",
+      "62344",
+      "62343"
     ],
     "coachIds": [
       "27176",
@@ -684,8 +792,7 @@
       "SA2L",
       "FR2",
       "CN2D",
-      "FR3",
-      "CN2C"
+      "FR3"
     ],
     "mostRecentTransfer": {
       "id": "5799157",

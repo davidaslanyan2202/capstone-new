@@ -875,7 +875,61 @@
           "relativeUrl": "/sargis-adamyan/transfers/spieler/125614/transfer_id/2271795"
         }
       ],
-      "pending": [],
+      "pending": [
+        {
+          "id": "6314193",
+          "transferSource": {
+            "competitionId": "RLW3",
+            "countryId": 40,
+            "clubId": "438",
+            "coachId": "57371"
+          },
+          "transferDestination": {
+            "competitionId": "",
+            "countryId": 0,
+            "clubId": "515",
+            "coachId": "0"
+          },
+          "details": {
+            "playerId": "125614",
+            "date": "2026-07-01T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2026,
+            "isPending": true,
+            "marketValue": {
+              "value": 300000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "300.00",
+                "suffix": "K"
+              }
+            },
+            "age": 33,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2026,
+              "display": "26/27",
+              "cyclicalName": "2027",
+              "nonCyclicalName": "26/27"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/sargis-adamyan/transfers/spieler/125614/transfer_id/6314193"
+        }
+      ],
       "url": "",
       "feeSum": {
         "value": 3600000,
@@ -898,8 +952,9 @@
       }
     },
     "clubIds": [
-      "3",
       "438",
+      "515",
+      "3",
       "109",
       "533",
       "2282",
@@ -913,8 +968,8 @@
       "54255"
     ],
     "coachIds": [
-      "25375",
       "57371",
+      "25375",
       "57024",
       "72",
       "5801",
@@ -936,8 +991,8 @@
       "2775"
     ],
     "competitionIds": [
-      "L1",
       "RLW3",
+      "L1",
       "L2",
       "BE1",
       "RLSW",

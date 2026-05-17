@@ -36,12 +36,12 @@
             },
             "age": 31,
             "fee": {
-              "value": null,
-              "currency": "",
+              "value": 5000000,
+              "currency": "EUR",
               "compact": {
-                "prefix": "",
-                "content": "?",
-                "suffix": ""
+                "prefix": "€",
+                "content": "5.00",
+                "suffix": "M"
               }
             },
             "remainingContractPeriod": {
@@ -666,7 +666,7 @@
           "transferSource": {
             "competitionId": "",
             "countryId": 26,
-            "clubId": "16656",
+            "clubId": "15038",
             "coachId": "0"
           },
           "transferDestination": {
@@ -718,11 +718,11 @@
       "pending": [],
       "url": "",
       "feeSum": {
-        "value": 15165000,
+        "value": 20165000,
         "currency": "EUR",
         "compact": {
           "prefix": "€",
-          "content": "15.16",
+          "content": "20.16",
           "suffix": "M"
         }
       },
@@ -746,7 +746,7 @@
       "618",
       "679",
       "3330",
-      "16656"
+      "15038"
     ],
     "coachIds": [
       "75002",
@@ -808,12 +808,12 @@
         },
         "age": 31,
         "fee": {
-          "value": null,
-          "currency": "",
+          "value": 5000000,
+          "currency": "EUR",
           "compact": {
-            "prefix": "",
-            "content": "?",
-            "suffix": ""
+            "prefix": "€",
+            "content": "5.00",
+            "suffix": "M"
           }
         },
         "remainingContractPeriod": {

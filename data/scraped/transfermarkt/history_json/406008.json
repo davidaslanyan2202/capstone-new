@@ -382,7 +382,7 @@
           "transferSource": {
             "competitionId": "",
             "countryId": 50,
-            "clubId": "99634",
+            "clubId": "107721",
             "coachId": "126438"
           },
           "transferDestination": {
@@ -429,6 +429,112 @@
             "feeDescription": ""
           },
           "relativeUrl": "/yan-valery/transfers/spieler/406008/transfer_id/1388675"
+        },
+        {
+          "id": "6301950",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 50,
+            "clubId": "99634",
+            "coachId": "126438"
+          },
+          "transferDestination": {
+            "competitionId": "",
+            "countryId": 50,
+            "clubId": "107721",
+            "coachId": "0"
+          },
+          "details": {
+            "playerId": "406008",
+            "date": "2014-07-01T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2014,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 15,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2014,
+              "display": "14/15",
+              "cyclicalName": "2015",
+              "nonCyclicalName": "14/15"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/yan-valery/transfers/spieler/406008/transfer_id/6301950"
+        },
+        {
+          "id": "6301949",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 50,
+            "clubId": "127548",
+            "coachId": "0"
+          },
+          "transferDestination": {
+            "competitionId": "",
+            "countryId": 50,
+            "clubId": "99634",
+            "coachId": "126438"
+          },
+          "details": {
+            "playerId": "406008",
+            "date": "2013-07-01T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2013,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 14,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "Free Transfer",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2013,
+              "display": "13/14",
+              "cyclicalName": "2014",
+              "nonCyclicalName": "13/14"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/yan-valery/transfers/spieler/406008/transfer_id/6301949"
         }
       ],
       "pending": [
@@ -510,7 +616,9 @@
       "337",
       "36546",
       "6893",
-      "99634"
+      "107721",
+      "99634",
+      "127548"
     ],
     "coachIds": [
       "23817",

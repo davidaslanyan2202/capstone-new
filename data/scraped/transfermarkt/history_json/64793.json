@@ -809,9 +809,116 @@
             "feeDescription": ""
           },
           "relativeUrl": "/leonardo-pavoletti/transfers/spieler/64793/transfer_id/436779"
+        },
+        {
+          "id": "6297899",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 75,
+            "clubId": "141943",
+            "coachId": "0"
+          },
+          "transferDestination": {
+            "competitionId": "",
+            "countryId": 75,
+            "clubId": "27721",
+            "coachId": "0"
+          },
+          "details": {
+            "playerId": "64793",
+            "date": "2005-07-01T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2005,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 16,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2005,
+              "display": "05/06",
+              "cyclicalName": "2006",
+              "nonCyclicalName": "05/06"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/leonardo-pavoletti/transfers/spieler/64793/transfer_id/6297899"
         }
       ],
-      "pending": [],
+      "pending": [
+        {
+          "id": "6311282",
+          "transferSource": {
+            "competitionId": "IT1",
+            "countryId": 75,
+            "clubId": "1390",
+            "coachId": "106055"
+          },
+          "transferDestination": {
+            "competitionId": "",
+            "countryId": 0,
+            "clubId": "515",
+            "coachId": "0"
+          },
+          "details": {
+            "playerId": "64793",
+            "date": "2026-07-01T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2026,
+            "isPending": true,
+            "marketValue": {
+              "value": 700000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "700.00",
+                "suffix": "K"
+              }
+            },
+            "age": 37,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2026,
+              "display": "26/27",
+              "cyclicalName": "2027",
+              "nonCyclicalName": "26/27"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/leonardo-pavoletti/transfers/spieler/64793/transfer_id/6311282"
+        }
+      ],
       "url": "",
       "feeSum": {
         "value": 31300000,
@@ -834,8 +941,9 @@
       }
     },
     "clubIds": [
-      "6195",
       "1390",
+      "515",
+      "6195",
       "252",
       "6574",
       "4361",
@@ -844,9 +952,11 @@
       "5587",
       "5174",
       "4104",
-      "27721"
+      "27721",
+      "141943"
     ],
     "coachIds": [
+      "106055",
       "10073",
       "16377",
       "16508",

@@ -683,7 +683,61 @@
           "relativeUrl": "/aurelio-buta/transfers/spieler/258039/transfer_id/3815625"
         }
       ],
-      "pending": [],
+      "pending": [
+        {
+          "id": "6314166",
+          "transferSource": {
+            "competitionId": "DK1",
+            "countryId": 39,
+            "clubId": "190",
+            "coachId": "35997"
+          },
+          "transferDestination": {
+            "competitionId": "",
+            "countryId": 0,
+            "clubId": "515",
+            "coachId": "0"
+          },
+          "details": {
+            "playerId": "258039",
+            "date": "2026-07-01T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2026,
+            "isPending": true,
+            "marketValue": {
+              "value": 3000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "3.00",
+                "suffix": "M"
+              }
+            },
+            "age": 29,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2026,
+              "display": "26/27",
+              "cyclicalName": "2027",
+              "nonCyclicalName": "26/27"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/aurelio-buta/transfers/spieler/258039/transfer_id/6314166"
+        }
+      ],
       "url": "",
       "feeSum": {
         "value": 0,
@@ -706,8 +760,9 @@
       }
     },
     "clubIds": [
-      "24",
       "190",
+      "515",
+      "24",
       "1421",
       "1096",
       "10330",
@@ -719,6 +774,7 @@
       "73240"
     ],
     "coachIds": [
+      "35997",
       "65982",
       "27714",
       "58350",
@@ -735,8 +791,8 @@
       "28691"
     ],
     "competitionIds": [
-      "L1",
       "DK1",
+      "L1",
       "FR1",
       "BE1",
       "PO2"

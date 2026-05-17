@@ -218,7 +218,61 @@
           "relativeUrl": "/branimir-hrgota/transfers/spieler/171209/transfer_id/506478"
         }
       ],
-      "pending": [],
+      "pending": [
+        {
+          "id": "6298101",
+          "transferSource": {
+            "competitionId": "L2",
+            "countryId": 40,
+            "clubId": "65",
+            "coachId": "5973"
+          },
+          "transferDestination": {
+            "competitionId": "",
+            "countryId": 0,
+            "clubId": "515",
+            "coachId": "0"
+          },
+          "details": {
+            "playerId": "171209",
+            "date": "2026-07-01T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2026,
+            "isPending": true,
+            "marketValue": {
+              "value": 500000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "500.00",
+                "suffix": "K"
+              }
+            },
+            "age": 33,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2026,
+              "display": "26/27",
+              "cyclicalName": "2027",
+              "nonCyclicalName": "26/27"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/branimir-hrgota/transfers/spieler/171209/transfer_id/6298101"
+        }
+      ],
       "url": "",
       "feeSum": {
         "value": 400000,
@@ -241,13 +295,15 @@
       }
     },
     "clubIds": [
-      "24",
       "65",
+      "515",
+      "24",
       "18",
       "7411",
       "15669"
     ],
     "coachIds": [
+      "5973",
       "5018",
       "28936",
       "5905",
@@ -257,8 +313,8 @@
       "12138"
     ],
     "competitionIds": [
-      "L1",
       "L2",
+      "L1",
       "SE2"
     ],
     "mostRecentTransfer": {

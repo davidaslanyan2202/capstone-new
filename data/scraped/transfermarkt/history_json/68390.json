@@ -204,7 +204,61 @@
           "relativeUrl": "/seamus-coleman/transfers/spieler/68390/transfer_id/178955"
         }
       ],
-      "pending": [],
+      "pending": [
+        {
+          "id": "6312234",
+          "transferSource": {
+            "competitionId": "GB1",
+            "countryId": 189,
+            "clubId": "29",
+            "coachId": "450"
+          },
+          "transferDestination": {
+            "competitionId": "",
+            "countryId": 0,
+            "clubId": "515",
+            "coachId": "0"
+          },
+          "details": {
+            "playerId": "68390",
+            "date": "2026-07-01T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2026,
+            "isPending": true,
+            "marketValue": {
+              "value": 300000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "300.00",
+                "suffix": "K"
+              }
+            },
+            "age": 37,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2026,
+              "display": "26/27",
+              "cyclicalName": "2027",
+              "nonCyclicalName": "26/27"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/seamus-coleman/transfers/spieler/68390/transfer_id/6312234"
+        }
+      ],
       "url": "",
       "feeSum": {
         "value": 70000,
@@ -227,20 +281,21 @@
       }
     },
     "clubIds": [
-      "1181",
       "29",
+      "515",
+      "1181",
       "8780",
       "15254"
     ],
     "coachIds": [
-      "1524",
       "450",
+      "1524",
       "8661",
       "16350"
     ],
     "competitionIds": [
-      "GB2",
       "GB1",
+      "GB2",
       "IR1"
     ],
     "mostRecentTransfer": {

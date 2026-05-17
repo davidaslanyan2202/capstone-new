@@ -219,8 +219,8 @@
           "id": "4139204",
           "transferSource": {
             "competitionId": "",
-            "countryId": 0,
-            "clubId": "75",
+            "countryId": 207,
+            "clubId": "142115",
             "coachId": "0"
           },
           "transferDestination": {
@@ -267,6 +267,112 @@
             "feeDescription": ""
           },
           "relativeUrl": "/jeremy-sebas/transfers/spieler/999229/transfer_id/4139204"
+        },
+        {
+          "id": "6307660",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 251,
+            "clubId": "123594",
+            "coachId": "0"
+          },
+          "transferDestination": {
+            "competitionId": "",
+            "countryId": 207,
+            "clubId": "142115",
+            "coachId": "0"
+          },
+          "details": {
+            "playerId": "999229",
+            "date": "2021-07-01T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2021,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 18,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "Free Transfer",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2021,
+              "display": "21/22",
+              "cyclicalName": "2022",
+              "nonCyclicalName": "21/22"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/jeremy-sebas/transfers/spieler/999229/transfer_id/6307660"
+        },
+        {
+          "id": "6307661",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 207,
+            "clubId": "39954",
+            "coachId": "0"
+          },
+          "transferDestination": {
+            "competitionId": "",
+            "countryId": 251,
+            "clubId": "123594",
+            "coachId": "0"
+          },
+          "details": {
+            "playerId": "999229",
+            "date": "2020-07-01T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2020,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 17,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "Free Transfer",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2020,
+              "display": "20/21",
+              "cyclicalName": "2021",
+              "nonCyclicalName": "20/21"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/jeremy-sebas/transfers/spieler/999229/transfer_id/6307661"
         }
       ],
       "pending": [],
@@ -295,7 +401,9 @@
       "667",
       "595",
       "7968",
-      "75"
+      "142115",
+      "123594",
+      "39954"
     ],
     "coachIds": [
       "62134",

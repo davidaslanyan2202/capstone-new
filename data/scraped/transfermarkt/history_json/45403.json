@@ -1057,7 +1057,61 @@
           "relativeUrl": "/andre-ayew/transfers/spieler/45403/transfer_id/6036228"
         }
       ],
-      "pending": [],
+      "pending": [
+        {
+          "id": "6308465",
+          "transferSource": {
+            "competitionId": "NL1",
+            "countryId": 122,
+            "clubId": "132",
+            "coachId": "58865"
+          },
+          "transferDestination": {
+            "competitionId": "",
+            "countryId": 0,
+            "clubId": "515",
+            "coachId": "0"
+          },
+          "details": {
+            "playerId": "45403",
+            "date": "2026-07-01T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2026,
+            "isPending": true,
+            "marketValue": {
+              "value": 300000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "300.00",
+                "suffix": "K"
+              }
+            },
+            "age": 36,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2026,
+              "display": "26/27",
+              "cyclicalName": "2027",
+              "nonCyclicalName": "26/27"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/andre-ayew/transfers/spieler/45403/transfer_id/6308465"
+        }
+      ],
       "url": "",
       "feeSum": {
         "value": 48400000,
@@ -1080,8 +1134,8 @@
       }
     },
     "clubIds": [
-      "515",
       "132",
+      "515",
       "738",
       "703",
       "656",

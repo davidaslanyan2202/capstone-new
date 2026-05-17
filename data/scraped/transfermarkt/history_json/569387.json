@@ -175,7 +175,7 @@
         {
           "id": "2535776",
           "transferSource": {
-            "competitionId": "",
+            "competitionId": "F19A",
             "countryId": 50,
             "clubId": "12767",
             "coachId": "91022"
@@ -185,6 +185,59 @@
             "countryId": 50,
             "clubId": "16671",
             "coachId": "114685"
+          },
+          "details": {
+            "playerId": "569387",
+            "date": "2018-07-01T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2018,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 18,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2018,
+              "display": "18/19",
+              "cyclicalName": "2019",
+              "nonCyclicalName": "18/19"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/valentin-gendrey/transfers/spieler/569387/transfer_id/2535776"
+        },
+        {
+          "id": "6309556",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 50,
+            "clubId": "107782",
+            "coachId": "0"
+          },
+          "transferDestination": {
+            "competitionId": "",
+            "countryId": 50,
+            "clubId": "12767",
+            "coachId": "91022"
           },
           "details": {
             "playerId": "569387",
@@ -223,7 +276,113 @@
             "name": "",
             "feeDescription": ""
           },
-          "relativeUrl": "/valentin-gendrey/transfers/spieler/569387/transfer_id/2535776"
+          "relativeUrl": "/valentin-gendrey/transfers/spieler/569387/transfer_id/6309556"
+        },
+        {
+          "id": "6309555",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 50,
+            "clubId": "109826",
+            "coachId": "131598"
+          },
+          "transferDestination": {
+            "competitionId": "",
+            "countryId": 50,
+            "clubId": "107782",
+            "coachId": "0"
+          },
+          "details": {
+            "playerId": "569387",
+            "date": "2016-01-01T00:00:00+01:00",
+            "contractUntilDate": null,
+            "seasonId": 2015,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 15,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "Free Transfer",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2015,
+              "display": "15/16",
+              "cyclicalName": "2016",
+              "nonCyclicalName": "15/16"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/valentin-gendrey/transfers/spieler/569387/transfer_id/6309555"
+        },
+        {
+          "id": "6309554",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 50,
+            "clubId": "116855",
+            "coachId": "0"
+          },
+          "transferDestination": {
+            "competitionId": "",
+            "countryId": 50,
+            "clubId": "109826",
+            "coachId": "131598"
+          },
+          "details": {
+            "playerId": "569387",
+            "date": "2015-07-01T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2015,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 15,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "Free Transfer",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2015,
+              "display": "15/16",
+              "cyclicalName": "2016",
+              "nonCyclicalName": "15/16"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/valentin-gendrey/transfers/spieler/569387/transfer_id/6309554"
         }
       ],
       "pending": [],
@@ -253,7 +412,10 @@
       "533",
       "1416",
       "16671",
-      "12767"
+      "12767",
+      "107782",
+      "109826",
+      "116855"
     ],
     "coachIds": [
       "7521",
@@ -263,7 +425,8 @@
       "91021",
       "23576",
       "91022",
-      "114685"
+      "114685",
+      "131598"
     ],
     "competitionIds": [
       "IT1",
@@ -271,7 +434,8 @@
       "FR2",
       "IT2",
       "C3HF",
-      "FR1"
+      "FR1",
+      "F19A"
     ],
     "mostRecentTransfer": {
       "id": "5228042",

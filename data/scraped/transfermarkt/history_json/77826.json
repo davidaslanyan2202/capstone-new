@@ -491,7 +491,7 @@
         {
           "id": "207854",
           "transferSource": {
-            "competitionId": "",
+            "competitionId": "CN2A",
             "countryId": 50,
             "clubId": "10825",
             "coachId": "23296"
@@ -593,6 +593,112 @@
             "feeDescription": ""
           },
           "relativeUrl": "/ryad-boudebouz/transfers/spieler/77826/transfer_id/654201"
+        },
+        {
+          "id": "6313355",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 50,
+            "clubId": "107781",
+            "coachId": "0"
+          },
+          "transferDestination": {
+            "competitionId": "",
+            "countryId": 50,
+            "clubId": "10826",
+            "coachId": "23296"
+          },
+          "details": {
+            "playerId": "77826",
+            "date": "2005-07-01T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2005,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 15,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2005,
+              "display": "05/06",
+              "cyclicalName": "2006",
+              "nonCyclicalName": "05/06"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/ryad-boudebouz/transfers/spieler/77826/transfer_id/6313355"
+        },
+        {
+          "id": "6313354",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 50,
+            "clubId": "109593",
+            "coachId": "0"
+          },
+          "transferDestination": {
+            "competitionId": "",
+            "countryId": 50,
+            "clubId": "107781",
+            "coachId": "0"
+          },
+          "details": {
+            "playerId": "77826",
+            "date": "2002-07-01T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2002,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 12,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "Free Transfer",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2002,
+              "display": "02/03",
+              "cyclicalName": "2003",
+              "nonCyclicalName": "02/03"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/ryad-boudebouz/transfers/spieler/77826/transfer_id/6313354"
         }
       ],
       "pending": [],
@@ -628,7 +734,9 @@
       "595",
       "750",
       "10825",
-      "10826"
+      "10826",
+      "107781",
+      "109593"
     ],
     "coachIds": [
       "67217",
@@ -653,7 +761,8 @@
       "SA1",
       "FR2",
       "ES1",
-      "FR1"
+      "FR1",
+      "CN2A"
     ],
     "mostRecentTransfer": {
       "id": "5262075",

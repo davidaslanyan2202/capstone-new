@@ -122,7 +122,7 @@
         {
           "id": "2021897",
           "transferSource": {
-            "competitionId": "",
+            "competitionId": "ARY3",
             "countryId": 9,
             "clubId": "14837",
             "coachId": "94332"
@@ -228,6 +228,63 @@
       ],
       "pending": [
         {
+          "id": "6309639",
+          "transferSource": {
+            "competitionId": "FR1",
+            "countryId": 50,
+            "clubId": "826",
+            "coachId": "110443"
+          },
+          "transferDestination": {
+            "competitionId": "FR1",
+            "countryId": 50,
+            "clubId": "244",
+            "coachId": "91667"
+          },
+          "details": {
+            "playerId": "474800",
+            "date": "2026-07-01T00:00:00+02:00",
+            "contractUntilDate": "2030-06-30T00:00:00+02:00",
+            "seasonId": 2026,
+            "isPending": true,
+            "marketValue": {
+              "value": 18000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "18.00",
+                "suffix": "M"
+              }
+            },
+            "age": 27,
+            "fee": {
+              "value": 18000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "18.00",
+                "suffix": "M"
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 730,
+              "daysDisplay": "1 Year, 11 Months, 29 Days"
+            },
+            "season": {
+              "id": 2026,
+              "display": "26/27",
+              "cyclicalName": "2027",
+              "nonCyclicalName": "26/27"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/facundo-medina/transfers/spieler/474800/transfer_id/6309639"
+        },
+        {
           "id": "5746238",
           "transferSource": {
             "competitionId": "FR1",
@@ -278,11 +335,11 @@
       ],
       "url": "",
       "feeSum": {
-        "value": 6300000,
+        "value": 24300000,
         "currency": "EUR",
         "compact": {
           "prefix": "€",
-          "content": "6.30",
+          "content": "24.30",
           "suffix": "M"
         }
       },
@@ -298,15 +355,15 @@
       }
     },
     "clubIds": [
-      "244",
       "826",
+      "244",
       "3938",
       "14837",
       "15108"
     ],
     "coachIds": [
-      "91667",
       "110443",
+      "91667",
       "32157",
       "47797",
       "27176",
@@ -316,8 +373,8 @@
     "competitionIds": [
       "FR1",
       "CDLP",
-      "AR1N",
-      "ARY3"
+      "ARY3",
+      "AR1N"
     ],
     "mostRecentTransfer": {
       "id": "5746237",

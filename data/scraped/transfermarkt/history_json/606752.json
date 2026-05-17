@@ -36,11 +36,11 @@
             },
             "age": 23,
             "fee": {
-              "value": 6000000,
+              "value": 8400000,
               "currency": "EUR",
               "compact": {
                 "prefix": "€",
-                "content": "6.00",
+                "content": "8.40",
                 "suffix": "M"
               }
             },
@@ -712,14 +712,72 @@
           "relativeUrl": "/rodrigo-zalazar/transfers/spieler/606752/transfer_id/4503713"
         }
       ],
-      "pending": [],
+      "pending": [
+        {
+          "id": "6312429",
+          "transferSource": {
+            "competitionId": "PO1",
+            "countryId": 136,
+            "clubId": "1075",
+            "coachId": "83288"
+          },
+          "transferDestination": {
+            "competitionId": "PO1",
+            "countryId": 136,
+            "clubId": "336",
+            "coachId": "56775"
+          },
+          "details": {
+            "playerId": "606752",
+            "date": "2026-07-01T00:00:00+02:00",
+            "contractUntilDate": "2031-06-30T00:00:00+02:00",
+            "seasonId": 2026,
+            "isPending": true,
+            "marketValue": {
+              "value": 22000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "22.00",
+                "suffix": "M"
+              }
+            },
+            "age": 26,
+            "fee": {
+              "value": 30000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "30.00",
+                "suffix": "M"
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 730,
+              "daysDisplay": "1 Year, 11 Months, 29 Days"
+            },
+            "season": {
+              "id": 2026,
+              "display": "26/27",
+              "cyclicalName": "2027",
+              "nonCyclicalName": "26/27"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/rodrigo-zalazar/transfers/spieler/606752/transfer_id/6312429"
+        }
+      ],
       "url": "",
       "feeSum": {
-        "value": 7500000,
+        "value": 39900000,
         "currency": "EUR",
         "compact": {
           "prefix": "€",
-          "content": "7.50",
+          "content": "39.90",
           "suffix": "M"
         }
       },
@@ -735,8 +793,9 @@
       }
     },
     "clubIds": [
-      "33",
       "1075",
+      "336",
+      "33",
       "24",
       "35",
       "6110",
@@ -747,6 +806,8 @@
       "14716"
     ],
     "coachIds": [
+      "83288",
+      "56775",
       "19735",
       "24055",
       "22891",
@@ -763,8 +824,8 @@
       "106368"
     ],
     "competitionIds": [
-      "L2",
       "PO1",
+      "L2",
       "L1",
       "PL1",
       "ES3D"
@@ -800,11 +861,11 @@
         },
         "age": 23,
         "fee": {
-          "value": 6000000,
+          "value": 8400000,
           "currency": "EUR",
           "compact": {
             "prefix": "€",
-            "content": "6.00",
+            "content": "8.40",
             "suffix": "M"
           }
         },

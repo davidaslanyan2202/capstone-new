@@ -228,9 +228,9 @@
         {
           "id": "322385",
           "transferSource": {
-            "competitionId": "ES3C",
+            "competitionId": "",
             "countryId": 157,
-            "clubId": "13805",
+            "clubId": "140899",
             "coachId": "24307"
           },
           "transferDestination": {
@@ -277,6 +277,59 @@
             "feeDescription": ""
           },
           "relativeUrl": "/jorge-molina/transfers/spieler/57825/transfer_id/322385"
+        },
+        {
+          "id": "6297863",
+          "transferSource": {
+            "competitionId": "ES3C",
+            "countryId": 157,
+            "clubId": "13805",
+            "coachId": "6444"
+          },
+          "transferDestination": {
+            "competitionId": "ES2",
+            "countryId": 157,
+            "clubId": "606",
+            "coachId": "2039"
+          },
+          "details": {
+            "playerId": "57825",
+            "date": "2007-07-01T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2007,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 25,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "?",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2007,
+              "display": "07/08",
+              "cyclicalName": "2008",
+              "nonCyclicalName": "07/08"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/jorge-molina/transfers/spieler/57825/transfer_id/6297863"
         },
         {
           "id": "383892",
@@ -519,7 +572,9 @@
       "3709",
       "150",
       "1531",
+      "140899",
       "13805",
+      "606",
       "6689",
       "11259",
       "19382"
@@ -533,6 +588,8 @@
       "641",
       "24307",
       "5285",
+      "6444",
+      "2039",
       "6439",
       "24267",
       "9340"

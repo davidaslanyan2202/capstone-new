@@ -169,7 +169,7 @@
           "transferSource": {
             "competitionId": "",
             "countryId": 75,
-            "clubId": "5232",
+            "clubId": "49567",
             "coachId": "20947"
           },
           "transferDestination": {
@@ -216,9 +216,169 @@
             "feeDescription": ""
           },
           "relativeUrl": "/abdoulaye-bamba/transfers/spieler/62351/transfer_id/196806"
+        },
+        {
+          "id": "6304786",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 75,
+            "clubId": "5232",
+            "coachId": "25638"
+          },
+          "transferDestination": {
+            "competitionId": "",
+            "countryId": 75,
+            "clubId": "49567",
+            "coachId": "0"
+          },
+          "details": {
+            "playerId": "62351",
+            "date": "2005-07-01T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2005,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 15,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2005,
+              "display": "05/06",
+              "cyclicalName": "2006",
+              "nonCyclicalName": "05/06"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/abdoulaye-bamba/transfers/spieler/62351/transfer_id/6304786"
+        },
+        {
+          "id": "6304785",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 75,
+            "clubId": "95834",
+            "coachId": "0"
+          },
+          "transferDestination": {
+            "competitionId": "",
+            "countryId": 75,
+            "clubId": "5232",
+            "coachId": "3436"
+          },
+          "details": {
+            "playerId": "62351",
+            "date": "2001-07-01T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2001,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 11,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "Free Transfer",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2001,
+              "display": "01/02",
+              "cyclicalName": "2002",
+              "nonCyclicalName": "01/02"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/abdoulaye-bamba/transfers/spieler/62351/transfer_id/6304785"
         }
       ],
-      "pending": [],
+      "pending": [
+        {
+          "id": "6298241",
+          "transferSource": {
+            "competitionId": "FR1",
+            "countryId": 50,
+            "clubId": "1420",
+            "coachId": "24061"
+          },
+          "transferDestination": {
+            "competitionId": "",
+            "countryId": 0,
+            "clubId": "123",
+            "coachId": "0"
+          },
+          "details": {
+            "playerId": "62351",
+            "date": "2026-07-01T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2026,
+            "isPending": true,
+            "marketValue": {
+              "value": 250000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "250.00",
+                "suffix": "K"
+              }
+            },
+            "age": 36,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2026,
+              "display": "26/27",
+              "cyclicalName": "2027",
+              "nonCyclicalName": "26/27"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/abdoulaye-bamba/transfers/spieler/62351/transfer_id/6298241"
+        }
+      ],
       "url": "",
       "feeSum": {
         "value": 0,
@@ -241,19 +401,25 @@
       }
     },
     "clubIds": [
-      "515",
       "1420",
+      "123",
+      "515",
       "2969",
       "11008",
-      "5232"
+      "49567",
+      "5232",
+      "95834"
     ],
     "coachIds": [
+      "24061",
       "19460",
       "14547",
       "16462",
       "10574",
       "20947",
-      "8114"
+      "8114",
+      "25638",
+      "3436"
     ],
     "competitionIds": [
       "FR1",

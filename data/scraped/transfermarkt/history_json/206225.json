@@ -650,7 +650,61 @@
           "relativeUrl": "/isaac-hayden/transfers/spieler/206225/transfer_id/843528"
         }
       ],
-      "pending": [],
+      "pending": [
+        {
+          "id": "6298157",
+          "transferSource": {
+            "competitionId": "GB2",
+            "countryId": 189,
+            "clubId": "1039",
+            "coachId": "61003"
+          },
+          "transferDestination": {
+            "competitionId": "",
+            "countryId": 0,
+            "clubId": "515",
+            "coachId": "0"
+          },
+          "details": {
+            "playerId": "206225",
+            "date": "2026-07-01T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2026,
+            "isPending": true,
+            "marketValue": {
+              "value": 600000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "600.00",
+                "suffix": "K"
+              }
+            },
+            "age": 31,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2026,
+              "display": "26/27",
+              "cyclicalName": "2027",
+              "nonCyclicalName": "26/27"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/isaac-hayden/transfers/spieler/206225/transfer_id/6298157"
+        }
+      ],
       "url": "",
       "feeSum": {
         "value": 3500000,
@@ -673,8 +727,9 @@
       }
     },
     "clubIds": [
-      "762",
       "1039",
+      "515",
+      "762",
       "1020",
       "3057",
       "1123",
@@ -683,8 +738,8 @@
       "5679"
     ],
     "coachIds": [
-      "10976",
       "61003",
+      "10976",
       "112345",
       "34166",
       "34157",
@@ -696,8 +751,8 @@
       "447"
     ],
     "competitionIds": [
-      "GB1",
       "GB2",
+      "GB1",
       "BE1",
       "GB21",
       "E21P"

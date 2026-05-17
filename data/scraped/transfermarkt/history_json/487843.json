@@ -708,6 +708,63 @@
       ],
       "pending": [
         {
+          "id": "6297022",
+          "transferSource": {
+            "competitionId": "IT1",
+            "countryId": 75,
+            "clubId": "5",
+            "coachId": "7671"
+          },
+          "transferDestination": {
+            "competitionId": "IT1",
+            "countryId": 75,
+            "clubId": "252",
+            "coachId": "90748"
+          },
+          "details": {
+            "playerId": "487843",
+            "date": "2026-07-01T00:00:00+02:00",
+            "contractUntilDate": "2030-06-30T00:00:00+02:00",
+            "seasonId": 2026,
+            "isPending": true,
+            "marketValue": {
+              "value": 10000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "10.00",
+                "suffix": "M"
+              }
+            },
+            "age": 24,
+            "fee": {
+              "value": 10000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "10.00",
+                "suffix": "M"
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 730,
+              "daysDisplay": "1 Year, 11 Months, 29 Days"
+            },
+            "season": {
+              "id": 2026,
+              "display": "26/27",
+              "cyclicalName": "2027",
+              "nonCyclicalName": "26/27"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/lorenzo-colombo/transfers/spieler/487843/transfer_id/6297022"
+        },
+        {
           "id": "5817925",
           "transferSource": {
             "competitionId": "IT1",
@@ -758,11 +815,11 @@
       ],
       "url": "",
       "feeSum": {
-        "value": 1500000,
+        "value": 11500000,
         "currency": "EUR",
         "compact": {
           "prefix": "€",
-          "content": "1.50",
+          "content": "11.50",
           "suffix": "M"
         }
       },
@@ -778,8 +835,8 @@
       }
     },
     "clubIds": [
-      "252",
       "5",
+      "252",
       "749",
       "2919",
       "1005",
@@ -790,8 +847,8 @@
       "25828"
     ],
     "coachIds": [
-      "90748",
       "7671",
+      "90748",
       "20029",
       "35535",
       "22532",

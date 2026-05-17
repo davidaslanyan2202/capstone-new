@@ -6,6 +6,63 @@
     "history": {
       "terminated": [
         {
+          "id": "6313972",
+          "transferSource": {
+            "competitionId": "MEXA",
+            "countryId": 110,
+            "clubId": "4035",
+            "coachId": "100741"
+          },
+          "transferDestination": {
+            "competitionId": "",
+            "countryId": 0,
+            "clubId": "515",
+            "coachId": "0"
+          },
+          "details": {
+            "playerId": "100131",
+            "date": "2026-04-13T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2025,
+            "isPending": false,
+            "marketValue": {
+              "value": 1200000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "1.20",
+                "suffix": "M"
+              }
+            },
+            "age": 34,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 78,
+              "daysDisplay": "2 Months, 17 Days"
+            },
+            "season": {
+              "id": 2025,
+              "display": "25/26",
+              "cyclicalName": "2026",
+              "nonCyclicalName": "25/26"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/william-carvalho/transfers/spieler/100131/transfer_id/6313972"
+        },
+        {
           "id": "5790269",
           "transferSource": {
             "competitionId": "ES1",
@@ -494,8 +551,9 @@
       }
     },
     "clubIds": [
-      "150",
       "4035",
+      "515",
+      "150",
       "336",
       "520",
       "6987",
@@ -504,6 +562,7 @@
       "53956"
     ],
     "coachIds": [
+      "100741",
       "1558",
       "45986",
       "1595",
@@ -519,53 +578,53 @@
       "59258"
     ],
     "competitionIds": [
-      "ES1",
       "MEXA",
+      "ES1",
       "PO1",
       "BE1"
     ],
     "mostRecentTransfer": {
-      "id": "5790269",
+      "id": "6313972",
       "transferSource": {
-        "competitionId": "ES1",
-        "countryId": 157,
-        "clubId": "150",
-        "coachId": "1558"
-      },
-      "transferDestination": {
         "competitionId": "MEXA",
         "countryId": 110,
         "clubId": "4035",
-        "coachId": "45986"
+        "coachId": "100741"
+      },
+      "transferDestination": {
+        "competitionId": "",
+        "countryId": 0,
+        "clubId": "515",
+        "coachId": "0"
       },
       "details": {
         "playerId": "100131",
-        "date": "2025-07-25T00:00:00+02:00",
-        "contractUntilDate": "2026-06-30T00:00:00+02:00",
+        "date": "2026-04-13T00:00:00+02:00",
+        "contractUntilDate": null,
         "seasonId": 2025,
         "isPending": false,
         "marketValue": {
-          "value": 1500000,
+          "value": 1200000,
           "currency": "EUR",
           "compact": {
             "prefix": "€",
-            "content": "1.50",
+            "content": "1.20",
             "suffix": "M"
           }
         },
-        "age": 33,
+        "age": 34,
         "fee": {
           "value": null,
           "currency": "",
           "compact": {
             "prefix": "",
-            "content": "Free Transfer",
+            "content": "-",
             "suffix": ""
           }
         },
         "remainingContractPeriod": {
-          "days": 340,
-          "daysDisplay": "11 Months, 5 Days"
+          "days": 78,
+          "daysDisplay": "2 Months, 17 Days"
         },
         "season": {
           "id": 2025,
@@ -579,7 +638,7 @@
         "name": "",
         "feeDescription": ""
       },
-      "relativeUrl": "/william-carvalho/transfers/spieler/100131/transfer_id/5790269"
+      "relativeUrl": "/william-carvalho/transfers/spieler/100131/transfer_id/6313972"
     }
   }
 }

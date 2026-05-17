@@ -319,6 +319,63 @@
       ],
       "pending": [
         {
+          "id": "6300199",
+          "transferSource": {
+            "competitionId": "FR2",
+            "countryId": 50,
+            "clubId": "3524",
+            "coachId": "29898"
+          },
+          "transferDestination": {
+            "competitionId": "TR1",
+            "countryId": 174,
+            "clubId": "120",
+            "coachId": "83535"
+          },
+          "details": {
+            "playerId": "669000",
+            "date": "2026-07-01T00:00:00+02:00",
+            "contractUntilDate": "2028-06-30T00:00:00+02:00",
+            "seasonId": 2026,
+            "isPending": true,
+            "marketValue": {
+              "value": 1800000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "1.80",
+                "suffix": "M"
+              }
+            },
+            "age": 24,
+            "fee": {
+              "value": 700000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "700.00",
+                "suffix": "K"
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 364,
+              "daysDisplay": "11 Months, 29 Days"
+            },
+            "season": {
+              "id": 2026,
+              "display": "26/27",
+              "cyclicalName": "2027",
+              "nonCyclicalName": "26/27"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/habib-keita/transfers/spieler/669000/transfer_id/6300199"
+        },
+        {
           "id": "5937844",
           "transferSource": {
             "competitionId": "TR1",
@@ -369,11 +426,11 @@
       ],
       "url": "",
       "feeSum": {
-        "value": 2200000,
+        "value": 2900000,
         "currency": "EUR",
         "compact": {
           "prefix": "€",
-          "content": "2.20",
+          "content": "2.90",
           "suffix": "M"
         }
       },
@@ -389,16 +446,16 @@
       }
     },
     "clubIds": [
-      "120",
       "3524",
+      "120",
       "1041",
       "601",
       "12764",
       "45714"
     ],
     "coachIds": [
-      "83535",
       "29898",
+      "83535",
       "4589",
       "13916",
       "694",
@@ -407,8 +464,8 @@
       "61491"
     ],
     "competitionIds": [
-      "TR1",
       "FR2",
+      "TR1",
       "FR1",
       "BE1",
       "CN2C"

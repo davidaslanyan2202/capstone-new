@@ -222,7 +222,61 @@
           "relativeUrl": "/inigo-lekue/transfers/spieler/255501/transfer_id/4325417"
         }
       ],
-      "pending": [],
+      "pending": [
+        {
+          "id": "6305376",
+          "transferSource": {
+            "competitionId": "ES1",
+            "countryId": 157,
+            "clubId": "621",
+            "coachId": "14226"
+          },
+          "transferDestination": {
+            "competitionId": "",
+            "countryId": 0,
+            "clubId": "123",
+            "coachId": "0"
+          },
+          "details": {
+            "playerId": "255501",
+            "date": "2026-07-01T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2026,
+            "isPending": true,
+            "marketValue": {
+              "value": 1200000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "1.20",
+                "suffix": "M"
+              }
+            },
+            "age": 33,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2026,
+              "display": "26/27",
+              "cyclicalName": "2027",
+              "nonCyclicalName": "26/27"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/inigo-lekue/transfers/spieler/255501/transfer_id/6305376"
+        }
+      ],
       "url": "",
       "feeSum": {
         "value": 0,
@@ -233,7 +287,7 @@
           "suffix": ""
         }
       },
-      "averageAge": 32,
+      "averageAge": 33,
       "totalMarketValue": {
         "value": 1200000,
         "currency": "EUR",
@@ -245,13 +299,15 @@
       }
     },
     "clubIds": [
-      "6688",
       "621",
+      "123",
+      "6688",
       "6665",
       "57026",
       "70392"
     ],
     "coachIds": [
+      "14226",
       "3270",
       "1559",
       "62451",
@@ -259,8 +315,8 @@
       "103147"
     ],
     "competitionIds": [
-      "ES3B",
-      "ES1"
+      "ES1",
+      "ES3B"
     ],
     "mostRecentTransfer": {
       "id": "1352301",

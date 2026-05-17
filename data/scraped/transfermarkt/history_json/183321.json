@@ -733,7 +733,61 @@
           "relativeUrl": "/kevin-mbabu/transfers/spieler/183321/transfer_id/772542"
         }
       ],
-      "pending": [],
+      "pending": [
+        {
+          "id": "6315426",
+          "transferSource": {
+            "competitionId": "DK1",
+            "countryId": 39,
+            "clubId": "865",
+            "coachId": "34190"
+          },
+          "transferDestination": {
+            "competitionId": "",
+            "countryId": 0,
+            "clubId": "515",
+            "coachId": "0"
+          },
+          "details": {
+            "playerId": "183321",
+            "date": "2026-07-01T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2026,
+            "isPending": true,
+            "marketValue": {
+              "value": 3000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "3.00",
+                "suffix": "M"
+              }
+            },
+            "age": 31,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2026,
+              "display": "26/27",
+              "cyclicalName": "2027",
+              "nonCyclicalName": "26/27"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/kevin-mbabu/transfers/spieler/183321/transfer_id/6315426"
+        }
+      ],
       "url": "",
       "feeSum": {
         "value": 15847000,
@@ -756,8 +810,9 @@
       }
     },
     "clubIds": [
-      "931",
       "865",
+      "515",
+      "931",
       "167",
       "61",
       "82",
@@ -767,6 +822,7 @@
       "14179"
     ],
     "coachIds": [
+      "34190",
       "19631",
       "6611",
       "2898",
@@ -786,8 +842,8 @@
       "10591"
     ],
     "competitionIds": [
-      "GB1",
       "DK1",
+      "GB1",
       "L1",
       "C1",
       "GB2",

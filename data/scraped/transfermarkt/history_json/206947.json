@@ -720,9 +720,222 @@
             "feeDescription": ""
           },
           "relativeUrl": "/kevin-rodrigues/transfers/spieler/206947/transfer_id/768474"
+        },
+        {
+          "id": "6299321",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 50,
+            "clubId": "107748",
+            "coachId": "0"
+          },
+          "transferDestination": {
+            "competitionId": "",
+            "countryId": 50,
+            "clubId": "9372",
+            "coachId": "0"
+          },
+          "details": {
+            "playerId": "206947",
+            "date": "2011-07-01T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2011,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 17,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2011,
+              "display": "11/12",
+              "cyclicalName": "2012",
+              "nonCyclicalName": "11/12"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/kevin-rodrigues/transfers/spieler/206947/transfer_id/6299321"
+        },
+        {
+          "id": "6299320",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 50,
+            "clubId": "100152",
+            "coachId": "0"
+          },
+          "transferDestination": {
+            "competitionId": "",
+            "countryId": 50,
+            "clubId": "107748",
+            "coachId": "0"
+          },
+          "details": {
+            "playerId": "206947",
+            "date": "2009-07-01T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2009,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 15,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2009,
+              "display": "09/10",
+              "cyclicalName": "2010",
+              "nonCyclicalName": "09/10"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/kevin-rodrigues/transfers/spieler/206947/transfer_id/6299320"
+        },
+        {
+          "id": "6299319",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 50,
+            "clubId": "116852",
+            "coachId": "0"
+          },
+          "transferDestination": {
+            "competitionId": "",
+            "countryId": 50,
+            "clubId": "100152",
+            "coachId": "0"
+          },
+          "details": {
+            "playerId": "206947",
+            "date": "2008-07-01T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2008,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 14,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "Free Transfer",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2008,
+              "display": "08/09",
+              "cyclicalName": "2009",
+              "nonCyclicalName": "08/09"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/kevin-rodrigues/transfers/spieler/206947/transfer_id/6299319"
         }
       ],
-      "pending": [],
+      "pending": [
+        {
+          "id": "6315442",
+          "transferSource": {
+            "competitionId": "TR1",
+            "countryId": 174,
+            "clubId": "2832",
+            "coachId": "40857"
+          },
+          "transferDestination": {
+            "competitionId": "",
+            "countryId": 0,
+            "clubId": "515",
+            "coachId": "0"
+          },
+          "details": {
+            "playerId": "206947",
+            "date": "2026-07-01T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2026,
+            "isPending": true,
+            "marketValue": {
+              "value": 1000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "1.00",
+                "suffix": "M"
+              }
+            },
+            "age": 32,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2026,
+              "display": "26/27",
+              "cyclicalName": "2027",
+              "nonCyclicalName": "26/27"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/kevin-rodrigues/transfers/spieler/206947/transfer_id/6315442"
+        }
+      ],
       "url": "",
       "feeSum": {
         "value": 0,
@@ -745,8 +958,9 @@
       }
     },
     "clubIds": [
-      "10484",
       "2832",
+      "515",
+      "10484",
       "26069",
       "3840",
       "681",
@@ -756,9 +970,13 @@
       "9899",
       "2969",
       "9371",
-      "9372"
+      "9372",
+      "107748",
+      "100152",
+      "116852"
     ],
     "coachIds": [
+      "40857",
       "7849",
       "18920",
       "9897",

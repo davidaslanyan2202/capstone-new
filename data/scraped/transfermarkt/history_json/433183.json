@@ -654,7 +654,56 @@
           "relativeUrl": "/tommy-doyle/transfers/spieler/433183/transfer_id/1899940"
         }
       ],
-      "pending": [],
+      "pending": [
+        {
+          "id": "6299627",
+          "transferSource": {
+            "competitionId": "GB2",
+            "countryId": 189,
+            "clubId": "337",
+            "coachId": "46951"
+          },
+          "transferDestination": {
+            "competitionId": "GB1",
+            "countryId": 189,
+            "clubId": "543",
+            "coachId": "49800"
+          },
+          "details": {
+            "playerId": "433183",
+            "date": "2026-05-31T00:00:00+02:00",
+            "contractUntilDate": "2028-06-30T00:00:00+02:00",
+            "seasonId": 2025,
+            "isPending": true,
+            "marketValue": {
+              "value": 8000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "8.00",
+                "suffix": "M"
+              }
+            },
+            "age": 24,
+            "remainingContractPeriod": {
+              "days": 0,
+              "daysDisplay": "Unknown"
+            },
+            "season": {
+              "id": 2025,
+              "display": "25/26",
+              "cyclicalName": "2026",
+              "nonCyclicalName": "25/26"
+            }
+          },
+          "typeDetails": {
+            "type": "RETURNED_FROM_PREVIOUS_LOAN",
+            "name": "End of loan",
+            "feeDescription": "End of loan"
+          },
+          "relativeUrl": "/tommy-doyle/transfers/spieler/433183/transfer_id/6299627"
+        }
+      ],
       "url": "",
       "feeSum": {
         "value": 5000000,
@@ -677,8 +726,8 @@
       }
     },
     "clubIds": [
-      "543",
       "337",
+      "543",
       "281",
       "9265",
       "350",
@@ -688,8 +737,9 @@
       "50678"
     ],
     "coachIds": [
-      "7571",
       "46951",
+      "49800",
+      "7571",
       "5672",
       "82647",
       "68241",
@@ -701,8 +751,8 @@
       "28238"
     ],
     "competitionIds": [
-      "GB1",
       "GB2",
+      "GB1",
       "GB21",
       "L2",
       "GB18"

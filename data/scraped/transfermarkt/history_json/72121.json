@@ -226,7 +226,61 @@
           "relativeUrl": "/johan-gastien/transfers/spieler/72121/transfer_id/253902"
         }
       ],
-      "pending": [],
+      "pending": [
+        {
+          "id": "6298266",
+          "transferSource": {
+            "competitionId": "FR2",
+            "countryId": 50,
+            "clubId": "3524",
+            "coachId": "29898"
+          },
+          "transferDestination": {
+            "competitionId": "",
+            "countryId": 0,
+            "clubId": "123",
+            "coachId": "0"
+          },
+          "details": {
+            "playerId": "72121",
+            "date": "2026-07-01T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2026,
+            "isPending": true,
+            "marketValue": {
+              "value": 200000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "200.00",
+                "suffix": "K"
+              }
+            },
+            "age": 38,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2026,
+              "display": "26/27",
+              "cyclicalName": "2027",
+              "nonCyclicalName": "26/27"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/johan-gastien/transfers/spieler/72121/transfer_id/6298266"
+        }
+      ],
       "url": "",
       "feeSum": {
         "value": 0,
@@ -249,13 +303,15 @@
       }
     },
     "clubIds": [
-      "3911",
       "3524",
+      "123",
+      "3911",
       "2969",
       "1161",
       "15585"
     ],
     "coachIds": [
+      "29898",
       "2680",
       "13916",
       "14547",

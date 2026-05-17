@@ -197,6 +197,10 @@
                 "suffix": "M"
               }
             },
+            "remainingContractPeriod": {
+              "days": 1066,
+              "daysDisplay": "2 Years, 11 Months, 1 Day"
+            },
             "season": {
               "id": 2016,
               "display": "16/17",
@@ -228,7 +232,7 @@
           "details": {
             "playerId": "245056",
             "date": "2014-06-30T00:00:00+02:00",
-            "contractUntilDate": "2016-06-30T00:00:00+02:00",
+            "contractUntilDate": "2019-06-30T00:00:00+02:00",
             "seasonId": 2013,
             "isPending": false,
             "marketValue": {
@@ -342,6 +346,10 @@
                 "suffix": ""
               }
             },
+            "remainingContractPeriod": {
+              "days": 1053,
+              "daysDisplay": "2 Years, 10 Months, 18 Days"
+            },
             "season": {
               "id": 2013,
               "display": "13/14",
@@ -355,6 +363,112 @@
             "feeDescription": ""
           },
           "relativeUrl": "/sasa-lukic/transfers/spieler/245056/transfer_id/941992"
+        },
+        {
+          "id": "6304779",
+          "transferSource": {
+            "competitionId": "SB17",
+            "countryId": 215,
+            "clubId": "66822",
+            "coachId": "0"
+          },
+          "transferDestination": {
+            "competitionId": "SB19",
+            "countryId": 215,
+            "clubId": "12373",
+            "coachId": "0"
+          },
+          "details": {
+            "playerId": "245056",
+            "date": "2012-07-01T00:00:00+02:00",
+            "contractUntilDate": "2016-06-30T00:00:00+02:00",
+            "seasonId": 2012,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 15,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2012,
+              "display": "12/13",
+              "cyclicalName": "2013",
+              "nonCyclicalName": "12/13"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/sasa-lukic/transfers/spieler/245056/transfer_id/6304779"
+        },
+        {
+          "id": "6304778",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 215,
+            "clubId": "98594",
+            "coachId": "0"
+          },
+          "transferDestination": {
+            "competitionId": "SB17",
+            "countryId": 215,
+            "clubId": "66822",
+            "coachId": "0"
+          },
+          "details": {
+            "playerId": "245056",
+            "date": "2011-07-01T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2011,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 14,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2011,
+              "display": "11/12",
+              "cyclicalName": "2012",
+              "nonCyclicalName": "11/12"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/sasa-lukic/transfers/spieler/245056/transfer_id/6304778"
         }
       ],
       "pending": [],
@@ -385,7 +499,9 @@
       "3368",
       "669",
       "4646",
-      "12373"
+      "12373",
+      "66822",
+      "98594"
     ],
     "coachIds": [
       "16508",
@@ -406,7 +522,8 @@
       "ES1",
       "SER1",
       "SER2",
-      "SB19"
+      "SB19",
+      "SB17"
     ],
     "mostRecentTransfer": {
       "id": "4253203",

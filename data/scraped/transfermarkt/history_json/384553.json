@@ -494,7 +494,61 @@
           "relativeUrl": "/luca-kilian/transfers/spieler/384553/transfer_id/1742462"
         }
       ],
-      "pending": [],
+      "pending": [
+        {
+          "id": "6302222",
+          "transferSource": {
+            "competitionId": "L1",
+            "countryId": 40,
+            "clubId": "3",
+            "coachId": "73659"
+          },
+          "transferDestination": {
+            "competitionId": "",
+            "countryId": 0,
+            "clubId": "515",
+            "coachId": "0"
+          },
+          "details": {
+            "playerId": "384553",
+            "date": "2026-07-01T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2026,
+            "isPending": true,
+            "marketValue": {
+              "value": 100000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "100.00",
+                "suffix": "K"
+              }
+            },
+            "age": 26,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2026,
+              "display": "26/27",
+              "cyclicalName": "2027",
+              "nonCyclicalName": "26/27"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/luca-kilian/transfers/spieler/384553/transfer_id/6302222"
+        }
+      ],
       "url": "",
       "feeSum": {
         "value": 4250000,
@@ -517,8 +571,9 @@
       }
     },
     "clubIds": [
-      "39",
       "3",
+      "515",
+      "39",
       "127",
       "17",
       "1464",
@@ -527,6 +582,7 @@
       "42279"
     ],
     "coachIds": [
+      "73659",
       "35997",
       "9622",
       "15487",

@@ -847,7 +847,61 @@
           "relativeUrl": "/stevan-jovetic/transfers/spieler/46104/transfer_id/2303980"
         }
       ],
-      "pending": [],
+      "pending": [
+        {
+          "id": "6300756",
+          "transferSource": {
+            "competitionId": "ZYP1",
+            "countryId": 188,
+            "clubId": "829",
+            "coachId": "4431"
+          },
+          "transferDestination": {
+            "competitionId": "",
+            "countryId": 0,
+            "clubId": "515",
+            "coachId": "0"
+          },
+          "details": {
+            "playerId": "46104",
+            "date": "2026-07-01T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2026,
+            "isPending": true,
+            "marketValue": {
+              "value": 300000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "300.00",
+                "suffix": "K"
+              }
+            },
+            "age": 36,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2026,
+              "display": "26/27",
+              "cyclicalName": "2027",
+              "nonCyclicalName": "26/27"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/stevan-jovetic/transfers/spieler/46104/transfer_id/6300756"
+        }
+      ],
       "url": "",
       "feeSum": {
         "value": 60500000,
@@ -870,8 +924,8 @@
       }
     },
     "clubIds": [
-      "515",
       "829",
+      "515",
       "683",
       "44",
       "162",
@@ -886,6 +940,7 @@
       "56498"
     ],
     "coachIds": [
+      "4431",
       "19743",
       "2662",
       "23118",

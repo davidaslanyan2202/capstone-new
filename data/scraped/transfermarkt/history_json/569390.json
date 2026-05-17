@@ -302,6 +302,112 @@
             "feeDescription": ""
           },
           "relativeUrl": "/julien-ponceau/transfers/spieler/569390/transfer_id/2231303"
+        },
+        {
+          "id": "6305381",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 50,
+            "clubId": "99399",
+            "coachId": "153219"
+          },
+          "transferDestination": {
+            "competitionId": "",
+            "countryId": 50,
+            "clubId": "11605",
+            "coachId": "82562"
+          },
+          "details": {
+            "playerId": "569390",
+            "date": "2017-07-01T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2017,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 16,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2017,
+              "display": "17/18",
+              "cyclicalName": "2018",
+              "nonCyclicalName": "17/18"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/julien-ponceau/transfers/spieler/569390/transfer_id/6305381"
+        },
+        {
+          "id": "6305380",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 50,
+            "clubId": "140845",
+            "coachId": "0"
+          },
+          "transferDestination": {
+            "competitionId": "",
+            "countryId": 50,
+            "clubId": "99399",
+            "coachId": "0"
+          },
+          "details": {
+            "playerId": "569390",
+            "date": "2015-07-01T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2015,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 14,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "Free Transfer",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2015,
+              "display": "15/16",
+              "cyclicalName": "2016",
+              "nonCyclicalName": "15/16"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/julien-ponceau/transfers/spieler/569390/transfer_id/6305380"
         }
       ],
       "pending": [],
@@ -331,7 +437,9 @@
       "366",
       "1160",
       "11273",
-      "11605"
+      "11605",
+      "99399",
+      "140845"
     ],
     "coachIds": [
       "5769",
@@ -341,7 +449,9 @@
       "24802",
       "5771",
       "12298",
-      "53701"
+      "53701",
+      "153219",
+      "82562"
     ],
     "competitionIds": [
       "FR1",

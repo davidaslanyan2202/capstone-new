@@ -775,7 +775,61 @@
           "relativeUrl": "/noah-loosli/transfers/spieler/265209/transfer_id/5350030"
         }
       ],
-      "pending": [],
+      "pending": [
+        {
+          "id": "6302065",
+          "transferSource": {
+            "competitionId": "L2",
+            "countryId": 40,
+            "clubId": "80",
+            "coachId": "1766"
+          },
+          "transferDestination": {
+            "competitionId": "",
+            "countryId": 0,
+            "clubId": "515",
+            "coachId": "0"
+          },
+          "details": {
+            "playerId": "265209",
+            "date": "2026-07-01T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2026,
+            "isPending": true,
+            "marketValue": {
+              "value": 850000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "850.00",
+                "suffix": "K"
+              }
+            },
+            "age": 29,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2026,
+              "display": "26/27",
+              "cyclicalName": "2027",
+              "nonCyclicalName": "26/27"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/noah-loosli/transfers/spieler/265209/transfer_id/6302065"
+        }
+      ],
       "url": "",
       "feeSum": {
         "value": 470000,
@@ -798,8 +852,9 @@
       }
     },
     "clubIds": [
-      "65",
       "80",
+      "515",
+      "65",
       "504",
       "527",
       "1277",
@@ -812,6 +867,7 @@
       "99862"
     ],
     "coachIds": [
+      "1766",
       "34773",
       "306",
       "40349",

@@ -6,6 +6,59 @@
     "history": {
       "terminated": [
         {
+          "id": "6308372",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 0,
+            "clubId": "515",
+            "coachId": "0"
+          },
+          "transferDestination": {
+            "competitionId": "",
+            "countryId": 0,
+            "clubId": "123",
+            "coachId": "0"
+          },
+          "details": {
+            "playerId": "45581",
+            "date": "2026-05-12T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2025,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 34,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2025,
+              "display": "25/26",
+              "cyclicalName": "2026",
+              "nonCyclicalName": "25/26"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/joel-obi/transfers/spieler/45581/transfer_id/6308372"
+        },
+        {
           "id": "5740871",
           "transferSource": {
             "competitionId": "IT3B",
@@ -719,8 +772,9 @@
       }
     },
     "clubIds": [
-      "7030",
       "515",
+      "123",
+      "7030",
       "1386",
       "380",
       "862",
@@ -758,32 +812,32 @@
       "ITJ2"
     ],
     "mostRecentTransfer": {
-      "id": "5740871",
+      "id": "6308372",
       "transferSource": {
-        "competitionId": "IT3B",
-        "countryId": 75,
-        "clubId": "7030",
-        "coachId": "22001"
-      },
-      "transferDestination": {
         "competitionId": "",
         "countryId": 0,
         "clubId": "515",
         "coachId": "0"
       },
+      "transferDestination": {
+        "competitionId": "",
+        "countryId": 0,
+        "clubId": "123",
+        "coachId": "0"
+      },
       "details": {
         "playerId": "45581",
-        "date": "2025-07-01T00:00:00+02:00",
+        "date": "2026-05-12T00:00:00+02:00",
         "contractUntilDate": null,
         "seasonId": 2025,
         "isPending": false,
         "marketValue": {
-          "value": 25000,
+          "value": 0,
           "currency": "EUR",
           "compact": {
             "prefix": "€",
-            "content": "25.00",
-            "suffix": "K"
+            "content": "0.00",
+            "suffix": ""
           }
         },
         "age": 34,
@@ -808,7 +862,7 @@
         "name": "",
         "feeDescription": ""
       },
-      "relativeUrl": "/joel-obi/transfers/spieler/45581/transfer_id/5740871"
+      "relativeUrl": "/joel-obi/transfers/spieler/45581/transfer_id/6308372"
     }
   }
 }

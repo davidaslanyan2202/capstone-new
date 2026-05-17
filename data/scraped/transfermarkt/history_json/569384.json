@@ -504,7 +504,7 @@
           "transferSource": {
             "competitionId": "",
             "countryId": 50,
-            "clubId": "10826",
+            "clubId": "107780",
             "coachId": "53855"
           },
           "transferDestination": {
@@ -551,6 +551,112 @@
             "feeDescription": ""
           },
           "relativeUrl": "/lucien-agoume/transfers/spieler/569384/transfer_id/2406438"
+        },
+        {
+          "id": "6298382",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 50,
+            "clubId": "107781",
+            "coachId": "0"
+          },
+          "transferDestination": {
+            "competitionId": "",
+            "countryId": 50,
+            "clubId": "107780",
+            "coachId": "0"
+          },
+          "details": {
+            "playerId": "569384",
+            "date": "2017-07-01T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2017,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 15,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2017,
+              "display": "17/18",
+              "cyclicalName": "2018",
+              "nonCyclicalName": "17/18"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/lucien-agoume/transfers/spieler/569384/transfer_id/6298382"
+        },
+        {
+          "id": "6298381",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 50,
+            "clubId": "108282",
+            "coachId": "0"
+          },
+          "transferDestination": {
+            "competitionId": "",
+            "countryId": 50,
+            "clubId": "107781",
+            "coachId": "0"
+          },
+          "details": {
+            "playerId": "569384",
+            "date": "2014-07-01T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2014,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 12,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "Free Transfer",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2014,
+              "display": "14/15",
+              "cyclicalName": "2015",
+              "nonCyclicalName": "14/15"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/lucien-agoume/transfers/spieler/569384/transfer_id/6298381"
         }
       ],
       "pending": [],
@@ -582,7 +688,9 @@
       "3911",
       "3522",
       "750",
-      "10826"
+      "107780",
+      "107781",
+      "108282"
     ],
     "coachIds": [
       "21624",

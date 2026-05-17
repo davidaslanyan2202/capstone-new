@@ -478,6 +478,63 @@
       ],
       "pending": [
         {
+          "id": "6304507",
+          "transferSource": {
+            "competitionId": "IT1",
+            "countryId": 75,
+            "clubId": "1025",
+            "coachId": "47288"
+          },
+          "transferDestination": {
+            "competitionId": "IT1",
+            "countryId": 75,
+            "clubId": "430",
+            "coachId": "31876"
+          },
+          "details": {
+            "playerId": "633668",
+            "date": "2026-07-01T00:00:00+02:00",
+            "contractUntilDate": "2030-06-30T00:00:00+02:00",
+            "seasonId": 2026,
+            "isPending": true,
+            "marketValue": {
+              "value": 10000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "10.00",
+                "suffix": "M"
+              }
+            },
+            "age": 23,
+            "fee": {
+              "value": 13000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "13.00",
+                "suffix": "M"
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 730,
+              "daysDisplay": "1 Year, 11 Months, 29 Days"
+            },
+            "season": {
+              "id": 2026,
+              "display": "26/27",
+              "cyclicalName": "2027",
+              "nonCyclicalName": "26/27"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/giovanni-fabbian/transfers/spieler/633668/transfer_id/6304507"
+        },
+        {
           "id": "6135082",
           "transferSource": {
             "competitionId": "IT1",
@@ -528,11 +585,11 @@
       ],
       "url": "",
       "feeSum": {
-        "value": 5560000,
+        "value": 18560000,
         "currency": "EUR",
         "compact": {
           "prefix": "€",
-          "content": "5.56",
+          "content": "18.56",
           "suffix": "M"
         }
       },
@@ -548,8 +605,8 @@
       }
     },
     "clubIds": [
-      "430",
       "1025",
+      "430",
       "46",
       "1386",
       "5380",
@@ -559,8 +616,8 @@
       "19919"
     ],
     "coachIds": [
-      "31876",
       "47288",
+      "31876",
       "21624",
       "61868",
       "25149",

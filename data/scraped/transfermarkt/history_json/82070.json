@@ -442,7 +442,61 @@
           "relativeUrl": "/diego-demme/transfers/spieler/82070/transfer_id/2016306"
         }
       ],
-      "pending": [],
+      "pending": [
+        {
+          "id": "6296012",
+          "transferSource": {
+            "competitionId": "L2",
+            "countryId": 40,
+            "clubId": "44",
+            "coachId": "28936"
+          },
+          "transferDestination": {
+            "competitionId": "",
+            "countryId": 0,
+            "clubId": "515",
+            "coachId": "0"
+          },
+          "details": {
+            "playerId": "82070",
+            "date": "2026-07-01T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2026,
+            "isPending": true,
+            "marketValue": {
+              "value": 300000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "300.00",
+                "suffix": "K"
+              }
+            },
+            "age": 34,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2026,
+              "display": "26/27",
+              "cyclicalName": "2027",
+              "nonCyclicalName": "26/27"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/diego-demme/transfers/spieler/82070/transfer_id/6296012"
+        }
+      ],
       "url": "",
       "feeSum": {
         "value": 10625000,
@@ -465,8 +519,9 @@
       }
     },
     "clubIds": [
-      "6195",
       "44",
+      "515",
+      "6195",
       "23826",
       "127",
       "10",
@@ -476,6 +531,7 @@
       "64618"
     ],
     "coachIds": [
+      "28936",
       "3517",
       "40217",
       "8402",
@@ -491,8 +547,8 @@
       "29881"
     ],
     "competitionIds": [
-      "IT1",
       "L2",
+      "IT1",
       "L1",
       "L3",
       "AJ2",

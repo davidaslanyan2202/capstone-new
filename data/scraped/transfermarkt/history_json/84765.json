@@ -26,12 +26,12 @@
             "seasonId": 2024,
             "isPending": false,
             "marketValue": {
-              "value": 700000,
+              "value": 0,
               "currency": "EUR",
               "compact": {
                 "prefix": "€",
-                "content": "700.00",
-                "suffix": "K"
+                "content": "0.00",
+                "suffix": ""
               }
             },
             "age": 37,
@@ -1023,6 +1023,59 @@
             "feeDescription": ""
           },
           "relativeUrl": "/francesco-caputo/transfers/spieler/84765/transfer_id/541858"
+        },
+        {
+          "id": "6297897",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 75,
+            "clubId": "141941",
+            "coachId": "0"
+          },
+          "transferDestination": {
+            "competitionId": "",
+            "countryId": 75,
+            "clubId": "92993",
+            "coachId": "0"
+          },
+          "details": {
+            "playerId": "84765",
+            "date": "2005-07-01T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2005,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 17,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2005,
+              "display": "05/06",
+              "cyclicalName": "2006",
+              "nonCyclicalName": "05/06"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/francesco-caputo/transfers/spieler/84765/transfer_id/6297897"
         }
       ],
       "pending": [],
@@ -1059,7 +1112,8 @@
       "380",
       "22253",
       "22408",
-      "92993"
+      "92993",
+      "141941"
     ],
     "coachIds": [
       "35782",
@@ -1111,12 +1165,12 @@
         "seasonId": 2024,
         "isPending": false,
         "marketValue": {
-          "value": 700000,
+          "value": 0,
           "currency": "EUR",
           "compact": {
             "prefix": "€",
-            "content": "700.00",
-            "suffix": "K"
+            "content": "0.00",
+            "suffix": ""
           }
         },
         "age": 37,

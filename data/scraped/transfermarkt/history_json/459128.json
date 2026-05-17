@@ -625,6 +625,63 @@
       ],
       "pending": [
         {
+          "id": "6304508",
+          "transferSource": {
+            "competitionId": "IT1",
+            "countryId": 75,
+            "clubId": "800",
+            "coachId": "95674"
+          },
+          "transferDestination": {
+            "competitionId": "IT1",
+            "countryId": 75,
+            "clubId": "430",
+            "coachId": "31876"
+          },
+          "details": {
+            "playerId": "459128",
+            "date": "2026-07-01T00:00:00+02:00",
+            "contractUntilDate": "2030-06-30T00:00:00+02:00",
+            "seasonId": 2026,
+            "isPending": true,
+            "marketValue": {
+              "value": 9000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "9.00",
+                "suffix": "M"
+              }
+            },
+            "age": 26,
+            "fee": {
+              "value": 10000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "10.00",
+                "suffix": "M"
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 1095,
+              "daysDisplay": "2 Years, 11 Months, 29 Days"
+            },
+            "season": {
+              "id": 2026,
+              "display": "26/27",
+              "cyclicalName": "2027",
+              "nonCyclicalName": "26/27"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/marco-brescianini/transfers/spieler/459128/transfer_id/6304508"
+        },
+        {
           "id": "6107363",
           "transferSource": {
             "competitionId": "IT1",
@@ -675,11 +732,11 @@
       ],
       "url": "",
       "feeSum": {
-        "value": 19200000,
+        "value": 29200000,
         "currency": "EUR",
         "compact": {
           "prefix": "€",
-          "content": "19.20",
+          "content": "29.20",
           "suffix": "M"
         }
       },
@@ -695,8 +752,8 @@
       }
     },
     "clubIds": [
-      "430",
       "800",
+      "430",
       "8970",
       "5",
       "4031",
@@ -706,8 +763,8 @@
       "49752"
     ],
     "coachIds": [
-      "31876",
       "95674",
+      "31876",
       "54264",
       "16508",
       "10050",

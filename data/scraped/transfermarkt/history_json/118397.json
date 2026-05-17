@@ -617,7 +617,61 @@
           "relativeUrl": "/alessandro-schoepf/transfers/spieler/118397/transfer_id/1234459"
         }
       ],
-      "pending": [],
+      "pending": [
+        {
+          "id": "6312182",
+          "transferSource": {
+            "competitionId": "A1",
+            "countryId": 127,
+            "clubId": "4441",
+            "coachId": "4952"
+          },
+          "transferDestination": {
+            "competitionId": "",
+            "countryId": 0,
+            "clubId": "515",
+            "coachId": "0"
+          },
+          "details": {
+            "playerId": "118397",
+            "date": "2026-07-01T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2026,
+            "isPending": true,
+            "marketValue": {
+              "value": 900000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "900.00",
+                "suffix": "K"
+              }
+            },
+            "age": 32,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2026,
+              "display": "26/27",
+              "cyclicalName": "2027",
+              "nonCyclicalName": "26/27"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/alessandro-schoepf/transfers/spieler/118397/transfer_id/6312182"
+        }
+      ],
       "url": "",
       "feeSum": {
         "value": 5400000,
@@ -640,8 +694,9 @@
       }
     },
     "clubIds": [
-      "6321",
       "4441",
+      "515",
+      "6321",
       "10",
       "33",
       "4",
@@ -654,6 +709,7 @@
       "48234"
     ],
     "coachIds": [
+      "4952",
       "10705",
       "8364",
       "5374",
@@ -675,8 +731,8 @@
       "38849"
     ],
     "competitionIds": [
-      "MLS1",
       "A1",
+      "MLS1",
       "L2",
       "L1",
       "RLB3",

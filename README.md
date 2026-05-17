@@ -6,7 +6,7 @@ This project builds a reproducible player-season analytics workflow for predicti
 
 Estimate `log_market_value_eur` from public football and contract signals, compare baseline and nonlinear regression models, and summarize valuation drivers by league and position.
 
-## Supervisor Review Quick Start
+## Quick Start
 
 Use these steps when reviewing the submission from a fresh checkout or downloaded ZIP.
 
@@ -26,7 +26,6 @@ Use these steps when reviewing the submission from a fresh checkout or downloade
    python3 -m venv .venv
    source .venv/bin/activate
    ```
-
 3. Install dependencies.
 
    Windows PowerShell:
@@ -42,17 +41,10 @@ Use these steps when reviewing the submission from a fresh checkout or downloade
    python -m pip install --upgrade pip
    python -m pip install -r requirements.txt
    ```
-
 4. Reproduce the project outputs without network access.
 
    ```powershell
    python code/reproduce.py
-   ```
-
-5. Run the automated checks.
-
-   ```powershell
-   python -m unittest discover -s tests -v
    ```
 
 After these commands complete, review the generated analysis in `reports/generated/final_report.md`, the summary in `reports/generated/analysis_summary.md`, and the final paper PDF in `paper/final/main.pdf`.
@@ -124,16 +116,6 @@ It rebuilds or refreshes:
 The final paper text in `paper/final/main.tex` is intentionally not overwritten by the reproduction command. The reproduction workflow refreshes the figures used by the paper, while the final PDF is compiled from the hand-edited source in `paper/final/`.
 
 The reproduction workflow also runs validation gates for Transfermarkt IDs, stale market-value labels, future-dated transfer leakage, duplicate row grains, and negative modeled contract years.
-
-## Tests
-
-Run the unit tests from the repository root with:
-
-```powershell
-python -m unittest discover -s tests -v
-```
-
-The tests cover the preprocessing and validation rules that are easiest to regress: Transfermarkt ID ambiguity handling, valuation-date selection, stale-label handling, and contract-feature leakage prevention.
 
 ## Optional Scraping
 

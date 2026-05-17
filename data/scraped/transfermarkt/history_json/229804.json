@@ -208,7 +208,61 @@
           "relativeUrl": "/aritz-elustondo/transfers/spieler/229804/transfer_id/747119"
         }
       ],
-      "pending": [],
+      "pending": [
+        {
+          "id": "6298334",
+          "transferSource": {
+            "competitionId": "ES1",
+            "countryId": 157,
+            "clubId": "681",
+            "coachId": "10906"
+          },
+          "transferDestination": {
+            "competitionId": "",
+            "countryId": 0,
+            "clubId": "515",
+            "coachId": "0"
+          },
+          "details": {
+            "playerId": "229804",
+            "date": "2026-07-01T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2026,
+            "isPending": true,
+            "marketValue": {
+              "value": 1800000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "1.80",
+                "suffix": "M"
+              }
+            },
+            "age": 32,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2026,
+              "display": "26/27",
+              "cyclicalName": "2027",
+              "nonCyclicalName": "26/27"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/aritz-elustondo/transfers/spieler/229804/transfer_id/6298334"
+        }
+      ],
       "url": "",
       "feeSum": {
         "value": 0,
@@ -231,20 +285,22 @@
       }
     },
     "clubIds": [
-      "9899",
       "681",
+      "515",
+      "9899",
       "9900",
       "11608"
     ],
     "coachIds": [
+      "10906",
       "33333",
       "818",
       "31045",
       "29320"
     ],
     "competitionIds": [
-      "ES3B",
-      "ES1"
+      "ES1",
+      "ES3B"
     ],
     "mostRecentTransfer": {
       "id": "1405262",

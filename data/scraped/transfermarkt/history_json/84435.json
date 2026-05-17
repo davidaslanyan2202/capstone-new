@@ -653,7 +653,65 @@
           "relativeUrl": "/kevin-vogt/transfers/spieler/84435/transfer_id/2077907"
         }
       ],
-      "pending": [],
+      "pending": [
+        {
+          "id": "6300414",
+          "transferSource": {
+            "competitionId": "L2",
+            "countryId": 40,
+            "clubId": "80",
+            "coachId": "1766"
+          },
+          "transferDestination": {
+            "competitionId": "",
+            "countryId": 0,
+            "clubId": "123",
+            "coachId": "0"
+          },
+          "details": {
+            "playerId": "84435",
+            "date": "2026-07-01T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2026,
+            "isPending": true,
+            "marketValue": {
+              "value": 400000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "400.00",
+                "suffix": "K"
+              }
+            },
+            "age": 34,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 364,
+              "daysDisplay": "11 Months, 29 Days"
+            },
+            "season": {
+              "id": 2026,
+              "display": "26/27",
+              "cyclicalName": "2027",
+              "nonCyclicalName": "26/27"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/kevin-vogt/transfers/spieler/84435/transfer_id/6300414"
+        }
+      ],
       "url": "",
       "feeSum": {
         "value": 6150000,
@@ -676,8 +734,9 @@
       }
     },
     "clubIds": [
-      "89",
       "80",
+      "123",
+      "89",
       "533",
       "86",
       "3",
@@ -689,6 +748,7 @@
       "65722"
     ],
     "coachIds": [
+      "1766",
       "9622",
       "306",
       "10906",
@@ -706,8 +766,8 @@
       "12488"
     ],
     "competitionIds": [
-      "L1",
       "L2",
+      "L1",
       "AJ2",
       "BJ2"
     ],

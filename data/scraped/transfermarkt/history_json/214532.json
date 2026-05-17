@@ -377,7 +377,61 @@
           "relativeUrl": "/pierrick-capelle/transfers/spieler/214532/transfer_id/5653790"
         }
       ],
-      "pending": [],
+      "pending": [
+        {
+          "id": "6298240",
+          "transferSource": {
+            "competitionId": "FR1",
+            "countryId": 50,
+            "clubId": "1420",
+            "coachId": "24061"
+          },
+          "transferDestination": {
+            "competitionId": "",
+            "countryId": 0,
+            "clubId": "123",
+            "coachId": "0"
+          },
+          "details": {
+            "playerId": "214532",
+            "date": "2026-07-01T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2026,
+            "isPending": true,
+            "marketValue": {
+              "value": 200000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "200.00",
+                "suffix": "K"
+              }
+            },
+            "age": 39,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2026,
+              "display": "26/27",
+              "cyclicalName": "2027",
+              "nonCyclicalName": "26/27"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/pierrick-capelle/transfers/spieler/214532/transfer_id/6298240"
+        }
+      ],
       "url": "",
       "feeSum": {
         "value": 0,
@@ -400,8 +454,9 @@
       }
     },
     "clubIds": [
-      "3524",
       "1420",
+      "123",
+      "3524",
       "7124",
       "17531",
       "30355",
@@ -410,14 +465,15 @@
       "124618"
     ],
     "coachIds": [
+      "24061",
       "35478",
       "19460",
       "24269",
       "12801"
     ],
     "competitionIds": [
-      "FR2",
       "FR1",
+      "FR2",
       "FR3",
       "CN2A"
     ],

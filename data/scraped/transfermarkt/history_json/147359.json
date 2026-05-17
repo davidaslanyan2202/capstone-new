@@ -807,7 +807,61 @@
           "relativeUrl": "/jeremy-dudziak/transfers/spieler/147359/transfer_id/3499210"
         }
       ],
-      "pending": [],
+      "pending": [
+        {
+          "id": "6302917",
+          "transferSource": {
+            "competitionId": "L2",
+            "countryId": 40,
+            "clubId": "44",
+            "coachId": "28936"
+          },
+          "transferDestination": {
+            "competitionId": "",
+            "countryId": 0,
+            "clubId": "515",
+            "coachId": "0"
+          },
+          "details": {
+            "playerId": "147359",
+            "date": "2026-07-01T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2026,
+            "isPending": true,
+            "marketValue": {
+              "value": 400000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "400.00",
+                "suffix": "K"
+              }
+            },
+            "age": 30,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2026,
+              "display": "26/27",
+              "cyclicalName": "2027",
+              "nonCyclicalName": "26/27"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/jeremy-dudziak/transfers/spieler/147359/transfer_id/6302917"
+        }
+      ],
       "url": "",
       "feeSum": {
         "value": 1000000,
@@ -830,8 +884,8 @@
       }
     },
     "clubIds": [
-      "515",
       "44",
+      "515",
       "65",
       "7775",
       "41",

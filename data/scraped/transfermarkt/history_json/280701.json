@@ -594,7 +594,61 @@
           "relativeUrl": "/theo-bongonda/transfers/spieler/280701/transfer_id/1063749"
         }
       ],
-      "pending": [],
+      "pending": [
+        {
+          "id": "6314837",
+          "transferSource": {
+            "competitionId": "RU1",
+            "countryId": 141,
+            "clubId": "232",
+            "coachId": "5145"
+          },
+          "transferDestination": {
+            "competitionId": "",
+            "countryId": 0,
+            "clubId": "515",
+            "coachId": "0"
+          },
+          "details": {
+            "playerId": "280701",
+            "date": "2026-07-01T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2026,
+            "isPending": true,
+            "marketValue": {
+              "value": 4000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "4.00",
+                "suffix": "M"
+              }
+            },
+            "age": 30,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2026,
+              "display": "26/27",
+              "cyclicalName": "2027",
+              "nonCyclicalName": "26/27"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/theo-bongonda/transfers/spieler/280701/transfer_id/6314837"
+        }
+      ],
       "url": "",
       "feeSum": {
         "value": 20640000,
@@ -617,8 +671,9 @@
       }
     },
     "clubIds": [
-      "2687",
       "232",
+      "515",
+      "2687",
       "1184",
       "3508",
       "940",
@@ -627,6 +682,7 @@
       "43283"
     ],
     "coachIds": [
+      "5145",
       "33241",
       "53943",
       "49546",
@@ -640,8 +696,8 @@
       "34311"
     ],
     "competitionIds": [
-      "ES1",
       "RU1",
+      "ES1",
       "BE1",
       "TR1"
     ],

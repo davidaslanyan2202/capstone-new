@@ -44,6 +44,10 @@
                 "suffix": "M"
               }
             },
+            "remainingContractPeriod": {
+              "days": 1261,
+              "daysDisplay": "3 Years, 5 Months, 14 Days"
+            },
             "season": {
               "id": 2025,
               "display": "25/26",
@@ -75,7 +79,7 @@
           "details": {
             "playerId": "326029",
             "date": "2025-01-14T00:00:00+01:00",
-            "contractUntilDate": null,
+            "contractUntilDate": "2029-06-30T00:00:00+02:00",
             "seasonId": 2024,
             "isPending": false,
             "marketValue": {
@@ -497,6 +501,63 @@
       ],
       "pending": [
         {
+          "id": "6309716",
+          "transferSource": {
+            "competitionId": "GB1",
+            "countryId": 189,
+            "clubId": "405",
+            "coachId": "5075"
+          },
+          "transferDestination": {
+            "competitionId": "IT1",
+            "countryId": 75,
+            "clubId": "12",
+            "coachId": "3436"
+          },
+          "details": {
+            "playerId": "326029",
+            "date": "2026-07-01T00:00:00+02:00",
+            "contractUntilDate": "2029-06-30T00:00:00+02:00",
+            "seasonId": 2026,
+            "isPending": true,
+            "marketValue": {
+              "value": 35000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "35.00",
+                "suffix": "M"
+              }
+            },
+            "age": 27,
+            "fee": {
+              "value": 25000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "25.00",
+                "suffix": "M"
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 1095,
+              "daysDisplay": "2 Years, 11 Months, 29 Days"
+            },
+            "season": {
+              "id": 2026,
+              "display": "26/27",
+              "cyclicalName": "2027",
+              "nonCyclicalName": "26/27"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/donyell-malen/transfers/spieler/326029/transfer_id/6309716"
+        },
+        {
           "id": "6122347",
           "transferSource": {
             "competitionId": "IT1",
@@ -513,7 +574,7 @@
           "details": {
             "playerId": "326029",
             "date": "2026-06-30T00:00:00+02:00",
-            "contractUntilDate": null,
+            "contractUntilDate": "2029-06-30T00:00:00+02:00",
             "seasonId": 2025,
             "isPending": true,
             "marketValue": {
@@ -547,11 +608,11 @@
       ],
       "url": "",
       "feeSum": {
-        "value": 57600000,
+        "value": 82600000,
         "currency": "EUR",
         "compact": {
           "prefix": "€",
-          "content": "57.60",
+          "content": "82.60",
           "suffix": "M"
         }
       },
@@ -567,8 +628,8 @@
       }
     },
     "clubIds": [
-      "12",
       "405",
+      "12",
       "16",
       "383",
       "9715",
@@ -579,8 +640,8 @@
       "52797"
     ],
     "coachIds": [
-      "3436",
       "5075",
+      "3436",
       "96813",
       "3865",
       "24197",
@@ -593,8 +654,8 @@
       "3411"
     ],
     "competitionIds": [
-      "IT1",
       "GB1",
+      "IT1",
       "L1",
       "NL1",
       "NL2",
@@ -640,6 +701,10 @@
             "content": "2.00",
             "suffix": "M"
           }
+        },
+        "remainingContractPeriod": {
+          "days": 1261,
+          "daysDisplay": "3 Years, 5 Months, 14 Days"
         },
         "season": {
           "id": 2025,

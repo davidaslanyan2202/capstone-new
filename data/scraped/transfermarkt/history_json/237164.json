@@ -328,7 +328,61 @@
           "relativeUrl": "/ihlas-bebou/transfers/spieler/237164/transfer_id/2307987"
         }
       ],
-      "pending": [],
+      "pending": [
+        {
+          "id": "6302113",
+          "transferSource": {
+            "competitionId": "L1",
+            "countryId": 40,
+            "clubId": "533",
+            "coachId": "4855"
+          },
+          "transferDestination": {
+            "competitionId": "",
+            "countryId": 0,
+            "clubId": "515",
+            "coachId": "0"
+          },
+          "details": {
+            "playerId": "237164",
+            "date": "2026-07-01T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2026,
+            "isPending": true,
+            "marketValue": {
+              "value": 800000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "800.00",
+                "suffix": "K"
+              }
+            },
+            "age": 32,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2026,
+              "display": "26/27",
+              "cyclicalName": "2027",
+              "nonCyclicalName": "26/27"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/ihlas-bebou/transfers/spieler/237164/transfer_id/6302113"
+        }
+      ],
       "url": "",
       "feeSum": {
         "value": 14875000,
@@ -351,8 +405,9 @@
       }
     },
     "clubIds": [
-      "42",
       "533",
+      "515",
+      "42",
       "38",
       "6675",
       "28105",
@@ -360,6 +415,7 @@
       "70234"
     ],
     "coachIds": [
+      "4855",
       "697",
       "10267",
       "72",
@@ -368,8 +424,8 @@
       "2278"
     ],
     "competitionIds": [
-      "L2",
       "L1",
+      "L2",
       "AJ2"
     ],
     "mostRecentTransfer": {

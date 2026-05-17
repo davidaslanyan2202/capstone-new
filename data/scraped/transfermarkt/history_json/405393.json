@@ -436,7 +436,65 @@
           "relativeUrl": "/soichiro-kozuki/transfers/spieler/405393/transfer_id/2308249"
         }
       ],
-      "pending": [],
+      "pending": [
+        {
+          "id": "6300056",
+          "transferSource": {
+            "competitionId": "L3",
+            "countryId": 40,
+            "clubId": "1622",
+            "coachId": "84412"
+          },
+          "transferDestination": {
+            "competitionId": "",
+            "countryId": 0,
+            "clubId": "515",
+            "coachId": "0"
+          },
+          "details": {
+            "playerId": "405393",
+            "date": "2026-07-01T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2026,
+            "isPending": true,
+            "marketValue": {
+              "value": 300000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "300.00",
+                "suffix": "K"
+              }
+            },
+            "age": 25,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 364,
+              "daysDisplay": "11 Months, 29 Days"
+            },
+            "season": {
+              "id": 2026,
+              "display": "26/27",
+              "cyclicalName": "2027",
+              "nonCyclicalName": "26/27"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/soichiro-kozuki/transfers/spieler/405393/transfer_id/6300056"
+        }
+      ],
       "url": "",
       "feeSum": {
         "value": 20000,
@@ -459,8 +517,9 @@
       }
     },
     "clubIds": [
-      "72",
       "1622",
+      "515",
+      "72",
       "33",
       "428",
       "34",
@@ -469,8 +528,8 @@
       "24122"
     ],
     "coachIds": [
-      "4460",
       "84412",
+      "4460",
       "54653",
       "11287",
       "4586",

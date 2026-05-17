@@ -359,6 +359,10 @@
                 "suffix": ""
               }
             },
+            "remainingContractPeriod": {
+              "days": 729,
+              "daysDisplay": "1 Year, 11 Months, 29 Days"
+            },
             "season": {
               "id": 2016,
               "display": "16/17",
@@ -372,6 +376,165 @@
             "feeDescription": ""
           },
           "relativeUrl": "/ronaldo-vieira/transfers/spieler/434676/transfer_id/1486513"
+        },
+        {
+          "id": "6306632",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 189,
+            "clubId": "89896",
+            "coachId": "0"
+          },
+          "transferDestination": {
+            "competitionId": "",
+            "countryId": 189,
+            "clubId": "10161",
+            "coachId": "66890"
+          },
+          "details": {
+            "playerId": "434676",
+            "date": "2015-09-01T00:00:00+02:00",
+            "contractUntilDate": "2018-06-30T00:00:00+02:00",
+            "seasonId": 2015,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 17,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "?",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2015,
+              "display": "15/16",
+              "cyclicalName": "2016",
+              "nonCyclicalName": "15/16"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/ronaldo-vieira/transfers/spieler/434676/transfer_id/6306632"
+        },
+        {
+          "id": "6306633",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 0,
+            "clubId": "75",
+            "coachId": "0"
+          },
+          "transferDestination": {
+            "competitionId": "",
+            "countryId": 189,
+            "clubId": "89896",
+            "coachId": "0"
+          },
+          "details": {
+            "playerId": "434676",
+            "date": "2014-07-01T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2014,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 15,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "Free Transfer",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2014,
+              "display": "14/15",
+              "cyclicalName": "2015",
+              "nonCyclicalName": "14/15"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/ronaldo-vieira/transfers/spieler/434676/transfer_id/6306633"
+        },
+        {
+          "id": "6306634",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 136,
+            "clubId": "53955",
+            "coachId": "66278"
+          },
+          "transferDestination": {
+            "competitionId": "",
+            "countryId": 0,
+            "clubId": "75",
+            "coachId": "0"
+          },
+          "details": {
+            "playerId": "434676",
+            "date": "2011-07-01T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2011,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 12,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "Free Transfer",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2011,
+              "display": "11/12",
+              "cyclicalName": "2012",
+              "nonCyclicalName": "11/12"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/ronaldo-vieira/transfers/spieler/434676/transfer_id/6306634"
         }
       ],
       "pending": [],
@@ -402,7 +565,10 @@
       "416",
       "276",
       "399",
-      "10161"
+      "10161",
+      "89896",
+      "75",
+      "53955"
     ],
     "coachIds": [
       "58806",
@@ -414,7 +580,9 @@
       "2553",
       "3257",
       "77117",
-      "33665"
+      "33665",
+      "66890",
+      "66278"
     ],
     "competitionIds": [
       "IT2",

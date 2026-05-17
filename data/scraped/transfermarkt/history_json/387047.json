@@ -328,7 +328,61 @@
           "relativeUrl": "/danilho-doekhi/transfers/spieler/387047/transfer_id/4925582"
         }
       ],
-      "pending": [],
+      "pending": [
+        {
+          "id": "6309974",
+          "transferSource": {
+            "competitionId": "L1",
+            "countryId": 40,
+            "clubId": "89",
+            "coachId": "0"
+          },
+          "transferDestination": {
+            "competitionId": "",
+            "countryId": 0,
+            "clubId": "515",
+            "coachId": "0"
+          },
+          "details": {
+            "playerId": "387047",
+            "date": "2026-07-01T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2026,
+            "isPending": true,
+            "marketValue": {
+              "value": 13000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "13.00",
+                "suffix": "M"
+              }
+            },
+            "age": 28,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2026,
+              "display": "26/27",
+              "cyclicalName": "2027",
+              "nonCyclicalName": "26/27"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/danilho-doekhi/transfers/spieler/387047/transfer_id/6309974"
+        }
+      ],
       "url": "",
       "feeSum": {
         "value": 250000,
@@ -351,8 +405,9 @@
       }
     },
     "clubIds": [
-      "499",
       "89",
+      "515",
+      "499",
       "8817",
       "2824",
       "14350",
@@ -369,8 +424,8 @@
       "15093"
     ],
     "competitionIds": [
-      "NL1",
       "L1",
+      "NL1",
       "NL2",
       "NLAJ",
       "NLAE"

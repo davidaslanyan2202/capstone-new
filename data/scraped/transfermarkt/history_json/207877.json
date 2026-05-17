@@ -915,7 +915,61 @@
           "relativeUrl": "/ruslan-malinovskyi/transfers/spieler/207877/transfer_id/6174819"
         }
       ],
-      "pending": [],
+      "pending": [
+        {
+          "id": "6313077",
+          "transferSource": {
+            "competitionId": "IT1",
+            "countryId": 75,
+            "clubId": "252",
+            "coachId": "90748"
+          },
+          "transferDestination": {
+            "competitionId": "",
+            "countryId": 0,
+            "clubId": "515",
+            "coachId": "0"
+          },
+          "details": {
+            "playerId": "207877",
+            "date": "2026-07-01T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2026,
+            "isPending": true,
+            "marketValue": {
+              "value": 2500000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "2.50",
+                "suffix": "M"
+              }
+            },
+            "age": 33,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2026,
+              "display": "26/27",
+              "cyclicalName": "2027",
+              "nonCyclicalName": "26/27"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/ruslan-malinovskyi/transfers/spieler/207877/transfer_id/6313077"
+        }
+      ],
       "url": "",
       "feeSum": {
         "value": 36300000,
@@ -926,7 +980,7 @@
           "suffix": "M"
         }
       },
-      "averageAge": 32,
+      "averageAge": 33,
       "totalMarketValue": {
         "value": 2500000,
         "currency": "EUR",
@@ -938,8 +992,9 @@
       }
     },
     "clubIds": [
-      "244",
       "252",
+      "515",
+      "244",
       "800",
       "1184",
       "660",
@@ -951,6 +1006,7 @@
       "114880"
     ],
     "coachIds": [
+      "90748",
       "27803",
       "64045",
       "5095",
@@ -969,8 +1025,8 @@
       "12468"
     ],
     "competitionIds": [
-      "FR1",
       "IT1",
+      "FR1",
       "BE1",
       "UKR1",
       "UKR2",

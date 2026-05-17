@@ -279,7 +279,61 @@
           "relativeUrl": "/luke-berry/transfers/spieler/125685/transfer_id/337683"
         }
       ],
-      "pending": [],
+      "pending": [
+        {
+          "id": "6302393",
+          "transferSource": {
+            "competitionId": "GB2",
+            "countryId": 189,
+            "clubId": "358",
+            "coachId": "15622"
+          },
+          "transferDestination": {
+            "competitionId": "",
+            "countryId": 0,
+            "clubId": "515",
+            "coachId": "0"
+          },
+          "details": {
+            "playerId": "125685",
+            "date": "2026-07-01T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2026,
+            "isPending": true,
+            "marketValue": {
+              "value": 250000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "250.00",
+                "suffix": "K"
+              }
+            },
+            "age": 33,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2026,
+              "display": "26/27",
+              "cyclicalName": "2027",
+              "nonCyclicalName": "26/27"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/luke-berry/transfers/spieler/125685/transfer_id/6302393"
+        }
+      ],
       "url": "",
       "feeSum": {
         "value": 270000,
@@ -302,15 +356,16 @@
       }
     },
     "clubIds": [
-      "1031",
       "358",
+      "515",
+      "1031",
       "986",
       "349",
       "19581"
     ],
     "coachIds": [
-      "49800",
       "15622",
+      "49800",
       "31899",
       "28097",
       "4131",

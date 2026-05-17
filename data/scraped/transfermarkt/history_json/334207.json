@@ -336,7 +336,61 @@
           "relativeUrl": "/maxim-leitsch/transfers/spieler/334207/transfer_id/2025970"
         }
       ],
-      "pending": [],
+      "pending": [
+        {
+          "id": "6304570",
+          "transferSource": {
+            "competitionId": "L1",
+            "countryId": 40,
+            "clubId": "39",
+            "coachId": "5965"
+          },
+          "transferDestination": {
+            "competitionId": "",
+            "countryId": 0,
+            "clubId": "515",
+            "coachId": "0"
+          },
+          "details": {
+            "playerId": "334207",
+            "date": "2026-07-01T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2026,
+            "isPending": true,
+            "marketValue": {
+              "value": 1000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "1.00",
+                "suffix": "M"
+              }
+            },
+            "age": 28,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2026,
+              "display": "26/27",
+              "cyclicalName": "2027",
+              "nonCyclicalName": "26/27"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/maxim-leitsch/transfers/spieler/334207/transfer_id/6304570"
+        }
+      ],
       "url": "",
       "feeSum": {
         "value": 3500000,
@@ -359,8 +413,9 @@
       }
     },
     "clubIds": [
-      "80",
       "39",
+      "515",
+      "80",
       "3862",
       "21085",
       "11894",
@@ -368,6 +423,7 @@
       "52235"
     ],
     "coachIds": [
+      "5965",
       "19735",
       "35997",
       "19636",

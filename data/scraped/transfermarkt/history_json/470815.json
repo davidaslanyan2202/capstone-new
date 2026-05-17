@@ -22,7 +22,7 @@
           "details": {
             "playerId": "470815",
             "date": "2025-06-30T00:00:00+02:00",
-            "contractUntilDate": null,
+            "contractUntilDate": "2026-06-30T00:00:00+02:00",
             "seasonId": 2024,
             "isPending": false,
             "marketValue": {
@@ -418,7 +418,61 @@
           "relativeUrl": "/niklas-tauer/transfers/spieler/470815/transfer_id/3077740"
         }
       ],
-      "pending": [],
+      "pending": [
+        {
+          "id": "6304571",
+          "transferSource": {
+            "competitionId": "L1",
+            "countryId": 40,
+            "clubId": "39",
+            "coachId": "5965"
+          },
+          "transferDestination": {
+            "competitionId": "",
+            "countryId": 0,
+            "clubId": "515",
+            "coachId": "0"
+          },
+          "details": {
+            "playerId": "470815",
+            "date": "2026-07-01T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2026,
+            "isPending": true,
+            "marketValue": {
+              "value": 350000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "350.00",
+                "suffix": "K"
+              }
+            },
+            "age": 25,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2026,
+              "display": "26/27",
+              "cyclicalName": "2027",
+              "nonCyclicalName": "26/27"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/niklas-tauer/transfers/spieler/470815/transfer_id/6304571"
+        }
+      ],
       "url": "",
       "feeSum": {
         "value": 0,
@@ -441,8 +495,9 @@
       }
     },
     "clubIds": [
-      "23",
       "39",
+      "515",
+      "23",
       "33",
       "5369",
       "21051",
@@ -450,6 +505,7 @@
       "84873"
     ],
     "coachIds": [
+      "5965",
       "55695",
       "8524",
       "40349",
@@ -463,8 +519,8 @@
       "14429"
     ],
     "competitionIds": [
-      "L2",
       "L1",
+      "L2",
       "AJ3",
       "BJ3"
     ],
@@ -485,7 +541,7 @@
       "details": {
         "playerId": "470815",
         "date": "2025-06-30T00:00:00+02:00",
-        "contractUntilDate": null,
+        "contractUntilDate": "2026-06-30T00:00:00+02:00",
         "seasonId": 2024,
         "isPending": false,
         "marketValue": {

@@ -803,7 +803,61 @@
           "relativeUrl": "/lukas-rupp/transfers/spieler/82863/transfer_id/1448235"
         }
       ],
-      "pending": [],
+      "pending": [
+        {
+          "id": "6310766",
+          "transferSource": {
+            "competitionId": "RLSW",
+            "countryId": 40,
+            "clubId": "373",
+            "coachId": "53957"
+          },
+          "transferDestination": {
+            "competitionId": "",
+            "countryId": 0,
+            "clubId": "515",
+            "coachId": "0"
+          },
+          "details": {
+            "playerId": "82863",
+            "date": "2026-07-01T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2026,
+            "isPending": true,
+            "marketValue": {
+              "value": 100000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "100.00",
+                "suffix": "K"
+              }
+            },
+            "age": 35,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2026,
+              "display": "26/27",
+              "cyclicalName": "2027",
+              "nonCyclicalName": "26/27"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/lukas-rupp/transfers/spieler/82863/transfer_id/6310766"
+        }
+      ],
       "url": "",
       "feeSum": {
         "value": 6100000,
@@ -826,8 +880,8 @@
       }
     },
     "clubIds": [
-      "515",
       "373",
+      "515",
       "605",
       "1123",
       "533",
@@ -841,6 +895,7 @@
       "44667"
     ],
     "coachIds": [
+      "53957",
       "7454",
       "16640",
       "1988",

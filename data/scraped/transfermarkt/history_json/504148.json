@@ -6,6 +6,63 @@
     "history": {
       "terminated": [
         {
+          "id": "6306127",
+          "transferSource": {
+            "competitionId": "IT1",
+            "countryId": 75,
+            "clubId": "430",
+            "coachId": "31876"
+          },
+          "transferDestination": {
+            "competitionId": "",
+            "countryId": 0,
+            "clubId": "515",
+            "coachId": "0"
+          },
+          "details": {
+            "playerId": "504148",
+            "date": "2026-05-11T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2025,
+            "isPending": false,
+            "marketValue": {
+              "value": 5000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "5.00",
+                "suffix": "M"
+              }
+            },
+            "age": 25,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 781,
+              "daysDisplay": "2 Years, 1 Month, 19 Days"
+            },
+            "season": {
+              "id": 2025,
+              "display": "25/26",
+              "cyclicalName": "2026",
+              "nonCyclicalName": "25/26"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/tariq-lamptey/transfers/spieler/504148/transfer_id/6306127"
+        },
+        {
           "id": "5908601",
           "transferSource": {
             "competitionId": "GB1",
@@ -253,13 +310,15 @@
       }
     },
     "clubIds": [
-      "1237",
       "430",
+      "515",
+      "1237",
       "9250",
       "6918",
       "50677"
     ],
     "coachIds": [
+      "31876",
       "48076",
       "2135",
       "30393",
@@ -269,53 +328,53 @@
       "38756"
     ],
     "competitionIds": [
-      "GB1",
       "IT1",
+      "GB1",
       "GB21",
       "GB18"
     ],
     "mostRecentTransfer": {
-      "id": "5908601",
+      "id": "6306127",
       "transferSource": {
-        "competitionId": "GB1",
-        "countryId": 189,
-        "clubId": "1237",
-        "coachId": "48076"
-      },
-      "transferDestination": {
         "competitionId": "IT1",
         "countryId": 75,
         "clubId": "430",
-        "coachId": "2135"
+        "coachId": "31876"
+      },
+      "transferDestination": {
+        "competitionId": "",
+        "countryId": 0,
+        "clubId": "515",
+        "coachId": "0"
       },
       "details": {
         "playerId": "504148",
-        "date": "2025-09-01T00:00:00+02:00",
-        "contractUntilDate": "2028-06-30T00:00:00+02:00",
+        "date": "2026-05-11T00:00:00+02:00",
+        "contractUntilDate": null,
         "seasonId": 2025,
         "isPending": false,
         "marketValue": {
-          "value": 11000000,
+          "value": 5000000,
           "currency": "EUR",
           "compact": {
             "prefix": "€",
-            "content": "11.00",
+            "content": "5.00",
             "suffix": "M"
           }
         },
-        "age": 24,
+        "age": 25,
         "fee": {
-          "value": 3000000,
-          "currency": "EUR",
+          "value": null,
+          "currency": "",
           "compact": {
-            "prefix": "€",
-            "content": "3.00",
-            "suffix": "M"
+            "prefix": "",
+            "content": "-",
+            "suffix": ""
           }
         },
         "remainingContractPeriod": {
-          "days": 302,
-          "daysDisplay": "9 Months, 29 Days"
+          "days": 781,
+          "daysDisplay": "2 Years, 1 Month, 19 Days"
         },
         "season": {
           "id": 2025,
@@ -329,7 +388,7 @@
         "name": "",
         "feeDescription": ""
       },
-      "relativeUrl": "/tariq-lamptey/transfers/spieler/504148/transfer_id/5908601"
+      "relativeUrl": "/tariq-lamptey/transfers/spieler/504148/transfer_id/6306127"
     }
   }
 }

@@ -419,7 +419,61 @@
           "relativeUrl": "/kevin-akpoguma/transfers/spieler/160241/transfer_id/2077903"
         }
       ],
-      "pending": [],
+      "pending": [
+        {
+          "id": "6302110",
+          "transferSource": {
+            "competitionId": "L1",
+            "countryId": 40,
+            "clubId": "533",
+            "coachId": "4855"
+          },
+          "transferDestination": {
+            "competitionId": "",
+            "countryId": 0,
+            "clubId": "515",
+            "coachId": "0"
+          },
+          "details": {
+            "playerId": "160241",
+            "date": "2026-07-01T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2026,
+            "isPending": true,
+            "marketValue": {
+              "value": 2000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "2.00",
+                "suffix": "M"
+              }
+            },
+            "age": 31,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2026,
+              "display": "26/27",
+              "cyclicalName": "2027",
+              "nonCyclicalName": "26/27"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/kevin-akpoguma/transfers/spieler/160241/transfer_id/6302110"
+        }
+      ],
       "url": "",
       "feeSum": {
         "value": 1220000,
@@ -442,8 +496,9 @@
       }
     },
     "clubIds": [
-      "42",
       "533",
+      "515",
+      "42",
       "38",
       "48",
       "21068",
@@ -451,6 +506,7 @@
       "65723"
     ],
     "coachIds": [
+      "4855",
       "383",
       "8402",
       "17465",

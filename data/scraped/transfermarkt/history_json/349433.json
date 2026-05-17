@@ -328,7 +328,61 @@
           "relativeUrl": "/fabian-nuernberger/transfers/spieler/349433/transfer_id/1322528"
         }
       ],
-      "pending": [],
+      "pending": [
+        {
+          "id": "6313236",
+          "transferSource": {
+            "competitionId": "L2",
+            "countryId": 40,
+            "clubId": "105",
+            "coachId": "16013"
+          },
+          "transferDestination": {
+            "competitionId": "",
+            "countryId": 0,
+            "clubId": "515",
+            "coachId": "0"
+          },
+          "details": {
+            "playerId": "349433",
+            "date": "2026-07-01T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2026,
+            "isPending": true,
+            "marketValue": {
+              "value": 1500000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "1.50",
+                "suffix": "M"
+              }
+            },
+            "age": 26,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2026,
+              "display": "26/27",
+              "cyclicalName": "2027",
+              "nonCyclicalName": "26/27"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/fabian-nuernberger/transfers/spieler/349433/transfer_id/6313236"
+        }
+      ],
       "url": "",
       "feeSum": {
         "value": 0,
@@ -351,8 +405,9 @@
       }
     },
     "clubIds": [
-      "4",
       "105",
+      "515",
+      "4",
       "473",
       "21592",
       "8414",
@@ -360,6 +415,7 @@
       "12786"
     ],
     "coachIds": [
+      "16013",
       "40217",
       "5236",
       "26690",

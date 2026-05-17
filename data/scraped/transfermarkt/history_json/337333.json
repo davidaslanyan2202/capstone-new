@@ -880,7 +880,61 @@
           "relativeUrl": "/alex-kral/transfers/spieler/337333/transfer_id/6258523"
         }
       ],
-      "pending": [],
+      "pending": [
+        {
+          "id": "6310021",
+          "transferSource": {
+            "competitionId": "L1",
+            "countryId": 40,
+            "clubId": "89",
+            "coachId": "0"
+          },
+          "transferDestination": {
+            "competitionId": "",
+            "countryId": 0,
+            "clubId": "515",
+            "coachId": "0"
+          },
+          "details": {
+            "playerId": "337333",
+            "date": "2026-07-01T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2026,
+            "isPending": true,
+            "marketValue": {
+              "value": 2500000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "2.50",
+                "suffix": "M"
+              }
+            },
+            "age": 28,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2026,
+              "display": "26/27",
+              "cyclicalName": "2027",
+              "nonCyclicalName": "26/27"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/alex-kral/transfers/spieler/337333/transfer_id/6310021"
+        }
+      ],
       "url": "",
       "feeSum": {
         "value": 18100000,
@@ -903,8 +957,9 @@
       }
     },
     "clubIds": [
-      "714",
       "89",
+      "515",
+      "714",
       "232",
       "33",
       "379",
@@ -937,8 +992,8 @@
       "24692"
     ],
     "competitionIds": [
-      "ES1",
       "L1",
+      "ES1",
       "RU1",
       "GB1",
       "TS1",

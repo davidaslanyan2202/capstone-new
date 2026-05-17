@@ -452,6 +452,63 @@
       ],
       "pending": [
         {
+          "id": "6315502",
+          "transferSource": {
+            "competitionId": "GB1",
+            "countryId": 189,
+            "clubId": "985",
+            "coachId": "0"
+          },
+          "transferDestination": {
+            "competitionId": "IT1",
+            "countryId": 75,
+            "clubId": "6195",
+            "coachId": "3517"
+          },
+          "details": {
+            "playerId": "610442",
+            "date": "2026-07-01T00:00:00+02:00",
+            "contractUntilDate": "2030-06-30T00:00:00+02:00",
+            "seasonId": 2026,
+            "isPending": true,
+            "marketValue": {
+              "value": 50000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "50.00",
+                "suffix": "M"
+              }
+            },
+            "age": 23,
+            "fee": {
+              "value": 44000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "44.00",
+                "suffix": "M"
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 1095,
+              "daysDisplay": "2 Years, 11 Months, 29 Days"
+            },
+            "season": {
+              "id": 2026,
+              "display": "26/27",
+              "cyclicalName": "2027",
+              "nonCyclicalName": "26/27"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/rasmus-hoejlund/transfers/spieler/610442/transfer_id/6315502"
+        },
+        {
           "id": "5910715",
           "transferSource": {
             "competitionId": "IT1",
@@ -502,11 +559,11 @@
       ],
       "url": "",
       "feeSum": {
-        "value": 108750000,
+        "value": 152750000,
         "currency": "EUR",
         "compact": {
           "prefix": "€",
-          "content": "108.75",
+          "content": "152.75",
           "suffix": "M"
         }
       },
@@ -522,8 +579,8 @@
       }
     },
     "clubIds": [
-      "6195",
       "985",
+      "6195",
       "800",
       "122",
       "190",
@@ -545,8 +602,8 @@
       "9255"
     ],
     "competitionIds": [
-      "IT1",
       "GB1",
+      "IT1",
       "A1",
       "DK1",
       "DKDL"

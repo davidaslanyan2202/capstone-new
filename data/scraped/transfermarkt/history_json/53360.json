@@ -463,7 +463,61 @@
           "relativeUrl": "/jay-rodriguez/transfers/spieler/53360/transfer_id/136404"
         }
       ],
-      "pending": [],
+      "pending": [
+        {
+          "id": "6313308",
+          "transferSource": {
+            "competitionId": "GB2",
+            "countryId": 189,
+            "clubId": "1112",
+            "coachId": "3540"
+          },
+          "transferDestination": {
+            "competitionId": "",
+            "countryId": 0,
+            "clubId": "515",
+            "coachId": "0"
+          },
+          "details": {
+            "playerId": "53360",
+            "date": "2026-07-01T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2026,
+            "isPending": true,
+            "marketValue": {
+              "value": 300000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "300.00",
+                "suffix": "K"
+              }
+            },
+            "age": 36,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2026,
+              "display": "26/27",
+              "cyclicalName": "2027",
+              "nonCyclicalName": "26/27"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/jay-rodriguez/transfers/spieler/53360/transfer_id/6313308"
+        }
+      ],
       "url": "",
       "feeSum": {
         "value": 32350000,
@@ -486,8 +540,9 @@
       }
     },
     "clubIds": [
-      "1132",
       "1112",
+      "515",
+      "1132",
       "984",
       "180",
       "349",
@@ -495,8 +550,8 @@
       "14466"
     ],
     "coachIds": [
-      "54455",
       "3540",
+      "54455",
       "3598",
       "15856",
       "7827",

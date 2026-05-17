@@ -564,7 +564,61 @@
           "relativeUrl": "/marvin-friedrich/transfers/spieler/196231/transfer_id/1452476"
         }
       ],
-      "pending": [],
+      "pending": [
+        {
+          "id": "6311569",
+          "transferSource": {
+            "competitionId": "L1",
+            "countryId": 40,
+            "clubId": "18",
+            "coachId": "66014"
+          },
+          "transferDestination": {
+            "competitionId": "",
+            "countryId": 0,
+            "clubId": "515",
+            "coachId": "0"
+          },
+          "details": {
+            "playerId": "196231",
+            "date": "2026-07-01T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2026,
+            "isPending": true,
+            "marketValue": {
+              "value": 1800000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "1.80",
+                "suffix": "M"
+              }
+            },
+            "age": 30,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2026,
+              "display": "26/27",
+              "cyclicalName": "2027",
+              "nonCyclicalName": "26/27"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/marvin-friedrich/transfers/spieler/196231/transfer_id/6311569"
+        }
+      ],
       "url": "",
       "feeSum": {
         "value": 10300000,
@@ -587,8 +641,9 @@
       }
     },
     "clubIds": [
-      "89",
       "18",
+      "515",
+      "89",
       "167",
       "33",
       "1463",
@@ -598,6 +653,7 @@
       "53075"
     ],
     "coachIds": [
+      "66014",
       "5965",
       "5018",
       "15119",

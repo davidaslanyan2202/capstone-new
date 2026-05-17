@@ -114,10 +114,10 @@
         {
           "id": "2855229",
           "transferSource": {
-            "competitionId": "F19D",
+            "competitionId": "",
             "countryId": 50,
-            "clubId": "15564",
-            "coachId": "120390"
+            "clubId": "108389",
+            "coachId": "120344"
           },
           "transferDestination": {
             "competitionId": "F19D",
@@ -146,7 +146,7 @@
               "currency": "",
               "compact": {
                 "prefix": "",
-                "content": "?",
+                "content": "Free Transfer",
                 "suffix": ""
               }
             },
@@ -163,6 +163,59 @@
             "feeDescription": ""
           },
           "relativeUrl": "/tom-louchet/transfers/spieler/750904/transfer_id/2855229"
+        },
+        {
+          "id": "6297242",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 50,
+            "clubId": "131547",
+            "coachId": "0"
+          },
+          "transferDestination": {
+            "competitionId": "",
+            "countryId": 50,
+            "clubId": "108389",
+            "coachId": "118644"
+          },
+          "details": {
+            "playerId": "750904",
+            "date": "2018-07-01T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2018,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 15,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "Free Transfer",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2018,
+              "display": "18/19",
+              "cyclicalName": "2019",
+              "nonCyclicalName": "18/19"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/tom-louchet/transfers/spieler/750904/transfer_id/6297242"
         }
       ],
       "pending": [],
@@ -176,7 +229,7 @@
           "suffix": ""
         }
       },
-      "averageAge": 22,
+      "averageAge": 23,
       "totalMarketValue": {
         "value": 7000000,
         "currency": "EUR",
@@ -191,14 +244,16 @@
       "8158",
       "417",
       "12763",
-      "15564"
+      "108389",
+      "131547"
     ],
     "coachIds": [
       "123297",
       "73923",
       "63806",
       "58145",
-      "120390"
+      "120344",
+      "118644"
     ],
     "competitionIds": [
       "FR1",

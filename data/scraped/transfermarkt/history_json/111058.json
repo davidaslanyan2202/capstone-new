@@ -854,11 +854,11 @@
           "transferSource": {
             "competitionId": "",
             "countryId": 50,
-            "clubId": "7875",
+            "clubId": "107691",
             "coachId": "38909"
           },
           "transferDestination": {
-            "competitionId": "",
+            "competitionId": "CN2A",
             "countryId": 50,
             "clubId": "12765",
             "coachId": "23693"
@@ -901,6 +901,59 @@
             "feeDescription": ""
           },
           "relativeUrl": "/arnaud-souquet/transfers/spieler/111058/transfer_id/320275"
+        },
+        {
+          "id": "6312460",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 50,
+            "clubId": "126996",
+            "coachId": "0"
+          },
+          "transferDestination": {
+            "competitionId": "",
+            "countryId": 50,
+            "clubId": "107691",
+            "coachId": "0"
+          },
+          "details": {
+            "playerId": "111058",
+            "date": "2007-07-01T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2007,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 15,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "Free Transfer",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2007,
+              "display": "07/08",
+              "cyclicalName": "2008",
+              "nonCyclicalName": "07/08"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/arnaud-souquet/transfers/spieler/111058/transfer_id/6312460"
         }
       ],
       "pending": [],
@@ -939,7 +992,8 @@
       "1082",
       "29228",
       "10004",
-      "7875"
+      "107691",
+      "126996"
     ],
     "coachIds": [
       "22272",

@@ -478,6 +478,112 @@
             "feeDescription": ""
           },
           "relativeUrl": "/arthur-masuaku/transfers/spieler/181380/transfer_id/1244074"
+        },
+        {
+          "id": "6301038",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 50,
+            "clubId": "107822",
+            "coachId": "0"
+          },
+          "transferDestination": {
+            "competitionId": "",
+            "countryId": 50,
+            "clubId": "12744",
+            "coachId": "129365"
+          },
+          "details": {
+            "playerId": "181380",
+            "date": "2010-07-01T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2010,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 16,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2010,
+              "display": "10/11",
+              "cyclicalName": "2011",
+              "nonCyclicalName": "10/11"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/arthur-masuaku/transfers/spieler/181380/transfer_id/6301038"
+        },
+        {
+          "id": "6301037",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 50,
+            "clubId": "100154",
+            "coachId": "0"
+          },
+          "transferDestination": {
+            "competitionId": "",
+            "countryId": 50,
+            "clubId": "107822",
+            "coachId": "0"
+          },
+          "details": {
+            "playerId": "181380",
+            "date": "2008-07-01T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2008,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 14,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "Free Transfer",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2008,
+              "display": "08/09",
+              "cyclicalName": "2009",
+              "nonCyclicalName": "08/09"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/arthur-masuaku/transfers/spieler/181380/transfer_id/6301037"
         }
       ],
       "pending": [
@@ -559,7 +665,9 @@
       "683",
       "1423",
       "16663",
-      "12744"
+      "12744",
+      "107822",
+      "100154"
     ],
     "coachIds": [
       "110443",

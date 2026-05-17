@@ -6,6 +6,54 @@
     "history": {
       "terminated": [
         {
+          "id": "6308759",
+          "transferSource": {
+            "competitionId": "TR1",
+            "countryId": 174,
+            "clubId": "120",
+            "coachId": "83535"
+          },
+          "transferDestination": {
+            "competitionId": "IT1",
+            "countryId": 75,
+            "clubId": "1390",
+            "coachId": "106055"
+          },
+          "details": {
+            "playerId": "208172",
+            "date": "2026-05-07T00:00:00+02:00",
+            "contractUntilDate": "2027-06-30T00:00:00+02:00",
+            "seasonId": 2025,
+            "isPending": false,
+            "marketValue": {
+              "value": 1200000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "1.20",
+                "suffix": "M"
+              }
+            },
+            "age": 29,
+            "remainingContractPeriod": {
+              "days": 54,
+              "daysDisplay": "1 Month, 23 Days"
+            },
+            "season": {
+              "id": 2025,
+              "display": "25/26",
+              "cyclicalName": "2026",
+              "nonCyclicalName": "25/26"
+            }
+          },
+          "typeDetails": {
+            "type": "RETURNED_FROM_PREVIOUS_LOAN",
+            "name": "End of loan",
+            "feeDescription": "End of loan"
+          },
+          "relativeUrl": "/mateusz-wieteska/transfers/spieler/208172/transfer_id/6308759"
+        },
+        {
           "id": "5823484",
           "transferSource": {
             "competitionId": "IT1",
@@ -681,56 +729,7 @@
           "relativeUrl": "/mateusz-wieteska/transfers/spieler/208172/transfer_id/1053157"
         }
       ],
-      "pending": [
-        {
-          "id": "5823485",
-          "transferSource": {
-            "competitionId": "TR1",
-            "countryId": 174,
-            "clubId": "120",
-            "coachId": "83535"
-          },
-          "transferDestination": {
-            "competitionId": "IT1",
-            "countryId": 75,
-            "clubId": "1390",
-            "coachId": "106055"
-          },
-          "details": {
-            "playerId": "208172",
-            "date": "2026-06-30T00:00:00+02:00",
-            "contractUntilDate": "2027-06-30T00:00:00+02:00",
-            "seasonId": 2025,
-            "isPending": true,
-            "marketValue": {
-              "value": 1200000,
-              "currency": "EUR",
-              "compact": {
-                "prefix": "€",
-                "content": "1.20",
-                "suffix": "M"
-              }
-            },
-            "age": 29,
-            "remainingContractPeriod": {
-              "days": 0,
-              "daysDisplay": "Unknown"
-            },
-            "season": {
-              "id": 2025,
-              "display": "25/26",
-              "cyclicalName": "2026",
-              "nonCyclicalName": "25/26"
-            }
-          },
-          "typeDetails": {
-            "type": "RETURNED_FROM_PREVIOUS_LOAN",
-            "name": "End of loan",
-            "feeDescription": "End of loan"
-          },
-          "relativeUrl": "/mateusz-wieteska/transfers/spieler/208172/transfer_id/5823485"
-        }
-      ],
+      "pending": [],
       "url": "",
       "feeSum": {
         "value": 6870000,
@@ -791,38 +790,38 @@
       "PL2"
     ],
     "mostRecentTransfer": {
-      "id": "5823484",
+      "id": "6308759",
       "transferSource": {
-        "competitionId": "IT1",
-        "countryId": 75,
-        "clubId": "1390",
-        "coachId": "106055"
-      },
-      "transferDestination": {
         "competitionId": "TR1",
         "countryId": 174,
         "clubId": "120",
         "coachId": "83535"
       },
+      "transferDestination": {
+        "competitionId": "IT1",
+        "countryId": 75,
+        "clubId": "1390",
+        "coachId": "106055"
+      },
       "details": {
         "playerId": "208172",
-        "date": "2025-07-30T00:00:00+02:00",
-        "contractUntilDate": "2026-06-30T00:00:00+02:00",
+        "date": "2026-05-07T00:00:00+02:00",
+        "contractUntilDate": "2027-06-30T00:00:00+02:00",
         "seasonId": 2025,
         "isPending": false,
         "marketValue": {
-          "value": 2000000,
+          "value": 1200000,
           "currency": "EUR",
           "compact": {
             "prefix": "€",
-            "content": "2.00",
+            "content": "1.20",
             "suffix": "M"
           }
         },
-        "age": 28,
+        "age": 29,
         "remainingContractPeriod": {
-          "days": 700,
-          "daysDisplay": "1 Year, 11 Months"
+          "days": 54,
+          "daysDisplay": "1 Month, 23 Days"
         },
         "season": {
           "id": 2025,
@@ -832,11 +831,11 @@
         }
       },
       "typeDetails": {
-        "type": "ACTIVE_LOAN_TRANSFER",
-        "name": "loan transfer",
-        "feeDescription": "loan transfer"
+        "type": "RETURNED_FROM_PREVIOUS_LOAN",
+        "name": "End of loan",
+        "feeDescription": "End of loan"
       },
-      "relativeUrl": "/mateusz-wieteska/transfers/spieler/208172/transfer_id/5823484"
+      "relativeUrl": "/mateusz-wieteska/transfers/spieler/208172/transfer_id/6308759"
     }
   }
 }

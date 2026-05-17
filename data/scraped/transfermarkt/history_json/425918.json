@@ -497,6 +497,63 @@
       ],
       "pending": [
         {
+          "id": "6298647",
+          "transferSource": {
+            "competitionId": "GB1",
+            "countryId": 189,
+            "clubId": "11",
+            "coachId": "47620"
+          },
+          "transferDestination": {
+            "competitionId": "PO1",
+            "countryId": 136,
+            "clubId": "720",
+            "coachId": "73923"
+          },
+          "details": {
+            "playerId": "425918",
+            "date": "2026-07-01T00:00:00+02:00",
+            "contractUntilDate": "2030-06-30T00:00:00+02:00",
+            "seasonId": 2026,
+            "isPending": true,
+            "marketValue": {
+              "value": 27000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "27.00",
+                "suffix": "M"
+              }
+            },
+            "age": 26,
+            "fee": {
+              "value": 17000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "17.00",
+                "suffix": "M"
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 730,
+              "daysDisplay": "1 Year, 11 Months, 29 Days"
+            },
+            "season": {
+              "id": 2026,
+              "display": "26/27",
+              "cyclicalName": "2027",
+              "nonCyclicalName": "26/27"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/jakub-kiwior/transfers/spieler/425918/transfer_id/6298647"
+        },
+        {
           "id": "5911456",
           "transferSource": {
             "competitionId": "PO1",
@@ -547,11 +604,11 @@
       ],
       "url": "",
       "feeSum": {
-        "value": 24173000,
+        "value": 41173000,
         "currency": "EUR",
         "compact": {
           "prefix": "€",
-          "content": "24.17",
+          "content": "41.17",
           "suffix": "M"
         }
       },
@@ -567,8 +624,8 @@
       }
     },
     "clubIds": [
-      "720",
       "11",
+      "720",
       "3522",
       "1443",
       "20063",
@@ -579,8 +636,8 @@
       "14703"
     ],
     "coachIds": [
-      "73923",
       "47620",
+      "73923",
       "7521",
       "59269",
       "61868",
@@ -591,8 +648,8 @@
       "20824"
     ],
     "competitionIds": [
-      "PO1",
       "GB1",
+      "PO1",
       "IT1",
       "SLO1",
       "SK2P",

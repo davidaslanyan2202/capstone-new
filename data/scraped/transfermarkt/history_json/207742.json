@@ -332,7 +332,61 @@
           "relativeUrl": "/tom-lockyer/transfers/spieler/207742/transfer_id/796581"
         }
       ],
-      "pending": [],
+      "pending": [
+        {
+          "id": "6298420",
+          "transferSource": {
+            "competitionId": "GB4",
+            "countryId": 189,
+            "clubId": "2455",
+            "coachId": "4127"
+          },
+          "transferDestination": {
+            "competitionId": "",
+            "countryId": 0,
+            "clubId": "515",
+            "coachId": "0"
+          },
+          "details": {
+            "playerId": "207742",
+            "date": "2026-07-01T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2026,
+            "isPending": true,
+            "marketValue": {
+              "value": 250000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "250.00",
+                "suffix": "K"
+              }
+            },
+            "age": 31,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2026,
+              "display": "26/27",
+              "cyclicalName": "2027",
+              "nonCyclicalName": "26/27"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/tom-lockyer/transfers/spieler/207742/transfer_id/6298420"
+        }
+      ],
       "url": "",
       "feeSum": {
         "value": 0,
@@ -345,24 +399,25 @@
       },
       "averageAge": 31,
       "totalMarketValue": {
-        "value": 450000,
+        "value": 250000,
         "currency": "EUR",
         "compact": {
           "prefix": "€",
-          "content": "450.00",
+          "content": "250.00",
           "suffix": "K"
         }
       }
     },
     "clubIds": [
-      "515",
       "2455",
+      "515",
       "1031",
       "358",
       "14651",
       "55579"
     ],
     "coachIds": [
+      "4127",
       "21829",
       "103758",
       "54482",

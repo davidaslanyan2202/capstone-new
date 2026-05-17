@@ -219,6 +219,59 @@
       ],
       "pending": [
         {
+          "id": "6313387",
+          "transferSource": {
+            "competitionId": "GB2",
+            "countryId": 189,
+            "clubId": "22",
+            "coachId": "57225"
+          },
+          "transferDestination": {
+            "competitionId": "",
+            "countryId": 0,
+            "clubId": "515",
+            "coachId": "0"
+          },
+          "details": {
+            "playerId": "218087",
+            "date": "2026-07-01T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2026,
+            "isPending": true,
+            "marketValue": {
+              "value": 700000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "700.00",
+                "suffix": "K"
+              }
+            },
+            "age": 31,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2026,
+              "display": "26/27",
+              "cyclicalName": "2027",
+              "nonCyclicalName": "26/27"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/ben-osborn/transfers/spieler/218087/transfer_id/6313387"
+        },
+        {
           "id": "5911869",
           "transferSource": {
             "competitionId": "GB3",
@@ -239,11 +292,11 @@
             "seasonId": 2025,
             "isPending": true,
             "marketValue": {
-              "value": 750000,
+              "value": 700000,
               "currency": "EUR",
               "compact": {
                 "prefix": "€",
-                "content": "750.00",
+                "content": "700.00",
                 "suffix": "K"
               }
             },
@@ -279,33 +332,34 @@
       },
       "averageAge": 31,
       "totalMarketValue": {
-        "value": 750000,
+        "value": 700000,
         "currency": "EUR",
         "compact": {
           "prefix": "€",
-          "content": "750.00",
+          "content": "700.00",
           "suffix": "K"
         }
       }
     },
     "clubIds": [
-      "1098",
       "22",
+      "515",
+      "1098",
       "350",
       "703",
       "12799"
     ],
     "coachIds": [
-      "26630",
       "57225",
+      "26630",
       "15289",
       "50470",
       "24207",
       "1718"
     ],
     "competitionIds": [
-      "GB3",
       "GB2",
+      "GB3",
       "GB1"
     ],
     "mostRecentTransfer": {

@@ -171,7 +171,7 @@
         {
           "id": "412190",
           "transferSource": {
-            "competitionId": "",
+            "competitionId": "CN2B",
             "countryId": 50,
             "clubId": "12764",
             "coachId": "5036"
@@ -226,11 +226,11 @@
           "transferSource": {
             "competitionId": "",
             "countryId": 50,
-            "clubId": "7813",
+            "clubId": "106295",
             "coachId": "24623"
           },
           "transferDestination": {
-            "competitionId": "",
+            "competitionId": "CN2B",
             "countryId": 50,
             "clubId": "12764",
             "coachId": "0"
@@ -273,6 +273,59 @@
             "feeDescription": ""
           },
           "relativeUrl": "/alexandre-lacazette/transfers/spieler/93720/transfer_id/341915"
+        },
+        {
+          "id": "6308092",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 50,
+            "clubId": "69570",
+            "coachId": "0"
+          },
+          "transferDestination": {
+            "competitionId": "",
+            "countryId": 50,
+            "clubId": "106295",
+            "coachId": "0"
+          },
+          "details": {
+            "playerId": "93720",
+            "date": "2006-07-01T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2006,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 15,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2006,
+              "display": "06/07",
+              "cyclicalName": "2007",
+              "nonCyclicalName": "06/07"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/alexandre-lacazette/transfers/spieler/93720/transfer_id/6308092"
         }
       ],
       "pending": [],
@@ -302,7 +355,8 @@
       "34911",
       "11",
       "12764",
-      "7813"
+      "106295",
+      "69570"
     ],
     "coachIds": [
       "19944",
@@ -317,7 +371,8 @@
     "competitionIds": [
       "FR1",
       "SA1",
-      "GB1"
+      "GB1",
+      "CN2B"
     ],
     "mostRecentTransfer": {
       "id": "5742535",

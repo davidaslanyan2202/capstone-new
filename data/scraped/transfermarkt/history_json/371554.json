@@ -654,7 +654,61 @@
           "relativeUrl": "/kevin-spadanuda/transfers/spieler/371554/transfer_id/2438924"
         }
       ],
-      "pending": [],
+      "pending": [
+        {
+          "id": "6306800",
+          "transferSource": {
+            "competitionId": "C1",
+            "countryId": 148,
+            "clubId": "434",
+            "coachId": "0"
+          },
+          "transferDestination": {
+            "competitionId": "",
+            "countryId": 0,
+            "clubId": "515",
+            "coachId": "0"
+          },
+          "details": {
+            "playerId": "371554",
+            "date": "2026-07-01T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2026,
+            "isPending": true,
+            "marketValue": {
+              "value": 600000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "600.00",
+                "suffix": "K"
+              }
+            },
+            "age": 29,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2026,
+              "display": "26/27",
+              "cyclicalName": "2027",
+              "nonCyclicalName": "26/27"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/kevin-spadanuda/transfers/spieler/371554/transfer_id/6306800"
+        }
+      ],
       "url": "",
       "feeSum": {
         "value": 0,
@@ -677,8 +731,9 @@
       }
     },
     "clubIds": [
-      "1147",
       "434",
+      "515",
+      "1147",
       "116",
       "747",
       "14384",
@@ -702,8 +757,8 @@
       "5890"
     ],
     "competitionIds": [
-      "FR2",
       "C1",
+      "FR2",
       "C2",
       "FR1",
       "CHC2",

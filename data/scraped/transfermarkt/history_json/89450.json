@@ -1036,11 +1036,11 @@
           "transferSource": {
             "competitionId": "",
             "countryId": 50,
-            "clubId": "10824",
+            "clubId": "88222",
             "coachId": "0"
           },
           "transferDestination": {
-            "competitionId": "",
+            "competitionId": "CN2A",
             "countryId": 50,
             "clubId": "8152",
             "coachId": "3945"
@@ -1089,13 +1089,13 @@
           "transferSource": {
             "competitionId": "",
             "countryId": 50,
-            "clubId": "100872",
+            "clubId": "138249",
             "coachId": "0"
           },
           "transferDestination": {
             "competitionId": "",
             "countryId": 50,
-            "clubId": "10824",
+            "clubId": "88222",
             "coachId": "0"
           },
           "details": {
@@ -1136,6 +1136,112 @@
             "feeDescription": ""
           },
           "relativeUrl": "/alexandre-coeff/transfers/spieler/89450/transfer_id/5645534"
+        },
+        {
+          "id": "6311064",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 50,
+            "clubId": "138250",
+            "coachId": "0"
+          },
+          "transferDestination": {
+            "competitionId": "",
+            "countryId": 50,
+            "clubId": "138249",
+            "coachId": "0"
+          },
+          "details": {
+            "playerId": "89450",
+            "date": "2007-07-01T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2007,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 15,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2007,
+              "display": "07/08",
+              "cyclicalName": "2008",
+              "nonCyclicalName": "07/08"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/alexandre-coeff/transfers/spieler/89450/transfer_id/6311064"
+        },
+        {
+          "id": "6311063",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 50,
+            "clubId": "100150",
+            "coachId": "0"
+          },
+          "transferDestination": {
+            "competitionId": "",
+            "countryId": 50,
+            "clubId": "138250",
+            "coachId": "0"
+          },
+          "details": {
+            "playerId": "89450",
+            "date": "2006-07-01T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2006,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 14,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "Free Transfer",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2006,
+              "display": "06/07",
+              "cyclicalName": "2007",
+              "nonCyclicalName": "06/07"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/alexandre-coeff/transfers/spieler/89450/transfer_id/6311063"
         }
       ],
       "pending": [],
@@ -1176,8 +1282,10 @@
       "16795",
       "826",
       "8152",
-      "10824",
-      "100872"
+      "88222",
+      "138249",
+      "138250",
+      "100150"
     ],
     "coachIds": [
       "64619",

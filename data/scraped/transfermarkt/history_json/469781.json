@@ -173,7 +173,61 @@
           "relativeUrl": "/marcos-senesi/transfers/spieler/469781/transfer_id/1679891"
         }
       ],
-      "pending": [],
+      "pending": [
+        {
+          "id": "6312394",
+          "transferSource": {
+            "competitionId": "GB1",
+            "countryId": 189,
+            "clubId": "989",
+            "coachId": "24197"
+          },
+          "transferDestination": {
+            "competitionId": "",
+            "countryId": 0,
+            "clubId": "515",
+            "coachId": "0"
+          },
+          "details": {
+            "playerId": "469781",
+            "date": "2026-07-01T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2026,
+            "isPending": true,
+            "marketValue": {
+              "value": 22000000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "22.00",
+                "suffix": "M"
+              }
+            },
+            "age": 29,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2026,
+              "display": "26/27",
+              "cyclicalName": "2027",
+              "nonCyclicalName": "26/27"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/marcos-senesi/transfers/spieler/469781/transfer_id/6312394"
+        }
+      ],
       "url": "",
       "feeSum": {
         "value": 22000000,
@@ -184,7 +238,7 @@
           "suffix": "M"
         }
       },
-      "averageAge": 28,
+      "averageAge": 29,
       "totalMarketValue": {
         "value": 22000000,
         "currency": "EUR",
@@ -196,12 +250,14 @@
       }
     },
     "clubIds": [
-      "234",
       "989",
+      "515",
+      "234",
       "1775",
       "15879"
     ],
     "coachIds": [
+      "24197",
       "34822",
       "54455",
       "10838",
@@ -209,8 +265,8 @@
       "11780"
     ],
     "competitionIds": [
-      "NL1",
       "GB1",
+      "NL1",
       "AR1N",
       "ARY3"
     ],

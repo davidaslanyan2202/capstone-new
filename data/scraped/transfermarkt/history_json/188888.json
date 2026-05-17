@@ -539,6 +539,63 @@
       ],
       "pending": [
         {
+          "id": "6301647",
+          "transferSource": {
+            "competitionId": "ES1",
+            "countryId": 157,
+            "clubId": "331",
+            "coachId": "87289"
+          },
+          "transferDestination": {
+            "competitionId": "L1",
+            "countryId": 40,
+            "clubId": "39",
+            "coachId": "5965"
+          },
+          "details": {
+            "playerId": "188888",
+            "date": "2026-07-01T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2026,
+            "isPending": true,
+            "marketValue": {
+              "value": 1500000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "1.50",
+                "suffix": "M"
+              }
+            },
+            "age": 31,
+            "fee": {
+              "value": 500000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "500.00",
+                "suffix": "K"
+              }
+            },
+            "remainingContractPeriod": {
+              "days": 364,
+              "daysDisplay": "11 Months, 29 Days"
+            },
+            "season": {
+              "id": 2026,
+              "display": "26/27",
+              "cyclicalName": "2027",
+              "nonCyclicalName": "26/27"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/sheraldo-becker/transfers/spieler/188888/transfer_id/6301647"
+        },
+        {
           "id": "6163524",
           "transferSource": {
             "competitionId": "L1",
@@ -589,11 +646,11 @@
       ],
       "url": "",
       "feeSum": {
-        "value": 3200000,
+        "value": 3700000,
         "currency": "EUR",
         "compact": {
           "prefix": "€",
-          "content": "3.20",
+          "content": "3.70",
           "suffix": "M"
         }
       },
@@ -609,8 +666,8 @@
       }
     },
     "clubIds": [
-      "39",
       "331",
+      "39",
       "681",
       "89",
       "1268",
@@ -621,8 +678,8 @@
       "32791"
     ],
     "coachIds": [
-      "5965",
       "87289",
+      "5965",
       "29876",
       "5197",
       "33333",
@@ -636,8 +693,8 @@
       "49115"
     ],
     "competitionIds": [
-      "L1",
       "ES1",
+      "L1",
       "NL1",
       "NL2",
       "NLAJ"

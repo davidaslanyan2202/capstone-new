@@ -36,12 +36,12 @@
             },
             "age": 35,
             "fee": {
-              "value": null,
-              "currency": "",
+              "value": 5000000,
+              "currency": "EUR",
               "compact": {
-                "prefix": "",
-                "content": "?",
-                "suffix": ""
+                "prefix": "€",
+                "content": "5.00",
+                "suffix": "M"
               }
             },
             "remainingContractPeriod": {
@@ -690,11 +690,11 @@
       "pending": [],
       "url": "",
       "feeSum": {
-        "value": 58835000,
+        "value": 63835000,
         "currency": "EUR",
         "compact": {
           "prefix": "€",
-          "content": "58.84",
+          "content": "63.84",
           "suffix": "M"
         }
       },
@@ -768,12 +768,12 @@
         },
         "age": 35,
         "fee": {
-          "value": null,
-          "currency": "",
+          "value": 5000000,
+          "currency": "EUR",
           "compact": {
-            "prefix": "",
-            "content": "?",
-            "suffix": ""
+            "prefix": "€",
+            "content": "5.00",
+            "suffix": "M"
           }
         },
         "remainingContractPeriod": {

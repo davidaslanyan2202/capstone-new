@@ -493,7 +493,7 @@
           "transferSource": {
             "competitionId": "",
             "countryId": 50,
-            "clubId": "83018",
+            "clubId": "107821",
             "coachId": "0"
           },
           "transferDestination": {
@@ -540,6 +540,59 @@
             "feeDescription": ""
           },
           "relativeUrl": "/nordi-mukiele/transfers/spieler/348026/transfer_id/2120105"
+        },
+        {
+          "id": "6301025",
+          "transferSource": {
+            "competitionId": "",
+            "countryId": 50,
+            "clubId": "83018",
+            "coachId": "0"
+          },
+          "transferDestination": {
+            "competitionId": "",
+            "countryId": 50,
+            "clubId": "107821",
+            "coachId": "42175"
+          },
+          "details": {
+            "playerId": "348026",
+            "date": "2012-07-01T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2012,
+            "isPending": false,
+            "marketValue": {
+              "value": 0,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "0.00",
+                "suffix": ""
+              }
+            },
+            "age": 14,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2012,
+              "display": "12/13",
+              "cyclicalName": "2013",
+              "nonCyclicalName": "12/13"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/nordi-mukiele/transfers/spieler/348026/transfer_id/6301025"
         }
       ],
       "pending": [],
@@ -574,6 +627,7 @@
       "24218",
       "16046",
       "40637",
+      "107821",
       "83018"
     ],
     "coachIds": [
@@ -587,7 +641,8 @@
       "2679",
       "132672",
       "16587",
-      "118749"
+      "118749",
+      "42175"
     ],
     "competitionIds": [
       "FR1",

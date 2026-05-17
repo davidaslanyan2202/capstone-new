@@ -495,7 +495,61 @@
           "relativeUrl": "/grischa-proemel/transfers/spieler/234029/transfer_id/2025556"
         }
       ],
-      "pending": [],
+      "pending": [
+        {
+          "id": "6302109",
+          "transferSource": {
+            "competitionId": "L1",
+            "countryId": 40,
+            "clubId": "533",
+            "coachId": "4855"
+          },
+          "transferDestination": {
+            "competitionId": "",
+            "countryId": 0,
+            "clubId": "515",
+            "coachId": "0"
+          },
+          "details": {
+            "playerId": "234029",
+            "date": "2026-07-01T00:00:00+02:00",
+            "contractUntilDate": null,
+            "seasonId": 2026,
+            "isPending": true,
+            "marketValue": {
+              "value": 3500000,
+              "currency": "EUR",
+              "compact": {
+                "prefix": "€",
+                "content": "3.50",
+                "suffix": "M"
+              }
+            },
+            "age": 31,
+            "fee": {
+              "value": null,
+              "currency": "",
+              "compact": {
+                "prefix": "",
+                "content": "-",
+                "suffix": ""
+              }
+            },
+            "season": {
+              "id": 2026,
+              "display": "26/27",
+              "cyclicalName": "2027",
+              "nonCyclicalName": "26/27"
+            }
+          },
+          "typeDetails": {
+            "type": "STANDARD",
+            "name": "",
+            "feeDescription": ""
+          },
+          "relativeUrl": "/grischa-proemel/transfers/spieler/234029/transfer_id/6302109"
+        }
+      ],
       "url": "",
       "feeSum": {
         "value": 0,
@@ -518,8 +572,9 @@
       }
     },
     "clubIds": [
-      "89",
       "533",
+      "515",
+      "89",
       "48",
       "983",
       "8925",
@@ -529,6 +584,7 @@
       "64642"
     ],
     "coachIds": [
+      "4855",
       "5965",
       "17465",
       "21361",
